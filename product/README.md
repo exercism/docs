@@ -14,6 +14,6 @@ They aim to present a picture of why things on Exercism work the way they do.
 
 ## Tooling
 
-- [Test Runners](./test-runner.md)
+- [Test Runners](./test-runners.md)
 - [Representers](./representers.md)
 - [Analyzers](./analyzers.md)
