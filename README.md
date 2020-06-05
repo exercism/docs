@@ -1,4 +1,4 @@
-**This is a WIP repo that will become live with the launch of [Exercism v3](https://github.com/exercism/v3)**
+**This is a WIP repo that will become live with the launch of [Exercism v3](https://github.com/exercism/v3).**
 
 # Exercism Docs
 
