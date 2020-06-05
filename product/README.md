@@ -8,6 +8,8 @@ They aim to present a picture of why things on Exercism work the way they do.
 - [Credits](./credits.md)
 
 ## Language Tracks
+- [Tracks](./tracks.md)
+
 ### Exercises
 - [Practice Exercises](./practice-exercises.md)
 - [Concept Exercises](./concept-exercises.md)
