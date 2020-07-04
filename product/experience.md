@@ -2,27 +2,45 @@ _(draft spec)_
 
 # Experience
 
-Experience is Exercism's way of representing how proficient you are at completing exercises on Exercism.
+Experience is Exercism's way of representing a student's progression as they use Exercism.
 
-Experience is acquired by completing exercises successfully.
+Experience is acquired for things personal to the student as they learn, for example, completing exercises successfully.
 
-## Allocation of Experience
+## Acquisition of Experience
 
-Experience is allocated on successful exercise completion, whether concept or practice.
+There are various ways of acquiring experience.
 
-Learners are able to earn up to a maximum amount of experience points per exercise. This allocation should grow as a learner progresses through Exercism, allowing learners to earn more points as they proceed further and further with practice exercises.
+### 1. Exercise completion
 
-Max experience allocation should vary per exercise. A reliable method of assigning experience point allocation per exercise has yet to be decided.
+Experience is acquired by successfully completing Concept and Practice Exercises.
+
+All exercises award points, but different exercises may award different amounts of points, depending on:
+- Whether the exercise is Concept or Practice
+- The difficulty of the exercise
+- Whether the same exercise has been completed in an alternative language (ie, you get more points the first time you complete `Bob` than the 5th time)
+- The position of the exercise in the track.
+
+An algorithm considering these factors is yet to be decided.
+
+### 2. Track milestones
+
+At certain points during the track, extra experience will be awarded:
+- Completing a Concept exercise in a track
+- Completing 10 Concept exercises in a track
+- Completing a Practice exercise in a track
+- Completing 10 Practice exercises in a track
+- Completing all the Concept Exercises in a track
+- Completing all the Practice Exercises in a track
+- Completing 50 exercises across Exercism
+- Completing 100 exercises across Exercism
 
 ## Levels
 
-Much like any modern roleplaying game, experience points are accrued and represented as a level. Levels go from 1-99, progressively getting more difficult to level up.
-
-Level ranges are tagged by a label.
+Much like any modern roleplaying game, experience points are accrued and represented as a level. Levels go from 1-99, progressively getting hard to achieve.
 
 ### Level Tags
 
-Level tags are denominated as the following:
+Levels are also grouped into labels. For example:
 - 1 - 9 : Newbie
 - 10 - 19 : Explorer
 - 20 - 39 : Adventurer
