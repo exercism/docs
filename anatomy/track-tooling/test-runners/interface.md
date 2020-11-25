@@ -1,11 +1,11 @@
-# The Interface
+# The Test Runner Interface
 
-Test runners have the single responsibility of taking a solution, running all tests and returning a standardised output.
+Test Runners have the single responsibility of taking a solution, running all tests and returning a standardised output.
 All interactions with the Exercism website are handled automatically and are not part of this specification.
 
 ## Execution
 
-- A test runner should provide an executable script. You can find more information in the [docker.md](./docker.md) file.
+- A Test Runner should provide an executable script. You can find more information in the [docker.md](./docker.md) file.
 - The script will receive three parameters:
   - The slug of the exercise (e.g. `two-fer`).
   - A path to an input directory (with a trailing slash) containing the submitted solution file(s) and any other exercise file(s). This directory should be considered as read-only. It's technically possible to write into it but it's better to use `/tmp` for temporary files (e.g. for compiling sources).
@@ -148,9 +148,3 @@ There are several approaches taken so far:
 - Auxillary JSON files compiled manually, merged with test results during the test run-time.
 - Automated static analysis of the test suite, merged with test results during the test run-time.
   - This may be accomplished by AST analysis or text-parsing
-
-## Debugging
-
-The contents of `stdout` and `stderr` from each run will be stored in files that can be viewed later.
-
-You may write an `results.out` file to the output directory, which contains debugging information you want to later view.
