@@ -1,9 +1,11 @@
 # Analyzers
 
+Exercism's analyzers automatically assess student's submissions and provide mentor-style commentary.
+
 ## Contributing to Analyzers
 
 Each language has it's own Analyzer, written in that language.
-The website acts as the orchestrator between the Analyzers and student's submissions.
+The website acts as the orchestrator between the Analyzers and students' submissions.
 
 Each Analyzer lives in the Exercism GitHub organsation in a repository named `$LANG-analyzer` (e.g. `ruby-analyzer`).
 You can explore the different Analyzers [here](https://github.com/exercism?q=-analyzer).

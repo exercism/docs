@@ -23,7 +23,7 @@ A notification will be sent for old solutions with a matching representation.
 ## Contributing to Representers
 
 Each language has it's own test runner, written in that language.
-The website acts as the orchestrator between the test runners and student's submissions.
+The website acts as the orchestrator between the test runners and students' submissions.
 
 Each test runner lives in the Exercism GitHub organsation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
 You can explore the different test runners [here](https://github.com/exercism?q=-representer).
