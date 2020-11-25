@@ -1,16 +1,19 @@
 # Product Docs
 
-These documents outline the product decisions and thinking behind Exercism. 
+These documents outline the product decisions and thinking behind Exercism.
 They aim to present a picture of why things on Exercism work the way they do.
 
 ## Exercism Concepts
+
 - [Reputation](./reputation.md)
 - [Credits](./credits.md)
 
 ## Language Tracks
+
 - [General info](./tracks.md)
 
 ### Exercises
+
 - [Practice Exercises](./practice-exercises.md)
 - [Concept Exercises](./concept-exercises.md)
 

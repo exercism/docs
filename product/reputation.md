@@ -1,6 +1,6 @@
 # Reputation
 
-Reputation is the system that allows people to acquire "trust" within the Exericsm ecosystem. 
+Reputation is the system that allows people to acquire "trust" within the Exericsm ecosystem.
 
 Reputation is a measure of how much an individual has contributed to Exercism, both through contribution to the platform (e.g. through creation of software, exercises and docs) and contribution to the community (e.g. mentoring).
 

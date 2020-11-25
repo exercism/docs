@@ -27,7 +27,7 @@ The `results.json` file should be structured as followed:
       "status": "fail",
       "message": "Expected 42 but got 123123",
       "output": "Debugging information output by the user",
-      "cmd": "assert_equal 42, answerToTheUltimateQuestion()",
+      "cmd": "assert_equal 42, answerToTheUltimateQuestion()"
     }
   ]
 }
@@ -40,6 +40,7 @@ The `results.json` file should be structured as followed:
 > key: `status`
 
 The following overall statuses are valid:
+
 - `pass`: All tests passed
 - `fail`: At least one test failed
 - `error`: To be used when the tests did not run correctly (e.g. a compile error, a syntax error)
@@ -65,18 +66,20 @@ This is the name of the test in a human-readable format.
 > key: `cmd`
 
 This is the body of the command that is being tests. It should have any `skip` annotations removed. For example, the following Ruby test:
+
 ```ruby
-  def test_duplicate_items_uniqs_list
-    skip
-    cart = ShoppingCart.new
-    cart.add(:STARIC)
-    cart.add(:MEDNEW)
-    cart.add(:MEDNEW)
-    assert_equal 'Newspaper, Rice', cart.items_list
-  end
+def test_duplicate_items_uniqs_list
+  skip
+  cart = ShoppingCart.new
+  cart.add(:STARIC)
+  cart.add(:MEDNEW)
+  cart.add(:MEDNEW)
+  assert_equal 'Newspaper, Rice', cart.items_list
+end
 ```
 
 ... should return a cmd value of:
+
 ```ruby
 "cart = ShoppingCart.new
 cart.add(:STARIC)
@@ -92,6 +95,7 @@ assert_equal 'Newspaper, Rice', cart.items_list"
 > key: `status`
 
 The following per-test statuses are valid:
+
 - `pass`: The test passed
 - `fail`: The test failed
 - `error`: The test errored
@@ -138,7 +142,8 @@ Test Code:
 
 ### How to add metadata for your language's test suite
 
-All roads lead to Rome and there is no prescribed pattern to arrive at this. There are several approaches taken so far:
+All roads lead to Rome and there is no prescribed pattern to arrive at this.
+There are several approaches taken so far:
 
 - Auxillary JSON files compiled manually, merged with test results during the test run-time.
 - Automated static analysis of the test suite, merged with test results during the test run-time.
