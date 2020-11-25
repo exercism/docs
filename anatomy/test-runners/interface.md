@@ -27,7 +27,7 @@ The `results.json` file should be structured as followed:
       "status": "fail",
       "message": "Expected 42 but got 123123",
       "output": "Debugging information output by the user",
-      "cmd": "assert_equal 42, answerToTheUltimateQuestion()"
+      "test_code": "assert_equal 42, answerToTheUltimateQuestion()"
     }
   ]
 }
@@ -63,7 +63,7 @@ This is the name of the test in a human-readable format.
 
 #### Command
 
-> key: `cmd`
+> key: `test_code`
 
 This is the body of the command that is being tests. It should have any `skip` annotations removed. For example, the following Ruby test:
 
@@ -78,7 +78,7 @@ def test_duplicate_items_uniqs_list
 end
 ```
 
-... should return a cmd value of:
+... should return a `test_code` value of:
 
 ```ruby
 "cart = ShoppingCart.new
@@ -125,7 +125,7 @@ When a student's solution fails a test, it should display something like:
 
 ```text
 Test Code:
-  <cmd>
+  <test_code>
 
 Test Result:
   <message>
@@ -137,7 +137,7 @@ When the solution passes a test, it should display something like:
 
 ```text
 Test Code:
-  <cmd>
+  <test_code>
 ```
 
 ### How to add metadata for your language's test suite
