@@ -22,7 +22,7 @@ To ensure this works properly the following rules must be following:
   the `exercise slug`, the path to the `solution folder`, and the path to the `output folder`.
   For more information see [The Interface](./interface.md).
 
-## Local development
+## Local development
 
 To allow for local development we have produced an exectuable called [tooling-webserver](https://github.com/exercism/tooling-webserver/blob/master/README.md#installation-docker).
 Please follow its installation instructions.

@@ -18,6 +18,6 @@ If you would like to create a Test Runner for a language that currently does not
 
 This directory contains the following information:
 
-- **`creating-from-scratch.md:`** Information on creating a Test Runner from scratch.
-- **`interface.md:`** The Test Runner interface.
-- **`docker.md:`** How to build a Docker image with Docker for local testing and deployment.
+- **[`creating-from-scratch.md`](./creating-from-scratch.md):** Information on creating a Test Runner from scratch.
+- **[`interface.md`](./interface.md):** The Test Runner interface.
+- **[`docker.md`](./docker.md):** How to build a Docker image with Docker for local testing and deployment.
