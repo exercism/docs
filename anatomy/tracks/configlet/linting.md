@@ -1,6 +1,6 @@
 # Configlet linting
 
-The primary use of [configlet](./configlet.md) is linting. These are the linting rules being checked.
+The primary use of [configlet](./README.md) is linting. These are the linting rules being checked.
 
 ## Rule: required files are present
 
