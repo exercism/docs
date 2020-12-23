@@ -35,17 +35,92 @@ Example:
 
 ## Exercises
 
+The top-level `exercises` key is an object with two keys:
+
+- `concept`: this is an array listing the track's concept exercises
+- `practice`: this is an array listing the track's practice exercises
+
 ### Concept exercises
 
-TODO: describe concept exercises
+Each concept exercise is an entry in the `exercises.concept` array. The following fields make up a concept exercise:
 
-### Practice exercise
+- `uuid`: a V4 UUID that uniquely identifies the exercise across all tracks
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
+- `name`: the exercise's name
+- `concepts`: an array of concept slugs that are taught by this concept exercise
+- `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 
-TODO: describe practice exercises
+Example:
+
+```json
+{
+  "exercises": {
+    "concept": [
+      {
+        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
+        "slug": "cars-assemble",
+        "name": "Cars, Assemble!",
+        "concepts": ["if-statements", "numbers"],
+        "prerequisites": ["basics"]
+      },
+      ...
+    ]
+  }
+}
+```
+
+### Practice exercises
+
+Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
+
+- `uuid`: a V4 UUID that uniquely identifies the exercise across all tracks
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
+- `name`: the exercise's name
+- `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
+- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest).
+
+Example:
+
+```json
+{
+  "exercises": {
+    "concept": [
+      {
+        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
+        "slug": "leap",
+        "name": "Leap",
+        "prerequisites": ["if-statements", "numbers"],
+        "difficulty": 1
+      },
+      ...
+    ]
+  }
+}
+```
 
 ## Concepts
 
-TODO: describe concepts
+Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
+
+- `uuid`: a V4 UUID that uniquely identifies the concept across all tracks
+- `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track
+- `name`: the concept's name
+- `blurb`: a short description of the concept
+
+Example:
+
+```json
+{
+  "concepts": [
+    {
+      "uuid": "b9a421b2-c5ff-4213-bd6d-b886da31ea0d",
+      "slug": "numbers",
+      "name": "Numbers",
+      "blurb": "C# has two types of numbers: integers and floating-point numbers."
+    }
+  ]
+}
+```
 
 ## Key features
 
