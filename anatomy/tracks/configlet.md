@@ -6,7 +6,7 @@ _work in progress_
 
 ## Linting
 
-The primary function of configlet is to do _linting_: checking if a track is properly configured. If this is not the case, the track won't work properly (or at all). The full list of rules that are checked by the linter can be found [here](https://github.com/exercism/canonical-data-syncer/blob/master/linting.md).
+The primary function of configlet is to do _linting_: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism. The full list of rules that are checked by the linter can be found [here](https://github.com/exercism/canonical-data-syncer/blob/master/linting.md).
 
 ## Usage
 
