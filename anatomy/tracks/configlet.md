@@ -2,7 +2,7 @@ _work in progress_
 
 # Configlet
 
-[configlet](https://github.com/exercism/configlet) is a tool to help track maintainers with the maintenance of their track. The current version of configlet works with v2 tracks, but a version that works with v3 tracks is [under development](https://github.com/exercism/canonical-data-syncer). This document will only describe the v3 version of configlet.
+[configlet](https://github.com/exercism/configlet) is a tool to help track maintainers with the maintenance of their track.
 
 ## Linting
 
