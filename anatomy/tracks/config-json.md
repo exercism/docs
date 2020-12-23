@@ -304,5 +304,3 @@ This is an example of what a valid `config.json` file can look like:
   ]
 }
 ```
-
-TODO: describe other parts
