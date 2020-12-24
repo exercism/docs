@@ -6,7 +6,7 @@ Concepts are the things that a programmer would need to understand to be fluent 
 
 ## Metadata
 
-Concept metadata is defined in the `"concepts"` key in the [config.json file](./config-json.md#concepts). The metadata defines the concept's UUID, slug and more.
+Concept metadata is defined in the `concepts` key in the [config.json file](./config-json.md#concepts). The metadata defines the concept's UUID, slug and more.
 
 Example:
 

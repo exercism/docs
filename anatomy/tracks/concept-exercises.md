@@ -4,9 +4,11 @@ _work in progress_
 
 Concept Exercises are exercises designed to teach specific (programming) concepts.
 
-## As metadata in the config.json file
+## Metadata
 
-Concept Exercise metadata is defined in the `exercise.concept` key in the [config.json file](./config-json.md#concept-exercises). This metadata includes things like the exercise's UUID, name and concepts and looks as follows:
+Concept Exercise metadata is defined in the `exercises.concept` key in the [config.json file](./config-json.md#concept-exercises). The metadata defines the exercise's UUID, slug and more.
+
+Example:
 
 ```json
 {
@@ -18,24 +20,55 @@ Concept Exercise metadata is defined in the `exercise.concept` key in the [confi
         "name": "Cars, Assemble!",
         "concepts": ["if-statements", "numbers"],
         "prerequisites": ["basics"]
-      },
-      ...
+      }
     ]
   }
 }
 ```
 
-## As files in the Concept Exercise's directory
+## Files
 
 Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
 
-### Documentation files
+A Concept Exercise is comprised of three types of files:
 
-The purpose of the documentation files is explained both in this document and in the [Anatomy of a Concept Exercise video][anatomy-of-a-concept-exercise-video].
+- Documentation files: presented to the student to help explain the exercise
+- Metadata files: not presented to the student, but used to define metadata of the exercise
+- Exercise files: the language-specific files, like the implementation and test files
 
-In the browser, these files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
+Each Concept Exercise directory must contain the following files:
 
-#### File: .docs/introduction.md
+- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student.
+- `.docs/instructions.md`: provide instructions for the exercise.
+- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise.
+- `.meta/config.json`: contains meta information on the exercise.
+- `.meta/design.md`: describe the design of the exercise.
+
+Besides these files, the following three files must be present, but their file names are track-specific:
+
+- Test suite: verify a solution's correctness.
+- Stub implementation: provide a starting point for students.
+- Example implementation: provide an idiomatic implementation that passes all the tests.
+
+Example:
+
+<pre>
+exercises
+└── concept
+    └── cars-assemble
+        ├── .docs
+        |   ├── introduction.md
+        |   ├── instructions.md
+        |   └── hints.md
+        ├── .meta
+        |   ├── config.json        
+        |   ├── design.md
+        |   └── Example.cs (example implementation)
+        ├── CarsAssemble.cs (stub implementation)
+        └── CarsAssemblyTests.cs (tests)
+</pre>
+
+### File: .docs/introduction.md
 
 **Purpose:** Introduce the concept(s) that the exercise teaches to the student.
 
@@ -47,9 +80,19 @@ In the browser, these files will show at the relevant times. When used via the C
 
 As an example, the introduction to a "strings" exercise might describe a string as just a "Sequence of Unicode characters" or a "series of bytes", tell the users how to create a string, and explain that a string has methods that can be used to manipulate it. Unless the student needs to understand more nuanced details in order to solve the exercise, this type of brief explanation (along with an example of its syntax) should be sufficient information for the student to solve the exercise.
 
-For more information, check [this example introduction.md file][docs-introduction.md]. Notice how the example file's introduction is very minimal, but that the language-specific keywords are enclosed in backticks and an example of the newly introduced syntax is included.
+Example:
 
-#### File: .docs/instructions.md
+````markdown
+There are two primary ways to assign objects to names in Ruby - using variables or constants. Variables are always written in snake case. A variable can reference different objects over its lifetime. For example, `my_first_variable` can be defined and redefined many times using the `=` operator:
+
+```ruby
+my_first_variable = 1
+my_first_variable = "Some string"
+my_first_variable = SomeComplexObject.new
+```
+````
+
+### File: .docs/instructions.md
 
 **Purpose:** Provide instructions for the exercise.
 
@@ -71,9 +114,21 @@ We place high value on making Exercism's content safe for everyone and so often 
 - Try to write examples that are inclusive to everyone. For example, consider using names from other cultures and mixed genders.
 - Ask yourself whether you know anyone personally who would take offense by the story. If that's the case, consider changing it to avoid it.
 
-For more information, check [this example instructions.md file][docs-instructions.md]. Notice how the example file has a clear distinction between the story at the top and the tasks with code samples below.
+````markdown
+In this exercise you're going to write some code to help you cook a brilliant lasagna from your favorite cooking book.
 
-#### File: .docs/hints.md
+## 1. Calculate the remaining oven time in minutes
+
+Define the `Lasagna#remaining_minutes_in_oven` method that takes the actual minutes the lasagna has been in the oven as a parameter and returns how many minutes the lasagna still has to remain in the oven, based on the expected oven time in minutes from the previous task.
+
+```ruby
+lasagna = Lasagna.new
+lasagna.remaining_minutes_in_oven(30)
+# => 10
+```
+````
+
+### File: .docs/hints.md
 
 **Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
 
@@ -90,17 +145,35 @@ For more information, check [this example instructions.md file][docs-instruction
 
 Viewing hints will not be a "recommended" path and we will (softly) discourage using it unless the student can't progress without it. As such, it's worth considering that the student reading it will be a little confused/overwhelmed and maybe frustrated.
 
-For more information, check [this example hints.md file][docs-hints.md]. Notice how the example file has general and task-specific hints and how the hints don't give away the answer but instead link to (external) resources.
+Example:
 
-#### File: .docs/source.md (required if there are third-party sources)
+```markdown
+## General
+
+- You need to define a [constant][constant] which should contain the [integer][integers] value specified in the recipe.
+
+## 1. Calculate the remaining oven time in minutes
+
+- You need to define a [method][methods] with a single parameter for the actual time so far.
+
+[constants]: https://www.rubyguides.com/2017/07/ruby-constants/
+[integers]: https://ruby-doc.org/core-2.7.0/Integer.html
+[methods]: https://launchschool.com/books/ruby/read/methods
+```
+
+### File: .docs/source.md (required if there are third-party sources)
 
 **Purpose:** Describe the third-party source(s) of the exercise.
 
 This file contains third-party references and sources of the exercise. Only required if there are any such sources, but not if the exercise was completely designed from scratch for Exercism.
 
-For more information, check [this example source.md file][meta-source.md].
+Example:
 
-#### File: .meta/design.md
+```markdown
+This exercise is based on an example used in the talk "The Unreasonable Effectiveness of Multiple Dispatch" held by Stefan Karpinski at JuliaCon 2019, available on [YouTube](https://youtu.be/kc9HwsxE1OY?t=422).
+```
+
+### File: .meta/design.md
 
 **Purpose:** Describe the design of the exercise.
 
@@ -108,9 +181,36 @@ This file contains information on the exercise's design, which includes things l
 
 It exists in order to inform future maintainers or contributors about the scope and limitations of an exercise, to avoid the natural trend towards making exercises more complex over time.
 
-For more information, check [this example design.md file][meta-design.md].
+Example:
 
-#### File: .meta/config.json
+```markdown
+## Goal
+
+The goal of this exercise is to teach the student the basics of programming in Ruby.
+
+## Learning objectives
+
+- Know what a variable is.
+- Know how to define a variable.
+- Know how to update a variable.
+
+## Out of scope
+
+- Memory and performance characteristics.
+- Method overloads.
+
+## Concepts
+
+The Concepts this exercise unlocks are:
+
+- `basics`: know what a variable is; know how to define a variable; know how to update a variable.
+
+## Prerequisites
+
+There are no prerequisites.
+```
+
+### File: .meta/config.json
 
 **Purpose:** Contains meta information on the exercise.
 
@@ -125,11 +225,22 @@ This file contains meta information on the exercise:
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
-##### Example
+Example:
+
+```json
+{
+  "authors": [
+    {
+      "github_username": "FSharpForever",
+      "exercism_username": "FSharpForever"
+    }
+  ]
+}
+```
+
+Example (fork):
 
 Assume that the user FSharpForever has written an exercise called `basics` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
-
-_Python `basics` exercise `.meta/config.json` file (fork)_
 
 ```json
 {
@@ -150,19 +261,6 @@ _Python `basics` exercise `.meta/config.json` file (fork)_
 }
 ```
 
-_F# `basics` exercise `.meta/config.json` file (source)_
-
-```json
-{
-  "authors": [
-    {
-      "github_username": "FSharpForever",
-      "exercism_username": "FSharpForever"
-    }
-  ]
-}
-```
-
 Note that:
 
 - The order of authors and contributors is not significant and has no meaning.
@@ -170,13 +268,7 @@ Note that:
 - While not common, it _is_ possible to fork from multiple exercises.
 - `language_versions` is a free-form string that tracks are free to use and interpret as they like.
 
-### Code files
-
-**Purpose:** Implement the exercise.
-
-What these files look like depends on your track. At a minimum, the following track-specific files must be added:
-
-#### File: stub implementation
+### File: stub implementation
 
 **Purpose:** Provide a starting point for students.
 
@@ -201,7 +293,7 @@ class Lasagna
 end
 ```
 
-#### File: tests
+### File: tests
 
 **Purpose:** Verify a solution's correctness.
 
@@ -230,7 +322,7 @@ class LasagnaTest < Minitest::Test
 end
 ```
 
-#### File: example implementation
+### File: example implementation
 
 **Purpose:** Provide an idiomatic implementation that passes all the tests.
 
@@ -254,30 +346,12 @@ class Lasagna
 end
 ```
 
-#### File: additional files (required if default files are not enough to run the tests)
+### File: additional files (required if default files are not enough to run the tests)
 
 **Purpose:** Ensure that the tests can run.
 
 Some languages require additional files for the tests to run. Example of these are C#'s project files and Node's `package.json` files, without which it will not be possible to run the tests.
 
-### Example
+## CLI vs editor
 
-The directory listing below shows what this might looks like on disk:
-
-<pre>
-exercises
-└── concept
-    └── cars-assemble
-        ├── .docs
-        |   ├── introduction.md
-        |   ├── instructions.md
-        |   ├── hints.md
-        |   └── source.md (required if there are third-party sources)
-        ├── .meta
-        |   ├── config.json        
-        |   ├── design.md
-        |   └── Example.cs (example implementation)
-        ├── CarsAssemble.cs (stub implementation)
-        ├── CarsAssemble.csproj (additional file)
-        └── CarsAssemblyTests.cs (tests)
-</pre>
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
