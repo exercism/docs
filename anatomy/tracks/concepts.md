@@ -2,7 +2,7 @@ _work in progress_
 
 # Concepts
 
-Concepts are the things we want to teach to a student. They can range from relatively low level (e.g. `if-statements`) to high level (e.g. `classes`). Concepts are taught by Concept Exercises and are used as prerequisites for Concept- _and_ Practice Exercises.
+Concepts are the things that a programmer would need to understand to be fluent in a language. Concepts are taught by Concept Exercises and are used as prerequisites for Concept- _and_ Practice Exercises.
 
 ## Metadata
 
