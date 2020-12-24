@@ -52,7 +52,7 @@ The `config.json` file should have the following checks:
 - The `"exercise.concept[].name"` key is required
 - The `"exercise.concept[].name"` value must be a non-empty string
 - The `"exercise.concept[].uuid"` key is required
-- The `"exercise.concept[].uuid"` value must be a unique UUID
+- The `"exercise.concept[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercise.concept[].deprecated"` key is optional
 - The `"exercise.concept[].deprecated"` value must be a boolean value
 - The `"exercise.concept[].deprecated"` value must generate a warning if set to `false`
@@ -78,7 +78,7 @@ The `config.json` file should have the following checks:
 - The `"exercise.practice[].name"` key is required
 - The `"exercise.practice[].name"` value must be a non-empty string
 - The `"exercise.practice[].uuid"` key is required
-- The `"exercise.practice[].uuid"` value must be a unique UUID
+- The `"exercise.practice[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercise.practice[].deprecated"` key is optional
 - The `"exercise.practice[].deprecated"` value must be a boolean value
 - The `"exercise.practice[].deprecated"` value must generate a warning if set to `false`
@@ -98,7 +98,7 @@ The `config.json` file should have the following checks:
 - The `"concepts"` value must be an array
 - The `"concepts"` value must have a entry with a matching `"slug"` property for each concept listed in a concept exercise's `"concepts"` property
 - The `"concepts[].uuid"` key is required
-- The `"concepts[].uuid"` value must be a unique UUID
+- The `"concepts[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"concepts[].slug"` key is required
 - The `"concepts[].slug"` value must be a non-empty, lowercased string using kebab-case
 - The `"concepts[].name"` key is required
