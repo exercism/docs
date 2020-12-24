@@ -6,7 +6,7 @@ There are many different parts to a track.
 
 ## Metadata
 
-The track's configuration and metadata are specified in the `config.json` file. It lists the track's exercises, concepts, editor settings, and much more. Checkout the [config.json documentation](./config.json.md).
+The track's configuration and metadata are specified in the `config.json` file. It lists the track's exercises, concepts, editor settings, and much more. Checkout the [config.json documentation](./config-json.md).
 
 ## Concepts
 
@@ -75,5 +75,5 @@ csharp
 |       └── .docs
 |           ├── cli.md
 |           └── debug.md
-└── [config.json](./config.json.md)
+└── [config.json](./config-json.md)
 </pre>
