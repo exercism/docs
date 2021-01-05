@@ -19,6 +19,7 @@ The `results.json` file should be structured as followed:
 
 ```json
 {
+  "version": 2,
   "status": "fail",
   "message": null,
   "tests": [
@@ -34,6 +35,15 @@ The `results.json` file should be structured as followed:
 ```
 
 ### Top level
+
+#### Version
+
+> key: `version`
+
+The version of the spec that this file adheres to:
+
+- `1`: The more basic specification for tracks that don't have "proper" test-runners. (To be documented).
+- `2`: The current specification, specified in this document.
 
 #### Status
 
