@@ -53,6 +53,15 @@ Where the status is `error` (the tests fail to execute cleanly), the top level `
 
 When the status is not `error`, either set the value to `null` or omit the key entirely.
 
+#### Tests
+
+> key: `tests`
+
+This is an array of the test results, specified in the "Per-test" section below.
+
+The tests **MUST** be returned in the order they are specified in the tests file.
+For languages that execute tests in a random order, this may mean re-ordering the results in line with the order specified in the tests file.
+
 ### Per-test
 
 #### Name
