@@ -22,11 +22,11 @@ A notification will be sent for old solutions with a matching representation.
 
 ## Contributing to Representers
 
-Each language has it's own test runner, written in that language.
-The website acts as the orchestrator between the test runners and students' submissions.
+Each language has it's own representer, written in that language.
+The website acts as the orchestrator between the representer and students' submissions.
 
-Each test runner lives in the Exercism GitHub organsation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
-You can explore the different test runners [here](https://github.com/exercism?q=-representer).
+Each representer lives in the Exercism GitHub organsation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
+You can explore the different representers [here](https://github.com/exercism?q=-representer).
 
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.
 If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](creating-from-scratch.md) instructions.
