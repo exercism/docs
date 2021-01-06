@@ -62,7 +62,7 @@ This is an array of the test results, specified in the "Per-test" section below.
 The tests **MUST** be returned in the order they are specified in the tests file.
 For languages that execute tests in a random order, this may mean re-ordering the results in line with the order specified in the tests file.
 
-The rationale for this is that only the first failure is show to students and therefore it is important that the correct failure is shown. Because tests are generally ordered in that file in a TDD way, and because for Practice Exercises the students see the tests file in the editor, aligning the results with the file is critical.
+The rationale for this is that only the first failure is shown to students and therefore it is important that the correct failure is shown. Because tests are generally ordered in the tests file in a TDD way, and because for Practice Exercises the students see the tests file in the editor, aligning the results with the tests file is critical.
 
 ### Per-test
 
