@@ -1,6 +1,6 @@
 # Cross-linking
 
-To allow cross-linking between documents on Exercism, a special type of Markdown link can be used. Instead of display a link to the cross-linked document, we'll render a widget that can be hovered over to show the contents of the linked document.
+To allow cross-linking between concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of display a link to the cross-linked item, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip.
 
 ### Link to: Concept
 
