@@ -1,8 +1,16 @@
 # Configlet linting
 
-The primary use of [configlet](./README.md) is linting. These are the linting rules being checked.
+The primary use of [configlet](./README.md) is linting.
 
-## Rule: required files are present
+## Usage
+
+TODO: describe the command-line interface (command + options).
+
+## Rules
+
+These are the linting rules being checked.
+
+### Rule: required files are present
 
 The linter should check if all the required files are present. The non-exercise specific files that must be present are:
 
@@ -24,7 +32,7 @@ Each concept listed in the `config.json` should have the following files:
 - `concepts/<slug>/introduction.md`
 - `concepts/<slug>/links.json`
 
-## Rule: config.json file is valid
+### Rule: config.json file is valid
 
 The `config.json` file should have the following checks:
 
@@ -120,7 +128,7 @@ The `config.json` file should have the following checks:
 - The `"tags"` value must be a non-empty array of strings
 - The `"tags"` values must use one of the pre-defined tag values (TODO: add link to list of tags)
 
-## Rule: config/maintainers.json file is valid
+### Rule: config/maintainers.json file is valid
 
 - The file must be valid JSON
 - The JSON root must be an object
@@ -129,7 +137,7 @@ The `config.json` file should have the following checks:
 - The `"maintainers"` array elements must use the correct format (TODO: specify)
 - There must not be duplicate maintainers
 
-## Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
+### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
 
 - The file must be valid JSON
 - The JSON root must be an object
@@ -165,39 +173,43 @@ The `config.json` file should have the following checks:
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
 
-## Rule: exercises/concept/&lt;slug&gt;/.docs/hints.md is valid
+### Rule: exercises/concept/&lt;slug&gt;/.docs/hints.md is valid
 
 - If there are sub headings, they must start at level two
 - All headings must be level two headings
 - All headings must be either `## General` or `## X. <task>` where `X` matches the task number heading in the `instructions.md`
 - All hints must be specified as Markdown list items
 
-## Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md is valid
+### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md is valid
 
 - If there are sub headings, they must start at level two
 - All tasks must start with a level two heading that starts with a number followed by a dot: `## 1. Do X`
 
-## Rule: exercises/concept/&lt;slug&gt;/.docs/introduction.md is valid
+### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md.tpl is valid (if present)
+
+- Each [concept placeholders](../concept-exercises.md#docsintroductionmdtploptional)'s concept must match the `"concepts.slug"` property of one of the concepts in the track's `config.json`.
+
+### Rule: exercises/concept/&lt;slug&gt;/.docs/introduction.md is valid
 
 - If there are sub headings, they must start at level two
 
-## Rule: exercises/shared/.docs/cli.md is valid
+### Rule: exercises/shared/.docs/cli.md is valid
 
 - If there are sub headings, they must start at level two
 
-## Rule: exercises/shared/.docs/debug.md is valid
+### Rule: exercises/shared/.docs/debug.md is valid
 
 - If there are sub headings, they must start at level two
 
-## Rule: concepts/&lt;slug&gt;/about.md is valid
+### Rule: concepts/&lt;slug&gt;/about.md is valid
 
 - If there are sub headings, they must start at level two
 
-## Rule: concepts/&lt;slug&gt;/introduction.md is valid
+### Rule: concepts/&lt;slug&gt;/introduction.md is valid
 
 - If there are sub headings, they must start at level two
 
-## Rule: concept/&lt;slug&gt;/links.json is valid
+### Rule: concept/&lt;slug&gt;/links.json is valid
 
 - The file must be valid JSON
 - The JSON root must be an array
