@@ -82,7 +82,7 @@ double largeDouble = 9_876_543.21;
 
 ### File: introduction.md
 
-**Purpose:** - `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
+**Purpose:** Provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
 
 This file is shown if a student has not yet completed the corresponding concept exercise. It should provide a brief introduction to the concept.
 
