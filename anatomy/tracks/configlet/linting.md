@@ -21,7 +21,7 @@ There will be a similar list for Practice Exercises, but we've not yet defined t
 Each concept listed in the `config.json` should have the following files:
 
 - `concepts/<slug>/about.md`
-- `concepts/<slug>/introduction.md` (pending agreement on https://github.com/exercism/v3/issues/2767)
+- `concepts/<slug>/introduction.md`
 - `concepts/<slug>/links.json`
 
 ## Rule: config.json file is valid
@@ -106,7 +106,7 @@ The `config.json` file should have the following checks:
 - The `"concepts[].blurb"` key is required
 - The `"concepts[].blurb"` value must be a non-empty string
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
-- Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file (pending agreement on https://github.com/exercism/v3/issues/2767). Linting rules for this file are specified below.
+- Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
 - The `"key_features"` key is optional
 - The `"key_features"` value must be an array with length <= 6
@@ -193,7 +193,7 @@ The `config.json` file should have the following checks:
 
 - If there are sub headings, they must start at level two
 
-## Rule: concepts/&lt;slug&gt;/introduction.md is valid (pending agreement on https://github.com/exercism/v3/issues/2767)
+## Rule: concepts/&lt;slug&gt;/introduction.md is valid
 
 - If there are sub headings, they must start at level two
 
