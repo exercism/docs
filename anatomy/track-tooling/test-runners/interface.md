@@ -76,6 +76,9 @@ This is the name of the test in a human-readable format.
 
 > key: `test_code`
 
+This **MUST** be present for Concept Exercises and **SHOULD** be present for Practice Exercises. 
+The difference in this requirement comes from that fact that students are not shown the tests in Concept Exercises, so solving the exercise may be impossible without the `test_code` being shown, whereas the tests are shown for Practice Exercises.
+
 This is the body of the command that is being tests. It should have any `skip` annotations removed. For example, the following Ruby test:
 
 ```ruby
