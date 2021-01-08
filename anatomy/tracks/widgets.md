@@ -28,6 +28,17 @@ There are three primary conditional statements that are used in Julia:
 [...]
 ```
 
+##### Related concepts sections
+
+This is a section with solely buttons at the end of a document.
+
+```markdown
+A ternary expression is an alternative to `if` statements.
+
+## Related concepts
+
+- [concept:ruby/if-statements]()
+```
 ### Exercise widget
 
 Link format: `[exercise:<track-slug>/<exercise-slug>]()`
