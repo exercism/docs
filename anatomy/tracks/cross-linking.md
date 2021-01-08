@@ -9,5 +9,9 @@ Link format: `[concept:<track-slug>/<concept-slug>]()`
 Example:
 
 ```markdown
-A ternary expression is an alternative to [concept:ruby/if-statements]().
+A ternary expression is an alternative to `if` statements.
+
+## Related concepts
+
+- [concept:ruby/if-statements]()
 ```
