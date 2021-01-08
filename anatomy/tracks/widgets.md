@@ -29,6 +29,6 @@ Example:
 ```markdown
 Great job on solving this exercise! Some other exercises that you might also like to try:
 
-- [concept:fsharp/anagram]()
-- [concept:fsharp/isogram]()
+- [exercise:fsharp/anagram]()
+- [exercise:fsharp/isogram]()
 ```
