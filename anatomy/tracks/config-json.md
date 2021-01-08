@@ -128,8 +128,8 @@ The language's key features succinctly describe what the most important features
 
 The key features are specified in the top-level `key_features` field which is defined as an array of objects with the following fields:
 
-- `title`: a concise header for the key feature. Its length must be <= 25
-- `content`: a description of the key feature. Its length must be <= 100
+- `title`: a concise header for the key feature. Its length must be <= 25. Markdown is _not_ supported.
+- `content`: a description of the key feature. Its length must be <= 100. Markdown is _not_ supported.
 - `icon`: the icon to show for the feature. The following icons can be used:
   - TODO: list icons
 
