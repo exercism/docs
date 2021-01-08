@@ -12,7 +12,7 @@ The link reference, i.e. the contents of `()`, is ignored by the website. You ca
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
 
-Example:
+#### Examples
 
 ##### List of concept widgets
 
