@@ -6,6 +6,8 @@ To allow rendering widgets for concepts and exercises on Exercism, a special typ
 
 Widgets can be used wherever you can use Markdown, such as documentation, approaches and student/mentor discussions.
 
+The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
+
 ### Concept widget
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
