@@ -14,12 +14,18 @@ Link format: `[concept:<track-slug>/<concept-slug>]()`
 
 Example:
 
+##### List of concept widgets
+
+This list is in the middle of a file, embedded in prose with further text below it.
+
 ```markdown
 There are three primary conditional statements that are used in Julia:
 
 - [concept:julia/if-statements]()
 - [concept:julia/ternary-operator]()
 - [concept:julia/short-circuiting]()
+
+[...]
 ```
 
 ### Exercise widget
