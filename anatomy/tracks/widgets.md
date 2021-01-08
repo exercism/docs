@@ -1,6 +1,10 @@
 # Widgets
 
-To allow rendering widgets for concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of display a link, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip.
+To allow rendering widgets for concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of displaying a link, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip. 
+
+## Usage
+
+Widgets can be used wherever you can use Markdown, such as documentation, approaches and student/mentor discussions.
 
 ### Concept widget
 
@@ -14,4 +18,17 @@ There are three primary conditional statements that are used in Julia:
 - [concept:julia/if-statements]()
 - [concept:julia/ternary-operator]()
 - [concept:julia/short-circuiting]()
+```
+
+### Exercise widget
+
+Link format: `[exercise:<track-slug>/<exercise-slug>]()`
+
+Example:
+
+```markdown
+Great job on solving this exercise! Some other exercises that you might also like to try:
+
+- [concept:fsharp/anagram]()
+- [concept:fsharp/isogram]()
 ```
