@@ -9,9 +9,9 @@ Link format: `[concept:<track-slug>/<concept-slug>]()`
 Example:
 
 ```markdown
-A ternary expression is an alternative to `if` statements.
+There are three primary conditional statements that are used in Julia:
 
-## Related concepts
-
-- [concept:ruby/if-statements]()
+- [concept:julia/if-statements]()
+- [concept:julia/ternary-operator]()
+- [concept:julia/short-circuiting]()
 ```
