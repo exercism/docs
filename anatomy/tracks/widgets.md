@@ -34,7 +34,7 @@ A ternary expression is an alternative to [concept:ruby/if-statements]().
 
 Link format: `[exercise:<track-slug>/<exercise-slug>]()`
 
-### Example
+### Example: list
 
 ```markdown
 Great job on solving this exercise! Some other exercises that you might also like to try:
