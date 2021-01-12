@@ -2,11 +2,13 @@
 
 Concept and Exercise Widgets are used frequently throughout the site.
 They look like this:
-![concept-widget](../../.imgs/concept-widget.png)
-![exercise-widget](../../.imgs/exercise-widget.png)
+
+<img src="../../.imgs/concept-widget.png" height="100">
+<img src="../../.imgs/exercise-widget.png" height="100">
 
 They also have user-contextual tooltips such as this:
-![concept-tooltip](../../.imgs/concept-tooltip.png)
+
+<img src="../../.imgs/concept-tooltip.png" height="200">
 
 You may like to render these widgets yourself in Markdown documents, for example at the end of a document to suggest extra reading or good exercises to learn something from.
 
