@@ -18,6 +18,12 @@ You may like to render these widgets yourself in Markdown documents, for example
 
 Widgets can be used wherever you can use Markdown, such as documentation, approaches and student/mentor discussions.
 
+They are rendered using the following format
+
+```md
+[type:<track-slug>/<type-slug>]()
+```
+
 The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
 
 ## Concept widget
@@ -32,12 +38,6 @@ There are three primary conditional statements that are used in Julia:
 - [concept:julia/if-statements]()
 - [concept:julia/ternary-operator]()
 - [concept:julia/short-circuiting]()
-```
-
-### Example: inline
-
-```markdown
-A ternary expression is an alternative to [concept:ruby/if-statements]().
 ```
 
 ## Exercise widget
