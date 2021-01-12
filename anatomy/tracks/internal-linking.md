@@ -14,7 +14,7 @@ Instead we check to see if the link href follows one of two forms:
 - A URL. e.g. https://exercism.io/tracks/ruby/concepts/basics
 - An absolute path. e.g. /tracks/ruby/concepts/basics
 
-We do not currently support relative URLs (e.g. those beginning with `./`) because the markdown parser is not aware of the context of the document it renders, the context it is rendering in, or the structure of a git repository.
+We do not currently support relative URLs (e.g. those beginning with `./` or `../`) because the Markdown parser is not aware of the context of the document it renders, the context it is rendering in, or the structure of a git repository.
 
 ## Alternatives
 
