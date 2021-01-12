@@ -24,8 +24,6 @@ There are three primary conditional statements that are used in Julia:
 
 ### Example: inline
 
-This is a section with just buttons at the end of a document.
-
 ```markdown
 A ternary expression is an alternative to [concept:ruby/if-statements]().
 ```
