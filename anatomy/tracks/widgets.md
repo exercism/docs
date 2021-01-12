@@ -1,6 +1,6 @@
 # Widgets
 
-To allow rendering widgets for concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of displaying a link, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip. 
+To allow rendering widgets for concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of displaying a link, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip.
 
 ## Usage
 
@@ -8,15 +8,11 @@ Widgets can be used wherever you can use Markdown, such as documentation, approa
 
 The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
 
-### Concept widget
+## Concept widget
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
 
-#### Examples
-
-##### List of concept widgets
-
-This list is in the middle of a file, embedded in prose with further text below it.
+### Example: list
 
 ```markdown
 There are three primary conditional statements that are used in Julia:
@@ -28,22 +24,19 @@ There are three primary conditional statements that are used in Julia:
 [...]
 ```
 
-##### Related concepts sections
+### Example: inline
 
-This is a section with solely buttons at the end of a document.
+This is a section with just buttons at the end of a document.
 
 ```markdown
-A ternary expression is an alternative to `if` statements.
-
-## Related concepts
-
-- [concept:ruby/if-statements]()
+A ternary expression is an alternative to [concept:ruby/if-statements]().
 ```
-### Exercise widget
+
+## Exercise widget
 
 Link format: `[exercise:<track-slug>/<exercise-slug>]()`
 
-Example:
+### Example
 
 ```markdown
 Great job on solving this exercise! Some other exercises that you might also like to try:
