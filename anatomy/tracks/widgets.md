@@ -20,8 +20,6 @@ There are three primary conditional statements that are used in Julia:
 - [concept:julia/if-statements]()
 - [concept:julia/ternary-operator]()
 - [concept:julia/short-circuiting]()
-
-[...]
 ```
 
 ### Example: inline
