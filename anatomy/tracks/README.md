@@ -2,7 +2,7 @@ _work in progress_
 
 # Track
 
-There are many different parts to a track.
+A track consists of many different parts.
 
 ## Metadata
 
@@ -35,6 +35,10 @@ TODO: describe the `config` directory's contents
 ## Docs
 
 TODO: describe the `docs` directory's contents
+
+## Widgets
+
+Some parts of the track can be displayed in [widgets](./widgets.md), such as [concepts](./widgets.md#conceptwidget) and [exercises](./widgets.md#exercisewidget).
 
 ## Example
 
