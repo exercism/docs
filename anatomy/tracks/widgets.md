@@ -1,6 +1,16 @@
 # Widgets
 
-To allow rendering widgets for concepts and exercises on Exercism, a special type of Markdown link can be used. Instead of displaying a link, we'll render a user-contextual widget, that shows that concept or exercise with its icon, user-specific status (unlocked, completed, etc), and which provides a tooltip.
+Concept and Exercise Widgets are used frequently throughout the site.
+They look like this:
+![concept-widget](../../.imgs/concept-widget.png)
+![exercise-widget](../../.imgs/exercise-widget.png)
+
+They also have user-contextual tooltips such as this:
+![concept-tooltip](../../.imgs/concept-tooltip.png)
+
+You may like to render these widgets yourself in Markdown documents, for example at the end of a document to suggest extra reading or good exercises to learn something from.
+
+**Note:** You can also use normal links for inline text, which will have the tooltips added. See [the Internal Linking documentation](./internal-linking.md) for more details.
 
 ## Usage
 
