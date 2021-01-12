@@ -4,7 +4,7 @@ Links rendered via Exercism's Markdown parser are checked to see if they are int
 
 A tooltip for a concept might look like this:
 
-![concept-tooltip](../../.imgs/concept-tooltip.png)
+<img src="../../.imgs/concept-tooltip.png" height="200">
 
 ## Usage
 
@@ -16,7 +16,7 @@ Instead we check to see if the link href follows one of two forms:
 
 We do not currently support relative URLs (e.g. those beginning with `./` or `../`) because the Markdown parser is not aware of the context of the document it renders, the context it is rendering in, or the structure of a git repository.
 
-## Alternatives
+## Alternatives
 
 Rather than using normal links, you might like to render Widgets.
 These are generally used at the end of a document to suggest extra reading or good exercises to learn something from.
