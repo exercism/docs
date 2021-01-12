@@ -38,7 +38,7 @@ TODO: describe the `docs` directory's contents
 
 ## Widgets
 
-Some parts of the track can be displayed in [widgets](./widgets.md).
+Some parts of the track can be displayed in [widgets](./widgets.md), such as [concepts](./widgets.md#conceptwidget) and [exercises](./widgets.md#exercisewidget).
 
 ## Example
 
