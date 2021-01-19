@@ -154,7 +154,7 @@ Example:
 
 Tracks can be annotated with tags, which allows searching for tracks with a certain tag combination. 
 
-A track should choose their tags based on the general usage of their language. For example, imagine a student thinking: "I'd like to do machine learning, what language should I pick?", or "I'd like to learn functional programming, which language should I choose?". If your language would be a good candidate, give it that tag. If your language supports some functional ideas but they're rarely used, or a few people do Machine Learning in it, but its rare, then do not apply those tags.
+A track should choose their tags based on the general usage of their language. For example, imagine a student thinking: "I'd like to do machine learning, what language should I pick?", or "I'd like to learn functional programming, which language should I choose?". If your language would be a good candidate, give it that tag. If your language supports some functional ideas but they're rarely used, or a few people do Machine Learning in it, but it's rare, then do not apply those tags.
 
 
 Tags are specified in the top-level `tags` field which is defined as an array of strings. The following tags can be used (grouped by category):
