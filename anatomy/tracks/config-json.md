@@ -156,12 +156,6 @@ Tracks can be annotated with tags, which allows searching for tracks with a cert
 
 Tags are specified in the top-level `tags` field which is defined as an array of strings. The following tags can be used (grouped by category):
 
-### Compilation target
-
-- `compiles_to/binary`: the language compiles to a binary
-- `compiles_to/bytecode`: the language compiles to bytecode
-- `compiles_to/javascript`: the language compiles to JavaScript
-
 ### Paradigms
 
 - `paradigm/declarative`: the language supports a declarative style of programming
@@ -175,6 +169,46 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 
 - `typing/static`: the language uses static typing
 - `typing/dynamic`: the language uses dynamic typing
+- `typing/strong`: the language uses strong typing
+- `typing/weak`: the language uses weak typing
+
+## Execution mode
+
+- `execution_mode/compiled`: code is compiled first before being executed
+- `execution_mode/interpreted`: code is interpreted directly
+
+## Platform
+
+- `platform/windows`: runs on Windows
+- `platform/mac`: runs on Mac
+- `platform/linux`: runs on Linux
+- `platform/ios`: runs on iOS
+- `platform/android`: runs on Android
+- `platform/web`: runs on Web
+
+## Runtime
+
+- `runtime/standalone_executable`: runs as standalone executable
+- `runtime/language_specific`: runs on language-specific runtime
+- `runtime/clr`: runs on Common Language Runtime (.NET)
+- `runtime/jvm`: runs on JVM (Java)
+- `runtime/beam`: runs on BEAM (Erlang)
+
+## Used for
+
+- `used_for/artificial_intelligence`: Artificial Intelligence
+- `used_for/backends`: Backends
+- `used_for/cross_platform_development`: Cross-platform development
+- `used_for/embedded_systems`: Embedded systems
+- `used_for/financial_systems`: Financial systems
+- `used_for/frontends`: Frontends
+- `used_for/games`: Games
+- `used_for/guis`: GUIs
+- `used_for/mobile`: Mobile
+- `used_for/robotics`: Robotics
+- `used_for/scientific_calculations`: Scientific calculations
+- `used_for/scripts`: Scripts
+- `used_for/web_development`: Web development
 
 Note that it is perfectly fine to include multiple tags from a single category.
 
@@ -183,12 +217,12 @@ Example
 ```json
 {
   "tags": [
-    "compiles_to/bytecode",
-    "runtime/common_language_runtime",
+    "runtime/jvm",
+    "platform/windows",
+    "platform/linux",
     "paradigm/declarative",
     "paradigm/functional",
-    "paradigm/object_oriented",
-    "typing/static"
+    "paradigm/object_oriented"
   ]
 }
 ```
