@@ -184,7 +184,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 - `platform/linux`: runs on Linux
 - `platform/ios`: runs on iOS
 - `platform/android`: runs on Android
-- `platform/web`: runs on Web
+- `platform/web`: runs on Browser
 
 ## Runtime
 
