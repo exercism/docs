@@ -1,4 +1,4 @@
-# Creating an Test Runner
+# Creating a Test Runner
 
 Firstly, thank you for your interest in creating a Test Runner!
 
