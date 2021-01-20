@@ -84,7 +84,7 @@ Example:
 ```json
 {
   "exercises": {
-    "concept": [
+    "practice": [
       {
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
