@@ -40,6 +40,10 @@ TODO: describe the `docs` directory's contents
 
 Some parts of the track can be displayed in [widgets](./widgets.md), such as [concepts](./widgets.md#conceptwidget) and [exercises](./widgets.md#exercisewidget).
 
+## Style guide
+
+The [style guide][./style-guide.md] records how documents should be written and formatted.
+
 ## Example
 
 <pre>
