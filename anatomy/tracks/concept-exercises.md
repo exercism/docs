@@ -159,6 +159,7 @@ lasagna.remaining_minutes_in_oven(30)
 - The hints may use code samples to explain concepts, but not to outline the solution. e.g. in a lists exercise they might show a snippet of how a certain list function works, but not in a way that is directly copy/pasteable into the solution.
 - General hints about the exercise can appear under the `## General` heading.
 - Task-specific hints should appear underneath headings that match their task heading in the `instructions.md` (e.g. `## 2. Do Y`).
+- Prioritize task-specific hints over general hints, as task-specific hints are more likely to unblock the student than general hints.
 - Task headings should describe the _what_ of the task, not the _how_.
 - Task headings should use regular sentence casing (e.g. `## 2. Check if a book can be borrowed`).
 - Tasks should be explicit about what method/function/type to implemented and its expected value (e.g. `` Implement the 'canBorrowBook' function to check if a book can be borrowed. The function takes a book as its parameter and returns `true` if the book has not already been borrowed; otherwise, return `false` ``).
