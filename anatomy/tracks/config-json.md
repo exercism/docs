@@ -133,7 +133,7 @@ The key features are specified in the top-level `key_features` field which is de
 - `icon`: the icon to show for the feature. The following icons can be used:
   - TODO: list icons
 
-At most 6 key features can be specified.
+Exactly 6 key features must be specified.
 
 Example:
 
