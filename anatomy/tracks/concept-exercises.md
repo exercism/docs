@@ -134,6 +134,8 @@ We place high value on making Exercism's content safe for everyone and so often 
 - Try to write examples that are inclusive to everyone. For example, consider using names from other cultures and mixed genders.
 - Ask yourself whether you know anyone personally who would take offense by the story. If that's the case, consider changing it to avoid it.
 
+Example:
+
 ````markdown
 In this exercise you're going to write some code to help you cook a brilliant lasagna from your favorite cooking book.
 
