@@ -8,7 +8,7 @@ _work in progress_
 
 Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](./config-json.md#practice-exercises). The metadata defines the exercise's UUID, slug and more.
 
-Example:
+### Example
 
 ```json
 {

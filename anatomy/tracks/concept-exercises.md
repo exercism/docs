@@ -8,7 +8,7 @@ _work in progress_
 
 Concept Exercise metadata is defined in the `exercises.concept` key in the [config.json file](./config-json.md#concept-exercises). The metadata defines the exercise's UUID, slug and more.
 
-Example:
+### Example
 
 ```json
 {
@@ -50,7 +50,7 @@ Besides these files, the following three files must be present, but their file n
 - Stub implementation: provide a starting point for students.
 - Example implementation: provide an idiomatic implementation that passes all the tests.
 
-Example:
+### Example
 
 <pre>
 exercises
@@ -80,7 +80,7 @@ exercises
 
 As an example, the introduction to a "strings" exercise might describe a string as just a "Sequence of Unicode characters" or a "series of bytes", tell the users how to create a string, and explain that a string has methods that can be used to manipulate it. Unless the student needs to understand more nuanced details in order to solve the exercise, this type of brief explanation (along with an example of its syntax) should be sufficient information for the student to solve the exercise.
 
-Example:
+#### Example
 
 ````markdown
 There are two primary ways to assign objects to names in Ruby - using variables or constants. Variables are always written in snake case. A variable can reference different objects over its lifetime. For example, `my_first_variable` can be defined and redefined many times using the `=` operator:
@@ -106,7 +106,7 @@ The Exercism website only knows about the `introduction.md` document. It is the 
 
 Tracks can decide per exercise whether to use a template or not. In some cases, using the concept's introduction verbatim might not be optimal. Always go with what provides the best learning experience to the student.
 
-Example:
+#### Example
 
 ```markdown
 %{concept:variables}
@@ -134,7 +134,7 @@ We place high value on making Exercism's content safe for everyone and so often 
 - Try to write examples that are inclusive to everyone. For example, consider using names from other cultures and mixed genders.
 - Ask yourself whether you know anyone personally who would take offense by the story. If that's the case, consider changing it to avoid it.
 
-Example:
+#### Example
 
 ````markdown
 In this exercise you're going to write some code to help you cook a brilliant lasagna from your favorite cooking book.
@@ -168,7 +168,7 @@ lasagna.remaining_minutes_in_oven(30)
 
 Viewing hints will not be a "recommended" path and we will (softly) discourage using it unless the student can't progress without it. As such, it's worth considering that the student reading it will be a little confused/overwhelmed and maybe frustrated.
 
-Example:
+#### Example
 
 ```markdown
 ## General
@@ -190,7 +190,7 @@ Example:
 
 This file contains third-party references and sources of the exercise. Only required if there are any such sources, but not if the exercise was completely designed from scratch for Exercism.
 
-Example:
+#### Example
 
 ```markdown
 This exercise is based on an example used in the talk "The Unreasonable Effectiveness of Multiple Dispatch" held by Stefan Karpinski at JuliaCon 2019, available on [YouTube](https://youtu.be/kc9HwsxE1OY?t=422).
@@ -204,7 +204,7 @@ This file contains information on the exercise's design, which includes things l
 
 It exists in order to inform future maintainers or contributors about the scope and limitations of an exercise, to avoid the natural trend towards making exercises more complex over time.
 
-Example:
+#### Example
 
 ```markdown
 ## Goal
@@ -248,7 +248,7 @@ This file contains meta information on the exercise:
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
-Example:
+#### Example
 
 ```json
 {
@@ -261,7 +261,7 @@ Example:
 }
 ```
 
-Example (fork):
+#### Example (fork)
 
 Assume that the user FSharpForever has written an exercise called `basics` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
 
@@ -302,7 +302,7 @@ Note that:
 - Only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The stub file is shown to the student when doing in-browser coding and is downloaded to the student's file system when using the CLI.
 
-#### Example:
+#### Example
 
 ```ruby
 class Lasagna
@@ -325,6 +325,8 @@ end
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
 - All but the first test should be skipped by default. How this is done differs between languages.
 - The tests file is _not_ shown to the student when doing in-browser coding, but _is_ downloaded to the student's file system when using the CLI.
+
+#### Example
 
 ```ruby
 require 'minitest/autorun'
@@ -353,6 +355,8 @@ end
 - Mentors will be shown this code as the "target" when writing feedback
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The example file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
+
+#### Example
 
 ```ruby
 class Lasagna

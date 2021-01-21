@@ -8,7 +8,7 @@ Concepts are the things that a programmer would need to understand to be fluent 
 
 Concept metadata is defined in the `concepts` key in the [config.json file](./config-json.md#concepts). The metadata defines the concept's UUID, slug and more.
 
-Example:
+### Example
 
 ```json
 {
@@ -31,7 +31,7 @@ Each concept has its own directory within the track's `concepts` directory. The 
 - `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
 - `links.json`: provide helpful links that provide more reading or information about a concept.
 
-Example:
+### Example
 
 <pre>
 concepts
@@ -57,7 +57,7 @@ This document can also link to any additional resources that might be interestin
 - Similar features with which the concept may be confused
 - Performance characteristics and memory usage
 
-Example:
+#### Example
 
 ````markdown
 One of the key aspects of working with numbers in C# is the distinction between [integers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) (numbers with no digits after the decimal separator) and [floating-point numbers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types) (numbers with zero or more digits after the decimal separator).
@@ -91,7 +91,7 @@ This file is shown if a student has not yet completed the corresponding concept 
 - Proper technical terms should be used so that the student can easily search for more information.
 - Code examples should only be used to introduce new syntax (students should not need to search the web for examples of syntax). In other cases provide descriptions or links instead of code.
 
-Example:
+#### Example
 
 ````markdown
 One of the key aspects of working with numbers in C# is the distinction between integers and floating-point numbers (numbers with zero or more digits after the decimal separator).

@@ -17,7 +17,7 @@ The following top-level properties contain general track metadata:
   - `indent_style`: either `"space"` or `"tab"`
   - `indent_size`: the indentation size as an integer (e.g. `4`)
 
-Example:
+### Example
 
 ```json
 {
@@ -50,7 +50,7 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 
-Example:
+#### Example
 
 ```json
 {
@@ -79,7 +79,7 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest).
 
-Example:
+#### Example
 
 ```json
 {
@@ -107,7 +107,7 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 - `name`: the concept's name
 - `blurb`: a short description of the concept
 
-Example:
+### Example
 
 ```json
 {
@@ -135,7 +135,7 @@ The key features are specified in the top-level `key_features` field which is de
 
 Exactly 6 key features must be specified.
 
-Example:
+### Example
 
 ```json
 {
@@ -152,10 +152,9 @@ Example:
 
 ## Tags
 
-Tracks can be annotated with tags, which allows searching for tracks with a certain tag combination. 
+Tracks can be annotated with tags, which allows searching for tracks with a certain tag combination.
 
 A track should choose their tags based on the general usage of their language. For example, imagine a student thinking: "I'd like to do machine learning, what language should I pick?", or "I'd like to learn functional programming, which language should I choose?". If your language would be a good candidate, give it that tag. If your language supports some functional ideas but they're rarely used, or a few people do Machine Learning in it, but it's rare, then do not apply those tags.
-
 
 Tags are specified in the top-level `tags` field which is defined as an array of strings. The following tags can be used (grouped by category):
 
