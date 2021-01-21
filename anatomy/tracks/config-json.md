@@ -332,12 +332,12 @@ This is an example of what a valid `config.json` file can look like:
     }
   ],
   "tags": [
-    "compiles_to/bytecode",
-    "runtime/common_language_runtime",
+    "runtime/jvm",
+    "platform/windows",
+    "platform/linux",
     "paradigm/declarative",
     "paradigm/functional",
-    "paradigm/object_oriented",
-    "typing/static"
+    "paradigm/object_oriented"
   ]
 }
 ```
