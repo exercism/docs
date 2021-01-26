@@ -251,6 +251,12 @@ This is an example of what a valid `config.json` file can look like:
   "active": true,
   "blurb": "C# is a modern, object-oriented language with lots of great features, such as type-inference and async/await. The tooling is excellent, and there is extensive, well-written documentation.",
   "version": 3,
+  "status": {
+    "concept_exercises": true,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
+  },
   "online_editor": {
     "indent_style": "space",
     "indent_size": 4
