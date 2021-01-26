@@ -116,7 +116,7 @@ The `config.json` file should have the following checks:
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
 - The `"key_features"` key is optional
-- The `"key_features"` value must be an array with length <= 6
+- The `"key_features"` value must be an array with length = 6
 - The `"key_features[].icon"` key is required
 - The `"key_features[].icon"` value must be a string that matches one of the pre-defined icon values (TODO: add link to list of icons)
 - The `"key_features[].title"` key is required
