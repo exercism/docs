@@ -105,7 +105,7 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 - `uuid`: a V4 UUID that uniquely identifies the concept across all tracks
 - `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track
 - `name`: the concept's name
-- `blurb`: a short description of the concept
+- `blurb`: a short description of the concept. Markdown is _not_ supported.
 
 ### Example
 
