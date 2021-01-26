@@ -16,6 +16,11 @@ The following top-level properties contain general track metadata:
 - `online_editor`: an object describing settings used for the online editor:
   - `indent_style`: either `"space"` or `"tab"`
   - `indent_size`: the indentation size as an integer (e.g. `4`)
+- `status`: an object describing which v3 features should be enabled:
+  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](./concept-exercises.md) have been built
+  - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented
+  - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented
+  - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented
 
 ### Example
 
@@ -29,6 +34,12 @@ The following top-level properties contain general track metadata:
   "online_editor": {
     "indent_style": "space",
     "indent_size": 4
+  },
+  "status": {
+    "concept_exercises": true,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
   }
 }
 ```
