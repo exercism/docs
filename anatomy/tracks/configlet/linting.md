@@ -128,15 +128,6 @@ The `config.json` file should have the following checks:
 - The `"tags"` value must be a non-empty array of strings
 - The `"tags"` values must use one of the pre-defined tag values (TODO: add link to list of tags)
 
-### Rule: config/maintainers.json file is valid
-
-- The file must be valid JSON
-- The JSON root must be an object
-- The `"maintainers"` key is required
-- The `"maintainers"` value must be an array
-- The `"maintainers"` array elements must use the correct format (TODO: specify)
-- There must not be duplicate maintainers
-
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
 
 - The file must be valid JSON
