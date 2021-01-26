@@ -15,7 +15,6 @@ These are the linting rules being checked.
 The linter should check if all the required files are present. The non-exercise specific files that must be present are:
 
 - `config.json`
-- `config/maintainers.json`
 
 The Concept Exercise specific files that must be present are:
 
