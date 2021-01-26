@@ -46,6 +46,14 @@ The `config.json` file should have the following checks:
 - The `"blurb"` value must be a non-empty string
 - The `"version"` key is required
 - The `"version"` value must be the integer `3`
+- The `"status.concept_exercises"` key is required
+- The `"status.concept_exercises"` value must be a boolean
+- The `"status.test_runner"` key is required
+- The `"status.test_runner"` value must be a boolean
+- The `"status.representer"` key is required
+- The `"status.representer"` value must be a boolean
+- The `"status.analyzer"` key is required
+- The `"status.analyzer"` value must be a boolean
 - The `"online_editor.indent_style"` key is required
 - The `"online_editor.indent_style"` value must be the string `space` or `tab`
 - The `"online_editor.indent_size"` key is required
