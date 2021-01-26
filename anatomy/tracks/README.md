@@ -42,7 +42,7 @@ Some parts of the track can be displayed in [widgets](./widgets.md), such as [co
 
 ## Style guide
 
-The [style guide][./style-guide.md] records how documents should be written and formatted.
+The [style guide](./style-guide.md) records how documents should be written and formatted.
 
 ## Example
 
