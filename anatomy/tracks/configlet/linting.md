@@ -85,6 +85,8 @@ The `config.json` file should have the following checks:
 - The `"exercise.concept[].prerequisites"` values must not match any of the values in the exercise's `"exercise.concept[].concepts"` property
 - The `"exercise.concept[].prerequisites"` values must match the `"concepts.slug"` property of one of the concepts
 - There must not be any cycles between `"exercise.concept[].concepts"` and `"exercise.concept[].prerequisites"`
+- The `"exercise.concept[].status"` key is optional
+- The `"exercise.concept[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.practice"` key is required
 - The `"exercises.practice"` value must be an array
 - The `"exercise.practice[].slug"` key is required
@@ -105,6 +107,8 @@ The `config.json` file should have the following checks:
 - The `"exercise.practice[].prerequisites"` values must not have duplicates
 - The `"exercise.practice[].prerequisites"` values must match any concept exercise's `"exercise.concept[].concepts"` values
 - The `"exercise.practice[].prerequisites"` values must match the `"concepts.slug"` property of one of the concepts
+- The `"exercise.practice[].status"` key is optional
+- The `"exercise.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be a non-empty array of strings
 - The `"exercises.foregone"` values must be non-empty, lowercased strings using kebab-case
