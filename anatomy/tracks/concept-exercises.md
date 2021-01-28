@@ -244,6 +244,7 @@ This file contains meta information on the exercise:
 - The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - Which exercise(s) it was forked from (required if the exercise is forked)
+- The files used in this exercises (solution/test/exemplar)
 - Language version requirements (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
@@ -257,7 +258,12 @@ If someone is both an author _and_ a contributor, only list that person as an au
       "github_username": "FSharpForever",
       "exercism_username": "FSharpForever"
     }
-  ]
+  ],
+  "files": {
+    "solution": ["Lasagna.fs"],
+    "test": ["LasagnaTests.fs"],
+    "exemplar": [".meta/Exemplar.fs"]
+  }
 }
 ```
 
@@ -279,6 +285,11 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
       "exercism_username": "PythonProfessor"
     }
   ],
+  "files": {
+    "solution": ["lasagna.py"],
+    "test": ["lasagna_test.py"],
+    "exemplar": [".meta/exemplar.py"]
+  },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7"
 }
