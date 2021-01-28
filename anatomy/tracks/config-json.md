@@ -62,9 +62,9 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `status` (optional): the exercise's status, which is one of `"wip"`, `"beta"` `"active"`, or `"deprecated"`; defaults to `"active"` if not specified
   - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
-  - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a CTA of “Please give us feedback”
+  - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback."
   - `active`: The normal state of active exercises
-  - `deprecated`: Old exercises to be removed (not usable at this stage).
+  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage).
 
 #### Example
 
@@ -113,8 +113,12 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
 - `name`: the exercise's name
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
-- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest).
+- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest)
 - `status` (optional): the exercise's status, which is either `"wip"`, `"beta"`, `"active"` or `"deprecated"`; defaults to `"active"` if not specified
+  - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
+  - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback"
+  - `active`: The normal state of active exercises
+  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage).
 
 The "Recommended Order" of the Practice Exercises on the website corresponds with the order of the exercises in the `practice` array.
 
