@@ -160,13 +160,16 @@ The `config.json` file should have the following checks:
 - The `"contributors[].exercism_username"` key must be a non-empty string
 - The `"contributors[].exercism_username"` value is treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
-- The `"editor.solution_files"` key is required
-- The `"editor.solution_files"` value must be a non-empty array
-- The `"editor.test_files"` key is required
-- The `"editor.test_files"` value must be a non-empty array
-- The files listed in the `"editor.solution_files"` must exist
-- The files listed in the `"editor.test_files"` must exist
-- Files can only be listed in either the `"editor.solution_files"` or `"editor.test_files"` array (no overlap)
+- The `"files.solution"` key is required
+- The `"files.solution"` value must be a non-empty array
+- The `"files.test"` key is required
+- The `"files.test"` value must be a non-empty array
+- The `"files.exemplar"` key is required
+- The `"files.exemplar"` value must be a non-empty array
+- The files listed in the `"files.solution"` must exist
+- The files listed in the `"files.test"` must exist
+- The files listed in the `"files.exemplar"` must exist
+- Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.exemplar` array (no overlap)
 - The `"forked_from"` key is optional
 - The `"forked_from"` value must be a non-empty array
 - The `"forked_from"` values must be strings formatted as `<track-slug>/<exercise-slug>` (e.g. `fsharp/bird-watcher`)
