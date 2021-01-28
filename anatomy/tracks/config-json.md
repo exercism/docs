@@ -60,6 +60,7 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 - `name`: the exercise's name
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
+- `status` (optional): the exercise's status, which is either `"active"`, `"wip"`, `"beta"` or `"deprecated"`; defaults to `"active"` if not specified
 
 #### Example
 
@@ -80,6 +81,26 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 }
 ```
 
+#### Example of work-in-progress
+
+```json
+{
+  "exercises": {
+    "concept": [
+      {
+        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
+        "slug": "cars-assemble",
+        "name": "Cars, Assemble!",
+        "concepts": ["if-statements", "numbers"],
+        "prerequisites": ["basics"],
+        "status": "wip"
+      },
+      ...
+    ]
+  }
+}
+```
+
 ### Practice exercises
 
 Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
@@ -89,6 +110,9 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `name`: the exercise's name
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest).
+- `status` (optional): the exercise's status, which is either `"active"`, `"wip"`, `"beta"` or `"deprecated"`; defaults to `"active"` if not specified
+
+The "Recommended Order" of the Practice Exercises on the website corresponds with the order of the exercises in the `practice` array.
 
 #### Example
 
@@ -109,7 +133,25 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 }
 ```
 
-The "Recommended Order" of the Practice Exercises on the website corresponds with the order of the exercises in the `practice` array.
+#### Example of beta
+
+```json
+{
+  "exercises": {
+    "practice": [
+      {
+        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
+        "slug": "leap",
+        "name": "Leap",
+        "prerequisites": ["if-statements", "numbers"],
+        "difficulty": 1,
+        "status": "beta"
+      },
+      ...
+    ]
+  }
+}
+```
 
 ## Concepts
 
@@ -277,7 +319,8 @@ This is an example of what a valid `config.json` file can look like:
         "name": "Cars, Assemble!",
         "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
         "concepts": ["if-statements", "numbers"],
-        "prerequisites": ["basics"]
+        "prerequisites": ["basics"],
+        "status": "wip"
       }
     ],
     "practice": [
@@ -293,7 +336,8 @@ This is an example of what a valid `config.json` file can look like:
         "name": "Leap",
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "prerequisites": ["if-statements", "numbers"],
-        "difficulty": 2
+        "difficulty": 2,
+        "status": "beta"
       }
     ]
   },
