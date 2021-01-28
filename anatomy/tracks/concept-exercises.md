@@ -355,6 +355,7 @@ end
 - Mentors will be shown this code as the "target" when writing feedback
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The exemplar file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
+- The exemplar file will be shown to mentors when commenting on solutions or representations.
 
 #### Example
 
