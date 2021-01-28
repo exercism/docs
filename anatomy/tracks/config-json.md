@@ -60,7 +60,7 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 - `name`: the exercise's name
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
-- `status` (optional): the exercise's status, which is either `"active"`, `"wip"`, `"beta"` or `"deprecated"`; defaults to `"active"` if not specified
+- `status` (optional): the exercise's status, which is one of `"wip"`, `"beta"` `"active"`, or `"deprecated"`; defaults to `"active"` if not specified
 
 #### Example
 
