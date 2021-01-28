@@ -61,6 +61,10 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `status` (optional): the exercise's status, which is one of `"wip"`, `"beta"` `"active"`, or `"deprecated"`; defaults to `"active"` if not specified
+  - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
+  - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a CTA of “Please give us feedback”
+  - `active`: The normal state of active exercises
+  - `deprecated`: Old exercises to be removed (not usable at this stage).
 
 #### Example
 
