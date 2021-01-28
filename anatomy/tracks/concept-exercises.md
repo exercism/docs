@@ -349,7 +349,7 @@ end
 
 ### File: exemplar implementation
 
-**Purpose:** Provide an idiomatic implementation that passes all the tests.
+**Purpose:** Provide the target implementation that a student should aim for.
 
 - This implementation is the target code that we want a student to aim for.
 - Mentors will be shown this code as the "target" when writing feedback
