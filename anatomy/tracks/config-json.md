@@ -109,6 +109,8 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 }
 ```
 
+The "Recommended Order" of the Practice Exercises on the website corresponds with the order of the exercises in the `practice` array.
+
 ## Concepts
 
 Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
