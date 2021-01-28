@@ -48,7 +48,7 @@ Besides these files, the following three files must be present, but their file n
 
 - Test suite: verify a solution's correctness.
 - Stub implementation: provide a starting point for students.
-- Example implementation: provide an idiomatic implementation that passes all the tests.
+- Exemplar implementation: provide an idiomatic implementation that passes all the tests.
 
 ### Example
 
@@ -63,7 +63,7 @@ exercises
         ├── .meta
         |   ├── config.json        
         |   ├── design.md
-        |   └── Example.cs (example implementation)
+        |   └── Exemplar.cs (exemplar implementation)
         ├── CarsAssemble.cs (stub implementation)
         └── CarsAssemblyTests.cs (tests)
 </pre>
@@ -347,14 +347,15 @@ class LasagnaTest < Minitest::Test
 end
 ```
 
-### File: example implementation
+### File: exemplar implementation
 
-**Purpose:** Provide an idiomatic implementation that passes all the tests.
+**Purpose:** Provide the target implementation that a student should aim for.
 
 - This implementation is the target code that we want a student to aim for.
 - Mentors will be shown this code as the "target" when writing feedback
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
-- The example file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
+- The exemplar file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
+- The exemplar file will be shown to mentors when commenting on solutions or representations.
 
 #### Example
 

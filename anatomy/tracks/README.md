@@ -72,7 +72,7 @@ csharp
 |   |       ├── .meta
 |   |       |   ├── config.json
 |   |       |   ├── design.md
-|   |       |   └── Example.cs (track-specific)
+|   |       |   └── Exemplar.cs (track-specific)
 |   |       ├── CarsAssemble.cs (track-specific)
 |   |       ├── CarsAssemble.csproj (track-specific)
 |   |       └── CarsAssembleTests.cs (track-specific)
