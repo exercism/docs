@@ -110,7 +110,7 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `name`: the exercise's name
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest).
-- `status` (optional): the exercise's status, which is either `"active"`, `"wip"`, `"beta"` or `"deprecated"`; defaults to `"active"` if not specified
+- `status` (optional): the exercise's status, which is either `"wip"`, `"beta"`, `"active"` or `"deprecated"`; defaults to `"active"` if not specified
 
 The "Recommended Order" of the Practice Exercises on the website corresponds with the order of the exercises in the `practice` array.
 
