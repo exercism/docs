@@ -19,10 +19,10 @@ How these documents are generated can be found [here](./generating-documents.md)
 
 ## Usage
 
-configlet is distributed as a standalone binary. To integrate configlet in your track, you should add one (or both) of the fetch scripts [defined here](https://github.com/exercism/configlet/tree/master/scripts), which can then be used to download the binary for your operating system/architecture.
+configlet is distributed as a standalone binary. To integrate configlet in your track, you should add one (or both) of the fetch scripts [defined here](https://github.com/exercism/configlet/tree/main/scripts), which can then be used to download the binary for your operating system/architecture.
 
 ## CI
 
-All tracks should integrate the configlet lint functionality in their CI setup. The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/master/configlet-ci).
+All tracks should integrate the configlet lint functionality in their CI setup. The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/main/configlet-ci).
 
 TODO: describe other configlet features

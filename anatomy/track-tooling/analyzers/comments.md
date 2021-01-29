@@ -26,7 +26,7 @@ is made.
 
 Because the comments don't live in the same repository as the analyzer, each
 analyzer should have CI that checks if the comments used in that specific
-analyzer (those that can become output), are comments on the `master` branch, on
+analyzer (those that can become output), are comments on the `main` branch, on
 the [`exercism/website-copy`][git-website-copy] repository.
 
 At the moment of writing, [this issue][issue-ci-comments] tracks the status of any
@@ -135,7 +135,7 @@ on type later. For simpler cases, it's more common to rely on `errors.New` or
 custom errors might be interesting.
 ```
 
-[git-website-copy]: https://github.com/exercism/website-copy/tree/master/automated-comments
+[git-website-copy]: https://github.com/exercism/website-copy/tree/main/automated-comments
 [issue-ci-comments]: https://github.com/exercism/automated-mentoring-support/issues/51
 [git-website-copy-label]: https://github.com/exercism/website-copy/pulls?q=is%3Aopen+is%3Apr+label%3Atype%2Fanalyzer-comments
-[git-feedback-guidelines]: https://github.com/exercism/automated-mentoring-support/blob/master/docs/guidelines.md#idiomatic-rules--language-features--stylistic-choices
+[git-feedback-guidelines]: https://github.com/exercism/automated-mentoring-support/blob/main/docs/guidelines.md#idiomatic-rules--language-features--stylistic-choices
