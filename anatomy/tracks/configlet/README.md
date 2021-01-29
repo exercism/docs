@@ -17,9 +17,23 @@ The secondary function of configlet is to generate documents. There are two type
 
 How these documents are generated can be found [here](./generating-documents.md).
 
+## Syncing test data
+
+The tertiary function of configlet is to sync test data. Each implemented [Practice Exercise](../../product/practice-exercises.md) for which test data exists in the [problem-specifications repo](https://github.com/exercism/problem-specifications) _must_ contain a `.meta/tests.toml` file. The goal of this file is to keep track of which tests are implemented by the exercise. Tests in this file are identified by their UUID and each test has a boolean value that indicates if it is implemented by that exercise.
+
+How to sync the contents of the `.meta/tests.toml` can be found [here](./)
+
+## Generating UUIDs
+
+Exercises, tracks and concepts are identified by a UUID.
+
+How to generate UUIDs can be found [here](./uuids.md).
+
 ## Usage
 
-configlet is distributed as a standalone binary. To integrate configlet in your track, you should add one (or both) of the fetch scripts [defined here](https://github.com/exercism/configlet/tree/main/scripts), which can then be used to download the binary for your operating system/architecture.
+configlet is distributed as a standalone binary. Each track should have a `bin/fetch-configlet` script, and might have a `bin/fetch-configlet.ps1` script too. The first is a bash script, and the second is a PowerShell script.
+
+Running one of these scripts downloads the latest version of configlet to the `bin` directory. You can then use configlet by running `bin/configlet` or `bin/configlet.exe` respectively.
 
 ## CI
 
