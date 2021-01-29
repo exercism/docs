@@ -19,7 +19,9 @@ How these documents are generated can be found [here](./generating-documents.md)
 
 ## Usage
 
-configlet is distributed as a standalone binary. To integrate configlet in your track, you should add one (or both) of the fetch scripts [defined here](https://github.com/exercism/configlet/tree/master/scripts), which can then be used to download the binary for your operating system/architecture.
+configlet is distributed as a standalone binary. Each track should have a `bin/fetch-configlet` script, and might have a `bin/fetch-configlet.ps1` script too. The first is a bash script, and the second is a PowerShell script.
+
+Running one of these scripts downloads the latest version of configlet to the `bin` directory. You can then use configlet by running `bin/configlet` or `bin/configlet.exe` respectively.
 
 ## CI
 
