@@ -37,6 +37,6 @@ Running one of these scripts downloads the latest version of configlet to the `b
 
 ## CI
 
-All tracks should integrate the configlet lint functionality in their CI setup. The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/master/configlet-ci).
+All tracks should integrate the configlet lint functionality in their CI setup. The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/main/configlet-ci).
 
 TODO: describe other configlet features
