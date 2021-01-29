@@ -23,6 +23,12 @@ The tertiary function of configlet is to sync test data. Each implemented [Pract
 
 How to sync the contents of the `.meta/tests.toml` can be found [here](./)
 
+## Generating UUIDs
+
+Exercises, tracks and concepts are identified by a UUID.
+
+How to generate UUIDs can be found [here](./uuids.md).
+
 ## Usage
 
 configlet is distributed as a standalone binary. Each track should have a `bin/fetch-configlet` script, and might have a `bin/fetch-configlet.ps1` script too. The first is a bash script, and the second is a PowerShell script.

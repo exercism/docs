@@ -6,6 +6,8 @@ The `sync` command will compare the tests specified in the `tests.toml` files ag
 
 ## Usage
 
+The `sync` command can be used to sync the test data.
+
 ```
 configlet [global-options] sync [command-options]
 

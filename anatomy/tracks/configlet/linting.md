@@ -1,10 +1,20 @@
-# Configlet linting
+# Linting
 
-The primary use of [configlet](./README.md) is linting.
+The primary use of [configlet](./README.md) is linting: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
 
 ## Usage
 
-TODO: describe the command-line interface (command + options).
+The `lint` command can be used to lint a track.
+
+```
+configlet [global-options] lint [command-options]
+
+Global options:
+  -h, --help                   Show this help message and exit
+      --version                Show this tool's version information and exit
+  -t, --track-dir <dir>        Specify a track directory to use instead of the current directory
+  -v, --verbosity <verbosity>  The verbosity of output. Allowed values: q[uiet], n[ormal], d[etailed]
+```
 
 ## Rules
 
