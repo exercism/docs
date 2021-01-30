@@ -68,7 +68,9 @@ exercises
         └── CarsAssemblyTests.cs (tests)
 </pre>
 
-### File: .docs/introduction.md
+---
+
+### File: `.docs/introduction.md`
 
 **Purpose:** Introduce the concept(s) that the exercise teaches to the student.
 
@@ -92,7 +94,9 @@ my_first_variable = SomeComplexObject.new
 ```
 ````
 
-### File: .docs/introduction.md.tpl (optional)
+---
+
+### File: ```.docs/introduction.md.tpl``` (optional)
 
 **Purpose:** Template to generate an `introduction.md` file from.
 
@@ -112,7 +116,9 @@ Tracks can decide per exercise whether to use a template or not. In some cases, 
 %{concept:variables}
 ```
 
-### File: .docs/instructions.md
+---
+
+### File: `.docs/instructions.md`
 
 **Purpose:** Provide instructions for the exercise.
 
@@ -150,7 +156,9 @@ lasagna.remaining_minutes_in_oven(30)
 ```
 ````
 
-### File: .docs/hints.md
+---
+
+### File: `.docs/hints.md`
 
 **Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
 
@@ -233,23 +241,25 @@ The Concepts this exercise unlocks are:
 There are no prerequisites.
 ```
 
-### File: .meta/config.json
+---
+
+### File: `.meta/config.json`
 
 **Purpose:** Contains meta information on the exercise.
 
 This file contains meta information on the exercise:
 
-- The exercise's author(s) (required)
+- `authors`: The exercise's author(s) (required)
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
-- The exercise's contributor(s) (optional)
+- `contributors`: The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
-- Which exercise(s) it was forked from (required if the exercise is forked)
-- The files used in this exercises (solution/test/exemplar)
-- Language version requirements (optional)
+- `forked_from`: Which exercise(s) it was forked from (required if the exercise is forked)
+- `files`: The files used in this exercises (keys for `solution`, `test`, and `exemplar`, which point to the locations of the files specified in the "Stub Files", "Tests", and "Examplar Implementation" sections listed below)
+- `language_versions` Language version requirements (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
-#### Example
+#### Minimal Example
 
 ```json
 {
@@ -267,7 +277,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
 }
 ```
 
-#### Example (fork)
+#### Full Example
 
 Assume that the user FSharpForever has written an exercise called `basics` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
 
@@ -302,7 +312,9 @@ Note that:
 - While not common, it _is_ possible to fork from multiple exercises.
 - `language_versions` is a free-form string that tracks are free to use and interpret as they like.
 
-### File: stub implementation
+---
+
+### File: Stub implementation
 
 **Purpose:** Provide a starting point for students.
 
@@ -327,7 +339,9 @@ class Lasagna
 end
 ```
 
-### File: tests
+---
+
+### File: Tests
 
 **Purpose:** Verify a solution's correctness.
 
@@ -358,7 +372,9 @@ class LasagnaTest < Minitest::Test
 end
 ```
 
-### File: exemplar implementation
+---
+
+### File: Exemplar implementation
 
 **Purpose:** Provide the target implementation that a student should aim for.
 
@@ -385,7 +401,9 @@ class Lasagna
 end
 ```
 
-### File: additional files (required if default files are not enough to run the tests)
+---
+
+### File: Additional files (required if default files are not enough to run the tests)
 
 **Purpose:** Ensure that the tests can run.
 
