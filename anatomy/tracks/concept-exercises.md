@@ -254,7 +254,7 @@ This file contains meta information on the exercise:
 - `contributors`: The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - `forked_from`: Which exercise(s) it was forked from (required if the exercise is forked)
-- `files`: The files used in this exercises (keys for `solution`, `test`, and `exemplar`, which point to the locations of the files specified in the "Stub Files", "Tests", and "Examplar Implementation" sections listed below)
+- `files`: The files used in this exercises (keys for `solution`, `test`, and `exemplar`, which point to the locations of the files specified in the "Stub implementation", "Tests", and "Examplar Implementation" sections listed below)
 - `language_versions` Language version requirements (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
