@@ -4,14 +4,14 @@ Exercism's analyzers automatically assess student's submissions and provide ment
 
 ## Contributing to Analyzers
 
-Each language has it's own Analyzer, written in that language.
+Each language has its own Analyzer, written in that language.
 The website acts as the orchestrator between the Analyzers and students' submissions.
 
-Each Analyzer lives in the Exercism GitHub organsation in a repository named `$LANG-analyzer` (e.g. `ruby-analyzer`).
+Each Analyzer lives in the Exercism GitHub orginization in a repository named `$LANG-analyzer` (e.g. `ruby-analyzer`).
 You can explore the different Analyzers [here](https://github.com/exercism?q=-analyzer).
 
 If you would like to get involved in helping with an existing Analyzer, please open an issue in its repository asking if there is somewhere you can help.
-If you would like to create a Analyzer for a language that currently does not have one, please follow the [creating a Analyzer](creating-from-scratch.md) instructions.
+If you would like to create an Analyzer for a language that currently does not have one, please follow the [creating a Analyzer](creating-from-scratch.md) instructions.
 
 This directory contains the following information:
 
