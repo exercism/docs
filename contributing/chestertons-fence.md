@@ -30,7 +30,7 @@ So if you have an idea or a suggestion, we welcome it!
 But...
 
 Before posting it, please ask yourself whether we might have already considered it, and why we might have done things differently to what you're suggesting.
-And remember, the more obvious your idea seems - the more likely its been discussed and debating many times over, so when you present it, present it with the potential caveats and pitfalls in place.
+And remember, the more obvious your idea seems - the more likely it's been discussed and debated many times over -- so when you present it, present it with the potential caveats and pitfalls in place.
 If you have an instinct to say "why not **just** ...", then it almost certainly falls into this category.
 
 ## Got an example?
