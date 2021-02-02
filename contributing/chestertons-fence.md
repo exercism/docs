@@ -33,7 +33,7 @@ Before posting it, please ask yourself whether we might have already considered 
 And remember, the more obvious your idea seems - the more likely it's been discussed and debated many times over -- so when you present it, present it with the potential caveats and pitfalls in place.
 If you have an instinct to say "why not **just** ...", then it almost certainly falls into this category.
 
-## Got an example?
+## Do you have an example?
 
 A common frustration is that students submit code to mentors that does not pass the tests.
 An equally common suggestion is "Why not just automatically run the tests in the CLI before someone submits their code?"
