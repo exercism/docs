@@ -18,7 +18,7 @@ This is the original quote:
 The idea of Chesterton’s Fence is that you if don't understand why something is there, you probably don't understand why it should be removed.
 Equally, if you don't understand why something **isn't** there, you probably don't understand why it's been left out.
 
-## Relevant to Exercism how?
+## This Notion is Relevant to Exercism how?
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
 Nearly everything with Exercism has been debated, discussed and rewritten many times.
