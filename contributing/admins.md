@@ -34,5 +34,5 @@ If you feel a conversation is becoming draining and unproductive, or could move 
 
 Exercism's current administrators are:
 
-- Jeremy Walker (@iHiD on Slack)
+- Jeremy Walker (@iHiD on Slack and GitHub)
 - Erik Schierboom (@ErikSchierboom on Slack and GitHub)
