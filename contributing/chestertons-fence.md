@@ -18,6 +18,8 @@ This is the original quote:
 The idea of Chesterton’s Fence is that you if don't understand why something is there, you probably don't understand why it should be removed.
 Equally, if you don't understand why something **isn't** there, you probably don't understand why it's been left out.
 
+**Do not remove a fence until you know why it was put up in the first place.**
+
 ## This Notion is Relevant to Exercism how?
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
@@ -73,5 +75,5 @@ _Note: We're acutally solving this by running the tests server-side - a large an
 
 Two things:
 
-1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read.
+1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read. The quote "Do not remove a fence until you know why it was put up in the first place" is from this post.
 2. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!
