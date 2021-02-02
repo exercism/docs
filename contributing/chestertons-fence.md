@@ -18,7 +18,7 @@ This is the original quote:
 The idea of Chesterton’s Fence is that you if don't understand why something is there, you probably don't understand why it should be removed.
 Equally, if you don't understand why something **isn't** there, you probably don't understand why it's been left out.
 
-**Do not remove a fence until you know why it was put up in the first place.**
+A simple rule to remember is: **"Do not remove a fence until you know why it was put up in the first place."**
 
 ## This Notion is Relevant to Exercism how?
 
