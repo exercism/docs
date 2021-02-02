@@ -27,7 +27,7 @@ Our perfect situation would be to never interfere in contributions and let every
 However, we have discovered (the hard way) that protracted discussions are often a huge drain on the mental health of our staff and maintainers, and often results in a worse outcome for the student, where someone "gives in", rather than a true consensus being reached.
 If an administrator enters your conversation wearing their "administrator hat", please understand that their intentions are to protect our contributors and students, and move things forward.
 Please treat them with respect, and take any decisions they make as final.
-Do not take them entering a conversation to be a sign of disrepsect - when an administrator acts in that role it does not necessarily mean that they think the conversation has become negative, but they want to protect everyone involved before that happens.
+Do not take them entering a conversation to be a sign of disrespect - when an administrator acts in that role it does not necessarily mean that they think the conversation has become negative, but they want to protect everyone involved before that happens.
 They will be (attempt to) wield this power pragmatically.
 
 If you feel a conversation is becoming draining and unproductive, or could move that way, please feel free to tag @exercism/maintainers-admin in a post to ask for guidance or reach out to one of the admins on Slack.
