@@ -63,7 +63,7 @@ So rather than posing the suggestion of "why not run the tests before submission
 And then things get interesting.
 The general answer is because they're stuck or confused.
 And they need help.
-Which means that submitting broken tests is a really important heuristic for mentors that this student needs help.
+Which means that submitting broken tests is a really important heuristic for mentors that this student _needs help_.
 Yes, it's frustrating because mentors can't immediately know if the code is "correct" or not, but by then downloading the code and running it to check it (which most mentors to on non-trival solutions), they can know with 100% certainty whether the code is correct or not.
 And the students who are stuck and need help don't end up more stuck, needing more help, but get to a mentor more quickly.
 
