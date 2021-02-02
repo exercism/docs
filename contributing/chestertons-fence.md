@@ -69,7 +69,7 @@ Which means that submitting broken tests is a really important heuristic for men
 Yes, it's frustrating because mentors don't immediately know if the code is "correct" or not. However, they can download the code and run it to verify it (which most mentors do on non-trivial solutions) and then know with 100% certainty whether it is correct or not.
 And the students who are stuck and need help don't end up more stuck, needing more help, but get to a mentor who can see and suggest corrections more quickly.
 
-_Note: We're acutally solving this by running the tests server-side - a large and expensive undertaking, but one worth the effort for the improved student experience, and crucially saving our mentors time and energy._
+_Note: We're actually solving this by running the tests server-side - a large and expensive undertaking, but one worth the effort for the improved student experience, and crucially saving our mentors time and energy._
 
 ## Anything else?
 
