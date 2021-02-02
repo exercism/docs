@@ -59,7 +59,7 @@ Yes, you could - solid suggestion.
 But then, that means people can also choose to bypass the tests whenever they want anyway, which gets you back to the starting point, except now it's marginally less likely that broken tests are submitted, which means mentors have **less** expectation of that, meaning it's more jarring and confusing when the tests **are** broken.
 
 "But people wouldn't do that generally" you may argue. True, for some languages where it takes 0.5s to run the tests.
-But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredbily frustrating for students.
+But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students.
 
 So rather than posing the suggestion of "why not run the tests before submission", let's ask a question: "Why do people post solutions that don't pass the tests?"
 And then things get interesting.
