@@ -8,7 +8,7 @@ Before our team invest time into exploring your idea, they're hoping you'll read
 ## So what does "Chesterton's Fence" mean?
 
 Chesterton’s Fence is an idea inspired by a quote from the writer G.K. Chesterton’s 1929 book, The Thing.
-If became wellknown as it was quoted by John F. Kennedy.
+It became well-known as it was quoted by John F. Kennedy.
 This is the original quote:
 
 > There exists in such a case a certain institution or law; let us say, for the sake of simplicity, a fence or gate erected across a road.
