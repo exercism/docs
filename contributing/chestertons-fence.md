@@ -64,7 +64,7 @@ And then things get interesting.
 The general answer is because they're stuck or confused.
 And they need help.
 Which means that submitting broken tests is a really important heuristic for mentors that this student _needs help_.
-Yes, it's frustrating because mentors can't immediately know if the code is "correct" or not, but by then downloading the code and running it to check it (which most mentors to on non-trival solutions), they can know with 100% certainty whether the code is correct or not.
+Yes, it's frustrating because mentors don't immediately know if the code is "correct" or not. However, they can download the code and run it to verify it (which most mentors do on non-trivial solutions) and then know with 100% certainty whether it is correct or not.
 And the students who are stuck and need help don't end up more stuck, needing more help, but get to a mentor who can see and suggest corrections more quickly.
 
 _Note: We're acutally solving this by running the tests server-side - a large and expensive undertaking, but one worth the effort for the improved student experience, and crucially saving our mentors time and energy._
