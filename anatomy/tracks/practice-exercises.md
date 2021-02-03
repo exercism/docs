@@ -212,7 +212,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
   "files": {
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],
-    "exemplar": [".meta/Exemplar.fs"]
+    "example": [".meta/Example.fs"]
   }
 }
 ```
