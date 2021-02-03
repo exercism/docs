@@ -347,6 +347,7 @@ Note that:
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The stub file is shown to the student when doing in-browser coding and is downloaded to the student's file system when using the CLI.
+- The relative paths to the stub implementation file(s) must be specified in the [`.meta/config.json` file's `"files.solution"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -375,6 +376,7 @@ end
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
 - All but the first test should be skipped by default. How this is done differs between languages.
 - The tests file is _not_ shown to the student when doing in-browser coding, but _is_ downloaded to the student's file system when using the CLI.
+- The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -410,6 +412,7 @@ end
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The exemplar file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
 - The exemplar file will be shown to mentors when commenting on solutions or representations.
+- The relative paths to the example implementation file(s) must be specified in the [`.meta/config.json` file's `"files.exemplar"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -440,4 +443,4 @@ Some languages require additional files for the tests to run. Example of these a
 
 ## CLI vs editor
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` files will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
