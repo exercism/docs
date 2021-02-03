@@ -80,7 +80,8 @@ _Note: We're actually solving this by running the tests server-side - a large an
 
 ## Anything else?
 
-Two things:
+Three things:
 
 1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read. The quote "Do not remove a fence until you know why it was put up in the first place" is from this post.
-2. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!
+2. G.K. Chesteron's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
+3. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!
