@@ -50,7 +50,7 @@ But it also means writing that script so that it runs on Windows, MacOSX and Lin
 Well, because you're actively blocking someone from using Exercism unless they can run this script.
 That also means that it can never fail.
 If for some reason the script doesn't run, then the student is entirely blocked.
-A bug in one of those 52*3*n scripts means a student can't use the track any more on that OS.
+A bug in one of those `52*3*n` scripts means a student can't use the track any more on that OS.
 How do you test that?
 You can't.
 
