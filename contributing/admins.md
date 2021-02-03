@@ -24,7 +24,7 @@ Then generally try and resolve discussions by adhering to the following guidance
 - If not, they will make a decision as they feel best - often attempting to find the path that involves the least ongoing changes/disruption.
 
 Our perfect situation would be to never interfere in contributions and let everything come to a natural conclusion.
-However, we have discovered (the hard way) that protracted discussions are often a huge drain on the mental health of our staff and maintainers, and often results in a worse outcome for the student, where someone "gives in", rather than a true consensus being reached.
+However, we have discovered (the hard way) that drawn-out discussions are often a huge drain on the mental health of our staff and maintainers, and often results in a worse outcome for the student, where someone "gives in", rather than a true consensus being reached.
 If an administrator enters your conversation wearing their "administrator hat", please understand that their intentions are to protect our contributors and students, and move things forward.
 Please treat them with respect, and take any decisions they make as final.
 Do not take them entering a conversation to be a sign of disrespect - when an administrator acts in that role it does not necessarily mean that they think the conversation has become negative, but they want to protect everyone involved before that happens.
