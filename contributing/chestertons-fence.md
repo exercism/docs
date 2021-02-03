@@ -60,7 +60,7 @@ That's a good suggestion, but it leads us back to our starting point that people
 Except now we're in a situation where it's marginally less likely that broken tests are submitted so mentors have a lower expectation of that, meaning it's more jarring and confusing when the tests **are** broken.
 
 "But people wouldn't do that generally" you may argue. True, for some languages where it takes 0.5s to run the tests.
-But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students.
+But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students, and so skipping the final tests would become common-place. 
 
 So rather than posing the suggestion of "why not run the tests before submission", let's ask a question: "Why do people post solutions that don't pass the tests?"
 And then things get interesting.
