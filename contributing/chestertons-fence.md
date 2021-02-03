@@ -1,7 +1,7 @@
 # Chesterton's Fence
 
 Hello :wave:
-You're probably here becomes someone directed you to this post in response to you suggesting an idea about how Exercism could be improved.
+You're probably here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved.
 Before our team invests time into exploring your idea, they're hoping you'll read this and consider whether your idea might have been thought of before, what pitfalls it might contain.
 **By adding those problems and pitfalls to your suggestion, and considering why your idea might not have already been implemented, you are likely to get a faster and more positive response.**
 
