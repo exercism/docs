@@ -9,7 +9,7 @@ At Exercism, we aim to prioritise, in order of priority, the following:
 
 We also place a high degree of faith in pragmatism - not always seeking the most "correct" or "perfect" outcome, but making decisions that make positive steps in the right directions, even if sometimes they come with some downsides.
 
-The role of our administrator (or "admins") is to ensure that in discussions and interactions around Exercism that these aims are met and that decisions are made pragmatically.
+The role of our administrators (or "admins") is to ensure that in discussions and interactions around Exercism these aims are met and that decisions are made pragmatically.
 
 From time to time an admin may come into a conversation and announce they are acting in that role, for example starting a post with "Wearing my admin hat...".
 They will normally link back to this post to explain what that means.
