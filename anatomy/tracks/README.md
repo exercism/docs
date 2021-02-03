@@ -19,7 +19,7 @@ Tracks have two types of exercises:
 - Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](./concept-exercises.md) for more information.
 - Practice exercise: they are designed to practice learnt concepts. Check the [documentation](./practice-exercises.md) for more information.
 
-## Shared
+## Shared files
 
 Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
 
