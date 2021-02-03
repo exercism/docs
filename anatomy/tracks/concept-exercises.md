@@ -36,26 +36,25 @@ A Concept Exercise has three types of files.
 
 These files are presented to the student to help explain the exercise.
 
-- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student.
-- `.docs/instructions.md`: provide instructions for the exercise.
-- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise.
-- `.docs/source.md`: describe the third-party source(s) of the exercise.
+- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student (required)
+- `.docs/instructions.md`: provide instructions for the exercise (required)
+- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required)
 
 ### Metadata files
 
 These files are _not_ presented to the student, but used to define metadata of the exercise.
 
-- `.meta/config.json`: contains meta information on the exercise.
-- `.meta/design.md`: describe the design of the exercise.
+- `.meta/config.json`: contains meta information on the exercise (required)
+- `.meta/design.md`: describe the design of the exercise (required)
 
 ### Exercise files
 
 The language-specific files, like the implementation and test files. The names of these files are track-specific.
 
-- Test suite: verify a solution's correctness.
-- Stub implementation: provide a starting point for students.
-- Exemplar implementation: provide an idiomatic implementation that passes all the tests.
-- Additional files: ensure that the tests can run.
+- Test suite: verify a solution's correctness (required)
+- Stub implementation: provide a starting point for students (required)
+- Exemplar implementation: provide an idiomatic implementation that passes all the tests (required)
+- Additional files: ensure that the tests can run (optional)
 
 ### Example
 
@@ -207,14 +206,6 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 [methods]: https://launchschool.com/books/ruby/read/methods
 ```
 
-### File: .docs/source.md
-
-**Purpose:** Describe the third-party source(s) of the exercise.
-
-**Presence:** Required if there are third-party sources
-
-This file contains third-party references and sources of the exercise. Only required if there are any such sources, but not if the exercise was completely designed from scratch for Exercism.
-
 #### Example
 
 ```markdown
@@ -276,7 +267,9 @@ This file contains meta information on the exercise:
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - `forked_from`: Which exercise(s) it was forked from (required if the exercise is forked)
 - `files`: The files used in this exercises (keys for `solution`, `test`, and `exemplar`, which point to the locations of the files specified in the "Stub implementation", "Tests", and "Examplar Implementation" sections listed below)
-- `language_versions` Language version requirements (optional)
+- `language_versions`: Language version requirements (optional)
+- `source`: The source this exercise is based on (optional)
+- `source_url`: The URL of the source this exercise is based on (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -322,7 +315,9 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
     "exemplar": [".meta/exemplar.py"]
   },
   "forked_from": ["fsharp/basics"],
-  "language_versions": ">=3.7"
+  "language_versions": ">=3.7",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }
 ```
 

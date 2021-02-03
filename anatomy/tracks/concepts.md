@@ -27,9 +27,9 @@ Concept metadata is defined in the `concepts` key in the [config.json file](./co
 
 Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](./config-json.md#concept). Each concept directory must contain the following files:
 
-- `about.md`: provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
-- `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
-- `links.json`: provide helpful links that provide more reading or information about a concept.
+- `about.md`: provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to (required)
+- `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise (required)
+- `links.json`: provide helpful links that provide more reading or information about a concept (required)
 
 ### Example
 

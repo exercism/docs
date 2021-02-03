@@ -18,8 +18,12 @@ The template file should be treated like a regular Markdown file but with one ad
 
 - `%{concept:<slug>}`: refers to the concept's [`introduction.md` document](../concepts.md#fileintroductionmd)
 
-When configlet detects that an exercise has an `introduction.md.tpl` file, it will generate a `introduction.md` file from it. The generated introduction will have the same contents as the template, expect for the placeholders, which will be replaced with the contents of the documents they refer to.
+When configlet detects that a Concept Exercise has an `introduction.md.tpl` file, it will generate a `introduction.md` file from it. The generated introduction will have the same contents as the template, expect for the placeholders, which will be replaced with the contents of the documents they refer to.
 
-### Document: Practice Exercise's README.md file
+### Document: Practice Exercise's introduction.md file
 
-TODO: document how generating the README.md file works
+When configlet detects that a Practice Exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/) that has an `introduction.md` file, configlet will sync the Practice Exercise's `.meta/introduction.md` file with the Problem Specification Exercise's `introduction.md` file.
+
+### Document: Practice Exercise's instructions.md file
+
+When configlet detects that a Practice Exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), configlet will sync the Practice Exercise's `.meta/instructions.md` file with either the Problem Specifications Exercise's `instructions.md` file or its `description.md` file when no `instructions.md` file was found.
