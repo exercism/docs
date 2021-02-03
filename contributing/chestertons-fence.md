@@ -22,7 +22,7 @@ A simple rule to remember is: **"Do not remove a fence until you know why it was
 
 ## This Notion is Relevant to Exercism how?
 
-At Exercism, we’re fortunate to have loads of people joining our community all the time, and posting their thoughts and ideas. 
+At Exercism, we're fortunate to have loads of people joining our community all the time, and posting their thoughts and ideas. 
 Many of those ideas are new, innovative, exciting, and unblock our thinking.
 So if you have an idea or a suggestion, we welcome it!
 
