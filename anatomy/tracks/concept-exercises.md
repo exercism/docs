@@ -390,10 +390,12 @@ class LasagnaTest < Minitest::Test
   end
 
   def test_preparation_time_in_minutes_with_one_layer
+    skip
     assert_equal 2, Lasagna.new.preparation_time_in_minutes(1)
   end
 
   def test_preparation_time_in_minutes_with_multiple_layers
+    skip
     assert_equal 8, Lasagna.new.preparation_time_in_minutes(4)
   end
 end
