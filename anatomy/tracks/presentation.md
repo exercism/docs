@@ -11,10 +11,10 @@ There are three types of documentation files that determine what documentation i
 ## Exercise-specific files
 
 - `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student (required)
-- `.docs/introduction.append.md`: additional introduction text to append after the existing introduction (optional, only used in practice exercises)
+- `.docs/introduction.append.md`: additional introduction text to append after the existing introduction (not used in concept exercises, optional for practice exercises)
 - `.docs/instructions.md`: provide instructions for the exercise (required)
-- `.docs/instructions.append.md`: additional introduction text to append after the existing instructions (optional, only used in practice exercises)
-- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required)
+- `.docs/instructions.append.md`: additional introduction text to append after the existing instructions (not used in concept exercises, optional for practice exercises)
+- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required for concept exercises, optional for practice exercises)
 - `.meta/config.json`: contains source information of the exercise (optional)
 
 ## Track-specific files
