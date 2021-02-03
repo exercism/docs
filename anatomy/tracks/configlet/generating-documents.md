@@ -27,3 +27,7 @@ When configlet detects that a Practice Exercise implements a [Problem Specificat
 ### Document: Practice Exercise's instructions.md file
 
 When configlet detects that a Practice Exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), configlet will sync the Practice Exercise's `.meta/instructions.md` file with either the Problem Specifications Exercise's `instructions.md` file or its `description.md` file when no `instructions.md` file was found.
+
+### Document: Practice Exercise's .meta/config.json file
+
+When configlet detects that a Practice Exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), configlet will sync the Problem Specification Exercise's `source` and `source_url` keys from its `metadata.yml` file to the Practice Exercise's `source` and `source_url` properties in its `.meta/config.json` file.
