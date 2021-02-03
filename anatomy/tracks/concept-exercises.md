@@ -30,25 +30,32 @@ Concept Exercise metadata is defined in the `exercises.concept` key in the [conf
 
 Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
 
-A Concept Exercise is comprised of three types of files:
+A Concept Exercise has three types of files.
 
-- Documentation files: presented to the student to help explain the exercise
-- Metadata files: not presented to the student, but used to define metadata of the exercise
-- Exercise files: the language-specific files, like the implementation and test files
+### Documentation files
 
-Each Concept Exercise directory must contain the following files:
+These files are presented to the student to help explain the exercise.
 
 - `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student.
 - `.docs/instructions.md`: provide instructions for the exercise.
 - `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise.
+- `.docs/source.md`: describe the third-party source(s) of the exercise.
+
+### Metadata files
+
+These files are _not_ presented to the student, but used to define metadata of the exercise.
+
 - `.meta/config.json`: contains meta information on the exercise.
 - `.meta/design.md`: describe the design of the exercise.
 
-Besides these files, the following three files must be present, but their file names are track-specific:
+### Exercise files
+
+The language-specific files, like the implementation and test files. The names of these files are track-specific.
 
 - Test suite: verify a solution's correctness.
 - Stub implementation: provide a starting point for students.
 - Exemplar implementation: provide an idiomatic implementation that passes all the tests.
+- Additional files: ensure that the tests can run.
 
 ### Example
 
@@ -74,6 +81,8 @@ exercises
 
 **Purpose:** Introduce the concept(s) that the exercise teaches to the student.
 
+**Presence:** Required
+
 - The information provided should give the student just enough context to figure out the solution themselves.
 - Only information that is needed to understand the fundamentals of the concept and solve the exercise should be provided. Extra information should be left for the concept's `about.md` document.
 - Links should be used sparingly, if at all. While a link explaining a complex topic like recursion might be useful, for most concepts the links will provide more information than needed so explaining things concisely inline should be the aim.
@@ -96,9 +105,11 @@ my_first_variable = SomeComplexObject.new
 
 ---
 
-### File: ```.docs/introduction.md.tpl``` (optional)
+### File: `.docs/introduction.md.tpl`
 
 **Purpose:** Template to generate an `introduction.md` file from.
+
+**Presence:** Optional
 
 The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](./concepts#fileintroductionmd), which is not shown outside the context of an exercise.
 
@@ -121,6 +132,8 @@ Tracks can decide per exercise whether to use a template or not. In some cases, 
 ### File: `.docs/instructions.md`
 
 **Purpose:** Provide instructions for the exercise.
+
+**Presence:** Required
 
 This file is split into two parts.
 
@@ -162,6 +175,8 @@ lasagna.remaining_minutes_in_oven(30)
 
 **Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
 
+**Presence:** Required
+
 - If the student gets stuck, we will allow them to click a button requesting a hint, which will show the relevant part of file.
 - Hints should be bullet-pointed underneath headings.
 - The hints should be enough to unblock almost any student.
@@ -192,9 +207,11 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 [methods]: https://launchschool.com/books/ruby/read/methods
 ```
 
-### File: .docs/source.md (required if there are third-party sources)
+### File: .docs/source.md
 
 **Purpose:** Describe the third-party source(s) of the exercise.
+
+**Presence:** Required if there are third-party sources
 
 This file contains third-party references and sources of the exercise. Only required if there are any such sources, but not if the exercise was completely designed from scratch for Exercism.
 
@@ -207,6 +224,8 @@ This exercise is based on an example used in the talk "The Unreasonable Effectiv
 ### File: .meta/design.md
 
 **Purpose:** Describe the design of the exercise.
+
+**Presence:** Required
 
 This file contains information on the exercise's design, which includes things like its goal, its teaching goals, what not to teach, and more. This information can be extracted from the exercise's corresponding GitHub issue.
 
@@ -246,6 +265,8 @@ There are no prerequisites.
 ### File: `.meta/config.json`
 
 **Purpose:** Contains meta information on the exercise.
+
+**Presence:** Required
 
 This file contains meta information on the exercise:
 
@@ -318,6 +339,8 @@ Note that:
 
 **Purpose:** Provide a starting point for students.
 
+**Presence:** Required
+
 - Design the stub such that a student will know where to add code.
 - Define stubs for any syntax that is not introduced in the exercise. For most exercises, this means defining stub function/methods.
 - For compiled languages, consider having compilable code, as compiler messages can sometimes be hard to grasp for students new to the language.
@@ -344,6 +367,8 @@ end
 ### File: Tests
 
 **Purpose:** Verify a solution's correctness.
+
+**Presence:** Required
 
 - The tests should not use the examples from the `instructions.md` file.
 - The code should be as simple as possible.
@@ -378,6 +403,8 @@ end
 
 **Purpose:** Provide the target implementation that a student should aim for.
 
+**Presence:** Required
+
 - This implementation is the target code that we want a student to aim for.
 - Mentors will be shown this code as the "target" when writing feedback
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
@@ -403,9 +430,11 @@ end
 
 ---
 
-### File: Additional files (required if default files are not enough to run the tests)
+### File: Additional files
 
 **Purpose:** Ensure that the tests can run.
+
+**Presence:** Required if default files are not enough to run the tests
 
 Some languages require additional files for the tests to run. Example of these are C#'s project files and Node's `package.json` files, without which it will not be possible to run the tests.
 
