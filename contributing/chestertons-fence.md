@@ -28,7 +28,7 @@ So if you have an idea or a suggestion, we welcome it!
 
 However, more often people post ideas that have been discussed many times before. 
 Responding to those ideas, and readdressing or rejustifying our decisions can be extremely draining on our team. 
-So we this article aims to help protect that time and energy.
+This article aims to help protect that time and energy.
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
 It is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
