@@ -30,7 +30,7 @@ Concept Exercise metadata is defined in the `exercises.concept` key in the [conf
 
 Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
 
-A Concept Exercise has three types of files.
+A Concept Exercise has three types of files:
 
 ### Documentation files
 
