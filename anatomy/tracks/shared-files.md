@@ -26,6 +26,10 @@ These files are presented to the student to help explain the exercise.
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
+### Overwriting
+
+Exercises can overwrite the track-specific files by creating an identically named file in the exercise's `.docs` directory (e.g. `.docs/debug.md`). This should only rarely be needed (if at all).
+
 ---
 
 ### File: `debug.md`
