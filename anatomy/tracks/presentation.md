@@ -5,8 +5,8 @@ _work in progress_
 There are three types of documentation files that determine what documentation is being presented for an exercise:
 
 - Exercise-specific files: see the [Concept Exercises documentation](./concept-exercises#documentationfiles) and the [Practice Exercises documentation](./concept-exercises#documentationfiles)
-- Track-specific files: see the [documentation](./shared.md#trackspecificfiles)
-- Exercism-wide files: see the [documentation](./shared.md#exercismwidefiles)
+- Track-specific files: see the [documentation](./shared-files.md#trackspecificfiles)
+- Exercism-wide files: see the [documentation](./shared-files.md#exercismwidefiles)
 
 ## Exercise-specific files
 

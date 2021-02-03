@@ -354,7 +354,7 @@ Some languages require additional files for the tests to run. Example of these a
 
 ## Shared files
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared.md) for more information.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
 
 ## Presentation
 
