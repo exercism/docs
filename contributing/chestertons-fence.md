@@ -22,18 +22,23 @@ A simple rule to remember is: **"Do not remove a fence until you know why it was
 
 ## This Notion is Relevant to Exercism how?
 
-Exercism has been designed, engineered and built by thousands of very talented individuals.
-Nearly everything with Exercism has been debated, discussed and rewritten many times.
-Exercism is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
-
-That said, every day someone comes up with a great idea that we've not thought of before - an idea that's new or better, or unblocks our thinking.
+At Exercism, we’re fortunate to have loads of people joining our community all the time, and posting their thoughts and ideas. 
+Many of those ideas are new, innovative, exciting, and unblock our thinking.
 So if you have an idea or a suggestion, we welcome it!
 
-But...
+However, more often people post ideas that have been discussed many times before. 
+Responding to those ideas, and readdressing or rejustifying our decisions can be extremely draining on our team. 
+So we this article aims to help protect that time and energy.
 
-Before posting it, please ask yourself whether we might have already considered it, and why we might have done things differently to what you're suggesting.
+Exercism has been designed, engineered and built by thousands of very talented individuals.
+It is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
+Nearly everything with Exercism has been debated, discussed and re-enginnered many times.
+
+So before posting your idea, please ask yourself whether we might have already considered it, and why we might have done things differently to what you're suggesting.
 And remember, the more obvious your idea seems - the more likely it's been discussed and debated many times over -- so when you present it, present it with the potential caveats and pitfalls in place.
 If you have an instinct to say "why not **just** ...", then it almost certainly falls into this category.
+
+Don't ever be scared of posting, but please think things through carefully first!
 
 ## Do you have an example?
 
