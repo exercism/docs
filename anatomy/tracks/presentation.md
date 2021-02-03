@@ -111,6 +111,8 @@ This is how to get track-specific help.
 This is how to get Exercism-wide help.
 ```
 
+TODO: verify that this is the correct format
+
 #### HINTS.md
 
 This is the contents of the generated `HINTS.md` file:
@@ -181,6 +183,8 @@ This is how to get Exercism-wide help.
 
 Wikipedia. https://en.wikipedia.org/wiki/Lasagne
 ```
+
+TODO: verify that this is the correct format
 
 #### HINTS.md
 
