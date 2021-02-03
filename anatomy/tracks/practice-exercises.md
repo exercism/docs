@@ -156,6 +156,33 @@ In some (rare) cases, you might want to expand on the exercise's `instructions.m
 Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 ```
 
+### File: `.docs/hints.md`
+
+**Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
+
+**Presence:** Required
+
+- If the student gets stuck, we will allow them to click a button requesting a hint, which will show the relevant part of file.
+- Hints should be bullet-pointed underneath headings.
+- The hints should be enough to unblock almost any student.
+- The hints should not spell out the solution, but instead point to a resource describing the solution (e.g. linking to documentation for the function to use).
+- The hints may use code samples to explain concepts, but not to outline the solution. e.g. in a lists exercise they might show a snippet of how a certain list function works, but not in a way that is directly copy/pasteable into the solution.
+- The hints must appear as a Markdown list under a `## General` heading.
+
+Viewing hints will not be a "recommended" path and we will (softly) discourage using it unless the student can't progress without it. As such, it's worth considering that the student reading it will be a little confused/overwhelmed and maybe frustrated.
+
+#### Example
+
+```markdown
+## General
+
+- There are many [built-in methods](integers) to simplify working with integers.
+
+[integers]: https://ruby-doc.org/core-2.7.0/Integer.html
+```
+
+---
+
 ### File: .meta/design.md
 
 **Purpose:** Describe the design of the exercise.
@@ -325,6 +352,10 @@ public static class Isogram
 
 Some languages require additional files for the tests to run. Example of these are C#'s project files and Node's `package.json` files, without which it will not be possible to run the tests.
 
-## CLI vs editor
+## Shared files
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md`, `introduction.append.md`, `instructions.md` and `instructions.append.md` files will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared.md) for more information.
+
+## Presentation
+
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.

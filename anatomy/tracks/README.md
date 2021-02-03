@@ -21,12 +21,7 @@ Tracks have two types of exercises:
 
 ## Shared
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. These files are
-
-The `exercises/shared` directory contains files that are shared across exercises:
-
-- `.docs/cli.md`: contains information on how to work with the exercise when using the CLI to download and submit the exercise.
-- `.docs/debug.md`: explains how a student that is coding in the browser can still do "debugging."
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared.md) for more information.
 
 ## Config
 

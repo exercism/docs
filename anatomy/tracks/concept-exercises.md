@@ -181,8 +181,8 @@ lasagna.remaining_minutes_in_oven(30)
 - The hints should be enough to unblock almost any student.
 - The hints should not spell out the solution, but instead point to a resource describing the solution (e.g. linking to documentation for the function to use).
 - The hints may use code samples to explain concepts, but not to outline the solution. e.g. in a lists exercise they might show a snippet of how a certain list function works, but not in a way that is directly copy/pasteable into the solution.
-- General hints about the exercise can appear under the `## General` heading.
-- Task-specific hints should appear underneath headings that match their task heading in the `instructions.md` (e.g. `## 2. Do Y`).
+- General hints about the exercise can appear as a Markdown list under the `## General` heading.
+- Task-specific hints should appear as a Markdown list underneath headings that match their task heading in the `instructions.md` (e.g. `## 2. Do Y`).
 - Prioritize task-specific hints over general hints, as task-specific hints are more likely to unblock the student than general hints.
 - Task headings should describe the _what_ of the task, not the _how_.
 - Task headings should use regular sentence casing (e.g. `## 2. Check if a book can be borrowed`).
@@ -206,11 +206,7 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 [methods]: https://launchschool.com/books/ruby/read/methods
 ```
 
-#### Example
-
-```markdown
-This exercise is based on an example used in the talk "The Unreasonable Effectiveness of Multiple Dispatch" held by Stefan Karpinski at JuliaCon 2019, available on [YouTube](https://youtu.be/kc9HwsxE1OY?t=422).
-```
+---
 
 ### File: .meta/design.md
 
@@ -438,6 +434,10 @@ end
 
 Some languages require additional files for the tests to run. Example of these are C#'s project files and Node's `package.json` files, without which it will not be possible to run the tests.
 
-## CLI vs editor
+## Shared files
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` files will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared.md) for more information.
+
+## Presentation
+
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.
