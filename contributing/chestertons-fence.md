@@ -15,7 +15,7 @@ This is the original quote:
 > The more modern type of reformer goes gaily up to it and says, “I don’t see the use of this; let us clear it away.”
 > To which the more intelligent type of reformer will do well to answer: “If you don’t see the use of it, I certainly won’t let you clear it away. Go away and think. Then, when you can come back and tell me that you do see the use of it, I may allow you to destroy it."
 
-The idea of Chesterton’s Fence is that you if don't understand why something is there, you probably don't understand why it should be removed.
+The idea of Chesterton's Fence is that you if don't understand why something is there, you probably don't understand why it should be removed.
 Equally, if you don't understand why something **isn't** there, you probably don't understand why it's been left out.
 
 A simple rule to remember is: **"Do not remove a fence until you know why it was put up in the first place."**
