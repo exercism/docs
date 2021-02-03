@@ -55,7 +55,6 @@ How do you test that?
 You can't.
 
 But, you say, you could just add a `--skip-tests` flag.
-Yes, you could - solid suggestion.
 That's a good suggestion, but it leads us back to our starting point that people can choose to bypass the tests whenever they want.
 Except now we're in a situation where it's marginally less likely that broken tests are submitted so mentors have a lower expectation of that, meaning it's more jarring and confusing when the tests **are** broken.
 
