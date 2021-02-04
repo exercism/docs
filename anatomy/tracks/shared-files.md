@@ -1,5 +1,3 @@
-_work in progress_
-
 # Shared files
 
 Some documentation files apply to both [Concept Exercises](./concept-exercises.md) and [Practice Exercises](./practice-exercises.md). There are two types of these files:

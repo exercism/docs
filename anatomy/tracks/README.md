@@ -1,5 +1,3 @@
-_work in progress_
-
 # Track
 
 A track consists of many different parts.

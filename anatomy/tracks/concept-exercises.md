@@ -1,5 +1,3 @@
-_work in progress_
-
 # Concept Exercises
 
 [Concept Exercises](../../product/concept-exercises.md) are exercises designed to teach specific (programming) concepts.

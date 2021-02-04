@@ -1,5 +1,3 @@
-_work in progress_
-
 # Presentation
 
 There are three types of documentation files that determine what documentation is being presented for an exercise:

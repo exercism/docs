@@ -1,5 +1,3 @@
-_work in progress_
-
 # Configlet
 
 [configlet](https://github.com/exercism/configlet) is a tool to help track maintainers with the maintenance of their track.

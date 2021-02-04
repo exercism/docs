@@ -1,5 +1,3 @@
-_work in progress_
-
 # config.json
 
 The `config.json` file describes the track's configuration. It contains vital information like the track's exercises and concepts.
