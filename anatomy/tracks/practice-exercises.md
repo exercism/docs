@@ -108,8 +108,10 @@ Bob is a lackadaisical teenager. In conversation, his responses are very limited
 
 In some (rare) cases, you might want to expand on the exercise's `introduction.md` file, for example when the exercise has implemented tests that are not covered by the existing instructions.
 
+A track that doesn't want Bob to support, might add the following:
+
 ```markdown
-Bob has been having a tough time lately though, so you want to help Bob.
+As part of his teenage rebellion, Bob has decided to only communicate using ASCII.
 ```
 
 ### File: `.docs/instructions.md`
