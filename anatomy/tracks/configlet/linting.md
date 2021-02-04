@@ -158,7 +158,7 @@ The `config.json` file should have the following checks:
 - The `"authors[].github_username"` key is required
 - The `"authors[].github_username"` key must be a non-empty, non-blank string
 - The `"authors[].github_username"` value is treated case-insensitively
-- The `"authors[].exercism_username"` key is required
+- The `"authors[].exercism_username"` key is optional
 - The `"authors[].exercism_username"` key must be a non-empty, non-blank string
 - The `"authors[].github_username"` value is treated case-insensitively
 - The `"contributors"` key is optional
@@ -166,7 +166,7 @@ The `config.json` file should have the following checks:
 - The `"contributors[].github_username"` key is required
 - The `"contributors[].github_username"` key must be a non-empty, non-blank string
 - The `"contributors[].github_username"` value is treated case-insensitively
-- The `"contributors[].exercism_username"` key is required
+- The `"contributors[].exercism_username"` key is optional
 - The `"contributors[].exercism_username"` key must be a non-empty, non-blank string
 - The `"contributors[].exercism_username"` value is treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
