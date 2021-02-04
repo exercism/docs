@@ -166,6 +166,7 @@ Bob's conversational partner is a purist when it comes to written communication 
 - The hints should not spell out the solution, but instead point to a resource describing the solution (e.g. linking to documentation for the function to use).
 - The hints may use code samples to explain concepts, but not to outline the solution. e.g. in a lists exercise they might show a snippet of how a certain list function works, but not in a way that is directly copy/pasteable into the solution.
 - The hints must appear as a Markdown list under a `## General` heading.
+- If there are no hints, the heading should be omitted.
 
 Viewing hints will not be a "recommended" path and we will (softly) discourage using it unless the student can't progress without it. As such, it's worth considering that the student reading it will be a little confused/overwhelmed and maybe frustrated.
 
