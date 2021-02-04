@@ -120,7 +120,7 @@ The `config.json` file should have the following checks:
 - The `"exercise.practice[].status"` key is optional
 - The `"exercise.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.foregone"` key is optional
-- The `"exercises.foregone"` value must be a non-empty array of strings
+- The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be non-empty, non-blank, lowercased strings using kebab-case
 - The `"exercises.foregone"` values must not match any of the concept or practice exercise slugs
 - The `"concepts"` key is required
@@ -146,7 +146,7 @@ The `config.json` file should have the following checks:
 - The `"key_features[].content"` key is required
 - The `"key_features[].content"` value must be a non-empty, non-blank string with length <= 100
 - The `"tags"` key is optional
-- The `"tags"` value must be a non-empty array of strings
+- The `"tags"` value must be an array of strings
 - The `"tags"` values must use one of the [pre-defined tag values](https://github.com/exercism/v3-docs/blob/main/anatomy/tracks/config-json.md#tags)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
@@ -181,7 +181,7 @@ The `config.json` file should have the following checks:
 - The files listed in the `"files.exemplar"` must exist
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.exemplar` array (no overlap)
 - The `"forked_from"` key is optional
-- The `"forked_from"` value must be a non-empty array
+- The `"forked_from"` value must be an array
 - The `"forked_from"` values must be strings formatted as `<track-slug>/<exercise-slug>` (e.g. `fsharp/bird-watcher`)
 - The `"forked_from"` values must refer to actually implemented exercises
 - The `"forked_from"` values must be unique
