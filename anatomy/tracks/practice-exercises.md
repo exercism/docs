@@ -344,7 +344,7 @@ public static class Isogram
 
 ### File: Additional files
 
-**Purpose:** Ensure that the tests can run.
+**Purpose:** Additional project, build or supporting files required so that the tests can run.
 
 **Presence:** Required if default files are not enough to run the tests
 
