@@ -123,7 +123,7 @@ This is the contents of the generated `HINTS.md` file:
 - Consider extracting the logic to a helper function.
 ```
 
-## Example: with appends
+## Example: with optional data
 
 For this example, we'll re-use the documentation files from the [above example](#examplesimple), but with three additions:
 
