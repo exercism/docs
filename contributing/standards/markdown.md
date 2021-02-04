@@ -17,7 +17,7 @@ All rules are being added to our CI and linting tools, and should be adhered to 
 
 ### One sentence per line
 
-Paragraphs should be laid at using one sentence per line. The [Ascii Doctor docs][asiidoctor] explain the logic of this clearly.
+Paragraphs should be laid at using one sentence per line. The [Ascii Doctor docs][asciidoctor] explain the logic of this clearly.
 
 For example, a single paragraph should be laid out as follows:
 ```
