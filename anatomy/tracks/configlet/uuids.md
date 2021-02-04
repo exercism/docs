@@ -22,7 +22,7 @@ Global options:
 ## Example
 
 ```
-$ configlet uuid -num 5
+$ configlet uuid --num 5
 3823f890-be49-4700-baac-e19de8fda76f
 c12309a2-8bd6-4b9c-a511-e1ee4083f492
 26167ad5-fe20-43d4-8b1f-3bbb9618c36e
