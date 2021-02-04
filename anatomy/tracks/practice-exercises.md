@@ -28,7 +28,7 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
 
 Each Practice Exercise has its own directory within the track's `exercises/practice` directory. The name of the Practice Exercise directory must match the `slug` property of the Practice Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
 
-A Practice Exercise has three types of files.
+A Practice Exercise has three types of files:
 
 ### Documentation files
 
