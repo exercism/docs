@@ -289,7 +289,6 @@ public static class Isogram
 
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
-- All but the first test should be skipped by default. How this is done differs between languages.
 - The tests file is _not_ shown to the student when doing in-browser coding, but _is_ downloaded to the student's file system when using the CLI.
 - The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
@@ -304,11 +303,11 @@ public class IsogramTest
     public void Empty_string() =>
         Assert.True(Isogram.IsIsogram(""));
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Isogram_with_only_lower_case_characters() =>
         Assert.True(Isogram.IsIsogram("isogram"));
 
-    [Fact(Skip = "Remove this Skip property to run this test")]
+    [Fact]
     public void Word_with_one_duplicated_character() =>
         Assert.False(Isogram.IsIsogram("eleven"));
 }

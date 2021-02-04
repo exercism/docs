@@ -364,7 +364,6 @@ end
 - The tests should not use the examples from the `instructions.md` file.
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
-- All but the first test should be skipped by default. How this is done differs between languages.
 - The tests file is _not_ shown to the student when doing in-browser coding, but _is_ downloaded to the student's file system when using the CLI.
 - The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
@@ -380,12 +379,10 @@ class LasagnaTest < Minitest::Test
   end
 
   def test_preparation_time_in_minutes_with_one_layer
-    skip
     assert_equal 2, Lasagna.new.preparation_time_in_minutes(1)
   end
 
   def test_preparation_time_in_minutes_with_multiple_layers
-    skip
     assert_equal 8, Lasagna.new.preparation_time_in_minutes(4)
   end
 end
