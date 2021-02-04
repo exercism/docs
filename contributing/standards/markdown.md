@@ -26,4 +26,4 @@ Nearly everything with Exercism has been debated, discussed and rewritten many t
 Exercism is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
 ```
 
-[asiidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
+[asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
