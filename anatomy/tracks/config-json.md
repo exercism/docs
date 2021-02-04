@@ -110,7 +110,8 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `uuid`: a V4 UUID that uniquely identifies the exercise across all tracks
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
 - `name`: the exercise's name
-- `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
+- `practices`: an array of concept slugs that the exercise is helping students practice
+- `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest)
 - `status` (optional): the exercise's status, which is either `"wip"`, `"beta"`, `"active"` or `"deprecated"`; defaults to `"active"` if not specified
   - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
@@ -130,6 +131,7 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
         "name": "Leap",
+        "practices": ["if-statements", "numbers", "operator-precedence"],
         "prerequisites": ["if-statements", "numbers"],
         "difficulty": 1
       },
@@ -149,6 +151,7 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
         "name": "Leap",
+        "practices": ["if-statements", "numbers", "operator-precedence"],
         "prerequisites": ["if-statements", "numbers"],
         "difficulty": 1,
         "status": "beta"
@@ -334,6 +337,7 @@ This is an example of what a valid `config.json` file can look like:
         "slug": "hello-world",
         "name": "Hello, World!",
         "uuid": "6c88f46b-5acb-4fae-a6ec-b48ae3f8168f",
+        "practices": ["strings"],
         "prerequisites": ["basics"],
         "difficulty": 1
       },
@@ -341,6 +345,7 @@ This is an example of what a valid `config.json` file can look like:
         "slug": "leap",
         "name": "Leap",
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
+        "practices": ["if-statements", "numbers", "operator-precedence"],
         "prerequisites": ["if-statements", "numbers"],
         "difficulty": 2,
         "status": "beta"
@@ -365,6 +370,12 @@ This is an example of what a valid `config.json` file can look like:
       "slug": "numbers",
       "name": "Numbers",
       "blurb": "C# has two types of numbers: integers and floating-point numbers."
+    },
+    {
+      "uuid": "7a86561d-173b-45c0-a53c-1ffd7b9ff259",
+      "slug": "strings",
+      "name": "Strings",
+      "blurb": "C# strings are immutable sequences of Unicode characters."
     }
   ],
   "key_features": [

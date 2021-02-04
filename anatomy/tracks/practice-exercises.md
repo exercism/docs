@@ -16,6 +16,7 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
         "name": "Leap",
+        "practices": ["if-statements", "numbers", "operator-precedence"],
         "prerequisites": ["if-statements", "numbers"],
         "difficulty": 1
       }
