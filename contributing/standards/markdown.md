@@ -28,7 +28,7 @@ Exercism is a very intentional product - things are there because they've been d
 
 ## Inline HTML
 
-- Inline HTML is allowed, but should be used sparingly.
+- Inline HTML is allowed, but should be used sparingly
 - Always use native markdown alternatives if available (e.g. use `# ...` rather than `<h1>...</h1>`)
 
 ## Linters
