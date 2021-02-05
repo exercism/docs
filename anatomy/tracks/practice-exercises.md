@@ -32,7 +32,7 @@ The `practices` key should list the slugs of Concepts that this Practice Exercis
 - These show up in the UI as "Practice this Concept in: TwoFer, Leap, etc"
 - Try and choose 3 - 8 Exercises that practice each Concept.
 - Try and choose at least two Exercises that allow someone to practice the basics of a Concept.
-- Some Concepts are very common (for example `strings` or `integers`). In those cases we recommend choosing a few good exercises that make people think about those Concepts in interesting ways. For example, exercises that require utf8, string concatenation, char enumeration, base-changes, etc, would all be good examples.
+- Some Concepts are very common (for example `strings`). In those cases we recommend choosing a few good exercises that make people think about those Concepts in interesting ways. For example, exercises that require UTF-8, string concatenation, char enumeration, etc, would all be good examples.
 
 ### `prerequisites`
 
