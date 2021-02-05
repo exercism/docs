@@ -22,12 +22,12 @@ A simple rule to remember is: **"Do not remove a fence until you know why it was
 
 ## This Notion is Relevant to Exercism how?
 
-At Exercism, we're fortunate to have loads of people joining our community all the time, and posting their thoughts and ideas. 
+At Exercism, we're fortunate to have loads of people joining our community all the time, and posting their thoughts and ideas.
 Many of those ideas are new, innovative, exciting, and unblock our thinking.
 So if you have an idea or a suggestion, we welcome it!
 
-However, more often people post ideas that have been discussed many times before. 
-Responding to those ideas, and readdressing or rejustifying our decisions can be extremely draining on our team. 
+However, more often people post ideas that have been discussed many times before.
+Responding to those ideas, and readdressing or rejustifying our decisions can be extremely draining on our team.
 This article aims to help protect that time and energy.
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
@@ -64,7 +64,7 @@ That's a good suggestion, but it leads us back to our starting point that people
 Except now we're in a situation where it's marginally less likely that broken tests are submitted so mentors have a lower expectation of that, meaning it's more jarring and confusing when the tests **are** broken.
 
 "But people wouldn't do that generally" you may argue. True, for some languages where it takes 0.5s to run the tests.
-But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students, and so skipping the final tests would become common-place. 
+But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students, and so skipping the final tests would become common-place.
 
 Regardless of where this conversation ends up, it's clear that there's a lot more complexity involved here than it first seems. There are technical challenges to consider, workflow problems to think about, and the realisation that tracks differ widely enough something that is quick and easy for one is painful for another.
 
@@ -80,7 +80,8 @@ _Note: We're actually solving this by running the tests server-side - a large an
 
 ## Anything else?
 
-Two things:
+Three things:
 
 1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read. The quote "Do not remove a fence until you know why it was put up in the first place" is from this post.
-2. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!
+2. G.K. Chesteron's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
+3. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!

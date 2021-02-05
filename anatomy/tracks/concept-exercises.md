@@ -1,5 +1,3 @@
-_work in progress_
-
 # Concept Exercises
 
 [Concept Exercises](../../product/concept-exercises.md) are exercises designed to teach specific (programming) concepts.
@@ -30,25 +28,31 @@ Concept Exercise metadata is defined in the `exercises.concept` key in the [conf
 
 Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
 
-A Concept Exercise is comprised of three types of files:
+A Concept Exercise has three types of files:
 
-- Documentation files: presented to the student to help explain the exercise
-- Metadata files: not presented to the student, but used to define metadata of the exercise
-- Exercise files: the language-specific files, like the implementation and test files
+### Documentation files
 
-Each Concept Exercise directory must contain the following files:
+These files are presented to the student to help explain the exercise.
 
-- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student.
-- `.docs/instructions.md`: provide instructions for the exercise.
-- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise.
-- `.meta/config.json`: contains meta information on the exercise.
-- `.meta/design.md`: describe the design of the exercise.
+- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student (required)
+- `.docs/instructions.md`: provide instructions for the exercise (required)
+- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required)
 
-Besides these files, the following three files must be present, but their file names are track-specific:
+### Metadata files
 
-- Test suite: verify a solution's correctness.
-- Stub implementation: provide a starting point for students.
-- Exemplar implementation: provide an idiomatic implementation that passes all the tests.
+These files are _not_ presented to the student, but used to define metadata of the exercise.
+
+- `.meta/config.json`: contains meta information on the exercise (required)
+- `.meta/design.md`: describe the design of the exercise (required)
+
+### Exercise files
+
+The language-specific files, like the implementation and test files. The names of these files are track-specific.
+
+- Test suite: verify a solution's correctness (required)
+- Stub implementation: provide a starting point for students (required)
+- Exemplar implementation: provide an idiomatic implementation that passes all the tests (required)
+- Additional files: ensure that the tests can run (optional)
 
 ### Example
 
@@ -74,6 +78,8 @@ exercises
 
 **Purpose:** Introduce the concept(s) that the exercise teaches to the student.
 
+**Presence:** Required
+
 - The information provided should give the student just enough context to figure out the solution themselves.
 - Only information that is needed to understand the fundamentals of the concept and solve the exercise should be provided. Extra information should be left for the concept's `about.md` document.
 - Links should be used sparingly, if at all. While a link explaining a complex topic like recursion might be useful, for most concepts the links will provide more information than needed so explaining things concisely inline should be the aim.
@@ -96,9 +102,11 @@ my_first_variable = SomeComplexObject.new
 
 ---
 
-### File: ```.docs/introduction.md.tpl``` (optional)
+### File: `.docs/introduction.md.tpl`
 
 **Purpose:** Template to generate an `introduction.md` file from.
+
+**Presence:** Optional
 
 The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](./concepts#fileintroductionmd), which is not shown outside the context of an exercise.
 
@@ -121,6 +129,8 @@ Tracks can decide per exercise whether to use a template or not. In some cases, 
 ### File: `.docs/instructions.md`
 
 **Purpose:** Provide instructions for the exercise.
+
+**Presence:** Required
 
 This file is split into two parts.
 
@@ -162,13 +172,16 @@ lasagna.remaining_minutes_in_oven(30)
 
 **Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
 
+**Presence:** Required
+
 - If the student gets stuck, we will allow them to click a button requesting a hint, which will show the relevant part of file.
 - Hints should be bullet-pointed underneath headings.
 - The hints should be enough to unblock almost any student.
 - The hints should not spell out the solution, but instead point to a resource describing the solution (e.g. linking to documentation for the function to use).
 - The hints may use code samples to explain concepts, but not to outline the solution. e.g. in a lists exercise they might show a snippet of how a certain list function works, but not in a way that is directly copy/pasteable into the solution.
-- General hints about the exercise can appear under the `## General` heading.
-- Task-specific hints should appear underneath headings that match their task heading in the `instructions.md` (e.g. `## 2. Do Y`).
+- General hints about the exercise can appear as a Markdown list under the `## General` heading.
+- Task-specific hints should appear as a Markdown list underneath headings that match their task heading in the `instructions.md` (e.g. `## 2. Do Y`).
+- If there are no General hints or no hints for a specific task, the headings should be omitted. Every heading must be following by a Markdown list.
 - Prioritize task-specific hints over general hints, as task-specific hints are more likely to unblock the student than general hints.
 - Task headings should describe the _what_ of the task, not the _how_.
 - Task headings should use regular sentence casing (e.g. `## 2. Check if a book can be borrowed`).
@@ -192,21 +205,13 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 [methods]: https://launchschool.com/books/ruby/read/methods
 ```
 
-### File: .docs/source.md (required if there are third-party sources)
-
-**Purpose:** Describe the third-party source(s) of the exercise.
-
-This file contains third-party references and sources of the exercise. Only required if there are any such sources, but not if the exercise was completely designed from scratch for Exercism.
-
-#### Example
-
-```markdown
-This exercise is based on an example used in the talk "The Unreasonable Effectiveness of Multiple Dispatch" held by Stefan Karpinski at JuliaCon 2019, available on [YouTube](https://youtu.be/kc9HwsxE1OY?t=422).
-```
+---
 
 ### File: .meta/design.md
 
 **Purpose:** Describe the design of the exercise.
+
+**Presence:** Required
 
 This file contains information on the exercise's design, which includes things like its goal, its teaching goals, what not to teach, and more. This information can be extracted from the exercise's corresponding GitHub issue.
 
@@ -247,6 +252,8 @@ There are no prerequisites.
 
 **Purpose:** Contains meta information on the exercise.
 
+**Presence:** Required
+
 This file contains meta information on the exercise:
 
 - `authors`: The exercise's author(s) (required)
@@ -255,7 +262,9 @@ This file contains meta information on the exercise:
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - `forked_from`: Which exercise(s) it was forked from (required if the exercise is forked)
 - `files`: The files used in this exercises (keys for `solution`, `test`, and `exemplar`, which point to the locations of the files specified in the "Stub implementation", "Tests", and "Examplar Implementation" sections listed below)
-- `language_versions` Language version requirements (optional)
+- `language_versions`: Language version requirements (optional)
+- `source`: The source this exercise is based on (optional)
+- `source_url`: The URL of the source this exercise is based on (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -301,7 +310,9 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
     "exemplar": [".meta/exemplar.py"]
   },
   "forked_from": ["fsharp/basics"],
-  "language_versions": ">=3.7"
+  "language_versions": ">=3.7",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }
 ```
 
@@ -318,12 +329,15 @@ Note that:
 
 **Purpose:** Provide a starting point for students.
 
+**Presence:** Required
+
 - Design the stub such that a student will know where to add code.
 - Define stubs for any syntax that is not introduced in the exercise. For most exercises, this means defining stub function/methods.
 - For compiled languages, consider having compilable code, as compiler messages can sometimes be hard to grasp for students new to the language.
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The stub file is shown to the student when doing in-browser coding and is downloaded to the student's file system when using the CLI.
+- The relative paths to the stub implementation file(s) must be specified in the [`.meta/config.json` file's `"files.solution"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -345,11 +359,13 @@ end
 
 **Purpose:** Verify a solution's correctness.
 
+**Presence:** Required
+
 - The tests should not use the examples from the `instructions.md` file.
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
-- All but the first test should be skipped by default. How this is done differs between languages.
 - The tests file is _not_ shown to the student when doing in-browser coding, but _is_ downloaded to the student's file system when using the CLI.
+- The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -378,11 +394,14 @@ end
 
 **Purpose:** Provide the target implementation that a student should aim for.
 
+**Presence:** Required
+
 - This implementation is the target code that we want a student to aim for.
 - Mentors will be shown this code as the "target" when writing feedback
 - The implementation should only use language features introduced by the exercise or its prerequisites (and their prerequisites, and so on).
 - The exemplar file is _not_ shown to the student when doing in-browser coding and is _not_ downloaded to the student's file system when using the CLI.
 - The exemplar file will be shown to mentors when commenting on solutions or representations.
+- The relative paths to the example implementation file(s) must be specified in the [`.meta/config.json` file's `"files.exemplar"` key](./#filemetaconfigjson).
 
 #### Example
 
@@ -403,12 +422,18 @@ end
 
 ---
 
-### File: Additional files (required if default files are not enough to run the tests)
+### File: Additional files
 
 **Purpose:** Ensure that the tests can run.
 
+**Presence:** Required if default files are not enough to run the tests
+
 Some languages require additional files for the tests to run. Example of these are C#'s project files and Node's `package.json` files, without which it will not be possible to run the tests.
 
-## CLI vs editor
+## Shared files
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. In the browser, the documentation files will show at the relevant times. When used via the CLI, the `introduction.md` and `instructions.md` will be concatenated along with the track's `cli.md` document into a `README.md` file, which will sit alongside a `HINTS.md` file.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
+
+## Presentation
+
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.

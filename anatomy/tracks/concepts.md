@@ -1,5 +1,3 @@
-_work in progress_
-
 # Concepts
 
 Concepts are the things that a programmer would need to understand to be fluent in a language. Concepts are taught by Concept Exercises and are used as prerequisites for Concept- _and_ Practice Exercises.
@@ -27,9 +25,9 @@ Concept metadata is defined in the `concepts` key in the [config.json file](./co
 
 Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](./config-json.md#concept). Each concept directory must contain the following files:
 
-- `about.md`: provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
-- `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
-- `links.json`: provide helpful links that provide more reading or information about a concept.
+- `about.md`: provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to (required)
+- `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise (required)
+- `links.json`: provide helpful links that provide more reading or information about a concept (required)
 
 ### Example
 
@@ -44,6 +42,8 @@ concepts
 ### File: about.md
 
 **Purpose:** Provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
+
+**Presence:** Required
 
 Once the student completes the exercise they will be shown this file, which should provide them with a summary of the concept. If the concept introduces new syntax, syntax samples should be included. At a minimum, this file should contain all information that is introduced in the exercise's [`.docs/introduction.md` document](./concept-exercises#filedocsintroductionmd).
 
@@ -84,6 +84,8 @@ double largeDouble = 9_876_543.21;
 
 **Purpose:** Provide a brief introduction to a student who has not yet completed the corresponding concept exercise.
 
+**Presence:** Required
+
 This file is shown if a student has not yet completed the corresponding concept exercise. It should provide a brief introduction to the concept.
 
 - Only information that is needed to understand the fundamentals of the concept should be provided. Extra information should be left for the `about.md` document.
@@ -107,6 +109,8 @@ double d = 54.29;
 ### File: links.json
 
 **Purpose:** Provide helpful links that provide more reading or information about a concept.
+
+**Presence:** Required
 
 These might be official docs, a great tutorial, etc. These links do _not_ replace the more contextual links within a concept's `about.md` file, but provide a quick set of overarching reference points for a student.
 
