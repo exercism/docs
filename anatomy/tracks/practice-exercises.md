@@ -40,7 +40,7 @@ The `prerequisites` key lists the Concept Exercises that a student must have com
 
 - These show up in the UI as "Learn Strings to unlock TwoFer"
 - It should include all Concepts that a student needs to have covered to be able to complete the exercise in at least one idiomatic way. For example, for the TwoFer exercise in Ruby, prerequisites might include `strings`, `optional-params`, `implicit-return`. 
-- For Exercises that can be completed using alternative Concepts (e.g. an Exercise solvable by `loops` or `recursion`), the maintainer should choose the approach that they would like to unlock the Exercise, considering the student's journey through the track.
+- For Exercises that can be completed using alternative Concepts (e.g. an Exercise solvable by `loops` or `recursion`), the maintainer should choose the one approach that they would like to unlock the Exercise, considering the student's journey through the track. For example, the loops/recursion example, they might think this exercise is a good early practice of `loops` or that they might like to leave it later to teach recursion. They can also make use of an analyzer to prompt the student to try an alternative approach: "Nice work on solving this via loops. You might also like to try solving this using Recursion."
 
 ## Files
 
