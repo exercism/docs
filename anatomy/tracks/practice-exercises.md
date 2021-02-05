@@ -25,6 +25,23 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
 }
 ```
 
+### `practices`
+
+The `practices` key should list the slugs of Concepts that this Practice Exericse actively allows a student to practice. 
+
+- These show up in the UI as "Practice this Concept in: TwoFer, Leap, etc`
+- Try and choose 3 - 8 Exercises for this key.
+- Try and choose at least two Exercises that allow someone to practice the basics of a Concept.
+- Some Concepts are very common (for example `strings` or `integers`). In those cases we recommend choosing a few good exercises that make people think about those Concepts in interesting ways. For example, exercises that require utf8, string concatenation, char enumeration, base-changes, etc, would all be good examples.
+
+### `prerequisites`
+
+The `prerequisites` key lists the Concept Exercises that a student must have completed in order to access this Practice Exercise. 
+
+- These show up in the UI as "Learn Strings to unlock TwoFer"
+- It should include all Concepts that a student needs to have covered to be able to complete the exercise in at least one idiomatic way. For example, for the TwoFer exercise in Ruby, prerequisites might include `strings`, `optional-params`, `implicit-return`. 
+- For Exercises that can be completed using alternative Concepts (e.g. an Exercise solvable by `loops` or `recursion`), the maintainer should choose the approach that they would like to unlock the Exercise, considering the student's journey through the track.
+
 ## Files
 
 Each Practice Exercise has its own directory within the track's `exercises/practice` directory. The name of the Practice Exercise directory must match the `slug` property of the Practice Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
