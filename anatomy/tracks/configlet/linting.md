@@ -111,12 +111,17 @@ The `config.json` file should have the following checks:
 - The `"exercise.practice[].deprecated"` value must generate a warning if set to `false`
 - The `"exercise.practice[].difficulty"` key is required
 - The `"exercise.practice[].difficulty"` value must be an integer >= 0 and <= 10
+- The `"exercise.practice[].practices"` key is required
+- The `"exercise.practice[].practices"` value must be a non-empty array of strings
+- The `"exercise.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
+- The `"exercise.practice[].practices"` values must not have duplicates
+- The `"exercise.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercise.practice[].prerequisites"` key is required
 - The `"exercise.practice[].prerequisites"` value must be a non-empty array of strings
 - The `"exercise.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
 - The `"exercise.practice[].prerequisites"` values must not have duplicates
 - The `"exercise.practice[].prerequisites"` values must match any concept exercise's `"exercise.concept[].concepts"` values
-- The `"exercise.practice[].prerequisites"` values must match the `"concepts.slug"` property of one of the concepts
+- The `"exercise.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercise.practice[].status"` key is optional
 - The `"exercise.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.foregone"` key is optional
