@@ -27,7 +27,7 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
 
 ### `practices`
 
-The `practices` key should list the slugs of Concepts that this Practice Exericse actively allows a student to practice. 
+The `practices` key should list the slugs of Concepts that this Practice Exercise actively allows a student to practice. 
 
 - These show up in the UI as "Practice this Concept in: TwoFer, Leap, etc`
 - Try and choose 3 - 8 Exercises that practice each Concept.
