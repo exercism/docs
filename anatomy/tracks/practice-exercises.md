@@ -30,7 +30,7 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
 The `practices` key should list the slugs of Concepts that this Practice Exericse actively allows a student to practice. 
 
 - These show up in the UI as "Practice this Concept in: TwoFer, Leap, etc`
-- Try and choose 3 - 8 Exercises for this key.
+- Try and choose 3 - 8 Exercises that practice each Concept.
 - Try and choose at least two Exercises that allow someone to practice the basics of a Concept.
 - Some Concepts are very common (for example `strings` or `integers`). In those cases we recommend choosing a few good exercises that make people think about those Concepts in interesting ways. For example, exercises that require utf8, string concatenation, char enumeration, base-changes, etc, would all be good examples.
 
