@@ -74,6 +74,4 @@ Describe how to run the tests for this particular exercise.
 
 ```markdown
 To run the tests, run the command `dotnet test` from within the exercise directory.
-
-Once all tests are passing, you can submit your solution using `exercism submit %{files.solution}`
 ```
