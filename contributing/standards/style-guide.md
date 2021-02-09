@@ -51,7 +51,7 @@ An some examples of good usage:
 
 #### Oxford Comma
 
-Use the "[Oxford Comma](https://en.wikipedia.org/wiki/Serial_comma)" (also known as the Serial Comma) in lists. For example, rather than "I owe this to my parents, Ayn Rand and God", write "I owe this to my parents, Ayn Rand, and God".
+Use the "[Oxford Comma](https://en.wikipedia.org/wiki/Serial_comma)" (also known as the Serial Comma) in lists. For example, rather than "I owe this to my parents, Ayn Rand and God", write "I owe this to my parents, Ayn Rand, and God". You may also enjoy [this image as an explanation](https://conchapman.files.wordpress.com/2015/12/panda2.jpg).
 
 #### Exceptions
 
