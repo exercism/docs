@@ -47,6 +47,12 @@ An some examples of good usage:
 - "NASA, the United States' space agency, launched the Mariner 2 space probe in..." _(NASA is not expanded because the "National Aerospace and Space Administration" is much better known by its acronym than by its expanded name)_
 - "The Department of Motor Vehicles (DMV) is filled with sloths. That's why everything takes forever at the DMV" _(Define DMV the first time it is used)_
 
+### Grammar
+
+#### Oxford Comma
+
+Use the "[Oxford Comma](https://en.wikipedia.org/wiki/Serial_comma)" (also known as the Serial Comma) in lists. For example, rather than "I owe this to my parents, Ayn Rand and God", write "I owe this to my parents, Ayn Rand, and God". You may also enjoy [this image as an explanation](https://conchapman.files.wordpress.com/2015/12/panda2.jpg).
+
 #### Exceptions
 
 Some abbreviations are considered common, useful, and non-technical enough that we have decided to permit them:
