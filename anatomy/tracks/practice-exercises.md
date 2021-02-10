@@ -36,7 +36,7 @@ The `practices` key should list the slugs of Concepts that this Practice Exercis
 
 ### `prerequisites`
 
-The `prerequisites` key lists the Concept Exercises that a student must have completed in order to access this Practice Exercise. 
+The `prerequisites` key lists the Concepts that a student must have completed in order to access this Practice Exercise. 
 
 - These show up in the UI as "Learn Strings to unlock TwoFer"
 - It should include all Concepts that a student needs to have covered to be able to complete the exercise in at least one idiomatic way. For example, for the TwoFer exercise in Ruby, prerequisites might include `strings`, `optional-params`, `implicit-return`. 
