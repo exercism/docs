@@ -178,7 +178,7 @@ Bob's conversational partner is a purist when it comes to written communication 
 
 **Purpose:** Provide hints to a student to help them get themselves unstuck in an exercise.
 
-**Presence:** Required
+**Presence:** Optional
 
 - If the student gets stuck, we will allow them to click a button requesting a hint, which will show the relevant part of file.
 - Hints should be bullet-pointed underneath headings.
