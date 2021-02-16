@@ -44,10 +44,11 @@ The following top-level properties contain general track metadata:
 
 ## Exercises
 
-The top-level `exercises` key is an object with two keys:
+The top-level `exercises` key is an object with three possible keys:
 
 - `concept`: this is an array listing the track's concept exercises
 - `practice`: this is an array listing the track's practice exercises
+- `foregone`: this is an array listing the slugs of exercises the track won't implement
 
 ### Concept exercises
 
@@ -158,6 +159,25 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
       },
       ...
     ]
+  }
+}
+```
+
+### Foregone exercises
+
+If a track knows that it doesn't want to implement an exercise defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications), the slug of that exercise can be added to the `exercises.foregone` key.
+
+Reasons for why an track might _not_ want to implement an exercise could be:
+
+- The exercise can't reasonably be implemented by the language. As an example, the [lens-person exercise](https://github.com/exercism/problem-specifications/blob/main/exercises/lens-person/description.md) requires the language to support _lenses_.
+- The exercise's topic doesn't fit the language. For example, for some high-level languages, a low-level bit-manipulation exercise might not make sense.
+
+#### Example
+
+```json
+{
+  "exercises": {
+    "foregone": ["lens-person"]
   }
 }
 ```
