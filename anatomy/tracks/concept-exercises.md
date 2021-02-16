@@ -91,6 +91,8 @@ As an example, the introduction to a "strings" exercise might describe a string 
 #### Example
 
 ````markdown
+# Introduction
+
 There are two primary ways to assign objects to names in Ruby - using variables or constants. Variables are always written in snake case. A variable can reference different objects over its lifetime. For example, `my_first_variable` can be defined and redefined many times using the `=` operator:
 
 ```ruby
@@ -121,6 +123,8 @@ Tracks can decide per exercise whether to use a template or not. In some cases, 
 #### Example
 
 ```markdown
+# Introduction
+
 %{concept:variables}
 ```
 
@@ -153,6 +157,8 @@ We place high value on making Exercism's content safe for everyone and so often 
 #### Example
 
 ````markdown
+# Instructions
+
 In this exercise you're going to write some code to help you cook a brilliant lasagna from your favorite cooking book.
 
 ## 1. Calculate the remaining oven time in minutes
@@ -192,6 +198,8 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 #### Example
 
 ```markdown
+# Hints
+
 ## General
 
 - You need to define a [constant][constant] which should contain the [integer][integers] value specified in the recipe.
@@ -220,6 +228,8 @@ It exists in order to inform future maintainers or contributors about the scope 
 #### Example
 
 ```markdown
+# Design
+
 ## Goal
 
 The goal of this exercise is to teach the student the basics of programming in Ruby.

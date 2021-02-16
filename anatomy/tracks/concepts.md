@@ -60,6 +60,8 @@ This document can also link to any additional resources that might be interestin
 #### Example
 
 ````markdown
+# About
+
 One of the key aspects of working with numbers in C# is the distinction between [integers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) (numbers with no digits after the decimal separator) and [floating-point numbers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types) (numbers with zero or more digits after the decimal separator).
 
 The two most commonly used numeric types in C# are `int` (a 32-bit integer) and `double` (a 64-bit floating-point number).
@@ -96,6 +98,8 @@ This file is shown if a student has not yet completed the corresponding concept 
 #### Example
 
 ````markdown
+# Introduction
+
 One of the key aspects of working with numbers in C# is the distinction between integers and floating-point numbers (numbers with zero or more digits after the decimal separator).
 
 The two most commonly used numeric types in C# are `int` (a 32-bit integer) and `double` (a 64-bit floating-point number).

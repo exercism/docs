@@ -27,7 +27,7 @@ Practice Exercise metadata is defined in the `exercises.practice` key in the [co
 
 ### `practices`
 
-The `practices` key should list the slugs of Concepts that this Practice Exercise actively allows a student to practice. 
+The `practices` key should list the slugs of Concepts that this Practice Exercise actively allows a student to practice.
 
 - These show up in the UI as "Practice this Concept in: TwoFer, Leap, etc"
 - Try and choose 3 - 8 Exercises that practice each Concept.
@@ -36,10 +36,10 @@ The `practices` key should list the slugs of Concepts that this Practice Exercis
 
 ### `prerequisites`
 
-The `prerequisites` key lists the Concepts that a student must have completed in order to access this Practice Exercise. 
+The `prerequisites` key lists the Concepts that a student must have completed in order to access this Practice Exercise.
 
 - These show up in the UI as "Learn Strings to unlock TwoFer"
-- It should include all Concepts that a student needs to have covered to be able to complete the exercise in at least one idiomatic way. For example, for the TwoFer exercise in Ruby, prerequisites might include `strings`, `optional-params`, `implicit-return`. 
+- It should include all Concepts that a student needs to have covered to be able to complete the exercise in at least one idiomatic way. For example, for the TwoFer exercise in Ruby, prerequisites might include `strings`, `optional-params`, `implicit-return`.
 - For Exercises that can be completed using alternative Concepts (e.g. an Exercise solvable by `loops` or `recursion`), the maintainer should choose the one approach that they would like to unlock the Exercise, considering the student's journey through the track. For example, the loops/recursion example, they might think this exercise is a good early practice of `loops` or that they might like to leave it later to teach recursion. They can also make use of an analyzer to prompt the student to try an alternative approach: "Nice work on solving this via loops. You might also like to try solving this using Recursion."
 
 ## Files
@@ -113,6 +113,8 @@ We place high value on making Exercism's content safe for everyone and so often 
 #### Example
 
 ```markdown
+# Introduction
+
 Bob is a lackadaisical teenager. In conversation, his responses are very limited.
 ```
 
@@ -129,6 +131,8 @@ In some (rare) cases, you might want to expand on the exercise's `introduction.m
 A track that doesn't want Bob to support, might add the following:
 
 ```markdown
+# Introduction append
+
 As part of his teenage rebellion, Bob has decided to only communicate using ASCII.
 ```
 
@@ -151,6 +155,8 @@ We place high value on making Exercism's content safe for everyone and so often 
 #### Example
 
 ```markdown
+# Instructions
+
 Bob answers 'Sure.' if you ask him a question, such as "How are you?".
 
 He answers 'Whoa, chill out!' if you YELL AT HIM (in all capitals).
@@ -171,6 +177,8 @@ He answers 'Whatever.' to anything else.
 In some (rare) cases, you might want to expand on the exercise's `instructions.md` file, for example when the exercise has implemented tests that are not covered by the existing instructions.
 
 ```markdown
+# Instructions append
+
 Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 ```
 
@@ -215,6 +223,8 @@ It exists in order to inform future maintainers or contributors about the scope 
 #### Example
 
 ```markdown
+# Design
+
 ## Goal
 
 The goal of this exercise is help students practice how to work with strings.

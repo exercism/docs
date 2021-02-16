@@ -40,13 +40,19 @@ When working locally via the CLI, we don't have the option to conditionally show
 ## Exercise-specific files
 
 # .docs/introduction.md
-"This is the introduction."
+"# Introduction
+
+This is the introduction."
 
 # .docs/instructions.md
-"These are the instructions."
+"# Instructions
+
+These are the instructions."
 
 # .docs/hints.md
-"## General
+"# Hints
+
+## General
 
 - Consider extracting the logic to a helper function."
 
@@ -56,21 +62,31 @@ When working locally via the CLI, we don't have the option to conditionally show
 ## Track-specific files
 
 # debug.md
-"This is how to do debugging."
+"# Debug
+
+This is how to do debugging."
 
 # help.md
-"This is how to get track-specific help."
+"# Help
+
+This is how to get track-specific help."
 
 # tests.md
-"This is how to run the tests for this track."
+"# Tests
+
+This is how to run the tests for this track."
 
 ## Exercism-wide files
 
 # cli.md
-"This is how to submit the solution."
+"# CLI
+
+This is how to submit the solution."
 
 # help.md
-"This is how to get Exercism-wide help."
+"# Help
+
+This is how to get Exercism-wide help."
 ```
 
 ### Editor
@@ -116,6 +132,8 @@ TODO: verify that this is the correct format
 This is the contents of the generated `HINTS.md` file:
 
 ```markdown
+# Hints
+
 ## General
 
 - Consider extracting the logic to a helper function.
@@ -129,10 +147,14 @@ For this example, we'll re-use the documentation files from the [above example](
 ## Exercise-specific files
 
 # .docs/introduction.append.md
-"Append to the introduction."
+"# Introduction append
+
+Append to the introduction."
 
 # .docs/instructions.append.md
-"Append to the instructions."
+"# Instructions append
+
+Append to the instructions."
 
 # .meta/config.json
 { "source": "Wikipedia", "source_url": "https://en.wikipedia.org/wiki/Lasagne"}`
