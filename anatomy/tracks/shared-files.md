@@ -41,6 +41,8 @@ The in-browser editor does not have any built-in debugging support. If the track
 #### Example
 
 ````markdown
+# Debug
+
 To help with debugging, you can use the fact that any [console output](https://www.programiz.com/csharp-programming/basic-input-output) will be shown in the test results window. You can write to the console using:
 
 ```csharp
@@ -59,6 +61,8 @@ Describe how a student can get help, specifically for this track (not Exercism-w
 #### Example
 
 ```markdown
+# Help
+
 If you're having trouble, feel free to ask help in the C# track's [gitter channel](https://gitter.im/exercism/csharp).
 ```
 
@@ -73,5 +77,7 @@ Describe how to run the tests for this particular exercise.
 #### Example
 
 ```markdown
+# Tests
+
 To run the tests, run the command `dotnet test` from within the exercise directory.
 ```
