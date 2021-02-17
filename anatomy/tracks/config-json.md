@@ -27,7 +27,7 @@ The following top-level properties contain general track metadata:
 
 ### Files
 
-This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the \_exercises' `config.json` files, support will be added to [configlet](./README.md) to use these track-wide patterns to automatically populate the exercises' `files` key.
+This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, support will be added to [configlet](./README.md) to use these track-wide patterns to automatically populate the exercises' `files` key.
 
 The file patterns defined in the `files` object support the following placeholders:
 
