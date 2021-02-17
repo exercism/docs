@@ -6,19 +6,19 @@ The `config.json` file describes the track's configuration. It contains vital in
 
 The following top-level properties contain general track metadata:
 
-- `language`: the track's language (e.g. `"C#"`)
-- `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`)
-- `active`: a `boolean` value indicating if the track is active (i.e. students can join the track on the website)
-- `blurb`: a short description of the language
-- `version`: the version of the `config.json` file (currently fixed to `3`)
-- `online_editor`: an object describing settings used for the online editor:
-  - `indent_style`: either `"space"` or `"tab"`
-  - `indent_size`: the indentation size as an integer (e.g. `4`)
-- `status`: an object describing which v3 features should be enabled:
-  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](./concept-exercises.md) have been built
-  - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented
-  - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented
-  - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented
+- `language`: the track's language (e.g. `"C#"`) (required)
+- `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`) (required)
+- `active`: a `boolean` value indicating if the track is active (i.e. students can join the track on the website) (required)
+- `blurb`: a short description of the language (required)
+- `version`: the version of the `config.json` file (currently fixed to `3`) (required)
+- `online_editor`: an object describing settings used for the online editor: (required)
+  - `indent_style`: either `"space"` or `"tab"` (required)
+  - `indent_size`: the indentation size as an integer (e.g. `4`) (required)
+- `status`: an object describing which v3 features should be enabled: (required)
+  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](./concept-exercises.md) have been built (required)
+  - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented (required)
+  - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented (required)
+  - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented (required)
 
 ### Example
 
@@ -63,6 +63,8 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
   - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback."
   - `active`: The normal state of active exercises
   - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage).
+- `files` (optional):
+  - '`
 
 #### Example
 
