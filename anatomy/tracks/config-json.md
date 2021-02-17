@@ -27,6 +27,8 @@ The following top-level properties contain general track metadata:
 
 ### Files
 
+This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the **exercise** `config.json` files, support will be added to [configlet](./README.md) to use these track-wide pattern to automatically populate the exercise `files` key.
+
 The file patterns defined in the `files` object support the following placeholders:
 
 - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
