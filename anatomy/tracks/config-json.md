@@ -19,7 +19,7 @@ The following top-level properties contain general track metadata:
   - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented (required)
   - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented (required)
   - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented (required)
-- `files`: The patterns for the locations of the files used in this exercise. (optional)
+- `files`: The patterns for the locations of the files used in an exercise, relative to the exercise's directory. (optional)
   - `solution`: stub implementation file(s) pattern (optional)
   - `test`: test file(s) pattern (optional)
   - `example`: example implementation file(s) pattern (optional

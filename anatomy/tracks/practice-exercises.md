@@ -248,7 +248,7 @@ This file contains meta information on the exercise:
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
 - `contributors`: The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
-- `files`: The locations of the files used in this exercise (required)
+- `files`: The locations of the files used in this exercise, relative to the exercise's directory (required)
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
   - `test`: the [test file(s)](./#filetests) (required)
   - `example`: the [example implementation file(s)](./#fileexampleimplementation) (required)
