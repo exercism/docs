@@ -248,7 +248,10 @@ This file contains meta information on the exercise:
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
 - `contributors`: The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
-- `files`: The files used in this exercises (keys for `solution`, `test`, and `example`, which point to the locations of the files specified in the "Stub implementation", "Tests", and "Example Implementation" sections listed below)
+- `files`: The locations of the files used in this exercise (required)
+  - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
+  - `test`: the [test file(s)](./#filetests) (required)
+  - `example`: the [example implementation file(s)](./#fileexampleimplementation) (required)
 - `language_versions` Language version requirements (optional)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
