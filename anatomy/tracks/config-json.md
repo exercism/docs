@@ -19,6 +19,24 @@ The following top-level properties contain general track metadata:
   - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented (required)
   - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented (required)
   - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented (required)
+- `files`: The patterns for the locations of the files used in this exercise. (optional)
+  - `solution`: stub implementation file(s) pattern (optional)
+  - `test`: test file(s) pattern (optional)
+  - `example`: example implementation file(s) pattern (optional
+  - `exemplar`: exemplar implementation file(s) pattern (optional)
+
+### Files
+
+This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, support will be added to [configlet](./README.md) to use these track-wide patterns to automatically populate the exercises' `files` key.
+
+The file patterns defined in the `files` object support the following placeholders:
+
+- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
+- `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
+- `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
+- `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
+
+Support will be added to [configlet](./README.md) to use these pattern to populate the `files` key in an exercise's `.meta/config.json` file.
 
 ### Example
 
@@ -38,6 +56,12 @@ The following top-level properties contain general track metadata:
     "test_runner": true,
     "representer": false,
     "analyzer": false
+  },
+  "files": {
+    "solution": ["%{pascal_slug}.cs"],
+    "test": ["%{pascal_slug}Tests.cs"],
+    "example": [".meta/Example.cs"],
+    "exemplar": [".meta/Exemplar.cs"]
   }
 }
 ```
