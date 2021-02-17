@@ -29,8 +29,7 @@ The following top-level properties contain general track metadata:
 
 The file patterns defined in the `files` object support the following placeholders:
 
-- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g.
-  `bit-manipulation`)
+- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
 - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
 - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
 - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
