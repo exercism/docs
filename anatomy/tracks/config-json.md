@@ -165,7 +165,7 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
 
 ### Foregone exercises
 
-If a track knows that it doesn't want to implement an exercise defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications), the slug of that exercise can be added to the `exercises.foregone` key.
+If a track knows that it doesn't want to implement an exercise defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications), the slug of that exercise can be added to the `exercises.foregone` key. [configlet](./configlet/README.md) will ignore foregone exercises when outputting the track's unimplemented exercises.
 
 Reasons for why an track might _not_ want to implement an exercise could be:
 
