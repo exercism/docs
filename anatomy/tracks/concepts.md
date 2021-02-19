@@ -56,6 +56,7 @@ This document can also link to any additional resources that might be interestin
 - Compromises made for ease of learning or to accommodate the Exercism environment, e.g. multiple classes in single file
 - Similar features with which the concept may be confused
 - Performance characteristics and memory usage
+- Don't refer to an exercise in the text, as this file is displayed outside the context of an exercise.
 
 #### Example
 
@@ -94,6 +95,7 @@ This file is shown if a student has not yet completed the corresponding concept 
 - Links should be used sparingly, if at all. While a link explaining a complex topic like recursion might be useful, for most concepts the links will provide more information than needed so explaining things concisely inline should be the aim.
 - Proper technical terms should be used so that the student can easily search for more information.
 - Code examples should only be used to introduce new syntax (students should not need to search the web for examples of syntax). In other cases provide descriptions or links instead of code.
+- Don't refer to an exercise in the text, as this file is displayed outside the context of an exercise.
 
 #### Example
 
