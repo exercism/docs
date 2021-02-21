@@ -118,7 +118,7 @@ Use the expression from the first part and implement a function that takes a lin
 Potential future test cases should conform to the following guidelines:
 
 - The delimiters must be unambiguous. For example, a talk title should not contain `»«`, a name should not contain commas.
-- The test cases should be ordered based on the optionality of certain information. The first case should contain all potential information, the next case should make exclude one piece of capturable information, etc.
+- The test cases should be ordered based on the optionality of certain information. The first case should contain all potential information, the next case should exclude one piece of capturable information, etc.
 - Solutions using `[a-zA-Z]` or the likes for the name, title or org should not be able to pass the tests.
 
 ## Implementations
