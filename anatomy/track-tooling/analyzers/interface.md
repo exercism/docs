@@ -1,7 +1,3 @@
-**NOTE: The approval and comments keys in this spec are currently under review.**
-
----
-
 # The Analyzer Interface
 
 All interactions with the Exercism website are handled automatically. Analyzers have the single responsibility of taking a solution and returning a status and any messages.
@@ -45,7 +41,7 @@ The `analysis.json` file should be structured as followed:
 
 ### `summary` (optional)
 
-The summary field is a text field that summarises the output. 
+The summary field is a text (not markdown) field that summarises the output. 
 It might say something like "Your solution is nearly there - there's just two small changes you can make." or "The code works great, but there's a little bit of linting that needs doing.".
 This summary is rendered on the website above the comments.
 
