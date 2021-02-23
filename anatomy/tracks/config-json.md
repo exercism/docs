@@ -303,6 +303,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 - `runtime/clr`: runs on Common Language Runtime (.NET)
 - `runtime/jvm`: runs on JVM (Java)
 - `runtime/beam`: runs on BEAM (Erlang)
+- `runtime/wasmtime`: runs on Wasmtime (WebAssembly)
 
 ## Used for
 
