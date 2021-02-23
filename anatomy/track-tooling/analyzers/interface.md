@@ -25,19 +25,19 @@ The `analysis.json` file should be structured as followed:
   "summary": "This solution looks good but has a few points to address",
   "comments": [
     {
-      "comment": "ruby.general.some_paramaterised_message",
+      "comment": "ruby.general.some_parameterised_message",
       "params": { "foo": "param1", "bar": "param2" },
       "type": "essential"
     },
     {
-      "comment": "ruby.general.some_unparamaterised_message",
+      "comment": "ruby.general.some_unparameterised_message",
       "params": {},
       "type": "actionable"
     },
     {
-      "comment": "ruby.general.some_unparamaterised_message"
+      "comment": "ruby.general.some_unparameterised_message"
     },
-    "ruby.general.some_unparamaterised_message"
+    "ruby.general.some_unparameterised_message"
   ]
 }
 ```
@@ -56,14 +56,14 @@ Then can be structured either as single pointer strings (e.g. the last example a
 
 #### `comment`
 
-The pointer-string to a file in `website-copy`
+The pointer-string to a file in `website-copy`.
 
 #### `params` (optional)
 
 A JSON Object containing any params that should be interpolated during rendering. 
 For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then use `params` to substitute `%{variable_name}` for the actual variable that the student used.
 
-When using paramaterised files, ensure to escape all uses of `%` but placing anohter `%` in front of it. 
+When using parameterised files, ensure to escape all uses of `%` by placing anther `%` in front of it. 
 e.g. `Try aim aim for 100%% of the tests passing`.
 
 #### `type` (optional)
@@ -77,7 +77,7 @@ The following `type`s are valid:
 Comments without a type field default to `actionable`.
 
 Currently in the website, we soft-block on essential comments, encourage students to complete actionable comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`. 
-However, in future we may choose to add emojis or indicators to other types, or group them seperately.
+However, in the future we may choose to add emojis or indicators to other types, or group them seperately.
 
 ## Debugging
 
