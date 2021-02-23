@@ -43,8 +43,7 @@ The `results.json` file should be structured as followed:
 The version of the spec that this file adheres to:
 
 - `1`: The more basic specification for tracks that don't have "proper" test-runners. (To be documented).
-- `2`: The current specification, specified in this document, without the `test_code` key.
-- `3`: The current specification, specified in this document.
+- `2`: The current specification, specified in this document.
 
 #### Status
 
