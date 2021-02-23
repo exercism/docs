@@ -61,7 +61,7 @@ The pointer-string to a file in `website-copy`.
 #### `params` (optional)
 
 A JSON Object containing any params that should be interpolated during rendering. 
-For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then use `params` to substitute `%{variable_name}` for the actual variable that the student used.
+For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then set `params` to `{ "variable_name": "foo"}` in order to substitute `%{variable_name}` for the actual variable that the student used.
 
 When using parameterised files, ensure to escape all uses of `%` by placing anther `%` in front of it. 
 e.g. `Try aim aim for 100%% of the tests passing`.
