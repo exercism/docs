@@ -74,7 +74,7 @@ The following `type`s are valid:
 - `informative`: Comments that give information, but do not necessarily expect students to use it. For example, in Ruby, if someone uses String Concatenation in TwoFer, we also tell them about String Formatting, but don't suggest that it is a better option.
 - `celebratory`: Comments that tell users they've done something right, either as a general comment on the solution, or on a technique. 
 
-Comments without a type field default to `actionable`.
+Comments without a type field default to `informative `.
 
 Currently in the website, we soft-block on essential comments, encourage students to complete actionable comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`. 
 However, in the future we may choose to add emojis or indicators to other types, or group them seperately.
