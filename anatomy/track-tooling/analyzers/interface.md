@@ -17,7 +17,6 @@ The `analysis.json` file should be structured as followed:
 
 ```json
 {
-  "status": "...",
   "summary": "This solution looks good but has a few points to address",
   "comments": [
     {
