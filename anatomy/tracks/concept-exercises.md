@@ -276,6 +276,7 @@ This file contains meta information on the exercise:
   - `test`: the [test file(s)](./#filetests) (required)
   - `exemplar`: the [exemplar implementation file(s)](./#fileexemplarimplementation) (required)
 - `language_versions`: Language version requirements (optional)
+- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 
@@ -295,7 +296,8 @@ If someone is both an author _and_ a contributor, only list that person as an au
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],
     "exemplar": [".meta/Exemplar.fs"]
-  }
+  },
+  "blurb": "Learn to Love cooking Lucian's Luscious Lasagna"
 }
 ```
 
@@ -324,6 +326,7 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
   },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7",
+  "blurb": "Learn to Love cooking Lucian's Luscious Lasagna",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }
