@@ -297,7 +297,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
     "test": ["LasagnaTests.fs"],
     "exemplar": [".meta/Exemplar.fs"]
   },
-  "blurb": "Learn to Love cooking Lucian's Luscious Lasagna"
+  "blurb": "Learn the basics of F# by cooking Lucian's Luscious Lasagna"
 }
 ```
 
@@ -326,7 +326,7 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
   },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7",
-  "blurb": "Learn to Love cooking Lucian's Luscious Lasagna",
+  "blurb": "Learn the basics of Python by cooking Lucian's Luscious Lasagna",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }

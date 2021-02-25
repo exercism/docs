@@ -274,7 +274,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
     "test": ["LasagnaTests.fs"],
     "example": [".meta/Example.fs"]
   },
-  "blurb": "Learn to Love cooking Lucian's Luscious Lasagna"
+  "blurb": "Learn the basics of F# by cooking Lucian's Luscious Lasagna"
 }
 ```
 
