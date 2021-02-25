@@ -253,7 +253,7 @@ This file contains meta information on the exercise:
   - `test`: the [test file(s)](./#filetests) (required)
   - `example`: the [example implementation file(s)](./#fileexampleimplementation) (required)
 - `language_versions` Language version requirements (optional)
-- `blurb`: A short description of this exercise (required)
+- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 
