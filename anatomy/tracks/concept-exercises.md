@@ -326,7 +326,7 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
   },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7",
-  "blurb": "Learn the basics of Python by cooking Lucian's Luscious Lasagna",
+  "blurb": "Learn the basics of Python by cooking Guido's Gorgeous Lasagna",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }
