@@ -24,6 +24,7 @@ The following top-level properties contain general track metadata:
   - `test`: test file(s) pattern (optional)
   - `example`: example implementation file(s) pattern (optional
   - `exemplar`: exemplar implementation file(s) pattern (optional)
+  - `editor`: additional read-only editor file(s) patterns (optional)
 
 ### Files
 

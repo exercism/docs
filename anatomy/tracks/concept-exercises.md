@@ -275,6 +275,7 @@ This file contains meta information on the exercise:
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
   - `test`: the [test file(s)](./#filetests) (required)
   - `exemplar`: the [exemplar implementation file(s)](./#fileexemplarimplementation) (required)
+  - `editor`: other files shown as read-only in the editor (optional)
 - `language_versions`: Language version requirements (optional)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
@@ -320,7 +321,8 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
   "files": {
     "solution": ["lasagna.py"],
     "test": ["lasagna_test.py"],
-    "exemplar": [".meta/exemplar.py"]
+    "exemplar": [".meta/exemplar.py"],
+    "editor": ["test_helper.py"]
   },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7",
