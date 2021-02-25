@@ -214,7 +214,7 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 
 **Purpose:** Describe the design of the exercise.
 
-**Presence:** Required
+**Presence:** Optional
 
 This file contains information on the exercise's design, which includes things like its goal, its teaching goals, what not to teach, and more.
 
