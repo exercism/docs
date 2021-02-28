@@ -21,7 +21,7 @@ Widgets can be used wherever you can use Markdown, such as documentation, approa
 They are rendered using the following format
 
 ```md
-[type:<track-slug>/<type-slug>]()
+[<type>:<track-slug>/<type-slug>]()
 ```
 
 The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
