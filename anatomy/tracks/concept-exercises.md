@@ -450,6 +450,45 @@ Some languages require additional files for the tests to run. Example of these a
 
 Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
 
+## Naming
+
+Concept Exercises should be named after their story/theme, _not_ after their concept(s).
+
+Good examples of names:
+
+- `Tim from Marketing`
+- `Lucian's Luscious Lasagna`
+- `Calculator Conundrum`
+
+Bad examples of names:
+
+- `Booleans`: should not be named after a concept
+- `Exercise #1`: an exercise is not a story/theme
+
+When forking an exercise without major changes, use the original name when possible.
+
+### Slugs
+
+Each exercise also has a _slug_, which is normalized version of the exercise name using the following rules:
+
+1. Use lowercase.
+1. Use [kebab-case][kebab-case].
+1. Use alphanumerical characters ('a' - 'z') and dashes ('-').
+
+Good examples of slugs:
+
+- `tim-from-marketing`
+- `lucians-luscious-lasagna`
+- `calculator-conundrum`
+
+Bad examples of slugs:
+
+- `TIM-FROM-MARKETING`: should use lowercase (i.e. `tim-from-marketing`)
+- `TimFromMarketing`: should use kebab-case (i.e. `tim-from-marketing`)
+- `floating-point-numbers`: should not use a concept
+
 ## Presentation
 
 There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.
+
+[kebab-case]: https://en.wiktionary.org/wiki/kebab_case
