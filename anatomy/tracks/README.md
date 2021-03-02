@@ -35,7 +35,7 @@ Some parts of the track can be displayed in [widgets](./widgets.md), such as [co
 
 ## Style guide
 
-The [style guide](./style-guide.md) records how documents should be written and formatted.
+All documents should adhere to the [style guide](../../contributing/standards/style-guide.md). Markdown documents should also adhere to our [Markdown standards](../../contributing/standards/markdown.md).
 
 ## Example
 
