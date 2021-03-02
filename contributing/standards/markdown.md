@@ -105,7 +105,9 @@ Exercism is a very intentional product - things are there because they've been d
 
 ## Comments
 
-- Prfer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
+- Prefer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
+
+You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark2](https://johnmacfarlane.net/babelmark2/?text=above%0A%0A%5Bcomment%5D%3A+%23+)(THIS+SHOULD+BE+REMOVED)%0Abelow
 
 ## Inline HTML
 
