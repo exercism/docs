@@ -473,7 +473,8 @@ Each exercise also has a _slug_, which is normalized version of the exercise nam
 
 1. Use lowercase.
 1. Use [kebab-case][kebab-case].
-1. Use latin alphabetical characters ('a' - 'z') and dashes ('-').
+1. Use latin alphanumerical characters and dashes (Regexp: `[a-z0-9-]+`)
+1. Prefer written digits over numeric ones, unless there is a specific reason to prefer the digit (e.g. `two-fer` over `2-fer`)
 
 Good examples of slugs:
 
