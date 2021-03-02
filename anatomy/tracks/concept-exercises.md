@@ -473,7 +473,7 @@ Each exercise also has a _slug_, which is normalized version of the exercise nam
 
 1. Use lowercase.
 1. Use [kebab-case][kebab-case].
-1. Use alphanumerical characters ('a' - 'z') and dashes ('-').
+1. Use latin alphabetical characters ('a' - 'z') and dashes ('-').
 
 Good examples of slugs:
 
@@ -481,11 +481,11 @@ Good examples of slugs:
 - `lucians-luscious-lasagna`
 - `calculator-conundrum`
 
-Bad examples of slugs:
+Disallowed slugs:
 
-- `TIM-FROM-MARKETING`: should use lowercase (i.e. `tim-from-marketing`)
-- `TimFromMarketing`: should use kebab-case (i.e. `tim-from-marketing`)
-- `floating-point-numbers`: should not use a concept
+- `TIM-FROM-MARKETING`: does not use lowercase (i.e. `tim-from-marketing`)
+- `TimFromMarketing`: does not use kebab-case (i.e. `tim-from-marketing`)
+- `floating-point-numbers`: uses a concept name, not a story name
 
 ## Presentation
 
