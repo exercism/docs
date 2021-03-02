@@ -41,45 +41,73 @@ concepts
 
 ### File: about.md
 
-**Purpose:** Provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
+**Purpose:** Provide more detailed information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
 
 **Presence:** Required
 
-Once the student completes the exercise they will be shown this file, which should provide them with a summary of the concept. If the concept introduces new syntax, syntax samples should be included. At a minimum, this file should contain all information that is introduced in the exercise's [`.docs/introduction.md` document](./concept-exercises#filedocsintroductionmd).
+After unlocking the concept by completing the corresponding exercise, the student will be able to navigate to this file. It should provide them with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the concepts' [`introduction.md` document](./concepts.md#file-introductionmd).
 
-This document can also link to any additional resources that might be interesting to the student in the context of the exercise, such as:
+If the concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead about.md should contain enough information to be understandable within its content.
+
+About.md is not limited to the scope of the corresponding concept exercise. The content can require knowledge of other concepts that will be introduced later on. If other concepts are mentioned, their respective introductions should be linked (how?).
+
+Here some examples of what could be covered.
 
 - Popular usages for a feature
 - Common pitfalls in a feature's use (e.g. casual use of multiple **threads**)
 - Limitations on use that may catch out the unsuspecting developer
-- Alternative approaches addressed in other exercises
+- Alternative approaches addressed in other concepts
 - Compromises made for ease of learning or to accommodate the Exercism environment, e.g. multiple classes in single file
 - Similar features with which the concept may be confused
 - Performance characteristics and memory usage
+
+It is NOT the aim of the about.md file to provide a complete set of information on the concept. As an example, imagine a language that has some older features for which experienced programmers (and maybe even the official docs/specs) recommend they should not be used anymore. Providing details on such features would out of scope for the about.md file because they are not relevant to gain fluency.
+
+Make sure the about.md file is clearly structured, especially when it contains a lot of information. In the future there will also be support for marking parts as "advanced topics" to point them out to interested students without overloading others.
 
 #### Example
 
 ````markdown
 # About
 
-One of the key aspects of working with numbers in C# is the distinction between [integers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types) (numbers with no digits after the decimal separator) and [floating-point numbers](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/floating-point-numeric-types) (numbers with zero or more digits after the decimal separator).
+There are two different kinds of numbers in Elixir - integers and floats.
 
-The two most commonly used numeric types in C# are `int` (a 32-bit integer) and `double` (a 64-bit floating-point number).
+Floats are numbers with one or more digits behind the decimal separator. They use the 64-bit double precision floating-point format.
 
-```csharp
-int i = 123;
-double d = 54.29;
+```elixir
+float = 3.45
+# => 3.45
 ```
 
-Both integers and floating-point numbers can use the `_` character as a _digit separator_, which can help when defining large numbers:
+Elixir also supports the scientific notation for floats.
 
-```csharp
-int largeInt = 1_000_000;
-// => 1000000
-
-double largeDouble = 9_876_543.21;
-// => 9876543.21
+```elixir
+1.25e-2
+# => 0.0125
 ```
+
+## Rounding errors
+
+Floats are infamous for their rounding errors.
+
+```elixir
+0.1 + 0.2
+# => 0.30000000000000004
+```
+
+However, those kind of errors are not specific to Elixir. They happen in all programming languages. This is because all data on our computers is stored and processed as binary code. In binary, only fractions whose denominator can be expressed as `2^n` (e.g. `1/4`, `3/8`, `5/16`) can be expressed exactly. Other fractions are expressed as estimations.
+
+```elixir
+# 3/4
+Float.ratio(0.75)
+# => {3, 4}
+
+# 3/5
+Float.ratio(0.6)
+# => {5404319552844595, 9007199254740992}
+```
+
+You can learn more about this problem at [0.30000000000000004.com][0.30000000000000004.com]. The [Float Toy page][evanw.github.io-float-toy] has a nice, graphical explanation how a floating-point number's bits are converted to an actual floating-point value.
 ````
 
 ### File: introduction.md
