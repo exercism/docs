@@ -49,7 +49,7 @@ After completing the corresponding Concept Exercise (otherwise known as "learnin
 
 If the Concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead the `about.md` should contain enough information to be understandable within its content.
 
-`about.md` is not limited to the scope of the corresponding Concept Exercise. The content can require knowledge of other concepts that will be introduced later on. If other Concepts are mentioned, their respective introductions should be linked (how?).
+`about.md` is not limited to the scope of the corresponding Concept Exercise. The content can require knowledge of other concepts that will be introduced later on. If other Concepts are mentioned, their respective introductions should be linked (see [internal linking](https://github.com/exercism/docs/blob/main/anatomy/tracks/internal-linking.md) for details).
 
 Here some examples of what could be covered.
 
