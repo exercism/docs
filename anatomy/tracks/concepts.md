@@ -41,29 +41,29 @@ concepts
 
 ### File: about.md
 
-**Purpose:** Provide more detailed information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to.
+**Purpose:** Provide more detailed information about the Concept for a student who has completed the corresponding Concept Exercise to learn from and refer back to.
 
 **Presence:** Required
 
-After unlocking the concept by completing the corresponding exercise, the student will be able to navigate to this file. It should provide them with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the concepts' [`introduction.md` document](./concepts.md#file-introductionmd).
+After completing the corresponding Concept Exercise (otherwise known as "learning" a Concept), the content of the Concept page will change from the introduction.md to the about.md. It should provide them with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the Concepts' [`introduction.md` document](./concepts.md#file-introductionmd).
 
-If the concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead about.md should contain enough information to be understandable within its content.
+If the Concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead the `about.md` should contain enough information to be understandable within its content.
 
-About.md is not limited to the scope of the corresponding concept exercise. The content can require knowledge of other concepts that will be introduced later on. If other concepts are mentioned, their respective introductions should be linked (how?).
+`about.md` is not limited to the scope of the corresponding Concept Exercise. The content can require knowledge of other concepts that will be introduced later on. If other Concepts are mentioned, their respective introductions should be linked (how?).
 
 Here some examples of what could be covered.
 
-- Popular usages for a feature
-- Common pitfalls in a feature's use (e.g. casual use of multiple **threads**)
+- Popular usages for a Concept
+- Common pitfalls in a Concept's use (e.g. casual use of multiple **threads**)
 - Limitations on use that may catch out the unsuspecting developer
-- Alternative approaches addressed in other concepts
+- Alternative approaches addressed in other Concepts (e.g. the ••recursion** Concept might reference that the **Higher Order Functions** Concept offers an alternative approach to similar problems).
 - Compromises made for ease of learning or to accommodate the Exercism environment, e.g. multiple classes in single file
-- Similar features with which the concept may be confused
-- Performance characteristics and memory usage
+- Similar features with which the Concept may be confused
+- Performance characteristics and memory usage, when a common consideration within that language.
 
-It is NOT the aim of the about.md file to provide a complete set of information on the concept. As an example, imagine a language that has some older features for which experienced programmers (and maybe even the official docs/specs) recommend they should not be used anymore. Providing details on such features would out of scope for the about.md file because they are not relevant to gain fluency.
+It is **not** the aim of the `about.md` file to provide a complete set of information on the Concept. As an example, imagine a language that has some older features for which experienced programmers (and maybe even the official docs/specs) recommend they should not be used anymore. Providing details on such features would out of scope for the `about.md` file because they are not relevant to gain fluency. However, maintainers may choose to add a short block to acknowledge the old standards if a student might commonly come across those standards in the wild. However, this block should be commonly demarketed as such.
 
-Make sure the about.md file is clearly structured, especially when it contains a lot of information. In the future there will also be support for marking parts as "advanced topics" to point them out to interested students without overloading others.
+The `about.md` file MUST be clearly structured, especially when it contains a lot of information. In the future there will also be support for marking parts as "advanced topics" to point them out to interested students without overloading others.
 
 #### Example
 
