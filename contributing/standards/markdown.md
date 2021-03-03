@@ -89,10 +89,6 @@ def sample_func(argument1):
 
 A quick way to distinguish between the two cases when it's unclear - if this is code the student can run in a terminal, format it that way. If it's code that Exercism might run (in tests, library code the student will write, etc), default to formatting it as runnable code.
 
-## Language Code Style
-
-Please consult each language's docs folder for more information on the preferred style conventions for that language. All exercises of a language should use a consistent coding style.
-
 ## Layout
 
 ### One sentence per line
@@ -106,6 +102,12 @@ Exercism has been designed, engineered and built by thousands of very talented i
 Nearly everything with Exercism has been debated, discussed and rewritten many times.
 Exercism is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
 ```
+
+## Comments
+
+- Prefer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
+
+You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark2](https://johnmacfarlane.net/babelmark2/?text=above%0A%0A%5Bcomment%5D%3A+%23+)(THIS+SHOULD+BE+REMOVED)%0Abelow
 
 ## Inline HTML
 

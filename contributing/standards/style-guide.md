@@ -7,7 +7,7 @@ This document acts as a Style Guide for the language and wording used in exercis
 These rules should be followed in all exercises.
 Existing descriptions and test-cases can be updated to adhere to them without requiring "replacement" test cases.
 
-### Consistency within an exercise.
+### Consistency within an exercise
 
 There are some terms that have multiple valid spellings (e.g. "lower case" vs "lowercase").
 Where a consistent style has not been agreed within this document, these must be consistent within an exercise.
@@ -81,7 +81,6 @@ Examples:
 - Rather than using the word range (which can have different meanings in different contexts) use "x < ? < y (greater than x and less than y)".
 - Rather than using "esoteric terms", use the phrase "terms not understood by the majority of people".
 
-## Use consistency within an exercise.
+## Code
 
-There are some terms that have multiple valid spellings (e.g. "lower case" vs "lowercase").
-Where a consistent style has not been agreed within this document, these must be consistent within an exercise.
+All code should be consistently formatted using the style conventions of their track. When possible, these track-wide conventions should match the language's preferred style conventions.
