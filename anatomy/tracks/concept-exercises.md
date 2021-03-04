@@ -460,9 +460,9 @@ Good examples of names:
 - `Lucian's Luscious Lasagna`
 - `Calculator Conundrum`
 
-Bad examples of names:
+Disallowed names:
 
-- `Booleans`: should not be named after a concept
+- `Booleans`: uses a concept name, not a story name
 - `Exercise #1`: an exercise is not a story/theme
 
 When forking an exercise without major changes, use the original name when possible.
