@@ -2,7 +2,7 @@
 
 Repo: <https://github.com/exercism/website-copy/>
 
-This document is obviously incomplete, it merely serves as a way to save a question & answer from the Slack paywall.
+This document is obviously incomplete, right now it merely serves as a way to save a question & answer from the Slack paywall.
 
 ## Why are Mentoring Notes not in the track repo?
 
