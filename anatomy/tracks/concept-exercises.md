@@ -460,9 +460,9 @@ Good examples of names:
 - `Lucian's Luscious Lasagna`
 - `Calculator Conundrum`
 
-Bad examples of names:
+Disallowed names:
 
-- `Booleans`: should not be named after a concept
+- `Booleans`: uses a concept name, not a story name
 - `Exercise #1`: an exercise is not a story/theme
 
 When forking an exercise without major changes, use the original name when possible.
@@ -473,7 +473,8 @@ Each exercise also has a _slug_, which is normalized version of the exercise nam
 
 1. Use lowercase.
 1. Use [kebab-case][kebab-case].
-1. Use alphanumerical characters ('a' - 'z') and dashes ('-').
+1. Use latin alphanumerical characters and dashes (Regexp: `[a-z0-9-]+`)
+1. Prefer written digits over numeric ones, unless there is a specific reason to prefer the digit (e.g. `two-fer` over `2-fer`)
 
 Good examples of slugs:
 
@@ -481,11 +482,11 @@ Good examples of slugs:
 - `lucians-luscious-lasagna`
 - `calculator-conundrum`
 
-Bad examples of slugs:
+Disallowed slugs:
 
-- `TIM-FROM-MARKETING`: should use lowercase (i.e. `tim-from-marketing`)
-- `TimFromMarketing`: should use kebab-case (i.e. `tim-from-marketing`)
-- `floating-point-numbers`: should not use a concept
+- `TIM-FROM-MARKETING`: does not use lowercase (i.e. `tim-from-marketing`)
+- `TimFromMarketing`: does not use kebab-case (i.e. `tim-from-marketing`)
+- `floating-point-numbers`: uses a concept name, not a story name
 
 ## Presentation
 
