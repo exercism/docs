@@ -32,7 +32,7 @@ This article aims to help protect that time and energy.
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
 It is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
-Nearly everything with Exercism has been debated, discussed and re-enginnered many times.
+Nearly everything with Exercism has been debated, discussed and re-engineered many times.
 
 So before posting your idea, please ask yourself whether we might have already considered it, and why we might have done things differently to what you're suggesting.
 And remember, the more obvious your idea seems - the more likely it's been discussed and debated many times over -- so when you present it, present it with the potential caveats and pitfalls in place.
