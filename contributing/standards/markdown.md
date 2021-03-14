@@ -97,13 +97,13 @@ They are similar to this examples seen in the Julia docs:
 <img width="500" alt="Screenshot 2021-03-13 at 17 15 04" src="https://user-images.githubusercontent.com/286476/111038207-aca0bd00-841f-11eb-95fb-20a93943d3dd.png">
 
 We support three types of blocks:
-- **note:** Blocks that pull out some extra special information
-- **caution:** Things that people should know about or tread carefully with
-- **advanced:** Information that is only relevant for people who want to dig more deeply into something or are expected to have more advanced knowledge.
+- **exercism/note:** Blocks that pull out some extra special information
+- **exercism/caution:** Things that people should know about or tread carefully with
+- **exercism/advanced:** Information that is only relevant for people who want to dig more deeply into something or are expected to have more advanced knowledge.
 
 All blocks are written using 4 tildes, in the form of:
 `````
-~~~~note
+~~~~exercism/note
 Content goes here
 
 You can include code:
