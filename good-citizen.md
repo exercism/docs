@@ -19,7 +19,7 @@ This means being careful when using metaphors, acronyms or phrases that might on
 It also means being open to learning about how people from different cultures might misunderstand your intentions, and changing the words you use accordingly.
 
 One example is that within Exercism we ask people not to use the word "guys" unless explicitely addressing a group of men. 
-While in many places the word "guys" can refer to a group of people irrespective of gender, in many places it does explicltely mean "men".
+While in many places the word "guys" can refer to a group of people irrespective of gender, in many other places it explicitly means "men".
 So, regardless of the intention of the speaker, the person hearing the word "guys" understands the speaker to be only addressing only men, and feels excluded.
 In tech, where women are in the strong miniority, this adds yet another sense of negativity and exclusion.
 
