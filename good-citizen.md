@@ -29,7 +29,8 @@ However, when guided by the principle of communicating in a way that is clear an
 ~~~~note
 Our co-founder, Jeremy, is from the UK, where the British dictionary explicitely states that "guys" is a gender neutral word.
 In real life, he commonly addresses groups of women using the word "guys". 
-However, in an international setting such as conferences, or within on multi-national platform such as Exercism, he would choose to use a clearer word such as "folks" (or occasionally y'all when he's feeling particuarly Texan)
+However, in an international setting such as conferences, or within on multi-national platform such as Exercism, he would choose to use a clearer word such as "folks" (or occasionally y'all when he's feeling particularly Texan).
+As such, there is no judgement about whether the word "guys" should mean one thing or another or is good or bad, purely that the usage of the word should change with context.
 ~~~~
 
 ## Remember that we're all human
