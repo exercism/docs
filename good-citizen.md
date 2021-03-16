@@ -6,7 +6,7 @@ This is formalised in our [Code of Conduct](https://exercism.io/code-of-conduct)
 
 ## The words we use
 
-There are lots of ways to embrace being kind within Exercism but the most powerful is to consider how your words affect others.
+There are lots of ways to embrace being kind within Exercism, but the most powerful is to consider how your words affect others.
 
 Words in themselves are meaningless. 
 They are vibrations caused by puffs of air coming out of our lungs.
