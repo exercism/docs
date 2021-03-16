@@ -92,7 +92,7 @@ A quick way to distinguish between the two cases when it's unclear - if this is 
 ## Special blocks (sometimes called admonitions)
 
 We support special types of blocks that can be added to documents to pull out commentary that doesn't fit with the main body of the text. 
-They are similar to this examples seen in the Julia docs:
+They are similar to these examples, seen in the Julia docs:
 
 <img width="500" alt="Screenshot 2021-03-13 at 17 15 04" src="https://user-images.githubusercontent.com/286476/111038207-aca0bd00-841f-11eb-95fb-20a93943d3dd.png">
 
