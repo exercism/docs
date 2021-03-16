@@ -15,7 +15,8 @@ However, because of **context**, words are powerful.
 It's easy to know how you intend your words to come across, but it's difficult to know how others hear your words.
 What we say is strongly tempered by our experience in life, our cultural norms, and our primary spoken language.
 We believe it's better to choose words that are **clear** and **unambiguous** across cultures, and where possible, across spoken languages.
-This means being careful when using metaphors, acroynyms or phrases that might only be understandable to someone from a specific background or with specific knowledge.
+This means being careful when using metaphors, acronyms or phrases that might only be understandable to someone from a specific background or with specific knowledge.
+It also means being open to learning about how people from different cultures might misunderstand your intentions, and changing the words you use accordingly.
 
 One example is that within Exercism we ask people not to use the word "guys" unless explicitely addressing a group of men. 
 While in many places the word "guys" can refer to a group of people irrespective of gender, in many places it does explicltely mean "men".
