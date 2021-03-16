@@ -23,7 +23,7 @@ While in many places the word "guys" can refer to a group of people irrespective
 So, regardless of the intention of the speaker, a person from that cultures hearing the word "guys" understands the speaker to be only addressing only men and, if they are not male, feels excluded.
 In tech, where men are in the strong majority, this adds yet another sense of negativity and exclusion to everyone else.
 
-For some people who are used to using the word "guys" to mean a group of people irrespective of gender, this rule can seem pedantic or irrational.
+At first, many people find this rule to be pedantic or irrational, as they are clear in their intentions to not exclude anyone.
 However, when guided by the principle of using communication that is clear and unambiguous, and driven by being kind to others in the community, it becomes clear that the word "guys" does not convey the intended meaning to the receiver and may cause a sense of exclusion, and so we choose to use clearer words.
 
 ~~~~note
