@@ -24,7 +24,7 @@ So, regardless of the intention of the speaker, a person from that cultures hear
 In tech, where men are in the strong majority, this adds yet another sense of negativity and exclusion to everyone else.
 
 At first, many people find this rule to be pedantic or irrational, as they are clear in their intentions to not exclude anyone.
-However, when guided by the principle of using communication that is clear and unambiguous, and driven by being kind to others in the community, it becomes clear that the word "guys" does not convey the intended meaning to the receiver and may cause a sense of exclusion, and so we choose to use clearer words.
+However, when guided by the principle of communicating in a way that is clear and unambiguous, and driven by the desire to be kind to others in the community, it becomes clear that the word "guys" does not necessarily convey the intended meaning to everyone, and so they choose to use clearer words.
 
 ~~~~note
 Our co-founder, Jeremy, is from the UK, where the British dictionary explicitely states that "guys" is a gender neutral word.
