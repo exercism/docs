@@ -33,7 +33,7 @@ However, in an international setting such as conferences, or within on multi-nat
 As such, there is no judgement about whether the word "guys" should mean one thing or another or is good or bad, purely that the usage of the word should change with context.
 ~~~~
 
-## Remember that we're all human
+## You don't know what you don't know
 
 Just as it is important to say the right things, it is equally important to understand that people who cause offence might have had no intention to do so.
 Cultural differences mean that people often say things that would be clear to them and their friends to mean one thing, but mean something entirely different to you.
