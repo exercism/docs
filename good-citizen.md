@@ -31,3 +31,19 @@ Our co-founder, Jeremy, is from the UK, where the British dictionary explicitely
 In real life, he commonly addresses groups of women using the word "guys". 
 However, in an international setting such as conferences, or within on multi-national platform such as Exercism, he would choose to use a clearer word such as "folks" (or occasionally y'all when he's feeling particuarly Texan)
 ~~~~
+
+## Remember that we're all human
+
+Just as it is important to say the right things, it is equally important to understand that people who cause offence might have had no intention to do so.
+Cultural differences mean that people often say things that would be clear to them and their friends to mean one thing, but mean something entirely different to you.
+In those situations, **give the person the benefit of the doubt.** 
+It is always best to presume that someone is acting with the intentions of being clear and kind, and that they are unaware of how their words will affect others.
+As with so much of Exercism, you don't know what you don't know, and it's easy to accidentally say the wrong thing.
+
+The important thing is not the mistake, it is the learning and the change that comes from it.
+So if someone says something that you feel is offensive, and you feel comfortable doing so, feel free to tell them.
+And if someone tells you you've said something that is offensive to them, believe them, and embrace the experience of learning more about that other culture, and extending your communication skills to not cause offense in future.
+
+The beauty of Exercism is about making mistakes and learning from them. 
+Exercism is brilliant at helping with that through mentoring, but it's also brilliant at introducing you to new ideas and information through our huge multinational community.
+Embrace it!
