@@ -20,7 +20,7 @@ It also means being open to learning about how people from different cultures mi
 
 One example is that within Exercism we ask people not to use the word "guys" unless explicitely addressing a group of men. 
 While in many places the word "guys" can refer to a group of people irrespective of gender, in many other places it explicitly means "men".
-So, regardless of the intention of the speaker, a person from that cultures hearing the word "guys" understands the speaker to be only addressing only men and, if they are not male, feels excluded.
+So, regardless of the intention of the speaker, a person from that cultural background hearing the word "guys" understands the speaker to be only addressing men and, if they are not male, feels excluded.
 In tech, where men are in the strong majority, this adds yet another sense of negativity and exclusion to everyone else.
 
 At first, many people find this rule to be pedantic or irrational, as they are clear in their intentions to not exclude anyone.
