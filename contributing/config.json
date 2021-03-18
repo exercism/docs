@@ -1,7 +1,6 @@
 [
   {
     "uuid": "7c7139b9-a228-4691-a4e4-a0c39a6dd615",
-    "section": "contributing",
     "slug": "APEX",
     "path": "contributing/README.md",
     "title": "Contributing to Exercism",
@@ -10,28 +9,28 @@
 
   {
     "uuid": "d078e880-a732-4e39-998f-fbe7397fe677",
-    "slug": "contributing/community",
+    "slug": "community",
     "path": "contributing/community/README.md",
     "title": "Community",
     "blurb": "Learn how Exercism's community works"
   },
   {
     "uuid": "3487dacd-f6ca-4784-b93f-c4a5d023f051",
-    "slug": "contributing/community/administrators",
+    "slug": "community/administrators",
     "path": "contributing/community/administrators.md",
     "title": "Exercism Adminstrators",
     "blurb": "Learn about Exercism's Administrators"
   },
   {
     "uuid": "7e11a8f5-e6f8-49f1-ab0c-81427fa12c5c",
-    "slug": "contributing/community/being-a-good-member",
+    "slug": "community/being-a-good-member",
     "path": "contributing/community/being-a-good-member.md",
     "title": "Being a good community member",
     "blurb": "Learn how to be a great member of the Exercism community"
   },
   {
     "uuid": "55064dce-a51b-43d2-b8ce-9777d1f39528",
-    "slug": "contributing/community/chestertons-fence",
+    "slug": "community/chestertons-fence",
     "path": "contributing/community/chestertons-fence.md",
     "title": "Chesterton's Fence",
     "blurb": "Learn how to express your ideas in suggestions in the best way"
@@ -39,32 +38,32 @@
 
   {
     "uuid": "d372e903-31fa-4918-a506-e3f939452828",
-    "slug": "contributing/configlet",
+    "slug": "configlet",
     "path": "contributing/configlet/README.md",
     "title": "Configlet",
     "blurb": "The canonical specifications for everything on Exercism"
   },
   {
     "uuid": "3cdd0fcd-8283-4f80-b16c-2ee089347120",
-    "slug": "contributing/configlet/uuid",
+    "slug": "configlet/uuid",
     "path": "contributing/configlet/uuid.md",
     "title": "configlet uuid"
   },
   {
     "uuid": "dc118ace-041d-47f4-863c-2151e3b0e27c",
-    "slug": "contributing/configlet/sync",
+    "slug": "configlet/sync",
     "path": "contributing/configlet/sync.md",
     "title": "configlet sync"
   },
   {
     "uuid": "833996f1-271e-4fc0-b5c0-d349a1d715ab",
-    "slug": "contributing/configlet/lint",
+    "slug": "configlet/lint",
     "path": "contributing/configlet/lint.md",
     "title": "configlet lint"
   },
   {
     "uuid": "d8d9ff53-fe8f-4333-80c5-87517433cf7d",
-    "slug": "contributing/configlet/generating-documents",
+    "slug": "configlet/generating-documents",
     "path": "contributing/configlet/generating-documents.md",
     "title": "Generating Documents"
   }
