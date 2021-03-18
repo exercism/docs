@@ -252,6 +252,7 @@ This file contains meta information on the exercise:
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
   - `test`: the [test file(s)](./#filetests) (required)
   - `example`: the [example implementation file(s)](./#fileexampleimplementation) (required)
+  - `editor`: additional files shown as read-only in the editor (optional)
 - `language_versions` Language version requirements (optional)
 - `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
