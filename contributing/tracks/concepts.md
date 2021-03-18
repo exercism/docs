@@ -56,7 +56,7 @@ Here some examples of what could be covered.
 - Popular usages for a Concept
 - Common pitfalls in a Concept's use (e.g. failing to consider thread-safety)
 - Limitations on use that may catch out the unsuspecting developer
-- Alternative approaches addressed in other Concepts (e.g. the ••recursion** Concept might reference that the **Higher Order Functions** Concept offers an alternative approach to similar problems)
+- Alternative approaches addressed in other Concepts (e.g. the ••recursion** Concept might reference that the **Higher Order Functions\*\* Concept offers an alternative approach to similar problems)
 - Compromises made for ease of learning or to accommodate the Exercism environment, e.g. multiple classes in single file
 - Similar features with which the Concept may be confused
 - Performance characteristics and memory usage, when a common consideration within that language

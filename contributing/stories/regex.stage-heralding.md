@@ -9,9 +9,9 @@ You're given a list of speakers on your stage in advance and need to turn them i
 Since the list follows a particular formatting, you decide to write a short program that parses the list you're given using regular expressions (regex) and automatically generates the moderation cards.
 
 !!! note
-    This exercise is **not** about learning regular expressions.
-    It's about learning to use regex within $lang.
-    The hints contain a regular expression that you can use if you don't want to write one yourself.
+This exercise is **not** about learning regular expressions.
+It's about learning to use regex within $lang.
+The hints contain a regular expression that you can use if you don't want to write one yourself.
 
 The list you're given contains the following information for each talk:
 
@@ -33,7 +33,7 @@ Here, the title is `Speedrunning 101`, the speaker is called `Sasha Duda Krall`,
 The talk starts at `13:00`, there will be a Q&A starting at `13:20`, and the entire session ends at `13:30`.
 
 !!! note
-    Since names may contain regular dashes `-`, an en dash `–` is used to separate the speaker and talk name.
+Since names may contain regular dashes `-`, an en dash `–` is used to separate the speaker and talk name.
 
 The moderation card that your program should generate for that talk looks like this:
 
@@ -86,7 +86,7 @@ The corresponding cards are:
 - Kira's talk is called »Can dogs look up?«
 - Kira will answer your questions in the Q&A session at the end of the talk, starting at 21:05
 
-20:50 - 21:05 - 21:10 
+20:50 - 21:05 - 21:10
 ```
 
 A few things to note here:
@@ -97,7 +97,6 @@ A few things to note here:
   Note that it is not always appropriate to abbreviate someone's name like this, e.g. many Chinese names are better abbreviated by keeping the last name.
   However, the abbreviate-to-first-name rule happens to work fine for everyone speaking on this stage.
 
-
 ## Tasks
 
 ### 1. Write a regex that captures the information you need to generate the cards
@@ -105,7 +104,7 @@ A few things to note here:
 It's easiest to use a regex builder tool like [regex101](https://regex101.com/) or [RegExr](https://regexr.com/) to do this.
 
 !!! warning
-    Make sure to set the regex engine/flavour to $CHANGE_ME.
+Make sure to set the regex engine/flavour to $CHANGE_ME.
 
 If you're new to regex or struggle with creating an expression that captures all required information at once, you can also define several smaller expressions that capture parts of the information-
 

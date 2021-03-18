@@ -10,4 +10,4 @@ These are the steps to get going:
 
 We have an incredibly friendly and supportive community who will be happy to help you as you work through this! If you get stuck, please speak to us on Slack or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
 
-[exercism-repo]: https://github.com/exercism/exercism 
+[exercism-repo]: https://github.com/exercism/exercism

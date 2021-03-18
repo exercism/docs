@@ -1,6 +1,6 @@
 # Configlet generating documents
 
-The secondary use of [configlet](./README.md) is generating documents.
+The secondary use of [configlet](../) is generating documents.
 
 ## Usage
 
