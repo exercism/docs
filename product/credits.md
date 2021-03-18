@@ -17,7 +17,7 @@ A user receives a credit "present" each year upon their Exercism birthday.
 ### Mentoring
 
 Every time someone requests mentoring, they add a bounty to their request. The mentor who successfully mentors that solution receives that bounty.
- 
+
 In general, a user's [mentoring reputation](../reputation.md) determines the max bounty they can recieve. The more someone mentors (successfully), the better bounties they have access to and the more credits they can acquire.
 
 ## Spending Credits

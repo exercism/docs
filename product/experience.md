@@ -15,6 +15,7 @@ There are various ways of acquiring experience.
 Experience is acquired by successfully completing Concept and Practice Exercises.
 
 All exercises award points, but different exercises may award different amounts of points, depending on:
+
 - Whether the exercise is Concept or Practice
 - The difficulty of the exercise
 - Whether the same exercise has been completed in an alternative language (ie, you get more points the first time you complete `Bob` than the 5th time)
@@ -25,6 +26,7 @@ An algorithm considering these factors is yet to be decided.
 ### 2. Track milestones
 
 At certain points during the track, extra experience will be awarded:
+
 - Completing a Concept exercise in a track
 - Completing 10 Concept exercises in a track
 - Completing a Practice exercise in a track
@@ -41,6 +43,7 @@ Much like any modern roleplaying game, experience points are accrued and represe
 ### Level Tags
 
 Levels are also grouped into labels. For example:
+
 - 1 - 9 : Newbie
 - 10 - 19 : Explorer
 - 20 - 39 : Adventurer
