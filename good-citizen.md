@@ -12,7 +12,7 @@ Words in themselves are meaningless.
 They are vibrations caused by puffs of air coming out of our lungs.
 However, because of **context**, words are powerful.
 
-It's easy to know how you intend your words to come across, but it's difficult to know how others hear your words.
+It's easy to know how you intend your words to _come across_, but it's difficult to know how others _hear your words_.
 What we say is strongly tempered by our experiences in life, our cultural norms, and our primary spoken language.
 At Exercism, we believe it's better to choose words that are **clear** and **unambiguous** across cultures and, where possible, across spoken languages.
 This means being careful when using metaphors, acronyms or phrases that might only be understandable to someone from a specific background or with specific knowledge.
