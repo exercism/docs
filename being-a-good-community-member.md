@@ -1,4 +1,4 @@
-# Being a Good Citizen of Exercism
+# Being a Good Exercism Community Member
 
 We want Exercism to be a great place to spend time, whoever you are.
 To ensure that Exercism is that, we place a strong focus on being good community members.
