@@ -72,6 +72,19 @@ exercises
         └── CarsAssemblyTests.cs (tests)
 </pre>
 
+### Minimal valid spec
+
+We favor an "optimistic merging" approach to new exercises, where tracks can develop exercises in a "work in progress" state.
+The minimal valid state, which will pass configlet and allow you to merge is:
+- Valid entry in the track `config.json`, with the `status` set to `wip`.
+- A valid `.meta/config.json` file
+- The following files being present, although they may be empty:
+  - `.docs/introduction.md`
+  - `.docs/instructions.md`
+  - `.docs/hints.md`
+  - Stub implementation
+  - Test file
+
 ---
 
 ### File: `.docs/introduction.md`
@@ -275,7 +288,9 @@ This file contains meta information on the exercise:
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
   - `test`: the [test file(s)](./#filetests) (required)
   - `exemplar`: the [exemplar implementation file(s)](./#fileexemplarimplementation) (required)
+  - `editor`: other files shown as read-only in the editor (optional)
 - `language_versions`: Language version requirements (optional)
+- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 
@@ -295,7 +310,8 @@ If someone is both an author _and_ a contributor, only list that person as an au
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],
     "exemplar": [".meta/Exemplar.fs"]
-  }
+  },
+  "blurb": "Learn the basics of F# by cooking Lucian's Luscious Lasagna"
 }
 ```
 
@@ -320,10 +336,12 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
   "files": {
     "solution": ["lasagna.py"],
     "test": ["lasagna_test.py"],
-    "exemplar": [".meta/exemplar.py"]
+    "exemplar": [".meta/exemplar.py"],
+    "editor": ["test_helper.py"]
   },
   "forked_from": ["fsharp/basics"],
   "language_versions": ">=3.7",
+  "blurb": "Learn the basics of Python by cooking Guido's Gorgeous Lasagna",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Lasagne"
 }
@@ -447,6 +465,46 @@ Some languages require additional files for the tests to run. Example of these a
 
 Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
 
+## Naming
+
+Concept Exercises should be named after their story/theme, _not_ after their concept(s).
+
+Good examples of names:
+
+- `Tim from Marketing`
+- `Lucian's Luscious Lasagna`
+- `Calculator Conundrum`
+
+Disallowed names:
+
+- `Booleans`: uses a concept name, not a story name
+- `Exercise #1`: an exercise is not a story/theme
+
+When forking an exercise without major changes, use the original name when possible.
+
+### Slugs
+
+Each exercise also has a _slug_, which is normalized version of the exercise name using the following rules:
+
+1. Use lowercase.
+1. Use [kebab-case][kebab-case].
+1. Use latin alphanumerical characters and dashes (Regexp: `[a-z0-9-]+`)
+1. Prefer written digits over numeric ones, unless there is a specific reason to prefer the digit (e.g. `two-fer` over `2-fer`)
+
+Good examples of slugs:
+
+- `tim-from-marketing`
+- `lucians-luscious-lasagna`
+- `calculator-conundrum`
+
+Disallowed slugs:
+
+- `TIM-FROM-MARKETING`: does not use lowercase (i.e. `tim-from-marketing`)
+- `TimFromMarketing`: does not use kebab-case (i.e. `tim-from-marketing`)
+- `floating-point-numbers`: uses a concept name, not a story name
+
 ## Presentation
 
 There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.
+
+[kebab-case]: https://en.wiktionary.org/wiki/kebab_case

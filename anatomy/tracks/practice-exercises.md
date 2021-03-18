@@ -214,7 +214,7 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 
 **Purpose:** Describe the design of the exercise.
 
-**Presence:** Required
+**Presence:** Optional
 
 This file contains information on the exercise's design, which includes things like its goal, its teaching goals, what not to teach, and more.
 
@@ -252,7 +252,9 @@ This file contains meta information on the exercise:
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
   - `test`: the [test file(s)](./#filetests) (required)
   - `example`: the [example implementation file(s)](./#fileexampleimplementation) (required)
+  - `editor`: additional files shown as read-only in the editor (optional)
 - `language_versions` Language version requirements (optional)
+- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 
@@ -272,7 +274,8 @@ If someone is both an author _and_ a contributor, only list that person as an au
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],
     "example": [".meta/Example.fs"]
-  }
+  },
+  "blurb": "Learn the basics of F# by cooking Lucian's Luscious Lasagna"
 }
 ```
 

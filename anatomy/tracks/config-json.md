@@ -24,6 +24,7 @@ The following top-level properties contain general track metadata:
   - `test`: test file(s) pattern (optional)
   - `example`: example implementation file(s) pattern (optional
   - `exemplar`: exemplar implementation file(s) pattern (optional)
+  - `editor`: additional read-only editor file(s) patterns (optional)
 
 ### Files
 
@@ -303,6 +304,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 - `runtime/clr`: runs on Common Language Runtime (.NET)
 - `runtime/jvm`: runs on JVM (Java)
 - `runtime/beam`: runs on BEAM (Erlang)
+- `runtime/wasmtime`: runs on Wasmtime (WebAssembly)
 
 ## Used for
 
