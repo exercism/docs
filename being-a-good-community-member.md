@@ -15,7 +15,6 @@ However, because of **context**, words are powerful.
 It's easy to know how you intend your words to _come across_, but it's difficult to know how others _perceive your words_.
 What we say is strongly tempered by our experiences in life, our cultural norms, and our primary natural language.
 At Exercism, we believe it's better to choose words that are **clear** and **unambiguous** across cultures and, where possible, across natural languages.
->>>>>>> 52e9528 (WIP):being-a-good-community-member.md
 This means being careful when using metaphors, acronyms or phrases that might only be understandable to someone from a specific background or with specific knowledge.
 It also means being open to learning about how people from different cultures might misunderstand your intentions, and changing the words you use accordingly.
 
