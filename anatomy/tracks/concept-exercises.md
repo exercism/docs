@@ -72,6 +72,19 @@ exercises
         └── CarsAssemblyTests.cs (tests)
 </pre>
 
+### Minimal valid spec
+
+We favor an "optimistic merging" approach to new exercises, where tracks can develop exercises in a "work in progress" state.
+The minimal valid state, which will pass configlet and allow you to merge is:
+- Valid entry in the track `config.json`, with the `status` set to `wip`.
+- A valid `.meta/config.json` file
+- The following files being present, although they may be empty:
+  - `.docs/introduction.md`
+  - `.docs/instructions.md`
+  - `.docs/hints.md`
+  - Stub implementation
+  - Test file
+
 ---
 
 ### File: `.docs/introduction.md`
