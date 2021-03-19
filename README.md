@@ -2,7 +2,8 @@
 
 # Exercism Docs
 
-These are the official docs for Exercism. We welcome all and any contributions.
+These are the official docs for Exercism. 
+We welcome all and any contributions.
 
 ## How this repo is organised
 
