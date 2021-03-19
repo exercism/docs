@@ -373,5 +373,194 @@
     "slug": "tracks/stories/tuples-santas-helper-md",
     "path": "building/tracks/stories/tuples.santas-helper.md",
     "title": "Santa's Helper"
+  },
+  {
+    "uuid": "dd132018-e53d-4347-a30d-aadfe6c1743b",
+    "slug": "markdown/internal-linking.md",
+    "path": "building/markdown/internal-linking.md",
+    "title": "Internal Linking",
+    "blurb": ""
+  },
+  {
+    "uuid": "2ce5a5bf-229f-4757-9ae0-d6826494dbbf",
+    "slug": "markdown/markdown.md",
+    "path": "building/markdown/markdown.md",
+    "title": "Markdown Specification",
+    "blurb": ""
+  },
+  {
+    "uuid": "b2f8687f-77e1-4044-a964-35fd2bd3f1b3",
+    "slug": "markdown/style-guide.md",
+    "path": "building/markdown/style-guide.md",
+    "title": "Exercism's Style Guide",
+    "blurb": ""
+  },
+  {
+    "uuid": "d34ced45-63ff-41c7-967d-3ac72e1b5d8e",
+    "slug": "markdown/widgets.md",
+    "path": "building/markdown/widgets.md",
+    "title": "Widgets",
+    "blurb": ""
+  },
+  {
+    "uuid": "fb41198b-90ac-4148-afcc-f012418c6396",
+    "slug": "tooling/docker.md",
+    "path": "building/tooling/docker.md",
+    "title": "Tooling Docker Setup",
+    "blurb": ""
+  },
+  {
+    "uuid": "00b76de0-1e0e-47d0-b293-950d12b1a4c0",
+    "slug": "tooling/README.md",
+    "path": "building/tooling/README.md",
+    "title": "Track Tooling",
+    "blurb": ""
+  },
+  {
+    "uuid": "34387a23-f65c-490e-96ed-6b5e25298db7",
+    "slug": "tracks/concept-exercises.md",
+    "path": "building/tracks/concept-exercises.md",
+    "title": "Concept Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "ed318b17-01be-4868-92df-50a644adfdc7",
+    "slug": "tracks/concepts.md",
+    "path": "building/tracks/concepts.md",
+    "title": "Concepts",
+    "blurb": ""
+  },
+  {
+    "uuid": "2a29f722-e70d-4679-81f8-bd6727fa9013",
+    "slug": "tracks/config-json.md",
+    "path": "building/tracks/config-json.md",
+    "title": "config.json",
+    "blurb": ""
+  },
+  {
+    "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
+    "slug": "tracks/practice-exercises.md",
+    "path": "building/tracks/practice-exercises.md",
+    "title": "Practice Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
+    "slug": "tracks/presentation.md",
+    "path": "building/tracks/presentation.md",
+    "title": "Presentation",
+    "blurb": ""
+  },
+  {
+    "uuid": "11894561-be89-471f-ac4e-581449add2bd",
+    "slug": "tracks/README.md",
+    "path": "building/tracks/README.md",
+    "title": "Track",
+    "blurb": ""
+  },
+  {
+    "uuid": "0b0996c5-459c-4145-8876-09d7664d7b5c",
+    "slug": "tracks/shared-files.md",
+    "path": "building/tracks/shared-files.md",
+    "title": "Shared files",
+    "blurb": ""
+  },
+  {
+    "uuid": "787e4243-b97a-4b55-9038-7667e5c3788a",
+    "slug": "tooling/analyzers/comments.md",
+    "path": "building/tooling/analyzers/comments.md",
+    "title": "NOTE: This spec is currently being updated.**",
+    "blurb": ""
+  },
+  {
+    "uuid": "58feafe7-f690-499b-a95a-97eb0d579926",
+    "slug": "tooling/analyzers/creating-from-scratch.md",
+    "path": "building/tooling/analyzers/creating-from-scratch.md",
+    "title": "Creating an Analyzer",
+    "blurb": ""
+  },
+  {
+    "uuid": "6ad41c2b-da84-49cc-ab11-2db379760585",
+    "slug": "tooling/analyzers/docker.md",
+    "path": "building/tooling/analyzers/docker.md",
+    "title": "Docker",
+    "blurb": ""
+  },
+  {
+    "uuid": "70960db8-c1cb-4d1b-93bc-749b72fe3ee7",
+    "slug": "tooling/analyzers/interface.md",
+    "path": "building/tooling/analyzers/interface.md",
+    "title": "The Analyzer Interface",
+    "blurb": ""
+  },
+  {
+    "uuid": "b080e814-d3b9-4027-a25e-907f5505cf8d",
+    "slug": "tooling/analyzers/README.md",
+    "path": "building/tooling/analyzers/README.md",
+    "title": "Analyzers",
+    "blurb": ""
+  },
+  {
+    "uuid": "3cc3ce51-60e6-4ea6-9c69-ef80ad3a2607",
+    "slug": "tooling/representers/creating-from-scratch.md",
+    "path": "building/tooling/representers/creating-from-scratch.md",
+    "title": "Creating an Representer",
+    "blurb": ""
+  },
+  {
+    "uuid": "24bbb6d2-3943-45c1-af7a-e5254e6d3f94",
+    "slug": "tooling/representers/docker.md",
+    "path": "building/tooling/representers/docker.md",
+    "title": "Docker",
+    "blurb": ""
+  },
+  {
+    "uuid": "33d8ed70-36be-47cb-bc54-359b3787b30e",
+    "slug": "tooling/representers/interface.md",
+    "path": "building/tooling/representers/interface.md",
+    "title": "The Representer Interface",
+    "blurb": ""
+  },
+  {
+    "uuid": "ddd595f0-3e7f-44b1-ae5a-d2d23354c495",
+    "slug": "tooling/representers/normalization.md",
+    "path": "building/tooling/representers/normalization.md",
+    "title": "Normalization within Representers",
+    "blurb": ""
+  },
+  {
+    "uuid": "fd89f1aa-e73b-46f0-9759-da5cc9969069",
+    "slug": "tooling/representers/README.md",
+    "path": "building/tooling/representers/README.md",
+    "title": "Representers",
+    "blurb": ""
+  },
+  {
+    "uuid": "7e734347-963c-4392-90b4-91c3834c8733",
+    "slug": "tooling/test-runners/creating-from-scratch.md",
+    "path": "building/tooling/test-runners/creating-from-scratch.md",
+    "title": "Creating a Test Runner",
+    "blurb": ""
+  },
+  {
+    "uuid": "82729b75-89ec-41f3-9996-41ace14c568c",
+    "slug": "tooling/test-runners/docker.md",
+    "path": "building/tooling/test-runners/docker.md",
+    "title": "Docker",
+    "blurb": ""
+  },
+  {
+    "uuid": "3f7fa4a3-3d4b-4305-9854-6e6ebb4fceed",
+    "slug": "tooling/test-runners/interface.md",
+    "path": "building/tooling/test-runners/interface.md",
+    "title": "The Test Runner Interface",
+    "blurb": ""
+  },
+  {
+    "uuid": "308bd020-bef0-4303-b1b7-6fa740e67564",
+    "slug": "tooling/test-runners/README.md",
+    "path": "building/tooling/test-runners/README.md",
+    "title": "Test Runners",
+    "blurb": ""
   }
 ]
