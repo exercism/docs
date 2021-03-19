@@ -49,7 +49,7 @@
     "uuid": "3945aaa4-60c4-4ae5-ae7c-aefc1718ce5c",
     "slug": "tracks/stories",
     "path": "building/tracks/stories/README.md",
-    "title": "Stories"
+    "title": "Exercise stories"
   },
   {
     "uuid": "cfa0b7d5-e088-4b39-b6d7-9f84c1299389",
@@ -386,6 +386,13 @@
     "slug": "tracks/stories/tuples-santas-helper",
     "path": "building/tracks/stories/tuples.santas-helper.md",
     "title": "Santa's Helper"
+  },
+  {
+    "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
+    "slug": "markdown",
+    "path": "building/markdown/README.md",
+    "title": "Markdown",
+    "blurb": ""
   },
   {
     "uuid": "dd132018-e53d-4347-a30d-aadfe6c1743b",
