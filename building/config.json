@@ -38,339 +38,352 @@
     "path": "building/configlet/generating-documents.md",
     "title": "Generating Documents"
   },
+
+  {
+    "uuid": "53763218-17e2-44cc-bc8f-0c22260e9f7a",
+    "slug": "tracks",
+    "path": "building/tracks/README.md",
+    "title": "Building Tracks"
+  },
+  {
+    "uuid": "3945aaa4-60c4-4ae5-ae7c-aefc1718ce5c",
+    "slug": "tracks/stories",
+    "path": "building/tracks/stories/README.md",
+    "title": "Stories"
+  },
   {
     "uuid": "cfa0b7d5-e088-4b39-b6d7-9f84c1299389",
-    "slug": "tracks/stories/actor-model-take-a-number-machine-md",
+    "slug": "tracks/stories/actor-model-take-a-number-machine",
     "path": "building/tracks/stories/actor-model.take-a-number-machine.md",
     "title": "Take-A-Number Machine"
   },
   {
     "uuid": "7cf6ac5f-f65f-49ee-88ea-5e15375002dc",
-    "slug": "tracks/stories/anonymous-functions-bomb-defuser-md",
+    "slug": "tracks/stories/anonymous-functions-bomb-defuser",
     "path": "building/tracks/stories/anonymous-functions.bomb-defuser.md",
     "title": "Bomb Disarming"
   },
   {
     "uuid": "2db281c3-479a-4f76-8436-e6c40a3cd9de",
-    "slug": "tracks/stories/arrays-elyses-enchantments-md",
+    "slug": "tracks/stories/arrays-elyses-enchantments",
     "path": "building/tracks/stories/arrays.elyses-enchantments.md",
     "title": "Elyse's Enchantments"
   },
   {
     "uuid": "9a8e39f5-3984-4ed1-9bb4-abc1956a7260",
-    "slug": "tracks/stories/arrays-garden-bird-count-md",
+    "slug": "tracks/stories/arrays-garden-bird-count",
     "path": "building/tracks/stories/arrays.garden-bird-count.md",
     "title": "Garden bird count"
   },
   {
     "uuid": "fd8726bc-21e1-4455-a623-391947e91ad5",
-    "slug": "tracks/stories/basics-lasagna-md",
+    "slug": "tracks/stories/basics-lasagna",
     "path": "building/tracks/stories/basics.lasagna.md",
     "title": "Lasagna Recipe"
   },
   {
     "uuid": "04053c86-c9f1-45b4-b1f2-4655548887b5",
-    "slug": "tracks/stories/binary-data-file-sniffer-md",
+    "slug": "tracks/stories/binary-data-file-sniffer",
     "path": "building/tracks/stories/binary-data.file-sniffer.md",
     "title": "File Sniffer"
   },
   {
     "uuid": "35889277-6eae-4d51-b98c-f4553ce95dd6",
-    "slug": "tracks/stories/booleans-pac-man-md",
+    "slug": "tracks/stories/booleans-pac-man",
     "path": "building/tracks/stories/booleans.pac-man.md",
     "title": "Pac-Man"
   },
   {
     "uuid": "96af76ca-c91e-4567-ac24-9ed861a5559c",
-    "slug": "tracks/stories/booleans-rpg-quest-logic-md",
+    "slug": "tracks/stories/booleans-rpg-quest-logic",
     "path": "building/tracks/stories/booleans.rpg-quest-logic.md",
     "title": "RPG Quest Logic"
   },
   {
     "uuid": "16c1f7cd-fca4-4679-98ca-360b4dc97aaa",
-    "slug": "tracks/stories/classes-amusement-park-md",
+    "slug": "tracks/stories/classes-amusement-park",
     "path": "building/tracks/stories/classes.amusement-park.md",
     "title": "Amustment Park Attendee"
   },
   {
     "uuid": "90920007-06ff-4708-98a2-c0c9ff97ce91",
-    "slug": "tracks/stories/classes-remote-control-car-md",
+    "slug": "tracks/stories/classes-remote-control-car",
     "path": "building/tracks/stories/classes.remote-control-car.md",
     "title": "Remote control car"
   },
   {
     "uuid": "ce73ca2b-dec6-4a64-9aa5-3501f904aa59",
-    "slug": "tracks/stories/closures-design-company-md",
+    "slug": "tracks/stories/closures-design-company",
     "path": "building/tracks/stories/closures.design-company.md",
     "title": "Web Design Agency"
   },
   {
     "uuid": "6f35201a-50cf-45f9-860c-2b0806879dcc",
-    "slug": "tracks/stories/conditionals-vehicle-purchase-md",
+    "slug": "tracks/stories/conditionals-vehicle-purchase",
     "path": "building/tracks/stories/conditionals.vehicle-purchase.md",
     "title": "Vehicle Purchase"
   },
   {
     "uuid": "d8b7810c-1b54-4983-9038-224098360f00",
-    "slug": "tracks/stories/constructors-remote-control-car-race-md",
+    "slug": "tracks/stories/constructors-remote-control-car-race",
     "path": "building/tracks/stories/constructors.remote-control-car-race.md",
     "title": "Remote control car race"
   },
   {
     "uuid": "5303ef55-93f7-4846-aaf0-ad0557c8177f",
-    "slug": "tracks/stories/datetimes-appointment-scheduler-md",
+    "slug": "tracks/stories/datetimes-appointment-scheduler",
     "path": "building/tracks/stories/datetimes.appointment-scheduler.md",
     "title": "Appointment scheduler"
   },
   {
     "uuid": "569d693a-0a9f-4c62-962f-64c964a48f72",
-    "slug": "tracks/stories/datetimes-time-keeper-md",
+    "slug": "tracks/stories/datetimes-time-keeper",
     "path": "building/tracks/stories/datetimes.time-keeper.md",
     "title": "The Time-Keeper"
   },
   {
     "uuid": "ff14ff61-273b-49f4-a882-5d9340aa47e2",
-    "slug": "tracks/stories/deep-dig-basketball-team-website-md",
+    "slug": "tracks/stories/deep-dig-basketball-team-website",
     "path": "building/tracks/stories/deep-dig.basketball-team-website.md",
     "title": "Basketball team website"
   },
   {
     "uuid": "581ec39c-abcb-4ed2-b4e4-75193608ca00",
-    "slug": "tracks/stories/enumerable-fashion-boutique-md",
+    "slug": "tracks/stories/enumerable-fashion-boutique",
     "path": "building/tracks/stories/enumerable.fashion-boutique.md",
     "title": "Fashion Boutique"
   },
   {
     "uuid": "c8ab280b-3510-492e-a9c3-77dc6d4d7307",
-    "slug": "tracks/stories/enums-log-line-parser-md",
+    "slug": "tracks/stories/enums-log-line-parser",
     "path": "building/tracks/stories/enums.log-line-parser.md",
     "title": "Log line parser"
   },
   {
     "uuid": "c4d66c69-5e3a-4abe-ba45-c879233287d1",
-    "slug": "tracks/stories/errors-instruments-of-texas-md",
+    "slug": "tracks/stories/errors-instruments-of-texas",
     "path": "building/tracks/stories/errors.instruments-of-texas.md",
     "title": "Instruments of Texas"
   },
   {
     "uuid": "d28d7dcb-831b-4e20-b6da-34a87e1e4221",
-    "slug": "tracks/stories/flag-enums-website-account-permissions-md",
+    "slug": "tracks/stories/flag-enums-website-account-permissions",
     "path": "building/tracks/stories/flag-enums.website-account-permissions.md",
     "title": "Website account permissions"
   },
   {
     "uuid": "3297c69a-8075-4121-9978-bb31b757d602",
-    "slug": "tracks/stories/floating-point-numbers-savings-account-md",
+    "slug": "tracks/stories/floating-point-numbers-savings-account",
     "path": "building/tracks/stories/floating-point-numbers.savings-account.md",
     "title": "Savings account"
   },
   {
     "uuid": "f035aa7a-222b-42c9-b48e-50a364fb9bdd",
-    "slug": "tracks/stories/functions-lasagna-master-md",
+    "slug": "tracks/stories/functions-lasagna-master",
     "path": "building/tracks/stories/functions.lasagna-master.md",
     "title": "Lasagna Master"
   },
   {
     "uuid": "4cc51b77-1374-493e-8fcf-b1ded40b6e1d",
-    "slug": "tracks/stories/higher-order-functions-secret-agent-md",
+    "slug": "tracks/stories/higher-order-functions-secret-agent",
     "path": "building/tracks/stories/higher-order-functions.secret-agent.md",
     "title": "Secret Agent"
   },
   {
     "uuid": "6232ad96-1697-4579-84b7-109a80a4bf80",
-    "slug": "tracks/stories/inheritance-role-playing-game-md",
+    "slug": "tracks/stories/inheritance-role-playing-game",
     "path": "building/tracks/stories/inheritance.role-playing-game.md",
     "title": "Role-playing game"
   },
   {
     "uuid": "8aaf34a7-91b9-4d14-b49b-32a3ce22224c",
-    "slug": "tracks/stories/io-rpg-character-sheet-md",
+    "slug": "tracks/stories/io-rpg-character-sheet",
     "path": "building/tracks/stories/io.rpg-character-sheet.md",
     "title": "RPG Character Sheet"
   },
   {
     "uuid": "8aed6a3a-079a-4b95-afcc-ff89430cbbbf",
-    "slug": "tracks/stories/lambda-function-secret-device-md",
+    "slug": "tracks/stories/lambda-function-secret-device",
     "path": "building/tracks/stories/lambda-function.secret-device.md",
     "title": "Secret Device"
   },
   {
     "uuid": "f0431d56-ff10-40c0-b10b-bee3307eeefa",
-    "slug": "tracks/stories/lists-language-list-md",
+    "slug": "tracks/stories/lists-language-list",
     "path": "building/tracks/stories/lists.language-list.md",
     "title": "Language List"
   },
   {
     "uuid": "a687f7f6-bbdb-42d7-a94c-f165ec235f67",
-    "slug": "tracks/stories/loops-bartender-md",
+    "slug": "tracks/stories/loops-bartender",
     "path": "building/tracks/stories/loops.bartender.md",
     "title": "Bartender"
   },
   {
     "uuid": "85578c83-637e-438d-907f-2ea520275a49",
-    "slug": "tracks/stories/maps-high-score-board-md",
+    "slug": "tracks/stories/maps-high-score-board",
     "path": "building/tracks/stories/maps.high-score-board.md",
     "title": "High Score Board"
   },
   {
     "uuid": "9d1be94b-23e3-4732-8ecb-5f1591ee51ed",
-    "slug": "tracks/stories/matrices-exercism-logo-matrix-md",
+    "slug": "tracks/stories/matrices-exercism-logo-matrix",
     "path": "building/tracks/stories/matrices.exercism-logo-matrix.md",
     "title": "Exercism Logo Matrix"
   },
   {
     "uuid": "49d2ceed-3d58-45ba-aafe-ca9c3011e974",
-    "slug": "tracks/stories/method-overloading-rpg-game-master-md",
+    "slug": "tracks/stories/method-overloading-rpg-game-master",
     "path": "building/tracks/stories/method-overloading.rpg-game-master.md",
     "title": "Game Master of a Role Playing Game"
   },
   {
     "uuid": "5b6e51c2-78fc-4579-ab0f-c09c817eeec7",
-    "slug": "tracks/stories/nullability-name-badges-md",
+    "slug": "tracks/stories/nullability-name-badges",
     "path": "building/tracks/stories/nullability.name-badges.md",
     "title": "Name badges"
   },
   {
     "uuid": "fedeea73-adc7-4664-b7c6-6b3602874215",
-    "slug": "tracks/stories/numbers-car-production-line-md",
+    "slug": "tracks/stories/numbers-car-production-line",
     "path": "building/tracks/stories/numbers.car-production-line.md",
     "title": "Car production line"
   },
   {
     "uuid": "24b2b89d-a763-4270-8b18-5d52f720ba30",
-    "slug": "tracks/stories/numbers-freelancer-rates-md",
+    "slug": "tracks/stories/numbers-freelancer-rates",
     "path": "building/tracks/stories/numbers.freelancer-rates.md",
     "title": "Freelancer Rates"
   },
   {
     "uuid": "6ca39f4a-72ab-4a33-ab52-9afcfb5c32e5",
-    "slug": "tracks/stories/optionals-pizza-slices-md",
+    "slug": "tracks/stories/optionals-pizza-slices",
     "path": "building/tracks/stories/optionals.pizza-slices.md",
     "title": "Pizza Slices"
   },
   {
     "uuid": "a341a157-a05e-46ba-84ab-bc04a54e600b",
-    "slug": "tracks/stories/pattern-matching-number-guessing-game-md",
+    "slug": "tracks/stories/pattern-matching-number-guessing-game",
     "path": "building/tracks/stories/pattern-matching.number-guessing-game.md",
     "title": "Number guessing game"
   },
   {
     "uuid": "03690628-0aae-4cd4-8e3e-38563752d7d4",
-    "slug": "tracks/stories/primitive-types-rna-and-dna-processing-md",
+    "slug": "tracks/stories/primitive-types-rna-and-dna-processing",
     "path": "building/tracks/stories/primitive-types.rna-and-dna-processing.md",
     "title": "RNA & DNA Processing"
   },
   {
     "uuid": "f173d907-6946-4b4c-b1e5-8dd127260465",
-    "slug": "tracks/stories/promises-klingon-translation-service-md",
+    "slug": "tracks/stories/promises-klingon-translation-service",
     "path": "building/tracks/stories/promises.klingon-translation-service.md",
     "title": "Klingon Translation Service"
   },
   {
     "uuid": "9d735a27-44b0-4eb1-8f4f-37fc9dfe6717",
-    "slug": "tracks/stories/properties-weighing-machine-md",
+    "slug": "tracks/stories/properties-weighing-machine",
     "path": "building/tracks/stories/properties.weighing-machine.md",
     "title": "Weighing machine"
   },
   {
     "uuid": "8145daea-cd6a-4492-8fe2-752785deed91",
-    "slug": "tracks/stories/randomness-rpg-quest-logic-extension-md",
+    "slug": "tracks/stories/randomness-rpg-quest-logic-extension",
     "path": "building/tracks/stories/randomness.rpg-quest-logic-extension.md",
     "title": "RPG Quest Logic 2"
   },
   {
     "uuid": "35bf95a6-ca45-4032-8bf9-6664a2678d95",
-    "slug": "tracks/stories/records-nba-root-for-team-algorithm-md",
+    "slug": "tracks/stories/records-nba-root-for-team-algorithm",
     "path": "building/tracks/stories/records.nba-root-for-team-algorithm.md",
     "title": "Root for NBA team algorithm"
   },
   {
     "uuid": "0cf3deff-11f2-49f8-b896-4a905e517821",
-    "slug": "tracks/stories/recursion-pizza-delivery-md",
+    "slug": "tracks/stories/recursion-pizza-delivery",
     "path": "building/tracks/stories/recursion.pizza-delivery.md",
     "title": "Pizza delivery"
   },
   {
     "uuid": "b5aebbb6-27f8-43ca-a1f8-c3da394bfeb4",
-    "slug": "tracks/stories/regex-event-ingest-md",
+    "slug": "tracks/stories/regex-event-ingest",
     "path": "building/tracks/stories/regex.event-ingest.md",
     "title": "Event Ingest"
   },
   {
     "uuid": "7f73ad12-cbbd-4cae-8d60-bdd2ca27b48f",
-    "slug": "tracks/stories/regex-stage-heralding-md",
+    "slug": "tracks/stories/regex-stage-heralding",
     "path": "building/tracks/stories/regex.stage-heralding.md",
     "title": "Stage Heralding"
   },
   {
     "uuid": "8e78f159-b949-4939-810c-5480c674e7fc",
-    "slug": "tracks/stories/shopping-cart-md",
+    "slug": "tracks/stories/shopping-cart",
     "path": "building/tracks/stories/shopping-cart.md",
     "title": "Shopping cart"
   },
   {
     "uuid": "1820a2a5-aad6-4e1d-85f2-7bcaae743dd4",
-    "slug": "tracks/stories/strings-and-characters-custom-signs-md",
+    "slug": "tracks/stories/strings-and-characters-custom-signs",
     "path": "building/tracks/stories/strings-and-characters.custom-signs.md",
     "title": "Custom Signs"
   },
   {
     "uuid": "93e69456-50ee-4b7a-b636-81ac0b165701",
-    "slug": "tracks/stories/strings-high-school-sweethearts-md",
+    "slug": "tracks/stories/strings-high-school-sweethearts",
     "path": "building/tracks/stories/strings.high-school-sweethearts.md",
     "title": "High school sweethearts"
   },
   {
     "uuid": "459b22e5-d9f1-4c80-98c8-3b648d9fcb98",
-    "slug": "tracks/stories/strings-log-line-parser-md",
+    "slug": "tracks/stories/strings-log-line-parser",
     "path": "building/tracks/stories/strings.log-line-parser.md",
     "title": "Log line parser"
   },
   {
     "uuid": "0a4ff246-a779-4e44-b048-00378b3e1d84",
-    "slug": "tracks/stories/strings-party-robot-md",
+    "slug": "tracks/stories/strings-party-robot",
     "path": "building/tracks/stories/strings.party-robot.md",
     "title": "Eccentric Party Robot"
   },
   {
     "uuid": "afddb8ad-d019-441b-8653-e44abf7b6456",
-    "slug": "tracks/stories/strings-poetry-club-door-policy-md",
+    "slug": "tracks/stories/strings-poetry-club-door-policy",
     "path": "building/tracks/stories/strings.poetry-club-door-policy.md",
     "title": "Poetry club door policy"
   },
   {
     "uuid": "59d763fc-596d-4b38-80fd-2c1dab5e24c3",
-    "slug": "tracks/stories/structs-and-classes-windowing-system-md",
+    "slug": "tracks/stories/structs-and-classes-windowing-system",
     "path": "building/tracks/stories/structs-and-classes.windowing-system.md",
     "title": "Windowing system"
   },
   {
     "uuid": "f407ea5e-cdb2-4259-8ffe-4cca0dbe62a4",
-    "slug": "tracks/stories/sum-types-valentines-day-md",
+    "slug": "tracks/stories/sum-types-valentines-day",
     "path": "building/tracks/stories/sum-types.valentines-day.md",
     "title": "Valentines day"
   },
   {
     "uuid": "b6aed6fe-f306-48d5-a3f8-f44f5dfbff38",
-    "slug": "tracks/stories/ternary-operators-employee-salary-md",
+    "slug": "tracks/stories/ternary-operators-employee-salary",
     "path": "building/tracks/stories/ternary-operators.employee-salary.md",
     "title": "Employee Salary"
   },
   {
     "uuid": "66e0bacd-6a36-4c9b-ba1b-ee17ab8ee5bc",
-    "slug": "tracks/stories/tuples-carnival-game-md",
+    "slug": "tracks/stories/tuples-carnival-game",
     "path": "building/tracks/stories/tuples.carnival-game.md",
     "title": "Lucky Leo's Guessing Game"
   },
   {
     "uuid": "770ccfce-dc49-4475-9470-3daf16457443",
-    "slug": "tracks/stories/tuples-kitchen-calculator-md",
+    "slug": "tracks/stories/tuples-kitchen-calculator",
     "path": "building/tracks/stories/tuples.kitchen-calculator.md",
     "title": "Kitchen Calculator"
   },
   {
     "uuid": "cf8801c3-4357-49fa-99a5-b3424941e44d",
-    "slug": "tracks/stories/tuples-santas-helper-md",
+    "slug": "tracks/stories/tuples-santas-helper",
     "path": "building/tracks/stories/tuples.santas-helper.md",
     "title": "Santa's Helper"
   },
