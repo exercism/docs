@@ -1,0 +1,30 @@
+[
+  {
+    "uuid": "c2688b98-0734-4352-a88e-2f814dac45ab",
+    "slug": "APEX",
+    "path": "community/README.md",
+    "title": "Community",
+    "blurb": "Learn how Exercism's community works"
+  },
+  {
+    "uuid": "3487dacd-f6ca-4784-b93f-c4a5d023f051",
+    "slug": "administrators",
+    "path": "community/administrators.md",
+    "title": "Exercism Adminstrators",
+    "blurb": "Learn about Exercism's Administrators"
+  },
+  {
+    "uuid": "7e11a8f5-e6f8-49f1-ab0c-81427fa12c5c",
+    "slug": "being-a-good-member",
+    "path": "community/being-a-good-member.md",
+    "title": "Being a good community member",
+    "blurb": "Learn how to be a great member of the Exercism community"
+  },
+  {
+    "uuid": "55064dce-a51b-43d2-b8ce-9777d1f39528",
+    "slug": "chestertons-fence",
+    "path": "community/chestertons-fence.md",
+    "title": "Chesterton's Fence",
+    "blurb": "Learn how to express your ideas in suggestions in the best way"
+  }
+]
