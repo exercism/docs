@@ -1,6 +1,6 @@
 # Chesterton's Fence
 
-Hello :wave:
+Hello 👋
 You're probably here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved.
 Before our team invests time into exploring your idea, they're hoping you'll read this and consider whether your idea might have been thought of before, what pitfalls it might contain.
 **By adding those considerations and potential pitfalls to your suggestion, and considering why your idea might not have already been implemented, you are likely to get a faster and more positive response.**
@@ -50,7 +50,7 @@ So firstly, what does it mean to "just call a command to run the tests".
 It means writing a script for each of the 52 languages on Exercism that can run the tests and check the outcome.
 That's a bit of effort, but doable.
 
-But it also means writing that script so that it runs on Windows, MacOSX and Linux --  in any and all possible versions/configurations. That's a lot (if not an unbounded) amount of work.
+But it also means writing that script so that it runs on Windows, MacOSX and Linux -- in any and all possible versions/configurations. That's a lot (if not an unbounded) amount of work.
 "Why does it have to be _every_ configuration?" you may ask?
 Well, because you're actively blocking someone from using Exercism unless they can run this script.
 That also means that it can never fail.
