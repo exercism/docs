@@ -422,18 +422,19 @@
     "title": "Widgets",
     "blurb": ""
   },
+
+  {
+    "uuid": "00b76de0-1e0e-47d0-b293-950d12b1a4c0",
+    "slug": "tooling",
+    "path": "building/tooling/README.md",
+    "title": "Track Tooling",
+    "blurb": ""
+  },
   {
     "uuid": "fb41198b-90ac-4148-afcc-f012418c6396",
     "slug": "tooling/docker.md",
     "path": "building/tooling/docker.md",
     "title": "Tooling Docker Setup",
-    "blurb": ""
-  },
-  {
-    "uuid": "00b76de0-1e0e-47d0-b293-950d12b1a4c0",
-    "slug": "tooling/README.md",
-    "path": "building/tooling/README.md",
-    "title": "Track Tooling",
     "blurb": ""
   },
   {
@@ -486,10 +487,17 @@
     "blurb": ""
   },
   {
+    "uuid": "b080e814-d3b9-4027-a25e-907f5505cf8d",
+    "slug": "tooling/analyzers",
+    "path": "building/tooling/analyzers/README.md",
+    "title": "Analyzers",
+    "blurb": ""
+  },
+  {
     "uuid": "787e4243-b97a-4b55-9038-7667e5c3788a",
     "slug": "tooling/analyzers/comments.md",
     "path": "building/tooling/analyzers/comments.md",
-    "title": "NOTE: This spec is currently being updated.**",
+    "title": "Writing Analyzer comments",
     "blurb": ""
   },
   {
@@ -514,10 +522,10 @@
     "blurb": ""
   },
   {
-    "uuid": "b080e814-d3b9-4027-a25e-907f5505cf8d",
-    "slug": "tooling/analyzers/README.md",
-    "path": "building/tooling/analyzers/README.md",
-    "title": "Analyzers",
+    "uuid": "fd89f1aa-e73b-46f0-9759-da5cc9969069",
+    "slug": "tooling/representers",
+    "path": "building/tooling/representers/README.md",
+    "title": "Representers",
     "blurb": ""
   },
   {
@@ -549,10 +557,10 @@
     "blurb": ""
   },
   {
-    "uuid": "fd89f1aa-e73b-46f0-9759-da5cc9969069",
-    "slug": "tooling/representers/README.md",
-    "path": "building/tooling/representers/README.md",
-    "title": "Representers",
+    "uuid": "308bd020-bef0-4303-b1b7-6fa740e67564",
+    "slug": "tooling/test-runners",
+    "path": "building/tooling/test-runners/README.md",
+    "title": "Test Runners",
     "blurb": ""
   },
   {
@@ -574,13 +582,6 @@
     "slug": "tooling/test-runners/interface.md",
     "path": "building/tooling/test-runners/interface.md",
     "title": "The Test Runner Interface",
-    "blurb": ""
-  },
-  {
-    "uuid": "308bd020-bef0-4303-b1b7-6fa740e67564",
-    "slug": "tooling/test-runners/README.md",
-    "path": "building/tooling/test-runners/README.md",
-    "title": "Test Runners",
     "blurb": ""
   }
 ]
