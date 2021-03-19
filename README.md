@@ -4,6 +4,7 @@
 
 These are the official docs for Exercism. 
 We welcome all and any contributions.
+This repo is live-synced to the website.
 
 ## How this repo is organised
 
