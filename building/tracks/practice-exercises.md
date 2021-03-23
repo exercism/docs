@@ -244,7 +244,7 @@ This exercise does not contain any error handling tests.
 
 This file contains meta information on the exercise:
 
-- `authors`: The exercise's author(s) (required)
+- `authors`: The exercise's author(s) (optional)
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
 - `contributors`: The exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
