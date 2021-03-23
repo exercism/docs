@@ -164,7 +164,7 @@ The `config.json` file should have the following checks:
 - The `"authors"` values must not have duplicates
 - The `"authors"` values are treated case-insensitively
 - The `"contributors"` key is optional
-- The `"contributors"` value must be a non-empty array
+- The `"contributors"` value must be an array
 - The `"contributors"` values must be non-empty, non-blank strings
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
@@ -208,6 +208,34 @@ The `config.json` file should have the following checks:
 
 - The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
 - Links must be absolute (relative links are not allowed)
+
+### Rule: exercises/practice/&lt;slug&gt;/.meta/config.json is valid
+
+- The file must be valid JSON
+- The JSON root must be an object
+- The `"authors"` key is optional
+- The `"authors"` value must be an array
+- The `"authors"` values must be non-empty, non-blank strings
+- The `"authors"` values must not have duplicates
+- The `"authors"` values are treated case-insensitively
+- The `"contributors"` key is optional
+- The `"contributors"` value must be an array
+- The `"contributors"` values must be non-empty, non-blank strings
+- The `"contributors"` values must not have duplicates
+- The `"contributors"` values are treated case-insensitively
+- Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
+- The `"files.solution"` key is required
+- The `"files.solution"` value must be a non-empty array
+- The `"files.test"` key is required
+- The `"files.test"` value must be a non-empty array
+- The `"files.example"` key is required
+- The `"files.example"` value must be a non-empty array
+- The files listed in the `"files.solution"` must exist
+- The files listed in the `"files.test"` must exist
+- The files listed in the `"files.example"` must exist
+- Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.example` array (no overlap)
+- The `"language_versions"` key is optional
+- The `"language_versions"` value must be a string
 
 ### Rule: exercises/shared/.docs/cli.md is valid
 
