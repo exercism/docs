@@ -313,23 +313,23 @@ If someone is both an author _and_ a contributor, only list that person as an au
 
 #### Full Example
 
-Assume that the user FSharpForever has written an exercise called `basics` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
+Assume that the user FSharpForever has written an exercise called `log-levels` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
 
 ```json
 {
   "contributors": ["PythonPerfection"],
   "authors": ["PythonProfessor"],
   "files": {
-    "solution": ["lasagna.py"],
-    "test": ["lasagna_test.py"],
+    "solution": ["log_levels.py"],
+    "test": ["log_levels_test.py"],
     "exemplar": [".meta/exemplar.py"],
     "editor": ["test_helper.py"]
   },
-  "forked_from": ["fsharp/basics"],
+  "forked_from": ["fsharp/log-levels"],
   "language_versions": ">=3.7",
-  "blurb": "Learn the basics of Python by cooking Guido's Gorgeous Lasagna",
+  "blurb": "Learn how to work with strings by processing log lines.",
   "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Lasagne"
+  "source_url": "https://en.wikipedia.org/wiki/Log_file"
 }
 ```
 
