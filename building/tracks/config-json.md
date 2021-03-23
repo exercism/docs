@@ -233,7 +233,7 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 
 ## Key features
 
-The language's key features succinctly describe what the most important features of the language are.
+The language's key features succinctly describe what the most important features of the language are. They are meant to "sell" a language in a way, getting students interested in the language. Easily understandable titles are most beneficial.
 
 The key features are specified in the top-level `key_features` field which is defined as an array of objects with the following fields:
 
