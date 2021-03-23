@@ -266,11 +266,11 @@ If someone is both an author _and_ a contributor, only list that person as an au
 {
   "authors": ["FSharpForever"],
   "files": {
-    "solution": ["Lasagna.fs"],
-    "test": ["LasagnaTests.fs"],
+    "solution": ["Bob.fs"],
+    "test": ["BobTests.fs"],
     "example": [".meta/Example.fs"]
   },
-  "blurb": "Learn the basics of F# by cooking Lucian's Luscious Lasagna"
+  "blurb": "Bob is a lackadaisical teenager. In conversation, his responses are very limited"
 }
 ```
 
