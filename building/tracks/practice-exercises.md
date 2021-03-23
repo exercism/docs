@@ -264,12 +264,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
 
 ```json
 {
-  "authors": [
-    {
-      "github_username": "FSharpForever",
-      "exercism_username": "FSharpForever"
-    }
-  ],
+  "authors": ["FSharpForever"],
   "files": {
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],

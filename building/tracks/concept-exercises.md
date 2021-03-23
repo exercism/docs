@@ -301,12 +301,7 @@ If someone is both an author _and_ a contributor, only list that person as an au
 
 ```json
 {
-  "authors": [
-    {
-      "github_username": "FSharpForever",
-      "exercism_username": "FSharpForever"
-    }
-  ],
+  "authors": ["FSharpForever"],
   "files": {
     "solution": ["Lasagna.fs"],
     "test": ["LasagnaTests.fs"],
@@ -322,18 +317,8 @@ Assume that the user FSharpForever has written an exercise called `basics` for t
 
 ```json
 {
-  "contributors": [
-    {
-      "github_username": "PythonPerfection",
-      "exercism_username": "PythonPerfection"
-    }
-  ],
-  "authors": [
-    {
-      "github_username": "PythonProfessor",
-      "exercism_username": "PythonProfessor"
-    }
-  ],
+  "contributors": ["PythonPerfection"],
+  "authors": ["PythonProfessor"],
   "files": {
     "solution": ["lasagna.py"],
     "test": ["lasagna_test.py"],
