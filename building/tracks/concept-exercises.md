@@ -313,12 +313,12 @@ If someone is both an author _and_ a contributor, only list that person as an au
 
 #### Full Example
 
-Assume that the user FSharpForever has written an exercise called `log-levels` for the F# track. PythonProfessor adapts the exercise for the Python track. Later on, the user PythonPerfection improves the exercise.
+Assume that the user `FSharpForever` has written an exercise called `log-levels` for the F# track. `PythonProfessor` adapts the exercise for the Python track. Later on, the user `GladToHelp` improves the exercise.
 
 ```json
 {
-  "contributors": ["PythonPerfection"],
   "authors": ["PythonProfessor"],
+  "contributors": ["GladToHelp"],
   "files": {
     "solution": ["log_levels.py"],
     "test": ["log_levels_test.py"],
