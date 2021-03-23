@@ -46,7 +46,7 @@ For each merged pull request that was opened by the user, `12` reputation is awa
 
 - If a pull request is still open, no reputation is awarded (yet).
 - If a pull request is closed _without_ merging, no reputation is awarded.
-- It is possible to award more (or less) reputation for a merged pull request by adding one of the following labels to the pull request:
+- In exceptional circumstances (either tiny PRs changing a few lines, or large PRs that will have taken a greater than normal of effort) is possible to award more (or less) reputation for a merged pull request by adding one of the following labels to the pull request:
 
   - The `reputation/contributed_code/major` label will bump the awarded reputation to `30`
   - The `reputation/contributed_code/minor` label will bump the awarded reputation to `5`
