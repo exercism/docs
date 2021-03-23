@@ -159,21 +159,15 @@ The `config.json` file should have the following checks:
 - The file must be valid JSON
 - The JSON root must be an object
 - The `"authors"` key is required
-- The `"authors"` value must be an non-empty array
-- The `"authors[].github_username"` key is required
-- The `"authors[].github_username"` key must be a non-empty, non-blank string
-- The `"authors[].github_username"` value is treated case-insensitively
-- The `"authors[].exercism_username"` key is optional
-- The `"authors[].exercism_username"` key must be a non-empty, non-blank string
-- The `"authors[].github_username"` value is treated case-insensitively
+- The `"authors"` value must be a non-empty array
+- The `"authors"` values must be non-empty, non-blank strings
+- The `"authors"` values must not have duplicates
+- The `"authors"` values are treated case-insensitively
 - The `"contributors"` key is optional
-- The `"contributors"` value must be an array
-- The `"contributors[].github_username"` key is required
-- The `"contributors[].github_username"` key must be a non-empty, non-blank string
-- The `"contributors[].github_username"` value is treated case-insensitively
-- The `"contributors[].exercism_username"` key is optional
-- The `"contributors[].exercism_username"` key must be a non-empty, non-blank string
-- The `"contributors[].exercism_username"` value is treated case-insensitively
+- The `"contributors"` value must be a non-empty array
+- The `"contributors"` values must be non-empty, non-blank strings
+- The `"contributors"` values must not have duplicates
+- The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
 - The `"files.solution"` key is required
 - The `"files.solution"` value must be a non-empty array
