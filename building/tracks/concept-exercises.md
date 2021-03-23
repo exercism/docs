@@ -280,9 +280,9 @@ There are no prerequisites.
 
 This file contains meta information on the exercise:
 
-- `authors`: The exercise's author(s) (required)
+- `authors`: The GitHub username(s) of the exercise's author(s) (required)
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
-- `contributors`: The exercise's contributor(s) (optional)
+- `contributors`: The GitHub username(s) of the exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - `forked_from`: Which exercise(s) it was forked from (required if the exercise is forked)
 - `files`: The locations of the files used in this exercise, relative to the exercise's directory (required)

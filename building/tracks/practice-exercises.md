@@ -244,9 +244,9 @@ This exercise does not contain any error handling tests.
 
 This file contains meta information on the exercise:
 
-- `authors`: The exercise's author(s) (optional)
+- `authors`: The GitHub username(s) of the exercise's author(s) (optional)
   - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
-- `contributors`: The exercise's contributor(s) (optional)
+- `contributors`: The GitHub username(s) of the exercise's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
 - `files`: The locations of the files used in this exercise, relative to the exercise's directory (required)
   - `solution`: the [stub implementation file(s)](./#filestubimplementation) (required)
