@@ -74,56 +74,56 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].slug"` key is required
 - The `"exercises.concept[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
 - The `"exercises.concept[].slug"` value must be unique in `"exercises.concept[].slug"` and may not exist in `"exercises.practice[].slug"`
-- The `"exercise.concept[].name"` key is required
-- The `"exercise.concept[].name"` value must be a non-empty, non-blank string
-- The `"exercise.concept[].uuid"` key is required
-- The `"exercise.concept[].uuid"` value must be a unique, lowercased v4 UUID string
-- The `"exercise.concept[].deprecated"` key is optional
-- The `"exercise.concept[].deprecated"` value must be a boolean value
-- The `"exercise.concept[].deprecated"` value must generate a warning if set to `false`
-- The `"exercise.concept[].concepts"` key is required
-- The `"exercise.concept[].concepts"` value must be a non-empty array of strings
-- The `"exercise.concept[].concepts"` values must be non-empty, non-blank, lowercased strings using kebab-case
-- The `"exercise.concept[].concepts"` values must not have duplicates
-- The `"exercise.concept[].concepts"` values must not be in any other concept exercise's `"concepts"` property
-- The `"exercise.concept[].concepts"` values must match the `"concepts.slug"` property of one of the concepts
-- The `"exercise.concept[].prerequisites"` key is required
-- The `"exercise.concept[].prerequisites"` value must be a non-empty array of strings for all but one exercise, which can have an empty array as its value
-- The `"exercise.concept[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
-- The `"exercise.concept[].prerequisites"` values must not have duplicates
-- The `"exercise.concept[].prerequisites"` values must match any other concept exercise's `"concepts"` property values
-- The `"exercise.concept[].prerequisites"` values must not match any of the values in the exercise's `"exercise.concept[].concepts"` property
-- The `"exercise.concept[].prerequisites"` values must match the `"concepts.slug"` property of one of the concepts
-- There must not be any cycles between `"exercise.concept[].concepts"` and `"exercise.concept[].prerequisites"`
-- The `"exercise.concept[].status"` key is optional
-- The `"exercise.concept[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
+- The `"exercises.concept[].name"` key is required
+- The `"exercises.concept[].name"` value must be a non-empty, non-blank string
+- The `"exercises.concept[].uuid"` key is required
+- The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
+- The `"exercises.concept[].deprecated"` key is optional
+- The `"exercises.concept[].deprecated"` value must be a boolean value
+- The `"exercises.concept[].deprecated"` value must generate a warning if set to `false`
+- The `"exercises.concept[].concepts"` key is required
+- The `"exercises.concept[].concepts"` value must be a non-empty array of strings
+- The `"exercises.concept[].concepts"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.concept[].concepts"` values must not have duplicates
+- The `"exercises.concept[].concepts"` values must not be in any other concept exercise's `"concepts"` property
+- The `"exercises.concept[].concepts"` values must match the `"concepts.slug"` property of one of the concepts
+- The `"exercises.concept[].prerequisites"` key is required
+- The `"exercises.concept[].prerequisites"` value must be a non-empty array of strings for all but one exercise, which can have an empty array as its value
+- The `"exercises.concept[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.concept[].prerequisites"` values must not have duplicates
+- The `"exercises.concept[].prerequisites"` values must match any other concept exercise's `"concepts"` property values
+- The `"exercises.concept[].prerequisites"` values must not match any of the values in the exercise's `"exercises.concept[].concepts"` property
+- The `"exercises.concept[].prerequisites"` values must match the `"concepts.slug"` property of one of the concepts
+- There must not be any cycles between `"exercises.concept[].concepts"` and `"exercises.concept[].prerequisites"`
+- The `"exercises.concept[].status"` key is optional
+- The `"exercises.concept[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.practice"` key is required
 - The `"exercises.practice"` value must be an array
-- The `"exercise.practice[].slug"` key is required
-- The `"exercise.practice[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
-- The `"exercise.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
-- The `"exercise.practice[].name"` key is required
-- The `"exercise.practice[].name"` value must be a non-empty, non-blank string
-- The `"exercise.practice[].uuid"` key is required
-- The `"exercise.practice[].uuid"` value must be a unique, lowercased v4 UUID string
-- The `"exercise.practice[].deprecated"` key is optional
-- The `"exercise.practice[].deprecated"` value must be a boolean value
-- The `"exercise.practice[].deprecated"` value must generate a warning if set to `false`
-- The `"exercise.practice[].difficulty"` key is required
-- The `"exercise.practice[].difficulty"` value must be an integer >= 0 and <= 10
-- The `"exercise.practice[].practices"` key is required
-- The `"exercise.practice[].practices"` value must be a non-empty array of strings
-- The `"exercise.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
-- The `"exercise.practice[].practices"` values must not have duplicates
-- The `"exercise.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
-- The `"exercise.practice[].prerequisites"` key is required
-- The `"exercise.practice[].prerequisites"` value must be a non-empty array of strings
-- The `"exercise.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
-- The `"exercise.practice[].prerequisites"` values must not have duplicates
-- The `"exercise.practice[].prerequisites"` values must match any concept exercise's `"exercise.concept[].concepts"` values
-- The `"exercise.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
-- The `"exercise.practice[].status"` key is optional
-- The `"exercise.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
+- The `"exercises.practice[].slug"` key is required
+- The `"exercises.practice[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
+- The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
+- The `"exercises.practice[].name"` key is required
+- The `"exercises.practice[].name"` value must be a non-empty, non-blank string
+- The `"exercises.practice[].uuid"` key is required
+- The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
+- The `"exercises.practice[].deprecated"` key is optional
+- The `"exercises.practice[].deprecated"` value must be a boolean value
+- The `"exercises.practice[].deprecated"` value must generate a warning if set to `false`
+- The `"exercises.practice[].difficulty"` key is required
+- The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
+- The `"exercises.practice[].practices"` key is required
+- The `"exercises.practice[].practices"` value must be a non-empty array of strings
+- The `"exercises.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
+- The `"exercises.practice[].practices"` values must not have duplicates
+- The `"exercises.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
+- The `"exercises.practice[].prerequisites"` key is required
+- The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings
+- The `"exercises.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.practice[].prerequisites"` values must not have duplicates
+- The `"exercises.practice[].prerequisites"` values must match any concept exercise's `"exercises.concept[].concepts"` values
+- The `"exercises.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
+- The `"exercises.practice[].status"` key is optional
+- The `"exercises.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be non-empty, non-blank, lowercased strings using kebab-case
