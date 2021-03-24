@@ -53,7 +53,7 @@ The `config.json` file should have the following checks:
 - The `"active"` key is required
 - The `"active"` value must be a boolean
 - The `"blurb"` key is required
-- The `"blurb"` value must be a non-empty, non-blank string
+- The `"blurb"` value must be a non-empty, non-blank string with length <= 400
 - The `"version"` key is required
 - The `"version"` value must be the integer `3`
 - The `"status.concept_exercises"` key is required
@@ -138,7 +138,7 @@ The `config.json` file should have the following checks:
 - The `"concepts[].name"` key is required
 - The `"concepts[].name"` value must be a non-empty, non-blank, titleized string
 - The `"concepts[].blurb"` key is required
-- The `"concepts[].blurb"` value must be a non-empty, non-blank string
+- The `"concepts[].blurb"` value must be a non-empty, non-blank string with length <= 350
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
@@ -158,6 +158,8 @@ The `config.json` file should have the following checks:
 
 - The file must be valid JSON
 - The JSON root must be an object
+- The `"blurb"` key is required
+- The `"blurb"` value must be a non-empty, non-blank string with length <= 350
 - The `"authors"` key is required
 - The `"authors"` value must be a non-empty array
 - The `"authors"` values must be non-empty, non-blank strings
@@ -213,6 +215,8 @@ The `config.json` file should have the following checks:
 
 - The file must be valid JSON
 - The JSON root must be an object
+- The `"blurb"` key is required
+- The `"blurb"` value must be a non-empty, non-blank string with length <= 350
 - The `"authors"` key is optional
 - The `"authors"` value must be an array
 - The `"authors"` values must be non-empty, non-blank strings
