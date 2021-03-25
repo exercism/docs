@@ -214,7 +214,6 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 - `uuid`: a V4 UUID that uniquely identifies the concept across all tracks
 - `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track
 - `name`: the concept's name
-- `blurb`: a short description of the concept. Markdown is _not_ supported.
 
 ### Example
 
@@ -224,8 +223,7 @@ Each concept is an entry in the top-level `concepts` array. The following fields
     {
       "uuid": "b9a421b2-c5ff-4213-bd6d-b886da31ea0d",
       "slug": "numbers",
-      "name": "Numbers",
-      "blurb": "C# has two types of numbers: integers and floating-point numbers."
+      "name": "Numbers"
     }
   ]
 }
@@ -233,8 +231,8 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 
 ## Key features
 
-The language's key features succinctly describe what the most important features of the language are. 
-They are intended to upsell the more interesting features of a language to potential students. 
+The language's key features succinctly describe what the most important features of the language are.
+They are intended to upsell the more interesting features of a language to potential students.
 Titles should strive to use as little technical jargon as possible, bearing in mind that students might not be familiar with what language-specific jargon means before learning that language.
 
 The key features are specified in the top-level `key_features` field which is defined as an array of objects with the following fields:
@@ -404,26 +402,22 @@ This is an example of what a valid `config.json` file can look like:
     {
       "uuid": "2eb4a463-355f-46ef-ac55-a75ec5afdf86",
       "slug": "basics",
-      "name": "Basics",
-      "blurb": "C# is a statically-typed language, which means that everything has a type at compile-time"
+      "name": "Basics"
     },
     {
       "uuid": "4466e33e-dcd2-4b1f-9d9d-2c4315bf5188",
       "slug": "if-statements",
-      "name": "If Statements",
-      "blurb": "An `if` statement can be used to conditionally execute code."
+      "name": "If Statements"
     },
     {
       "uuid": "b9a421b2-c5ff-4213-bd6d-b886da31ea0d",
       "slug": "numbers",
-      "name": "Numbers",
-      "blurb": "C# has two types of numbers: integers and floating-point numbers."
+      "name": "Numbers"
     },
     {
       "uuid": "7a86561d-173b-45c0-a53c-1ffd7b9ff259",
       "slug": "strings",
-      "name": "Strings",
-      "blurb": "C# strings are immutable sequences of Unicode characters."
+      "name": "Strings"
     }
   ],
   "key_features": [
