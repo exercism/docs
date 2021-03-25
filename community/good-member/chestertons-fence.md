@@ -1,9 +1,9 @@
 # Chesterton's Fence
 
 _Hello 👋_
-_You're might be here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved._
+_Here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved?_
 _Before our team invests time into exploring your idea, they're hoping you'll read this and consider whether your idea might have been thought of before, what pitfalls it might contain._
-_**By adding those considerations and potential pitfalls to your suggestion, and considering why your idea might not have already been implemented, you are likely to get a faster and more positive response.**_
+_By adding those considerations and potential pitfalls to your suggestion, and considering why your idea might not have already been implemented, you are likely to get a faster and more positive response._
 
 ---
 
