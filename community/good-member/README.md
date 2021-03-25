@@ -11,8 +11,8 @@ Whether you're mentoring, learning, hanging out in a chat space, or helping buil
 - Presume good intentions
 - Being wrong is awesome
 - You don't know what you don't know
-
-- Choose your words well
+- Disagree constructively
+- Choose your words carefully
 
 ## Presume good intentions
 
@@ -50,7 +50,80 @@ When you think something sucks about the website, start by asking yourself what 
 
 Take a read of our post on [Chesteron's Fence](./being-a-good-community-member/chestertons-fence) to practical examples of how this principle applies.
 
-## Choose your words well
+## Disagree constructively
+
+A huge part of building a successful product is in people bringing different opinions and discussing them to aim to find truth (or at the very least some constructive way forward).
+Disagreeing with each other is therefore a critical component of Exercism.
+However, disagreeing constructively is a skill — one that is difficult to master.
+
+Here a few guiding points on how to disagree constructively within our community:
+
+### 1. Ask yourself if you need to get involved
+
+So you've found a problem and feel like someone needs to know about it.
+The first thing to ask yourself is do they?
+Will telling someone that something is wrong make things better?
+Are you adding noise or signal?
+
+More often than not, telling someone that they're wrong is great.
+You help them address a knowledge gap and help make Exercism better.
+But sometimes it's not worth the noise or energy, and correcting someone just makes someone feel worse about themselves.
+So before you jump in, just sanity-check whether it's the right thing to do.
+
+### 2. Don't pile in
+
+Closely linked to 1 is our tribal nature of seeing something we have an opinion on and feeling the need to comment.
+You see this a lot on GitHub with people adding 👍 and 👎 emojis onto every comment or spamming a thread with "Me too".
+Many people see two people disagreeing and feel they need to "reinforce" the person that is saying what they agree with.
+
+If you're not saying something new, or something useful, ask yourself whether you need to say anything at all.
+
+- Does that 👎 just make someone feel rubbish about themselves?
+- Is it going to just entrench them further in their position and make them defensive?
+- Does adding a 👍 make someone else feel like they're right, boost their ego, and entrench them further.
+- Does adding a "This is broken for me too" add a useful data point for a maintainer, or just more pressure and urgency?
+
+Each situation is different, but think before you click or type.
+
+### 3. Don't make it personal
+
+So you've got into a disagreement. Great! Now, make it count.
+
+Remember, you're not disagreeing with a person, you're disagreeing with their **current** viewpoint on something.
+Ensure you give them room to change without them feeling like they lose face to do so.
+Empower them to see the value of your arguments without making them feel stupid that their thoughts were wrong.
+Don't make it personal.
+
+A good red flag is if you start needing to quote what someone has said to point out where they were wrong or contradicted themselves.
+People contradicting themselves is often a sign of them **evolving their thoughts.**
+It doesn't prove their wrong — it proves that their letting their mind be creative and exploring different avenues.
+Encourage this!
+
+And remember to be your own person.
+You don't need to point out that you agree with X or that Y is clearly correct.
+It's not about people, it's about finding the best solution.
+Add signal, not noise.
+
+### 4. Accept decisions
+
+Often disagreements don't come to conclusions that everyone agrees on.
+In fact, in Exercism nearly everything is some sort of compromise.
+You will therefore nearly always be a little unhappy with the outcome.
+
+It is critical to being a good community member to accept decisions and embrace them, even if you disagree with them.
+
+Decisions have to consider lots of viewpoints and contain lots of tradeoffs.
+What's good for one track might be a little worse for another.
+Something might cause you more work than it causes someone else.
+A site-wide consideration might be deemed more important than a track-specific one.
+
+If you don't feel you understand why a decision has been made, always feel free to ask.
+But once the decision is explained, the onus is on you to accept it even if you don't like it.
+In everyone doing this, next time a decision **does** go your way at the cost of someone else's pleasure, you won't feel their guilt or resentment either.
+
+And have faith that decisions are a made in good-faith — trying to do the best for the community, the platform, and our students.
+
+## Choose your words carefully
 
 There are lots of ways to embrace being kind within Exercism, but the most powerful is to consider how your words affect others.
 
