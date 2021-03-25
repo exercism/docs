@@ -14,8 +14,7 @@ Concept metadata is defined in the `concepts` key in the [config.json file](./co
     {
       "uuid": "b9a421b2-c5ff-4213-bd6d-b886da31ea0d",
       "slug": "numbers",
-      "name": "Numbers",
-      "blurb": "C# has two types of numbers: integers and floating-point numbers."
+      "name": "Numbers"
     }
   ]
 }
@@ -23,17 +22,31 @@ Concept metadata is defined in the `concepts` key in the [config.json file](./co
 
 ## Files
 
-Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](./config-json.md#concept). Each concept directory must contain the following files:
+Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](./config-json.md#concept).
+
+A Concept has two types of files:
+
+### Documentation files
+
+These files are presented to the student to help explain the concept.
 
 - `about.md`: provide information about the concept for a student who has completed the corresponding concept exercise to learn from and refer back to (required)
 - `introduction.md`: provide a brief introduction to a student who has not yet completed the corresponding concept exercise (required)
 - `links.json`: provide helpful links that provide more reading or information about a concept (required)
+
+### Metadata files
+
+These files are _not_ presented to the student, but used to define metadata of the concept.
+
+- `.meta/config.json`: contains meta information on the concept (required)
 
 ### Example
 
 <pre>
 concepts
 └── numbers
+    ├── .meta
+    |   └── config.json
     ├── about.md
     ├── introduction.md
     └── links.json
@@ -168,3 +181,35 @@ Links can also optionally have an `icon_url` field, which can be used to customi
   }
 ]
 ```
+
+---
+
+### File: `.meta/config.json`
+
+**Purpose:** Contains meta information on the exercise.
+
+**Presence:** Required
+
+This file contains meta information on the exercise:
+
+- `authors`: The GitHub username(s) of the exercise's author(s) (required)
+  - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
+- `contributors`: The GitHub username(s) of the exercise's contributor(s) (optional)
+  - Including reviewers if their reviews are meaningful/actionable/actioned.
+- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
+
+If someone is both an author _and_ a contributor, only list that person as an author.
+
+#### Example
+
+```json
+{
+  "authors": ["FSharpForever"],
+  "contributors": ["IWantToHelp"],
+  "blurb": "F# has two types of numbers: integers and floating-point numbers."
+}
+```
+
+Note that:
+
+- The order of authors and contributors is not significant and has no meaning.

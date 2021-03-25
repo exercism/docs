@@ -137,8 +137,6 @@ The `config.json` file should have the following checks:
 - The `"concepts[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
 - The `"concepts[].name"` key is required
 - The `"concepts[].name"` value must be a non-empty, non-blank, titleized string
-- The `"concepts[].blurb"` key is required
-- The `"concepts[].blurb"` value must be a non-empty, non-blank string with length <= 350
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
@@ -271,3 +269,21 @@ The `config.json` file should have the following checks:
 - The `"[].description"` value must be a non-empty, non-blank string
 - The `"[].icon_url"` property is optional
 - The `"[].icon_url"` value must be an URL
+
+### Rule: concept/&lt;slug&gt;/.meta/config.json is valid
+
+- The file must be valid JSON
+- The JSON root must be an object
+- The `"blurb"` key is required
+- The `"blurb"` value must be a non-empty, non-blank string with length <= 350
+- The `"authors"` key is required
+- The `"authors"` value must be an array
+- The `"authors"` values must be non-empty, non-blank strings
+- The `"authors"` values must not have duplicates
+- The `"authors"` values are treated case-insensitively
+- The `"contributors"` key is optional
+- The `"contributors"` value must be an array
+- The `"contributors"` values must be non-empty, non-blank strings
+- The `"contributors"` values must not have duplicates
+- The `"contributors"` values are treated case-insensitively
+- Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
