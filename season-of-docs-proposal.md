@@ -18,8 +18,8 @@ The product is built by volunteers — so creating a fun, exciting and enticing 
 
 ### Your project’s problem
 
-One of our challenges is that Exercism being such a large project can make it intimidating and overwhelming to know where to start.
-Ensuring that contributors are able to find and adhere to our guidance, feel like they have a frictionless contribution experience, and that they can communicate clearly in the "Exercism way" with other contributors, is essential.
+One of our challenges is that Exercism is a large project, which can make knowing where to start intimidating and overwhelming.
+Ensuring that contributors have a frictionless contribution experience, are able to find and adhere to our guidance, and (most importantly) feel like they can communicate clearly in the "Exercism way" with our other contributors, is vital.
 
 As we have developed tighter quality-control and coherence between different parts of the project, there is more to know to get started, so the barrier to contribute has become slightly higher.
 We need to ensure that new contributors can find both clear overarching pathways to get started, and also the details when they need them.
