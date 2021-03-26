@@ -24,6 +24,7 @@ Ensuring that contributors have a frictionless contribution experience, are able
 As we have developed tighter quality-control and implemented firmer standards across different parts of the project, there is more that new contributors have to understand to get started, which has increased the barrier to contribute.
 We need to ensure that new contributors can find both clear introductory paths and comprehensive supporting details when needed.
 Good documentation is absolutely critical to ensuring that new contributors can find pathways to get started, and not get blocked or feel frustration while trying to help.
+We believe it is a crucial part of enabling Exercism to reach its potential.
 
 New contributors not only help Exercism grow, but more importantly improve the experience for hundreds of thousands of new students who use our platform each year.
 
