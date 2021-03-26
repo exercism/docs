@@ -28,7 +28,7 @@ We believe it is a crucial part of enabling Exercism to reach its potential.
 
 New contributors not only help Exercism grow, they provide important improvements in the experience for hundreds of thousands of new students who use our platform each year.
 
-As part of the launch of our new version of the site launch soon, we have developed a whole "docs" section. You can preview the WIP version here: https://exercism.lol/docs
+As part of the approaching launch of our new version of the site launch soon, we have developed a whole "docs" mini-site. You can preview the WIP version here: https://exercism.lol/docs
 
 ### Your project’s scope
 
