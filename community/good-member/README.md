@@ -68,7 +68,7 @@ Are you adding noise or signal?
 More often than not, telling someone that they're wrong is great.
 You help them address a knowledge gap and help make Exercism better.
 But sometimes it's not worth the noise or energy, and correcting someone just makes someone feel worse about themselves.
-So before you jump in, just sanity-check whether it's the right thing to do.
+So before you jump in, just make sure that it's the right thing to do for other contributors.
 
 ### 2. Don't pile on
 
@@ -91,19 +91,20 @@ So you've gotten into a disagreement.
 **Great!** 🎉
 Now, _make it count_.
 
-Remember, you're not disagreeing with a person, you're disagreeing with their **current** viewpoint on something.
-Ensure you give them room to change without them feeling like they lose face to do so.
-Empower them to see the value of your arguments without making them feel stupid that their thoughts were wrong.
-Don't make it personal.
+Remember, you're not disagreeing with a person — you're disagreeing with their **current** view on something.
+Ensure you give them room to change that viewpoint _without_ them feeling like they lose face to do so.
+Empower them to see the value of your viewpoint without making them feel stupid.
+**Don't make it personal.**
 
-A good red flag is if you start needing to quote what someone has said to point out where they were wrong or contradicted themselves.
-People contradicting themselves is often a sign of them **evolving their thoughts.**
-It doesn't prove their wrong — it proves that their letting their mind be creative and exploring different avenues.
+A clear red flag is needing to quote what someone has said to point out where they went wrong or contradicted themselves.
+People contradicting themselves is often a sign of **evolving thought.**
+It doesn't prove they're _wrong_ — it proves that they're allowing their mind to be creative.  
+They're exploring different avenues, and putting things together in a different way.
 Encourage this!
 
 And remember to be your own person.
-You don't need to point out that you agree with X or that Y is clearly correct.
-It's not about people, it's about finding the best solution.
+You don't _need_ to point out that you agree with X or that Y is clearly correct.
+It's not about people, it's about _finding the best solution_.
 Add signal, not noise.
 
 ### 4. Accept decisions
@@ -114,22 +115,22 @@ You will therefore nearly always be a little unhappy with the outcome.
 
 It is critical to being a good community member to accept decisions and embrace them, even if you disagree with them.
 
-Decisions have to consider lots of viewpoints and contain lots of tradeoffs.
-What's good for one track might be a little worse for another.
-Something might cause you more work than it causes someone else.
-A site-wide consideration might be deemed more important than a track-specific one.
+Decisions have to encompass a lot of viewpoints and they will ultimately contain a lot of tradeoffs.
+What's good for one language track might be a little worse for another.
+Some architectural or organizational direction might cause you more work than it causes someone else.
+A site-wide or community-wide consideration might be deemed more important than your track-specific one.
 
 If you don't feel you understand why a decision has been made, always feel free to ask.
 But once the decision is explained, the onus is on you to accept it even if you don't like it.
-In everyone doing this, next time a decision **does** go your way at the cost of someone else's pleasure, you won't feel their guilt or resentment either.
+If everyone strives to do this, the next time a decision **does** go your way at the cost of someone else's pleasure, you won't feel their guilt or resentment, and can focus your energy on more productive issues.
 
-And have faith that decisions are a made in good-faith — trying to do the best for the community, the platform, and our students.
+And trust that decisions are a made in _**good-faith**_ — everyone is trying to do what is best for the community, the platform, and our students.
 
 ## Choose your words carefully
 
 There are lots of ways to embrace being kind within Exercism, but the most powerful is to consider how your words affect others.
 
-In a cross-cultural space full of people from different backgrounds, who share different beliefs, value-systems and natural languages, communicating clearly is a super-power.
+In a cross-cultural space full of people from different backgrounds -- who share different beliefs, value-systems, and natural languages -- communicating clearly is a super-power.
 It's easy to know how you intend your words to _come across_, but it's difficult to know how others _perceive your words_.
 
 Take a read of [The words that we use](./being-a-good-community-member/the-words-that-we-use) to learn more about why this matters so much.
