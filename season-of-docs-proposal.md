@@ -1,3 +1,7 @@
+_This is a project proposal for Google's [Season of Docs](https://developers.google.com/season-of-docs) support._
+
+---
+
 # Improve Exercism's docs to encourage new contributions
 
 ## About your organization
