@@ -46,23 +46,23 @@ The whole platform works around mentors pointing out knowledge gaps that you don
 And it is an incredible experience when both sides are open to new information (very often it's the _mentors_ that realize they didn't know something themselves when seeing new code and strategies from a student!)
 
 It's easy to remember that feeling in the context of being a student in a mentoring session, but that spirit of openness just as important everywhere else within Exercism.
-When you think something sucks about the website, start by asking yourself what it is that you might not know — a decision that looks ridiculous to you might indicate that your knowledge is missing something just as much as it might indicate that the decision actually **is** ridiculous.
+When you think something sucks about the website, start by asking yourself what things you might _not_ know— a decision that looks ridiculous from your perspective might indicate a gap in your knowledge — just as much as it might indicate that the decision actually **is** ridiculous.
 
-Take a read of our post on [Chesteron's Fence](./being-a-good-community-member/chestertons-fence) to practical examples of how this principle applies.
+Take a look at our post on [Chesterton's Fence](./being-a-good-community-member/chestertons-fence) for some practical examples of how this principle applies.
 
 ## Disagree constructively
 
-A huge part of building a successful product is in people bringing different opinions and discussing them to aim to find truth (or at the very least some constructive way forward).
+A huge part of building a successful product, and a successful community, centers on people bringing different opinions and perspectives, and discussing those with the aim of finding a common truth. It may even require some disagreement about the accepted truth to arrive at a better truth.
 Disagreeing with each other is therefore a critical component of Exercism.
-However, disagreeing constructively is a skill — one that is difficult to master.
+Disagreeing with people constructively is a skill — one that is difficult to master.
 
-Here a few guiding points on how to disagree constructively within our community:
+Here are a few guiding points on how to disagree _constructively_ within our community:
 
 ### 1. Ask yourself if you need to get involved
 
-So you've found a problem and feel like someone needs to know about it.
+You've found a problem and feel like someone needs to know about it.
 The first thing to ask yourself is do they?
-Will telling someone that something is wrong make things better?
+Will telling someone that something is wrong _make things better_?
 Are you adding noise or signal?
 
 More often than not, telling someone that they're wrong is great.
@@ -70,24 +70,26 @@ You help them address a knowledge gap and help make Exercism better.
 But sometimes it's not worth the noise or energy, and correcting someone just makes someone feel worse about themselves.
 So before you jump in, just sanity-check whether it's the right thing to do.
 
-### 2. Don't pile in
+### 2. Don't pile on
 
-Closely linked to 1 is our tribal nature of seeing something we have an opinion on and feeling the need to comment.
-You see this a lot on GitHub with people adding 👍 and 👎 emojis onto every comment or spamming a thread with "Me too".
-Many people see two people disagreeing and feel they need to "reinforce" the person that is saying what they agree with.
+Closely linked to the first point, our tribal nature often feels the need to comment when we see someone expressing a common (or conflicting) opinion.
+You see this a lot on GitHub with people adding 👍 and 👎 emojis onto every comment or spamming a thread with a "Me too!" comment.
+Many people see a public disagreement and feel they need to "reinforce" the people who's opinions they agree with.
 
-If you're not saying something new, or something useful, ask yourself whether you need to say anything at all.
+If you're not saying something new, or something useful, ask yourself whether you _need_ to say anything at all.
 
 - Does that 👎 just make someone feel rubbish about themselves?
 - Is it going to just entrench them further in their position and make them defensive?
-- Does adding a 👍 make someone else feel like they're right, boost their ego, and entrench them further.
-- Does adding a "This is broken for me too" add a useful data point for a maintainer, or just more pressure and urgency?
+- Does adding a 👍 make someone else feel like they're right, boost their ego, and make it more difficult to empathize with the opposing viewpoint?
+- Does adding a "This is broken for me too!" comment add a _useful_ data point for a maintainer, or is it just more pressure and urgency?
 
 Each situation is different, but think before you click or type.
 
 ### 3. Don't make it personal
 
-So you've got into a disagreement. Great! Now, make it count.
+So you've gotten into a disagreement.
+**Great!** 🎉
+Now, _make it count_.
 
 Remember, you're not disagreeing with a person, you're disagreeing with their **current** viewpoint on something.
 Ensure you give them room to change without them feeling like they lose face to do so.
