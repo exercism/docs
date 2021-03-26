@@ -1,12 +1,4 @@
-# Being a Good Exercism Community Member
-
-We want Exercism to be a great place to spend time, whoever you are.
-To ensure that Exercism is that, we place a strong focus on being good community members.
-This is formalised in our [Code of Conduct](https://exercism.io/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
-
-## The words we use
-
-There are lots of ways to embrace being kind within Exercism, but the most powerful is to consider how your words affect others.
+# The words that we use
 
 Words in themselves are meaningless.
 They are vibrations caused by puffs of air coming out of our lungs.

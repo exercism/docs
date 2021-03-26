@@ -15,15 +15,22 @@
   },
   {
     "uuid": "7e11a8f5-e6f8-49f1-ab0c-81427fa12c5c",
-    "slug": "being-a-good-member",
-    "path": "community/being-a-good-member.md",
+    "slug": "being-a-good-community-member",
+    "path": "community/good-member/README.md",
     "title": "Being a good community member",
     "blurb": "Learn how to be a great member of the Exercism community"
   },
   {
+    "uuid": "244e2482-a0c2-446c-822d-97172acc013f",
+    "slug": "being-a-good-community-member/the-words-that-we-use",
+    "path": "community/good-member/words.md",
+    "title": "The words that we use",
+    "blurb": "Learn about why the words that we use matter so much"
+  },
+  {
     "uuid": "55064dce-a51b-43d2-b8ce-9777d1f39528",
-    "slug": "chestertons-fence",
-    "path": "community/chestertons-fence.md",
+    "slug": "being-a-good-community-member/chestertons-fence",
+    "path": "community/good-member/chestertons-fence.md",
     "title": "Chesterton's Fence",
     "blurb": "Learn how to express your ideas in suggestions in the best way"
   }
