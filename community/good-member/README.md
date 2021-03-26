@@ -21,31 +21,31 @@ They're probably passionate about tech, maybe interested in education, but overw
 
 That means that the majority of discussions are happening between two people who want the best for each other and also for Exercism.
 
-Sometimes, when disagreements happen it's easy to jump to the conclusion that the other person is being difficult, or not listening, or not understanding your point.
-It's easy to imagine they're sitting there feeling smug, polishing their ego, while they rile you up with their wrong opinions.
-In reality, they're much more likely to be trying to communicate something that they feel is important and not finding a way to do that in a way that is clear to others.
+Sometimes, when disagreements happen, it's easy to jump to the conclusion that the other person is being difficult, or not listening, or not understanding your point.
+It's easy to imagine the other person feeling smug, polishing their ego, while they rile you up with their "wrong" opinions.
+In reality, that person is much more likely to be trying to communicate something that they feel is important and not finding words or strategies that are clear to others.
 
-When we step back and presume each other are **tying** to be kind, and trying to do the right things, and trying to be clear, it makes it a lot easier for us to loosen the grip on our own egos and **actively** try to listen to the other person's point.
+When we step back and presume everyone participating is **tying** to be kind, trying to do the right things, and trying to be clear, it makes it a lot easier for us to loosen the grip on our own egos and **actively** try to listen to the other person's point of view.
 
-Which brings us on to...
+Which leads us to...
 
 ## Being wrong is awesome
 
-Learning that you're wrong about something is the best thing that can happen to you, because you're now less wrong than you were before.
-If you're someone that cares about being scientific in your thinking, in being correct and knowledge, then discovering you're wrong is the most exciting thing possible.
+Learning that you're wrong about something is the _best thing that can happen to you_, because you're now **less wrong** than you were before.
+If you're someone that cares about being scientific in your thinking, pursuing knowledge, and being correct in things, then discovering you're wrong is the most exciting thing possible.
 
-So when you go into a discussion on Exercism, see it as an opportunity not to prove you're right but to discover where you might be wrong, and in doing so become more correct than you were before.
+So when you enter into a discussion on Exercism, view it as an opportunity not to prove you're right but to discover where you might be wrong. In doing so, you may become more correct than you were before.
 
 Adam Grant wrote a [whole book on this](https://www.adamgrant.net/book/think-again/).
-In it he quotes Ray Dalio saying "If you don't look back at yourself and think, 'Wow how sutpid I was a year ago', then you must not have learned much in the last year".
+In it he quotes [Ray Dalio](https://en.wikipedia.org/wiki/Ray_Dalio) saying "If you don't look back at yourself and think, 'Wow how stupid I was a year ago', then you must not have learned much in the last year".
 
 ## You don't know what you don't know
 
-Exercism is built on the tenant that we don't know what we don't know.
-The whole platform works around mentors pointing out knowledge gaps that you didn't know you have.
-And that works incredibly when both sides are open to knew information (very often its the mentors that realise they didn't know something when seeing new code from a student!)
+Exercism is built on the tenet that **we don't know what we don't know**.
+The whole platform works around mentors pointing out knowledge gaps that you don't know you have.
+And it is an incredible experience when both sides are open to new information (very often it's the _mentors_ that realize they didn't know something themselves when seeing new code and strategies from a student!)
 
-It's ease to remember that in the context of being a student in a mentoring session, but it's just as important everywhere else within Exercism.
+It's easy to remember that feeling in the context of being a student in a mentoring session, but that spirit of openness just as important everywhere else within Exercism.
 When you think something sucks about the website, start by asking yourself what it is that you might not know — a decision that looks ridiculous to you might indicate that your knowledge is missing something just as much as it might indicate that the decision actually **is** ridiculous.
 
 Take a read of our post on [Chesteron's Fence](./being-a-good-community-member/chestertons-fence) to practical examples of how this principle applies.
