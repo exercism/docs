@@ -16,7 +16,7 @@ Whether you're mentoring, learning, hanging out in a chat space, or helping buil
 
 ## Presume good intentions
 
-The vast majority of people who are involved in Exercism do so because they want to help others.
+The vast majority of people who are involved in Exercism participate because they _want to help others_.
 They're probably passionate about tech, maybe interested in education, but overwhelmingly want to be in a space where they're building something positive with others.
 
 That means that the majority of discussions are happening between two people who want the best for each other and also for Exercism.
