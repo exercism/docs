@@ -2,7 +2,7 @@ _This is a project proposal for Google's [Season of Docs](https://developers.goo
 
 ---
 
-# Improve Exercism's docs to encourage new contributions
+# Expand Exercism's docs to encourage new contributions
 
 ## About your organization
 
