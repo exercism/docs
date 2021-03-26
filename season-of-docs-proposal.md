@@ -26,17 +26,17 @@ We need to ensure that new contributors can find both clear introductory paths a
 Good documentation is absolutely critical to ensuring that new contributors can find pathways to get started, and not get blocked or feel frustration while trying to help.
 We believe it is a crucial part of enabling Exercism to reach its potential.
 
-New contributors not only help Exercism grow, but more importantly improve the experience for hundreds of thousands of new students who use our platform each year.
+New contributors not only help Exercism grow, they provide important improvements in the experience for hundreds of thousands of new students who use our platform each year.
 
 As part of the launch of our new version of the site launch soon, we have developed a whole "docs" section. You can preview the WIP version here: https://exercism.lol/docs
 
 ### Your project’s scope
 
 The project has the following goals:
-1. Work with Exercism's team to understand the gaps in our correct documentation.
+1. Work with Exercism's team to understand the gaps in our existing documentation.
 2. Flesh out the structure with stubs for relevant docs, and crowd-source feedback on the best information to go into docs.
 3. Create missing documentation and reorganise existing docs as required.
-4. Welcome and incorporate feedback from our team of maintainers, and the wider community.
+4. Welcome and incorporate feedback from our team of maintainers, and the wider Exercism community.
 5. Help develop guidance to empower language tracks to create their own per-language documentation.
 
 Work that is out-of-scope for this project:
