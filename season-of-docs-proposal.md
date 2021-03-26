@@ -11,8 +11,8 @@ Our platform is made up of over 200 GitHub repositories covering nearly 70 progr
 Everything is Open Source. Since launching in 2013 we have helped over 500,000 people become better programmers.
 
 Good communication is at the heart of Exercism. 
-Our platform is based around mentoring where strangers help each other understand and fill knowledge gaps.
-The product is also built by volunteers - so creating a fun, exciting and enticing place to build together is a key part of our mission, centered around empathy and kindness.
+The heart of our platform is mentoring, where strangers help each other understand and fill knowledge gaps, and where empathetic communication is essential.
+The product is built by volunteers — so creating a fun, exciting and enticing place to build together is a key part of our mission.
 
 ## About your project
 
