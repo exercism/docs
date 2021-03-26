@@ -6,7 +6,7 @@ To ensure that Exercism is that, we place a strong focus on being good community
 This is formalised in our [Code of Conduct](https://exercism.io/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
 
 There are a few principles to try and keep in mind as you contribute to Exercism.
-Whether you're mentoring, learning, hanging out in a chat space, or helping building things on GitHub, if you follow these ideas, you'll find that Exercism can be an incredibly fun and rewarding place to spend time.
+Whether you're mentoring, learning, hanging out in a chat space, or helping build things on GitHub, if you follow these ideas, you'll find that Exercism can be an incredibly fun and rewarding place to spend time:
 
 - Presume good intentions
 - Being wrong is awesome
