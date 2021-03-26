@@ -19,7 +19,7 @@ Whether you're mentoring, learning, hanging out in a chat space, or helping buil
 The vast majority of people who are involved in Exercism do so because they want to help others.
 They're probably passionate about tech, maybe interested in education, but overwhelmingly want to be in a space where they're building something positive with others.
 
-That means that the majority of discussions are happening between two people who want the best for each and also for Exercism.
+That means that the majority of discussions are happening between two people who want the best for each other and also for Exercism.
 
 Sometimes, when disagreements happen its easy to jump to the conclusion that the other person is being difficult, or not listening, or not understanding your point.
 It's easy to imagine they're sitting there feeling smug, polishing their ego, while they rile you up with their wrong opinions.
