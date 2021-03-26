@@ -21,7 +21,7 @@ They're probably passionate about tech, maybe interested in education, but overw
 
 That means that the majority of discussions are happening between two people who want the best for each other and also for Exercism.
 
-Sometimes, when disagreements happen its easy to jump to the conclusion that the other person is being difficult, or not listening, or not understanding your point.
+Sometimes, when disagreements happen it's easy to jump to the conclusion that the other person is being difficult, or not listening, or not understanding your point.
 It's easy to imagine they're sitting there feeling smug, polishing their ego, while they rile you up with their wrong opinions.
 In reality, they're much more likely to be trying to communicate something that they feel is important and not finding a way to do that in a way that is clear to others.
 
