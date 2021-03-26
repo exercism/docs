@@ -27,7 +27,7 @@ Good documentation is absolutely critical to ensuring that new contributors can 
 
 New contributors not only help Exercism grow, but more importantly improve the experience for hundreds of thousands of new students who use our platform each year.
 
-As part of the launch of our new version of the site launch soon, we have developed a whole "docs" section. You can preview it here: https://exercism.lol/docs
+As part of the launch of our new version of the site launch soon, we have developed a whole "docs" section. You can preview the WIP version here: https://exercism.lol/docs
 
 ### Your project’s scope
 
@@ -36,12 +36,12 @@ The project has the following goals:
 2. Flesh out the structure with stubs for relevant docs, and crowd-source feedback on the best information to go into docs.
 3. Create missing documentation and reorganise existing docs as required.
 4. Welcome and incorporate feedback from our team of maintainers, and the wider community.
-5. Help develop guidance to empower language tracks to create their own per-langauge documentation.
+5. Help develop guidance to empower language tracks to create their own per-language documentation.
 
 Work that is out-of-scope for this project:
 - Working on natural-language translations
 - Work on educational content for Exercism itself
-- Work on indiviudal language-track's docs (other than working on an examplar language for point 5)
+- Work on individual language-track's docs (other than working on an examplar language for point 5)
 
 ## Measuring your project’s success
 
