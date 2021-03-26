@@ -49,8 +49,8 @@ We would consider the project successful if, after the completion of the project
 
 ## Project budget
 
-| Item      | Cost | Running Total | Notes/justifications
-| ----------- | ----------- |
+| Item      | Cost | Running Total | Notes/justifications |
+| ----------- | ----------- | ---- | ---- |
 | Technical writer to structure docs, create documentation, and create guidance for future contributors | $12,000 | $12,000 | 
 | Supporting Volunteers to help provide guidance the technical writer   | $1,500 | $13,500 | 3 volunteer stipends x 500 each
 | TOTAL | | $13,500 |
