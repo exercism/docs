@@ -33,11 +33,12 @@ As part of the launch of our new version of the site launch soon, we have develo
 ### Your project’s scope
 
 The project has the following goals:
-1. Work with Exercism's team to understand the gaps in our existing documentation.
-2. Flesh out the structure with stubs for relevant docs, and crowd-source feedback on the best information to go into docs.
-3. Create missing documentation and reorganise existing docs as required.
-4. Welcome and incorporate feedback from our team of maintainers, and the wider Exercism community.
-5. Help develop guidance to empower language tracks to create their own per-language documentation.
+1. Work with Exercism's team to understand the gaps in our existing documentation
+2. Design a structure incorporating our existing and newly conceived docs
+3. Flesh out that structure with stubs for new docs, and crowd-source feedback on the best information to go into docs.
+4. Create missing documentation and reorganise existing docs as required.
+5. Welcome and incorporate feedback from our team of maintainers, and the wider Exercism community.
+6. Help develop guidance to empower language tracks to create their own per-language documentation.
 
 Work that is out-of-scope for this project:
 - Working on natural-language translations
@@ -49,7 +50,7 @@ Work that is out-of-scope for this project:
 We would consider the project successful if, after the completion of the project:
 
 - The community contributes further documentation improvements (taking pride in our docs). Currently this rarely happens outside of the senior team, so any contributions would be a marked improvement.
-- The number of new contributors making non-trivial changes to Exercism in the 6 months that follow publication increases by 100%.
+- The number of new contributors making meaningful changes to Exercism in the 6 months that follow publication increases by 100%. We define a meaningful change as where someone will have needed to utilize our docs to make the change.
 - The number of PRs from existing contributors increases by 20% over the subsequent quarter.
 
 ## Project budget
