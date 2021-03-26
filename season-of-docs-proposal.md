@@ -22,7 +22,7 @@ One of our challenges is that Exercism is a large project, which can make knowin
 Ensuring that contributors have a frictionless contribution experience, are able to find and adhere to our guidance, and (most importantly) feel like they can communicate clearly in the "Exercism way" with our other contributors, is vital.
 
 As we have developed tighter quality-control and coherence between different parts of the project, there is more to know to get started, so the barrier to contribute has become slightly higher.
-We need to ensure that new contributors can find both clear overarching pathways to get started, and also the details when they need them.
+We need to ensure that new contributors can find both clear introductory paths and comprehensive supporting details when needed.
 Good documentation is absolutely critical to ensuring that new contributors can find pathways to get started, and not feel frustration while trying to help.
 
 New contributors not only help Exercism grow, but more importantly improve the experience for hundreds of thousands of new students who use our platform each year.
