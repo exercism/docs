@@ -116,6 +116,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
 - The `"exercises.practice[].practices"` values must not have duplicates
 - The `"exercises.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
+- The `"exercises.practice[].practices"` values must refer to a single concept's slug at most 10 times
 - The `"exercises.practice[].prerequisites"` key is required
 - The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings
 - The `"exercises.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
