@@ -43,7 +43,7 @@ The project has the following goals:
 Work that is out-of-scope for this project:
 - Working on natural-language translations
 - Work on educational content for Exercism itself
-- Work on individual language-track's docs (other than working on an examplar language for point 5)
+- Work on individual language-track's docs (other than working on an examplar language for point 6)
 
 ## Measuring your project’s success
 
