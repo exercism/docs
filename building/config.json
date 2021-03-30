@@ -388,6 +388,12 @@
     "title": "Santa's Helper"
   },
   {
+    "uuid": "bbb766b6-4b28-4a19-bf57-48495b465c86",
+    "slug": "tracks/ci/workflow-templates",
+    "path": "building/tracks/ci/workflow-templates.md",
+    "title": "Workflow Templates"
+  },
+  {
     "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
     "slug": "markdown",
     "path": "building/markdown/README.md",
