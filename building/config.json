@@ -388,6 +388,13 @@
     "title": "Santa's Helper"
   },
   {
+    "uuid": "2eadb0af-4b2f-4598-a5b2-6b9cdf4a5c1b",
+    "slug": "tracks/ci",
+    "path": "building/tracks/ci/README.md",
+    "title": "Continuous Integration",
+    "blurb": ""
+  },
+  {
     "uuid": "bbb766b6-4b28-4a19-bf57-48495b465c86",
     "slug": "tracks/ci/workflow-templates",
     "path": "building/tracks/ci/workflow-templates.md",
