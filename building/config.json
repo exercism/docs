@@ -392,7 +392,7 @@
     "slug": "tracks/ci",
     "path": "building/tracks/ci/README.md",
     "title": "Continuous Integration",
-    "blurb": ""
+    "blurb": "Learn about how Exercism handles Continuous Integration through GitHub Actions"
   },
   {
     "uuid": "bbb766b6-4b28-4a19-bf57-48495b465c86",
