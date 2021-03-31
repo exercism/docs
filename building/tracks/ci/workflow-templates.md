@@ -318,6 +318,6 @@ git commit -m "Make scripts/xxx executable"
 [github-actions-security]: https://docs.github.com/en/free-pro-team@latest/actions/learn-github-actions/security-hardening-for-github-actions#using-third-party-actions
 [wiki-integrity]: https://en.wikipedia.org/wiki/File_verification
 [workflow-template-dir]: https://github.com/exercism/docs/tree/main/building/tracks/ci
-[workflow-template-ci-yml]: https://github.com/exercism/docs/tree/main/building/tracks/ci/ci.yml
-[workflow-template-configlet-yml]: https://github.com/exercism/docs/tree/main/building/tracks/ci/configlet.yml
-[workflow-template-pr-ci-yml]: https://github.com/exercism/docs/tree/main/building/tracks/ci/pr.ci.yml
+[workflow-template-ci-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/ci.yml
+[workflow-template-configlet-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/configlet.yml
+[workflow-template-pr-ci-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/pr.ci.yml
