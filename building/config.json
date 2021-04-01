@@ -401,6 +401,12 @@
     "title": "Workflow Templates"
   },
   {
+    "uuid": "191b0fa1-96e2-48a6-ad2e-c34f57443799",
+    "slug": "tracks/ci/migrating-from-travis",
+    "path": "building/tracks/ci/migrating-from-travis.md",
+    "title": "Migrating from Travis"
+  },
+  {
     "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
     "slug": "markdown",
     "path": "building/markdown/README.md",
