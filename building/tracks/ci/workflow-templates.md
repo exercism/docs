@@ -13,7 +13,7 @@ Example implementation of these workflow files [can be found in `exercism/javasc
 
 ## **HELP**: this looks like _a lot_ of work 😓
 
-The rest of the document is designed to explain how the workflows work. If you're in a hurry, and you just want to switch from Travis or Circle to GHA without optimizing the PR scripts, go to the **~10 minute guide** on [**Migrating from Travis**](migrating-from-travis.md).
+The rest of the document is designed to explain how the workflows work. If you're in a hurry, and you just want to switch from Travis or Circle to GHA without optimizing the PR scripts, check out our **~10 minute guide** on [**Migrating from Travis**](migrating-from-travis).
 
 ## Track CI actions
 
