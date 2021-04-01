@@ -1,4 +1,4 @@
-## Migrating from Travis
+# Migrating from Travis
 
 Here is an example `.travis.yml` (taken from the `elm` track):
 
@@ -15,7 +15,7 @@ script:
 
 In order to convert this quickly to GitHub Actions, take the following steps:
 
-### Determine the template variables
+## Determine the template variables
 
 | variable                    | value                                |
 | --------------------------- | ------------------------------------ |
@@ -28,13 +28,13 @@ In order to convert this quickly to GitHub Actions, take the following steps:
 > Found the setup action via [this search](https://github.com/actions/?q=setup+node&type=&language=).
 > Found the image name by looking at [default distribution for Travis](https://blog.travis-ci.com/2019-04-15-xenial-default-build-environment).
 
-### Determine the steps
+## Determine the steps
 
-- `bin/fetch-configlet`: don't need this anymore when using `configlet.yml` workflow
-- `bin/configlet lint`: don't need this anymore when using `configlet.yml` workflow
+- `bin/fetch-configlet`: don't need this anymore when using [`configlet.yml`][workflow-template-configlet-yml] workflow
+- `bin/configlet lint`: don't need this anymore when using [`configlet.yml`][workflow-template-configlet-yml] workflow
 - `bin/build.sh`: single script that does everything
 
-### Prepare the "scripts"
+## Prepare the "scripts"
 
 This track uses the `bin` folder, so inside the `bin` folder, create the following files:
 
@@ -60,9 +60,9 @@ echo "No checks yet"
 
 Creating these as _separate_ binaries will allow for optimisation later. No need to in-line anything right now.
 
-### Fill in the templates
+## Fill in the templates
 
-Here is the diff for `workflows/ci.yml`.
+Here is the diff for [`workflows/ci.yml`][workflow-template-ci-yml].
 
 ```diff
 # # .github/workflows/ci.yml
@@ -150,7 +150,7 @@ Here is the diff for `workflows/ci.yml`.
 +         run: bin/ci
 ```
 
-`workflows/pr.yml` has the same changes, with the notable exception of the bash-fu that calls the `pr-check` and `pr` scripts with each changed file as argument:
+[`workflows/pr.yml`][workflow-template-pr-ci-yml] has the same changes, with the notable exception of the bash-fu that calls the `pr-check` and `pr` scripts with each changed file as argument:
 
 ```diff
 # # .github/workflows/pr.yml
@@ -170,7 +170,7 @@ Here is the diff for `workflows/ci.yml`.
   # ...
 ```
 
-### Now it should work
+## Now it should work
 
 This is enough to convert to GitHub Actions, with the possibility to optimise your scripts.
 
@@ -178,3 +178,7 @@ This is enough to convert to GitHub Actions, with the possibility to optimise yo
 2. To `pr.sh` and `pr-check.sh`, add optimisations that use the input arguments to determine which files or exercises to check.
 3. Add additional checks
 4. Add documentation how to run checks locally, and what each one tries to accomplish.
+
+[workflow-template-pr-ci-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/pr.ci.yml
+[workflow-template-ci-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/ci.yml
+[workflow-template-configlet-yml]: https://github.com/exercism/docs/tree/main/reference/templates/ci/configlet.yml
