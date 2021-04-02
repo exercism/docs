@@ -67,7 +67,7 @@ The `config.json` file should have the following checks:
 - The `"online_editor.indent_style"` key is required
 - The `"online_editor.indent_style"` value must be the string `space` or `tab`
 - The `"online_editor.indent_size"` key is required
-- The `"online_editor.indent_size"` value must be a positive integer (>= 0)
+- The `"online_editor.indent_size"` value must be an integer >= 0 and <= 8
 - The `"exercises"` key is required
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
