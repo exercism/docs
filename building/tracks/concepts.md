@@ -186,17 +186,17 @@ Links can also optionally have an `icon_url` field, which can be used to customi
 
 ### File: `.meta/config.json`
 
-**Purpose:** Contains meta information on the exercise.
+**Purpose:** Contains meta information on the concept.
 
 **Presence:** Required
 
-This file contains meta information on the exercise:
+This file contains meta information on the concept:
 
-- `authors`: The GitHub username(s) of the exercise's author(s) (required)
-  - Including reviewers if their reviews substantially change the exercise (to the extent where it feels like "you got there together")
-- `contributors`: The GitHub username(s) of the exercise's contributor(s) (optional)
+- `authors`: The GitHub username(s) of the concept's author(s) (required)
+  - Including reviewers if their reviews substantially change the concept (to the extent where it feels like "you got there together")
+- `contributors`: The GitHub username(s) of the concept's contributor(s) (optional)
   - Including reviewers if their reviews are meaningful/actionable/actioned.
-- `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
+- `blurb`: A short description of this concept. Its length must be <= 350. Markdown is _not_ supported (required)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
