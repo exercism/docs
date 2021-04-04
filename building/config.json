@@ -485,6 +485,13 @@
     "blurb": ""
   },
   {
+    "uuid": "4883e54d-b863-44b2-a2d9-5e77ef6148a1",
+    "slug": "tracks/deprecated-exercises",
+    "path": "building/tracks/deprecated-exercises.md",
+    "title": "Deprecated Exercises",
+    "blurb": "Learn why and how to deprecate an Exercism exercise"
+  },
+  {
     "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
     "slug": "tracks/presentation",
     "path": "building/tracks/presentation.md",

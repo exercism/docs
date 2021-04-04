@@ -88,7 +88,7 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
   - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
   - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback."
   - `active`: The normal state of active exercises
-  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage).
+  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage). See [Deprecated Exercises](./deprecated-exercises) for more information.
 
 #### Example
 
