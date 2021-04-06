@@ -82,13 +82,15 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].deprecated"` value must be a boolean value
 - The `"exercises.concept[].deprecated"` value must generate a warning if set to `false`
 - The `"exercises.concept[].concepts"` key is required
-- The `"exercises.concept[].concepts"` value must be a non-empty array of strings
+- The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
+- The `"exercises.concept[].concepts"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
 - The `"exercises.concept[].concepts"` values must be non-empty, non-blank, lowercased strings using kebab-case
 - The `"exercises.concept[].concepts"` values must not have duplicates
 - The `"exercises.concept[].concepts"` values must not be in any other concept exercise's `"concepts"` property
 - The `"exercises.concept[].concepts"` values must match the `"concepts.slug"` property of one of the concepts
 - The `"exercises.concept[].prerequisites"` key is required
-- The `"exercises.concept[].prerequisites"` value must be a non-empty array of strings for all but one exercise, which can have an empty array as its value
+- The `"exercises.concept[].prerequisites"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`, except for exactly one exercise which _is_ allowed to have an empty array as its value
+- The `"exercises.concept[].prerequisites"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
 - The `"exercises.concept[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
 - The `"exercises.concept[].prerequisites"` values must not have duplicates
 - The `"exercises.concept[].prerequisites"` values must match any other concept exercise's `"concepts"` property values
@@ -112,13 +114,15 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].difficulty"` key is required
 - The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
 - The `"exercises.practice[].practices"` key is required
-- The `"exercises.practice[].practices"` value must be a non-empty array of strings
+- The `"exercises.practice[].practices"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
+- The `"exercises.practice[].practices"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
 - The `"exercises.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
 - The `"exercises.practice[].practices"` values must not have duplicates
 - The `"exercises.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercises.practice[].practices"` values must refer to an individual concept's slug at most 10 times (across all exercises)
 - The `"exercises.practice[].prerequisites"` key is required
-- The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings
+- The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
+- The `"exercises.practice[].prerequisites"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
 - The `"exercises.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
 - The `"exercises.practice[].prerequisites"` values must not have duplicates
 - The `"exercises.practice[].prerequisites"` values must match any concept exercise's `"exercises.concept[].concepts"` values
