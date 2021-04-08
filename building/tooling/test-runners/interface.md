@@ -82,7 +82,7 @@ The rationale for this is that only the first failure is shown to students and t
 
 This is the name of the test in a human-readable format.
 
-#### Command
+#### Test code
 
 > key: `test_code`
 
