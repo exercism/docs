@@ -292,3 +292,7 @@ The `config.json` file should have the following checks:
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
+
+## Glossary
+
+- _kebab_case_: strings which characters are all in the range [a-z09-]
