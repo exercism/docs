@@ -295,4 +295,4 @@ The `config.json` file should have the following checks:
 
 ## Glossary
 
-- _kebab_case_: strings containing only characters in the range `[a-z0-9-]`
+- _kebab_case_: strings containing only characters in the range `[a-z0-9]` optionally separated by dashes (e.g. "two-fer"). In regular expression format: `^[a-z0-9]+(-[a-z0-9]+)*$`
