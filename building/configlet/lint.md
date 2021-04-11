@@ -49,7 +49,7 @@ The `config.json` file should have the following checks:
 - The `"language"` key is required
 - The `"language"` value must be a non-trivial string¹
 - The `"slug"` key is required
-- The `"slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
+- The `"slug"` value must be a kebab-case string²
 - The `"active"` key is required
 - The `"active"` value must be a boolean
 - The `"blurb"` key is required
@@ -72,7 +72,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
 - The `"exercises.concept[].slug"` key is required
-- The `"exercises.concept[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
+- The `"exercises.concept[].slug"` value must be a kebab-case string²
 - The `"exercises.concept[].slug"` value must be unique in `"exercises.concept[].slug"` and may not exist in `"exercises.practice[].slug"`
 - The `"exercises.concept[].name"` key is required
 - The `"exercises.concept[].name"` value must be a non-trivial string¹
@@ -84,14 +84,14 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].concepts"` key is required
 - The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
 - The `"exercises.concept[].concepts"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
-- The `"exercises.concept[].concepts"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.concept[].concepts"` values must be kebab-case strings²
 - The `"exercises.concept[].concepts"` values must not have duplicates
 - The `"exercises.concept[].concepts"` values must not be in any other concept exercise's `"concepts"` property
 - The `"exercises.concept[].concepts"` values must match the `"concepts.slug"` property of one of the concepts
 - The `"exercises.concept[].prerequisites"` key is required
 - The `"exercises.concept[].prerequisites"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`, except for exactly one exercise which _is_ allowed to have an empty array as its value
 - The `"exercises.concept[].prerequisites"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
-- The `"exercises.concept[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.concept[].prerequisites"` values must be kebab-case strings²
 - The `"exercises.concept[].prerequisites"` values must not have duplicates
 - The `"exercises.concept[].prerequisites"` values must match any other concept exercise's `"concepts"` property values
 - The `"exercises.concept[].prerequisites"` values must not match any of the values in the exercise's `"exercises.concept[].concepts"` property
@@ -102,7 +102,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice"` key is required
 - The `"exercises.practice"` value must be an array
 - The `"exercises.practice[].slug"` key is required
-- The `"exercises.practice[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
+- The `"exercises.practice[].slug"` value must be a kebab-case string²
 - The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
 - The `"exercises.practice[].name"` key is required
 - The `"exercises.practice[].name"` value must be a non-trivial string¹
@@ -116,14 +116,14 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].practices"` key is required
 - The `"exercises.practice[].practices"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
 - The `"exercises.practice[].practices"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
-- The `"exercises.practice[].practices"` values must be non-empty, lowercased strings using kebab-case
+- The `"exercises.practice[].practices"` values must be kebab-case strings²
 - The `"exercises.practice[].practices"` values must not have duplicates
 - The `"exercises.practice[].practices"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercises.practice[].practices"` values must refer to an individual concept's slug at most 10 times (across all exercises)
 - The `"exercises.practice[].prerequisites"` key is required
 - The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
 - The `"exercises.practice[].prerequisites"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
-- The `"exercises.practice[].prerequisites"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.practice[].prerequisites"` values must be kebab-case strings²
 - The `"exercises.practice[].prerequisites"` values must not have duplicates
 - The `"exercises.practice[].prerequisites"` values must match any concept exercise's `"exercises.concept[].concepts"` values
 - The `"exercises.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
@@ -131,7 +131,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
-- The `"exercises.foregone"` values must be non-empty, non-blank, lowercased strings using kebab-case
+- The `"exercises.foregone"` values must be kebab-case strings²
 - The `"exercises.foregone"` values must not match any of the concept or practice exercise slugs
 - The `"concepts"` key is required
 - The `"concepts"` value must be an array
@@ -139,7 +139,7 @@ The `config.json` file should have the following checks:
 - The `"concepts[].uuid"` key is required
 - The `"concepts[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"concepts[].slug"` key is required
-- The `"concepts[].slug"` value must be a non-empty, non-blank, lowercased string using kebab-case
+- The `"concepts[].slug"` value must be a kebab-case string²
 - The `"concepts[].name"` key is required
 - The `"concepts[].name"` value must be a non-empty, non-blank, titleized string
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
@@ -296,4 +296,4 @@ The `config.json` file should have the following checks:
 ## Glossary
 
 1. Non-trivial string: a string that has at least one non-whitespace character.
-- _kebab_case_: strings containing only characters in the range `[a-z0-9]` optionally separated by dashes (e.g. "two-fer"). In regular expression format: `^[a-z0-9]+(-[a-z0-9]+)*$`
+2. kebab-case string: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
