@@ -47,13 +47,13 @@ The `config.json` file should have the following checks:
 
 - The file must be valid JSON
 - The `"language"` key is required
-- The `"language"` value must be a non-trivial string¹
+- The `"language"` value must be a non-blank string¹
 - The `"slug"` key is required
 - The `"slug"` value must be a kebab-case string²
 - The `"active"` key is required
 - The `"active"` value must be a boolean
 - The `"blurb"` key is required
-- The `"blurb"` value must be a non-trivial string¹ with length <= 400
+- The `"blurb"` value must be a non-blank string¹ with length <= 400
 - The `"version"` key is required
 - The `"version"` value must be the integer `3`
 - The `"status.concept_exercises"` key is required
@@ -75,7 +75,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].slug"` value must be a kebab-case string²
 - The `"exercises.concept[].slug"` value must be unique in `"exercises.concept[].slug"` and may not exist in `"exercises.practice[].slug"`
 - The `"exercises.concept[].name"` key is required
-- The `"exercises.concept[].name"` value must be a non-trivial string¹
+- The `"exercises.concept[].name"` value must be a non-blank string¹
 - The `"exercises.concept[].uuid"` key is required
 - The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.concept[].deprecated"` key is optional
@@ -105,7 +105,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].slug"` value must be a kebab-case string²
 - The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
 - The `"exercises.practice[].name"` key is required
-- The `"exercises.practice[].name"` value must be a non-trivial string¹
+- The `"exercises.practice[].name"` value must be a non-blank string¹
 - The `"exercises.practice[].uuid"` key is required
 - The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.practice[].deprecated"` key is optional
@@ -150,9 +150,9 @@ The `config.json` file should have the following checks:
 - The `"key_features[].icon"` key is required
 - The `"key_features[].icon"` value must be a string that matches one of the pre-defined icon values (TODO: add link to list of icons)
 - The `"key_features[].title"` key is required
-- The `"key_features[].title"` value must be a non-trivial string¹ with length <= 25
+- The `"key_features[].title"` value must be a non-blank string¹ with length <= 25
 - The `"key_features[].content"` key is required
-- The `"key_features[].content"` value must be a non-trivial string¹ with length <= 100
+- The `"key_features[].content"` value must be a non-blank string¹ with length <= 100
 - The `"tags"` key is optional
 - The `"tags"` value must be an array of strings
 - The `"tags"` values must use one of the [pre-defined tag values](https://github.com/exercism/v3-docs/blob/main/anatomy/tracks/config-json.md#tags)
@@ -162,15 +162,15 @@ The `config.json` file should have the following checks:
 - The file must be valid JSON
 - The JSON root must be an object
 - The `"blurb"` key is required
-- The `"blurb"` value must be a non-trivial string¹ with length <= 350
+- The `"blurb"` value must be a non-blank string¹ with length <= 350
 - The `"authors"` key is required
 - The `"authors"` value must be a non-empty array
-- The `"authors"` values must be non-trivial strings¹
+- The `"authors"` values must be non-blank strings¹
 - The `"authors"` values must not have duplicates
 - The `"authors"` values are treated case-insensitively
 - The `"contributors"` key is optional
 - The `"contributors"` value must be an array
-- The `"contributors"` values must be non-trivial strings¹
+- The `"contributors"` values must be non-blank strings¹
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
@@ -219,15 +219,15 @@ The `config.json` file should have the following checks:
 - The file must be valid JSON
 - The JSON root must be an object
 - The `"blurb"` key is required
-- The `"blurb"` value must be a non-trivial string¹ with length <= 350
+- The `"blurb"` value must be a non-blank string¹ with length <= 350
 - The `"authors"` key is optional
 - The `"authors"` value must be an array
-- The `"authors"` values must be non-trivial strings¹
+- The `"authors"` values must be non-blank strings¹
 - The `"authors"` values must not have duplicates
 - The `"authors"` values are treated case-insensitively
 - The `"contributors"` key is optional
 - The `"contributors"` value must be an array
-- The `"contributors"` values must be non-trivial strings¹
+- The `"contributors"` values must be non-blank strings¹
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
@@ -271,7 +271,7 @@ The `config.json` file should have the following checks:
 - The `"[].url"` property is required
 - The `"[].url"` value must be an URL
 - The `"[].description"` property is required
-- The `"[].description"` value must be a non-trivial string¹
+- The `"[].description"` value must be a non-blank string¹
 - The `"[].icon_url"` property is optional
 - The `"[].icon_url"` value must be an URL
 
@@ -280,20 +280,20 @@ The `config.json` file should have the following checks:
 - The file must be valid JSON
 - The JSON root must be an object
 - The `"blurb"` key is required
-- The `"blurb"` value must be a non-trivial string¹ with length <= 350
+- The `"blurb"` value must be a non-blank string¹ with length <= 350
 - The `"authors"` key is required
 - The `"authors"` value must be an array
-- The `"authors"` values must be non-trivial strings¹
+- The `"authors"` values must be non-blank strings¹
 - The `"authors"` values must not have duplicates
 - The `"authors"` values are treated case-insensitively
 - The `"contributors"` key is optional
 - The `"contributors"` value must be an array
-- The `"contributors"` values must be non-trivial strings¹
+- The `"contributors"` values must be non-blank strings¹
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
 
 ## Glossary
 
-1. Non-trivial string: a string that has at least one non-whitespace character.
+1. Non-blank string: a string that contains at least one non-whitespace character.
 2. kebab-case string: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
