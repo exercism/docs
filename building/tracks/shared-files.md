@@ -14,6 +14,10 @@ There are two Exercism-wide documentation files that apply to Concept- and Pract
 - `cli.md`: contains information on how to work with the exercise when using the CLI to download and submit the exercise. TODO: link to location of this file
 - `help.md`: contains generic Exercism-wide instructions on how to get help. TODO: link to location of this file
 
+These are handled by Exercism directly and do not need to be touched by track-maintainers. 
+They are augmented by, and intertwined with, the track-specific files below, to provide contextual information to a student.
+For example, the `tests.md` is almagamated with the `cli.md` file to provide instructions to users using the CLI on how to get help, where as the `debug.md` is shown in the editor next to the instructions and introductions.
+
 ## Track-specific files
 
 The track-specific documentation files are located within the track's `exercises/shared/.docs` directory.
