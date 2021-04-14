@@ -104,6 +104,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].slug"` key is required
 - The `"exercises.practice[].slug"` value must be a kebab-case string²
 - The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
+- There must be exactly one `"exercises.practice[].slug"` value that is the string `hello-world`
 - The `"exercises.practice[].name"` key is required
 - The `"exercises.practice[].name"` value must be a non-blank string¹
 - The `"exercises.practice[].uuid"` key is required
@@ -123,12 +124,14 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].prerequisites"` key is required
 - The `"exercises.practice[].prerequisites"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
 - The `"exercises.practice[].prerequisites"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
+- The `"exercises.practice[].prerequisites"` value must be an empty array if `"exercises.practice[].slug"` is equal to `hello-world`
 - The `"exercises.practice[].prerequisites"` values must be kebab-case strings²
 - The `"exercises.practice[].prerequisites"` values must not have duplicates
 - The `"exercises.practice[].prerequisites"` values must match any concept exercise's `"exercises.concept[].concepts"` values
 - The `"exercises.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercises.practice[].status"` key is optional
 - The `"exercises.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
+- The `"exercises.practice[].status"` value must either not be present or the string `active` if `"exercises.practice[].slug"` is equal to `hello-world`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be kebab-case strings²
