@@ -83,6 +83,7 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - Mentored first 100 ("Mentoring Expert")
 - Mentored first 200 ("Mentoring Artisan")
 - Mentored first 1000 (don't like Royalty, but Deity is problematic too)
+- Author a {concept | practice} exercise solved by {10, 100, 1000, 10000} students. Names could be similar to the "Mentoring ..." names above.
 - First Contribution to Repo
 - Tag some exercises as "easter egg" exercises (at random, or of a certain difficulty level, or....??) - when a student completes these, they get special 1-time easter egg badges.
 - Tag some student solutions as "easter egg" solutions - when a mentor completes mentoring these, they get a special 1-time easter egg badges.
