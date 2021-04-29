@@ -294,6 +294,7 @@ This file contains meta information on the exercise:
 - `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
+- `icon`: The slug of the icon (see [the full list of icons](https://github.com/exercism/website-icons/tree/main/v3-exercises)). If not specified, the exercise's slug will be used (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -329,7 +330,8 @@ Assume that the user `FSharpForever` has written an exercise called `log-levels`
   "language_versions": ">=3.7",
   "blurb": "Learn how to work with strings by processing log lines.",
   "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Log_file"
+  "source_url": "https://en.wikipedia.org/wiki/Log_file",
+  "icon": "logs"
 }
 ```
 
