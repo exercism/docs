@@ -56,6 +56,10 @@ The `config.json` file should have the following checks:
 - The `"blurb"` value must be a non-blank string¹ with length <= 400
 - The `"version"` key is required
 - The `"version"` value must be the integer `3`
+- The `"ace_editor_language"` key is required
+- The `"ace_editor_language"` value must be a non-blank string¹
+- The `"highlightjs_language"` key is required
+- The `"highlightjs_language"` value must be a non-blank string¹
 - The `"status.concept_exercises"` key is required
 - The `"status.concept_exercises"` value must be a boolean
 - The `"status.test_runner"` key is required
