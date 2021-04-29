@@ -191,6 +191,8 @@ The `config.json` file should have the following checks:
 - The `"forked_from"` values must be unique
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
+- The `"icon"` key is optional
+- The `"icon"` value must be a kebab-case string²
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/hints.md is valid
 
