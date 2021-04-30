@@ -56,10 +56,6 @@ The `config.json` file should have the following checks:
 - The `"blurb"` value must be a non-blank string¹ with length <= 400
 - The `"version"` key is required
 - The `"version"` value must be the integer `3`
-- The `"ace_editor_language"` key is required
-- The `"ace_editor_language"` value must be a non-blank string¹
-- The `"highlightjs_language"` key is required
-- The `"highlightjs_language"` value must be a non-blank string¹
 - The `"status.concept_exercises"` key is required
 - The `"status.concept_exercises"` value must be a boolean
 - The `"status.test_runner"` key is required
@@ -72,6 +68,10 @@ The `config.json` file should have the following checks:
 - The `"online_editor.indent_style"` value must be the string `space` or `tab`
 - The `"online_editor.indent_size"` key is required
 - The `"online_editor.indent_size"` value must be an integer >= 0 and <= 8
+- The `"online_editor.ace_editor_language"` key is required
+- The `"online_editor.ace_editor_language"` value must be a non-blank string¹
+- The `"online_editor.highlightjs_language"` key is required
+- The `"online_editor.highlightjs_language"` value must be a non-blank string¹
 - The `"exercises"` key is required
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
