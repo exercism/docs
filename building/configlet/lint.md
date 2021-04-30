@@ -192,7 +192,7 @@ The `config.json` file should have the following checks:
 - The `"forked_from"` value must be an array
 - The `"forked_from"` values must be strings formatted as `<track-slug>/<exercise-slug>` (e.g. `fsharp/bird-watcher`)
 - The `"forked_from"` values must refer to actually implemented exercises
-- The `"forked_from"` values must be unique
+- The `"forked_from"` values must not have duplicates
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
 - The `"icon"` key is optional
