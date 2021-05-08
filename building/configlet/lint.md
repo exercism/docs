@@ -136,6 +136,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be kebab-case strings²
+- The `"exercises.foregone"` values must not have duplicates
 - The `"exercises.foregone"` values must not match any of the concept or practice exercise slugs
 - The `"concepts"` key is required
 - The `"concepts"` value must be an array
@@ -159,6 +160,7 @@ The `config.json` file should have the following checks:
 - The `"key_features[].content"` value must be a non-blank string¹ with length <= 100
 - The `"tags"` key is optional
 - The `"tags"` value must be an array of strings
+- The `"tags"` values must not have duplicates
 - The `"tags"` values must use one of the [pre-defined tag values](https://github.com/exercism/v3-docs/blob/main/anatomy/tracks/config-json.md#tags)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
@@ -180,10 +182,13 @@ The `config.json` file should have the following checks:
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
 - The `"files.solution"` key is required
 - The `"files.solution"` value must be a non-empty array
+- The `"files.solution"` values must not have duplicates
 - The `"files.test"` key is required
 - The `"files.test"` value must be a non-empty array
+- The `"files.test"` values must not have duplicates
 - The `"files.exemplar"` key is required
 - The `"files.exemplar"` value must be a non-empty array
+- The `"files.exemplar"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.exemplar"` must exist
@@ -239,10 +244,13 @@ The `config.json` file should have the following checks:
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
 - The `"files.solution"` key is required
 - The `"files.solution"` value must be a non-empty array
+- The `"files.solution"` values must not have duplicates
 - The `"files.test"` key is required
 - The `"files.test"` value must be a non-empty array
+- The `"files.test"` values must not have duplicates
 - The `"files.example"` key is required
 - The `"files.example"` value must be a non-empty array
+- The `"files.example"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.example"` must exist
