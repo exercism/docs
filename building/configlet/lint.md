@@ -200,14 +200,14 @@ The `config.json` file should have the following checks:
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/hints.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - All headings must be either `## General` or `## X. <task>` where `X` matches the task number heading in the `instructions.md`
 - All hints must be specified as Markdown list items
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - All tasks must start with a level two heading that starts with a number followed by a dot: `## 1. Do X`
 - Links must be absolute (relative links are not allowed)
 
@@ -217,7 +217,7 @@ The `config.json` file should have the following checks:
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/introduction.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/practice/&lt;slug&gt;/.meta/config.json is valid
@@ -252,22 +252,22 @@ The `config.json` file should have the following checks:
 
 ### Rule: exercises/shared/.docs/cli.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/shared/.docs/debug.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concepts/&lt;slug&gt;/about.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concepts/&lt;slug&gt;/introduction.md is valid
 
-- The Markdown must conform to the [Markdown standards](../../../contributing/standards/markdown.md)
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concept/&lt;slug&gt;/links.json is valid
