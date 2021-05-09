@@ -159,7 +159,7 @@ The `config.json` file should have the following checks:
 - The `"key_features[].content"` value must be a non-blank string¹ with length <= 100
 - The `"tags"` key is optional
 - The `"tags"` value must be an array of strings
-- The `"tags"` values must use one of the [pre-defined tag values](https://github.com/exercism/v3-docs/blob/main/anatomy/tracks/config-json.md#tags)
+- The `"tags"` values must use one of the [pre-defined tag values](../tracks/config-json.md#tags)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
 
