@@ -213,7 +213,7 @@ The `config.json` file should have the following checks:
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md.tpl is valid (if present)
 
-- Each [concept placeholders](../concept-exercises.md#docsintroductionmdtploptional)'s concept must match the `"concepts.slug"` property of one of the concepts in the track's `config.json`.
+- Each [concept placeholders](../tracks/concept-exercises.md#file-docsintroductionmdtpl)'s concept must match the `"concepts.slug"` property of one of the concepts in the track's `config.json`.
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/introduction.md is valid
 
