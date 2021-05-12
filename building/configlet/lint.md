@@ -158,7 +158,7 @@ The `config.json` file should have the following checks:
 - The `"key_features[].icon"` key is required
 - The `"key_features[].icon"` value must be a string that matches one of the pre-defined icon values (TODO: add link to list of icons)
 - The `"key_features[].title"` key is required
-- The `"key_features[].title"` value must be a non-blank string¹ with length <= 25
+- The `"key_features[].title"` value must be a Title Case string³ with length <= 25
 - The `"key_features[].content"` key is required
 - The `"key_features[].content"` value must be a non-blank string¹ with length <= 100
 - The `"tags"` key is optional
