@@ -79,7 +79,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].slug"` value must be a kebab-case string²
 - The `"exercises.concept[].slug"` value must be unique in `"exercises.concept[].slug"` and may not exist in `"exercises.practice[].slug"`
 - The `"exercises.concept[].name"` key is required
-- The `"exercises.concept[].name"` value must be a non-blank string¹
+- The `"exercises.concept[].name"` value must be a Title Case string³
 - The `"exercises.concept[].uuid"` key is required
 - The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.concept[].deprecated"` key is optional
@@ -110,7 +110,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
 - There must be exactly one `"exercises.practice[].slug"` value that is the string `hello-world`
 - The `"exercises.practice[].name"` key is required
-- The `"exercises.practice[].name"` value must be a non-blank string¹
+- The `"exercises.practice[].name"` value must be a Title Case string³
 - The `"exercises.practice[].uuid"` key is required
 - The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.practice[].deprecated"` key is optional
@@ -149,7 +149,7 @@ The `config.json` file should have the following checks:
 - The `"concepts[].slug"` key is required
 - The `"concepts[].slug"` value must be a kebab-case string²
 - The `"concepts[].name"` key is required
-- The `"concepts[].name"` value must be a non-empty, non-blank, titleized string
+- The `"concepts[].name"` value must be a Title Case string³
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
@@ -314,3 +314,11 @@ The `config.json` file should have the following checks:
 
 1. Non-blank string: a string that contains at least one non-whitespace character.
 2. kebab-case string: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
+3. Title Case string: a non-blank string that follows the below guidelines (from the Chicago Manual of Style, see https://en.wikipedia.org/wiki/Title_case):
+> - Capitalize the first and last words of titles and subtitles.
+> - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
+> - Lowercase the conjunctions *and*, *but*, *for*, *or*, and *nor*.
+> - Lowercase the articles *the*, *a*, and *an*.
+> - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
+> - Lowercase the words *to* and *as*.
+> - Lowercase the second part of Latin species names.
