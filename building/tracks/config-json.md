@@ -27,6 +27,8 @@ The following top-level properties contain general track metadata:
   - `example`: example implementation file(s) pattern (optional
   - `exemplar`: exemplar implementation file(s) pattern (optional)
   - `editor`: additional read-only editor file(s) patterns (optional)
+- `test_runner`: an object describing the track's test runner (if any): (required if `status.test_runner` is `true`)
+  - `average_run_time`: a `number` value for the number of seconds the test runner takes on average to run, rounded to one decimal point precision (e.g. `1.8`) (required if `status.test_runner` is `true`)
 
 ### Files
 

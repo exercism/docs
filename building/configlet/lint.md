@@ -72,6 +72,8 @@ The `config.json` file should have the following checks:
 - The `"online_editor.ace_editor_language"` value must be a non-blank string¹
 - The `"online_editor.highlightjs_language"` key is required
 - The `"online_editor.highlightjs_language"` value must be a non-blank string¹
+- The `"test_runner.average_run_time"` key is required if `status.test_runner` is equal to `true`
+- The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
 - The `"exercises"` key is required
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
