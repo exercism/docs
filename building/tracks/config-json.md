@@ -83,7 +83,7 @@ The top-level `exercises` key is an object with three possible keys:
 
 Each concept exercise is an entry in the `exercises.concept` array. The following fields make up a concept exercise:
 
-- `uuid`: a V4 UUID that uniquely identifies the exercise across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
 - `name`: the exercise's name
 - `concepts`: an array of concept slugs that are taught by this concept exercise
@@ -137,7 +137,7 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 
 Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
 
-- `uuid`: a V4 UUID that uniquely identifies the exercise across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
 - `name`: the exercise's name
 - `practices`: an array of concept slugs that the exercise is helping students practice
@@ -215,7 +215,7 @@ Reasons for why an track might _not_ want to implement an exercise could be:
 
 Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
 
-- `uuid`: a V4 UUID that uniquely identifies the concept across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks
 - `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track
 - `name`: the concept's name
 
