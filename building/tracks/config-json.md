@@ -6,10 +6,10 @@ The `config.json` file describes the track's configuration. It contains vital in
 
 The following top-level properties contain general track metadata:
 
-- `language`: the track's language (e.g. `"C#"`) (required)
-- `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`) (required)
+- `language`: the track's language (e.g. `"C#"`). Its length must be <= 255. (required)
+- `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`). Its length must be <= 255. (required)
 - `active`: a `boolean` value indicating if the track is active (i.e. students can join the track on the website) (required)
-- `blurb`: a short description of the language (required)
+- `blurb`: a short description of the language. Its length must be <= 255. (required)
 - `version`: the version of the `config.json` file (currently fixed to `3`) (required)
 - `ace_editor_language`: the language identifier for the Ace editor (see the [full list of identifiers](https://github.com/ajaxorg/ace/tree/master/lib/ace/mode)) (required)
 - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
@@ -86,8 +86,8 @@ The top-level `exercises` key is an object with three possible keys:
 Each concept exercise is an entry in the `exercises.concept` array. The following fields make up a concept exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
-- `name`: the exercise's name
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255. 
+- `name`: the exercise's name. Its length must be <= 255. 
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `status` (optional): the exercise's status, which is one of `"wip"`, `"beta"` `"active"`, or `"deprecated"`; defaults to `"active"` if not specified
@@ -140,8 +140,8 @@ Each concept exercise is an entry in the `exercises.concept` array. The followin
 Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track
-- `name`: the exercise's name
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255. 
+- `name`: the exercise's name. Its length must be <= 255. 
 - `practices`: an array of concept slugs that the exercise is helping students practice
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest)
@@ -218,8 +218,8 @@ Reasons for why an track might _not_ want to implement an exercise could be:
 Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
 
 - `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track
-- `name`: the concept's name
+- `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track.  Its length must be <= 255.
+- `name`: the concept's name. Its length must be <= 255.
 
 ### Example
 

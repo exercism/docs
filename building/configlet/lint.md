@@ -47,9 +47,9 @@ The `config.json` file should have the following checks:
 
 - The file must be valid JSON
 - The `"language"` key is required
-- The `"language"` value must be a non-blank string¹
+- The `"language"` value must be a non-blank string¹ with length <= 255
 - The `"slug"` key is required
-- The `"slug"` value must be a kebab-case string²
+- The `"slug"` value must be a kebab-case string² with length <= 255
 - The `"active"` key is required
 - The `"active"` value must be a boolean
 - The `"blurb"` key is required
@@ -78,10 +78,10 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
 - The `"exercises.concept[].slug"` key is required
-- The `"exercises.concept[].slug"` value must be a kebab-case string²
+- The `"exercises.concept[].slug"` value must be a kebab-case string² with length <= 255
 - The `"exercises.concept[].slug"` value must be unique in `"exercises.concept[].slug"` and may not exist in `"exercises.practice[].slug"`
 - The `"exercises.concept[].name"` key is required
-- The `"exercises.concept[].name"` value must be a Title Case string³
+- The `"exercises.concept[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.concept[].uuid"` key is required
 - The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.concept[].deprecated"` key is optional
@@ -108,11 +108,11 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice"` key is required
 - The `"exercises.practice"` value must be an array
 - The `"exercises.practice[].slug"` key is required
-- The `"exercises.practice[].slug"` value must be a kebab-case string²
+- The `"exercises.practice[].slug"` value must be a kebab-case string² with length <= 255
 - The `"exercises.practice[].slug"` value must be unique in `"exercises.practice[].slug"` and may not exist in `"exercises.concept[].slug"`
 - There must be exactly one `"exercises.practice[].slug"` value that is the string `hello-world`
 - The `"exercises.practice[].name"` key is required
-- The `"exercises.practice[].name"` value must be a Title Case string³
+- The `"exercises.practice[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.practice[].uuid"` key is required
 - The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"exercises.practice[].deprecated"` key is optional
@@ -149,9 +149,9 @@ The `config.json` file should have the following checks:
 - The `"concepts[].uuid"` key is required
 - The `"concepts[].uuid"` value must be a unique, lowercased v4 UUID string
 - The `"concepts[].slug"` key is required
-- The `"concepts[].slug"` value must be a kebab-case string²
+- The `"concepts[].slug"` value must be a kebab-case string² with length <= 255
 - The `"concepts[].name"` key is required
-- The `"concepts[].name"` value must be a Title Case string³
+- The `"concepts[].name"` value must be a Title Case string³ with length <= 255
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/links.json` file. Linting rules for this file are specified below.
