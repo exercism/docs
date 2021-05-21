@@ -9,7 +9,7 @@ The following top-level properties contain general track metadata:
 - `language`: the track's language (e.g. `"C#"`). Its length must be <= 255. (required)
 - `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`). Its length must be <= 255. (required)
 - `active`: a `boolean` value indicating if the track is active (i.e. students can join the track on the website) (required)
-- `blurb`: a short description of the language. Its length must be <= 255. (required)
+- `blurb`: a short description of the language. Its length must be <= 400. (required)
 - `version`: the version of the `config.json` file (currently fixed to `3`) (required)
 - `ace_editor_language`: the language identifier for the Ace editor (see the [full list of identifiers](https://github.com/ajaxorg/ace/tree/master/lib/ace/mode)) (required)
 - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
