@@ -9,7 +9,7 @@ We have a formalised process for becoming and staying a maintainer, to make it a
 **You can be become a maintainer!**
 Read on to understand the responsibilities and the process.
 
-_Note: the second below generally discussses Track Maintainers. 
+_Note: the sections below generally discuss Track Maintainers. 
 The process for becoming a maintainer of a different part of the ecosystem is similar but a little looser._
 
 ## Responsibilities
