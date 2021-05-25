@@ -22,7 +22,7 @@ That specifically means that maintainers:
 - **Ensure the track conforms to Exercism's standard:** Exercism has specifications and standards for each language Track to ensure a degree of consistency within the platform. While maintainers have free reign over much of the Track, all Tracks must conform to Exercism's standards.
 
 Maintainers are also responsibile for interacting with our contributor community.
-They review PRs from community, acting as gatekeepers, shephards, and cheerleaders for our community.
+They review PRs from community, acting as gatekeepers, shepherds, and cheerleaders for our community.
 They are responsible for keeping documentation and contribution guidelines up to date, and ensuring that there are relevant open issues for potential contributors to action.
 
 It is essential that Maintainers manifest Exercism's values of empathy and kindness, while maintaining high standards for the Track and the platform.
