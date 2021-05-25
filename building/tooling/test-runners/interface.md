@@ -40,6 +40,8 @@ The `results.json` file should be structured as followed:
 
 > key: `version`
 
+> version: 1, 2, 3
+
 The version of the spec that this file adheres to:
 
 - `1`: The more basic specification for tracks that don't have "proper" test-runners. (To be documented).
@@ -48,6 +50,8 @@ The version of the spec that this file adheres to:
 #### Status
 
 > key: `status`
+
+> version: 1, 2, 3
 
 The following overall statuses are valid:
 
@@ -59,6 +63,8 @@ The following overall statuses are valid:
 
 > key: `message`
 
+> version: 1, 2, 3
+
 Where the status is `error` (the tests fail to execute cleanly), the top level `message` key should be provided. It should provide the occurring error to the user. As it is the only piece of information a user will receive on how to debug their issue, it must be as clear as possible. For example, in Ruby, in the case of a syntax error, we provide the error and stack trace. In compiled languages, the compilation error should be provided. The top level `message` value is not limited in length.
 
 When the status is not `error`, either set the value to `null` or omit the key entirely.
@@ -66,6 +72,8 @@ When the status is not `error`, either set the value to `null` or omit the key e
 #### Tests
 
 > key: `tests`
+
+> version: 2, 3
 
 This is an array of the test results, specified in the "Per-test" section below.
 
@@ -80,11 +88,15 @@ The rationale for this is that only the first failure is shown to students and t
 
 > key: `name`
 
+> version: 2, 3
+
 This is the name of the test in a human-readable format.
 
 #### Test code
 
 > key: `test_code`
+
+> version: 2, 3
 
 This **MUST** be present for Concept Exercises and **SHOULD** be present for Practice Exercises.
 The difference in this requirement comes from that fact that students are not shown the tests in Concept Exercises, so solving the exercise may be impossible without the `test_code` being shown, whereas the tests are shown for Practice Exercises.
@@ -117,6 +129,8 @@ assert_equal 'Newspaper, Rice', cart.items_list"
 
 > key: `status`
 
+> version: 2, 3
+
 The following per-test statuses are valid:
 
 - `pass`: The test passed
@@ -127,11 +141,15 @@ The following per-test statuses are valid:
 
 > key: `message`
 
+> version: 2, 3
+
 The per-test `message` key is used to return the results of a failed test. It should be as human-readable as possible. Whatever is written here will be displayed to the student when their test fails. If there is no error message, either set the value to `null` or omit the key entirely. It is also permissible to output test suite output here. The `message` value is not limited in length.
 
 #### Output
 
 > key: `output`
+
+> version: 2, 3
 
 The per-test `output` key should be used to store and output anything that a user deliberately outputs for a test.
 
