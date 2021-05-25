@@ -44,8 +44,9 @@ The `results.json` file should be structured as followed:
 
 The version of the spec that this file adheres to:
 
-- `1`: The more basic specification for tracks that don't have "proper" test-runners. (To be documented).
-- `2`: The current specification, specified in this document.
+- `1`: For tracks which test runner cannot provide information on individual tests.
+- `2`: For tracks which test runner can output individual test information. Minimal required version for tracks with Concept Exercises.
+- `3`: For tracks which test runner can link individual tests to a task.
 
 #### Status
 
