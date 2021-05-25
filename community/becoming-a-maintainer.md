@@ -29,7 +29,7 @@ It is essential that Maintainers manifest Exercism's values of empathy and kindn
 
 ## Powers
 
-The primary way that Maintainers are able to their enact their responsibilities is by having the write access to repositories. 
+The primary way that Maintainers are able to enact their responsibilities is by having the write access to repositories. 
 Through this Maintainers control what code goes into their repositories.
 
 ## Rewards
