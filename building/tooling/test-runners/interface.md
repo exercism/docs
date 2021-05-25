@@ -158,6 +158,55 @@ The per-test `output` key should be used to store and output anything that a use
 - You may either capture content that is output through normal means (e.g. `puts` in Ruby, `print` in Python or `Debug.WriteLine` in C#), or you may provide a method that the user may use (e.g. the Ruby Test Runner provides a user with a globally available `debug` method that they can use, which has the same characteristics as the standard `puts` method).
 - The output **must** be limited to 500 chars. Either truncating with a message of "Output was truncated. Please limit to 500 chars" or returning an error in this situation are acceptible.
 
+#### Task ID
+
+> key: `task_id`, type: `number`
+
+> version: 3
+
+Link a test to a specific task via the task's ID, which is the number used at the start of the task heading.
+
+At the moment, only Concept Exercises have well-defined tasks that you can link tests to, but this might change in the future.
+
+For example, consider the following `instructions.md` file:
+
+````
+# Instructions
+
+You're going to write some code to help Lucian cook an exquisite lasagna from his favorite cook book.
+
+## 1. Define the expected oven time in minutes
+
+...
+
+## 2. Calculate the remaining oven time in minutes
+
+...
+````
+
+These instructions defined two tasks:
+
+1. Define the expected oven time in minutes
+2. Calculate the remaining oven time in minutes
+
+The `results.json` file could then have an entry like this:
+
+```json
+{
+  "name": "Expected oven time in minutes",
+  "status": "pass",
+  "task_id": 1,
+  "test_code": "Assert.Equal(40, Lasagna.ExpectedMinutesInOven());"
+}
+```
+
+This test is now linked to the first task: "Define the expected oven time in minutes". Note that the name does _not_ have to match the task's description.
+
+There are various ways tracks could implement this:
+
+- Add metadata to the tests within the test file (e.g. using attributes/annotations/comments) and have the test runner read this metadata when running the tests.
+- Store the test name/task ID mapping in a separate file (like the exercise's `.meta/config.json` file) and merge this information into the generated `results.json` file.
+
 ### UI/UX concerns
 
 #### On test failure
