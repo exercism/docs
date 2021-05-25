@@ -15,24 +15,7 @@ All interactions with the Exercism website are handled automatically and are not
 
 ## Output format
 
-The `results.json` file should be structured as followed:
-
-```json
-{
-  "version": 2,
-  "status": "fail",
-  "message": null,
-  "tests": [
-    {
-      "name": "Test that the thing works",
-      "status": "fail",
-      "message": "Expected 42 but got 123123",
-      "output": "Debugging information output by the user",
-      "test_code": "assert_equal 42, answerToTheUltimateQuestion()"
-    }
-  ]
-}
-```
+The following fields are supported in `results.json` files:
 
 ### Top level
 
@@ -207,6 +190,59 @@ There are various ways tracks could implement this:
 
 - Add metadata to the tests within the test file (e.g. using attributes/annotations/comments) and have the test runner read this metadata when running the tests.
 - Store the test name/task ID mapping in a separate file (like the exercise's `.meta/config.json` file) and merge this information into the generated `results.json` file.
+
+### Examples
+
+These are example of what a valid `results.json` file can look like for the different versions:
+
+#### v1 example
+
+```json
+{
+  "version": 1,
+  "status": "fail",
+  "message": "Failed: test_answer\nExpected: 42, actual: 3"
+}
+```
+
+#### v2 example
+
+```json
+{
+  "version": 2,
+  "status": "fail",
+  "message": null,
+  "tests": [
+    {
+      "name": "Test that the thing works",
+      "status": "fail",
+      "message": "Expected 42 but got 123123",
+      "output": "Debugging information output by the user",
+      "test_code": "assert_equal 42, answerToTheUltimateQuestion()"
+    }
+  ]
+}
+```
+
+#### v3 example
+
+```json
+{
+  "version": 3,
+  "status": "fail",
+  "message": null,
+  "tests": [
+    {
+      "name": "Test that the thing works",
+      "status": "fail",
+      "message": "Expected 42 but got 123123",
+      "output": "Debugging information output by the user",
+      "test_code": "assert_equal 42, answerToTheUltimateQuestion()",
+      "task_id": 1
+    }
+  ]
+}
+```
 
 ### UI/UX concerns
 
