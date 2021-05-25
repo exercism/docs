@@ -38,7 +38,7 @@ The `results.json` file should be structured as followed:
 
 #### Version
 
-> key: `version`
+> key: `version`, type: `number`
 
 > version: 1, 2, 3
 
@@ -49,7 +49,7 @@ The version of the spec that this file adheres to:
 
 #### Status
 
-> key: `status`
+> key: `status`, type: `string`
 
 > version: 1, 2, 3
 
@@ -61,7 +61,7 @@ The following overall statuses are valid:
 
 #### Message
 
-> key: `message`
+> key: `message`, type: `string`
 
 > version: 1, 2, 3
 
@@ -71,7 +71,7 @@ When the status is not `error`, either set the value to `null` or omit the key e
 
 #### Tests
 
-> key: `tests`
+> key: `tests`, type: `array`
 
 > version: 2, 3
 
@@ -86,7 +86,7 @@ The rationale for this is that only the first failure is shown to students and t
 
 #### Name
 
-> key: `name`
+> key: `name`, type: `string`
 
 > version: 2, 3
 
@@ -94,7 +94,7 @@ This is the name of the test in a human-readable format.
 
 #### Test code
 
-> key: `test_code`
+> key: `test_code`, type: `string`
 
 > version: 2, 3
 
@@ -127,7 +127,7 @@ assert_equal 'Newspaper, Rice', cart.items_list"
 
 #### Status
 
-> key: `status`
+> key: `status`, type: `string`
 
 > version: 2, 3
 
@@ -139,7 +139,7 @@ The following per-test statuses are valid:
 
 #### Message
 
-> key: `message`
+> key: `message`, type: `string`
 
 > version: 2, 3
 
@@ -147,7 +147,7 @@ The per-test `message` key is used to return the results of a failed test. It sh
 
 #### Output
 
-> key: `output`
+> key: `output`, type: `string`
 
 > version: 2, 3
 
