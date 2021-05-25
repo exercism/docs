@@ -45,7 +45,7 @@ The following overall statuses are valid:
 
 #### Message
 
-> key: `message`, type: `string`, presence: required if `status` is `error`
+> key: `message`, type: `string`, presence: required if `status` = `error`, or when `status` = `fail` and `version` = `1`
 
 > version: 1, 2, 3
 
