@@ -38,7 +38,7 @@ The `results.json` file should be structured as followed:
 
 #### Version
 
-> key: `version`, type: `number`
+> key: `version`, type: `number`, presence: required
 
 > version: 1, 2, 3
 
@@ -49,7 +49,7 @@ The version of the spec that this file adheres to:
 
 #### Status
 
-> key: `status`, type: `string`
+> key: `status`, type: `string`, presence: required
 
 > version: 1, 2, 3
 
@@ -61,7 +61,7 @@ The following overall statuses are valid:
 
 #### Message
 
-> key: `message`, type: `string`
+> key: `message`, type: `string`, presence: required if `status` is `error`
 
 > version: 1, 2, 3
 
@@ -71,7 +71,7 @@ When the status is not `error`, either set the value to `null` or omit the key e
 
 #### Tests
 
-> key: `tests`, type: `array`
+> key: `tests`, type: `array`, presence: required
 
 > version: 2, 3
 
@@ -86,7 +86,7 @@ The rationale for this is that only the first failure is shown to students and t
 
 #### Name
 
-> key: `name`, type: `string`
+> key: `name`, type: `string`, presence: required
 
 > version: 2, 3
 
@@ -94,7 +94,7 @@ This is the name of the test in a human-readable format.
 
 #### Test code
 
-> key: `test_code`, type: `string`
+> key: `test_code`, type: `string`, presence: required if exercise is Concept Exercise
 
 > version: 2, 3
 
@@ -127,7 +127,7 @@ assert_equal 'Newspaper, Rice', cart.items_list"
 
 #### Status
 
-> key: `status`, type: `string`
+> key: `status`, type: `string`, presence: required
 
 > version: 2, 3
 
@@ -139,7 +139,7 @@ The following per-test statuses are valid:
 
 #### Message
 
-> key: `message`, type: `string`
+> key: `message`, type: `string`, presence: optional
 
 > version: 2, 3
 
@@ -147,7 +147,7 @@ The per-test `message` key is used to return the results of a failed test. It sh
 
 #### Output
 
-> key: `output`, type: `string`
+> key: `output`, type: `string`, presence: optional
 
 > version: 2, 3
 
@@ -160,11 +160,11 @@ The per-test `output` key should be used to store and output anything that a use
 
 #### Task ID
 
-> key: `task_id`, type: `number`
+> key: `task_id`, type: `number`, presence: optional
 
 > version: 3
 
-Link a test to a specific task via the task's ID, which is the number used at the start of the task heading.
+Link a test to a specific task via the task's ID, which is the number used at the start of the task heading. Only link a test to a task if it can be linked to precisely _one_ test.
 
 At the moment, only Concept Exercises have well-defined tasks that you can link tests to, but this might change in the future.
 
