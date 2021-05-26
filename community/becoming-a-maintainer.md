@@ -59,6 +59,7 @@ We may also invite you to become a Maintainer if we notice you contributing to t
 Every six months we check to see if our Maintainers are still active.
 In those checks, anyone who has built 100 Reputation from building/authoring/maintaining track in the previous 6 months is invited to continue being a maintainer.
 In general those who have done little or nothing during that window, will be removed as Maintainers.
+This is a guiding principle rather than an absolute rule, and we take into consideration a person's personal circumstances and the state of Track before confirming these decisions.
 
 ### Senior Track Maintainers
 
