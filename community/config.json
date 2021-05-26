@@ -7,25 +7,25 @@
     "blurb": "Learn how Exercism's community works"
   },
   {
-    "uuid": "3487dacd-f6ca-4784-b93f-c4a5d023f051",
-    "slug": "administrators",
-    "path": "community/administrators.md",
-    "title": "Exercism Administrators",
-    "blurb": "Learn about Exercism's Administrators"
+    "uuid": "889781a0-fc35-4faa-a093-c25e10b5cecf",
+    "slug": "contributors",
+    "path": "community/contributors.md",
+    "title": "Contributors",
+    "blurb": "Learn about Exercism's Contributors"
   },
   {
     "uuid": "a19ea256-fc56-4d2e-9932-e1df7cc77b62",
     "slug": "maintainers",
     "path": "community/maintainers.md",
-    "title": "Exercism Maintainers",
+    "title": "Maintainers",
     "blurb": "Learn about Exercism's Maintainers"
   },
   {
-    "uuid": "889781a0-fc35-4faa-a093-c25e10b5cecf",
-    "slug": "contributors",
-    "path": "community/contributors.md",
-    "title": "Exercism Contributors",
-    "blurb": "Learn about Exercism's Contributors"
+    "uuid": "3487dacd-f6ca-4784-b93f-c4a5d023f051",
+    "slug": "administrators",
+    "path": "community/administrators.md",
+    "title": "Administrators",
+    "blurb": "Learn about Exercism's Administrators"
   },
   {
     "uuid": "7e11a8f5-e6f8-49f1-ab0c-81427fa12c5c",
