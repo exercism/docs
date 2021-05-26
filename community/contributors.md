@@ -2,7 +2,7 @@
 
 Exercism's Contributors are the people that help build Exercism's language tracks and tooling.
 
-**Anyone can be an Exercism Contributor** — there are no restrictions or prerequisites.
+**Anyone can be an Exercism Contributor** — there are no prerequisites or going requirements, and we actively welcome people from all backgrounds.
 Over 4,000 people have helped build Exercism so far!
 
 There are lots of different ways to help with Exercism:
