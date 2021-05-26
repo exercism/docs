@@ -66,7 +66,7 @@ Once a Maintainer has shown themselves to take active leadership within a track,
 The general metrics we use to determine this are that a Maintainer having earned at least 1k Reputation from building/maintenance on a track, and at least 200 Reputation from building/maintaining track in the last 6 months, but we take each situation on a case-by-case basis.
 
 Senior Maintainers take on added responsibility within a track, mentoring new Maintainers, and taking a stronger leadership position within a Track.
-In decisions where there are different approaches, the opinions of Senior Maintainers hold more sway in the eyes of any arbitration by the Admin Team.
+In decisions where there are different opinions that require arbitration by the Admin Team, the opinions of Senior Maintainers will by default hold more sway.
 
 Senior Maintainers are designated on the track with a "Senior Maintainer" badge.
 
