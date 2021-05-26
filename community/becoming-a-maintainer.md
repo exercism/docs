@@ -25,7 +25,7 @@ Maintainers are also responsibile for interacting with our contributor community
 They review PRs from the community, acting as gatekeepers, shepherds, and cheerleaders for Exercism.
 They are responsible for keeping documentation and contribution guidelines up to date, and ensure that there are relevant open issues for potential contributors to action.
 
-It is essential that Maintainers manifest Exercism's values of empathy and kindness, while maintaining high standards for the Track and the platform.
+Maintainers should both embody Exercism's values of empathy and kindness, and maintain the high standards we want to build into our educational platform.
 
 ## Powers
 
