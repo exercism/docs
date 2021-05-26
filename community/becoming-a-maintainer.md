@@ -67,7 +67,7 @@ In decisions where there are different approaches, the opinions of Senior Mainta
 
 Senior Maintainers are designated on the track with a "Senior Maintainer" badge.
 
-# Reviewer Maintainers
+### Reviewer Maintainers
 
 The final category of Maintainers are our Reviewer Maintainers — maintainers who work across multiple tracks, reviewing and merging PRs, but do not take proactive or leadership positions on a Track. 
 Reviewer Maintainers hare highly trusted members of the Exercism team who have been part of Exercism for at least a year and been Maintainers of at least one track.
@@ -75,3 +75,4 @@ They are invited to become Reviewer Maintainers by Exercism Admins.
 Membership is reviewed on a six-monthly basis without any formal requirements.
 
 For Tracks that have fewer than two maintainers, the Reviewers team is automatically added to the Track repository, where they are given write access.
+This ensures that review requirements can always be met.
