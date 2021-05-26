@@ -3,10 +3,10 @@
 ## Introduction
 
 Our Maintainers are the people within Exercism that manage the different parts of our ecosystem. 
-We aim to have at least active two maintainers for each programming language track, and at least one active maintainer for all the parts of the platform.
+We aim to have at least active two maintainers for each Track, and at least one active maintainer for all the parts of the platform.
 
-We have a formalised process for becoming and staying a maintainer, to make it achievable and fair for anyone.
-**You can be become a maintainer!**
+We have a formalised process for becoming and staying a maintainer, to make it achievable and fair for everyone.
+**You can become a maintainer!**
 Read on to understand the responsibilities and the process.
 
 _Note: the sections below generally discuss Track Maintainers. 
@@ -18,27 +18,27 @@ Maintainers are responsible for ensuring that a Track works well within Exercism
 That specifically means that maintainers:
 - **Set technical direction for a track:** Choosing the right language versions, tooling, etc.
 - **Manage the syllabus of a track:** Designing, choosing and defining the right Concepts and Exercises for a Track, and ensuring they are linked and structured appropriately.
-- **Ensure a traack track work well:** Ensuring the Track is up to date, that its test-runner is fast, etc.
-- **Ensure the track conforms to Exercism's standard:** Exercism has specifications and standards for each language Track to ensure a degree of consistency within the platform. While maintainers have free reign over much of the Track, all Tracks must conform to Exercism's standards.
+- **Ensure a track works well:** Ensuring the Track is up to date, that its test-runner is fast, etc.
+- **Ensure the track conforms to Exercism's standards:** Exercism has specifications and standards for each language Track to ensure a degree of consistency within the platform. While maintainers have free reign over much of the Track, all Tracks must conform to Exercism's standards.
 
 Maintainers are also responsibile for interacting with our contributor community.
 They review PRs from community, acting as gatekeepers, shepherds, and cheerleaders for our community.
-They are responsible for keeping documentation and contribution guidelines up to date, and ensuring that there are relevant open issues for potential contributors to action.
+They are responsible for keeping documentation and contribution guidelines up to date, and ensure that there are relevant open issues for potential contributors to action.
 
 It is essential that Maintainers manifest Exercism's values of empathy and kindness, while maintaining high standards for the Track and the platform.
 
 ## Powers
 
-The primary way that Maintainers are able to enact their responsibilities is by having the write access to repositories. 
+The primary way that Maintainers are able to enact their responsibilities is by having write access to repositories. 
 Through this Maintainers control what code goes into their repositories.
 
 ## Rewards
 
 The main incentives for being an Exercism Maintainer are intrinsic: working on a meaningful project; working with other smart, kind people; developing both technical and soft skills; having a meaningful out-of-work entry on your résumé.
 
-We also provide some extra benefits in:
+We also provide some extra benefits:
 - A "Maintainer" badge on profiles and around the website.
-- Blog posts and interviews with maintainers.
+- Blog posts and interviews with Maintainers.
 - Exclusive Maintainer swag
 
 ## Maintainer requirements 
