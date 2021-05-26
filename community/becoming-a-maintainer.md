@@ -62,7 +62,8 @@ In general those who have done little or nothing during that window, will be rem
 
 ### Senior Track Maintainers
 
-Once a Maintainer has shown themselves to take active leadership within a track, and been a Maintainer on that Track for at least 6 months, we may designate them a Senior Maintainer. The general metrics we use are a Maintainer having earned >=1k rep from building/maintenance on a track, and earned > 200 rep from building/maintaining track in the last 6 months.
+Once a Maintainer has shown themselves to take active leadership within a track, and been a Maintainer on that Track for at least 6 months, we may designate them a Senior Maintainer. 
+The general metrics we use to determine this are that a Maintainer having earned at least 1k Reputation from building/maintenance on a track, and at least 200 Reputation from building/maintaining track in the last 6 months, but we take each situation on a case-by-case basis.
 
 Senior Maintainers take on added responsibility within a track, mentoring new Maintainers, and taking a stronger leadership position within a Track.
 In decisions where there are different approaches, the opinions of Senior Maintainers hold more sway in the eyes of any arbitration by the Admin Team.
