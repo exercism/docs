@@ -52,6 +52,7 @@ On tracks that are actively maintained, you will be invited to become a Maintain
 
 On tracks without maintainers, we have less rigorous restrictions.
 After some small merged contributions, you can open an issue on the Track asking to become a Maintainer.
+We may also invite you to become a Maintainer if we notice you contributing to these lesser-maintained tracks regularly.
 
 ### Staying a maintainer
 
