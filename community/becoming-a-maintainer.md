@@ -1,3 +1,0 @@
-# Becoming a maintainer
-
-TODO
