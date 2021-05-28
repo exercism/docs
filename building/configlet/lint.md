@@ -68,8 +68,6 @@ The `config.json` file should have the following checks:
 - The `"online_editor.indent_style"` value must be the string `space` or `tab`
 - The `"online_editor.indent_size"` key is required
 - The `"online_editor.indent_size"` value must be an integer >= 0 and <= 8
-- The `"online_editor.ace_editor_language"` key is required
-- The `"online_editor.ace_editor_language"` value must be a non-blank string¹
 - The `"online_editor.highlightjs_language"` key is required
 - The `"online_editor.highlightjs_language"` value must be a non-blank string¹
 - The `"test_runner.average_run_time"` key is required if `status.test_runner` is equal to `true`
