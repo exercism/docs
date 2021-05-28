@@ -81,7 +81,9 @@ The top-level `exercises` key is an object with three possible keys:
 
 ### Concept exercises
 
-Each concept exercise is an entry in the `exercises.concept` array. The following fields make up a concept exercise:
+Each concept exercise is an entry in the `exercises.concept` array.
+Exercises are ordered on the website in the same order they are listed in this file, and should match the typical order in which they should be solved.
+The following fields make up a concept exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255. 
