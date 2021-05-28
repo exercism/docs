@@ -39,7 +39,7 @@ Through this Maintainers control what code goes into their repositories.
 ## Rewards
 
 The main incentives for being an Exercism Maintainer tend to be intrinsic: e.g. the fun of building something meaningful and useful with other likeminded people,
-There are also career benefits such as improving your personal network, developing both technical and soft skills. and having a meaningful out-of-work entry on your résumé.
+There are also career benefits such as improving your personal network, developing both technical and soft skills, and having a meaningful out-of-work entry on your résumé.
 
 We also provide some extra benefits:
 
