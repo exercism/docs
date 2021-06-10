@@ -48,10 +48,15 @@ For each merged pull request that was opened by the user, `12` reputation is awa
 - If a pull request is closed _without_ merging, no reputation is awarded.
 - In exceptional circumstances (either tiny PRs changing a few lines, or large PRs that will have taken a greater than normal of effort) is possible to award more (or less) reputation for a merged pull request by adding one of the following labels to the pull request:
 
-  - The `reputation/contributed_code/major` label will bump the awarded reputation to `30`
-  - The `reputation/contributed_code/minor` label will bump the awarded reputation to `5`
+  | Label            | Reputation |
+  | ---------------- | ---------- |
+  | `x:size/tiny`    | 3          |
+  | `x:size/small`   | 5          |
+  | `x:size/medium`  | 12         |
+  | `x:size/large`   | 30         |
+  | `x:size/massive` | 100        |
 
-  If both labels are specified, the `reputation/contributed_code/major` label is used to determine the awarded reputation.
+  If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
 
 ### 5. Reviewing pull requests
 
@@ -63,10 +68,15 @@ For each merged or closed pull request reviewed by the user, `5` reputation is a
 
 - The reputation awarded for a pull request review changes if one of the following labels are added to the pull request:
 
-  - The `reputation/contributed_code/major` label will bump the awarded reputation to `10`
-  - The `reputation/contributed_code/minor` label will bump the awarded reputation to `2`
+  | Label            | Reputation |
+  | ---------------- | ---------- |
+  | `x:size/tiny`    | 1          |
+  | `x:size/small`   | 2          |
+  | `x:size/medium`  | 5          |
+  | `x:size/large`   | 10         |
+  | `x:size/massive` | 20         |
 
-  If both labels are specified, the `reputation/contributed_code/major` label is used to determine the awarded reputation.
+  If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
 
 ### 6. Merging pull requests
 
