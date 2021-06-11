@@ -7,6 +7,7 @@ They aim to present a picture of why things on Exercism work the way they do.
 
 - [Reputation](./reputation.md)
 - [Credits](./credits.md)
+- [Tasks](./tasks.md)
 
 ## Language Tracks
 
