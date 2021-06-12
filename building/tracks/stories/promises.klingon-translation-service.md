@@ -5,7 +5,7 @@
 In this exercise you'll be providing a `TranslationService` where paid members
 have some quality assurance.
 
-You have found a magical translation API that is able to fulfill any
+You have found a magical translation API that is able to fulfil any
 translation _request_ in a reasonable amount of time, and you
 want to capitalize on this.
 
@@ -33,7 +33,7 @@ The `request` API is unstable, which means that sometimes the API will call the
 
 Because of some previous users being lazy when programming, always requesting a
 translation, without even checking if the text was already translated, the API
-returns an error if the text has already been translated ánd blocks all access
+returns an error if the text has already been translated and blocks all access
 completely, forever.
 
 ### Tasks

@@ -7,7 +7,7 @@ Tooling is (generally) written in the language of the specific track, and is bui
 
 All tooling is deployed using the same Docker workflow.
 
-There are currently three pices of tooling:
+There are currently three pieces of tooling:
 
 - **[Test Runners](./test-runners)**
 - **[Representers](./representers)**

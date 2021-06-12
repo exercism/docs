@@ -52,7 +52,7 @@ It can be very helpful to make the actions that should run, available locally as
 
 > "But the command is very short, e.g. `eslint . --ext ts --ext tsx`".
 >
-> When this command needs to be updated, it now needs to update in all the places in the documentation, the workflow files, ánd in the _minds of the maintainers_. Extracting this to a script resolves all that. Reading a workflow file can also be **very** daunting.
+> When this command needs to be updated, it now needs to update in all the places in the documentation, the workflow files, and in the _minds of the maintainers_. Extracting this to a script resolves all that. Reading a workflow file can also be **very** daunting.
 
 ### Checks on PRs where exercises change
 

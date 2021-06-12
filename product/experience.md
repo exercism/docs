@@ -18,7 +18,7 @@ All exercises award points, but different exercises may award different amounts 
 
 - Whether the exercise is Concept or Practice
 - The difficulty of the exercise
-- Whether the same exercise has been completed in an alternative language (ie, you get more points the first time you complete `Bob` than the 5th time)
+- Whether the same exercise has been completed in an alternative language (i.e., you get more points the first time you complete `Bob` than the 5th time)
 - The position of the exercise in the track.
 
 An algorithm considering these factors is yet to be decided.
@@ -38,7 +38,7 @@ At certain points during the track, extra experience will be awarded:
 
 ## Levels
 
-Much like any modern roleplaying game, experience points are accrued and represented as a level. Levels go from 1-99, progressively getting hard to achieve.
+Much like any modern role-playing game, experience points are accrued and represented as a level. Levels go from 1-99, progressively getting hard to achieve.
 
 ### Level Tags
 

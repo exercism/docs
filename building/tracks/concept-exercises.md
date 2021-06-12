@@ -126,7 +126,7 @@ my_first_variable = SomeComplexObject.new
 
 The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](./concepts#fileintroductionmd), which is not shown outside the context of an exercise.
 
-If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows refering to concept introductions through placeholders: `%{concept:<concept-slug>}`.
+If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows referring to concept introductions through placeholders: `%{concept:<concept-slug>}`.
 
 [configlet](./configlet/generating.md) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction.md` contents.
 
@@ -166,7 +166,7 @@ We place high value on making Exercism's content safe for everyone and so often 
 
 - Try to make sure the story is welcoming and can be understood by everyone. If the story contains in-jokes or regional slang, try to think of alternative phrases.
 - Try to write examples that are inclusive to everyone. For example, consider using names from other cultures and mixed genders.
-- Ask yourself whether you know anyone personally who would take offense by the story. If that's the case, consider changing it to avoid it.
+- Ask yourself whether you know anyone personally who would take offence by the story. If that's the case, consider changing it to avoid it.
 
 #### Example
 
@@ -476,7 +476,7 @@ Each exercise also has a _slug_, which is normalized version of the exercise nam
 
 1. Use lowercase.
 1. Use [kebab-case][kebab-case].
-1. Use latin alphanumerical characters and dashes (Regexp: `[a-z0-9-]+`)
+1. Use Latin alphanumerical characters and dashes (Regexp: `[a-z0-9-]+`)
 1. Prefer written digits over numeric ones, unless there is a specific reason to prefer the digit (e.g. `two-fer` over `2-fer`)
 
 Good examples of slugs:

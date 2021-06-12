@@ -73,7 +73,7 @@ The following `type`s are valid:
 Comments without a type field default to `informative `.
 
 Currently in the website, we soft-block on essential comments, encourage students to complete actionable comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
-However, in the future we may choose to add emojis or indicators to other types, or group them seperately.
+However, in the future we may choose to add emojis or indicators to other types, or group them separately.
 
 ## Debugging
 
@@ -139,9 +139,9 @@ In this document, **de facto** is defined as follows:
   position by public acceptance or market forces. Unofficial customs that are
   widely accepted.
 
-In other words, if a nearly all developers (non-hobyists) who write code in a
+In other words, if a nearly all developers (non-hobbyists) who write code in a
 certain language have established certain rules, these rules are a **de facto
-standard** and become idiomatic use. Example: **Ruby** uses 2 space identation.
+standard** and become idiomatic use. Example: **Ruby** uses 2 space indentation.
 
 Some rules are language features, even if they are not documented well. These
 language features are part of "idiomatic rules" and not stylistic choices.
@@ -197,7 +197,7 @@ to the official rules.
 > - :speech*balloon: if it's a \_stylistic* preference, **and** there is _one
 >   clear standard_, comment on it. These rules enforce idiomatic code.
 > - :question: If it's a _stylistic_ preference, **and** there is no clear
->   standard, but most to all non-hobyist have adopted the same style, this
+>   standard, but most to all non-hobbyist have adopted the same style, this
 >   might be idiomatic. Comment at your discretion.
 
 #### Examples

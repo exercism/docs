@@ -18,7 +18,7 @@ It may also have prerequisites on Concepts, which means it will not be unlocked 
 
 Concept Exercises should not become inherently more difficult as the track progresses.
 A seasoned developer in Language X should be able to work through all the Concept Exercises on that track spending no more than 5-10 minutes solving each one.
-As each exercise should be focussed on getting someone to use a concept for the first time, and because the seasoned developer already understands that concept in Language X, the exercise should feel relatively trivial for them.
+As each exercise should be focused on getting someone to use a concept for the first time, and because the seasoned developer already understands that concept in Language X, the exercise should feel relatively trivial for them.
 Later exercises may feel more difficult to a developer unfamiliar with Language X, but only because the later exercise is teaching a concept which in itself is more complicated (for example, most people would agree Recursion is a more complex topic to learn for the first time, than a Loop is to remap from one language to another).
 
 ## Feedback

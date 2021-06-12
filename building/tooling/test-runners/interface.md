@@ -138,7 +138,7 @@ The per-test `output` key should be used to store and output anything that a use
 - It should be attached to all test results that produce user output.
 - Only content outputted by a user manually should show - not automatic output by the test-runner.
 - You may either capture content that is output through normal means (e.g. `puts` in Ruby, `print` in Python or `Debug.WriteLine` in C#), or you may provide a method that the user may use (e.g. the Ruby Test Runner provides a user with a globally available `debug` method that they can use, which has the same characteristics as the standard `puts` method).
-- The output **must** be limited to 500 chars. Either truncating with a message of "Output was truncated. Please limit to 500 chars" or returning an error in this situation are acceptible.
+- The output **must** be limited to 500 chars. Either truncating with a message of "Output was truncated. Please limit to 500 chars" or returning an error in this situation are acceptable.
 
 ### UI/UX concerns
 
@@ -168,6 +168,6 @@ Test Code:
 All roads lead to Rome and there is no prescribed pattern to arrive at this.
 There are several approaches taken so far:
 
-- Auxillary JSON files compiled manually, merged with test results during the test run-time.
+- Auxiliary JSON files compiled manually, merged with test results during the test run-time.
 - Automated static analysis of the test suite, merged with test results during the test run-time.
   - This may be accomplished by AST analysis or text-parsing
