@@ -25,7 +25,7 @@ A notification will be sent for old solutions with a matching representation.
 Each language has it's own representer, written in that language.
 The website acts as the orchestrator between the representer and students' submissions.
 
-Each representer lives in the Exercism GitHub organsation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
+Each representer lives in the Exercism GitHub organisation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
 You can explore the different representers [here](https://github.com/exercism?q=-representer).
 
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.

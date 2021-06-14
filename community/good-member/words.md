@@ -36,7 +36,7 @@ It's easy to not know something will cause offence and accidentally say the wron
 
 The important thing is not the mistake, it is the learning and the change that comes from it.
 So if someone says something that you feel is offensive, and you feel comfortable doing so, feel free to tell them.
-And if someone tells you you've said something that is offensive to them, believe them, edit your message to remove or change the relevant text, and embrace the experience of learning more about that other culture, and extending your communication skills to not cause offense in future.
+And if someone tells you you've said something that is offensive to them, believe them, edit your message to remove or change the relevant text, and embrace the experience of learning more about that other culture, and extending your communication skills to not cause offence in future.
 
 The beauty of Exercism is about making mistakes and learning from them.
 Exercism is brilliant at helping with that through mentoring, but it's also brilliant at introducing you to new ideas and information through our huge multinational community.

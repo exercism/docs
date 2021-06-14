@@ -72,7 +72,7 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 ## Alternative version
 
-An alternative version of the story uses **you** (the student) as actor, and focusses on re-arranging the deck only.
+An alternative version of the story uses **you** (the student) as actor, and focuses on re-arranging the deck only.
 
 ### Story
 

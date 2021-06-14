@@ -29,7 +29,7 @@ Many of those ideas are new, innovative, exciting, and unblock our thinking.
 So if you have an idea or a suggestion, we welcome it!
 
 However, more often people post ideas that have been discussed many times before.
-Responding to those ideas, and readdressing or rejustifying our decisions can be extremely draining on our team.
+Responding to those ideas, and readdressing or re-justifying our decisions can be extremely draining on our team.
 This article aims to help protect that time and energy.
 
 Exercism has been designed, engineered and built by thousands of very talented individuals.
@@ -85,5 +85,5 @@ _Note: We're actually solving this by running the tests server-side - a large an
 Three things:
 
 1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read. The quote "Do not remove a fence until you know why it was put up in the first place" is from this post.
-2. G.K. Chesteron's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
+2. G.K. Chesterton's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
 3. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!
