@@ -27,12 +27,12 @@ As such, there is no judgement about whether the word "guys" should mean one thi
 
 ### You don't know what you don't know
 
-Just as it is important to say the right things, it is equally important to understand that people who cause offence might have had no intention to do so.
+Just as it is important to say the right things, it is equally important to understand that people who cause offense might have had no intention to do so.
 Cultural differences mean that people often say things that would be clear to them and their friends to mean one thing, but mean something entirely different to you.
 Language barriers mean that non-native speakers may use words that don't translate as well as they hope.
 In those situations, **give the person the benefit of the doubt.**
 It is always best to presume that someone is acting with the intentions of being clear and kind, and that they are unaware of how their words will affect others.
-It's easy to not know something will cause offence and accidentally say the wrong thing.
+It's easy to not know something will cause offense and accidentally say the wrong thing.
 
 The important thing is not the mistake, it is the learning and the change that comes from it.
 So if someone says something that you feel is offensive, and you feel comfortable doing so, feel free to tell them.

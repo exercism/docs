@@ -18,7 +18,7 @@ The list you're given contains the following information for each talk:
 - its title,
 - the speaker's name,
 - their pronouns (optional),
-- their organisation (optional),
+- their organization (optional),
 - the start time of the talk,
 - the start of the Q&A session (optional),
 - and the end time of the talk.
@@ -91,7 +91,7 @@ The corresponding cards are:
 
 A few things to note here:
 
-- If no organisation is given for a speaker, leave it out in the moderation card.
+- If no organization is given for a speaker, leave it out in the moderation card.
 - If no time for the Q&A session is given, the speaker opted against answering questions.
 - If the speaker does not specify pronouns, use the speaker's first name instead.
   Note that it is not always appropriate to abbreviate someone's name like this, e.g. many Chinese names are better abbreviated by keeping the last name.
@@ -104,7 +104,7 @@ A few things to note here:
 It's easiest to use a regex builder tool like [regex101](https://regex101.com/) or [RegExr](https://regexr.com/) to do this.
 
 !!! warning
-Make sure to set the regex engine/flavour to $CHANGE_ME.
+Make sure to set the regex engine/flavor to $CHANGE_ME.
 
 If you're new to regex or struggle with creating an expression that captures all required information at once, you can also define several smaller expressions that capture parts of the information-
 

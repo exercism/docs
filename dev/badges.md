@@ -104,7 +104,7 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - Cheering Section
 - Completed 10 exercises in 1 week (Could be weighted to difficulty level of exercises)
 - On the fast track
-- Mentored first 1000 ("Like a Boss") (slightly menacing plastercine duck for 1000 mentorships?)
+- Mentored first 1000 ("Like a Boss") (slightly menacing Plasticine duck for 1000 mentorships?)
 - Obsession: Having mentored thrice the quantity of exercises in a week that exceeds the "average required"
 - Obsessed: Having mentored thrice the quantity of exercises as above for n weeks
 - Death by a thousand pecks: Getting more than 100 replies on a PR.

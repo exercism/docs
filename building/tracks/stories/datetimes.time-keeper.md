@@ -7,8 +7,8 @@ This exercise is mostly about time durations but could be used for a general tim
 Sarah is a time-keeper. She's actually the best there is. When asked by kids what a time-keeper does, she loves to show them
 a jar full of white sand. See, she says: "I'm keeping time safe!"
 
-Her actual job is not that romantic but still a very interesting and fullfilling job to her. She flies to sport events
-around the world with her bag full of timing equipement and measure the times of every athlete.
+Her actual job is not that romantic but still a very interesting and fulfilling job to her. She flies to sport events
+around the world with her bag full of timing equipment and measure the times of every athlete.
 
 In this exercise you will write some functions for the new timing software Sarah has asked you to create for her. There
 can't be any mistakes, or the next world record might not be valid if a bug is found in the software after! Are you ready

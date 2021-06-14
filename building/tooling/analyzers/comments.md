@@ -30,7 +30,7 @@ analyzer (those that can become output), are comments on the `main` branch, on
 the [`exercism/website-copy`][git-website-copy] repository.
 
 At the moment of writing, [this issue][issue-ci-comments] tracks the status of any
-generalisation of this CI, if any.
+generalization of this CI, if any.
 
 ## Wording
 

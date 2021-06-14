@@ -16,7 +16,7 @@ There are two Exercism-wide documentation files that apply to Concept- and Pract
 
 These are handled by Exercism directly and do not need to be touched by track-maintainers. 
 They are augmented by, and intertwined with, the track-specific files below, to provide contextual information to a student.
-For example, the `tests.md` is almagamated with the `cli.md` file to provide instructions to users using the CLI on how to get help, where as the `debug.md` is shown in the editor next to the instructions and introductions.
+For example, the `tests.md` is amalgamated with the `cli.md` file to provide instructions to users using the CLI on how to get help, where as the `debug.md` is shown in the editor next to the instructions and introductions.
 
 ## Track-specific files
 

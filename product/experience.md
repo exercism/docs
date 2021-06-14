@@ -18,7 +18,7 @@ All exercises award points, but different exercises may award different amounts 
 
 - Whether the exercise is Concept or Practice
 - The difficulty of the exercise
-- Whether the same exercise has been completed in an alternative language (ie, you get more points the first time you complete `Bob` than the 5th time)
+- Whether the same exercise has been completed in an alternative language (i.e., you get more points the first time you complete `Bob` than the 5th time)
 - The position of the exercise in the track.
 
 An algorithm considering these factors is yet to be decided.
@@ -55,4 +55,4 @@ Levels are also grouped into labels. For example:
 
 ## Future Considerations
 
-- Allocation of experience points based on how well you did on the exercise, such as how idiomatic the solution was, or other, more quantifiable and valuable indicators. We could explore looking at awarding those who may have submitted an initial messy iteration, and really took the time to evolve their solution into something better. Another idea would be to award more experience points to those who successfully complete analyser feedback.
+- Allocation of experience points based on how well you did on the exercise, such as how idiomatic the solution was, or other, more quantifiable and valuable indicators. We could explore looking at awarding those who may have submitted an initial messy iteration, and really took the time to evolve their solution into something better. Another idea would be to award more experience points to those who successfully complete analyzer feedback.

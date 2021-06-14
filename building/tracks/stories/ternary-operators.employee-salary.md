@@ -2,13 +2,13 @@
 
 ## Story
 
-In this exercise, you'll be implementing rules for calculating the total salary of a empyoyee in a month. The International Siderurgy Company (ISC) needs help to calculate the salary for the employees, given that different factors can alter the final wage value for each employee.
+In this exercise, you'll be implementing rules for calculating the total salary of a employee in a month. The International Siderurgy Company (ISC) needs help to calculate the salary for the employees, given that different factors can alter the final wage value for each employee.
 
 ## Tasks
 
 Is possible to implement the following tasks:
 
-- Add a bonus acording to the company time.
+- Add a bonus according to the company time.
 - Penalties for each day of work missed.
 - Give a bonus for each product sold.
 - Add a multiplier if a certain threshold of products sold is meet.

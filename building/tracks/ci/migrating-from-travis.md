@@ -58,7 +58,7 @@ bin/build.sh
 echo "No checks yet"
 ```
 
-Creating these as _separate_ binaries will allow for optimisation later. No need to in-line anything right now.
+Creating these as _separate_ binaries will allow for optimization later. No need to in-line anything right now.
 
 ## Fill in the templates
 
@@ -172,10 +172,10 @@ Here is the diff for [`workflows/ci.yml`][workflow-template-ci-yml].
 
 ## Now it should work
 
-This is enough to convert to GitHub Actions, with the possibility to optimise your scripts.
+This is enough to convert to GitHub Actions, with the possibility to optimize your scripts.
 
 1. From `build.sh`, remove steps that should run only once, and extract them to the `ci-check.sh` and `pre-check.sh` files (hint, you can create `lint.sh`, and call that from both "scripts")
-2. To `pr.sh` and `pr-check.sh`, add optimisations that use the input arguments to determine which files or exercises to check.
+2. To `pr.sh` and `pr-check.sh`, add optimizations that use the input arguments to determine which files or exercises to check.
 3. Add additional checks
 4. Add documentation how to run checks locally, and what each one tries to accomplish.
 

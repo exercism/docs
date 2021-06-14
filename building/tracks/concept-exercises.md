@@ -126,7 +126,7 @@ my_first_variable = SomeComplexObject.new
 
 The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](./concepts#fileintroductionmd), which is not shown outside the context of an exercise.
 
-If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows refering to concept introductions through placeholders: `%{concept:<concept-slug>}`.
+If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows referring to concept introductions through placeholders: `%{concept:<concept-slug>}`.
 
 [configlet](./configlet/generating.md) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction.md` contents.
 

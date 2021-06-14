@@ -14,9 +14,9 @@ entry, you'll need to work out the password of that day:
 1. The guard will recite a poem, one line at the time;
    - You will have to respond with the appropriate letter.
 2. The guard will tell you all the letters you've responded with at once;
-   - You need to format the letters as a capitalised word.
+   - You need to format the letters as a capitalized word.
 
-For example, one of their favourite writers is Michael Lockwood, who's written
+For example, one of their favorite writers is Michael Lockwood, who's written
 the following _acrostic_ poem, which means that the first letter of each
 sentence form a word:
 
@@ -43,7 +43,7 @@ convoluted.
    - You will have to respond with the appropriate letter.
 2. The guard will tell you all the letters you've responded with at once, _but
    there are sometimes spaces after each sentence_:
-   - You need to format the letters as a capitalised word
+   - You need to format the letters as a capitalized word
    - and ask nicely, by appending `, please`
 
 For example, the poem mentioned before is also _telestich_, which means that

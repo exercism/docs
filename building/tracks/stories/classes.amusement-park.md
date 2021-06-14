@@ -1,4 +1,4 @@
-# Amustment Park Attendee
+# Amusement Park Attendee
 
 ## Story
 

@@ -23,7 +23,7 @@ The recommended actions for checking the content of your repository has integrit
 2. check for stubs
 3. check for documentation (`v3` requires new files; this might move to `configlet`)
 4. lint the exercises using a "maintainers" configuration
-5. test the exercises using the example/examplar files (can include build step)
+5. test the exercises using the example/exemplar files (can include build step)
 
 There can also be track-specific actions. For example:
 
@@ -52,7 +52,7 @@ It can be very helpful to make the actions that should run, available locally as
 
 > "But the command is very short, e.g. `eslint . --ext ts --ext tsx`".
 >
-> When this command needs to be updated, it now needs to update in all the places in the documentation, the workflow files, ánd in the _minds of the maintainers_. Extracting this to a script resolves all that. Reading a workflow file can also be **very** daunting.
+> When this command needs to be updated, it now needs to update in all the places in the documentation, the workflow files, and in the _minds of the maintainers_. Extracting this to a script resolves all that. Reading a workflow file can also be **very** daunting.
 
 ### Checks on PRs where exercises change
 
@@ -90,7 +90,7 @@ For example:
 + uses: julia-actions/setup-julia@d26d1111976eae5f00db04f0515ab744ec9cd79e # 1.3.1
 ```
 
-If the tooling has lockfiles for dependency management, consider checking it into the repository and use a "frozen lockfile" inside the workflow files. For example: `npm ci`, `yarn install --frozen-lockfile` and `bundle install --frozen`. This ensures that the lockfile is up-to-date when changing dependencies and prevents malicious packages to come in.
+If the tooling has lockfile for dependency management, consider checking it into the repository and use a "frozen lockfile" inside the workflow files. For example: `npm ci`, `yarn install --frozen-lockfile` and `bundle install --frozen`. This ensures that the lockfile is up-to-date when changing dependencies and prevents malicious packages to come in.
 
 ## Templates
 

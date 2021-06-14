@@ -1,6 +1,6 @@
 # Administrators
 
-At Exercism, we aim to prioritise, in order of priority, the following:
+At Exercism, we aim to priorities, in order of priority, the following:
 
 - The mental wellbeing of our staff
 - The mental wellbeing of our maintainers and mentors

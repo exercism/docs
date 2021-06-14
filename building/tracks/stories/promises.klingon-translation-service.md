@@ -33,7 +33,7 @@ The `request` API is unstable, which means that sometimes the API will call the
 
 Because of some previous users being lazy when programming, always requesting a
 translation, without even checking if the text was already translated, the API
-returns an error if the text has already been translated ánd blocks all access
+returns an error if the text has already been translated and blocks all access
 completely, forever.
 
 ### Tasks

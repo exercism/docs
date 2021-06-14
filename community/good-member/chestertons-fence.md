@@ -68,7 +68,7 @@ Except now we're in a situation where it's marginally less likely that broken te
 "But people wouldn't do that generally" you may argue. True, for some languages where it takes 0.5s to run the tests.
 But for languages that take 20s to run the tests, having to wait an extra 20s to submit is incredibly frustrating for students, and so skipping the final tests would become common-place.
 
-Regardless of where this conversation ends up, it's clear that there's a lot more complexity involved here than it first seems. There are technical challenges to consider, workflow problems to think about, and the realisation that tracks differ widely enough something that is quick and easy for one is painful for another.
+Regardless of where this conversation ends up, it's clear that there's a lot more complexity involved here than it first seems. There are technical challenges to consider, workflow problems to think about, and the realization that tracks differ widely enough something that is quick and easy for one is painful for another.
 
 So rather than posing the suggestion of "why not run the tests before submission", let's ask a question: "Why do people post solutions that don't pass the tests?"
 And then things get interesting.
@@ -85,5 +85,5 @@ _Note: We're actually solving this by running the tests server-side - a large an
 Three things:
 
 1. [This article in Second Order Thinking](https://fs.blog/2020/03/chestertons-fence/) is a good read. The quote "Do not remove a fence until you know why it was put up in the first place" is from this post.
-2. G.K. Chesteron's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
+2. G.K. Chesterton's, _The Thing_ is available here [https://archive.org/details/G.K.ChestertonTheThing](https://archive.org/details/G.K.ChestertonTheThing).
 3. Your idea really might be new and great. Don't be scared or embarrassed to suggest it!

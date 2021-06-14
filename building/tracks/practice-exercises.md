@@ -1,6 +1,6 @@
 # Practice Exercises
 
-[Practice Exercises](../../product/practice-exercises.md) are exercises designed to allow students to solve an arbitary problem, with the aim of them making use of the concepts they have learnt so far.
+[Practice Exercises](../../product/practice-exercises.md) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
 
 ## Metadata
 
@@ -319,7 +319,7 @@ public static class Isogram
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
 - The tests file is shown to the student when doing in-browser coding and downloaded to the student's file system when using the CLI.
-- Exercism favours Practice Exercises being completed via Test Driven Development. To achieve this, all but the first test should be skipped by default. How this is done differs between languages.
+- Exercism favors Practice Exercises being completed via Test Driven Development. To achieve this, all but the first test should be skipped by default. How this is done differs between languages.
 - The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
 #### Example

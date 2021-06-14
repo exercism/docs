@@ -1,6 +1,6 @@
 # Reputation
 
-Reputation is the system that allows people to acquire "trust" within the Exericsm ecosystem.
+Reputation is the system that allows people to acquire "trust" within the Exercism ecosystem.
 
 Reputation is a measure of how much an individual has contributed to Exercism, both through contribution to the platform (e.g. through creation of software, exercises and docs) and contribution to the community (e.g. mentoring).
 
@@ -10,8 +10,8 @@ Reputation cannot be "spent" or "used". However, achieving certain Reputation th
 
 The purpose of the reputation system is to:
 
-1. Maximise growth-centric interactions between students and mentors
-2. Maximise the desire of mentors to want to contribute
+1. Maximize growth-centric interactions between students and mentors
+2. Maximize the desire of mentors to want to contribute
 
 ## Acquisition of Reputation
 
@@ -23,8 +23,8 @@ Reputation can be acquired in a variety of ways:
 4. Creating pull requests
 5. Reviewing pull requests
 6. Merging pull requests
-7. Writing analysers
-8. Updating analysers
+7. Writing analyzers
+8. Updating analyses
 9. Creating documentation
 10. Updating documentation
 

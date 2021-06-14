@@ -39,7 +39,7 @@ The `analysis.json` file should be structured as followed:
 
 ### `summary` (optional)
 
-The summary field is a text (not markdown) field that summarises the output.
+The summary field is a text (not markdown) field that summarizes the output.
 It might say something like "Your solution is nearly there - there's just two small changes you can make." or "The code works great, but there's a little bit of linting that needs doing.".
 This summary is rendered on the website above the comments.
 
@@ -58,7 +58,7 @@ The pointer-string to a file in `website-copy`.
 A JSON Object containing any params that should be interpolated during rendering.
 For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then set `params` to `{ "variable_name": "foo"}` in order to substitute `%{variable_name}` for the actual variable that the student used.
 
-When using parameterised files, ensure to escape all uses of `%` by placing anther `%` in front of it.
+When using parameterized files, ensure to escape all uses of `%` by placing anther `%` in front of it.
 e.g. `Try aim aim for 100%% of the tests passing`.
 
 #### `type` (optional)
@@ -73,7 +73,7 @@ The following `type`s are valid:
 Comments without a type field default to `informative `.
 
 Currently in the website, we soft-block on essential comments, encourage students to complete actionable comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
-However, in the future we may choose to add emojis or indicators to other types, or group them seperately.
+However, in the future we may choose to add emojis or indicators to other types, or group them separately.
 
 ## Debugging
 
@@ -107,7 +107,7 @@ more about the [goal of exercism here](https://github.com/exercism/docs/blob/mai
 
 In the following paragraphs, keywords such as **MUST**, **SHOULD**, **MAY**
 are to be interpreted as in [RFC2119](https://www.ietf.org/rfc/rfc2119.txt);
-given that we recognise the following four output states and their restrictions:
+given that we recognize the following four output states and their restrictions:
 
 - `approve`: **MUST** be an approvable solution, **MAY** be with comment.
 - `disapprove`: **MUST** be with comment
@@ -119,7 +119,7 @@ Per [RFC2119](https://www.ietf.org/rfc/rfc2119.txt), if **MUST** is used, it is
 a guarantee that the rule is always so, and does not need to be guarded for. For
 example, **MUST** be without comment means that the website could crash if an
 analyzer sends a comment anyway. **SHOULD** indicates any consumer of the output
-must still guard against unwanted behaviour.
+must still guard against unwanted behavior.
 
 ### Approvability
 
@@ -139,17 +139,17 @@ In this document, **de facto** is defined as follows:
   position by public acceptance or market forces. Unofficial customs that are
   widely accepted.
 
-In other words, if a nearly all developers (non-hobyists) who write code in a
+In other words, if a nearly all developers (non-hobbyists) who write code in a
 certain language have established certain rules, these rules are a **de facto
-standard** and become idiomatic use. Example: **Ruby** uses 2 space identation.
+standard** and become idiomatic use. Example: **Ruby** uses 2 space indentation.
 
 Some rules are language features, even if they are not documented well. These
 language features are part of "idiomatic rules" and not stylistic choices.
 Example: **Ruby**'s MRI treats variables named `_` differently.
 
 Finally there are rules that are pure preferences, even though they might be
-adopted by large bodies such as organisations and corporations. These rules
-are usually part of _competing_ standards. Exercism does not favour one over
+adopted by large bodies such as organizations and corporations. These rules
+are usually part of _competing_ standards. Exercism does not favor one over
 another. Example: **TypeScript** has a linter `tslint` (or `eslint` + plugin)
 which is maintained by a company that is not Microsoft. It competes with other
 linters such as `xo`. Most of the rules are not language features or idiomatic
@@ -197,21 +197,21 @@ to the official rules.
 > - :speech*balloon: if it's a \_stylistic* preference, **and** there is _one
 >   clear standard_, comment on it. These rules enforce idiomatic code.
 > - :question: If it's a _stylistic_ preference, **and** there is no clear
->   standard, but most to all non-hobyist have adopted the same style, this
+>   standard, but most to all non-hobbyist have adopted the same style, this
 >   might be idiomatic. Comment at your discretion.
 
 #### Examples
 
 - **Ruby** has a language feature where `_` is treated differently,
   - :-1: if a student uses `_` for a variable name, but then uses it.
-- **Ruby** recognises `constants` only if they start with a **C**apital Letter,
+- **Ruby** recognizes `constants` only if they start with a **C**apital Letter,
   - :-1: if a student uses `snake_case` for a `class` name
 - **Ruby** has _de facto_ standards on `cAsInG` and `name-ing`,
   - :speech_balloon: you **SHOULD** guide students that `snake_case` is to be
     expected by most IDEs and highlighting on exercism in code blocks.
 - **JavaScript** IDEs highlight variables which are not used, except for those
   prefixed with an underscore (`_`).
-  - :speech*balloon: note that this behaviour exist so it might help them to use
+  - :speech*balloon: note that this behavior exist so it might help them to use
     a different naming strategy. They might think that prefixing with `*`means `private`, which is not the case in JavaScript.
 - **TypeScript** has a _de facto_ standard lint tool provided by Palantir,
   - :no_bell: If a student does not follow these rules as the lint tool is not

@@ -6,7 +6,7 @@ _This is a project proposal for Google's [Season of Docs](https://developers.goo
 
 ## About your organization
 
-Exercism is a not-for-profit organisation that helps people develop and improve their programming skills through practice and mentoring.
+Exercism is a not-for-profit organization that helps people develop and improve their programming skills through practice and mentoring.
 Our platform is made up of over 200 GitHub repositories covering nearly 70 programming languages. 
 Everything is Open Source. Since launching in 2013 we have helped over 500,000 people become better programmers.
 
@@ -36,14 +36,14 @@ The project has the following goals:
 1. Work with Exercism's team to understand the gaps in our existing documentation
 2. Design a structure incorporating our existing and newly conceived docs
 3. Flesh out that structure with stubs for new docs, and crowd-source feedback on the best information to go into docs.
-4. Create missing documentation and reorganise existing docs as required.
+4. Create missing documentation and reorganize existing docs as required.
 5. Welcome and incorporate feedback from our team of maintainers, and the wider Exercism community.
 6. Help develop guidance to empower language tracks to create their own per-language documentation.
 
 Work that is out-of-scope for this project:
 - Working on natural-language translations
 - Work on educational content for Exercism itself
-- Work on individual language-track's docs (other than working on an examplar language for point 6)
+- Work on individual language-track's docs (other than working on an exemplar language for point 6)
 
 ## Measuring your project’s success
 
