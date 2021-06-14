@@ -60,7 +60,7 @@ Which renders as:
 
 - The `printf()` function writes to the console.
 
-More complex code (e.g. multi-line code) should be wrapped in triple backticks. A [language identifier](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) should be specified after the opening triple backticks to enable syntax highlighting:
+More complex code (e.g. multiline code) should be wrapped in triple backticks. A [language identifier](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) should be specified after the opening triple backticks to enable syntax highlighting:
 
 ````python
 ```python

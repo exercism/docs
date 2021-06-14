@@ -1,8 +1,8 @@
 # Internal Linking
 
-Links rendered via Exercism's Markdown parser are checked to see if they are internal, and if so may be decorated with tool-tips.
+Links rendered via Exercism's Markdown parser are checked to see if they are internal, and if so may be decorated with tooltips.
 
-A tool-tip for a concept might look like this:
+A tooltip for a concept might look like this:
 
 <img src="../../.imgs/concept-tooltip.png" height="200">
 
