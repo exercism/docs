@@ -3,7 +3,7 @@
 We want Exercism to be a great place to spend time, whoever you are.
 To ensure that Exercism is that, we place a strong focus on being good community members.
 
-This is formalised in our [Code of Conduct](https://exercism.io/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
+This is formalized in our [Code of Conduct](https://exercism.io/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
 
 There are a few principles to try and keep in mind as you contribute to Exercism.
 Whether you're mentoring, learning, hanging out in a chat space, or helping build things on GitHub, if you follow these ideas, you'll find that Exercism can be an incredibly fun and rewarding place to spend time:
@@ -115,7 +115,7 @@ You will therefore nearly always be a little unhappy with the outcome.
 
 It is critical to being a good community member to accept decisions and embrace them, even if you disagree with them.
 
-Decisions have to encompass a lot of viewpoints and they will ultimately contain a lot of tradeoffs.
+Decisions have to encompass a lot of viewpoints and they will ultimately contain a lot of trade-offs.
 What's good for one language track might be a little worse for another.
 Some architectural or organizational direction might cause you more work than it causes someone else.
 A site-wide or community-wide consideration might be deemed more important than your track-specific one.

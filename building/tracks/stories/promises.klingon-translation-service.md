@@ -5,7 +5,7 @@
 In this exercise you'll be providing a `TranslationService` where paid members
 have some quality assurance.
 
-You have found a magical translation API that is able to fulfil any
+You have found a magical translation API that is able to fulfill any
 translation _request_ in a reasonable amount of time, and you
 want to capitalize on this.
 

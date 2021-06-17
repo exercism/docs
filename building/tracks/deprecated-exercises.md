@@ -4,7 +4,7 @@ Deleting an exercise is a destructive action as it would delete all users' solut
 Therefore, exercises can **never** be deleted.
 Instead, we allow exercises to be deprecated.
 
-Deprecating an exercise has the following behaviours:
+Deprecating an exercise has the following behaviors:
 
 - Users who have downloaded or started the exercise can access their existing solution as normal
 - Users who have **not** downloaded or started the exercise, will not see or be able to start it.

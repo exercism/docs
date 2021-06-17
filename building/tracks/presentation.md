@@ -95,7 +95,7 @@ The editor will show the above documentation files, except for the `cli.md` docu
 
 ### CLI
 
-The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files's contents, except for the `debug.md` document.
+The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files' contents, except for the `debug.md` document.
 
 #### README.md
 
@@ -166,7 +166,7 @@ The editor will show the above documentation files, except for the `cli.md` docu
 
 ### CLI
 
-The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files's contents, except for the `debug.md` document. The two append files will be appended.
+The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files' contents, except for the `debug.md` document. The two append files will be appended.
 
 #### README.md
 

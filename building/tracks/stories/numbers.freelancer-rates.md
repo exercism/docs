@@ -15,7 +15,7 @@ The freelancer is offering to apply a discount if the project manager chooses
 to let the freelancer bill per month, which can come in handy if there is a
 certain budget the project manager has to work with.
 
-Discounts are modelled as fractional numbers followed by a `%` (percentage)
+Discounts are modeled as fractional numbers followed by a `%` (percentage)
 between `0.0%` (no discount) and `90.0%` (maximum discount).
 
 ## Tasks
@@ -32,7 +32,7 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 - Daily rate is 8 times the hourly rate; it should be mentioned
 - Monthly rate is 22 times the daily rate; it should be mentioned
-- If discount is supplied as a _different_ type than the numeric types, use the terminology **discounts are modelled as**
+- If discount is supplied as a _different_ type than the numeric types, use the terminology **discounts are modeled as**
 
 ## Implementations
 

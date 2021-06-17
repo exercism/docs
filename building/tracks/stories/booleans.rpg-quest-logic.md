@@ -19,7 +19,7 @@ These are example tasks that fit the story of Annalyn rescuing her best friend:
 
 - Implement check for _Fast attack_: a fast attack can be made if the knight is sleeping, as it takes time for him to get his armor on, so he will be vulnerable.
 - Implement check for _Spy_: the group can be spied upon if at least one of them is awake. Otherwise, spying is a waste of time.
-- Implement check for _Signal prisoner_: the prisoner can be signalled using bird sounds if the prisoner is awake and the archer is sleeping, as archers are trained in bird signalling so they could intercept the message.
+- Implement check for _Signal prisoner_: the prisoner can be signaled using bird sounds if the prisoner is awake and the archer is sleeping, as archers are trained in bird signaling so they could intercept the message.
 - Implement check for _Free prisoner_: Annalyn can try sneaking into the camp to free the prisoner, but this tactic will only work if the prisoner is awake and the other two characters are sleeping. If the prisoner is sleeping, they'll be startled by Annalyn's sudden appearance and will awaken the other two characters. The prisoner can also be freed if the archer is sleeping and Annalyn has her pet dog with her, as the knight will be scared by the dog and will withdraw, and the archer can't equip his bow fast enough to prevent the prisoner from being freed.
 
 ## Terminology

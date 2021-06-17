@@ -23,7 +23,7 @@ The recommended actions for checking the content of your repository has integrit
 2. check for stubs
 3. check for documentation (`v3` requires new files; this might move to `configlet`)
 4. lint the exercises using a "maintainers" configuration
-5. test the exercises using the example/examplar files (can include build step)
+5. test the exercises using the example/exemplar files (can include build step)
 
 There can also be track-specific actions. For example:
 

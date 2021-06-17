@@ -39,7 +39,7 @@ The `analysis.json` file should be structured as followed:
 
 ### `summary` (optional)
 
-The summary field is a text (not markdown) field that summarises the output.
+The summary field is a text (not markdown) field that summarizes the output.
 It might say something like "Your solution is nearly there - there's just two small changes you can make." or "The code works great, but there's a little bit of linting that needs doing.".
 This summary is rendered on the website above the comments.
 
@@ -58,7 +58,7 @@ The pointer-string to a file in `website-copy`.
 A JSON Object containing any params that should be interpolated during rendering.
 For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then set `params` to `{ "variable_name": "foo"}` in order to substitute `%{variable_name}` for the actual variable that the student used.
 
-When using parameterised files, ensure to escape all uses of `%` by placing anther `%` in front of it.
+When using parameterized files, ensure to escape all uses of `%` by placing anther `%` in front of it.
 e.g. `Try aim aim for 100%% of the tests passing`.
 
 #### `type` (optional)
@@ -107,7 +107,7 @@ more about the [goal of exercism here](https://github.com/exercism/docs/blob/mai
 
 In the following paragraphs, keywords such as **MUST**, **SHOULD**, **MAY**
 are to be interpreted as in [RFC2119](https://www.ietf.org/rfc/rfc2119.txt);
-given that we recognise the following four output states and their restrictions:
+given that we recognize the following four output states and their restrictions:
 
 - `approve`: **MUST** be an approvable solution, **MAY** be with comment.
 - `disapprove`: **MUST** be with comment
@@ -119,7 +119,7 @@ Per [RFC2119](https://www.ietf.org/rfc/rfc2119.txt), if **MUST** is used, it is
 a guarantee that the rule is always so, and does not need to be guarded for. For
 example, **MUST** be without comment means that the website could crash if an
 analyzer sends a comment anyway. **SHOULD** indicates any consumer of the output
-must still guard against unwanted behaviour.
+must still guard against unwanted behavior.
 
 ### Approvability
 
@@ -148,8 +148,8 @@ language features are part of "idiomatic rules" and not stylistic choices.
 Example: **Ruby**'s MRI treats variables named `_` differently.
 
 Finally there are rules that are pure preferences, even though they might be
-adopted by large bodies such as organisations and corporations. These rules
-are usually part of _competing_ standards. Exercism does not favour one over
+adopted by large bodies such as organizations and corporations. These rules
+are usually part of _competing_ standards. Exercism does not favor one over
 another. Example: **TypeScript** has a linter `tslint` (or `eslint` + plugin)
 which is maintained by a company that is not Microsoft. It competes with other
 linters such as `xo`. Most of the rules are not language features or idiomatic
@@ -204,14 +204,14 @@ to the official rules.
 
 - **Ruby** has a language feature where `_` is treated differently,
   - :-1: if a student uses `_` for a variable name, but then uses it.
-- **Ruby** recognises `constants` only if they start with a **C**apital Letter,
+- **Ruby** recognizes `constants` only if they start with a **C**apital Letter,
   - :-1: if a student uses `snake_case` for a `class` name
 - **Ruby** has _de facto_ standards on `cAsInG` and `name-ing`,
   - :speech_balloon: you **SHOULD** guide students that `snake_case` is to be
     expected by most IDEs and highlighting on exercism in code blocks.
 - **JavaScript** IDEs highlight variables which are not used, except for those
   prefixed with an underscore (`_`).
-  - :speech*balloon: note that this behaviour exist so it might help them to use
+  - :speech*balloon: note that this behavior exist so it might help them to use
     a different naming strategy. They might think that prefixing with `*`means `private`, which is not the case in JavaScript.
 - **TypeScript** has a _de facto_ standard lint tool provided by Palantir,
   - :no_bell: If a student does not follow these rules as the lint tool is not
