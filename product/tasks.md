@@ -69,7 +69,7 @@ The `x:size/<value>` labels describe the expected amount of work for a contribut
 
 ### Type tag
 
-The `x:type/<value>` labels describe how much Exercism knowledge is required by the contributor.
+The `x:type/<value>` labels describe the type of work the contributor will be engaged in.
 
 | Tag              | Description                                                    |
 | ---------------- | -------------------------------------------------------------- |
