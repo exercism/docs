@@ -7,7 +7,7 @@ The user can then filter tasks based on their properties.
 
 ## Tags
 
-For an issue to be considered a task, it has to be labelled with one or more task-specific labels.
+For an issue to be considered a task, it has to be labeled with one or more task-specific labels.
 Maintainers can thus choose to only make some issues show up as tasks.
 
 Each task label is defined as: `x:<type>/<value>` and five task types are supported:

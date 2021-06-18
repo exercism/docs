@@ -166,7 +166,7 @@ We place high value on making Exercism's content safe for everyone and so often 
 
 - Try to make sure the story is welcoming and can be understood by everyone. If the story contains in-jokes or regional slang, try to think of alternative phrases.
 - Try to write examples that are inclusive to everyone. For example, consider using names from other cultures and mixed genders.
-- Ask yourself whether you know anyone personally who would take offence by the story. If that's the case, consider changing it to avoid it.
+- Ask yourself whether you know anyone personally who would take offense by the story. If that's the case, consider changing it to avoid it.
 
 #### Example
 

@@ -55,4 +55,4 @@ Levels are also grouped into labels. For example:
 
 ## Future Considerations
 
-- Allocation of experience points based on how well you did on the exercise, such as how idiomatic the solution was, or other, more quantifiable and valuable indicators. We could explore looking at awarding those who may have submitted an initial messy iteration, and really took the time to evolve their solution into something better. Another idea would be to award more experience points to those who successfully complete analyser feedback.
+- Allocation of experience points based on how well you did on the exercise, such as how idiomatic the solution was, or other, more quantifiable and valuable indicators. We could explore looking at awarding those who may have submitted an initial messy iteration, and really took the time to evolve their solution into something better. Another idea would be to award more experience points to those who successfully complete analyzer feedback.

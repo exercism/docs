@@ -6,7 +6,7 @@ These are the official docs for Exercism.
 We welcome all and any contributions.
 This repo is live-synced to the website.
 
-## How this repo is organised
+## How this repo is organized
 
 There are three top-level repositories:
 

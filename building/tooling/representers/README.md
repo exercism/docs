@@ -5,7 +5,7 @@
 One of the problems faced by the Exercism community is how to provide meaningful feedback to many people providing many solutions to many different exercises.
 To help reduce the scope of this potentially enormous task, solutions are normalized into "representations".
 For example, out of the most recent 500 submissions to the TwoFer exercise on the Ruby track, about 380 of them would be considered unique (if you normalize for trivial things like code formatting and comments).
-If you normalise them even further (by normalizing things like function or variable names), that number gets even smaller, so there might be only 250 unique approaches.
+If you normalize them even further (by normalizing things like function or variable names), that number gets even smaller, so there might be only 250 unique approaches.
 If the Exercism community can provide some feedback on those 250 approaches, then hope is that we will have valid feedback prepared for ~99% of all future submissions for TwoFer.
 With the Concept Exercises the solution space will be even smaller because Concepts Exercises will be deliberately designed to be solved in a specific way.
 
@@ -25,7 +25,7 @@ A notification will be sent for old solutions with a matching representation.
 Each language has it's own representer, written in that language.
 The website acts as the orchestrator between the representer and students' submissions.
 
-Each representer lives in the Exercism GitHub organisation in a repository named `$LANG-representer` (e.g. `ruby-representer`).
+Each representer lives in the Exercism GitHub organization in a repository named `$LANG-representer` (e.g. `ruby-representer`).
 You can explore the different representers [here](https://github.com/exercism?q=-representer).
 
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.

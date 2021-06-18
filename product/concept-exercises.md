@@ -10,7 +10,7 @@ Concept Exercises have the following characteristics:
 
 ## Concepts
 
-Exercises are unlocked based on concepts taught and learnt.
+Exercises are unlocked based on concepts taught and learned.
 Each Concept Exercise must teach one or more concepts.
 It may also have prerequisites on Concepts, which means it will not be unlocked until Concept Exercises teaching those prerequisite concepts have been completed.
 

@@ -7,7 +7,7 @@ It should live at the root directory of your repository and should be called `Do
 
 The Dockerfile should create the minimal image needed for the tooling to function correctly and speedily.
 
-The Dockerfile should produce an image with as a small a size as possible while maximising (and prioritising) performance.
+The Dockerfile should produce an image with as a small a size as possible while maximizing (and prioritizing) performance.
 Applying the official [Dockerfile best practices](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/) can help to create a minimal image.
 
 ## Execution

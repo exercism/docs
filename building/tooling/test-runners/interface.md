@@ -1,6 +1,6 @@
 # The Test Runner Interface
 
-Test Runners have the single responsibility of taking a solution, running all tests and returning a standardised output.
+Test Runners have the single responsibility of taking a solution, running all tests and returning a standardized output.
 All interactions with the Exercism website are handled automatically and are not part of this specification.
 
 ## Execution
