@@ -71,13 +71,13 @@ The `x:size/<value>` labels describe the expected amount of work for a contribut
 
 The `x:type/<value>` labels describe the type of work the contributor will be engaged in.
 
-| Tag              | Description                                                    |
-| ---------------- | -------------------------------------------------------------- |
-| `x:type/ci`      | Work on Continuous Integration (e.g. GitHub Actions workflows) |
-| `x:type/coding`  | Work on code that will run in production                       |
-| `x:type/content` | Work on content (e.g. exercises, concepts)                     |
-| `x:type/docker`  | Work on Dockerfiles                                            |
-| `x:type/docs`    | Work on Documentation                                          |
+| Tag              | Description                                                       |
+| ---------------- | ----------------------------------------------------------------- |
+| `x:type/ci`      | Work on Continuous Integration (e.g. GitHub Actions workflows)    |
+| `x:type/coding`  | Work on code that is not part of the content (e.g. track tooling) |
+| `x:type/content` | Work on content (e.g. exercises, concepts)                        |
+| `x:type/docker`  | Work on Dockerfiles                                               |
+| `x:type/docs`    | Work on Documentation                                             |
 
 ## Claimed vs unclaimed tags
 
