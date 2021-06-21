@@ -11,10 +11,10 @@ The following top-level properties contain general track metadata:
 - `active`: a `boolean` value indicating if the track is active (i.e. students can join the track on the website) (required)
 - `blurb`: a short description of the language. Its length must be <= 400. (required)
 - `version`: the version of the `config.json` file (currently fixed to `3`) (required)
-- `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
 - `online_editor`: an object describing settings used for the online editor: (required)
   - `indent_style`: either `"space"` or `"tab"` (required)
   - `indent_size`: the indentation size as an integer (e.g. `4`) (required)
+  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
 - `status`: an object describing which v3 features should be enabled: (required)
   - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](./concept-exercises.md) have been built (required)
   - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented (required)
@@ -51,10 +51,10 @@ Support will be added to [configlet](./README.md) to use these pattern to popula
   "active": true,
   "blurb": "C# is a modern, object-oriented language with lots of great features, such as type-inference and async/await. The tooling is excellent, and there is extensive, well-written documentation.",
   "version": 3,
-  "highlightjs_language": "csharp",
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 4,
+    "highlightjs_language": "csharp"
   },
   "status": {
     "concept_exercises": true,
