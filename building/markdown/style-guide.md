@@ -68,6 +68,8 @@ Some abbreviations are considered common, useful, and non-technical enough that 
 
 Contractions (e.g. "won't", "I'm", "that's") should be used sparingly if at all in exercise descriptions, but are not restricted in other language around the site (e.g. website copy, mentoring).
 
+Many American English style guides state that the abbreviations "i.e." and "e.g." should be followed by a comma (see, e.g., this [StackExchange thread](https://english.stackexchange.com/questions/7946/use-of-e-g-are-parentheses-necessary/93658#93658)). This is permitted, but not required within text on Exercism".
+
 ## Choice of words
 
 ### Mathematical and jargon terms.
