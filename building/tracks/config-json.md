@@ -67,6 +67,9 @@ Support will be added to [configlet](./README.md) to use these pattern to popula
     "test": ["%{pascal_slug}Tests.cs"],
     "example": [".meta/Example.cs"],
     "exemplar": [".meta/Exemplar.cs"]
+  },
+  "test_runner": {
+    "average_run_time": 2.3
   }
 }
 ```
@@ -364,7 +367,11 @@ This is an example of what a valid `config.json` file can look like:
   },
   "online_editor": {
     "indent_style": "space",
-    "indent_size": 4
+    "indent_size": 4,
+    "highlightjs_language": "csharp"
+  },
+  "test_runner": {
+    "average_run_time": 2.3
   },
   "exercises": {
     "concept": [
