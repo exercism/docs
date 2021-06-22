@@ -9,7 +9,7 @@ Existing descriptions and test-cases can be updated to adhere to them without re
 
 ### Consistency within an exercise
 
-There are some terms that have multiple valid spellings (e.g., "lower case" vs "lowercase").
+There are some terms that have multiple valid spellings (e.g. "lower case" vs "lowercase").
 Where a consistent style has not been agreed within this document, these must be consistent within an exercise.
 
 ### Exceptions
