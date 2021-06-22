@@ -9,7 +9,7 @@ Existing descriptions and test-cases can be updated to adhere to them without re
 
 ### Consistency within an exercise
 
-There are some terms that have multiple valid spellings (e.g. "lower case" vs "lowercase").
+There are some terms that have multiple valid spellings (e.g., "lower case" vs "lowercase").
 Where a consistent style has not been agreed within this document, these must be consistent within an exercise.
 
 ### Exceptions
@@ -66,7 +66,9 @@ Some abbreviations are considered common, useful, and non-technical enough that 
 - `etc.` or `etc`
 - `docs`
 
-Contractions (e.g. "won't", "I'm", "that's") should be used sparingly if at all in exercise descriptions, but are not restricted in other language around the site (e.g. website copy, mentoring).
+Contractions (e.g., "won't", "I'm", "that's") should be used sparingly if at all in exercise descriptions, but are not restricted in other language around the site (e.g., website copy, mentoring).
+
+The abbreviations "i.e." and "e.g." should be followed by a comma in American English (see, e.g., this [StackExchange thread](https://english.stackexchange.com/questions/7946/use-of-e-g-are-parentheses-necessary/93658#93658)).
 
 ## Choice of words
 
