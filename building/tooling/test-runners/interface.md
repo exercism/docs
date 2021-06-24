@@ -148,7 +148,7 @@ The per-test `output` key should be used to store and output anything that a use
 
 > version: 3
 
-Link a test to a specific task via the task's ID, which is the number used at the start of the task heading. Only link a test to a task if it can be linked to precisely _one_ test.
+Link a test to a specific task via the task's ID, which is the number used at the start of the task heading. Only link a test to a task if it can be linked to precisely _one_ task.
 
 At the moment, only Concept Exercises have well-defined tasks that you can link tests to, but this might change in the future.
 
