@@ -11,7 +11,7 @@ The primary function of configlet is to do _linting_: checking if a track's conf
 The secondary function of configlet is to generate documents. There are two types of documents that configlet can generate:
 
 1. A Concept Exercise's [`introduction.md` file](./generating-documents.md#documentconceptexercisesintroductionmdfile).
-1. A Practice Exercise's [`README.md` file](./generating-documents.md#documentpracticeexercisesreadmemdfile).
+1. A Practice Exercise's [`instructions.md` file](./generating-documents.md#documentpracticeexercisesreadmemdfile).
 
 How these documents are generated can be found [here](./generating-documents.md).
 
