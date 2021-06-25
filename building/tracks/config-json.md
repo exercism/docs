@@ -284,6 +284,8 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 - `paradigm/logic`: the language supports a logic-based style of programming
 - `paradigm/object_oriented`: the language supports an object-oriented style of programming
 - `paradigm/procedural`: the language supports a procedural style of programming
+- `paradigm/event-driven`: language flow is determined by events such as user actions, sensor inputs or message passing
+- `paradigm/generic`: algorithms are written in terms of types to-be-specified-later that are then instantiated when needed
 
 ### Typing
 
