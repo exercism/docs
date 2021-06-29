@@ -1,12 +1,14 @@
 # Presentation
 
-There are three types of documentation files that determine what documentation is being presented for an exercise:
+This document decribes how the various exercise and track files are presented to the student, taking into account whether the student is using the CLI or the editor.
 
-- Exercise-specific files: see the [Concept Exercises documentation](./concept-exercises#documentationfiles) and the [Practice Exercises documentation](./concept-exercises#documentationfiles)
-- Track-specific files: see the [documentation](./shared-files.md#trackspecificfiles)
-- Exercism-wide files: see the [documentation](./shared-files.md#exercismwidefiles)
+## Documentation
 
-## Exercise-specific files
+There are three types of documentation that determine what documentation is being presented for an exercise.
+
+### Exercise-specific files
+
+These file are specific to each exercise:
 
 - `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student (required)
 - `.docs/introduction.append.md`: additional introduction text to append after the existing introduction (not used in concept exercises, optional for practice exercises)
@@ -15,202 +17,104 @@ There are three types of documentation files that determine what documentation i
 - `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required for concept exercises, optional for practice exercises)
 - `.meta/config.json`: contains source information of the exercise (optional)
 
-## Track-specific files
+See the [Concept Exercises documentation](./concept-exercises#documentationfiles) and the [Practice Exercises documentation](./concept-exercises#documentationfiles) for more information.
+
+### Track-specific files
+
+These file are shared between all exercises:
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
-## Exercism-wide files
+See the [shared files documentation](./shared-files.md) for more information.
 
-- `cli.md`: contains information on how to work with the exercise when using the CLI to download and submit the exercise (required)
-- `help.md`: contains generic Exercism-wide instructions on how to get help (required)
+### Exercism-wide documentation
+
+Besides the above, track/exercise-specific documentation files, there are two bits of documentation that are Exercism-wide (and thus shared across all track):
+
+- Instructions on how to use the CLI to submit an exercise
+- Instructions on how to get help
 
 ## Editor
 
-When working on an exercise in the browser, documentation files will show at the relevant times. As an example, hints are not shown unless the student requests them to be shown. The editor also doesn't need to shown any CLI-specific instructions.
+When working on an exercise in the browser, documentation files will show at the relevant times. As an example, hints are not shown unless the student requests them to be shown. The editor also doesn't need to shown the CLI instructions.
 
 ## CLI
 
-When working locally via the CLI, we don't have the option to conditionally show documentation. Therefore, the CLI must always download all relevant documentation. To not require the student to open several files, the CLI will concatenate all relevant documentation into two documents: a `README.md` document and a `HINTS.md` document.
+When working locally via the CLI, we don't have the option to conditionally show documentation. Therefore, the CLI must always download all relevant documentation. To not require the student to open several files, the CLI will concatenate all relevant documentation into three documents:
 
-## Example: simple
+### README.md
 
-```
-## Exercise-specific files
-
-# .docs/introduction.md
-"# Introduction
-
-This is the introduction."
-
-# .docs/instructions.md
-"# Instructions
-
-These are the instructions."
-
-# .docs/hints.md
-"# Hints
-
-## General
-
-- Consider extracting the logic to a helper function."
-
-# .meta/config.json
-{ "source": "Wikipedia", "source_url": "https://en.wikipedia.org/wiki/Lasagne"}`
-
-## Track-specific files
-
-# debug.md
-"# Debug
-
-This is how to do debugging."
-
-# help.md
-"# Help
-
-This is how to get track-specific help."
-
-# tests.md
-"# Tests
-
-This is how to run the tests for this track."
-
-## Exercism-wide files
-
-# cli.md
-"# CLI
-
-This is how to submit the solution."
-
-# help.md
-"# Help
-
-This is how to get Exercism-wide help."
-```
-
-### Editor
-
-The editor will show the above documentation files, except for the `cli.md` document.
-
-### CLI
-
-The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files' contents, except for the `debug.md` document.
-
-#### README.md
-
-This is the contents of the generated `README.md` file:
+This file contains the exercise's instructions, introduction (optional) and source information (optional).
 
 ```markdown
-# Introduction
+# [exercise name]
 
-This is the introduction.
+Welcome to [exercise name] on Exercism's [track name] Track.
+If you need help running the tests or submitting your code, check out `HELP.md`.
+If you get stuck on the exercise, check out `HINTS.md`, but try and solve it without using those first :)
 
-# Instructions
+## Introduction (optional)
 
-These are the instructions.
+[Exercise-specific file: .docs/introduction.md] (optional)
 
-# Tests
+[Exercise-specific file: .docs/introduction.append.md] (optional)
 
-This is how to run the tests for this track.
+## Instructions
 
-# Submitting
+[Exercise-specific file: .docs/instructions.md]
 
-This is how to submit the solution.
+[Exercise-specific file: .docs/instructions.append.md] (optional)
 
-# Help
+## Source
 
-This is how to get track-specific help.
+### Created by
 
-This is how to get Exercism-wide help.
+- @[author-1 handle]
+- @[author-2 handle]
+  ...
+
+### Contributed to by (optional)
+
+- @[contributor-1 handle]
+- @[contributor-2 handle]
+  ...
+
+### Based on
+
+[source] - [source url]
 ```
 
-TODO: verify that this is the correct format
+### HELP.md
 
-#### HINTS.md
+This file describes how to run the tests as well as track- and Exercism-wide help instructions.
 
-This is the contents of the generated `HINTS.md` file:
+```markdown
+# Help
+
+## Running the tests
+
+[Track-specific file: exercises/shared/.docs/tests.md]
+
+## Submitting your solution
+
+[Exercism-wide documentation: instructions on how to submit a solution]
+
+## Need to get help?
+
+[Exercism-wide documentation: instructions on how to get help]
+
+[Track-specific file: exercises/shared/.docs/help.md]
+```
+
+### HINTS.md
+
+This file contains the exercise-specific hints (optional)
 
 ```markdown
 # Hints
 
-## General
-
-- Consider extracting the logic to a helper function.
-```
-
-## Example: with optional data
-
-For this example, we'll re-use the documentation files from the [above example](#examplesimple), but with three additions:
-
-```
-## Exercise-specific files
-
-# .docs/introduction.append.md
-"# Introduction append
-
-Append to the introduction."
-
-# .docs/instructions.append.md
-"# Instructions append
-
-Append to the instructions."
-
-# .meta/config.json
-{ "source": "Wikipedia", "source_url": "https://en.wikipedia.org/wiki/Lasagne"}`
-```
-
-### Editor
-
-The editor will show the above documentation files, except for the `cli.md` document. The two append files will be appended.
-
-### CLI
-
-The CLI will create a `README.md` and `HINTS.md` file that contain the above documentation files' contents, except for the `debug.md` document. The two append files will be appended.
-
-#### README.md
-
-This is the contents of the generated `README.md` file:
-
-```markdown
-# Introduction
-
-This is the introduction.
-
-Append to the introduction.
-
-# Instructions
-
-These are the instructions.
-
-Append to the instructions.
-
-# Tests
-
-This is how to run the tests for this track.
-
-# Submitting
-
-This is how to submit the solution.
-
-# Help
-
-This is how to get track-specific help.
-
-This is how to get Exercism-wide help.
-
----
-
-Wikipedia. https://en.wikipedia.org/wiki/Lasagne
-```
-
-TODO: verify that this is the correct format
-
-#### HINTS.md
-
-This is the contents of the generated `HINTS.md` file:
-
-```markdown
 ## General
 
 - Consider extracting the logic to a helper function.
