@@ -1,40 +1,16 @@
 # Shared files
 
-Some documentation files apply to both [Concept Exercises](./concept-exercises.md) and [Practice Exercises](./practice-exercises.md). There are two types of these files:
-
-- Exercism-wide: these documentation files apply to all exercises, regardless of the track.
-- Track-specific: these documentation files apply to all exercises for a specific track.
-
-These files are located within the track's `exercises/shared/.docs` directory and will be automatically.
-
-## Exercism-wide files
-
-There are two Exercism-wide documentation files that apply to Concept- and Practice Exercises:
-
-- `cli.md`: contains information on how to work with the exercise when using the CLI to download and submit the exercise. TODO: link to location of this file
-- `help.md`: contains generic Exercism-wide instructions on how to get help. TODO: link to location of this file
-
-These are handled by Exercism directly and do not need to be touched by track-maintainers. 
-They are augmented by, and intertwined with, the track-specific files below, to provide contextual information to a student.
-For example, the `tests.md` is amalgamated with the `cli.md` file to provide instructions to users using the CLI on how to get help, where as the `debug.md` is shown in the editor next to the instructions and introductions.
-
-## Track-specific files
-
-The track-specific documentation files are located within the track's `exercises/shared/.docs` directory.
-
-These files are presented to the student to help explain the exercise.
+Some documentation files apply to both [Concept Exercises](./concept-exercises.md) and [Practice Exercises](./practice-exercises.md). These cross-exercise files are located within the track's `exercises/shared/.docs` directory:
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
-### Overwriting
-
-Exercises can overwrite the track-specific files by creating an identically named file in the exercise's `.docs` directory (e.g. `.docs/debug.md`). This should only rarely be needed (if at all).
+The [Presentation document](./presentation.md) describes how these files are used to present content to the student.
 
 ---
 
-### File: `debug.md`
+## File: `debug.md`
 
 **Purpose:** Explain how a student that is coding in the browser can still do "debugging"
 
@@ -42,7 +18,7 @@ Exercises can overwrite the track-specific files by creating an identically name
 
 The in-browser editor does not have any built-in debugging support. If the track's test runner supports capturing console output, the student can still do some form of "debugging" and this document explains how to do that.
 
-#### Example
+### Example
 
 ````markdown
 # Debug
@@ -54,7 +30,7 @@ Console.WriteLine("Debug message");
 ```
 ````
 
-### File: `help.md`
+## File: `help.md`
 
 **Purpose:** Explain how a student can get help
 
@@ -62,7 +38,7 @@ Console.WriteLine("Debug message");
 
 Describe how a student can get help, specifically for this track (not Exercism-wide).
 
-#### Example
+### Example
 
 ```markdown
 # Help
@@ -70,7 +46,7 @@ Describe how a student can get help, specifically for this track (not Exercism-w
 If you're having trouble, feel free to ask help in the C# track's [gitter channel](https://gitter.im/exercism/csharp).
 ```
 
-### File: `tests.md`
+## File: `tests.md`
 
 **Purpose:** Contains track-specific instructions on how to run the tests
 
@@ -78,10 +54,18 @@ If you're having trouble, feel free to ask help in the C# track's [gitter channe
 
 Describe how to run the tests for this particular exercise.
 
-#### Example
+### Example
 
 ```markdown
 # Tests
 
 To run the tests, run the command `dotnet test` from within the exercise directory.
 ```
+
+---
+
+## Overwriting
+
+_Note: this is not yet implemented_
+
+Exercises can overwrite the track-specific files by creating an identically named file in the exercise's `.docs` directory (e.g. `.docs/debug.md`). This should only rarely be needed (if at all).

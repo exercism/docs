@@ -261,13 +261,21 @@ The `config.json` file should have the following checks:
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
 
-### Rule: exercises/shared/.docs/cli.md is valid
+### Rule: exercises/shared/.docs/debug.md is valid
 
+- The file's presence is optional
 - The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
-### Rule: exercises/shared/.docs/debug.md is valid
+### Rule: exercises/shared/.docs/help.md is valid
 
+- The file's presence is required
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: exercises/shared/.docs/tests.md is valid
+
+- The file's presence is required
 - The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
 - Links must be absolute (relative links are not allowed)
 
@@ -315,10 +323,10 @@ The `config.json` file should have the following checks:
 1. Non-blank string: a string that contains at least one non-whitespace character.
 2. kebab-case string: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
 3. Title Case string: a non-blank string that follows the below guidelines (from the Chicago Manual of Style, see https://en.wikipedia.org/wiki/Title_case):
-> - Capitalize the first and last words of titles and subtitles.
-> - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
-> - Lowercase the conjunctions *and*, *but*, *for*, *or*, and *nor*.
-> - Lowercase the articles *the*, *a*, and *an*.
-> - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
-> - Lowercase the words *to* and *as*.
-> - Lowercase the second part of Latin species names.
+   > - Capitalize the first and last words of titles and subtitles.
+   > - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
+   > - Lowercase the conjunctions _and_, _but_, _for_, _or_, and _nor_.
+   > - Lowercase the articles _the_, _a_, and _an_.
+   > - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
+   > - Lowercase the words _to_ and _as_.
+   > - Lowercase the second part of Latin species names.

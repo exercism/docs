@@ -74,7 +74,8 @@ csharp
 |   |       └── ... (TODO: describe practice exercise files)
 |   └── shared
 |       └── .docs
-|           ├── cli.md
-|           └── debug.md
+|           ├── debug.md
+|           ├── help.md
+|           └── tests.md
 └── [config.json](./config-json.md)
 </pre>
