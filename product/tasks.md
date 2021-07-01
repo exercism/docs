@@ -71,13 +71,13 @@ The `x:size/<value>` labels describe the expected amount of work for a contribut
 
 The `x:type/<value>` labels describe the type of work the contributor will be engaged in.
 
-| Tag              | Description                                                    |
-| ---------------- | -------------------------------------------------------------- |
-| `x:type/ci`      | Work on Continuous Integration (e.g. GitHub Actions workflows) |
-| `x:type/coding`  | Work on code that will run in production                       |
-| `x:type/content` | Work on content (e.g. exercises, concepts)                     |
-| `x:type/docker`  | Work on Dockerfiles                                            |
-| `x:type/docs`    | Work on Documentation                                          |
+| Tag              | Description                                                                                                                                                                                                    |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `x:type/ci`      | Work on Continuous Integration (e.g. GitHub Actions workflows)                                                                                                                                                 |
+| `x:type/coding`  | Write code that is not part of the student-facing content. This is normally tasks associated with production-tooling (e.g. test runners), internal-tooling (generators), or libraries that Exercism maintains. |
+| `x:type/content` | Work on content (e.g. exercises, concepts)                                                                                                                                                                     |
+| `x:type/docker`  | Work on Dockerfiles                                                                                                                                                                                            |
+| `x:type/docs`    | Work on Documentation                                                                                                                                                                                          |
 
 ## Claimed vs unclaimed tags
 
