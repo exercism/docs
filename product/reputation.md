@@ -58,6 +58,8 @@ For each merged pull request that was opened by the user, `12` reputation is awa
 
   If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
 
+  Note that an `x:size` label on an **issue** never affects the awarded reputation - even if a merged pull request lacks an `x:size` label, and closes an issue that has one.
+
 ### 5. Reviewing pull requests
 
 For each merged or closed pull request reviewed by the user, `5` reputation is awarded.
