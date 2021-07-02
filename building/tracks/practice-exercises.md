@@ -257,6 +257,7 @@ This file contains meta information on the exercise:
 - `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
+- `test_runner`: Indicates if solutions of this exercise should be tested in the test runner. Defaults to `true` if not specified. (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
