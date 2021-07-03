@@ -1,11 +1,11 @@
 # How to give great feedback
 
 At this stage you should have chosen a solution to mentor.
-If you've not, work your way through [Choosing a solution to mentor](./choosing-a-solution) first, then come back here.
+If you haven't, work your way through [Choosing a solution to mentor](./choosing-a-solution) first, then come back here.
 
 ## Your first feedback
 
-You're now about to give your first feedback to a student.
+You're about to give your first feedback to a student.
 This can be exciting but also pretty daunting.
 A lot of (the best!) mentors suffer from [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) at this stage, and give up before they start.
 If you feel like that, it's totally understandable, but also almost always unnecessary.
@@ -31,11 +31,11 @@ It's really important that you as the mentor read that and try and address it in
 However, one of the key values of mentoring on Exercism is that mentors can help students discover ideas they had no idea about.
 So you might look at a student's solution, read their comment which asks if there are any tweaks they could make, and think "Wow - you really don't have a grasp on this exercise at all".
 It might be that they've totally missed the point of the exercise.
-In your time as a mentor, you'll see some incredibly "overfit" solutons where students make the tests pass but totally miss the point of the challenge.
+In your time as a mentor, you'll see some incredibly "overfit" solutions where students make the tests pass but totally miss the point of the challenge.
 Or see incredibly complex solutions that can be rewritten in a couple of lines of code.
 
 Your job as a mentor is to help take the student forward **from where they start**.
-What's the biggest thing you could do to help unlock an idea or unblock your thinking?
+What's the biggest thing you could do to help unlock an idea or unblock their thinking?
 You'll find that if you can explain an idea to a student and set a lightbulb off in their head, it'll be an incredibly rewarding discussion.
 
 ## Don't just give the solution away
@@ -49,7 +49,7 @@ Different mentors have different approaches to whether they give "hints" or "exp
 As a general rule, aim for somewhere between the two.
 Ensure that you tell the student enough that they can understand what they should try, but try not to just give them the answer and tell them why it works.
 
-For example, let's imagine you see an `if` statement in Ruby that would be much more nicely written using the [ternary operator](https://en.wikipedia.org/wiki/%3F:):
+For example, imagine you see an `if` statement in Ruby that would be much more nicely written using the [ternary operator](https://en.wikipedia.org/wiki/%3F:):
 
 ```
 # Student's code
@@ -63,7 +63,7 @@ end
 b = a ? 1 : 2
 ```
 
-You could just say "Write `b = a ? 1 : 2` instead of the `if` statement on L10.
+You could just say "Write `b = a ? 1 : 2` instead of the `if` statement on L10."
 But that wouldn't be helping a student understand the why or have a lightbulb moment of their own.
 
 Instead it would be much better to introduce the idea of a ternary, and pose the student a challenge.
@@ -83,6 +83,6 @@ As you gain experience mentoring, you will get a feel for the different ways stu
 
 ## Unsure of something? Chat to other mentors?
 
-One of the best things about being an Exercism mentor, is the community of other mentors you can learn from.
-If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Room]() and ask away!
+One of the best things about being an Exercism mentor is the community of other mentors you can learn from.
+If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace]() and ask away!
 You'll probably find people you can help there too 🙂
