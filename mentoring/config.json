@@ -6,5 +6,21 @@
     "path": "mentoring/README.md",
     "title": "Mentoring Guides",
     "blurb": "Learn how to make the most of our mentoring on Exercism"
+  },
+  {
+    "uuid": "6abb0b03-b639-4fff-9089-b0956e0209c8",
+    "section": "mentoring",
+    "slug": "choosing-a-solution",
+    "path": "mentoring/choosing_a_solution.md",
+    "title": "Choosing a solution to mentor",
+    "blurb": "Decide which solution is right for you"
+  },
+  {
+    "uuid": "3463ebad-fb50-4a7d-afeb-cbe125b181fe",
+    "section": "mentoring",
+    "slug": "how-to-give-great-feedback",
+    "path": "mentoring/how_to_give_great_feedback.md",
+    "title": "How to give great feeback",
+    "blurb": "You've chosen an exercise to mentor - now give some great feedback."
   }
 ]
