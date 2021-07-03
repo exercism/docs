@@ -41,7 +41,7 @@ The UI will look something like this:
 
 [TODO: Image of mentor discussion with areas marked].
 
-1. The left hand side shows you the student's code.
+1. The main part of the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
    If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom. If they've only submitted one iteration, you won't see those icons.
 
