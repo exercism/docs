@@ -43,7 +43,8 @@ The UI will look something like this:
 
 1. The main part of the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
-   If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom. If they've only submitted one iteration, you won't see those icons.
+   If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom. 
+   If they've only submitted one iteration, you won't see those icons.
 
 2. You can use the tabs at the top to switch between the student's code, the tests, and the instructions.
    This is useful for reminding yourself about what the student has been asked to do in this exercise.
