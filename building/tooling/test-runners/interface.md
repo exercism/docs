@@ -119,7 +119,7 @@ The following per-test statuses are valid:
 
 - `pass`: The test passed
 - `fail`: The test failed
-- `error`: The test errored
+- `error`: The test errored - that is, it did not return a value
 
 #### Message
 
