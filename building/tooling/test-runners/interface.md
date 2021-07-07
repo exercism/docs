@@ -40,7 +40,7 @@ The version of the spec that this file adheres to:
 The following overall statuses are valid:
 
 - `pass`: All tests passed
-- `fail`: At least one test failed
+- `fail`: At least one test has the status `fail` or `error`
 - `error`: To be used when the tests did not run correctly (e.g. a compile error, a syntax error)
 
 #### Message
