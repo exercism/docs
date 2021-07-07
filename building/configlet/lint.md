@@ -260,6 +260,8 @@ The `config.json` file should have the following checks:
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.example` array (no overlap)
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
+- The `"test_runner"` key is optional
+- The `"test_runner"` value must be a boolean
 
 ### Rule: exercises/shared/.docs/debug.md is valid
 
