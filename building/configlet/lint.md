@@ -172,6 +172,10 @@ The `config.json` file should have the following checks:
 - The JSON root must be an object
 - The `"blurb"` key is required
 - The `"blurb"` value must be a non-blank string¹ with length <= 350
+- The `"source"` key is optional
+- The `"source"` value must be a non-blank string¹
+- The `"source_url"` key is optional
+- The `"source_url"` value must be a URL
 - The `"authors"` key is required
 - The `"authors"` value must be a non-empty array
 - The `"authors"` values must be non-blank strings¹
@@ -238,6 +242,10 @@ The `config.json` file should have the following checks:
 - The JSON root must be an object
 - The `"blurb"` key is required
 - The `"blurb"` value must be a non-blank string¹ with length <= 350
+- The `"source"` key is optional
+- The `"source"` value must be a non-blank string¹
+- The `"source_url"` key is optional
+- The `"source_url"` value must be a URL
 - The `"authors"` key is optional
 - The `"authors"` value must be an array
 - The `"authors"` values must be non-blank strings¹
