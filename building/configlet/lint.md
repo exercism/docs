@@ -426,4 +426,8 @@ The `config.json` file should have the following checks:
    ```
    ^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
    ```
+   For example, the below UUID has the correct form:
+   ```
+   d334ffe3-657e-4725-a950-290b284b6d9f
+   ```
    You can run `configlet uuid` to generate a suitable UUID.
