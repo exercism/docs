@@ -34,8 +34,6 @@ The linter should check if all the required files are present. The non-exercise 
 - `exercises/shared/.docs/help.md`
 - `exercises/shared/.docs/tests.md`
 
-### Rule: exercises/shared/.docs/tests.md is valid
-
 The Concept Exercise specific files that must be present are:
 
 - `exercises/concept/<slug>/.docs/hints.md`
