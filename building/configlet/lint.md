@@ -25,6 +25,14 @@ These are the linting rules being checked.
 The linter should check if all the required files are present. The non-exercise specific files that must be present are:
 
 - `config.json`
+- `docs/ABOUT.md`
+- `docs/INSTALLATION.md`
+- `docs/LEARNING.md`
+- `docs/RESOURCES.md`
+- `docs/SNIPPET.txt`
+- `docs/TESTS.md`
+- `exercises/shared/.docs/help.md`
+- `exercises/shared/.docs/tests.md`
 
 The Concept Exercise specific files that must be present are:
 
@@ -317,6 +325,46 @@ The `config.json` file should have the following checks:
 - The `"contributors"` values must not have duplicates
 - The `"contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"authors"` or `"contributors"` array (no overlap)
+
+### Rule: docs/ABOUT.md is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: docs/INSTALLATION.md is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: docs/LEARNING.md is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: docs/RESOURCES.md is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: docs/SNIPPET.txt is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+
+### Rule: docs/TESTS.md is valid
+
+- The file's presence is required
+- The file's contents must be non-blank
+- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- Links must be absolute (relative links are not allowed)
 
 ## Glossary
 
