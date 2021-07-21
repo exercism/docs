@@ -2,4 +2,4 @@
 
 These documents help learn how to make the most of your experience on Exercism.
 
-- [Solving Exercises Locally](./solving-exercises-locally.md)
+- [Solving Exercises](./solving-exercises/README.md)
