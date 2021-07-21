@@ -1,3 +1,5 @@
 # Using Exercism
 
-TODO: Introduction to the using docs
+These documents help learn how to make the most of your experience on Exercism.
+
+- [Solving Exercises Locally](./solving-exercises-locally.md)

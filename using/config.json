@@ -6,5 +6,12 @@
     "path": "using/README.md",
     "title": "Using Exercism",
     "blurb": "Learn how to make the most of our experience on Exercism"
+  },
+  {
+    "uuid": "7b753e2a-bd68-4d68-bdd8-c356de4342b6",
+    "slug": "solving-exercises/locally",
+    "path": "using/solving-exercises/locally.md",
+    "title": "Solving Exercises Locally",
+    "blurb": "Learn how to solve exercises on your local machine"
   }
 ]
