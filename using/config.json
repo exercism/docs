@@ -8,6 +8,13 @@
     "blurb": "Learn how to make the most of our experience on Exercism"
   },
   {
+    "uuid": "b1af280c-3671-48a2-8d6e-9bb02131d4f9",
+    "slug": "feedback/automated",
+    "path": "using/feedback/automated.md",
+    "title": "Automated Feedback",
+    "blurb": "Learn how Automated Feedback helps you improve your code"
+  },
+  {
     "uuid": "7b753e2a-bd68-4d68-bdd8-c356de4342b6",
     "slug": "solving-exercises/locally",
     "path": "using/solving-exercises/locally.md",
