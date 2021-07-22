@@ -180,6 +180,10 @@ The `config.json` file should have the following checks:
 - The JSON root must be an object
 - The `"blurb"` key is required
 - The `"blurb"` value must be a non-blank string¹ with length <= 350
+- The `"source"` key is optional
+- The `"source"` value must be a non-blank string¹
+- The `"source_url"` key is optional
+- The `"source_url"` value must be a URL
 - The `"authors"` key is required
 - The `"authors"` value must be a non-empty array
 - The `"authors"` values must be non-blank strings¹
@@ -200,9 +204,13 @@ The `config.json` file should have the following checks:
 - The `"files.exemplar"` key is required
 - The `"files.exemplar"` value must be a non-empty array
 - The `"files.exemplar"` values must not have duplicates
+- The `"files.editor"` key is optional
+- The `"files.editor"` value must be an array
+- The `"files.editor"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.exemplar"` must exist
+- The files listed in the `"files.editor"` must exist
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.exemplar` array (no overlap)
 - The `"forked_from"` key is optional
 - The `"forked_from"` value must be an array
@@ -242,6 +250,10 @@ The `config.json` file should have the following checks:
 - The JSON root must be an object
 - The `"blurb"` key is required
 - The `"blurb"` value must be a non-blank string¹ with length <= 350
+- The `"source"` key is optional
+- The `"source"` value must be a non-blank string¹
+- The `"source_url"` key is optional
+- The `"source_url"` value must be a URL
 - The `"authors"` key is optional
 - The `"authors"` value must be an array
 - The `"authors"` values must be non-blank strings¹
@@ -262,12 +274,18 @@ The `config.json` file should have the following checks:
 - The `"files.example"` key is required
 - The `"files.example"` value must be a non-empty array
 - The `"files.example"` values must not have duplicates
+- The `"files.editor"` key is optional
+- The `"files.editor"` value must be an array
+- The `"files.editor"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.example"` must exist
+- The files listed in the `"files.editor"` must exist
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.example` array (no overlap)
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
+- The `"test_runner"` key is optional
+- The `"test_runner"` value must be a boolean
 
 ### Rule: exercises/shared/.docs/debug.md is valid
 
