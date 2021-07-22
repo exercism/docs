@@ -40,8 +40,8 @@ The version of the spec that this file adheres to:
 The following overall statuses are valid:
 
 - `pass`: All tests passed
-- `fail`: At least one test failed
-- `error`: To be used when the tests did not run correctly (e.g. a compile error, a syntax error)
+- `fail`: At least one test has the status `fail` or `error`
+- `error`: No test was executed correctly (this usually means e.g. a compile error, or a syntax error)
 
 #### Message
 
@@ -49,7 +49,7 @@ The following overall statuses are valid:
 
 > version: 1, 2, 3
 
-Where the status is `error` (the tests fail to execute cleanly), the top level `message` key should be provided. It should provide the occurring error to the user. As it is the only piece of information a user will receive on how to debug their issue, it must be as clear as possible. For example, in Ruby, in the case of a syntax error, we provide the error and stack trace. In compiled languages, the compilation error should be provided. The top level `message` value is not limited in length.
+Where the status is `error` (no test was executed correctly), the top level `message` key should be provided. It should provide the occurring error to the user. As it is the only piece of information a user will receive on how to debug their issue, it must be as clear as possible. For example, in Ruby, in the case of a syntax error, we provide the error and stack trace. In compiled languages, the compilation error should be provided. The top level `message` value is not limited in length.
 
 When the status is not `error`, either set the value to `null` or omit the key entirely.
 
@@ -119,7 +119,7 @@ The following per-test statuses are valid:
 
 - `pass`: The test passed
 - `fail`: The test failed
-- `error`: The test errored
+- `error`: The test errored - that is, it did not return a value
 
 #### Message
 
@@ -127,7 +127,7 @@ The following per-test statuses are valid:
 
 > version: 2, 3
 
-The per-test `message` key is used to return the results of a failed test. It should be as human-readable as possible. Whatever is written here will be displayed to the student when their test fails. If there is no error message, either set the value to `null` or omit the key entirely. It is also permissible to output test suite output here. The `message` value is not limited in length.
+The per-test `message` key is used to return the results of a test with a `status` of `fail` or `error`. It should be as human-readable as possible. Whatever is written here will be displayed to the student when their test does not pass. If there is no test failure message or error message, either set the value to `null` or omit the key entirely. It is also permissible to output test suite output here. The `message` value is not limited in length.
 
 #### Output
 
