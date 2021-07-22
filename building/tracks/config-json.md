@@ -89,8 +89,8 @@ Exercises are ordered on the website in the same order they are listed in this f
 The following fields make up a concept exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255. 
-- `name`: the exercise's name. Its length must be <= 255. 
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
+- `name`: the exercise's name. Its length must be <= 255.
 - `concepts`: an array of concept slugs that are taught by this concept exercise
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start this exercise
 - `status` (optional): the exercise's status, which is one of `"wip"`, `"beta"` `"active"`, or `"deprecated"`; defaults to `"active"` if not specified
@@ -143,8 +143,8 @@ The following fields make up a concept exercise:
 Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255. 
-- `name`: the exercise's name. Its length must be <= 255. 
+- `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
+- `name`: the exercise's name. Its length must be <= 255.
 - `practices`: an array of concept slugs that the exercise is helping students practice
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest)
@@ -221,7 +221,7 @@ Reasons for why an track might _not_ want to implement an exercise could be:
 Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
 
 - `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks
-- `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track.  Its length must be <= 255.
+- `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track. Its length must be <= 255.
 - `name`: the concept's name. Its length must be <= 255.
 
 ### Example
@@ -249,7 +249,33 @@ The key features are specified in the top-level `key_features` field which is de
 - `title`: a concise header for the key feature. Its length must be <= 25. Markdown is _not_ supported.
 - `content`: a description of the key feature. Its length must be <= 100. Markdown is _not_ supported.
 - `icon`: the icon to show for the feature. The following icons can be used:
-  - TODO: list icons
+  - `community`
+  - `concurrency`
+  - `cross-platform`
+  - `documentation`
+  - `dynamically-typed`
+  - `easy`
+  - `embeddable`
+  - `expressive`
+  - `extensible`
+  - `fast`
+  - `fun`
+  - `functional`
+  - `garbage`
+  - `general-purpose`
+  - `homoiconic`
+  - `interactive`
+  - `interop`
+  - `multi-paradigm`
+  - `portable`
+  - `powerful`
+  - `productive`
+  - `safe`
+  - `scientific`
+  - `shrink`
+  - `statically-typed`
+  - `tooling`
+  - `widely-used`
 
 Exactly 6 key features must be specified.
 
@@ -259,9 +285,9 @@ Exactly 6 key features must be specified.
 {
   "key_features": [
     {
-      "title": "Modern",
-      "content": "C# is a modern, fast-evolving language.",
-      "icon": "features-oop"
+      "title": "Fault tolerant",
+      "content": "Elixir runs on the Erlang VM, known for running low-latency, distributed and fault-tolerant systems.",
+      "icon": "safe"
     },
     ...
   ]
@@ -435,32 +461,32 @@ This is an example of what a valid `config.json` file can look like:
   ],
   "key_features": [
     {
-      "icon": "features-oop",
+      "icon": "expressive",
       "title": "Modern",
       "content": "C# is a modern, fast-evolving language."
     },
     {
-      "icon": "features-strongly-typed",
+      "icon": "statically-typed",
       "title": "Cross-platform",
       "content": "C# runs on almost any platform and chipset."
     },
     {
-      "icon": "features-functional",
+      "icon": "functional",
       "title": "Multi-paradigm",
       "content": "C# is primarily an object-oriented language, but also has lots of functional features."
     },
     {
-      "icon": "features-lazy",
+      "icon": "general-purpose",
       "title": "General purpose",
       "content": "C# can be used for a wide variety of workloads, like websites, console applications, and even games."
     },
     {
-      "icon": "features-declarative",
+      "icon": "tooling",
       "title": "Tooling",
       "content": "C# has excellent tooling, with linting and advanced refactoring options built-in."
     },
     {
-      "icon": "features-generic",
+      "icon": "documentation",
       "title": "Documentation",
       "content": "Documentation is excellent and exhaustive, making it easy to get started with C#."
     }
