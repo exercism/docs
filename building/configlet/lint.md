@@ -78,6 +78,29 @@ The `config.json` file should have the following checks:
 - The `"online_editor.indent_size"` value must be an integer >= 0 and <= 8
 - The `"online_editor.highlightjs_language"` key is required
 - The `"online_editor.highlightjs_language"` value must be a non-blank string¹
+- The `"files"` key is optional
+- The `"files"` value must be an object
+- The `"files.solution`" key is optional
+- The `"files.solution`" value must be an array
+- The `"files.solution`" values must be valid patterns⁴
+- The `"files.solution`" values must not have duplicates
+- The `"files.test`" key is optional
+- The `"files.test`" value must be an array
+- The `"files.test`" values must be valid patterns⁴
+- The `"files.test`" values must not have duplicates
+- The `"files.example`" key is optional
+- The `"files.example`" value must be an array
+- The `"files.example`" values must be valid patterns⁴
+- The `"files.example`" values must not have duplicates
+- The `"files.exemplar`" key is optional
+- The `"files.exemplar`" value must be an array
+- The `"files.exemplar`" values must be valid patterns⁴
+- The `"files.exemplar`" values must not have duplicates
+- The `"files.editor`" key is optional
+- The `"files.editor`" value must be an array
+- The `"files.editor`" values must be valid patterns⁴
+- The `"files.editor`" values must not have duplicates
+- Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example`, `"files.exemplar` or `"files.editor` array (no overlap)
 - The `"test_runner.average_run_time"` key is required if `status.test_runner` is equal to `true`
 - The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
 - The `"exercises"` key is required
@@ -390,3 +413,8 @@ The `config.json` file should have the following checks:
    > - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
    > - Lowercase the words _to_ and _as_.
    > - Lowercase the second part of Latin species names.
+4. Valid `files` pattern: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
+- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
+- `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
+- `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
+- `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
