@@ -14,7 +14,7 @@ There are different trade-offs between using the online editor or CLI:
 |            | Online editor                          | CLI                             |
 | ---------- | -------------------------------------- | ------------------------------- |
 | Installing | No                                     | Yes (e.g. SDK)                  |
-| Editing    | Browser                                | Your preferred IDE              |
+| Editing    | Browser                                | Your preferred text editor      |
 | Testing    | Run tests on website                   | Run tests locally               |
 | Debugging  | Limited support (only for some tracks) | Full support (depending on IDE) |
 
