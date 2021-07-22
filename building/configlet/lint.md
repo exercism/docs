@@ -422,6 +422,7 @@ The `config.json` file should have the following checks:
    - It only exists once in the track-level `config.json` file of a given Exercism track
    - It does not exist in the track-level `config.json` file of any other Exercism track
    - It does not exist in any `canonical-data.json` file in https://github.com/exercism/problem-specifications
+   - It does not exist anywhere else on Exercism
    - It matches the regular expression:
    ```
    ^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
