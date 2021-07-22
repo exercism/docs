@@ -127,7 +127,7 @@ The following per-test statuses are valid:
 
 > version: 2, 3
 
-The per-test `message` key is used to return the results of a test with a `status` of `fail` or `error`. It should be as human-readable as possible. Whatever is written here will be displayed to the student when their test does not pass. If there is no test failure or error message, either set the value to `null` or omit the key entirely. It is also permissible to output test suite output here. The `message` value is not limited in length.
+The per-test `message` key is used to return the results of a test with a `status` of `fail` or `error`. It should be as human-readable as possible. Whatever is written here will be displayed to the student when their test does not pass. If there is no test failure message or error message, either set the value to `null` or omit the key entirely. It is also permissible to output test suite output here. The `message` value is not limited in length.
 
 #### Output
 
