@@ -6,5 +6,47 @@
     "path": "using/README.md",
     "title": "Using Exercism",
     "blurb": "Learn how to make the most of our experience on Exercism"
+  },
+  {
+    "uuid": "7537b6e5-1065-4533-a6c1-3f4fd303e53f",
+    "slug": "feedback",
+    "path": "using/feedback/README.md",
+    "title": "Getting Feedback",
+    "blurb": "Learn how you can get feedback to help improve your code"
+  },
+  {
+    "uuid": "b1af280c-3671-48a2-8d6e-9bb02131d4f9",
+    "slug": "feedback/automated",
+    "path": "using/feedback/automated.md",
+    "title": "Automated Feedback",
+    "blurb": "Learn how Automated Feedback helps you improve your code"
+  },
+  {
+    "uuid": "440d5f48-8a97-48a0-8472-018b94d9e1ee",
+    "slug": "feedback/mentor",
+    "path": "using/feedback/mentor.md",
+    "title": "Mentor Feedback",
+    "blurb": "Learn how Mentor Feedback helps you improve your code"
+  },
+  {
+    "uuid": "4e6b1af9-76e8-41d8-9cc2-92406f464a27",
+    "slug": "solving-exercises",
+    "path": "using/solving-exercises/README.md",
+    "title": "Learn how to solve exercises",
+    "blurb": "Learn how to solve exercises on Exercism"
+  },
+  {
+    "uuid": "7b753e2a-bd68-4d68-bdd8-c356de4342b6",
+    "slug": "solving-exercises/working-locally",
+    "path": "using/solving-exercises/working-locally.md",
+    "title": "Solving Exercises Locally",
+    "blurb": "Learn how to solve exercises on your local machine"
+  },
+  {
+    "uuid": "d334a24f-43b5-4589-a1bb-977b40da2f62",
+    "slug": "solving-exercises/using-the-online-editor",
+    "path": "using/solving-exercises/using-the-online-editor.md",
+    "title": "Solving Exercises Online",
+    "blurb": "Learn how to solve exercises using the Online Editor"
   }
 ]
