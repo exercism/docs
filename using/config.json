@@ -15,10 +15,24 @@
     "blurb": "Learn how Automated Feedback helps you improve your code"
   },
   {
+    "uuid": "4e6b1af9-76e8-41d8-9cc2-92406f464a27",
+    "slug": "solving-exercises",
+    "path": "using/solving-exercises/README.md",
+    "title": "Learn how to solve exercises",
+    "blurb": "Learn how to solve exercises on Exercism"
+  },
+  {
     "uuid": "7b753e2a-bd68-4d68-bdd8-c356de4342b6",
     "slug": "solving-exercises/locally",
     "path": "using/solving-exercises/locally.md",
     "title": "Solving Exercises Locally",
     "blurb": "Learn how to solve exercises on your local machine"
+  },
+  {
+    "uuid": "d334a24f-43b5-4589-a1bb-977b40da2f62",
+    "slug": "solving-exercises/online",
+    "path": "using/solving-exercises/online.md",
+    "title": "Solving Exercises Online",
+    "blurb": "Learn how to solve exercises online"
   }
 ]
