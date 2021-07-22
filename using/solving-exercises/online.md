@@ -23,7 +23,7 @@ Once the tests have run, the test results will be displayed on the right.
 ### Debugging
 
 The online editor does not have an integrated debugger.
-Some tracks do support print-based debugging, where your code can output text that will be displayed in the results.
+Some tracks do support print-based debugging, where your code can output text that is displayed in the results.
 If a track supports this, instructions on how to use this feature are shown on the right-hand side.
 
 ## Submitting your Solution
