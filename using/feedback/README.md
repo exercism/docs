@@ -2,8 +2,8 @@
 
 There are two types of feedback you can get on a solution:
 
-1. [Automated Feedback](./automated.md)
-2. [Mentor Feedback](./mentor.md)
+1. [Automated Feedback](./automated)
+2. [Mentor Feedback](./mentor)
 
 ## What is the difference between Automated Feedback and Mentor Feedback?
 
