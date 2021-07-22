@@ -90,9 +90,6 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.concept[].uuid"` key is required
 - The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
-- The `"exercises.concept[].deprecated"` key is optional
-- The `"exercises.concept[].deprecated"` value must be a boolean value
-- The `"exercises.concept[].deprecated"` value must generate a warning if set to `false`
 - The `"exercises.concept[].concepts"` key is required
 - The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
 - The `"exercises.concept[].concepts"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
@@ -121,9 +118,6 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.practice[].uuid"` key is required
 - The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
-- The `"exercises.practice[].deprecated"` key is optional
-- The `"exercises.practice[].deprecated"` value must be a boolean value
-- The `"exercises.practice[].deprecated"` value must generate a warning if set to `false`
 - The `"exercises.practice[].difficulty"` key is required
 - The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
 - The `"exercises.practice[].practices"` key is required
