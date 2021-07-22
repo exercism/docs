@@ -414,10 +414,10 @@ The `config.json` file should have the following checks:
    > - Lowercase the words _to_ and _as_.
    > - Lowercase the second part of Latin species names.
 4. Valid `files` pattern: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
-- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
-- `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
-- `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
-- `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
+   - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
+   - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
+   - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
+   - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
 5. Unique version 4 UUID string: A string that satisfies all of these conditions:
    - It only exists once in the track-level `config.json` file of a given Exercism track
    - It does not exist in the track-level `config.json` file of any other Exercism track
