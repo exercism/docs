@@ -1,4 +1,4 @@
-# Solving Exercises Online
+# Solving Exercises Using the Online Editor
 
 Solving exercises online using the website's online editor allows you to quickly get started with a track.
 With the online editor, you don't have to install anything on your local machine, everything works within the browser (including running the tests).
