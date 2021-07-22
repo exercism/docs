@@ -112,7 +112,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].name"` key is required
 - The `"exercises.concept[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.concept[].uuid"` key is required
-- The `"exercises.concept[].uuid"` value must be a unique, lowercased v4 UUID string
+- The `"exercises.concept[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"exercises.concept[].concepts"` key is required
 - The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
 - The `"exercises.concept[].concepts"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
@@ -140,7 +140,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].name"` key is required
 - The `"exercises.practice[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.practice[].uuid"` key is required
-- The `"exercises.practice[].uuid"` value must be a unique, lowercased v4 UUID string
+- The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"exercises.practice[].difficulty"` key is required
 - The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
 - The `"exercises.practice[].practices"` key is required
@@ -170,7 +170,7 @@ The `config.json` file should have the following checks:
 - The `"concepts"` value must be an array
 - The `"concepts"` value must have a entry with a matching `"slug"` property for each concept listed in a concept exercise's `"concepts"` property
 - The `"concepts[].uuid"` key is required
-- The `"concepts[].uuid"` value must be a unique, lowercased v4 UUID string
+- The `"concepts[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"concepts[].slug"` key is required
 - The `"concepts[].slug"` value must be a kebab-case string² with length <= 255
 - The `"concepts[].name"` key is required
@@ -414,7 +414,21 @@ The `config.json` file should have the following checks:
    > - Lowercase the words _to_ and _as_.
    > - Lowercase the second part of Latin species names.
 4. Valid `files` pattern: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
-- `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
-- `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
-- `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
-- `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
+   - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
+   - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
+   - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
+   - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
+5. Unique version 4 UUID string: A string that satisfies all of these conditions:
+   - It only exists once in the track-level `config.json` file of a given Exercism track
+   - It does not exist in the track-level `config.json` file of any other Exercism track
+   - It does not exist in any `canonical-data.json` file in https://github.com/exercism/problem-specifications
+   - It does not exist anywhere else on Exercism
+   - It matches the regular expression:
+   ```
+   ^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
+   ```
+   For example, the below UUID has the correct form:
+   ```
+   d334ffe3-657e-4725-a950-290b284b6d9f
+   ```
+   You can run `configlet uuid` to generate a suitable UUID.
