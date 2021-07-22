@@ -4,8 +4,8 @@ The primary way in which Exercism helps you learn is by solving exercises.
 
 There are two ways to solve exercises on Exercism:
 
-1. [Online via the website's in-browser editor](./using-the-online-editor)
-2. [On your local machine via the CLI](./working-locally)
+1. [Online via the website's in-browser editor](./solving-exercises/using-the-online-editor)
+2. [On your local machine via the CLI](./solving-exercises/working-locally)
 
 ## Which option should I choose?
 
