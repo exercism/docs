@@ -11,11 +11,11 @@ There are two ways to solve exercises on Exercism:
 
 There are different trade-offs between using the online editor or CLI:
 
-|            | Online editor                          | CLI                             |
-| ---------- | -------------------------------------- | ------------------------------- |
-| Installing | No                                     | Yes (e.g. SDK)                  |
-| Editing    | Browser                                | Your preferred IDE              |
-| Testing    | Run tests on website                   | Run tests locally               |
-| Debugging  | Limited support (only for some tracks) | Full support (depending on IDE) |
+|            | Online editor                          | CLI                                          |
+| ---------- | -------------------------------------- | -------------------------------------------- |
+| Installing | No                                     | Yes (e.g. SDK)                               |
+| Editing    | Browser                                | Your preferred IDE                           |
+| Testing    | Run tests on website                   | Run tests locally                            |
+| Debugging  | Limited support (only for some tracks) | Full support (depending on your environment) |
 
 In general, the online editor is ideal for starting new tracks, whereas the CLI-based approach is great if you want to use your own, personalized coding environment.
