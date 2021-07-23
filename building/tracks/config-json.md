@@ -285,7 +285,7 @@ Exactly 6 key features must be specified.
 {
   "key_features": [
     {
-      "title": "Fault tolerant",
+      "title": "Fault-tolerant",
       "content": "Elixir runs on the Erlang VM, known for running low-latency, distributed and fault-tolerant systems.",
       "icon": "safe"
     },
