@@ -466,7 +466,7 @@ This is an example of what a valid `config.json` file can look like:
       "content": "C# is a modern, fast-evolving language."
     },
     {
-      "icon": "statically-typed",
+      "icon": "cross-platform",
       "title": "Cross-platform",
       "content": "C# runs on almost any platform and chipset."
     },
