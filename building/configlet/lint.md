@@ -113,6 +113,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.concept[].uuid"` key is required
 - The `"exercises.concept[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"exercises.concept[].uuid"` value for each exercise must never change
 - The `"exercises.concept[].concepts"` key is required
 - The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
 - The `"exercises.concept[].concepts"` value must be an empty array if `"exercises.concept[].status"` is equal to `deprecated`
@@ -141,6 +142,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.practice[].uuid"` key is required
 - The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"exercises.practice[].uuid"` value for each exercise must never change
 - The `"exercises.practice[].difficulty"` key is required
 - The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
 - The `"exercises.practice[].practices"` key is required
@@ -171,6 +173,7 @@ The `config.json` file should have the following checks:
 - The `"concepts"` value must have a entry with a matching `"slug"` property for each concept listed in a concept exercise's `"concepts"` property
 - The `"concepts[].uuid"` key is required
 - The `"concepts[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"concepts[].uuid"` value for each concept must never change
 - The `"concepts[].slug"` key is required
 - The `"concepts[].slug"` value must be a kebab-case string² with length <= 255
 - The `"concepts[].name"` key is required
