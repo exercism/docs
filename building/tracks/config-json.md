@@ -471,7 +471,7 @@ This is an example of what a valid `config.json` file can look like:
       "content": "C# runs on almost any platform and chipset."
     },
     {
-      "icon": "functional",
+      "icon": "multi-paradigm",
       "title": "Multi-paradigm",
       "content": "C# is primarily an object-oriented language, but also has lots of functional features."
     },
