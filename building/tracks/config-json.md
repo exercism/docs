@@ -261,7 +261,7 @@ The key features are specified in the top-level `key_features` field which is de
   - `fast`
   - `fun`
   - `functional`
-  - `garbage`
+  - `garbage-collected`
   - `general-purpose`
   - `homoiconic`
   - `interactive`
@@ -272,7 +272,7 @@ The key features are specified in the top-level `key_features` field which is de
   - `productive`
   - `safe`
   - `scientific`
-  - `shrink`
+  - `small`
   - `statically-typed`
   - `tooling`
   - `widely-used`
