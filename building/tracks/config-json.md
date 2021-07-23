@@ -256,6 +256,7 @@ The key features are specified in the top-level `key_features` field which is de
   - `dynamically-typed`
   - `easy`
   - `embeddable`
+  - `evolving`
   - `expressive`
   - `extensible`
   - `fast`
@@ -264,6 +265,7 @@ The key features are specified in the top-level `key_features` field which is de
   - `garbage-collected`
   - `general-purpose`
   - `homoiconic`
+  - `immutable`
   - `interactive`
   - `interop`
   - `multi-paradigm`
@@ -273,8 +275,10 @@ The key features are specified in the top-level `key_features` field which is de
   - `safe`
   - `scientific`
   - `small`
+  - `stable`
   - `statically-typed`
   - `tooling`
+  - `web`
   - `widely-used`
 
 Exactly 6 key features must be specified.
