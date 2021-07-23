@@ -181,7 +181,7 @@ The `config.json` file should have the following checks:
 - The `"key_features"` key is optional
 - The `"key_features"` value must be an array with length = 6
 - The `"key_features[].icon"` key is required
-- The `"key_features[].icon"` value must be a string that matches one of the pre-defined icon values (TODO: add link to list of icons)
+- The `"key_features[].icon"` value must use one of the [pre-defined icon values](../tracks/config-json#keyfeatures)
 - The `"key_features[].title"` key is required
 - The `"key_features[].title"` value must be a non-blank string¹ with length <= 25
 - The `"key_features[].content"` key is required
