@@ -248,7 +248,7 @@ The key features are specified in the top-level `key_features` field which is de
 
 - `title`: a concise header for the key feature. Its length must be <= 25. Markdown is _not_ supported.
 - `content`: a description of the key feature. Its length must be <= 100. Markdown is _not_ supported.
-- `icon`: the icon to show for the feature. The following icons can be used:
+- `icon`: the icon to show for the feature. You can choose an icon that you think fits, regardless of its name. The following icons can be used:
   - `community`
   - `concurrency`
   - `cross-platform`
