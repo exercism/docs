@@ -50,6 +50,13 @@
     "blurb": "Learn how to solve exercises using the Online Editor"
   },
   {
+    "uuid": "961f4650-83ea-4907-8493-b9ef5ded757e",
+    "slug": "legal",
+    "path": "using/legal/README.md",
+    "title": "Legal Information",
+    "blurb": ""
+  },
+  {
     "uuid": "0cf0ca4b-0036-449e-912f-5a095bcd9385",
     "slug": "legal/code-of-conduct",
     "path": "using/legal/code-of-conduct.md",
