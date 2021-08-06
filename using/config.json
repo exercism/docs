@@ -48,5 +48,54 @@
     "path": "using/solving-exercises/using-the-online-editor.md",
     "title": "Using the online editor",
     "blurb": "Learn how to solve exercises using the Online Editor"
+  },
+  {
+    "uuid": "0cf0ca4b-0036-449e-912f-5a095bcd9385",
+    "slug": "legal/code-of-conduct",
+    "path": "using/legal/code-of-conduct.md",
+    "title": "Code of Conduct",
+    "blurb": ""
+  },
+  {
+    "uuid": "974067b7-f3af-4a56-a0a7-f457b5291ba7",
+    "slug": "legal/terms-of-service",
+    "path": "using/legal/terms-of-service.md",
+    "title": "Terms of Service",
+    "blurb": ""
+  },
+  {
+    "uuid": "af553af4-2ca9-4d44-b7b9-3af18b736115",
+    "slug": "legal/privacy-policy",
+    "path": "using/legal/privacy-policy.md",
+    "title": "Privacy Policy",
+    "blurb": ""
+  },
+  {
+    "uuid": "a560f7ab-ef0d-4806-9337-ca490287fab0",
+    "slug": "legal/cookie-policy",
+    "path": "using/legal/cookie-policy.md",
+    "title": "Cookie Policy",
+    "blurb": ""
+  },
+  {
+    "uuid": "dd50a9c1-0c64-4c4c-b759-ad4af06c446f",
+    "slug": "legal/accessibility",
+    "path": "using/legal/accessibility.md",
+    "title": "Cookie Policy",
+    "blurb": ""
+  },
+  {
+    "uuid": "75735e59-f833-442a-92da-f88f76644736",
+    "slug": "contact",
+    "path": "using/contact.md",
+    "title": "Contact Us",
+    "blurb": ""
+  },
+  {
+    "uuid": "0db11048-891a-4bd1-8299-8119fdf20beb",
+    "slug": "report-abuse",
+    "path": "using/report-abuse.md",
+    "title": "Report Abuse",
+    "blurb": ""
   }
 ]
