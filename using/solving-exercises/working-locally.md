@@ -4,7 +4,7 @@ Solving exercises on your local machine allows you to do all the coding in an en
 
 ## Installing the CLI
 
-To solve an Exercise on your local machine, you first need to install and configure the Exercism Command Line Interface using [these instructions](https://exercism.io/cli).
+To solve an Exercise on your local machine, you first need to install and configure the Exercism Command Line Interface using [these instructions](https://exercism.io/cli-walkthrough).
 
 ### Configuration
 
