@@ -35,7 +35,7 @@ Some parts of the track can be displayed in [widgets](./widgets.md), such as [co
 
 ## Style guide
 
-All documents should adhere to the [style guide](../../contributing/standards/style-guide.md). Markdown documents should also adhere to our [Markdown standards](../../contributing/standards/markdown.md).
+All documents should adhere to the [style guide](../../building/markdown/style-guide.md). Markdown documents should also adhere to our [Markdown standards](../../building/markdown/markdown.md).
 
 ## Example
 
