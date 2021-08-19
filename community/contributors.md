@@ -16,4 +16,4 @@ There are lots of different ways to help with Exercism:
 
 ...and much more.
 
-Visit our dedicated [Contributing Section](/contributing) to explore all the tasks that currently need doing.
+Visit our dedicated [Contributing Section](/building) to explore all the tasks that currently need doing.
