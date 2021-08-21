@@ -4,8 +4,7 @@
 
 Exercism's two co-founders are [Katrina Owen](http://www.kytrinyx.com/) and [Jeremy Walker](https://ihid.info).
 
-Exercism was originally founded by [Katrina](http://www.kytrinyx.com/).
-Katrina is a polyglot developer and Ruby Hero award winner who accidentally became a developer while pursuing a degree in molecular biology.
+Exercism was originally founded by [Katrina](http://www.kytrinyx.com/), a polyglot developer and winner of the "Ruby Hero" award who accidentally became a developer while pursuing a degree in molecular biology.
 She began nitpicking code back in 2006 while volunteering at JavaRanch, and got hooked.
 When programming, her focus is on automation, workflow optimization, and refactoring.
 She cares deeply about open source and contributes to several projects outside of Exercism.
