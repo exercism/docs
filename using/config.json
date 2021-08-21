@@ -104,5 +104,12 @@
     "path": "using/report-abuse.md",
     "title": "Report Abuse",
     "blurb": ""
+  },
+  {
+    "uuid": "a89d630d-44d7-449a-a427-3f7815934209",
+    "slug": "faqs",
+    "path": "using/faqs.md",
+    "title": "Frequently asked questions",
+    "blurb": "An assortment of commonly asked questions"
   }
 ]
