@@ -111,5 +111,33 @@
     "path": "using/faqs.md",
     "title": "Frequently asked questions",
     "blurb": "An assortment of commonly asked questions"
+  },
+  {
+    "uuid": "142e218e-746d-4d00-80f5-df3c3ccb2392",
+    "slug": "licenses",
+    "path": "using/licenses/README.md",
+    "title": "Licenses used on Exercism",
+    "blurb": "A copy of the various licenses used on Exercism"
+  },
+  {
+    "uuid": "c3b90289-75d1-49d8-9a26-432b911f9d12",
+    "slug": "licenses/mit",
+    "path": "using/licenses/mit",
+    "title": "The MIT Licence",
+    "blurb": ""
+  },
+  {
+    "uuid": "92b67c9c-ddf4-403e-8635-44ceab72f58a",
+    "slug": "licenses/mit",
+    "path": "using/licenses/mit",
+    "title": "The AGPL 3 Licence",
+    "blurb": ""
+  },
+  {
+    "uuid": "e3bc22c9-ea28-45ab-8beb-22cea39bfe77",
+    "slug": "licenses/mit",
+    "path": "using/licenses/mit",
+    "title": "The Creative Commons NC SA 4 Licence",
+    "blurb": ""
   }
 ]
