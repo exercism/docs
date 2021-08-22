@@ -130,7 +130,7 @@ You agree that all content (**User Contributed Content**) that you have previous
 You grant Exercism the perpetual and irrevocable right and license to process, copy, distribute and to commercially exploit all such User Contributed Content that you contribute.
 You should understand that this right will persist even if your User Contributed Content is subsequently removed by you OR if you subsequently delete your account on our Platform.
 
-Using our right to license the content, we will distribute your User Contributed Content under the terms of the Creative Commons (CC BY-NC-SA) licence.
+Using our right to license the content, we will distribute your User Contributed Content under the terms of the [Creative Commons BY-NC-SA licence](/docs/using/licenses/cc-by-nc-sa).
 This means that any third parties using or adapting your content should attribute Exercism as the source.
 The **CC BY-NC-SA** Creative Commons license terms are explained in more detail below.
 
