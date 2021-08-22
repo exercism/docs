@@ -128,15 +128,15 @@
   },
   {
     "uuid": "92b67c9c-ddf4-403e-8635-44ceab72f58a",
-    "slug": "licenses/mit",
-    "path": "using/licenses/mit",
+    "slug": "licenses/agpl",
+    "path": "using/licenses/agpl",
     "title": "The AGPL 3 Licence",
     "blurb": ""
   },
   {
     "uuid": "e3bc22c9-ea28-45ab-8beb-22cea39bfe77",
-    "slug": "licenses/mit",
-    "path": "using/licenses/mit",
+    "slug": "licenses/cc-by-nc-sa",
+    "path": "using/licenses/cc-by-nc-sa",
     "title": "The Creative Commons NC SA 4 Licence",
     "blurb": ""
   }
