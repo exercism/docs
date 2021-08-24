@@ -13,9 +13,9 @@ software coding skills.
 
 Exercism is run and managed by Exercism ("We", "Us"), a not-profit-company registered in the UK with Company Number 11733062. You might also want to read:
 
-- Our [Terms of Service](../terms-of-service)
-- Our community [Code of Conduct](../code-of-conduct)
-- Our [Cookie Policy](../cookie-policy)
+- Our [Terms of Service](/docs/using/legal/terms-of-service)
+- Our community [Code of Conduct](/docs/using/legal/code-of-conduct)
+- Our [Cookie Policy](/docs/using/legal/cookie-policy)
 
 Our approach to your privacy is very straightforward to understand.
 
@@ -64,7 +64,7 @@ It is important to note that any content you upload to the site (including, but 
 
 ### Cookies
 
-Please refer to our [Cookie Policy](../cookie-policy) for details on the cookies we store.
+Please refer to our [Cookie Policy](/docs/using/legal/cookie-policy) for details on the cookies we store.
 
 ## How we use the information we've collected
 

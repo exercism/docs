@@ -13,8 +13,8 @@ The following Terms of Service (these **Terms**) are an agreement between **Exer
 
 You might also want to read:
 
-- Our [Privacy Policy](https://exercism.io/privacy)
-- Our community [Code of Conduct](https://exercism.io/code-of-conduct)
+- Our [Privacy Policy](/docs/using/legal/privacy-policy)
+- Our community [Code of Conduct](/docs/using/legal/code-of-conduct)
 
 Our general approach should be fairly straightforward to understand:
 
@@ -37,7 +37,7 @@ If any provision of these Terms is found to be illegal, void or unenforceable, t
 
 We reserve the right to modify these Terms at any time by posting revised Terms on https://exercism.io. These Terms apply to all who access or use our Platform, registered or otherwise.
 
-Any personal information submitted to our Platform is subject to our [Privacy Policy](https://exercism.io/privacy).
+Any personal information submitted to our Platform is subject to our [Privacy Policy](/docs/using/legal/privacy-policy).
 
 ### Definitions
 
