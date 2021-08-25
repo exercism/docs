@@ -35,7 +35,8 @@ Some parts of the track can be displayed in [widgets](/docs/building/tracks#exer
 
 ## Style guide
 
-All documents should adhere to the [style guide](../../building/markdown/style-guide.md). Markdown documents should also adhere to our [Markdown standards](../../building/markdown/markdown.md).
+All documents should adhere to the [style guide](/docs/building/markdown/style-guide). Markdown documents
+should also adhere to our [Markdown standards](/docs/building/markdown/markdown).
 
 ## Example
 

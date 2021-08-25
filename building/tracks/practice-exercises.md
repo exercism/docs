@@ -100,7 +100,7 @@ exercises
 
 **Presence:** Required if the exercise implements a Problem Specifications Exercise with an `introduction.md` file
 
-If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `introduction.md` file. configlet has functionality to automatically [sync the contents](../configlet/generating-documents#document-practice-exercises-introductionmd-file) of this file.
+If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `introduction.md` file. configlet has functionality to automatically [sync the contents](/docs/building/configlet/generating-documents#document-practice-exercises-introductionmd-file) of this file.
 
 If the exercise is _not_ based on a Problem Specifications Exercise, consider the following:
 
@@ -142,7 +142,7 @@ As part of his teenage rebellion, Bob has decided to only communicate using ASCI
 
 **Presence:** Required
 
-If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `instructions.md` file (or `description.md` file if there is no `instructions.md` file). configlet has functionality to automatically [sync the contents](../configlet/generating-documents#document-practice-exercises-instructionsmd-file) of this file.
+If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `instructions.md` file (or `description.md` file if there is no `instructions.md` file). configlet has functionality to automatically [sync the contents](/docs/building/configlet/generating-documents#document-practice-exercises-instructionsmd-file) of this file.
 
 If the exercise is _not_ based on a Problem Specifications Exercise, consider the following:
 

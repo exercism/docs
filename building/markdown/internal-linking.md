@@ -4,7 +4,7 @@ Links rendered via Exercism's Markdown parser are checked to see if they are int
 
 A tooltip for a concept might look like this:
 
-<img src="../../.imgs/concept-tooltip.png" height="200">
+<img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/concept-tooltip.png" height="200">
 
 ## Usage
 
