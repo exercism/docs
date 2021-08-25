@@ -46,4 +46,4 @@ The story facilitates defining functions:
 [concepts-inheritance]: ../concepts/inheritance.md
 [types-integer]: ../types/integer.md
 [types-string]: ../types/string.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/wizards-and-warriors/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/wizards-and-warriors/.docs/instructions.md

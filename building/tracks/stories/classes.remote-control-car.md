@@ -36,5 +36,5 @@ These are example tasks that fit the remote control car exercise:
 
 [concepts-objects]: ../concepts/objects.md
 [types-class]: ../types/class.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/elons-toys/.docs/instructions.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/remote-control-car/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/elons-toys/.docs/instructions.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/remote-control-car/.docs/instructions.md

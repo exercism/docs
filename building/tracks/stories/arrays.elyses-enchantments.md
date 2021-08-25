@@ -95,10 +95,10 @@ These are examples of tasks that fit the story of you wanting to re-arrange card
 - [`types/array`][types-array]
 
 [types-array]: ../types/array.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/elyses-enchantments/.docs/instructions.md
-[implementation-javascript-2]: ../../languages/javascript/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md
-[implementation-javascript-3]: ../../languages/javascript/exercises/concept/elyses-destructured-enchantments/.docs/instructions.md
-[implementation-javascript-4]: ../../languages/javascript/exercises/concept/elyses-transformative-enchantments/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md
+[implementation-javascript-2]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md
+[implementation-javascript-3]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-destructured-enchantments/.docs/instructions.md
+[implementation-javascript-4]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-transformative-enchantments/.docs/instructions.md
 [implementation-javascript-research-1-a]: https://github.com/exercism/research_experiment_1/tree/master/exercises/javascript-1-a
 [implementation-javascript-research-2-a]: https://github.com/exercism/research_experiment_1/tree/master/exercises/javascript-2-a
-[implementation-swift]: ../../languages/swift/exercises/concept/magician-in-training/.docs/instructions.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/magician-in-training/.docs/instructions.md

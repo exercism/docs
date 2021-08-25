@@ -71,7 +71,7 @@ All the translation texts are Klingon to English.
 [types-future]: ../types/future.md
 [types-string]: ../types/string.md
 [types-number]: ../types/number.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/promises/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/promises/.docs/instructions.md
 
 ## N.B.
 

@@ -29,6 +29,6 @@ These are example tasks that fit the employee badges exercise:
 
 [types-null]: ../types/null.md
 [types-nullable]: ../types/nullable.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/tim-from-marketing/.docs/instructions.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/name-badge/.docs/instructions.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/nullability/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/tim-from-marketing/.docs/instructions.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/name-badge/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/nullability/.docs/instructions.md

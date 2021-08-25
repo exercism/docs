@@ -31,4 +31,4 @@ These are example tasks that fit the pizza delivery exercise:
 - [`types/sum_type`][types-sum_type]
 
 [types-sum_type]: ../types/sum_type.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/valentines-day/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/valentines-day/.docs/instructions.md

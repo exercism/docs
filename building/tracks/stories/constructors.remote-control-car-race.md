@@ -34,4 +34,4 @@ These are example tasks that fit the remote control car race exercise:
 [concepts-constructors]: ../concepts/constructors.md
 [concepts-objects]: ../concepts/objects.md
 [types-class]: ../types/class.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/need-for-speed/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/need-for-speed/.docs/instructions.md

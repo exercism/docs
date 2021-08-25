@@ -32,5 +32,5 @@ These are example tasks that fit the appointment scheduler exercise:
 - [`types/datetime`][types-datetime]
 
 [types-datetime]: ../types/datetime.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/booking-up-for-beauty/.docs/instructions.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/booking-up-for-beauty/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/booking-up-for-beauty/.docs/instructions.md

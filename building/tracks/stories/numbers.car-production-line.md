@@ -32,5 +32,5 @@ These are example tasks that fit the car production line exercise:
 [types-number]: ../types/number.md
 [types-integer]: ../types/integer.md
 [types-floating_point_number]: ../types/floating_point_number.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/cars-assemble/.docs/instructions.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/cars-assemble/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/cars-assemble/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/cars-assemble/.docs/instructions.md

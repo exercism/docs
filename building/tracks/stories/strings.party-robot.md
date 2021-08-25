@@ -40,4 +40,4 @@ You will be sitting next to <neighbour-name>!
 - [`types/string`][types-string]
 
 [types-string]: ../types/string.md
-[implementation-go]: ../../languages/go/exercises/concept/strings/.docs/instructions.md
+[implementation-go]: https://github.com/exercism/go/blob/main/exercises/concept/strings/.docs/instructions.md

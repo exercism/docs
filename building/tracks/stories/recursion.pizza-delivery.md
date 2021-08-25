@@ -38,5 +38,5 @@ These are example tasks that fit the pizza delivery exercise:
 - [`concepts/recursion`][concepts-recursion]
 
 [concepts-recursion]: ../concepts/recursion.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/pizza-pricing/.docs/instructions.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/recursion/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/pizza-pricing/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/recursion/.docs/instructions.md

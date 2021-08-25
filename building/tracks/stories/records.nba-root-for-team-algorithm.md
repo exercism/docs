@@ -27,4 +27,4 @@ These are example tasks that fit the NBA root-for-team algorithm exercise:
 - [`types/record`][types-record]
 
 [types-record]: ../types/record.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/bandwagoner/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/bandwagoner/.docs/instructions.md

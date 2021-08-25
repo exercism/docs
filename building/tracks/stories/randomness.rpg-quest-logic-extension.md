@@ -29,4 +29,4 @@ Having found the kidnappers, Annalyn considers which of the following actions sh
 
 - [Julia: annalyns-infiltration2][implementation-julia]
 
-[implementation-julia]: ../../languages/julia/exercises/concept/annalyns-infiltration2/.docs/instructions.md
+[implementation-julia]: https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration2/.docs/instructions.md

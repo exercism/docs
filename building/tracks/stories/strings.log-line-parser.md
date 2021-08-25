@@ -35,10 +35,10 @@ These are example tasks that fit the log line parser:
 - [`types/string`][types-string]
 
 [types-string]: ../types/string.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/log-levels/.docs/instructions.md
-[implementation-cpp]: ../../languages/cpp/exercises/concept/strings/.docs/instructions.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/log-levels/.docs/instructions.md
-[implementation-go]: ../../languages/go/exercises/concept/strings-package/.docs/instructions.md
-[implementation-java]: ../../languages/java/exercises/concept/strings/.docs/instructions.md
-[implementation-python]: ../../languages/python/exercises/concept/processing-logs/.docs/instructions.md
-[implementation-ruby]: ../../languages/ruby/exercises/concept/strings/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/log-levels/.docs/instructions.md
+[implementation-cpp]: https://github.com/exercism/cpp/blob/main/exercises/concept/strings/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/log-levels/.docs/instructions.md
+[implementation-go]: https://github.com/exercism/go/blob/main/exercises/concept/strings-package/.docs/instructions.md
+[implementation-java]: https://github.com/exercism/java/blob/main/exercises/concept/strings/.docs/instructions.md
+[implementation-python]: https://github.com/exercism/python/blob/main/exercises/concept/processing-logs/.docs/instructions.md
+[implementation-ruby]: https://github.com/exercism/ruby/blob/main/exercises/concept/strings/.docs/instructions.md

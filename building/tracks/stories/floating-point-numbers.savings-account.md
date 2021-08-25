@@ -27,5 +27,5 @@ These are example tasks that fit the savings account exercise:
 - [`types/floating_point_number`][types-floating_point_number]
 
 [types-floating_point_number]: ../types/floating_point_number.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/interest-is-interesting/.docs/instructions.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/interest-is-interesting/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/interest-is-interesting/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/interest-is-interesting/.docs/instructions.md

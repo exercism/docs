@@ -28,5 +28,5 @@ These are example tasks that fit the number guessing game exercise:
 - [`concepts/pattern_matching`][concepts-pattern_matching]
 
 [concepts-pattern_matching]: ../concepts/pattern_matching.md
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/guessing-game/.docs/instructions.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/guessing-game/.docs/instructions.md
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/guessing-game/.docs/instructions.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/guessing-game/.docs/instructions.md

@@ -33,4 +33,4 @@ Example tasks:
 
 [concepts-objects]: ../concepts/objects.md
 [types-class]: ../types/class.md
-[implementation-ruby]: ../../languages/ruby/exercises/concept/instance-variables/.docs/instructions.md
+[implementation-ruby]: https://github.com/exercism/ruby/blob/main/exercises/concept/instance-variables/.docs/instructions.md

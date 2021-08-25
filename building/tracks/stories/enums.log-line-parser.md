@@ -30,7 +30,7 @@ These are example tasks that fit the log line parser:
 - [Python: log-levels][implementation-python]
 - [Swift: enums][implementation-swift]
 
-[implementation-csharp]: ../../languages/csharp/exercises/concept/logs-logs-logs/.docs/instructions.md
-[implementation-python]: ../../languages/python/exercises/concept/log-levels/.docs/instructions.md
-[implementation-rust]: ../../languages/rust/exercises/concept/enums/.docs/instructions.md
-[implementation-swift]: ../../languages/swift/exercises/concept/log-lines/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/logs-logs-logs/.docs/instructions.md
+[implementation-python]: https://github.com/exercism/python/blob/main/exercises/concept/log-levels/.docs/instructions.md
+[implementation-rust]: https://github.com/exercism/rust/blob/main/exercises/concept/enums/.docs/instructions.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/log-lines/.docs/instructions.md
