@@ -5,7 +5,7 @@
 # Comment Copy Guidelines
 
 This document sets guidelines for the comments produced by the analyzer. The
-[Feedback guidelines](/docs/building/tooling/test-runners/feedback-guidelines) talk about _when_ to comment and
+[Feedback guidelines](/docs/building/tooling/analyzers/feedback-guidelines) talk about _when_ to comment and
 _what_ to comment. This document talks mostly about _how_ to comment.
 
 ## Working directory for contents
