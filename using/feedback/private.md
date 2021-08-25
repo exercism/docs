@@ -1,4 +1,4 @@
-# Feedback from a friend
+# Private feedback
 
 By default, when you submit your solution for mentoring, it is sent to our team of volunteer mentors, one of whom will choose to give feedback on it.
 However, sometimes you might prefer to receive feedback from someone you know, rather than one of our mentors.
