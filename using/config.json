@@ -36,6 +36,13 @@
     "blurb": "Learn about getting feedback privately from a friend or colleague"
   },
   {
+    "uuid": "6ec45045-8b00-42f5-93dd-e4cf20a0b237",
+    "slug": "feedback/guide-to-being-mentored",
+    "path": "using/feedback/guide-to-being-mentored.md",
+    "title": "Guide to being mentored",
+    "blurb": "Learn how to make the most out of being mentored on Exercism"
+  },
+  {
     "uuid": "4e6b1af9-76e8-41d8-9cc2-92406f464a27",
     "slug": "solving-exercises",
     "path": "using/solving-exercises/README.md",
