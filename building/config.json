@@ -631,13 +631,6 @@
     "blurb": ""
   },
   {
-    "uuid": "5ec67720-4624-4edf-a268-16a12a2f6b46",
-    "slug": "product/credits",
-    "path": "building/product/credits.md",
-    "title": "Credits",
-    "blurb": ""
-  },
-  {
     "uuid": "c1ca8b66-9ed3-4ad2-9695-b6f4732bed5f",
     "slug": "product/tasks",
     "path": "building/product/tasks.md",
