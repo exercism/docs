@@ -1,6 +1,6 @@
 # Practice Exercises
 
-[Practice Exercises](../../product/practice-exercises.md) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
+[Practice Exercises](/docs/building/product/practice-exercises) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
 
 ## Metadata
 

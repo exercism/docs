@@ -1,0 +1,24 @@
+# Product Docs
+
+These documents outline the product decisions and thinking behind Exercism.
+They aim to present a picture of why things on Exercism work the way they do.
+
+## Exercism Concepts
+
+- [Reputation](/docs/building/product/reputation)
+- [Tasks](/docs/building/product/tasks)
+
+## Language Tracks
+
+- [General info](/docs/building/product/tracks)
+
+### Exercises
+
+- [Practice Exercises](/docs/building/product/practice-exercises)
+- [Concept Exercises](/docs/building/product/concept-exercises)
+
+## Tooling
+
+- [Test Runners](/docs/building/product/test-runners)
+- [Representers](/docs/building/product/representers)
+- [Analyzers](/docs/building/product/analyzers)
