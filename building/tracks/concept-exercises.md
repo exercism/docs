@@ -128,7 +128,7 @@ The `introduction.md` document introduces the exercise's concept(s) to the stude
 
 If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows referring to concept introductions through placeholders: `%{concept:<concept-slug>}`.
 
-[configlet](/docs/building/tracks/configlet/generating-documents) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction` contents.
+[configlet](/docs/building/configlet/generating-documents) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction` contents.
 
 The Exercism website only knows about the `introduction.md` document. It is the track's responsibility to generate the `introduction.md` when a template file is used.
 

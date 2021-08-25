@@ -14,12 +14,12 @@ All concept and practices exercises of a track involve _concepts_. These concept
 
 Tracks have two types of exercises:
 
-- Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](/docs/building/tracks) for more information.
-- Practice exercise: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks) for more information.
+- Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](/docs/building/tracks/concept-exercises) for more information.
+- Practice exercise: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
 
 ## Shared files
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks) for more information.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
 ## Config
 
@@ -31,7 +31,7 @@ TODO: describe the `docs` directory's contents
 
 ## Widgets
 
-Some parts of the track can be displayed in [widgets](/docs/building/tracks#exercisewidget).
+Some parts of the track can be displayed in [widgets](/docs/building/markdown/widgets).
 
 ## Style guide
 
