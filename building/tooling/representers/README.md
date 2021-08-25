@@ -33,7 +33,7 @@ If you would like to create a Representer for a language that currently does not
 
 This directory contains the following information:
 
-- **[`creating-from-scratch.md`](/docs/building/tooling/representers/creating-from-scratch):** Information on creating a Representer from scratch.
-- **[`interface.md`](/docs/building/tooling/representers/interface):** The Representer interface.
-- **[`normalization.md`](/docs/building/tooling/representers/normalization):** Information on how to normalize representations for the highest efficiency.
-- **[`docker.md`](/docs/building/tooling/representers/docker):** How to build a Docker image with Docker for local testing and deployment.
+- [Creating a Representer from scratch](/docs/building/tooling/representers/creating-from-scratch)
+- [The Representer interface](/docs/building/tooling/representers/interface):\*\* .
+- [How to normalize representations for the highest efficiency](/docs/building/tooling/representers/normalization)
+- [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/representers/docker)

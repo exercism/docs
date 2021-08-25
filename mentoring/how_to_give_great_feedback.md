@@ -84,5 +84,5 @@ As you gain experience mentoring, you will get a feel for the different ways stu
 ## Unsure of something? Chat to other mentors?
 
 One of the best things about being an Exercism mentor is the community of other mentors you can learn from.
-If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace]() and ask away!
+If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace](https://exercism-team.slack.com/) and ask away!
 You'll probably find people you can help there too 🙂
