@@ -31,7 +31,7 @@ You can explore the different representers [here](https://github.com/exercism?q=
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.
 If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](/docs/building/tooling/representers/creating-from-scratch) instructions.
 
-This directory contains the following information:
+You can use the following documents to learn more about building a representer:
 
 - [Creating a Representer from scratch](/docs/building/tooling/representers/creating-from-scratch)
 - [The Representer interface](/docs/building/tooling/representers/interface)

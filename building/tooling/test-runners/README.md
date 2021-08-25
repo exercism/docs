@@ -18,8 +18,8 @@ You can explore the different Test Runners [here](https://github.com/exercism?q=
 If you would like to get involved in helping with an existing Test Runner, please open an issue in its repository asking if there is somewhere you can help.
 If you would like to create a Test Runner for a language that currently does not have one, please follow the [creating a Test Runner](creating-from-scratch.md) instructions.
 
-This directory contains the following information:
+You can use the following documents to learn more about building a test runner:
 
-- **[`creating-from-scratch.md`](/docs/building/tooling/test-runners/creating-from-scratch):** Information on creating a Test Runner from scratch.
-- **[`interface.md`](/docs/building/tooling/test-runners/interface):** The Test Runner interface.
-- **[`docker.md`](/docs/building/tooling/test-runners/docker):** How to build a Docker image with Docker for local testing and deployment.
+- [creating a Test Runner from scratch](/docs/building/tooling/test-runners/creating-from-scratch)
+- [The Test Runner interface](/docs/building/tooling/test-runners/interface)
+- [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/test-runners/docker)

@@ -13,8 +13,8 @@ You can explore the different Analyzers [here](https://github.com/exercism?q=-an
 If you would like to get involved in helping with an existing Analyzer, please open an issue in its repository asking if there is somewhere you can help.
 If you would like to create an Analyzer for a language that currently does not have one, please follow the [creating a Analyzer](/docs/building/tooling/analyzers/creating-from-scratch) instructions.
 
-This directory contains the following information:
+You can use the following documents to learn more about building an analyzer:
 
-- **[`creating-from-scratch.md`](/docs/building/tooling/analyzers/creating-from-scratch):** Information on creating a Analyzer from scratch.
-- **[`interface.md`](/docs/building/tooling/analyzers/interface):** The Analyzer interface.
-- **[`docker.md`](/docs/building/tooling/analyzers/docker):** How to build a Docker image with Docker for local testing and deployment.
+- [Creating a Analyzer from scratch](/docs/building/tooling/analyzers/creating-from-scratch)
+- [The Analyzer interface.](/docs/building/tooling/analyzers/interface)
+- [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/analyzers/docker)
