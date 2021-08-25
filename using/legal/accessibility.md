@@ -1,6 +1,6 @@
 # Accessibility
 
-My mission is to help as many people as possible. We want everyone to be able to use our services and strive to ensure that our content meets accessibility standards.
+Exercism’s mission is to help as many people as possible. We want everyone to be able to use our services and strive to ensure that our content meets accessibility standards.
 
 We’ve created our website with the following aims:
 
@@ -16,4 +16,4 @@ Our website is compliant with the Web Content Accessibility Guidelines version 2
 ## Improving accessibility
 
 We are always keen to know if parts of our websites are not accessible.
-If you find something that's not good enough, please open an issue on our [issue tracker](https://github.com/exercism/exercise) explaining what we need to improve.
+If you find something that's not good enough, please open an issue on our [issue tracker](https://github.com/exercism/exercism/issues) explaining what we need to improve.
