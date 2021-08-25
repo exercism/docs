@@ -27,8 +27,8 @@ These are example tasks that fit the employee badges exercise:
 - [`types/null`][types-null]
 - [`types/nullable`][types-nullable]
 
-[types-null]: ../types/null.md
-[types-nullable]: ../types/nullable.md
+[types-null]: https://github.com/exercism/v3/blob/main/reference/types/null.md
+[types-nullable]: https://github.com/exercism/v3/blob/main/reference/types/nullable.md
 [implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/tim-from-marketing/.docs/instructions.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/name-badge/.docs/instructions.md
 [implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/nullability/.docs/instructions.md

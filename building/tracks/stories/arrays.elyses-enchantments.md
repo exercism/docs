@@ -94,7 +94,7 @@ These are examples of tasks that fit the story of you wanting to re-arrange card
 
 - [`types/array`][types-array]
 
-[types-array]: ../types/array.md
+[types-array]: https://github.com/exercism/v3/blob/main/reference/types/array.md
 [implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-enchantments/.docs/instructions.md
 [implementation-javascript-2]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-analytic-enchantments/.docs/instructions.md
 [implementation-javascript-3]: https://github.com/exercism/javascript/blob/main/exercises/concept/elyses-destructured-enchantments/.docs/instructions.md

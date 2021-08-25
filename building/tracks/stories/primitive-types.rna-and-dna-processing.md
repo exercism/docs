@@ -18,5 +18,5 @@ You could consider adding those exercises twice (perhaps as practice exercise) i
 - [`types/string`][types-string]
 
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/dna-encoding/.docs/instructions.md
-[types-string]: ../types/string.md
-[types-char]: ../types/char.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
+[types-char]: https://github.com/exercism/v3/blob/main/reference/types/char.md

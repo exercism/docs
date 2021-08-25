@@ -25,9 +25,9 @@ These are examples of tasks that fit the story of purchasing a vehicle:
 - [`concepts/guard`][concepts-guard]
 - [`concepts/switch`][concepts-switch]
 
-[types-booleans]: ../types/boolean.md
-[concepts-conditionals]: ../concepts/conditionals.md
-[concepts-guard]: ../concepts/guard.md
-[concepts-switch]: ../concepts/switch.md
+[types-booleans]: https://github.com/exercism/v3/blob/main/reference/types/boolean.md
+[concepts-conditionals]: https://github.com/exercism/v3/blob/main/reference/concepts/conditionals.md
+[concepts-guard]: https://github.com/exercism/v3/blob/main/reference/concepts/guard.md
+[concepts-switch]: https://github.com/exercism/v3/blob/main/reference/concepts/switch.md
 [implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md
 [implementation-julia]: https://github.com/exercism/julia/blob/main/exercises/concept/vehicle-purchase/.docs/instructions.md

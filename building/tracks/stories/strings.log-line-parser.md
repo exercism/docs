@@ -34,7 +34,7 @@ These are example tasks that fit the log line parser:
 
 - [`types/string`][types-string]
 
-[types-string]: ../types/string.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
 [implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/log-levels/.docs/instructions.md
 [implementation-cpp]: https://github.com/exercism/cpp/blob/main/exercises/concept/strings/.docs/instructions.md
 [implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/log-levels/.docs/instructions.md

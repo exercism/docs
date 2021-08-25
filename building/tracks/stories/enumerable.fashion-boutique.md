@@ -33,9 +33,9 @@ A single item in the inventory is represented by a map/dictionary, and the whole
 - [`types/list`][types-list]
 - [`types/map`][types-map]
 
-[types-array]: ../types/array.md
-[types-dictionary]: ../types/dictionary.md
-[types-list]: ../types/list.md
-[types-map]: ../types/map.md
+[types-array]: https://github.com/exercism/v3/blob/main/reference/types/array.md
+[types-dictionary]: https://github.com/exercism/v3/blob/main/reference/types/dictionary.md
+[types-list]: https://github.com/exercism/v3/blob/main/reference/types/list.md
+[types-map]: https://github.com/exercism/v3/blob/main/reference/types/map.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/boutique-inventory/.docs/instructions.md
 [extension-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/boutique-suggestions/.docs/instructions.md

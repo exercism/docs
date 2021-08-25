@@ -41,7 +41,7 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 - [`types/boolean`][types-boolean]
 
-[types-boolean]: ../types/boolean.md
+[types-boolean]: https://github.com/exercism/v3/blob/main/reference/types/boolean.md
 [javascript-concept-booleans]: https://github.com/exercism/javascript/blob/main/exercises/concept/booleans
 [implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md
 [implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/booleans/.docs/instructions.md

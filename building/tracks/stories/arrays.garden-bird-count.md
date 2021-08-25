@@ -24,7 +24,7 @@ These are example tasks that fit the bird watching exercise:
 
 - [`types/array`][types-array]
 
-[types-array]: ../types/array.md
+[types-array]: https://github.com/exercism/v3/blob/main/reference/types/array.md
 [implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/bird-watcher/.docs/instructions.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/bird-count/.docs/instructions.md
 [implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/bird-watcher/.docs/instructions.md

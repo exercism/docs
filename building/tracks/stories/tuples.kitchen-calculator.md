@@ -32,6 +32,6 @@ This should guide students how to use:
 
 - [Elixir: tuples][implementation-elixir]
 
-[concept-duck-typing]: ../concepts/duck_typing.md
-[type-tuple]: ../types/tuple.md
+[concept-duck-typing]: https://github.com/exercism/v3/blob/main/reference/concepts/duck_typing.md
+[type-tuple]: https://github.com/exercism/v3/blob/main/reference/types/tuple.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/kitchen-calculator/.docs/instructions.md

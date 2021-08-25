@@ -32,5 +32,5 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 - [`types/boolean`][types-boolean]
 
-[types-boolean]: ../types/boolean.md
+[types-boolean]: https://github.com/exercism/v3/blob/main/reference/types/boolean.md
 [implementation-java]: https://github.com/exercism/java/blob/main/exercises/concept/ternary-operators/.docs/instructions.md

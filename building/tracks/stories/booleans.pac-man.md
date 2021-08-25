@@ -41,7 +41,7 @@ Terms used in the story:
 [1][1]. Jui-Feng Weng, Shian-Shyong Tseng, Tsung-Ju Lee, Teaching Boolean Logic through Game Rule Tuning, IEEE Trans. Learning Technol. 3 (2010) 319–328. <https://doi.org/10.1109/TLT.2010.33>.
 
 [1]: https://doi.org/10.1109/TLT.2010.33
-[types-boolean]: ../types/boolean.md
-[concepts-boolean_logic]: ../concepts/boolean_logic.md
+[types-boolean]: https://github.com/exercism/v3/blob/main/reference/types/boolean.md
+[concepts-boolean_logic]: https://github.com/exercism/v3/blob/main/reference/concepts/boolean_logic.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/pacman-rules/.docs/instructions.md
 [implementation-python]: https://github.com/exercism/python/blob/main/exercises/concept/ghost-gobble-arcade-game/.docs/instructions.md

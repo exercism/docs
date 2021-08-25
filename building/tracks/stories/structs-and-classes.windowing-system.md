@@ -55,6 +55,6 @@ These are recommendations, not rules, for recurring terminology in the instructi
 - [`types/struct`][types-struct]
 - [`types/class`][types-class]
 
-[types-struct]: ../types/struct.md
-[types-class]: ../types/class.md
+[types-struct]: https://github.com/exercism/v3/blob/main/reference/types/struct.md
+[types-class]: https://github.com/exercism/v3/blob/main/reference/types/class.md
 [implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/windowing-system/.docs/instructions.md

@@ -36,10 +36,10 @@ The story facilitates defining functions:
 - [`types/function`][types-function]
 - [`types/integer`][types-integer]
 
-[concepts-operators]: ../concepts/operators.md
-[concepts-return_values]: ../concepts/return_values.md
-[types-function]: ../types/function.md
-[types-integer]: ../types/integer.md
+[concepts-operators]: https://github.com/exercism/v3/blob/main/reference/concepts/operators.md
+[concepts-return_values]: https://github.com/exercism/v3/blob/main/reference/concepts/return_values.md
+[types-function]: https://github.com/exercism/v3/blob/main/reference/types/function.md
+[types-integer]: https://github.com/exercism/v3/blob/main/reference/types/integer.md
 [implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/lasagna/.docs/instructions.md
 [implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/lucians-luscious-lasagna/.docs/instructions.md

@@ -21,5 +21,5 @@ The story facilitates defining [higher-order functions][concepts-higher_order_fu
 
 - [`concepts/higher_order_functions`][concepts-higher_order_functions]
 
-[concepts-higher_order_functions]: ../concepts/higher_order_functions.md
+[concepts-higher_order_functions]: https://github.com/exercism/v3/blob/main/reference/concepts/higher_order_functions.md
 [implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/secret-agent/.docs/instructions.md

@@ -23,6 +23,6 @@ These are example tasks that fit the story of a customer designing a custom sign
 - [`types/string`][types-string]
 - [`types/character`][types-character]
 
-[types-string]: ../types/string.md
-[types-character]: ../types/character.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
+[types-character]: https://github.com/exercism/v3/blob/main/reference/types/character.md
 [implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/custom-signs/.docs/instructions.md

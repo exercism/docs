@@ -41,9 +41,9 @@ The story facilitates defining functions:
 - [`types/integer`][types-integer]
 - [`types/string`][types-string]
 
-[concepts-classes]: ../concepts/classes.md
-[concepts-constructors]: ../concepts/constructors.md
-[concepts-inheritance]: ../concepts/inheritance.md
-[types-integer]: ../types/integer.md
-[types-string]: ../types/string.md
+[concepts-classes]: https://github.com/exercism/v3/blob/main/reference/concepts/classes.md
+[concepts-constructors]: https://github.com/exercism/v3/blob/main/reference/concepts/constructors.md
+[concepts-inheritance]: https://github.com/exercism/v3/blob/main/reference/concepts/inheritance.md
+[types-integer]: https://github.com/exercism/v3/blob/main/reference/types/integer.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
 [implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/wizards-and-warriors/.docs/instructions.md

@@ -30,4 +30,4 @@ The exercise generally guides students how to:
 [implementation-clojure]: https://github.com/exercism/clojure/blob/main/exercises/concept/tracks-on-tracks-on-tracks/.docs/instructions.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/language-list/.docs/instructions.md
 [implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/tracks-on-tracks-on-tracks/.docs/instructions.md
-[types-list]: ../types/list.md
+[types-list]: https://github.com/exercism/v3/blob/main/reference/types/list.md

@@ -38,5 +38,5 @@ These are example tasks that fit the high school sweethearts exercise, each task
 
 - [`types/string`][types-string]
 
-[types-string]: ../types/string.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
 [implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/high-school-sweetheart/.docs/instructions.md
