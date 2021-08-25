@@ -6,3 +6,4 @@ The following pages contain important information that explains your rights and 
 - [Privacy Policy](/docs/using/legal/privacy-policy)
 - [Cookie Policy](/docs/using/legal/cookie-policy)
 - [Accessibility Statement](/docs/using/legal/accessibility)
+- [Code of Conduct](/docs/using/legal/code-of-conduct)
