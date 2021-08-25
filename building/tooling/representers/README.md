@@ -29,11 +29,11 @@ Each representer lives in the Exercism GitHub organization in a repository named
 You can explore the different representers [here](https://github.com/exercism?q=-representer).
 
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.
-If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](creating-from-scratch.md) instructions.
+If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](/docs/building/tooling/representers/creating-from-scratch) instructions.
 
 This directory contains the following information:
 
 - [Creating a Representer from scratch](/docs/building/tooling/representers/creating-from-scratch)
-- [The Representer interface](/docs/building/tooling/representers/interface):\*\* .
+- [The Representer interface](/docs/building/tooling/representers/interface)
 - [How to normalize representations for the highest efficiency](/docs/building/tooling/representers/normalization)
 - [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/representers/docker)
