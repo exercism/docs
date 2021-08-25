@@ -4,7 +4,7 @@ All interactions with the Exercism website are handled automatically. Analyzers 
 
 ## Execution
 
-- An Analyzer should provide an executable script. You can find more information in the [docker.md](../docker.md) file.
+- An Analyzer should provide an executable script. You can find more information in the [docker.md](/docs/building/tooling/analyzers/docker) file.
 - The script will receive three parameters:
   - The slug of the exercise (e.g. `two-fer`).
   - A path to a directory containing the submitted file(s) (with a trailing slash).

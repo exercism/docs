@@ -14,7 +14,7 @@ A _Representer_ is a bit of code that has the single responsibility of taking a 
 A _representation_ is an extraction of a solution to its essence with normalized names, comments, spacing, etc. but still uniquely identifying the approach taken. Two different ways of solving the same exercise must not have the same representation.
 
 The simplest Representer is one that merely returns the solution's source code.
-However, as our goal is to have the same representation for solutions only differing in non-essential details, the Representer should apply one or more [normalizations](./normalization.md).
+However, as our goal is to have the same representation for solutions only differing in non-essential details, the Representer should apply one or more [normalizations](/docs/building/tooling/representers/normalization).
 
 Once we have a normalized representation for a solution, a team of vetted mentors will look at the solution and comment on it (if needed).
 These comments will then automatically be submitted to each new solution with the same representation.
@@ -33,7 +33,7 @@ If you would like to create a Representer for a language that currently does not
 
 This directory contains the following information:
 
-- **[`creating-from-scratch.md`](./creating-from-scratch.md):** Information on creating a Representer from scratch.
-- **[`interface.md`](./interface.md):** The Representer interface.
-- **[`normalization.md`](./normalization.md):** Information on how to normalize representations for the highest efficiency.
-- **[`docker.md`](./docker.md):** How to build a Docker image with Docker for local testing and deployment.
+- **[`creating-from-scratch.md`](/docs/building/tooling/representers/creating-from-scratch):** Information on creating a Representer from scratch.
+- **[`interface.md`](/docs/building/tooling/representers/interface):** The Representer interface.
+- **[`normalization.md`](/docs/building/tooling/representers/normalization):** Information on how to normalize representations for the highest efficiency.
+- **[`docker.md`](/docs/building/tooling/representers/docker):** How to build a Docker image with Docker for local testing and deployment.

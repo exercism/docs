@@ -12,7 +12,7 @@ They also have user-contextual tooltips such as this:
 
 You may like to render these widgets yourself in Markdown documents, for example at the end of a document to suggest extra reading or good exercises to learn something from.
 
-**Note:** You can also use normal links for inline text, which will have the tooltips added. See [the Internal Linking documentation](./internal-linking.md) for more details.
+**Note:** You can also use normal links for inline text, which will have the tooltips added. See [the Internal Linking documentation](/docs/building/markdown/internal-linking) for more details.
 
 ## Usage
 
