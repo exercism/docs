@@ -124,7 +124,7 @@ my_first_variable = SomeComplexObject.new
 
 **Presence:** Optional
 
-The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](/docs/building/tracks/concepts#fileintroductio), which is not shown outside the context of an exercise.
+The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](/docs/building/tracks/concepts#fileintroduction), which is not shown outside the context of an exercise.
 
 If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows referring to concept introductions through placeholders: `%{concept:<concept-slug>}`.
 

@@ -27,7 +27,7 @@ These file are shared between all exercises:
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
-See the [shared files documentation](/docs/building/tracks/shared-files.md) for more information.
+See the [shared files documentation](/docs/building/tracks/shared-files) for more information.
 
 ### Exercism-wide documentation
 

@@ -58,7 +58,7 @@ concepts
 
 **Presence:** Required
 
-After completing the corresponding Concept Exercise (otherwise known as "learning" a Concept), the Concept page will show the contents of the `about.md` file instead of the `introduction.md` file. The `about.md` file should provide students with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the Concepts' [`introduction.md` document](/docs/building/tracks/concepts#file-introductio).
+After completing the corresponding Concept Exercise (otherwise known as "learning" a Concept), the Concept page will show the contents of the `about.md` file instead of the `introduction.md` file. The `about.md` file should provide students with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the Concepts' [`introduction.md` document](/docs/building/tracks/concepts#file-introduction).
 
 If the Concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead the `about.md` should contain enough information to be understandable within its context.
 
