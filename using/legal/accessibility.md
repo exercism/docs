@@ -1,6 +1,6 @@
 # Accessibility
 
-Exercism’s mission is to help as many people as possible. We want everyone to be able to use our services and strive to ensure that our content meets accessibility standards.
+My mission is to help as many people as possible. We want everyone to be able to use our services and strive to ensure that our content meets accessibility standards.
 
 We’ve created our website with the following aims:
 
