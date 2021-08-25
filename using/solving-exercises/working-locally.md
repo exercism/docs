@@ -94,4 +94,4 @@ If you are still having trouble open an issue in exercism/cli on GitHub with the
 exercism troubleshoot
 ```
 
-You can open issues on [our issue tracker](https://github.com/exercism/exercism.io) and the community will try to help you. **Please ensure you have worked through the [Interactive Walkthrough](https://exercism.io/cli-walkthrough) before opening any issues.**
+You can open issues on [our issue tracker](https://github.com/exercism/exercism/issues) and the community will try to help you. **Please ensure you have worked through the [Interactive Walkthrough](https://exercism.io/cli-walkthrough) before opening any issues.**

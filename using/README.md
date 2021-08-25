@@ -2,5 +2,5 @@
 
 These documents describe how to make the most of your experience on Exercism.
 
-- [Getting Feedback](./feedback/README)
-- [Solving Exercises](./solving-exercises/README)
+- [Getting Feedback](/docs/using/feedback)
+- [Solving Exercises](/docs/using/solving-exercises)

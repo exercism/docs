@@ -4,7 +4,7 @@ Links rendered via Exercism's Markdown parser are checked to see if they are int
 
 A tooltip for a concept might look like this:
 
-<img src="../../.imgs/concept-tooltip.png" height="200">
+<img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/concept-tooltip.png" height="200">
 
 ## Usage
 
@@ -21,4 +21,4 @@ We do not currently support relative URLs (e.g. those beginning with `./` or `..
 Rather than using normal links, you might like to render Widgets.
 These are generally used at the end of a document to suggest extra reading or good exercises to learn something from.
 
-See [the Widgets documentation](./widgets.md) for more details.
+See [the Widgets documentation](/docs/building/markdown/widgets) for more details.

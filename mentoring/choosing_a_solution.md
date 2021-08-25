@@ -43,7 +43,7 @@ The UI will look something like this:
 
 1. The main part of the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
-   If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom. 
+   If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom.
    If they've only submitted one iteration, you won't see those icons.
 
 2. You can use the tabs at the top to switch between the student's code, the tests, and the instructions.
@@ -74,4 +74,4 @@ If you click on this you'll see some information that might be useful for you:
 If you've read the code, checked the guidance, and feel you can be helpful, then it's time to get going!
 Click the "Start mentoring" button and you'll be prompted to write your feedback.
 
-Have a read of [How to give great feedback](./how-to-give-great-feedback) next!
+Have a read of [How to give great feedback](/docs/community/how-to-give-great-feedback) next!

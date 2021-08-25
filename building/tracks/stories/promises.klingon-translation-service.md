@@ -67,11 +67,11 @@ All the translation texts are Klingon to English.
 - [`types/string`][types-string]
 - [`types/number`][types-number]
 
-[types-promise]: ../types/promise.md
-[types-future]: ../types/future.md
-[types-string]: ../types/string.md
-[types-number]: ../types/number.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/promises/.docs/instructions.md
+[types-promise]: https://github.com/exercism/v3/blob/main/reference/types/promise.md
+[types-future]: https://github.com/exercism/v3/blob/main/reference/types/future.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
+[types-number]: https://github.com/exercism/v3/blob/main/reference/types/number.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/promises/.docs/instructions.md
 
 ## N.B.
 

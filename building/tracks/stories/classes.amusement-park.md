@@ -31,6 +31,6 @@ Example tasks:
 - [`concepts/object`][concepts-objects]
 - [`types/class`][types-class]
 
-[concepts-objects]: ../concepts/objects.md
-[types-class]: ../types/class.md
-[implementation-ruby]: ../../languages/ruby/exercises/concept/instance-variables/.docs/instructions.md
+[concepts-objects]: https://github.com/exercism/v3/blob/main/reference/concepts/objects.md
+[types-class]: https://github.com/exercism/v3/blob/main/reference/types/class.md
+[implementation-ruby]: https://github.com/exercism/ruby/blob/main/exercises/concept/instance-variables/.docs/instructions.md

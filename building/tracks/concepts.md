@@ -4,7 +4,7 @@ Concepts are the things that a programmer would need to understand to be fluent 
 
 ## Metadata
 
-Concept metadata is defined in the `concepts` key in the [config.json file](./config-json.md#concepts). The metadata defines the concept's UUID, slug and more.
+Concept metadata is defined in the `concepts` key in the [config.json file](/docs/building/tracks/config-json#concepts). The metadata defines the concept's UUID, slug and more.
 
 ### Example
 
@@ -22,7 +22,7 @@ Concept metadata is defined in the `concepts` key in the [config.json file](./co
 
 ## Files
 
-Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](./config-json.md#concept).
+Each concept has its own directory within the track's `concepts` directory. The name of the concept's directory must match the `slug` property of the concept, as defined in the [config.json file](/docs/building/tracks/config-json#concept).
 
 A Concept has two types of files:
 
@@ -58,11 +58,11 @@ concepts
 
 **Presence:** Required
 
-After completing the corresponding Concept Exercise (otherwise known as "learning" a Concept), the Concept page will show the contents of the `about.md` file instead of the `introduction.md` file. The `about.md` file should provide students with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the Concepts' [`introduction.md` document](./concepts.md#file-introductionmd).
+After completing the corresponding Concept Exercise (otherwise known as "learning" a Concept), the Concept page will show the contents of the `about.md` file instead of the `introduction.md` file. The `about.md` file should provide students with comprehensive information on what they need to know to be fluent in the concept. At a minimum, this file should contain all information that is introduced in the Concepts' [`introduction.md` document](/docs/building/tracks/concepts#file-introduction).
 
 If the Concept introduces new syntax, syntax samples should be included. The student should not have to follow a lot of links to gain the knowledge that the file tries to convey. Instead the `about.md` should contain enough information to be understandable within its context.
 
-The `about.md` file is not limited to the scope of the corresponding Concept Exercise. The content can require knowledge of other concepts that will be introduced later on. If other Concepts are mentioned, their respective introductions should be linked to (see [internal linking](https://github.com/exercism/docs/blob/main/anatomy/tracks/internal-linking.md) for details).
+The `about.md` file is not limited to the scope of the corresponding Concept Exercise. The content can require knowledge of other concepts that will be introduced later on. If other Concepts are mentioned, their respective introductions should be linked to (see [internal linking](/docs/building/markdown/internal-linking) for details).
 
 Here some examples of what could be covered.
 

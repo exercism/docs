@@ -5,7 +5,7 @@ To have solutions with non-essential differences have the same representation, t
 - Parse the solution's code into an Abstract Syntax Tree (AST)
 - Apply normalizations to the AST
 - Convert the normalized AST to a string
-- Write the normalized AST string to a file named `representation.txt` (see [the interface](./interface))
+- Write the normalized AST string to a file named `representation.txt` (see [the interface](/docs/building/tooling/representers/interface))
 
 Note though, that the representation doesn't _have_ to be an AST, it could be regular (normalized) code, whichever works best for your track.
 
@@ -17,7 +17,7 @@ Note 2: the code for these guidelines will be in C#, but the guidelines are lang
 
 ## Normalize identifiers
 
-To allow for representations to be naming-agnostic, user-defined names (such as variables, functions, etc) can be replaced with placeholders. In this case, a `mapping.json` should be produced (see [the interface](./interface.md)).
+To allow for representations to be naming-agnostic, user-defined names (such as variables, functions, etc) can be replaced with placeholders. In this case, a `mapping.json` should be produced (see [the interface](/docs/building/tooling/representers/interface)).
 
 It is important to note that all identical names must be replaced with the same placeholder, irrespective of scope.
 

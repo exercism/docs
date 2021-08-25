@@ -1,6 +1,6 @@
 # Linting
 
-The primary use of [configlet](./) is linting: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
+The primary use of [configlet](/docs/building/configlet) is linting: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
 
 ## Usage
 
@@ -184,7 +184,7 @@ The `config.json` file should have the following checks:
 - The `"key_features"` key is optional
 - The `"key_features"` value must be an array with length = 6
 - The `"key_features[].icon"` key is required
-- The `"key_features[].icon"` value must use one of the [pre-defined icon values](../tracks/config-json#keyfeatures)
+- The `"key_features[].icon"` value must use one of the [pre-defined icon values](/docs/building/tracks/config-json#keyfeatures)
 - The `"key_features[].title"` key is required
 - The `"key_features[].title"` value must be a non-blank string¹ with length <= 25
 - The `"key_features[].content"` key is required
@@ -192,7 +192,7 @@ The `config.json` file should have the following checks:
 - The `"tags"` key is required
 - The `"tags"` value must be an array of strings
 - The `"tags"` values must not have duplicates
-- The `"tags"` values must use one of the [pre-defined tag values](../tracks/config-json.md#tags)
+- The `"tags"` values must use one of the [pre-defined tag values](/docs/building/tracks/config-json#tags)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
 
@@ -244,24 +244,24 @@ The `config.json` file should have the following checks:
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/hints.md is valid
 
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - All headings must be either `## General` or `## X. <task>` where `X` matches the task number heading in the `instructions.md`
 - All hints must be specified as Markdown list items
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md is valid
 
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - All tasks must start with a level two heading that starts with a number followed by a dot: `## 1. Do X`
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/instructions.md.tpl is valid (if present)
 
-- Each [concept placeholders](../tracks/concept-exercises.md#file-docsintroductionmdtpl)'s concept must match the `"concepts.slug"` property of one of the concepts in the track's `config.json`.
+- Each [concept placeholders](/docs/building/tracks/concept-exercises#file-docsintroductionmdtpl)'s concept must match the `"concepts.slug"` property of one of the concepts in the track's `config.json`.
 
 ### Rule: exercises/concept/&lt;slug&gt;/.docs/introduction.md is valid
 
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/practice/&lt;slug&gt;/.meta/config.json is valid
@@ -310,29 +310,29 @@ The `config.json` file should have the following checks:
 ### Rule: exercises/shared/.docs/debug.md is valid
 
 - The file's presence is optional
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/shared/.docs/help.md is valid
 
 - The file's presence is required
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: exercises/shared/.docs/tests.md is valid
 
 - The file's presence is required
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concepts/&lt;slug&gt;/about.md is valid
 
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concepts/&lt;slug&gt;/introduction.md is valid
 
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: concept/&lt;slug&gt;/links.json is valid
@@ -368,28 +368,28 @@ The `config.json` file should have the following checks:
 
 - The file's presence is required
 - The file's contents must be non-blank
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: docs/INSTALLATION.md is valid
 
 - The file's presence is required
 - The file's contents must be non-blank
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: docs/LEARNING.md is valid
 
 - The file's presence is required
 - The file's contents must be non-blank
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: docs/RESOURCES.md is valid
 
 - The file's presence is required
 - The file's contents must be non-blank
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ### Rule: docs/SNIPPET.txt is valid
@@ -401,7 +401,7 @@ The `config.json` file should have the following checks:
 
 - The file's presence is required
 - The file's contents must be non-blank
-- The Markdown must conform to the [Markdown standards](../markdown/markdown.md)
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
 ## Glossary

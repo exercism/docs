@@ -1,10 +1,10 @@
 # The Representer Interface
 
-All interactions with the Exercism website are handled automatically. Representers have the single responsibility of taking a solution and returning a representation of it. See the [introduction](./introduction.md) for more information.
+All interactions with the Exercism website are handled automatically. Representers have the single responsibility of taking a solution and returning a representation of it. See the [introduction](/docs/building/tooling/representers#introduction) for more information.
 
 ## Execution
 
-- A Representer should provide an executable script. You can find more information in the [docker.md](../docker.md) file.
+- A Representer should provide an executable script. You can find more information in the [docker.md](/docs/building/tooling/representers/docker) file.
 - The script will receive three parameters:
   - The slug of the exercise (e.g. `two-fer`).
   - A path to a directory containing the submitted file(s) (with a trailing slash).

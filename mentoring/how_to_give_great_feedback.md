@@ -1,7 +1,7 @@
 # How to give great feedback
 
 At this stage you should have chosen a solution to mentor.
-If you haven't, work your way through [Choosing a solution to mentor](./choosing-a-solution) first, then come back here.
+If you haven't, work your way through [Choosing a solution to mentor](/docs/mentoring/choosing-a-solution) first, then come back here.
 
 ## Your first feedback
 
@@ -84,5 +84,5 @@ As you gain experience mentoring, you will get a feel for the different ways stu
 ## Unsure of something? Chat to other mentors?
 
 One of the best things about being an Exercism mentor is the community of other mentors you can learn from.
-If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace]() and ask away!
+If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace](https://exercism-team.slack.com/) and ask away!
 You'll probably find people you can help there too 🙂

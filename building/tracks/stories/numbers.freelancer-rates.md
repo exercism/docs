@@ -47,10 +47,10 @@ These are recommendations, not rules, for recurring terminology in the instructi
 - [`types/floating_point_number`][types-floating-point-number]
 - [`types/string`][types-string]
 
-[types-number]: ../types/number.md
-[types-decimal-number]: ../types/decimal_number.md
-[types-floating-point-number]: ../types/floating_point_number.md
-[types-string]: ../types/string.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/freelancer-rates/.docs/instructions.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/numbers/.docs/instructions.md
-[implementation-swift]: ../../languages/swift/exercises/concept/freelancer-rates/.docs/instructions.md
+[types-number]: https://github.com/exercism/v3/blob/main/reference/types/number.md
+[types-decimal-number]: https://github.com/exercism/v3/blob/main/reference/types/decimal_number.md
+[types-floating-point-number]: https://github.com/exercism/v3/blob/main/reference/types/floating_point_number.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/numbers/.docs/instructions.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/freelancer-rates/.docs/instructions.md

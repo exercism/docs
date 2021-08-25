@@ -41,8 +41,8 @@ These are recommendations, not rules, for recurring terminology in the instructi
 
 - [`types/boolean`][types-boolean]
 
-[types-boolean]: ../types/boolean.md
-[javascript-concept-booleans]: ../../languages/javascript/exercises/concept/booleans
-[implementation-fsharp]: ../../languages/fsharp/exercises/concept/annalyns-infiltration/.docs/instructions.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/booleans/.docs/instructions.md
-[implementation-julia]: ../../languages/julia/exercises/concept/annalyns-infiltration/.docs/instructions.md
+[types-boolean]: https://github.com/exercism/v3/blob/main/reference/types/boolean.md
+[javascript-concept-booleans]: https://github.com/exercism/javascript/blob/main/exercises/concept/booleans
+[implementation-fsharp]: https://github.com/exercism/fsharp/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/booleans/.docs/instructions.md
+[implementation-julia]: https://github.com/exercism/julia/blob/main/exercises/concept/annalyns-infiltration/.docs/instructions.md

@@ -72,6 +72,6 @@ with the renowned poets.
 
 - [`types/string`][types-string]
 
-[types-string]: ../types/string.md
-[implementation-javascript]: ../../languages/javascript/exercises/concept/strings/.docs/instructions.md
-[implementation-swift]: ../../languages/swift/exercises/concept/poetry-club/.docs/instructions.md
+[types-string]: https://github.com/exercism/v3/blob/main/reference/types/string.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/strings/.docs/instructions.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/poetry-club/.docs/instructions.md
