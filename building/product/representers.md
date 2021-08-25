@@ -24,4 +24,4 @@ Each track maintains it's own representer, specific to that language. There is n
 
 ## Building a Representer
 
-If you are interested in building a Representer, checkout out the [Representer documentation](/docs/building/tooling/representer) for more information.
+If you are interested in building a Representer, checkout out the [Representer documentation](/docs/building/tooling/representers) for more information.

@@ -9,4 +9,4 @@ Test Runners give us two advantages:
 
 ## Building a Test Runner
 
-If you are interested in building a Test Runner, checkout out the [Test Runner documentation](/docs/building/tooling/test-runner) for more information.
+If you are interested in building a Test Runner, checkout out the [Test Runner documentation](/docs/building/tooling/test-runners) for more information.
