@@ -192,7 +192,7 @@ The `config.json` file should have the following checks:
 - The `"tags"` key is required
 - The `"tags"` value must be an array of strings
 - The `"tags"` values must not have duplicates
-- The `"tags"` values must use one of the [pre-defined tag values](/docs/building/tracks/config-json.md#tags)
+- The `"tags"` values must use one of the [pre-defined tag values](/docs/building/tracks/config-json#tags)
 
 ### Rule: exercises/concept/&lt;slug&gt;/.meta/config.json is valid
 

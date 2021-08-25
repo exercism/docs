@@ -385,8 +385,8 @@ Some languages require additional files for the tests to run. Example of these a
 
 ## Shared files
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files.md) for more information.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
 ## Presentation
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation.md) for more information.
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation) for more information.

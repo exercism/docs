@@ -12,7 +12,7 @@ These are the documents that configlet can generate.
 
 ### Document: Concept Exercise's introduction.md file
 
-Each [Concept Exercise](/docs/building/tracks/concept-exercises.md) has an [`introduction.md` file](/docs/building/tracks/concept-exercises.md#docsintroductionmd). Each exercise can have an optional [`introduction.md.tpl` file](/docs/building/tracks/concept-exercises.md#docsintroductionmdtploptional).
+Each [Concept Exercise](/docs/building/tracks/concept-exercises) has an [`introduction.md` file](/docs/building/tracks/concept-exercises#docsintroductionmd). Each exercise can have an optional [`introduction.md.tpl` file](/docs/building/tracks/concept-exercises#docsintroductionmdtploptional).
 
 The template file should be treated like a regular Markdown file but with one addition: the ability to specify placeholders. The following placeholders are supported:
 
