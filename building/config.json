@@ -6,7 +6,6 @@
     "title": "Contributing to Exercism",
     "blurb": "An overview of how to contribute to Exercism"
   },
-
   {
     "uuid": "d372e903-31fa-4918-a506-e3f939452828",
     "slug": "configlet",
@@ -616,6 +615,13 @@
     "path": "building/tooling/test-runners/interface.md",
     "title": "The Test Runner Interface",
     "blurb": ""
+  },
+  {
+    "uuid": "3423667a-3b30-4590-9a88-5a30f712f382",
+    "slug": "product",
+    "path": "building/product/README.md",
+    "title": "Product",
+    "blurb": "The product decisions and thinking behind Exercism"
   },
   {
     "uuid": "6a4b6d10-6750-41b7-aeac-e376e9f86857",
