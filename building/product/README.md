@@ -6,7 +6,6 @@ They aim to present a picture of why things on Exercism work the way they do.
 ## Exercism Concepts
 
 - [Reputation](/docs/building/product/reputation)
-- [Credits](/docs/building/product/credits)
 - [Tasks](/docs/building/product/tasks)
 
 ## Language Tracks
