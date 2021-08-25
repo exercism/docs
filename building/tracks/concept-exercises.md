@@ -1,6 +1,6 @@
 # Concept Exercises
 
-[Concept Exercises](../../product/concept-exercises.md) are exercises designed to teach specific (programming) concepts.
+[Concept Exercises](/docs/building/product/concept-exercises) are exercises designed to teach specific (programming) concepts.
 
 ## Metadata
 
