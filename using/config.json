@@ -29,6 +29,13 @@
     "blurb": "Learn how Mentor Feedback helps you improve your code"
   },
   {
+    "uuid": "23d5a897-b6c3-4e17-99de-28f3480eeb85",
+    "slug": "feedback/from-a-friend",
+    "path": "using/feedback/from-a-friend.md",
+    "title": "Feedback from a friend",
+    "blurb": "Learn about getting feedback privately from a friend"
+  },
+  {
     "uuid": "4e6b1af9-76e8-41d8-9cc2-92406f464a27",
     "slug": "solving-exercises",
     "path": "using/solving-exercises/README.md",
