@@ -22,5 +22,12 @@
     "path": "mentoring/how_to_give_great_feedback.md",
     "title": "How to give great feeback",
     "blurb": "You've chosen an exercise to mentor - now give some great feedback."
+  },
+  {
+    "uuid": "57f323a6-29ea-43ef-9936-af44162ccc64",
+    "section": "mentoring",
+    "slug": "markdownn",
+    "path": "mentoring/using-markdown.md",
+    "title": "How to use Markdown in mentoring"
   }
 ]
