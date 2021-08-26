@@ -10,8 +10,8 @@ When programming, her focus is on automation, workflow optimization, and refacto
 She cares deeply about open source and contributes to several projects outside of Exercism.
 
 In 2016, [Jeremy](https://ihid.info) joined as co-founder, and he is currently Exercism's CEO.
-Jeremy is a social entrepeneur and software developer, passionate about equality and creating opportunity for everyone.
-In addition to Exericsm, he is the co-founder of the [Wellbeing and Teambuilding platform](https://kaido.org), Kaido.
+Jeremy is a social entrepreneur and software developer, passionate about equality and creating opportunity for everyone.
+In addition to Exercism, he is the co-founder of the [Wellbeing and Teambuilding platform](https://kaido.org), Kaido.
 
 In addition to this [leadership team](/team), Exercism has a [small full- and part-time team](/team/staff), and is supported by thousands of wonderful volunteers who have crafted the various language tracks and exercises that made Exercism so popular.
 

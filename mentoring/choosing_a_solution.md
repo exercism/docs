@@ -17,7 +17,7 @@ The main table shows the exercise, the student and when they requested mentoring
 Hovering on a row gives you lots more detail.
 You can see more about the user: their name, location, and reputation (which is an indicator of whether they are a contributor or mentor themselves) as well as how many times they've been mentored before.
 You'll also see some blurb they've written explaining what they're looking to get out of the track.
-As you start mentoring people, you'll also see whether you've mentored them before, and if you've favourited them.
+As you start mentoring people, you'll also see whether you've mentored them before, and if you've favorited them.
 
 The blurb on the tooltip is a first indicator about whether this student is right for you.
 Do their knowledge gaps match your expertise?
@@ -53,7 +53,7 @@ The UI will look something like this:
    If they failed, clicking on this indicator will open a modal that shows you the specific details of their test run, so you can see what they did wrong.
 
 On the right hand side, you'll see three tabs.
-The overview tab will contain the same information about the user that you saw on the toolip.
+The overview tab will contain the same information about the user that you saw on the tooltip.
 Below that you'll see a comment for the user about what it is that they want to learn from this specific solution.
 (For some older solutions, this might be missing).
 This is a key indicator as to whether this solution is right for you.

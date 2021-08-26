@@ -252,7 +252,7 @@ in one of these ways:
   Corresponding Source from a network server at no charge.
 - **c)** Convey individual copies of the object code with a copy of the
   written offer to provide the Corresponding Source. This
-  alternative is allowed only occasionally and noncommercially, and
+  alternative is allowed only occasionally and non-commercially, and
   only if you received the object code with such an offer, in accord
   with subsection 6b.
 - **d)** Convey the object code by offering access from a designated

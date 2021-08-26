@@ -9,7 +9,7 @@ There are three types of feedback you can get on a solution:
 ## What is the difference between Automated Feedback and Mentor Feedback?
 
 Automated feedback is generated immediately when you submit an iteration.
-Our analysis platform looks at your code and tries to find useful actional feedback that you can use to iterate further.
+Our analysis platform looks at your code and tries to find useful actionable feedback that you can use to iterate further.
 
 Mentor feedback is written by our team of volunteer mentors who will look at your solution and make suggestions on to how to improve it.
 Mentors are able to write more targeted feedback and engage in a discussion with you, but you will have to wait for a mentor to respond to you, which can take hours or days depending on the length of the queue.

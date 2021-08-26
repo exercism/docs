@@ -23,7 +23,7 @@ Every time you submit a new iteration your mentor will be alerted and they’ll 
 Our mentors are volunteers so sometimes it might take a couple of days before they’ll have chance to get back to you, but that’s pretty normal - you can just explore other exercises in the meantime.
 
 Once you’ve improved your solution, either you or your mentor might choose that the conversation has gone far enough.
-Either of you can end the discussion and you’ll be given the chance to rate the mentoring you ve received and leave a testimonial for the mentor if they’ve helped you.
+Either of you can end the discussion and you’ll be given the chance to rate the mentoring you have received and leave a testimonial for the mentor if they’ve helped you.
 If you have a bad experience with a mentor, please tell us when you finish the conversation.
 We don’t vet out mentors and occasionally people do have bad experiences, but by alerting us we can stop it happening again.
 And please remember that it’s always better to walk away from a conversation than getting into an argument.
