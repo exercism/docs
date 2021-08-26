@@ -64,6 +64,13 @@
     "blurb": "Learn how to solve exercises using the Online Editor"
   },
   {
+    "uuid": "eed4bdcf-edeb-4156-898a-c3b580699192",
+    "slug": "solving-exercises/tests-pass-locally",
+    "path": "using/solving-exercises/tests-pass-locally.md",
+    "title": "Tests pass locally but not online?",
+    "blurb": "Learn what to do when your tests pass locally but not online"
+  },
+  {
     "uuid": "961f4650-83ea-4907-8493-b9ef5ded757e",
     "slug": "legal",
     "path": "using/legal/README.md",
