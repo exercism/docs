@@ -8,6 +8,20 @@
     "blurb": "Learn how to make the most of our experience on Exercism"
   },
   {
+    "uuid": "afb50353-d30c-4cea-b33b-f494aa850ad5",
+    "slug": "settings",
+    "path": "using/settings/README.md",
+    "title": "Settings and options",
+    "blurb": "Learn about the settings and options you can use on Exercism"
+  },
+  {
+    "uuid": "bde7fcf8-e32f-40fb-9e7c-734f3ffe85ba",
+    "slug": "settings/pronouns",
+    "path": "using/settings/pronouns",
+    "title": "Pronouns",
+    "blurb": "Understand what pronouns are and why you might want to set them"
+  },
+  {
     "uuid": "7537b6e5-1065-4533-a6c1-3f4fd303e53f",
     "slug": "feedback",
     "path": "using/feedback/README.md",
