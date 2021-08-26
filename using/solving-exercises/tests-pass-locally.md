@@ -8,7 +8,7 @@ There are normally a few reasons for this:
 
 Many Exercism exercises come with some tests skipped.
 The aim is for you to solve each test in sequence, unskipping the next as you go.
-By the time you get to the end of the exercise, all the tests should be unskipped and you will have a fully working solution.
+By the time you get to the end of the exercise, all the tests should be unskipped and passing the tests and you will have a fully working solution.
 Check the docs on the [track you're working on](/docs/tracks) for specific details on how skips work in that language.
 
 When we run the tests online, we unskip everything first.
