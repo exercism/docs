@@ -8,5 +8,5 @@ If you are using Exercism as part of a Bootcamp or course, this feature allows y
 
 ## Abusing this feature
 
-Please do **not** send our mentors links to your solutions to try and jump the queue, unless they have explictely given you permission to do so.
+Please do **not** send our mentors links to your solutions to try and jump the queue, unless they have explicitly given you permission to do so.
 Doing so is likely to be considered spam, which will annoy the mentors and result in you having a slower response time.

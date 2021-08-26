@@ -1,6 +1,6 @@
 # Presentation
 
-This document decribes how the various exercise and track files are presented to the student, taking into account whether the student is using the CLI or the editor.
+This document describes how the various exercise and track files are presented to the student, taking into account whether the student is using the CLI or the editor.
 
 ## Documentation
 

@@ -60,7 +60,7 @@ The GDPR (General Data Protection Regulation) is UK legislation that governs how
 3. **Right of portability:** We can provide you with a copy of your personal data in a machine readable format. Please contact privacy@exercism.io for more information.
 4. **Right to Erasure:** We can remove your personal data from our systems so that you can no longer be personally identified to your solutions. Please contact privacy@exercism.io for more information.
 
-It is important to note that any content you upload to the site (including, but not limited to, solutions to exercises, comments, and mentor feedback) is transferred to us under a non-revokable license and therefore cannot be deleted from the Platform.
+It is important to note that any content you upload to the site (including, but not limited to, solutions to exercises, comments, and mentor feedback) is transferred to us under a non-revocable license and therefore cannot be deleted from the Platform.
 
 ### Cookies
 
@@ -68,7 +68,7 @@ Please refer to our [Cookie Policy](/docs/using/legal/cookie-policy) for details
 
 ## How we use the information we've collected
 
-To understand, improve, and develop our Platform and associated services. As detailed in our values, we aim to build a **positive and caring community** to help people **improve their programming skills**. In support of these aims, we may use the data we collect to improve the quality of our Users' learning and feedback. This may include performing data analysis on anonymised datasets.
+To understand, improve, and develop our Platform and associated services. As detailed in our values, we aim to build a **positive and caring community** to help people **improve their programming skills**. In support of these aims, we may use the data we collect to improve the quality of our Users' learning and feedback. This may include performing data analysis on anonymized datasets.
 
 ## Sharing and transferring data
 

@@ -62,9 +62,9 @@ As a User, you are solely responsible for ensuring that:
 
 When using our Platform, you AGREE NOT TO:
 
-- share or upload defamatory, libellous, or inaccurate content.
+- share or upload defamatory, libelous, or inaccurate content.
 - share or upload any content that is unlawful.
-- share or upload content that a reasonable person could deem to be objectionable, offensive, distressing, or otherwise inappropriate. We would recommend that you familiarise yourself with our Values and Code of Conduct.
+- share or upload content that a reasonable person could deem to be objectionable, offensive, distressing, or otherwise inappropriate. We would recommend that you familiarize yourself with our Values and Code of Conduct.
 - impersonate any person or entity, falsely claim an affiliation with any person or entity.
 - access the Platform accounts of others without permission, or perform any other fraudulent activity.
 - make unsolicited offers and advertisements to other Users of the Platform (including, but not limited to, unsolicited advertising and unsolicited job postings).
@@ -130,7 +130,7 @@ You agree that all content (**User Contributed Content**) that you have previous
 You grant Exercism the perpetual and irrevocable right and license to process, copy, distribute and to commercially exploit all such User Contributed Content that you contribute.
 You should understand that this right will persist even if your User Contributed Content is subsequently removed by you OR if you subsequently delete your account on our Platform.
 
-Using our right to license the content, we will distribute your User Contributed Content under the terms of the [Creative Commons BY-NC-SA licence](/docs/using/licenses/cc-by-nc-sa).
+Using our right to license the content, we will distribute your User Contributed Content under the terms of the [Creative Commons BY-NC-SA license](/docs/using/licenses/cc-by-nc-sa).
 This means that any third parties using or adapting your content should attribute Exercism as the source.
 The **CC BY-NC-SA** Creative Commons license terms are explained in more detail below.
 
@@ -159,9 +159,9 @@ By providing us with a worldwide, royalty-free, perpetual license, you are also 
 For example, such use might include (but not be limited to) the following examples:
 
 - Authoring a book describing common difficulties associated with writing software
-- Using anonymised solutions to build an AI-based code-review bot
+- Using anonymized solutions to build an AI-based code-review bot
 - Improving the user-experience of exercism.io
-- Publishing a dataset of anonymised feedback for academic analysis of the factors that determine successful peer-to-peer based feedback
+- Publishing a dataset of anonymized feedback for academic analysis of the factors that determine successful peer-to-peer based feedback
 
 In summary:
 
@@ -190,11 +190,11 @@ If you believe that content on our Platform violates any laws or regulations, Yo
 
 ### Personal information and security
 
-We try to minimise the amount of personal data we hold, and where we do store and capture personal information, this will be governed by our Privacy Policy and such data will only be used for the purposes it was collected for.
+We try to minimize the amount of personal data we hold, and where we do store and capture personal information, this will be governed by our Privacy Policy and such data will only be used for the purposes it was collected for.
 
 Knowingly providing false personal information is a breach of these Terms and might result in termination of your account.
 
-When you delete your account, we erase all the personal details from your account. This is an irreversal process, so please be sure before you delete your account. Your solutions and any comments made as a mentor will still remain the Platform but will be anonymised.
+When you delete your account, we erase all the personal details from your account. This is an irreversible process, so please be sure before you delete your account. Your solutions and any comments made as a mentor will still remain the Platform but will be anonymized.
 
 ### Advertising and Sponsorship
 

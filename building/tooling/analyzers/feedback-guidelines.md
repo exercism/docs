@@ -11,7 +11,7 @@ more about the [goal of exercism here](https://github.com/exercism/docs/blob/mas
 
 In the following paragraphs, keywords such as **MUST**, **SHOULD**, **MAY**
 are to be interpreted as in [RFC2119](https://www.ietf.org/rfc/rfc2119.txt);
-given that we recognise the following four output states and their restrictions:
+given that we recognize the following four output states and their restrictions:
 
 - `approve`: **MUST** be an approvable solution, **MAY** be with comment.
 - `disapprove`: **MUST** be with comment
@@ -23,7 +23,7 @@ Per [RFC2119](https://www.ietf.org/rfc/rfc2119.txt), if **MUST** is used, it is
 a guarantee that the rule is always so, and does not need to be guarded for. For
 example, **MUST** be without comment means that the website could crash if an
 analyzer sends a comment anyway. **SHOULD** indicates any consumer of the output
-must still guard against unwanted behaviour.
+must still guard against unwanted behavior.
 
 ### Approvability
 
@@ -43,17 +43,17 @@ In this document, **de facto** is defined as follows:
   position by public acceptance or market forces. Unofficial customs that are
   widely accepted.
 
-In other words, if a nearly all developers (non-hobyists) who write code in a
+In other words, if a nearly all developers (non-hobbyists) who write code in a
 certain language have established certain rules, these rules are a **de facto
-standard** and become idiomatic use. Example: **Ruby** uses 2 space identation.
+standard** and become idiomatic use. Example: **Ruby** uses 2 space indentation.
 
 Some rules are language features, even if they are not documented well. These
 language features are part of "idiomatic rules" and not stylistic choices.
 Example: **Ruby**'s MRI treats variables named `_` differently.
 
 Finally there are rules that are pure preferences, even though they might be
-adopted by large bodies such as organisations and corporations. These rules
-are usually part of _competing_ standards. Exercism does not favour one over
+adopted by large bodies such as organizations and corporations. These rules
+are usually part of _competing_ standards. Exercism does not favor one over
 another. Example: **TypeScript** has a linter `tslint` (or `eslint` + plugin)
 which is maintained by a company that is not Microsoft. It competes with other
 linters such as `xo`. Most of the rules are not language features or idiomatic
@@ -101,21 +101,21 @@ to the official rules.
 > - :speech*balloon: if it's a \_stylistic* preference, **and** there is _one
 >   clear standard_, comment on it. These rules enforce idiomatic code.
 > - :question: If it's a _stylistic_ preference, **and** there is no clear
->   standard, but most to all non-hobyist have adopted the same style, this
+>   standard, but most to all non-hobbyist have adopted the same style, this
 >   might be idiomatic. Comment at your discretion.
 
 #### Examples
 
 - **Ruby** has a language feature where `_` is treated differently,
   - :-1: if a student uses `_` for a variable name, but then uses it.
-- **Ruby** recognises `constants` only if they start with a **C**apital Letter,
+- **Ruby** recognizes `constants` only if they start with a **C**apital Letter,
   - :-1: if a student uses `snake_case` for a `class` name
 - **Ruby** has _de facto_ standards on `cAsInG` and `name-ing`,
   - :speech_balloon: you **SHOULD** guide students that `snake_case` is to be
     expected by most IDEs and highlighting on exercism in code blocks.
 - **JavaScript** IDEs highlight variables which are not used, except for those
   prefixed with an underscore (`_`).
-  - :speech*balloon: note that this behaviour exist so it might help them to use
+  - :speech*balloon: note that this behavior exist so it might help them to use
     a different naming strategy. They might think that prefixing with `*`means `private`, which is not the case in JavaScript.
 - **TypeScript** has a _de facto_ standard lint tool provided by Palantir,
   - :no_bell: If a student does not follow these rules as the lint tool is not

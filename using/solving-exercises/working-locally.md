@@ -10,7 +10,7 @@ To solve an Exercise on your local machine, you first need to install and config
 
 You need to tell the CLI who you are so we can download things correctly.
 You can find your token in your [settings page](/settings/api_cli).
-You can then configure the CLI using the following, replacing `<your-api-token>` for the value on the settigns page:
+You can then configure the CLI using the following, replacing `<your-api-token>` for the value on the settings page:
 
 ```
 exercism configure --token=<your-api-token>
