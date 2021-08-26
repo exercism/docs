@@ -9,8 +9,8 @@ For example, as Jeremy's gender is male, we can say **he** loves Exercism.
 If Jeremy was female, we could say **she** loves Exercism.
 
 Some people don't like others to know their gender.
-This is often the case when someone feels that they might be descriminate against based on their gender, or they value their privacy to the extent where they don't want others to know much about them.
-In these situations people sometimes specify **they** as their gender (e.g. "they love Exercism"), or a gender-netural pronoun, such as **ze** (e.g. "ze loves Exercism").
+There are many reasons for this, including people not wanting to be discriminated against based on their gender, or highly valuing their privacy.
+In these situations people sometimes specify a gender-neutral pronoun such as **they** (e.g. "they love Exercism"), or **ze** (e.g. "ze loves Exercism").
 
 For many people, being addressed by the wrong pronouns can be extremely annoying, and often offensive.
 We therefore allow people to specify the pronouns they'd like to be addressed by, and then show these pronouns in situations where interaction occurs (e.g. when writing a testimonial).
