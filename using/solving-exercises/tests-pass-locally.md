@@ -19,6 +19,6 @@ If you've not skipped everything locally, we might therefore find some edge-case
 Exercism's test runners use a specific language version.
 It might not be the most up to date version of the language, as we have to manually update our test runners when new language versions are released.
 
-If the tests fail online, please check the output (by clicking on the "Failed") word and try and highlight what might be wrong.
+If the tests fail online, please check the output (by clicking on the "Failed" word) and try and highlight what might be wrong.
 If you determine that the problem is down to a version mismatch, please open an issue on the relevant test-runner repository on GitHub.
 That normally follows the pattern of `https://github.com/exercism/$SLUG-test-runner` (e.g. `https://github.com/exercism/ruby-test-runner`).
