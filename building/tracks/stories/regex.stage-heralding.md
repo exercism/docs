@@ -8,10 +8,11 @@ You're given a list of speakers on your stage in advance and need to turn them i
 
 Since the list follows a particular formatting, you decide to write a short program that parses the list you're given using regular expressions (regex) and automatically generates the moderation cards.
 
-!!! note
+```exercism/note
 This exercise is **not** about learning regular expressions.
 It's about learning to use regex within $lang.
 The hints contain a regular expression that you can use if you don't want to write one yourself.
+```
 
 The list you're given contains the following information for each talk:
 
@@ -32,8 +33,9 @@ A full entry has the following format:
 Here, the title is `Speedrunning 101`, the speaker is called `Sasha Duda Krall`, from `GDQU`, and uses `they/them` pronouns.
 The talk starts at `13:00`, there will be a Q&A starting at `13:20`, and the entire session ends at `13:30`.
 
-!!! note
+```exercism/note
 Since names may contain regular dashes `-`, an en dash `–` is used to separate the speaker and talk name.
+```
 
 The moderation card that your program should generate for that talk looks like this:
 
