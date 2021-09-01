@@ -107,7 +107,3 @@ For each pull request that was merged by the user, `1` reputation is awarded.
 - If a pull request is closed _without_ merging, no reputation is awarded.
 - The user that opened the pull request does _not_ get reputation for merging their own pull request.
 - If the pull request does not have any reviews, `5` reputation is awarded instead.
-
-## Ideas for consideration
-
-- Assigning more reputation where the back-and-forth between student and mentor is longer. Encourages mentors to stick it through and thoroughly deal with the solution.

@@ -624,13 +624,6 @@
     "blurb": "The product decisions and thinking behind Exercism"
   },
   {
-    "uuid": "6a4b6d10-6750-41b7-aeac-e376e9f86857",
-    "slug": "product/reputation",
-    "path": "building/product/reputation.md",
-    "title": "Reputation",
-    "blurb": ""
-  },
-  {
     "uuid": "c1ca8b66-9ed3-4ad2-9695-b6f4732bed5f",
     "slug": "product/tasks",
     "path": "building/product/tasks.md",
