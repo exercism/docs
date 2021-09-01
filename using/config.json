@@ -141,13 +141,6 @@
     "blurb": ""
   },
   {
-    "uuid": "883e60d2-50a7-480a-982a-39006cdc3442",
-    "slug": "fluency",
-    "path": "using/fluency.md",
-    "title": "Fluency",
-    "blurb": ""
-  },
-  {
     "uuid": "0db11048-891a-4bd1-8299-8119fdf20beb",
     "slug": "report-abuse",
     "path": "using/report-abuse.md",
@@ -167,13 +160,6 @@
     "path": "using/faqs.md",
     "title": "Frequently asked questions",
     "blurb": "An assortment of commonly asked questions"
-  },
-  {
-    "uuid": "6a4b6d10-6750-41b7-aeac-e376e9f86857",
-    "slug": "reputation",
-    "path": "using/reputation.md",
-    "title": "Reputation",
-    "blurb": "Learn about the reputation system."
   },
   {
     "uuid": "142e218e-746d-4d00-80f5-df3c3ccb2392",
