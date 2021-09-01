@@ -18,4 +18,4 @@ These are example tasks that fit the game master exercise:
 
 - [C#: wizards-and-warriors-2][implementation-csharp] (reference implementation)
 
-[implementation-csharp]: ../../languages/csharp/exercises/concept/wizards-and-warriors-2/.docs/instructions.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/wizards-and-warriors-2/.docs/instructions.md

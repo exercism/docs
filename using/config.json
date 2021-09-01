@@ -8,6 +8,20 @@
     "blurb": "Learn how to make the most of our experience on Exercism"
   },
   {
+    "uuid": "afb50353-d30c-4cea-b33b-f494aa850ad5",
+    "slug": "settings",
+    "path": "using/settings/README.md",
+    "title": "Settings and options",
+    "blurb": "Learn about the settings and options you can use on Exercism"
+  },
+  {
+    "uuid": "bde7fcf8-e32f-40fb-9e7c-734f3ffe85ba",
+    "slug": "settings/pronouns",
+    "path": "using/settings/pronouns.md",
+    "title": "Pronouns",
+    "blurb": "Understand what pronouns are and why you might want to set them"
+  },
+  {
     "uuid": "7537b6e5-1065-4533-a6c1-3f4fd303e53f",
     "slug": "feedback",
     "path": "using/feedback/README.md",
@@ -29,6 +43,20 @@
     "blurb": "Learn how Mentor Feedback helps you improve your code"
   },
   {
+    "uuid": "23d5a897-b6c3-4e17-99de-28f3480eeb85",
+    "slug": "feedback/private",
+    "path": "using/feedback/private.md",
+    "title": "Private Feedback",
+    "blurb": "Learn about getting feedback privately from a friend or colleague"
+  },
+  {
+    "uuid": "6ec45045-8b00-42f5-93dd-e4cf20a0b237",
+    "slug": "feedback/guide-to-being-mentored",
+    "path": "using/feedback/guide-to-being-mentored.md",
+    "title": "Guide to being mentored",
+    "blurb": "Learn how to make the most out of being mentored on Exercism"
+  },
+  {
     "uuid": "4e6b1af9-76e8-41d8-9cc2-92406f464a27",
     "slug": "solving-exercises",
     "path": "using/solving-exercises/README.md",
@@ -48,5 +76,167 @@
     "path": "using/solving-exercises/using-the-online-editor.md",
     "title": "Using the online editor",
     "blurb": "Learn how to solve exercises using the Online Editor"
+  },
+  {
+    "uuid": "eed4bdcf-edeb-4156-898a-c3b580699192",
+    "slug": "solving-exercises/tests-pass-locally",
+    "path": "using/solving-exercises/tests-pass-locally.md",
+    "title": "Tests pass locally but not online?",
+    "blurb": "Learn what to do when your tests pass locally but not online"
+  },
+  {
+    "uuid": "18e997a5-00df-41d0-9615-ca332c54cf8f",
+    "slug": "solving-exercises/legacy-files",
+    "path": "using/solving-exercises/legacy-files.md",
+    "title": "Legacy Files",
+    "blurb": "Seeing a banner about legacy files? Here's what you need to know."
+  },
+  {
+    "uuid": "961f4650-83ea-4907-8493-b9ef5ded757e",
+    "slug": "legal",
+    "path": "using/legal/README.md",
+    "title": "Legal Information",
+    "blurb": ""
+  },
+  {
+    "uuid": "0cf0ca4b-0036-449e-912f-5a095bcd9385",
+    "slug": "legal/code-of-conduct",
+    "path": "using/legal/code-of-conduct.md",
+    "title": "Code of Conduct",
+    "blurb": ""
+  },
+  {
+    "uuid": "974067b7-f3af-4a56-a0a7-f457b5291ba7",
+    "slug": "legal/terms-of-service",
+    "path": "using/legal/terms-of-service.md",
+    "title": "Terms of Service",
+    "blurb": ""
+  },
+  {
+    "uuid": "af553af4-2ca9-4d44-b7b9-3af18b736115",
+    "slug": "legal/privacy-policy",
+    "path": "using/legal/privacy-policy.md",
+    "title": "Privacy Policy",
+    "blurb": ""
+  },
+  {
+    "uuid": "a560f7ab-ef0d-4806-9337-ca490287fab0",
+    "slug": "legal/cookie-policy",
+    "path": "using/legal/cookie-policy.md",
+    "title": "Cookie Policy",
+    "blurb": ""
+  },
+  {
+    "uuid": "dd50a9c1-0c64-4c4c-b759-ad4af06c446f",
+    "slug": "legal/accessibility",
+    "path": "using/legal/accessibility.md",
+    "title": "Accessibility Statement",
+    "blurb": ""
+  },
+  {
+    "uuid": "75735e59-f833-442a-92da-f88f76644736",
+    "slug": "contact",
+    "path": "using/contact.md",
+    "title": "Contact Us",
+    "blurb": ""
+  },
+  {
+    "uuid": "0db11048-891a-4bd1-8299-8119fdf20beb",
+    "slug": "report-abuse",
+    "path": "using/report-abuse.md",
+    "title": "Report Abuse",
+    "blurb": ""
+  },
+  {
+    "uuid": "4e8caa6c-cc2a-42a1-b672-1c7e22230a85",
+    "slug": "getting-started",
+    "path": "using/getting-started.md",
+    "title": "Getting Started",
+    "blurb": "Learn how to Get Started and make the most of your Exercism experience"
+  },
+  {
+    "uuid": "a89d630d-44d7-449a-a427-3f7815934209",
+    "slug": "faqs",
+    "path": "using/faqs.md",
+    "title": "Frequently asked questions",
+    "blurb": "An assortment of commonly asked questions"
+  },
+  {
+    "uuid": "142e218e-746d-4d00-80f5-df3c3ccb2392",
+    "slug": "licenses",
+    "path": "using/licenses/README.md",
+    "title": "Licenses used on Exercism",
+    "blurb": "A copy of the various licenses used on Exercism"
+  },
+  {
+    "uuid": "c3b90289-75d1-49d8-9a26-432b911f9d12",
+    "slug": "licenses/mit",
+    "path": "using/licenses/mit.md",
+    "title": "The MIT Licence",
+    "blurb": ""
+  },
+  {
+    "uuid": "92b67c9c-ddf4-403e-8635-44ceab72f58a",
+    "slug": "licenses/agpl",
+    "path": "using/licenses/agpl.md",
+    "title": "The AGPL 3 Licence",
+    "blurb": ""
+  },
+  {
+    "uuid": "e3bc22c9-ea28-45ab-8beb-22cea39bfe77",
+    "slug": "licenses/cc-by-nc-sa",
+    "path": "using/licenses/cc-by-nc-sa.md",
+    "title": "The Creative Commons NC SA 4 Licence",
+    "blurb": ""
+  },
+  {
+    "uuid": "4ca3faa0-ad69-4a2f-b52e-55db3b54c433",
+    "slug": "editions",
+    "path": "using/editions/README.md",
+    "title": "The Various editions of Exercism",
+    "blurb": ""
+  },
+  {
+    "uuid": "8f66e8c6-93fc-4546-88ee-1ffb513fb0b2",
+    "slug": "editions/standard",
+    "path": "using/editions/standard.md",
+    "title": "Exercism Standard Edition",
+    "blurb": ""
+  },
+  {
+    "uuid": "01622903-21a9-47e2-a0d6-4d2a218d2e8b",
+    "slug": "editions/research",
+    "path": "using/editions/research.md",
+    "title": "Exercism Research Edition",
+    "blurb": ""
+  },
+  {
+    "uuid": "06a97766-74ef-41a7-a8fc-2d127d7dbb79",
+    "slug": "editions/teams",
+    "path": "using/editions/teams.md",
+    "title": "Exercism Teams Edition",
+    "blurb": ""
+  },
+  {
+    "uuid": "8bca3c74-2c12-4d6b-8e89-98ce33a6c48f",
+    "section": "product",
+    "slug": "product",
+    "path": "using/product/README.md",
+    "title": "Product",
+    "blurb": "Learn about various aspects of Exercism"
+  },
+  {
+    "uuid": "883e60d2-50a7-480a-982a-39006cdc3442",
+    "slug": "product/fluency",
+    "path": "using/product/fluency.md",
+    "title": "Fluency",
+    "blurb": ""
+  },
+  {
+    "uuid": "6a4b6d10-6750-41b7-aeac-e376e9f86857",
+    "slug": "product/reputation",
+    "path": "using/product/reputation.md",
+    "title": "Reputation",
+    "blurb": "Learn about the reputation system."
   }
 ]

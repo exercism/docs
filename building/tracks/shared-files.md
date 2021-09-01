@@ -1,12 +1,12 @@
 # Shared files
 
-Some documentation files apply to both [Concept Exercises](./concept-exercises.md) and [Practice Exercises](./practice-exercises.md). These cross-exercise files are located within the track's `exercises/shared/.docs` directory:
+Some documentation files apply to both [Concept Exercises](/docs/building/tracks/concept-exercises) and [Practice Exercises](/docs/building/tracks/practice-exercises). These cross-exercise files are located within the track's `exercises/shared/.docs` directory:
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
-The [Presentation document](./presentation.md) describes how these files are used to present content to the student.
+The [Presentation document](/docs/building/tracks/presentation) describes how these files are used to present content to the student.
 
 ---
 

@@ -1,10 +1,10 @@
 # Concept Exercises
 
-[Concept Exercises](../../product/concept-exercises.md) are exercises designed to teach specific (programming) concepts.
+[Concept Exercises](/docs/building/product/concept-exercises) are exercises designed to teach specific (programming) concepts.
 
 ## Metadata
 
-Concept Exercise metadata is defined in the `exercises.concept` key in the [config.json file](./config-json.md#concept-exercises). The metadata defines the exercise's UUID, slug and more.
+Concept Exercise metadata is defined in the `exercises.concept` key in the [config.json file](/docs/building/tracks/config-json#concept-exercises). The metadata defines the exercise's UUID, slug and more.
 
 ### Example
 
@@ -26,7 +26,7 @@ Concept Exercise metadata is defined in the `exercises.concept` key in the [conf
 
 ## Files
 
-Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
+Each Concept Exercise has its own directory within the track's `exercises/concept` directory. The name of the Concept Exercise directory must match the `slug` property of the Concept Exercise, as defined in the [config.json file](/docs/building/tracks/config-json#concept-exercises).
 
 A Concept Exercise has three types of files:
 
@@ -124,11 +124,11 @@ my_first_variable = SomeComplexObject.new
 
 **Presence:** Optional
 
-The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](./concepts#fileintroductionmd), which is not shown outside the context of an exercise.
+The `introduction.md` document introduces the exercise's concept(s) to the student. Each concept also has its _own_ [`introduction.md` document](/docs/building/tracks/concepts#fileintroduction), which is not shown outside the context of an exercise.
 
 If the concept's introduction should be included verbatim in the exercise's introduction, an `introduction.md.tpl` file can be used. This file allows referring to concept introductions through placeholders: `%{concept:<concept-slug>}`.
 
-[configlet](./configlet/generating.md) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction.md` contents.
+[configlet](/docs/building/configlet/generating-documents) can generate an `introduction.md` file from a template file. The generated file will have the concept placeholders replaced by the concept's `introduction` contents.
 
 The Exercism website only knows about the `introduction.md` document. It is the track's responsibility to generate the `introduction.md` when a template file is used.
 
@@ -451,7 +451,7 @@ Some languages require additional files for the tests to run. Example of these a
 
 ## Shared files
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
 ## Naming
 
@@ -493,6 +493,6 @@ Disallowed slugs:
 
 ## Presentation
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation) for more information.
 
 [kebab-case]: https://en.wiktionary.org/wiki/kebab_case

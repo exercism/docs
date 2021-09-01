@@ -19,5 +19,5 @@ The story facilitates exploration of [Optional types][types-option-types] which 
 
 - [`types/option_types`][types-option-types]
 
-[types-option-types]: ../types/option_types.md
-[implementation-swift]: ../../languages/swift/exercises/concept/pizza-slices/.docs/instructions.md
+[types-option-types]: https://github.com/exercism/v3/blob/main/reference/types/option_types.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/pizza-slices/.docs/instructions.md

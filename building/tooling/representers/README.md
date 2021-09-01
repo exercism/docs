@@ -14,7 +14,7 @@ A _Representer_ is a bit of code that has the single responsibility of taking a 
 A _representation_ is an extraction of a solution to its essence with normalized names, comments, spacing, etc. but still uniquely identifying the approach taken. Two different ways of solving the same exercise must not have the same representation.
 
 The simplest Representer is one that merely returns the solution's source code.
-However, as our goal is to have the same representation for solutions only differing in non-essential details, the Representer should apply one or more [normalizations](./normalization.md).
+However, as our goal is to have the same representation for solutions only differing in non-essential details, the Representer should apply one or more [normalizations](/docs/building/tooling/representers/normalization).
 
 Once we have a normalized representation for a solution, a team of vetted mentors will look at the solution and comment on it (if needed).
 These comments will then automatically be submitted to each new solution with the same representation.
@@ -29,11 +29,11 @@ Each representer lives in the Exercism GitHub organization in a repository named
 You can explore the different representers [here](https://github.com/exercism?q=-representer).
 
 If you would like to get involved in helping with an existing Representer, please open an issue in its repository asking if there is somewhere you can help.
-If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](creating-from-scratch.md) instructions.
+If you would like to create a Representer for a language that currently does not have one, please follow the [creating a Representer](/docs/building/tooling/representers/creating-from-scratch) instructions.
 
-This directory contains the following information:
+You can use the following documents to learn more about building a representer:
 
-- **[`creating-from-scratch.md`](./creating-from-scratch.md):** Information on creating a Representer from scratch.
-- **[`interface.md`](./interface.md):** The Representer interface.
-- **[`normalization.md`](./normalization.md):** Information on how to normalize representations for the highest efficiency.
-- **[`docker.md`](./docker.md):** How to build a Docker image with Docker for local testing and deployment.
+- [Creating a Representer from scratch](/docs/building/tooling/representers/creating-from-scratch)
+- [The Representer interface](/docs/building/tooling/representers/interface)
+- [How to normalize representations for the highest efficiency](/docs/building/tooling/representers/normalization)
+- [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/representers/docker)

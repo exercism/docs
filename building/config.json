@@ -6,7 +6,6 @@
     "title": "Contributing to Exercism",
     "blurb": "An overview of how to contribute to Exercism"
   },
-
   {
     "uuid": "d372e903-31fa-4918-a506-e3f939452828",
     "slug": "configlet",
@@ -520,6 +519,13 @@
     "blurb": ""
   },
   {
+    "uuid": "48775c5f-b449-4c91-b792-b81a8ef4ec04",
+    "slug": "tooling/analyzers/feedback-guidelines",
+    "path": "building/tooling/analyzers/feedback-guidelines.md",
+    "title": "Feedback Guidelines",
+    "blurb": ""
+  },
+  {
     "uuid": "787e4243-b97a-4b55-9038-7667e5c3788a",
     "slug": "tooling/analyzers/comments",
     "path": "building/tooling/analyzers/comments.md",
@@ -608,6 +614,62 @@
     "slug": "tooling/test-runners/interface",
     "path": "building/tooling/test-runners/interface.md",
     "title": "The Test Runner Interface",
+    "blurb": ""
+  },
+  {
+    "uuid": "3423667a-3b30-4590-9a88-5a30f712f382",
+    "slug": "product",
+    "path": "building/product/README.md",
+    "title": "Product",
+    "blurb": "The product decisions and thinking behind Exercism"
+  },
+  {
+    "uuid": "c1ca8b66-9ed3-4ad2-9695-b6f4732bed5f",
+    "slug": "product/tasks",
+    "path": "building/product/tasks.md",
+    "title": "Tasks",
+    "blurb": ""
+  },
+  {
+    "uuid": "619e5dfb-78ea-4f0c-8a2f-3dc6fc5314e0",
+    "slug": "product/tracks",
+    "path": "building/product/tracks.md",
+    "title": "General info",
+    "blurb": ""
+  },
+  {
+    "uuid": "62152557-504e-414f-a680-be4664ba5349",
+    "slug": "product/practice-exercises",
+    "path": "building/product/practice-exercises.md",
+    "title": "Practice Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "9b8528ed-3e30-4884-b99e-52aae5446943",
+    "slug": "product/concept-exercises",
+    "path": "building/product/concept-exercises.md",
+    "title": "Concept Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "672b118f-f1cc-4fff-a5c1-14ff9d5eb06f",
+    "slug": "product/test-runners",
+    "path": "building/product/test-runners.md",
+    "title": "Test Runners",
+    "blurb": ""
+  },
+  {
+    "uuid": "5a96a588-fefd-42a7-b9f5-84aadfd06948",
+    "slug": "product/representers",
+    "path": "building/product/representers.md",
+    "title": "Representers",
+    "blurb": ""
+  },
+  {
+    "uuid": "949a0c55-1217-4615-875f-b0c168ebd61c",
+    "slug": "product/analyzers",
+    "path": "building/product/analyzers.md",
+    "title": "Analyzers",
     "blurb": ""
   }
 ]

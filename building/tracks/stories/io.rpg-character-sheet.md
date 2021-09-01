@@ -14,4 +14,4 @@ You and your friends love to play pen-and-paper role-playing games, but you noti
 
 - [Elixir: io][implementation-elixir] (reference implementation)
 
-[implementation-elixir]: ../../languages/elixir/exercises/concept/rpg-character-sheet/.docs/instructions.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/rpg-character-sheet/.docs/instructions.md

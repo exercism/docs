@@ -34,6 +34,6 @@ These are example tasks that fit the website permissions exercise:
 - [`concepts/bitwise_manipulation`][concepts-bitwise_manipulation]
 - [`types/bit`][types-bit]
 
-[concepts-bitwise_manipulation]: ../concepts/bitwise_manipulation.md
-[types-bit]: ../types/bit.md
-[implementation-csharp]: ../../languages/csharp/exercises/concept/attack-of-the-trolls/.docs/instructions.md
+[concepts-bitwise_manipulation]: https://github.com/exercism/v3/blob/main/reference/concepts/bitwise_manipulation.md
+[types-bit]: https://github.com/exercism/v3/blob/main/reference/types/bit.md
+[implementation-csharp]: https://github.com/exercism/csharp/blob/main/exercises/concept/attack-of-the-trolls/.docs/instructions.md

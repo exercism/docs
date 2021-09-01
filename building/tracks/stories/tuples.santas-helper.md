@@ -19,5 +19,5 @@ The story facilitates the exploration of [tuples][type-tuple] in a language. It 
 
 - [`types/tuple`][type-tuple]
 
-[type-tuple]: ../types/tuple.md
-[implementation-swift]: ../../languages/swift/exercises/concept/santas-helper/.docs/instructions.md
+[type-tuple]: https://github.com/exercism/v3/blob/main/reference/types/tuple.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/santas-helper/.docs/instructions.md

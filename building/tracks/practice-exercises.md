@@ -1,10 +1,10 @@
 # Practice Exercises
 
-[Practice Exercises](../../product/practice-exercises.md) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
+[Practice Exercises](/docs/building/product/practice-exercises) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
 
 ## Metadata
 
-Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](./config-json.md#practice-exercises). The metadata defines the exercise's UUID, slug and more.
+Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks#practice-exercises). The metadata defines the exercise's UUID, slug and more.
 
 ### Example
 
@@ -44,7 +44,7 @@ The `prerequisites` key lists the Concepts that a student must have completed in
 
 ## Files
 
-Each Practice Exercise has its own directory within the track's `exercises/practice` directory. The name of the Practice Exercise directory must match the `slug` property of the Practice Exercise, as defined in the [config.json file](./config-json.md#concept-exercises).
+Each Practice Exercise has its own directory within the track's `exercises/practice` directory. The name of the Practice Exercise directory must match the `slug` property of the Practice Exercise, as defined in the [config.json file](/docs/building/tracks#concept-exercises).
 
 A Practice Exercise has three types of files:
 
@@ -100,7 +100,7 @@ exercises
 
 **Presence:** Required if the exercise implements a Problem Specifications Exercise with an `introduction.md` file
 
-If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `introduction.md` file. configlet has functionality to automatically [sync the contents](../configlet/generating-documents#document-practice-exercises-introductionmd-file) of this file.
+If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `introduction.md` file. configlet has functionality to automatically [sync the contents](/docs/building/configlet/generating-documents#document-practice-exercises-introductionmd-file) of this file.
 
 If the exercise is _not_ based on a Problem Specifications Exercise, consider the following:
 
@@ -142,7 +142,7 @@ As part of his teenage rebellion, Bob has decided to only communicate using ASCI
 
 **Presence:** Required
 
-If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `instructions.md` file (or `description.md` file if there is no `instructions.md` file). configlet has functionality to automatically [sync the contents](../configlet/generating-documents#document-practice-exercises-instructionsmd-file) of this file.
+If the exercise implements a [Problem Specifications Exercise](https://github.com/exercism/problem-specifications/), this file's contents should match the Problem Specification Exercise's `instructions.md` file (or `description.md` file if there is no `instructions.md` file). configlet has functionality to automatically [sync the contents](/docs/building/configlet/generating-documents#document-practice-exercises-instructionsmd-file) of this file.
 
 If the exercise is _not_ based on a Problem Specifications Exercise, consider the following:
 
@@ -385,8 +385,8 @@ Some languages require additional files for the tests to run. Example of these a
 
 ## Shared files
 
-Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](./shared-files.md) for more information.
+Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
 ## Presentation
 
-There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](./presentation.md) for more information.
+There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation) for more information.

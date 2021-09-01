@@ -9,6 +9,6 @@ All tooling is deployed using the same Docker workflow.
 
 There are currently three pieces of tooling:
 
-- **[Test Runners](./test-runners)**
-- **[Representers](./representers)**
-- **[Analyzers](./analyzers)**
+- **[Test Runners](/docs/building/tooling/test-runners)**
+- **[Representers](/docs/building/tooling/representers)**
+- **[Analyzers](/docs/building/tooling/analyzers)**

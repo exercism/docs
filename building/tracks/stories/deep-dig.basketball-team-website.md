@@ -25,6 +25,6 @@ The story can be continued, for example:
 
 - [`types/dictionary`][types-dictionary]
 
-[types-dictionary]: ../types/dictionary.md
+[types-dictionary]: https://github.com/exercism/v3/blob/main/reference/types/dictionary.md
 [implementation-javascript-research-1-b]: https://github.com/exercism/research_experiment_1/tree/master/exercises/javascript-1-b/README.md
 [implementation-javascript-research-2-b]: https://github.com/exercism/research_experiment_1/tree/master/exercises/javascript-2-b/README.md

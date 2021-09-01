@@ -5,7 +5,7 @@
 # Comment Copy Guidelines
 
 This document sets guidelines for the comments produced by the analyzer. The
-[Feedback guidelines][git-feedback-guidelines] talk about _when_ to comment and
+[Feedback guidelines](/docs/building/tooling/analyzers/feedback-guidelines) talk about _when_ to comment and
 _what_ to comment. This document talks mostly about _how_ to comment.
 
 ## Working directory for contents
@@ -138,4 +138,3 @@ custom errors might be interesting.
 [git-website-copy]: https://github.com/exercism/website-copy/tree/main/automated-comments
 [issue-ci-comments]: https://github.com/exercism/automated-mentoring-support/issues/51
 [git-website-copy-label]: https://github.com/exercism/website-copy/pulls?q=is%3Aopen+is%3Apr+label%3Atype%2Fanalyzer-comments
-[git-feedback-guidelines]: https://github.com/exercism/automated-mentoring-support/blob/main/docs/guidelines.md#idiomatic-rules--language-features--stylistic-choices

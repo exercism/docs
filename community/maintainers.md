@@ -7,7 +7,7 @@ They are senior members of our community who have demonstrated their alignment t
 
 This document outlines a formal process to become and remain a Maintainer, which has been designed to make it achievable and fair for everyone.
 If you want to one day become a Maintainer (yay!!), then please read on!
-But remember, most people who help build Exercism are not Maintainers - they are [Contributors](./Contributors).
+But remember, most people who help build Exercism are not Maintainers - they are [Contributors](/docs/community/contributors).
 **There is no barrier to contributing to Exercism** and every bit of help is gratefully received.
 
 We aim to have at least active two Maintainers for each Track, and at least one active maintainer for all the parts of the platform.

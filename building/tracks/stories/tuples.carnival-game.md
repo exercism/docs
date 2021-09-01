@@ -20,4 +20,4 @@ This should guide students how to use:
 
 ## Implementations
 
-[type-tuple]: ../types/tuple.md
+[type-tuple]: https://github.com/exercism/v3/blob/main/reference/types/tuple.md

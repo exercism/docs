@@ -3,7 +3,7 @@
 We want Exercism to be a great place to spend time, whoever you are.
 To ensure that Exercism is that, we place a strong focus on being good community members.
 
-This is formalized in our [Code of Conduct](https://exercism.io/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
+This is formalized in our [Code of Conduct](https://exercism.org/code-of-conduct) but can be summed up simply in one sentence: **Be kind.**
 
 There are a few principles to try and keep in mind as you contribute to Exercism.
 Whether you're mentoring, learning, hanging out in a chat space, or helping build things on GitHub, if you follow these ideas, you'll find that Exercism can be an incredibly fun and rewarding place to spend time:
@@ -48,7 +48,7 @@ And it is an incredible experience when both sides are open to new information (
 It's easy to remember that feeling in the context of being a student in a mentoring session, but that spirit of openness just as important everywhere else within Exercism.
 When you think something sucks about the website, start by asking yourself what things you might _not_ know— a decision that looks ridiculous from your perspective might indicate a gap in your knowledge — just as much as it might indicate that the decision actually **is** ridiculous.
 
-Take a look at our post on [Chesterton's Fence](./being-a-good-community-member/chestertons-fence) for some practical examples of how this principle applies.
+Take a look at our post on [Chesterton's Fence](/docs/community/being-a-good-community-member/chestertons-fence) for some practical examples of how this principle applies.
 
 ## Disagree constructively
 
@@ -133,4 +133,4 @@ There are lots of ways to embrace being kind within Exercism, but the most power
 In a cross-cultural space full of people from different backgrounds -- who share different beliefs, value-systems, and natural languages -- communicating clearly is a super-power.
 It's easy to know how you intend your words to _come across_, but it's difficult to know how others _perceive your words_.
 
-Take a read of [The words that we use](./being-a-good-community-member/the-words-that-we-use) to learn more about why this matters so much.
+Take a read of [The words that we use](/docs/community/being-a-good-community-member/the-words-that-we-use) to learn more about why this matters so much.

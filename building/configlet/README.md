@@ -4,28 +4,28 @@
 
 ## Linting
 
-The primary function of configlet is to do _linting_: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism. The full list of rules that are checked by the linter can be found [here](./lint).
+The primary function of configlet is to do _linting_: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism. The full list of rules that are checked by the linter can be found [here](/docs/building/configlet/lint).
 
 ## Generating documents
 
 The secondary function of configlet is to generate documents. There are two types of documents that configlet can generate:
 
-1. A Concept Exercise's [`introduction.md` file](./generating-documents#document-concept-exercises-introductionmd-file).
-1. A Practice Exercise's [`instructions.md` file](./generating-documents#document-practice-exercises-instructionsmd-file).
+1. A Concept Exercise's [`introduction.md` file](/docs/building/configlet/generating-documents#document-concept-exercises-introductionmd-file).
+1. A Practice Exercise's [`instructions.md` file](/docs/building/configlet/generating-documents#document-practice-exercises-instructionsmd-file).
 
-How these documents are generated can be found [here](./generating-documents).
+How these documents are generated can be found [here](/docs/building/configlet/generating-documents).
 
 ## Syncing test data
 
-The tertiary function of configlet is to sync test data. Each implemented [Practice Exercise](./tracks/practice-exercises) for which test data exists in the [problem-specifications repo](https://github.com/exercism/problem-specifications) _must_ contain a `.meta/tests.toml` file. The goal of this file is to keep track of which tests are implemented by the exercise. Tests in this file are identified by their UUID and each test has a boolean value that indicates if it is implemented by that exercise.
+The tertiary function of configlet is to sync test data. Each implemented [Practice Exercise](/docs/building/tracks/practice-exercises) for which test data exists in the [problem-specifications repo](https://github.com/exercism/problem-specifications) _must_ contain a `.meta/tests.toml` file. The goal of this file is to keep track of which tests are implemented by the exercise. Tests in this file are identified by their UUID and each test has a boolean value that indicates if it is implemented by that exercise.
 
-How to sync the contents of the `.meta/tests.toml` can be found [here](./sync)
+How to sync the contents of the `.meta/tests.toml` can be found [here](/docs/building/configlet/sync)
 
 ## Generating UUIDs
 
 Exercises, tracks and concepts are identified by a UUID.
 
-How to generate UUIDs can be found [here](./uuid).
+How to generate UUIDs can be found [here](/docs/building/configlet/uuid).
 
 ## Usage
 

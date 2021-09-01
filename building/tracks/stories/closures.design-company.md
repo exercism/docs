@@ -20,4 +20,4 @@ so you decide to use a function closure to create reusable transformation for `{
 
 - [JavaScript: closures][implementation-javascript] (reference implementation)
 
-[implementation-javascript]: ../../languages/javascript/exercises/concept/closures/.docs/instructions.md
+[implementation-javascript]: https://github.com/exercism/javascript/blob/main/exercises/concept/closures/.docs/instructions.md

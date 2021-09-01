@@ -1,6 +1,6 @@
 # Presentation
 
-This document decribes how the various exercise and track files are presented to the student, taking into account whether the student is using the CLI or the editor.
+This document describes how the various exercise and track files are presented to the student, taking into account whether the student is using the CLI or the editor.
 
 ## Documentation
 
@@ -17,7 +17,7 @@ These file are specific to each exercise:
 - `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required for concept exercises, optional for practice exercises)
 - `.meta/config.json`: contains source information of the exercise (optional)
 
-See the [Concept Exercises documentation](./concept-exercises#documentationfiles) and the [Practice Exercises documentation](./concept-exercises#documentationfiles) for more information.
+See the [Concept Exercises documentation](/docs/building/tracks/concept-exercises#documentationfiles) and the [Practice Exercises documentation](/docs/building/tracks/concept-exercises#documentationfiles) for more information.
 
 ### Track-specific files
 
@@ -27,7 +27,7 @@ These file are shared between all exercises:
 - `help.md`: contains track-specific-wide instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
-See the [shared files documentation](./shared-files.md) for more information.
+See the [shared files documentation](/docs/building/tracks/shared-files) for more information.
 
 ### Exercism-wide documentation
 

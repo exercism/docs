@@ -21,5 +21,5 @@ These are example tasks that fit the story of the freelancer communicating with 
 
 - [`concept/loops`][concept-loops]
 
-[concept-loops]: ../concepts/loops.md
-[implementation-swift]: ../../languages/swift/exercises/concept/master-mixologist/.docs/instructions.md
+[concept-loops]: https://github.com/exercism/v3/blob/main/reference/concepts/loops.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/master-mixologist/.docs/instructions.md

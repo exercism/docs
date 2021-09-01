@@ -21,6 +21,6 @@ You are writing an embedded system for a Take-A-Number machine. It is a very sim
 - [`concepts/actor-model`][concepts/actor-model]
 - [`types/pid`][types/pid]
 
-[concepts/actor-model]: ../concepts/actor_model.md
-[types/pid]: ../types/pid.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/take-a-number/.docs/instructions.md
+[concepts/actor-model]: https://github.com/exercism/v3/blob/main/reference/concepts/actor_model.md
+[types/pid]: https://github.com/exercism/v3/blob/main/reference/types/pid.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/take-a-number/.docs/instructions.md

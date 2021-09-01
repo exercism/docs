@@ -26,9 +26,9 @@ The student is then guided through some operations:
 - [`types/hash_map`][types-hash_map]
 - [`types/map`][types-map]
 
-[collection]: ../types/collection.md
-[types-map]: ../types/map.md
-[types-hash_map]: ../types/hash_map.md
-[types-dictionary]: ../types/dictionary.md
-[implementation-elixir]: ../../languages/elixir/exercises/concept/high-score/.docs/instructions.md
-[implementation-swift]: ../../languages/swift/exercises/concept/high-score-board/.docs/instructions.md
+[collection]: https://github.com/exercism/v3/blob/main/reference/types/collection.md
+[types-map]: https://github.com/exercism/v3/blob/main/reference/types/map.md
+[types-hash_map]: https://github.com/exercism/v3/blob/main/reference/types/hash_map.md
+[types-dictionary]: https://github.com/exercism/v3/blob/main/reference/types/dictionary.md
+[implementation-elixir]: https://github.com/exercism/elixir/blob/main/exercises/concept/high-score/.docs/instructions.md
+[implementation-swift]: https://github.com/exercism/swift/blob/main/exercises/concept/high-score-board/.docs/instructions.md

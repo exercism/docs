@@ -17,30 +17,49 @@ The purpose of the reputation system is to:
 
 Reputation can be acquired in a variety of ways:
 
-1. Mentoring others' solutions successfully
-2. Writing exercises
-3. Updating exercises
-4. Creating pull requests
-5. Reviewing pull requests
-6. Merging pull requests
-7. Writing analyzers
-8. Updating analyzers
-9. Creating documentation
-10. Updating documentation
+| Action                            | Reputation |
+| --------------------------------- | ---------- |
+| Mentoring a solution successfully | 5          |
+| Publishing a solution             | 1-3        |
+| Writing an exercise               | 20         |
+| Updating an exercise              | 10         |
+| Writing a concept                 | 10         |
+| Updating a concept                | 5          |
+| Creating a pull request           | 3-100      |
+| Reviewing a pull request          | 1-20       |
+| Merging a pull request            | 1-5        |
 
-### 1. Mentoring others' solutions successfully
+### Mentoring a solution successfully
 
-Algorithm for determining the allocation of reputation points per mentoring interaction is yet to be determined.
+For each succesfully mentored solution (discussion was finished), `5` reputation is awarded.
 
-### 2. Writing exercises
+### Publishing a solution
+
+For each published solution, reputation is awarded dependent on the exercise's difficulty:
+
+| Label    | Reputation |
+| -------- | ---------- |
+| `easy`   | 1          |
+| `medium` | 2          |
+| `hard`   | 3          |
+
+### Writing an exercise
 
 For each exercise where the user is listed as an author, `20` reputation is awarded.
 
-### 3. Updating exercises
+### Updating an exercise
 
 For each exercise where the user is listed as a contributor, `10` reputation is awarded.
 
-### 4. Creating pull requests
+### Writing a concept
+
+For each concept where the user is listed as an author, `10` reputation is awarded.
+
+### Updating a concept
+
+For each concept where the user is listed as a contributor, `5` reputation is awarded.
+
+### Creating a pull request
 
 For each merged pull request that was opened by the user, `12` reputation is awarded.
 
@@ -60,7 +79,7 @@ For each merged pull request that was opened by the user, `12` reputation is awa
 
   Note that an `x:size` label on an **issue** never affects the awarded reputation - even if a merged pull request lacks an `x:size` label, and closes an issue that has one.
 
-### 5. Reviewing pull requests
+### Reviewing a pull requests
 
 For each merged or closed pull request reviewed by the user, `5` reputation is awarded.
 
@@ -80,7 +99,7 @@ For each merged or closed pull request reviewed by the user, `5` reputation is a
 
   If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
 
-### 6. Merging pull requests
+### Merging a pull request
 
 For each pull request that was merged by the user, `1` reputation is awarded.
 
@@ -88,7 +107,3 @@ For each pull request that was merged by the user, `1` reputation is awarded.
 - If a pull request is closed _without_ merging, no reputation is awarded.
 - The user that opened the pull request does _not_ get reputation for merging their own pull request.
 - If the pull request does not have any reviews, `5` reputation is awarded instead.
-
-## Ideas for consideration
-
-- Assigning more reputation where the back-and-forth between student and mentor is longer. Encourages mentors to stick it through and thoroughly deal with the solution.

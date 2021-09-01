@@ -16,10 +16,10 @@ The following top-level properties contain general track metadata:
   - `indent_size`: the indentation size as an integer (e.g. `4`) (required)
   - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
 - `status`: an object describing which v3 features should be enabled: (required)
-  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](./concept-exercises.md) have been built (required)
-  - `test_runner`: a `boolean` value indicating if a [test runner](../track-tooling/test-runners/README.md) has been implemented (required)
-  - `representer`: a `boolean` value indicating if a [representer](../track-tooling/representers/README.md) has been implemented (required)
-  - `analyzer`: a `boolean` value indicating if an [analyzer](../track-tooling/analyzers/README.md) has been implemented (required)
+  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](/docs/building/tracks/concept-exercises) have been built (required)
+  - `test_runner`: a `boolean` value indicating if a [test runner](/docs/building/tooling/test-runners) has been implemented (required)
+  - `representer`: a `boolean` value indicating if a [representer](/docs/building/tooling/representers) has been implemented (required)
+  - `analyzer`: a `boolean` value indicating if an [analyzer](/docs/building/tooling/analyzers) has been implemented (required)
 - `files`: The patterns for the locations of the files used in an exercise, relative to the exercise's directory. (optional)
   - `solution`: stub implementation file(s) pattern (optional)
   - `test`: test file(s) pattern (optional)
@@ -31,7 +31,7 @@ The following top-level properties contain general track metadata:
 
 ### Files
 
-This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, support will be added to [configlet](./README.md) to use these track-wide patterns to automatically populate the exercises' `files` key.
+This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, support will be added to [configlet](/docs/building/configlet) to use these track-wide patterns to automatically populate the exercises' `files` key.
 
 The file patterns defined in the `files` object support the following placeholders:
 
@@ -40,7 +40,7 @@ The file patterns defined in the `files` object support the following placeholde
 - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
 - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
 
-Support will be added to [configlet](./README.md) to use these pattern to populate the `files` key in an exercise's `.meta/config.json` file.
+Support will be added to [configlet](/docs/building/configlet) to use these pattern to populate the `files` key in an exercise's `.meta/config.json` file.
 
 ### Example
 
@@ -88,7 +88,7 @@ Each concept exercise is an entry in the `exercises.concept` array.
 Exercises are ordered on the website in the same order they are listed in this file, and should match the typical order in which they should be solved.
 The following fields make up a concept exercise:
 
-- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
 - `name`: the exercise's name. Its length must be <= 255.
 - `concepts`: an array of concept slugs that are taught by this concept exercise
@@ -97,7 +97,7 @@ The following fields make up a concept exercise:
   - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
   - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback."
   - `active`: The normal state of active exercises
-  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage). See [Deprecated Exercises](./deprecated-exercises) for more information.
+  - `deprecated`: Exercises that are no longer shown to students who have not started them (not usable at this stage). See [Deprecated Exercises](/docs/building/tracks/deprecated-exercises) for more information.
 
 #### Example
 
@@ -142,7 +142,7 @@ The following fields make up a concept exercise:
 
 Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
 
-- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
 - `name`: the exercise's name. Its length must be <= 255.
 - `practices`: an array of concept slugs that the exercise is helping students practice
@@ -199,7 +199,7 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
 
 ### Foregone exercises
 
-If a track knows that it doesn't want to implement an exercise defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications), the slug of that exercise can be added to the `exercises.foregone` key. [configlet](./configlet/README.md) will ignore foregone exercises when outputting the track's unimplemented exercises.
+If a track knows that it doesn't want to implement an exercise defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications), the slug of that exercise can be added to the `exercises.foregone` key. [configlet](/docs/building/configlet) will ignore foregone exercises when outputting the track's unimplemented exercises.
 
 Reasons for why an track might _not_ want to implement an exercise could be:
 
@@ -220,7 +220,7 @@ Reasons for why an track might _not_ want to implement an exercise could be:
 
 Each concept is an entry in the top-level `concepts` array. The following fields make up a concept:
 
-- `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks
+- `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track. Its length must be <= 255.
 - `name`: the concept's name. Its length must be <= 255.
 

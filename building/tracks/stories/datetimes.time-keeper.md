@@ -44,4 +44,4 @@ These are example tasks that fit the time-keeper exercise:
 
 - [`types/datetime`][types-datetime]
 
-[types-datetime]: ../types/datetime.md
+[types-datetime]: https://github.com/exercism/v3/blob/main/reference/types/datetime.md

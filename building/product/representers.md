@@ -21,3 +21,7 @@ end
 Although the code to these solutions is different (different indentation, variable names, and string syntax), they are essentially the same. So by creating a normalized representation of them, we can _treat_ them as the same for the purposes of providing feedback. This dramatically reduces the amount of duplicate mentoring that needs to happen.
 
 Each track maintains it's own representer, specific to that language. There is no standardized output - we only require a track to be internally consistent.
+
+## Building a Representer
+
+If you are interested in building a Representer, checkout out the [Representer documentation](/docs/building/tooling/representers) for more information.

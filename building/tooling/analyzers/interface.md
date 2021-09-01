@@ -4,7 +4,7 @@ All interactions with the Exercism website are handled automatically. Analyzers 
 
 ## Execution
 
-- An Analyzer should provide an executable script. You can find more information in the [docker.md](../docker.md) file.
+- An Analyzer should provide an executable script. You can find more information in the [docker.md](/docs/building/tooling/analyzers/docker) file.
 - The script will receive three parameters:
   - The slug of the exercise (e.g. `two-fer`).
   - A path to a directory containing the submitted file(s) (with a trailing slash).
@@ -99,7 +99,7 @@ Exercism is responsible for the display and communication of comments. The analy
 # LEGACY: Feedback guidelines
 
 The goal of a language track on Exercism is to give people a way to achieve a
-high level of fluency at a low level of proficiency. We're aiming for fluency
+high level of [fluency](/docs/using/product/fluency) at a low level of proficiency. We're aiming for fluency
 in the syntax, idioms, and the standard library of the language. You can read
 more about the [goal of exercism here](https://github.com/exercism/docs/blob/main/about/goal-of-exercism.md).
 

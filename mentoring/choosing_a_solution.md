@@ -16,6 +16,10 @@ The process to mentor a student is:
 1. Select the solution
 1. Select the student to mentor
 
+[video:vimeo/595885125]()
+
+The first decision you need to make as a mentor is which solution to mentor.
+
 ## Working with the Queue
 
 You can find a list of all solutions that have been submitted for mentoring in the [Mentoring Queue](/mentoring/queue).
@@ -29,6 +33,11 @@ Once you've found a solution that looks like it might be a good fit for you to p
 Click the solution and enter the Mentoring Discussion screen to ask questions about the code and solution.
 
 ## The Mentoring Discussion Screen
+The main table shows the exercise, the student and when they requested mentoring.
+Hovering on a row gives you lots more detail.
+You can see more about the user: their name, location, and reputation (which is an indicator of whether they are a contributor or mentor themselves) as well as how many times they've been mentored before.
+You'll also see some blurb they've written explaining what they're looking to get out of the track.
+As you start mentoring people, you'll also see whether you've mentored them before, and if you've favorited them.
 
 At this stage you're looking at someone else's solution, but haven't yet committed to providing mentoring feedback.
 You have the opportunity to read the code and get more information, before starting.  
@@ -65,9 +74,8 @@ The screen looks like this:
 
 1. The main part on the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
-   If they've submitted multiple iterations, view each iteration using the numbers in circles at the bottom. 
-
-   If they've only submitted one iteration, you won't see the number icons.
+   If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom.
+   If they've only submitted one iteration, you won't see those icons.
 
 2. The tabs at the top shows the student's code, the tests, and the instructions.
    This is useful for reminding yourself about what the student has been asked to do in this exercise.
@@ -75,11 +83,12 @@ The screen looks like this:
 3. There is an indicator showing whether a test has passed or failed.
    If they failed, click the indicator to open a report showing the specific details of their test and what they did wrong.
 
-On the right hand side, there are three tabs.
-- The overview tab will contain the same information about the user that you saw on the tooltip.
-- The student comment tab contains information from the user about what they want to learn from this specific solution.
-(For some older solutions, this might be missing).
-- The guidance tab provides the following information:
+On the right hand side, you'll see three tabs.
+The overview tab will contain the same information about the user that you saw on the tooltip.
+Below that you'll see a comment for the user about what it is that they want to learn from this specific solution.
+(For some older solutions, this might be missing).  
+
+The guidance tab provides the following information:
 
    1. **Mentor notes:** These are community-written notes that help point other mentors towards the best way to mentor an exercise.
   We'd really love you to contribute your experience back to these notes.
@@ -92,5 +101,4 @@ On the right hand side, there are three tabs.
 If you've read the code, checked the guidance, and feel you can be helpful, then it's time to get going!
 Click the "Start mentoring" button and start writing your feedback.
 
-## Next Steps
-Read [How to give great feedback](./how-to-give-great-feedback) next!
+Have a read of [How to give great feedback](/docs/community/how-to-give-great-feedback) next!
