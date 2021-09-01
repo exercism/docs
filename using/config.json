@@ -181,5 +181,33 @@
     "path": "using/licenses/cc-by-nc-sa.md",
     "title": "The Creative Commons NC SA 4 Licence",
     "blurb": ""
+  },
+  {
+    "uuid": "4ca3faa0-ad69-4a2f-b52e-55db3b54c433",
+    "slug": "editions",
+    "path": "using/editions/README.md",
+    "title": "The Various editions of Exercism",
+    "blurb": ""
+  },
+  {
+    "uuid": "01622903-21a9-47e2-a0d6-4d2a218d2e8b",
+    "slug": "editions/standard",
+    "path": "using/editions/standard.md",
+    "title": "Exercism Standard Edition",
+    "blurb": ""
+  },
+  {
+    "uuid": "01622903-21a9-47e2-a0d6-4d2a218d2e8b",
+    "slug": "editions/research",
+    "path": "using/editions/research.md",
+    "title": "Exercism Research Edition",
+    "blurb": ""
+  },
+  {
+    "uuid": "06a97766-74ef-41a7-a8fc-2d127d7dbb79",
+    "slug": "editions/teams",
+    "path": "using/editions/teams.md",
+    "title": "Exercism Teams Edition",
+    "blurb": ""
   }
 ]
