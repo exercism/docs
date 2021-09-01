@@ -148,6 +148,13 @@
     "blurb": ""
   },
   {
+    "uuid": "4e8caa6c-cc2a-42a1-b672-1c7e22230a85",
+    "slug": "getting-started",
+    "path": "using/getting-started.md",
+    "title": "Getting Started",
+    "blurb": "Learn how to Get Started and make the most of your Exercism experience"
+  },
+  {
     "uuid": "a89d630d-44d7-449a-a427-3f7815934209",
     "slug": "faqs",
     "path": "using/faqs.md",
