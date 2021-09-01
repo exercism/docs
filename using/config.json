@@ -85,6 +85,13 @@
     "blurb": "Learn what to do when your tests pass locally but not online"
   },
   {
+    "uuid": "18e997a5-00df-41d0-9615-ca332c54cf8f",
+    "slug": "solving-exercises/legacy-files",
+    "path": "using/solving-exercises/legacy-files.md",
+    "title": "Legacy Files",
+    "blurb": "Seeing a banner about legacy files? Here's what you need to know."
+  },
+  {
     "uuid": "961f4650-83ea-4907-8493-b9ef5ded757e",
     "slug": "legal",
     "path": "using/legal/README.md",
