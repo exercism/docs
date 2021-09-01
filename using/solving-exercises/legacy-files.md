@@ -39,7 +39,9 @@ Deleting a file simply removes it from the **next** iteration that you submit vi
 
 ### Elixir
 
-At the launch of v3, Elixir changed its exercises.
+In July 2019, Elixir changed its exercise structure from using Elixir scripts (`*.exs` files) to a complete [Mix project](https://elixir-lang.org/getting-started/mix-otp/introduction-to-mix.html) for each exercise.
+In order to use the features of v3, copy your solution to the stub file located at `lib/<exercise_stub>.ex`.
+You don't need to move the test file, the updated version will already be present in the correct location.
 
 ### Elm
 
