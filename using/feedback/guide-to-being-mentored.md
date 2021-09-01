@@ -1,5 +1,7 @@
 # Guide to being mentored
 
+[video:vimeo/595884893]()
+
 Being mentored on Exercism is an amazing opportunity to have somebody more practiced than you in a certain language share their experience and knowledge.
 Someone is going to give up their time, for free, to help you out.
 This video aims to give you some pointers about how to get the most out of the experience.
