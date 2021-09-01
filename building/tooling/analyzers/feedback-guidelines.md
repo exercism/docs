@@ -3,7 +3,7 @@ _NOTE: This spec is currently being updated._
 # Feedback guidelines
 
 The goal of a language track on Exercism is to give people a way to achieve a
-high level of [fluency](/docs/product/fluency) at a low level of proficiency. We're aiming for fluency
+high level of [fluency](/docs/using/product/fluency) at a low level of proficiency. We're aiming for fluency
 in the syntax, idioms, and the standard library of the language. You can read
 more about the [goal of exercism here](https://github.com/exercism/docs/blob/master/about/goal-of-exercism.md).
 
