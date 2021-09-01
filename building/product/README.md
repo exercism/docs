@@ -3,9 +3,8 @@
 These documents outline the product decisions and thinking behind Exercism.
 They aim to present a picture of why things on Exercism work the way they do.
 
-## Exercism Concepts
+## Contributing
 
-- [Reputation](/docs/building/product/reputation)
 - [Tasks](/docs/building/product/tasks)
 
 ## Language Tracks
