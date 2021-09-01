@@ -31,7 +31,7 @@ To learn more about what it means for the devil to be in the details, check out 
 
 ## I'm lost. Where do I go?
 
-You're in luck. Here's a [step-by-step guide](https://exercism.io/getting-started) to get you started.
+You're in luck. Here's a [step-by-step guide](https://exercism.org/getting-started) to get you started.
 
 If something is still unclear for you or not working then it might be the same for others so we'd appreciate you letting us know. Refer to [Opening an Issue](#opening-an-issue) below for instructions on how you can help us help others.
 
@@ -41,11 +41,11 @@ This means that GitHub isn't willing to verify who you are. That can be because 
 
 ## How do I delete my account?
 
-You can delete your account by following the link at the bottom of your [settings page](https://exercism.io/my/settings). If your issue is with emails and notifications you can adjust that in [your personal preferences](https://exercism.io/my/settings/preferences/edit).
+You can delete your account by following the link at the bottom of your [settings page](https://exercism.org/my/settings). If your issue is with emails and notifications you can adjust that in [your personal preferences](https://exercism.org/my/settings/preferences/edit).
 
 ## What happened to my Team from the old site?
 
-We now have a [dedicated Teams site](https://teams.exercism.io).
+We now have a [dedicated Teams site](https://teams.exercism.org).
 
 ## Exercism Command-line Client
 
@@ -53,7 +53,7 @@ We now have a [dedicated Teams site](https://teams.exercism.io).
 
 The new site has a brand new command-line client, and also needs some extra metadata for your exercise. Read about how to [upgrade your command-line client and migrate your solutions for the new site](/cli-v1-to-v2).
 
-If that doesn't help, or you didn't use the old version of the command-line client, please read through the [command-line client Walkthrough](https://exercism.io/cli-walkthrough). If that doesn't help either, [open an issue](https://github.com/exercism/CLI/issues/new) and we will help you get it sorted out.
+If that doesn't help, or you didn't use the old version of the command-line client, please read through the [command-line client Walkthrough](https://exercism.org/cli-walkthrough). If that doesn't help either, [open an issue](https://github.com/exercism/CLI/issues/new) and we will help you get it sorted out.
 
 ## How do I check the version of my command-line client?
 
@@ -69,11 +69,11 @@ If you are receiving permission denied errors when trying to upgrade the command
 
 If your command-line client was installed via a package manager please use your package manager for upgrading, as opposed to running the `exercism upgrade` command.
 
-If your command-line client was installed manually, please check the path of the Exercism command-line client `which exercism` on Linux and MacOs, `where exercism` on Windows and ensure that the returned path is a directory you created. If so, use the tools provided by your system to change the permissions of the directory to grant write access to your user and trying upgrading again. If you are not sure if you created the directory, or the returned path is a system path, please use your system tools to uninstall the command-line client and reinstall using the [interactive walkthrough](https://exercism.io/cli-walkthrough).
+If your command-line client was installed manually, please check the path of the Exercism command-line client `which exercism` on Linux and MacOs, `where exercism` on Windows and ensure that the returned path is a directory you created. If so, use the tools provided by your system to change the permissions of the directory to grant write access to your user and trying upgrading again. If you are not sure if you created the directory, or the returned path is a system path, please use your system tools to uninstall the command-line client and reinstall using the [interactive walkthrough](https://exercism.org/cli-walkthrough).
 
 ## I get the "16-bit MS-DOS Subsystem" error dialog after upgrading on Windows. What should I do?
 
-Prior to version 3.0.5 of the Exercism command-line client, there was a bug in the upgrade command that would replace the command-line client binary file with a single text file causing the "16-bit MS-DOS Subsystem" error. To resolve this issue remove the corrupt binary and reinstall the command-line client using the [interactive walkthrough](https://exercism.io/cli-walkthrough).
+Prior to version 3.0.5 of the Exercism command-line client, there was a bug in the upgrade command that would replace the command-line client binary file with a single text file causing the "16-bit MS-DOS Subsystem" error. To resolve this issue remove the corrupt binary and reinstall the command-line client using the [interactive walkthrough](https://exercism.org/cli-walkthrough).
 
 ## Mentored Mode
 
@@ -91,13 +91,13 @@ There isn't a way to delete submissions so just submit the right file and it wil
 
 ## How can I report abuse or examples of bad mentoring?
 
-Please check our [Code of Conduct](https://exercism.io/code-of-conduct) for more information about our expectations of conduct. If you would like to report something, please reach out to us at [abuse@exercism.io](mailto:abuse@exercism.io?subject=%5BCoC%5D]) and we will try to fix or resolve the issue respecting both you and your privacy.
+Please check our [Code of Conduct](https://exercism.org/code-of-conduct) for more information about our expectations of conduct. If you would like to report something, please reach out to us at [abuse@exercism.org](mailto:abuse@exercism.org?subject=%5BCoC%5D]) and we will try to fix or resolve the issue respecting both you and your privacy.
 
 ## Improving Exercism
 
 ## This is great! How do I get involved?
 
-There are a few different ways - becoming a mentor, managing a language track or reporting (or addressing!) issues on GitHub. You can see more on the [How to Contribute page](https://exercism.io/contribute). Version 3 of Exercism is also being built right now and needs lots of help. The [v3 repository](https://github.com/exercism/v3) has more information.
+There are a few different ways - becoming a mentor, managing a language track or reporting (or addressing!) issues on GitHub. You can see more on the [How to Contribute page](https://exercism.org/contribute). Version 3 of Exercism is also being built right now and needs lots of help. The [v3 repository](https://github.com/exercism/v3) has more information.
 
 ## How do new language tracks get added to the site?
 

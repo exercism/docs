@@ -6,7 +6,7 @@ Last Revised: August 2021
 
 Exercism is an online platform designed to help you improve your coding skills through practice and mentorship.
 
-Our platform comprises of a web site is located at https://exercism.io (and associated subdomains) and a command line application (CLI).
+Our platform comprises of a web site is located at https://exercism.org (and associated subdomains) and a command line application (CLI).
 
 We’re deeply committed to providing you with a safe and secure online platform for you to develop your
 software coding skills.
@@ -56,9 +56,9 @@ We use a number of 3rd party tools/services to collect this information, you can
 The GDPR (General Data Protection Regulation) is UK legislation that governs how we process data originating from users from the UK. Exercism aims to be GDPR compliant for all users, even those outside the EU and you therefore have some important rights applicable to our Platform.
 
 1. **Your Right to be Informed:** This Privacy Policy details who we are, what we collect, and what we use it for.
-2. **Right of access:** At any time you can review the information on your profile and update or change it. Through the exercism.io website you can view all your solutions.
-3. **Right of portability:** We can provide you with a copy of your personal data in a machine readable format. Please contact privacy@exercism.io for more information.
-4. **Right to Erasure:** We can remove your personal data from our systems so that you can no longer be personally identified to your solutions. Please contact privacy@exercism.io for more information.
+2. **Right of access:** At any time you can review the information on your profile and update or change it. Through the exercism.org website you can view all your solutions.
+3. **Right of portability:** We can provide you with a copy of your personal data in a machine readable format. Please contact privacy@exercism.org for more information.
+4. **Right to Erasure:** We can remove your personal data from our systems so that you can no longer be personally identified to your solutions. Please contact privacy@exercism.org for more information.
 
 It is important to note that any content you upload to the site (including, but not limited to, solutions to exercises, comments, and mentor feedback) is transferred to us under a non-revocable license and therefore cannot be deleted from the Platform.
 

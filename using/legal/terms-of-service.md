@@ -4,9 +4,9 @@ Last Revised: August 2021
 
 ## Overview
 
-Exercism (also referred to as exercism.io) is an online platform designed to help you improve your coding skills through practice and mentorship.
+Exercism (also referred to as exercism.org) is an online platform designed to help you improve your coding skills through practice and mentorship.
 
-Our platform comprises of a web site is located at https://exercism.io (and associated subdomains) and a command line application (CLI).
+Our platform comprises of a web site is located at https://exercism.org (and associated subdomains) and a command line application (CLI).
 
 Exercism is run and managed by Exercism, a not-profit-company.
 The following Terms of Service (these **Terms**) are an agreement between **Exercism** and you, and govern your permitted use of our **Platform**.
@@ -35,7 +35,7 @@ Any clause headings, numbers, and/or emphasis in these Terms are for ease of ref
 
 If any provision of these Terms is found to be illegal, void or unenforceable, then that provision shall be deemed severable from these Terms and shall not affect the validity and enforceability of any remaining provisions of these Terms.
 
-We reserve the right to modify these Terms at any time by posting revised Terms on https://exercism.io. These Terms apply to all who access or use our Platform, registered or otherwise.
+We reserve the right to modify these Terms at any time by posting revised Terms on https://exercism.org. These Terms apply to all who access or use our Platform, registered or otherwise.
 
 Any personal information submitted to our Platform is subject to our [Privacy Policy](/docs/using/legal/privacy-policy).
 
@@ -160,7 +160,7 @@ For example, such use might include (but not be limited to) the following exampl
 
 - Authoring a book describing common difficulties associated with writing software
 - Using anonymized solutions to build an AI-based code-review bot
-- Improving the user-experience of exercism.io
+- Improving the user-experience of exercism.org
 - Publishing a dataset of anonymized feedback for academic analysis of the factors that determine successful peer-to-peer based feedback
 
 In summary:
@@ -169,7 +169,7 @@ In summary:
   You can re-use this content as you see fit.
 - Because you grant us an **irrevocable, royalty-free, commercial** license on your User Contributed Content, we are allowed to re-use and adapt this content.
   We will do this in ways aligned with our Values.
-- Because we present your User Contributed Content under a CC BY-NC-SA license, others can use and benefit from that content, but they have to credit our Platform (exercism.io) when they do, and may not use it for commercial purposes.
+- Because we present your User Contributed Content under a CC BY-NC-SA license, others can use and benefit from that content, but they have to credit our Platform (exercism.org) when they do, and may not use it for commercial purposes.
 
 #### No warranties for User Contributed Content
 
