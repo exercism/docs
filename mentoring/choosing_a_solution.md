@@ -1,5 +1,7 @@
 # Choosing a solution to mentor
 
+[video:vimeo/595885125]()
+
 The first decision you need to make as a mentor is which solution to mentor.
 
 ## Working with the Queue
