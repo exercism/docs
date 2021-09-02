@@ -16,7 +16,7 @@ The process to mentor a student is:
 1. Select the solution
 1. Select the student to mentor
 
-[video:vimeo/595885125]()
+Video from the CEO: [Choosing a solution to mentor](https://vimeo.com/595885125)
 
 The first decision you need to make as a mentor is which solution to mentor.
 
