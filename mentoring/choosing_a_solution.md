@@ -36,7 +36,7 @@ Click the solution and enter the Mentoring Discussion screen to ask questions ab
 The main table shows the exercise, the student, and when they requested mentoring.
 Hovering on a row gives you more detail.
 You can see more about the user: their name, location, and reputation.
-You'll also see some blurb they've written explaining what they're looking to get out of the track.
+You will also see a blurb they have written that may explain what they are looking to get out of the track.
 As you start mentoring people, you'll also see whether you've mentored them before, and if you've favorited them.
 
 At this stage you're looking at someone else's solution, but haven't yet committed to providing mentoring feedback.
