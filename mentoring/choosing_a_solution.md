@@ -33,7 +33,7 @@ Once you've found a solution that looks like it might be a good fit for you to p
 Click the solution and enter the Mentoring Discussion screen to ask questions about the code and solution.
 
 ## The Mentoring Discussion Screen
-The main table shows the exercise, the student and when they requested mentoring.
+The main table shows the exercise, the student, and when they requested mentoring.
 Hovering on a row gives you lots more detail.
 You can see more about the user: their name, location, and reputation (which is an indicator of whether they are a contributor or mentor themselves) as well as how many times they've been mentored before.
 You'll also see some blurb they've written explaining what they're looking to get out of the track.
