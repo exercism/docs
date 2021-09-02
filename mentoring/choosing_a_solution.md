@@ -34,7 +34,7 @@ Click the solution and enter the Mentoring Discussion screen to ask questions ab
 
 ## The Mentoring Discussion Screen
 The main table shows the exercise, the student, and when they requested mentoring.
-Hovering on a row gives you lots more detail.
+Hovering on a row gives you more detail.
 You can see more about the user: their name, location, and reputation.
 You'll also see some blurb they've written explaining what they're looking to get out of the track.
 As you start mentoring people, you'll also see whether you've mentored them before, and if you've favorited them.
