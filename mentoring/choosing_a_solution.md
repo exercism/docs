@@ -101,4 +101,4 @@ The guidance tab provides the following information:
 If you've read the code, checked the guidance, and feel you can be helpful, then it's time to get going!
 Click the "Start mentoring" button and start writing your feedback.
 
-Have a read of [How to give great feedback](/docs/community/how-to-give-great-feedback) next!
+Read [How to give great feedback](./how-to-give-great-feedback) next!
