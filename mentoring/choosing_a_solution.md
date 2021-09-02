@@ -37,7 +37,7 @@ The main table shows the exercise, the student, and when they requested mentorin
 Hovering on a row gives you more detail.
 You can see more about the user: their name, location, and reputation.
 You will also see a blurb they have written that may explain what they are looking to get out of the track.
-As you start mentoring people, you'll also see whether you've mentored them before, and if you've favorited them.
+As you start mentoring people, you will also see whether you have mentored them before, and if you have favorited them.
 
 At this stage you're looking at someone else's solution, but haven't yet committed to providing mentoring feedback.
 You have the opportunity to read the code and get more information, before starting.  
