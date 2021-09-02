@@ -27,7 +27,7 @@ Conversations tend to go much better when they are approached as two peers discu
 
 ## Addressing the student's request vs teaching a new idea
 
-When a student submits a solution for mentoring, they are promoted to tell the mentor what they are hoping to get from it.
+When a student submits a solution for mentoring, they are prompted to tell the mentor what they are hoping to get from it.
 It's really important that you as the mentor read that and try and address it in your feedback.
 
 However, one of the key values of mentoring on Exercism is that mentors can help students discover ideas they had no idea about.
