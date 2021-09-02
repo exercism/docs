@@ -123,7 +123,7 @@ The following per-test statuses are valid:
 
 #### Message
 
-> key: `message`, type: `string`, presence: optional
+> key: `message`, type: `string`, presence: required if `status` is `fail` or `error`
 
 > version: 2, 3
 
