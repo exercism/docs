@@ -81,7 +81,7 @@ The screen looks like this:
    This is useful for reminding yourself about what the student has been asked to do in this exercise.
 
 3. There is an indicator showing whether a test has passed or failed.
-   If they failed, click the indicator to open a report showing the specific details of their test and what they did wrong.
+   If the tests have failed, click the indicator to open a report showing the details of the test and what is wrong.
 
 On the right hand side, you'll see three tabs.
 The overview tab will contain the same information about the user that you saw on the tooltip.
