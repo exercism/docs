@@ -9,7 +9,7 @@ For example, Jeremy is a man and prefers masculine pronouns, so, we might say **
 If Jeremy was a woman, we might say **she** loves Exercism.
 
 Some people prefer not to use masculine or feminine pronouns on Exercism.
-There are many reasons for this: some people are non-binary or genderqueer; some want to avoid discrimination based on their gender; some highly value their privacy.
+There are many reasons for this, including: some people may want to avoid discrimination based on their gender; some are non-binary or genderqueer; some highly value their privacy.
 In these situations people sometimes specify a gender-neutral pronoun such as **they** (e.g. "they love Exercism"), or **ze** (e.g. "ze loves Exercism").
 
 For many people, being addressed by the wrong pronouns can be extremely annoying, and often offensive.
