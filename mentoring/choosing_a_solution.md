@@ -45,7 +45,7 @@ You have the opportunity to read the code and get more information, before start
 Post any questions in the discussion screen to get clarification on the solution.
 
 ## The Student
-If you have a particular student you'd like to mentor, search for the student using the filter box, order by oldest or most recent.  
+If you have a particular student you would like to mentor, search for the student using the filter box, order by oldest or most recent.  
 
 On the right-hand side of the screen, filter by language or exercise.  
 
