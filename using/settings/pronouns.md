@@ -5,11 +5,11 @@ For example, if Exercism's co-founder, Jeremy, was to declare my love for Exerci
 Both "I" and "you" are pronouns, that replace the nouns "Jeremy" and "Exercism".
 
 Many languages have gendered pronouns.
-For example, as Jeremy's gender is male, we can say **he** loves Exercism.
-If Jeremy was female, we could say **she** loves Exercism.
+For example, Jeremy is a man and prefers masculine pronouns, so, we might say **he** loves Exercism.
+If Jeremy was a woman, we might say **she** loves Exercism.
 
-Some people don't like others to know their gender.
-There are many reasons for this, including people not wanting to be discriminated against based on their gender, or highly valuing their privacy.
+Some people prefer not to use masculine or feminine pronouns on Exercism.
+There are many reasons for this: some people are non-binary or genderqueer; some want to avoid discrimination based on their gender; some highly value their privacy.
 In these situations people sometimes specify a gender-neutral pronoun such as **they** (e.g. "they love Exercism"), or **ze** (e.g. "ze loves Exercism").
 
 For many people, being addressed by the wrong pronouns can be extremely annoying, and often offensive.
