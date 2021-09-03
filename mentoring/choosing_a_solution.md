@@ -49,7 +49,7 @@ If you have a particular student you would like to mentor, search for the studen
 
 On the right-hand side of the screen, filter by language or exercise.  
 
-You can also choose to only show exercises you've completed yourself (enabled by default). This is a great starting point until you are comfortable with higher level exercises.
+You can also choose to only show exercises you have completed yourself (enabled by default). This is a great starting point until you are comfortable with higher level exercises.
 
 The main table shows the exercise, the student and when they requested mentoring.
 Hovering over a row gives you more detail about the user:  
