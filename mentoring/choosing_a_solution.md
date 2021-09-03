@@ -28,7 +28,7 @@ The screen looks like this:
 
 [TODO: Image of queue].
 
-Once you've found a solution that looks like it might be a good fit for you to provide student feedback, take the next step and have a look at the code.  
+Once you have found a solution that looks like it might be a good fit for you to provide student feedback, take the next step and have a look at the code.  
 
 Click the solution and enter the Mentoring Discussion screen to ask questions about the code and solution.
 
