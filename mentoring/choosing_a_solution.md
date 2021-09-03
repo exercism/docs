@@ -55,7 +55,7 @@ The main table shows the exercise, the student and when they requested mentoring
 Hovering over a row gives you more detail about the user:  
 - Name
 - Location
-- Reputation (an indicator if they are a contributor or mentor themselves)
+- Reputation (an indicator if they are a contributor or mentor)
 - How many times they have been mentored before   
 
 The information on the tooltip is a preliminary indicator whether this student is a right match for you.
