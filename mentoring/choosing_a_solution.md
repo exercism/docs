@@ -61,7 +61,7 @@ Hovering over a row gives you more detail about the user:
 The information on the tooltip is a preliminary indicator whether this student is a right match for you.
 You will see information they've written explaining what they are looking to get out of the track. 
 
-As you start mentoring students, you'll see whether you've mentored them before, and if you've added them as a favorite.
+As you start mentoring students, you will see whether you have mentored them before, and if you have added them as a favorite.
 
 
 ### The student's code
