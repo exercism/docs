@@ -1,7 +1,7 @@
 # Pronouns
 
 In Grammar, pronouns are words that can be substituted for nouns.
-For example, if Exercism's co-founder, Jeremy, was to declare my love for Exercism, rather than saying "**Jeremy** loves **Exercism**", Jeremy might say "**I** love **you**".
+For example, if Exercism's co-founder, Jeremy, was to declare their love for Exercism, rather than saying "**Jeremy** loves **Exercism**", Jeremy might say "**I** love **you**".
 Both "I" and "you" are pronouns, that replace the nouns "Jeremy" and "Exercism".
 
 Many languages have gendered pronouns.
