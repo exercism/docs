@@ -9,7 +9,8 @@ The first decision you need to make as a mentor is which solution to mentor.
 You can find a list of all solutions that have been submitted for mentoring in the [Mentoring Queue](/mentoring/queue).
 The UI should look something like this:
 
-[TODO: Image of queue].
+![Mentoring queue](https://user-images.githubusercontent.com/48586518/132089298-deecce28-c62d-4bf6-91db-4cf92cc6f2c5.png "Mentoring queue")
+
 
 If you have a particular student you'd like to mentor, you can search using the filter box, and you can order by oldest or most recent.
 On the right-hand side you can filter by language or exercise.
