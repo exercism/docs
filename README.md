@@ -1,4 +1,6 @@
-**This is a WIP repo that will become live with the launch of [Exercism v3](https://github.com/exercism/v3). You can preview this at [our staging site](https://exercism.lol/docs). Old docs live at [exercism/legacy-docs](https://github.com/exercism/legacy-docs).**
+**Please note that these docs are meant to be read at https://exercism.lol/docs - not in this website. Links in this repository are relative to the website, not internally in this repo.**
+
+---
 
 # Exercism Docs
 
