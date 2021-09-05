@@ -11,5 +11,5 @@ This repo is live-synced to the website.
 There are three top-level repositories:
 
 - **[`anatomy`](./anatomy):** How Exercism fits together with technical specs for maintainers.
-- **[`product`](./product):** The product philosophy and decisions behind Exercism.
-- **[`user-facing`](./user-facing):** User facing docs for FAQs, help, etc
+- **[`product`](./building/product):** The product philosophy and decisions behind Exercism.
+- **[`user-facing`](./using):** User facing docs for FAQs, help, etc
