@@ -9,7 +9,7 @@ The first decision you need to make as a mentor is which solution to mentor.
 You can find a list of all solutions that have been submitted for mentoring in the [Mentoring Queue](/mentoring/queue).
 The UI should look something like this:
 
-![Mentoring queue](../.imgs/ment_queue.png)
+![Mentoring queue](https://exercism-static.s3.eu-west-1.amazonaws.com/docs/mentor_queue.png)
 
 If you have a particular student you'd like to mentor, you can search using the filter box, and you can order by oldest or most recent.
 On the right-hand side you can filter by language or exercise.
