@@ -1,4 +1,4 @@
-**Please note that these docs are meant to be read at https://exercism.lol/docs - not in this website. Links in this repository are relative to the website, not internally in this repo.**
+**Please note that these docs are meant to be read at https://exercism.org/docs - not in this website. Links in this repository are relative to the website, not internally in this repo.**
 
 ---
 
