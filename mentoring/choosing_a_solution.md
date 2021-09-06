@@ -63,7 +63,7 @@ Can you answer their question?
 Can you fulfill their hopes for this exercise?
 
 The second tab is your "Scratchpad".
-You can right code in it, so that you can reference it in your comment.
+You can write code in it, so that you can reference it in your comment.
 It can help you to focus the student to few lines of code which are essential to your comment.
 This can help your explanations be simpler and clearer.
 
