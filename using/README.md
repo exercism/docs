@@ -2,10 +2,10 @@
 
 These documents describe how to make the most of your experience on Exercism.
 
-- [Getting Started](/docs/using/getting-started)
-- [Frequently Asked Questions](/docs/using/faqs)
-- [Solving Exercises](/docs/using/solving-exercises)
-- [Getting Feedback](/docs/using/feedback)
-- [Product](/docs/using/product)
-- [Contact](/docs/using/contact)
-- [Report Abuse](/docs/using/report-abuse)
+- [Getting Started](/using/getting-started)
+- [Frequently Asked Questions](/using/faqs)
+- [Solving Exercises](/using/solving-exercises)
+- [Getting Feedback](/using/feedback)
+- [Product](/using/product)
+- [Contact](/using/contact)
+- [Report Abuse](/using/report-abuse)
