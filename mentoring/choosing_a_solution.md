@@ -76,4 +76,4 @@ If you click on this you'll see some information that might be useful for you:
 If you've read the code, checked the guidance, and feel you can be helpful, then it's time to get going!
 Click the "Start mentoring" button and you'll be prompted to write your feedback.
 
-Have a read of [How to give great feedback](/docs/community/how-to-give-great-feedback) next!
+Have a read of [How to give great feedback](/docs/mentoring/how-to-give-great-feedback) next!
