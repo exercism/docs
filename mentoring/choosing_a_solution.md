@@ -13,7 +13,7 @@ The UI should look something like this:
 
 If you have a particular student you'd like to mentor, you can search using the filter box, and you can order by oldest or most recent.
 On the right-hand side you can filter by language or exercise.
-You can also choose to only show exercises you've completed yourself (enabled by default), which is often wise as you might struggle to give great feedback if you've not wrestled with solving the exercise yourself.
+You can also choose to only show exercises you've completed yourself (not enabled by default), which is often wise as you might struggle to give great feedback if you've not wrestled with solving the exercise yourself.
 
 The main table shows the exercise, the student and when they requested mentoring.
 Hovering on a row gives you lots more detail.

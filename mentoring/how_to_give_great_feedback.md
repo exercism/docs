@@ -11,7 +11,7 @@ You're about to give your first feedback to a student.
 This can be exciting but also pretty daunting.
 A lot of (the best!) mentors suffer from [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) at this stage, and give up before they start.
 If you feel like that, it's totally understandable, but also almost always unnecessary.
-By the fact you're worrying about whether your feedback is going to be good enough, it's likely that you'll give thoughtful humble comments that students really appreciate.
+By the fact you're worrying about whether your feedback is going to be good enough, it's likely that you'll give thoughtful, humble comments that students really appreciate.
 And in the worst case, a student can always end the discussion, and wait for another mentor, so let's give it a go!
 
 ## Mindset
@@ -86,5 +86,5 @@ As you gain experience mentoring, you will get a feel for the different ways stu
 ## Unsure of something? Chat to other mentors?
 
 One of the best things about being an Exercism mentor is the community of other mentors you can learn from.
-If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace](https://exercism-team.slack.com/) (you should receive an invite when you sign up to mentor) and ask away!
+If you've got a question about a solution, or just want to bounce ideas with other mentors, jump into our [Slack Workspace](https://exercism-team.slack.com/) (Send a request to be added to the workspace to hello@exercism.org) and ask away!
 You'll probably find people you can help there too 🙂
