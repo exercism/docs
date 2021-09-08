@@ -4,14 +4,14 @@
 
 # Exercism Docs
 
-These are the official docs for Exercism. 
+These are the official docs for Exercism.
 We welcome all and any contributions.
 This repo is live-synced to the website.
 
 ## How this repo is organized
 
-There are three top-level repositories:
-
 - **[`building`](./building):** How Exercism fits together with technical specs for maintainers.
 - **[`product`](./building/product):** The product philosophy and decisions behind Exercism.
+- **[`community`](./community):** Things to know about the Exercism community.
+- **[`mentoring`](./mentoring):** Documents to help with mentoring.
 - **[`user-facing`](./using):** User facing docs for FAQs, help, etc
