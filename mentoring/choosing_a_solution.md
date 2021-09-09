@@ -64,7 +64,7 @@ Can you fulfill their hopes for this exercise?
 
 The second tab is your "Scratchpad".
 You can write code in it, so that you can reference it in your comment.
-It can help you to focus the student to few lines of code which are essential to your comment.
+It can help identify the code that is important when reviewing this exercise.
 This can help your explanations be simpler and clearer.
 
 The third tab is called "Guidance".
