@@ -62,6 +62,11 @@ This is a key indicator as to whether this solution is right for you.
 Can you answer their question?
 Can you fulfill their hopes for this exercise?
 
+The second tab is your "Scratchpad".
+You can write code in it, so that you can reference it in your comment.
+It can help identify the code that is important when reviewing this exercise.
+This can help your explanations be simpler and clearer.
+
 The third tab is called "Guidance".
 If you click on this you'll see some information that might be useful for you:
 
@@ -76,4 +81,4 @@ If you click on this you'll see some information that might be useful for you:
 If you've read the code, checked the guidance, and feel you can be helpful, then it's time to get going!
 Click the "Start mentoring" button and you'll be prompted to write your feedback.
 
-Have a read of [How to give great feedback](/docs/community/how-to-give-great-feedback) next!
+Have a read of [How to give great feedback](/docs/mentoring/how-to-give-great-feedback) next!
