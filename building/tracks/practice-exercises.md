@@ -4,7 +4,7 @@
 
 ## Metadata
 
-Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks#practice-exercises). The metadata defines the exercise's UUID, slug and more.
+Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks/config-json). The metadata defines the exercise's UUID, slug and more.
 
 ### Example
 
