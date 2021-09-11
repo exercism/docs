@@ -162,7 +162,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercises.practice[].status"` key is optional
 - The `"exercises.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
-- The `"exercises.practice[].status"` value must either not be present or the string `active` if `"exercises.practice[].slug"` is equal to `hello-world`
+- The `"exercises.practice[].status"` value must, if `"exercises.practice[].slug"` is equal to `hello-world`, be either omitted or the string `active`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be kebab-case strings²
