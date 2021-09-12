@@ -170,7 +170,6 @@ The `config.json` file should have the following checks:
 - The `"exercises.foregone"` values must not match any of the concept or practice exercise slugs
 - The `"concepts"` key is required
 - The `"concepts"` value must be an array
-- The `"concepts"` value must have a entry with a matching `"slug"` property for each concept listed in a concept exercise's `"concepts"` property
 - The `"concepts[].uuid"` key is required
 - The `"concepts[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"concepts[].uuid"` value for each concept must never change
