@@ -16,7 +16,7 @@ Each Test Runner lives in the Exercism GitHub organization in a repository named
 You can explore the different Test Runners [here](https://github.com/exercism?q=-test-runner).
 
 If you would like to get involved in helping with an existing Test Runner, please open an issue in its repository asking if there is somewhere you can help.
-If you would like to create a Test Runner for a language that currently does not have one, please follow the [creating a Test Runner](creating-from-scratch.md) instructions.
+If you would like to create a Test Runner for a language that currently does not have one, please follow the [creating a Test Runner](/docs/building/tooling/test-runners/creating-from-scratch) instructions.
 
 You can use the following documents to learn more about building a test runner:
 
