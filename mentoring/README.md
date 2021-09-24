@@ -4,3 +4,4 @@ Welcome to the Exercism Mentoring Team. Follow the links below for guides on how
 
 - [Choosing a Solution](/docs/mentoring/choosing-a-solution)
 - [How to give great feedback](/docs/mentoring/how-to-give-great-feedback)
+- [How to use Markdown in mentoring](/docs/mentoring/markdown)
