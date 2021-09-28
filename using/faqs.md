@@ -51,7 +51,7 @@ We now have a [dedicated Teams site](https://teams.exercism.org).
 
 ## I can't submit! What should I do?
 
-The new site has a brand new command-line client, and also needs some extra metadata for your exercise. Read about how to [upgrade your command-line client and migrate your solutions for the new site](/cli-v1-to-v2).
+The new site has a brand new command-line client, and also needs some extra metadata for your exercise. Read about how to [upgrade your command-line client and migrate your solutions for the new site](https://github.com/exercism/website-copy/blob/main/pages/cli_v1_to_v2.md).
 
 If that doesn't help, or you didn't use the old version of the command-line client, please read through the [command-line client Walkthrough](https://exercism.org/cli-walkthrough). If that doesn't help either, [open an issue](https://github.com/exercism/CLI/issues/new) and we will help you get it sorted out.
 
