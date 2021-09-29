@@ -167,7 +167,7 @@ Check [this page](https://exercism.org/tracks/fsharp) to see what this looks lik
 - [Expert F# 4.0](https://books.google.nl/books?id=L_0PogEACAAJ&dq=isbn:1484207424&hl=en&sa=X&ved=0ahUKEwjs__-hi43RAhWIMFAKHUJPASwQ6AEIHDAA)
 ```
 
-Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what this looks like when rendered.
+Check [this page](https://exercism.org/docs/tracks/fsharp/resources) to see what this looks like when rendered.
 
 ## File: `TESTS.md`
 
@@ -203,4 +203,4 @@ dotnet add package [package-name]
 ```
 ````
 
-Check [this page](https://exercism.org/docs/tracks/fsharp/installation) to see what this looks like when rendered.
+Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what this looks like when rendered.
