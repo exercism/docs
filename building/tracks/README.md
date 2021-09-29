@@ -21,10 +21,6 @@ Tracks have two types of exercises:
 
 Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
-## Config
-
-TODO: describe the `config` directory's contents
-
 ## Docs
 
 TODO: describe the `docs` directory's contents
