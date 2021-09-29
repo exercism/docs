@@ -23,7 +23,7 @@ Some files are not specific to individual exercises, but are instead applicable 
 
 ## Docs
 
-TODO: describe the `docs` directory's contents
+Each track has a couple of required documentation files. Check the [documentation](/docs/building/tracks/docs) for more information.
 
 ## Widgets
 

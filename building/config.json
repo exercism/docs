@@ -477,6 +477,13 @@
     "blurb": ""
   },
   {
+    "uuid": "a4ec5951-c4ee-4f36-bf97-648075e5d514",
+    "slug": "tracks/docs",
+    "path": "building/tracks/docs.md",
+    "title": "Track Docs",
+    "blurb": ""
+  },
+  {
     "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
     "slug": "tracks/practice-exercises",
     "path": "building/tracks/practice-exercises.md",
