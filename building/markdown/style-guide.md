@@ -41,7 +41,7 @@ Here are some example rules:
 - Prefer "if I recall correctly" to "IIRC"
 - Prefer "as far as I know" to "AFAIK"
 - Prefer "queue" to "FIFO" and "stack" to "FILO"
-- Instead of describing an interface as "RESTful", describe it's specific properties
+- Instead of describing an interface as "RESTful", describe its specific properties
 - If you must use "CRUD", explain that it stands for Create, Read, Update, Delete and that these are the basic actions in standard databases
 
 An some examples of good usage:
