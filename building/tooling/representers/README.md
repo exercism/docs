@@ -22,7 +22,7 @@ A notification will be sent for old solutions with a matching representation.
 
 ## Contributing to Representers
 
-Each language has it's own representer, written in that language.
+Each language has its own representer, written in that language.
 The website acts as the orchestrator between the representer and students' submissions.
 
 Each representer lives in the Exercism GitHub organization in a repository named `$LANG-representer` (e.g. `ruby-representer`).

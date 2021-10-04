@@ -9,7 +9,7 @@ Test Runners give us two advantages:
 
 ## Contributing to Test Runners
 
-Each language has it's own Test Runner, written in that language.
+Each language has its own Test Runner, written in that language.
 The website acts as the orchestrator between the Test Runners and students' submissions.
 
 Each Test Runner lives in the Exercism GitHub organization in a repository named `$LANG-test-runner` (e.g. `ruby-test-runner`).
