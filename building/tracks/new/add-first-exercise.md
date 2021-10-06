@@ -14,27 +14,5 @@ This is also probably going to be the hardest part of getting the track reposito
 
 ## Implementing the exercise
 
-To implement the "Hello, World!" exercise, you'll need to create a `exercises/practice/hello-world` directory.
-Within that directory, the following files need to be created:
-
-- `.docs/instructions.md`: provide instructions for the exercise.
-  You can copy the instructions from [this file](https://github.com/exercism/problem-specifications/blob/main/exercises/hello-world/description.md).
-  See the [Practice Exercises documentation](/docs/building/tracks/practice-exercises) for more information.
-- `.meta/config.json`: contains meta information on the exercise
-  See the [Practice Exercises documentation](/docs/building/tracks/practice-exercises) for more information.
-
-```json
-{
-  "uuid": "aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee",
-  "slug": "hello-world",
-  "name": "Hello, World!",
-  "practices": [],
-  "prerequisites": [],
-  "difficulty": 1
-}
-```
-
-Note that you have to replace the `uuid` value with a proper UUID V4 value.
-The UUID V4 value can be generated.
-
-An exercise contains of (at least) the following parts (as described in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises)):
+To implement the "Hello, World!" exercise, you'll need to create several files.
+Which files exactly is descrived in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
