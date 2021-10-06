@@ -3,7 +3,7 @@
 All of the exercises are based on providing a failing test suite for people to run and make pass, so we need to pick a testing framework.
 If there are multiple testing frameworks available, we'll need to figure out which one is the best fit.
 
-### Considerations
+## Considerations
 
 1. Ease of getting started.
 1. Cross-platform support (MacOS, Linux, Windows).
@@ -19,9 +19,9 @@ If there is a choice between several common libraries, then consider a few facto
 
 Remember that all Exercism exercises are by nature very small, so there's no need for the complexity that real-world projects sometimes require.
 
-### Document the decisions
+## Document the decisions
 
-As you make these decisions, document them in this repository's README.md for
+As you make these decisions, document them in the track repository's `README.md` for
 contributors and future maintainers. In particular, when someone submits a contribution
 that goes against one of these decisions, it's very helpful to be able to point to not just
 the conclusion, but also a bit about why that decision was made. That makes it easier to
