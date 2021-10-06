@@ -15,4 +15,13 @@ This is also probably going to be the hardest part of getting the track reposito
 ## Implementing the exercise
 
 To implement the "Hello, World!" exercise, you'll need to create several files.
-Which files exactly is descrived in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
+Which files exactly is described in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
+
+The "Hello, World!" exercise has some special rules applied to it:
+
+- It is always the first exercise in a track
+- Each track must implement it
+- The test file has only one test
+- The stub file contains an almost-working implementation, but instead of "Hello, World!" it uses "Goodbye, Mars!"
+- It has no `prerequisites`
+- It has no `practices`
