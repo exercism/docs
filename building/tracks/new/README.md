@@ -12,5 +12,6 @@ Once you've completed that step, the next steps are:
 - [ ] [Add the first exercise](/docs/building/tracks/new/add-first-exercise)
 - [ ] [Add initial exercises](/docs/building/tracks/new/add-initial-exercises)
 - [ ] [Prepare for launch](/docs/building/tracks/new/prepare-for-launch)
+- [ ] [Find Maintainers](/docs/building/tracks/new/find-maintainers)
 - [ ] [Launch!](/docs/building/tracks/new/launch)
 - [ ] [Prepare for open source contributions from strangers](/docs/building/tracks/new/prepare-for-contributions)
