@@ -6,7 +6,7 @@ Write some [contributing documentation](https://docs.github.com/en/communities/s
 ## Issues
 
 If there are exercises that you wish to include in the track, but have not yet implemented, open issues for each exercise.
-In general, we recommend opening issues for tasks that you would accept contributions from.
+In general, we recommend opening issues for tasks that you would accept contributions for.
 
 We have a special section on the website listing _tasks_, which are issues with one or more special labels.
 Having your issues listed on the website is a great way to get more contributions.

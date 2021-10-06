@@ -1,7 +1,15 @@
 # Add initial exercises
 
-The best place at the moment to help think this through is going to be the #project-track-anatomy channel in the exercism-team slack.
+Once you've implemented the `hello-world` exercise, the next task is to implement 20+ other exercises.
 
-There are a ton of considerations to take into account in terms of making the best possible experience for those working through the track, as well as the mentors who will be providing feedback.
+## Choose exercises
 
-We're in the process of formalizing and documenting a lot of this, so more information will be available in the coming months.
+To help tracks with implementing exercises, we've created the [exercism/problem-specifications repository](https://github.com/exercism/problem-specifications).
+This repository contains [metadata for over 100+ exercises](https://github.com/exercism/problem-specifications/tree/main/exercises), which different tracks can then use to implement their track-specific version of the exercises from.
+Each exercise has three bits of information
+
+You have several options now:
+
+## Implement the exercises
+
+1. You can implement an exercise from
