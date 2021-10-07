@@ -505,6 +505,79 @@
     "blurb": ""
   },
   {
+    "uuid": "e48b8809-2211-4b52-b984-9b6555103e41",
+    "slug": "tracks/new",
+    "path": "building/tracks/new/README.md",
+    "title": "New Track",
+    "blurb": "Learn how to build a new Track from scratch"
+  },
+  {
+    "uuid": "251d76bb-945a-4754-bf84-30a2fbf55654",
+    "slug": "tracks/new/request-new",
+    "path": "building/tracks/new/request-new.md",
+    "title": "Request a new Track"
+  },
+  {
+    "uuid": "def02ef0-a5ba-44b0-832c-7616d931da0c",
+    "slug": "tracks/new/request-new",
+    "path": "building/tracks/new/join-community.md",
+    "title": "Join our community"
+  },
+  {
+    "uuid": "83c73090-7641-4fa9-9038-9198778cf1a4",
+    "slug": "tracks/new/select-programming-language-variant",
+    "path": "building/tracks/new/select-programming-language-variant.md",
+    "title": "Select programming language variant"
+  },
+  {
+    "uuid": "879fb183-ba23-4956-a9d4-e4abea00d630",
+    "slug": "tracks/new/select-testing-framework",
+    "path": "building/tracks/new/select-testing-framework.md",
+    "title": "Select testing framework"
+  },
+  {
+    "uuid": "712ef100-f288-40d0-8911-11eb60b0b033",
+    "slug": "tracks/new/add-first-exercise",
+    "path": "building/tracks/new/add-first-exercise.md",
+    "title": "Add the first exercise"
+  },
+  {
+    "uuid": "c8f1ff4d-55f8-447e-b5e7-4a87f1e341f7",
+    "slug": "tracks/new/add-initial-exercises",
+    "path": "building/tracks/new/add-initial-exercises.md",
+    "title": "Add initial exercises"
+  },
+  {
+    "uuid": "975a3a67-5d5e-4022-b363-a40661095c93",
+    "slug": "tracks/new/setup-continuous-integration",
+    "path": "building/tracks/new/setup-continuous-integration.md",
+    "title": "Setup Continuous Integration"
+  },
+  {
+    "uuid": "3bc94082-8fa3-4129-bca7-c1892cba3ed4",
+    "slug": "tracks/new/prepare-for-launch",
+    "path": "building/tracks/new/prepare-for-launch.md",
+    "title": "Prepare for launch"
+  },
+  {
+    "uuid": "296dbe06-3384-409b-b2de-be52593c76d3",
+    "slug": "tracks/new/find-maintainers",
+    "path": "building/tracks/new/find-maintainers.md",
+    "title": "Find maintainers"
+  },
+  {
+    "uuid": "d9f356fd-4fb2-4ec7-be1b-ec65bfda4904",
+    "slug": "tracks/new/launch",
+    "path": "building/tracks/new/launch.md",
+    "title": "Launch!"
+  },
+  {
+    "uuid": "65fe2eb3-bd67-4312-9e9d-d7334cdcbdcf",
+    "slug": "tracks/new/prepare-for-contributions",
+    "path": "building/tracks/new/prepare-for-contributions.md",
+    "title": "Prepare for open source contributions from strangers"
+  },
+  {
     "uuid": "11894561-be89-471f-ac4e-581449add2bd",
     "slug": "tracks",
     "path": "building/tracks/README.md",
