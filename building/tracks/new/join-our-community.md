@@ -1,4 +1,4 @@
-## Join our community
+# Join our community
 
 To help interact with other maintainers (and mentors), we've created a Slack workspace.
 This is a great place to plan your track and to get help from other maintainers.
