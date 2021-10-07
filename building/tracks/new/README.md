@@ -11,6 +11,7 @@ Once you've completed that step, the next steps are:
 - [ ] [Select testing framework](/docs/building/tracks/new/select-testing-framework)
 - [ ] [Add the first exercise](/docs/building/tracks/new/add-first-exercise)
 - [ ] [Add initial exercises](/docs/building/tracks/new/add-initial-exercises)
+- [ ] [Setup Continuous Integration](/docs/building/tracks/new/setup-continuous-integration)
 - [ ] [Prepare for launch](/docs/building/tracks/new/prepare-for-launch)
 - [ ] [Find Maintainers](/docs/building/tracks/new/find-maintainers)
 - [ ] [Launch!](/docs/building/tracks/new/launch)
