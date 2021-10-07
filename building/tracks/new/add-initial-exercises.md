@@ -23,8 +23,21 @@ Here are some guidelines.
 
 ### Select exercises that have students practice a wide variety of concepts
 
-Some exercises have students work with strings, others with numbers, and others with strings, numbers and classes.
-There is a lot of variety
+There is a lot of variety in concepts used in the 100+ exercises.
+You should aim to implement exercises that have students practice a wide variety of concepts.
+So instead of implementing 20 exercises that focus on strings, try to implement exercises that focus on different concepts.
+
+Here are some concepts with exercises:
+
+| Concepts               | Exercises                                            |
+| ---------------------- | ---------------------------------------------------- |
+| Booleans               | [leap][leap]                                         |
+| Conditionals           | [raindrops][raindrops]                               |
+| Floating-point numbers | [darts][darts]                                       |
+| Laziness               | [alphametics][alphametics]                           |
+| Numbers                | [leap][leap]                                         |
+| Strings                | [isogram][isogram],                                  |
+| Trees                  | [binary-search-tree][binary-search-tree], [pov][pov] |
 
 ### Select exercises with varying degrees of difficulty
 
@@ -33,6 +46,14 @@ You should aim to implement exercises with varying degrees of difficulty: some e
 
 How difficult an exercise is depends on several factors, such as the involved concepts and the track's language.
 It might help to check what the exercise looks like in other tracks that have implemented the exercise, to better get feel for what the implementation could look like.
+
+Here are some difficulties with exercises:
+
+| Difficulty   | Exercises                                                                         |
+| ------------ | --------------------------------------------------------------------------------- |
+| Easy         | [darts][darts], [isogram][isogram], [leap][leap]                                  |
+| Intermediate | [raindrops][raindrops]                                                            |
+| Hard         | [alphametics][alphametics], [forth][forth], [react], [pov][pov], [zipper][zipper] |
 
 ### Select exercises that fit your track
 
@@ -45,11 +66,20 @@ This will ensure that tooling will ignore that exercise.
 
 ### Sample curriculum
 
-Exercise | Difficulty | Concepts
+To make this all a bit more concrete, this is what a sample selection of initial exercises could look like:
 
-- Easy: [darts](https://github.com/exercism/problem-specifications/tree/main/exercises/darts), [hamming](https://github.com/exercism/problem-specifications/tree/main/exercises/hamming), [isogram](https://github.com/exercism/problem-specifications/tree/main/exercises/isogram), [leap](https://github.com/exercism/problem-specifications/tree/main/exercises/leap)
-- Intermediate: [raindrops](https://github.com/exercism/problem-specifications/tree/main/exercises/raindrops), [raindrops](https://github.com/exercism/problem-specifications/tree/main/exercises/raindrops)
-- Hard: [alphametics](https://github.com/exercism/problem-specifications/tree/main/exercises/alphametics), [forth](https://github.com/exercism/problem-specifications/tree/main/exercises/forth), [react](https://github.com/exercism/problem-specifications/tree/main/exercises/react), [pov](https://github.com/exercism/problem-specifications/tree/main/exercises/pov), [two-bucket](https://github.com/exercism/problem-specifications/tree/main/exercises/two-bucket), [zipper](https://github.com/exercism/problem-specifications/tree/main/exercises/zipper)
+| Exercise                   | Difficulty   | Concepts                |
+| -------------------------- | ------------ | ----------------------- |
+| [hello-world][hello-world] | Easy         | None (initial exercise) |
+| [darts][darts]             | Easy         | Floating-point numbers  |
+| [isogram][isogram]         | Easy         | Strings                 |
+| [leap][leap]               | Easy         | Numbers, booleans       |
+| [raindrops][raindrops]     | Intermediate | Conditionals            |
+| [alphametics][alphametics] | Hard         | Laziness                |
+| [forth][forth]             | Hard         | Conditionals            |
+| [react][react]             | Hard         | Conditionals            |
+| [pov][pov]                 | Hard         | Conditionals            |
+| [zipper][zipper]           | Hard         | Conditionals            |
 
 ## Implement exercises
 
@@ -62,3 +92,18 @@ Each exercise has three bits of information:
 With this information, you should have all the information the `canonical-data.json` file, as
 
 1. You can implement an exercise from
+
+[alphametics]: https://github.com/exercism/problem-specifications/tree/main/exercises/alphametics
+[binary-search-tree]: https://github.com/exercism/problem-specifications/tree/main/exercises/binary-search-tree
+[darts]: https://github.com/exercism/problem-specifications/tree/main/exercises/darts
+[forth]: https://github.com/exercism/problem-specifications/tree/main/exercises/forth
+[hamming]: https://github.com/exercism/problem-specifications/tree/main/exercises/hamming
+[hello-world]: https://github.com/exercism/problem-specifications/tree/main/exercises/hello-world
+[isogram]: https://github.com/exercism/problem-specifications/tree/main/exercises/isogram
+[leap]: https://github.com/exercism/problem-specifications/tree/main/exercises/leap
+[lens-person]: https://github.com/exercism/problem-specifications/tree/main/exercises/lens-person
+[pov]: https://github.com/exercism/problem-specifications/tree/main/exercises/pov
+[raindrops]: https://github.com/exercism/problem-specifications/tree/main/exercises/raindrops
+[react]: https://github.com/exercism/problem-specifications/tree/main/exercises/react
+[two-bucket]: https://github.com/exercism/problem-specifications/tree/main/exercises/two-bucket
+[zipper]: https://github.com/exercism/problem-specifications/tree/main/exercises/zipper
