@@ -1,19 +1,10 @@
 # Prepare for launch
 
-Each track has a landing page on the site.
-E.g. (when logged out) https://exercism.io/tracks/go
+Before your ready to launch your track, please ensure that the following tasks have been completed.
 
-The page is meant to entice people into wanting to try the language out.
+## Request track icon
 
-There are four things that we need (details below):
-
-- an icon for the track (TODO: link to track icon)
-- a short blurb for the header section
-- an "about" section with a bit more detail
-- a code snippet that gives a visual impression of what the language syntax looks like
-- maintainer bios
-
-In order to design an icon for the site open a new issue in the [exercism/website-icons](https://github.com/exercism/website-icons/issues) repository, answering the following questions:
+In order to design an icon for the site, open a new issue in the [exercism/website-icons](https://github.com/exercism/website-icons/issues) repository, answering the following questions:
 
 - Does the language have an official logo? If so
   - please include a link to an example
@@ -23,16 +14,43 @@ In order to design an icon for the site open a new issue in the [exercism/websit
   - please include a link to an example
   - please list the attribution rights of that logo
 
-For the blurb, about section, and code snippet please see the [documentation about introductory copy](https://github.com/exercism/docs/blob/master/language-tracks/documentation/introductory-copy.md).
+## Add docs
 
-The maintainer bios go in the [maintainer config](/maintaining-a-track/maintainer-configuration.md).
-The goal of the bio is to give people a little bit of insight into your background with the language and why you are involved with the track on Exercism.
-As you bring on new co-maintainers, have them add themselves to the file as well.
+Add the following markdown documents:
 
-## Write "getting started" instructions for people using the track
+- `docs/ABOUT.md`: a short introduction to the language.
+- `docs/INSTALLATION.md`: describe what the student needs to install to allow working on the track on their local system using the CLI.
+- `docs/LEARNING.md`: links to learning resources.
+- `docs/RESOURCES.md`: links to useful resources.
+- `docs/TESTS.md`: describe everything related to running tests in the track.
 
-We need to guide people through the process of getting their development environment working, and make sure they know how to run the tests.
+These documents will help the student get started with the track as well as learn about the track and its language.
+See the [docs documentation](/docs/building/tracks/docs) for more information.
 
-As a bonus, we could provide some links to learning resources for people who are completely new to the language, and resources that come in handy while they're developing.
+## Add exercise docs
 
-More on this in the [documentation about documentation](https://github.com/exercism/docs/blob/master/language-tracks/documentation/for-consumers.md).
+Add the following exercise documents:
+
+- `exercises/shared/.docs/help.md`: contains track-specific-wide instructions on how to get help
+- `exercises/shared/.docs/tests.md`: contains track-specific instructions on how to run the tests
+
+## Add code snippet
+
+Add a code snippet to the `docs/SNIPPET.txt` file.
+This snippet gives a visual impression of what the language syntax looks like.
+See the [docs documentation](/docs/building/tracks/docs) for more information.
+
+## Update metadata
+
+The track's metadata is defined in the [config.json file](/docs/building/tracks/config-json).
+The following properties should be updated:
+
+- `language`: the track's language (e.g. `"C#"`). Its length must be <= 255.
+- `slug`: the track's language as a lowercased, kebab-case string (e.g. `"csharp"`). Its length must be <= 255.
+- `blurb`: a short description of the language. Its length must be <= 400.
+- `online_editor`: an object describing settings used for the online editor:
+  - `indent_style`: either `"space"` or `"tab"`
+  - `indent_size`: the indentation size as an integer (e.g. `4`)
+  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md))
+- `key_features`: the language's key features, which succinctly describe its most important features
+- `tags`: define the tags that apply to this track, which allows it be searched for on the website
