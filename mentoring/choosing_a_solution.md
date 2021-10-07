@@ -41,8 +41,6 @@ You first have the opportunity to read their code and get some other information
 On the left hand side of the screen you will see the student's code.
 The UI will look something like this:
 
-[TODO: Image of mentor discussion with areas marked].
-
 1. The main part of the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
    If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom.

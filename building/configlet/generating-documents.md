@@ -2,10 +2,6 @@
 
 The secondary use of [configlet](/docs/building/configlet) is generating documents.
 
-## Usage
-
-TODO: describe the command-line interface (command + options).
-
 ## Documents
 
 These are the documents that configlet can generate.

@@ -68,7 +68,7 @@ csharp
 |   |       └── CarsAssembleTests.cs (track-specific)
 |   ├── practice
 |   |   └── leap
-|   |       └── ... (TODO: describe practice exercise files)
+|   |       └── ...
 |   └── shared
 |       └── .docs
 |           ├── debug.md
