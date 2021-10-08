@@ -3,7 +3,7 @@
 Some documentation files apply to both [Concept Exercises](/docs/building/tracks/concept-exercises) and [Practice Exercises](/docs/building/tracks/practice-exercises). These cross-exercise files are located within the track's `exercises/shared/.docs` directory:
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
-- `help.md`: contains track-specific-wide instructions on how to get help (required)
+- `help.md`: contains track-specific instructions on how to get help (required)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
 The [Presentation document](/docs/building/tracks/presentation) describes how these files are used to present content to the student.

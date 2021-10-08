@@ -15,7 +15,7 @@ All concept and practices exercises of a track involve _concepts_. These concept
 Tracks have two types of exercises:
 
 - Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](/docs/building/tracks/concept-exercises) for more information.
-- Practice exercise: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
+- Practice exercises: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
 
 ## Shared files
 

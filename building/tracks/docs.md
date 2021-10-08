@@ -116,7 +116,7 @@ Check [this page](https://exercism.org/docs/tracks/fsharp/learning) to see what 
 
 ## File: `SNIPPET.txt`
 
-**Purpose:** Showcase the language via a small snippet.
+**Purpose:** Give a visual impression of what the language syntax looks like.
 
 **Displayed on:** The track page, provided the student has not joined the track.
 
