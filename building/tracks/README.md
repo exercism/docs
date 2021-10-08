@@ -60,6 +60,7 @@ csharp
 |   |       |   ├── introduction.md
 |   |       |   └── instructions.md
 |   |       ├── .meta
+|   |       |   ├── config.json
 |   |       |   ├── design.md
 |   |       |   └── Exemplar.cs (track-specific)
 |   |       ├── CarsAssemble.cs (track-specific)
