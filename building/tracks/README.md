@@ -60,7 +60,6 @@ csharp
 |   |       |   ├── introduction.md
 |   |       |   └── instructions.md
 |   |       ├── .meta
-|   |       |   ├── config.json
 |   |       |   ├── design.md
 |   |       |   └── Exemplar.cs (track-specific)
 |   |       ├── CarsAssemble.cs (track-specific)
@@ -68,7 +67,16 @@ csharp
 |   |       └── CarsAssembleTests.cs (track-specific)
 |   ├── practice
 |   |   └── leap
-|   |       └── ... (TODO: describe practice exercise files)
+|   |       └── .docs
+|   |       |   ├── introduction.md
+|   |       |   ├── instructions.md
+|   |       |   └── hints.md
+|   |       └── .meta
+|   |       |   ├── config.json
+|   |       |   ├── design.md
+|   |       |   └── Exemplar.cs (track-specific)
+|   |       ├── CarsAssemble.cs (track-specific)
+|   |       └── CarsAssembleTests.cs (track-specific)
 |   └── shared
 |       └── .docs
 |           ├── debug.md
