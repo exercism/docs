@@ -1,7 +1,5 @@
 # Representers
 
-## Introduction
-
 One of the problems faced by the Exercism community is how to provide meaningful feedback to many people providing many solutions to many different exercises.
 To help reduce the scope of this potentially enormous task, solutions are normalized into "representations".
 For example, out of the most recent 500 submissions to the TwoFer exercise on the Ruby track, about 380 of them would be considered unique (if you normalize for trivial things like code formatting and comments).
