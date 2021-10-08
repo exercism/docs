@@ -54,7 +54,7 @@ Some exercises will be more difficult to implement than others.
 You should aim to implement exercises with varying degrees of difficulty: some easy ones, some intermediate ones and some hard ones.
 
 How difficult an exercise is depends on several factors, such as the involved concepts and the track's language.
-It might help to check what the exercise looks like in other tracks that have implemented the exercise, to better get feel for what the implementation could look like.
+It might help to check what the exercise looks like in other tracks that have implemented the exercise, to better get a feel for what the implementation could look like.
 
 Here are some difficulties with exercises:
 
@@ -103,7 +103,7 @@ To make this all a bit more concrete, this is what a sample selection of initial
 
 ## Implement exercises
 
-Having selected the exercises you want include in your track, the next step is to implement them
+Having selected the exercises you want include in your track, the next step is to implement them.
 Each of the above-mentioned exercises has three bits of information:
 
 1. `description.md`: explains what the exercise is about (required)
@@ -112,12 +112,12 @@ Each of the above-mentioned exercises has three bits of information:
 
 There are two options when implementing one of the above exercises:
 
-1. Implement the exercise from scratch, using the test cases in the `canonical-data.json` file
-2. Port an implementation of the exercise from another track
+1. Implement the exercise from scratch, using the test cases in the `canonical-data.json` file.
+2. Port an implementation of the exercise from another track.
 
 The second option can be particularly appealing, as it can give you results quickly.
-Keep in mind though that you should tweak the implementation to best fit your track.
-As an example, some tracks don't use classes but only work with functions.
+Keep in mind, though, that you should tweak the implementation to best fit your track.
+As an example, some tracks do not use classes but only work with functions.
 If your track usually works with objects though, you should adapt the implementation to what best fits your track.
 
 [allergies]: https://github.com/exercism/problem-specifications/tree/main/exercises/allergies

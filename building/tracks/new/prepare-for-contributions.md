@@ -19,6 +19,6 @@ For more information on how to have your issues show up on the website, check th
 - Are there any conventions that we should adopt on this track for the sake of consistency?
 - Can we enforce these?
 - Is there a linter? Are there many? Should we use one?
-- Is there a common convention for filenames? If not, what should our convention be?
+- Is there a common convention for file names? If not, what should our convention be?
 
 It could be worth opening separate issues for the things you wish to tackle.
