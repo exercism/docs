@@ -31,7 +31,7 @@ See the [docs documentation](/docs/building/tracks/docs) for more information.
 
 Add the following exercise documents:
 
-- `exercises/shared/.docs/help.md`: contains track-specific-wide instructions on how to get help
+- `exercises/shared/.docs/help.md`: contains track-specific instructions on how to get help
 - `exercises/shared/.docs/tests.md`: contains track-specific instructions on how to run the tests
 
 ## Add code snippet
