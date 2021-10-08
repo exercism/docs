@@ -578,6 +578,12 @@
     "title": "Prepare for open source contributions from strangers"
   },
   {
+    "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
+    "slug": "tracks/new/implement-tooling",
+    "path": "building/tracks/new/implement-tooling.md",
+    "title": "Implement tooling"
+  },
+  {
     "uuid": "11894561-be89-471f-ac4e-581449add2bd",
     "slug": "tracks",
     "path": "building/tracks/README.md",

@@ -1,6 +1,6 @@
 # Test Runners
 
-A Test Runner is a piece of software that runs a an exercise's tests against a student's code.
+A Test Runner is a piece of software that runs an exercise's tests against a student's code.
 
 Test Runners give us two advantages:
 
