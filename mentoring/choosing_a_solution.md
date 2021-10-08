@@ -11,7 +11,7 @@ The UI should look something like this:
 
 ![Mentoring queue](https://exercism-static.s3.eu-west-1.amazonaws.com/docs/mentor_queue.png)
 
-At the top of the queue panel, you will find a text box that allows you to filter by the student's name. To the right of this, you will find a dropdown select to sort requests by oldest or most recent first. On the right-hand side of the interface, you can filter by language or exercise name.
+At the top of the queue panel, you will find a text box that allows you to filter by the student's name. To the right of this, you can the sort requests by oldest first, most recent first, student name or exercise name. On the right-hand side of the interface, you can filter by language or exercise name.
 You can also choose to only show exercises you've completed yourself (enabled by default), which is often wise as you may struggle to give great feedback if you've not wrestled with solving the exercise yourself. The list of exercises with outstanding mentorship-requests can be used to further filter the request list. Do this by selecting the exercise name (visible in the bottom right section of the screenshot above).
 
 The main table displays the exercise, the student and when they requested mentoring.
@@ -47,10 +47,10 @@ The UI will look something like this:
    If they've submitted multiple iterations, you can switch through these using the numbers in circles at the bottom left or using the `Previous` and `Next` buttons located at the bottom right of this panel.
    If they've only submitted one iteration, you won't see those icons.
 
-2. At the top of the student's code, you can use the tabs at the top to switch between the student's code, the instructions, and the tests.
+2. At the top of the student's code, you can use the tabs to switch between the student's code, the instructions, and the tests.
    This is useful for reminding yourself what the student has been asked to do in this exercise.
 
-3. You'll also see an indicator as to whether the tests have passed or failed (located at the top right of this left panel), as well as buttons dowload the student's code or to copy the student's code to your clipboard.
+3. You'll also see an indicator as to whether the tests have passed or failed (located at the top right of this left panel), as well as buttons to download the student's code or copy the student's code to your clipboard.
    If they failed, clicking on this indicator will open a modal that shows you the specific details of their test run, so you can see what they did wrong.
 
 The right hand side of the screen holds a panel containing the mentorship interaction. At the top of this panel, you'll see three tabs.
@@ -69,7 +69,7 @@ This can help your explanations be simpler and clearer.
 The third tab is called "Guidance".
 If you click on this you'll see some information that might be useful for you:
 
-- **The Exemplar solution** Try to guide the student towards this solution. It is the best place for them to reach at this point during the Track. You may discover that your approach differs significantly from the exemplar solution. This may be due to more advanced techniques than are expected of a student completing the learning path as designed. Consider this fact when providing your feedback and try not to overwhelm your student with knowledge they may not be prepared for yet.
+- **The Exemplar solution** Try to guide the student towards this solution. It is the best place for them to reach at this point during the Track. You may discover that your approach differs significantly from the exemplar solution. This may be due to you being familiar with more advanced techniques than the student. Keep in mind that you can only expect the student to be familiar with the concepts they've learnt while completing the learning path to the exercise they are working on. Consider this fact when providing your feedback and try not to overwhelm your student with knowledge they may not be prepared for yet.
 - **Mentor notes:** These are community-written notes that help point other mentors towards the best way to mentor an exercise.
   We'd really love you to contribute your experience back to these notes.
 - **Automated feedback:** This is feedback that our analyzers have determined might be useful for you to give to a student.

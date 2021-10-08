@@ -49,7 +49,7 @@ The value you add as a mentor is helping them think differently, helping them se
 
 Different mentors have different approaches to whether they give "hints" or "explanations".
 As a general rule, aim for somewhere between the two.
-Ensure that you tell the student enough that they can understand what they should try but try not to just give them the answer and tell them why it works.
+Ensure that you tell the student enough that they can understand what they should try, but try not to just give them the answer and tell them why it works.
 
 For example, imagine you see an `if` statement in Ruby that would be much more nicely written using the [ternary operator](https://en.wikipedia.org/wiki/%3F:):
 
@@ -65,7 +65,7 @@ end
 b = a ? 1 : 2
 ```
 
-You could simply say, "Write `b = a ? 1 : 2` instead of the `if` statement on L10" but that wouldn't be helping a student understand the _why_ or have a lightbulb moment of their own.
+You could simply say, "Write `b = a ? 1 : 2` instead of the `if` statement on L10," but that wouldn't be helping a student understand the _why_ or have a lightbulb moment of their own.
 
 Instead it would be much better to introduce the idea of a ternary and pose the student a challenge.
 For example: "I think you could reduce the Lines 10-14 down to one line using the Ternary Operator. How might that look?"
@@ -76,8 +76,8 @@ Try to ensure you give enough information for a student to progress.
 
 ## How much feedback should you give
 
-Different mentors have different styles but our default suggestion is to give the most important one to three pieces of feedback on any iteration.
-If the student submits a new iteration with those solved, you could give another one to three pieces of feedback.
+Different mentors have different styles, but our default suggestion is to give the most important one to three pieces of feedback on any iteration.
+If the student submits a new iteration with those solved, you could then give another one to three pieces of feedback.
 By breaking things up in that way, a student will not feel overwhelmed but will also have enough to do to make meaningful changes each time.
 
 As you gain experience mentoring, you will get a feel for the different ways students react to different feedback and develop a style to fit your personality.
