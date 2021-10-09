@@ -69,15 +69,13 @@ csharp
 |   ├── practice
 |   |   └── leap
 |   |       └── .docs
-|   |       |   ├── introduction.md
-|   |       |   ├── instructions.md
-|   |       |   └── hints.md
+|   |       |   └── instructions.md
 |   |       └── .meta
 |   |       |   ├── config.json
-|   |       |   ├── design.md
-|   |       |   └── Exemplar.cs (track-specific)
-|   |       ├── CarsAssemble.cs (track-specific)
-|   |       └── CarsAssembleTests.cs (track-specific)
+|   |       |   └── Example.cs (track-specific)
+|   |       ├── Leap.cs (track-specific)
+|   |       ├── Leap.csproj (track-specific)
+|   |       └── LeapTests.cs (track-specific)
 |   └── shared
 |       └── .docs
 |           ├── debug.md
