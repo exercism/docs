@@ -17,18 +17,18 @@ And in the worst case, a student can always end the discussion and wait for anot
 ## Mindset
 
 The first thing to keep in mind is having the right mindset as a mentor.
-Students are hoping you can help improve their knowledge and tell them things that they don't know.
+Students are hoping you can help improve their knowledge and tell them things that they do not know.
 Your job isn't to "mark" their work, it's to use their solution as a basis for unlocking ideas that they are not familiar with or are struggling with.
 
 It's also worth remembering that most Exercism users are experienced developers learning a new language.
-So although their code might look bad to you, that may well be because they simply aren't experienced writing _this_ language.
+So although their code might look _bad_ to you, that may well be because they simply are not experienced writing _this_ language.
 Similar code in a different language might be totally idiomatic and correct.
 Conversations tend to be more productive when they are approached as two peers discussing a topic rather than one person showing off their knowledge to another.
 
 ## Addressing the student's request vs teaching a new idea
 
 When a student submits a solution for mentoring, they are prompted to tell the mentor what they are hoping to get from it.
-It's really important that you as the mentor read this and try and address it in your feedback.
+It is really important that you, as the mentor, read this and try and address it in your feedback.
 
 However, one of the key values of mentoring on Exercism is that mentors can help students discover ideas they had no idea about.
 So you might look at a student's solution, read their comment which asks if there are any tweaks they could make, and think "Wow - you really don't have a grasp on this exercise at all".
