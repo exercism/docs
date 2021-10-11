@@ -25,7 +25,7 @@ Sometimes, when disagreements happen, it's easy to jump to the conclusion that t
 It's easy to imagine the other person feeling smug, polishing their ego, while they rile you up with their "wrong" opinions.
 In reality, that person is much more likely to be trying to communicate something that they feel is important and not finding words or strategies that are clear to others.
 
-When we step back and presume everyone participating is **tying** to be kind, trying to do the right things, and trying to be clear, it makes it a lot easier for us to loosen the grip on our own egos and **actively** try to listen to the other person's point of view.
+When we step back and presume everyone participating is **trying** to be kind, trying to do the right things, and trying to be clear, it makes it a lot easier for us to loosen the grip on our own egos and **actively** try to listen to the other person's point of view.
 
 Which leads us to...
 
