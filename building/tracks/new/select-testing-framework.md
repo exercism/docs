@@ -8,7 +8,7 @@ If there are multiple testing frameworks available, we will need to figure out w
 1. Ease of getting started.
 1. Cross-platform support (MacOS, Linux, Windows).
 
-For people who will to be doing the exercises, it's important to get them up and running as quickly as possible.
+For people who will be doing the exercises, it's important to get them up and running as quickly as possible.
 
 In general we prefer tools in the standard library if they're available, and if not we aim for a third party library that is widely used.
 If there is a choice between several common libraries, then consider a few factors:
