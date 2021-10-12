@@ -23,7 +23,7 @@ Your job isn't to "mark" their work, it's to use their solution as a basis for u
 It's also worth remembering that most Exercism users are experienced developers learning a new language.
 So although their code might look _bad_ to you, that may well be because they simply are not experienced writing _this_ language.
 Similar code in a different language might be totally idiomatic and correct.
-Conversations tend to be more productive when they are approached as two peers discussing a topic rather than one person showing off their knowledge to another.
+Conversations tend to be more productive when they are approached as two peers discussing a topic, rather than one person showing off their knowledge to another.
 
 ## Addressing the student's request vs teaching a new idea
 
