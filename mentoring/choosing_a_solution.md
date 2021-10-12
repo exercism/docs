@@ -14,7 +14,7 @@ The UI should look something like this:
 At the top of the queue panel, you will find a text box that allows you to filter by the student's name.
 To the right of this, you can the sort requests by oldest first, most recent first, student name or exercise name.
 On the right-hand side of the interface, you can filter by language or exercise name.
-You can also choose to only show exercises that you have completed yourself (enabled by default), which is often wise as you may struggle to give great feedback if you have not wrestled with solving the exercise yourself.
+You can also choose to only show exercises that you have completed yourself, which is often wise as you may struggle to give great feedback if you have not wrestled with solving the exercise yourself.
 The list of exercises with outstanding mentorship requests can be used to further filter the request list.
 Do this by selecting the exercise name (visible in the bottom right section of the screenshot above).
 
