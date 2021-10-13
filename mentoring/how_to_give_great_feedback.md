@@ -12,7 +12,7 @@ This can be exciting but also pretty daunting.
 A lot of (the best!) mentors suffer from [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) at this stage and give up before they start.
 If you feel like that, it's totally understandable but also almost always unnecessary.
 By the fact that you're worrying about whether your feedback is going to be good enough, it's likely that you'll give thoughtful and humble comments that students will really appreciate.
-And in the worst case, a student can always end the discussion and wait for another mentor. So let's give it a go!
+And in the worst case, a student can always end the discussion and send it back to the queue for another mentor. So give it a go!
 
 ## Mindset
 
