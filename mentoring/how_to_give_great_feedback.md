@@ -9,32 +9,32 @@ If you haven't, work your way through [Choosing a solution to mentor](/docs/ment
 
 You're about to give your first feedback to a student.
 This can be exciting but also pretty daunting.
-A lot of (the best!) mentors suffer from [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) at this stage, and give up before they start.
-If you feel like that, it's totally understandable, but also almost always unnecessary.
-By the fact you're worrying about whether your feedback is going to be good enough, it's likely that you'll give thoughtful humble comments that students really appreciate.
-And in the worst case, a student can always end the discussion, and wait for another mentor, so let's give it a go!
+A lot of (the best!) mentors suffer from [Impostor Syndrome](https://en.wikipedia.org/wiki/Impostor_syndrome) at this stage and give up before they start.
+If you feel like that, it's totally understandable but also almost always unnecessary.
+By the fact that you're worrying about whether your feedback is going to be good enough, it's likely that you'll give thoughtful and humble comments that students will really appreciate.
+And in the worst case, a student can always end the discussion and send it back to the queue for another mentor. So give it a go!
 
 ## Mindset
 
 The first thing to keep in mind is having the right mindset as a mentor.
-Students are hoping you can help improve their knowledge, and tell them things that they don't know.
+Students are hoping you can help improve their knowledge and tell them things that they do not know.
 Your job isn't to "mark" their work, it's to use their solution as a basis for unlocking ideas that they are not familiar with or are struggling with.
 
 It's also worth remembering that most Exercism users are experienced developers learning a new language.
-So although their code might look bad, that may well be because they don't know how to write this language.
+So although their code might look _bad_ to you, that may well be because they simply are not experienced writing _this_ language.
 Similar code in a different language might be totally idiomatic and correct.
-Conversations tend to go much better when they are approached as two peers discussing a topic, rather than one person showing off their knowledge to another.
+Conversations tend to be more productive when they are approached as two peers discussing a topic, rather than one person showing off their knowledge to another.
 
 ## Addressing the student's request vs teaching a new idea
 
 When a student submits a solution for mentoring, they are prompted to tell the mentor what they are hoping to get from it.
-It's really important that you as the mentor read that and try and address it in your feedback.
+It is really important that you, as the mentor, read this and try and address it in your feedback.
 
 However, one of the key values of mentoring on Exercism is that mentors can help students discover ideas they had no idea about.
 So you might look at a student's solution, read their comment which asks if there are any tweaks they could make, and think "Wow - you really don't have a grasp on this exercise at all".
 It might be that they've totally missed the point of the exercise.
 In your time as a mentor, you'll see some incredibly "overfit" solutions where students make the tests pass but totally miss the point of the challenge.
-Or see incredibly complex solutions that can be rewritten in a couple of lines of code.
+Or you may see incredibly complex solutions that can be rewritten in a couple of lines of code.
 
 Your job as a mentor is to help take the student forward **from where they start**.
 What's the biggest thing you could do to help unlock an idea or unblock their thinking?
@@ -65,23 +65,22 @@ end
 b = a ? 1 : 2
 ```
 
-You could just say "Write `b = a ? 1 : 2` instead of the `if` statement on L10."
-But that wouldn't be helping a student understand the why or have a lightbulb moment of their own.
+You could simply say, "Write `b = a ? 1 : 2` instead of the `if` statement on L10," but that wouldn't be helping a student understand the _why_ or have a lightbulb moment of their own.
 
-Instead it would be much better to introduce the idea of a ternary, and pose the student a challenge.
+Instead it would be much better to introduce the idea of a ternary and pose the student a challenge.
 For example: "I think you could reduce the Lines 10-14 down to one line using the Ternary Operator. How might that look?"
 A student will then have to play with that and solve it themselves, but you've given them enough info to work with.
 
 On the other end of the scale, saying "Reduce lines 10-14 to one line" wouldn't give a student any indication of how that's achievable, and so could be incredibly frustrating for them.
-So try to ensure you give enough information for a student to progress.
+Try to ensure you give enough information for a student to progress.
 
 ## How much feedback should you give
 
 Different mentors have different styles, but our default suggestion is to give the most important one to three pieces of feedback on any iteration.
-If the student submits a new iteration with those solved, then you could give another one to three pieces of feedback.
-By breaking things up in that way, a student will not feel overwhelmed, but will also have enough to do to make meaningful changes each time.
+If the student submits a new iteration with those solved, you could then give another one to three pieces of feedback.
+By breaking things up in that way, a student will not feel overwhelmed but will also have enough to do to make meaningful changes each time.
 
-As you gain experience mentoring, you will get a feel for the different ways students react to different feedback, and develop a style that fits your personality.
+As you gain experience mentoring, you will get a feel for the different ways students react to different feedback and develop a style to fit your personality.
 
 ## Unsure of something? Chat to other mentors?
 
