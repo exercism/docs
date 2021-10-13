@@ -59,7 +59,7 @@ The UI will look something like this:
 
 The right hand side of the screen holds a panel containing the mentorship interaction. At the top of this panel, you'll see three tabs.
 The "Discussion" tab will contain the information about the user (username, name, reputation, personal blurb).
-Below that you'll see a comment from the user about what it is that they want to learn from this specific solution.
+Below that is a comment from the user about what it is that they want to learn from this specific solution.
 (For some older solutions, this might be missing).
 This is a key indicator as to whether this solution is right for you.
 Can you answer their question?
