@@ -147,7 +147,7 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `name`: the exercise's name. Its length must be <= 255.
 - `practices`: an array of concept slugs that the exercise is helping students practice
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
-- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest). The website interprets the difficulty as follows:
+- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 1 (easiest) to 10 (hardest). The website interprets the difficulty as follows:
   - 1,2,3: easy
   - 4,5,6,7: medium
   - else: hard
