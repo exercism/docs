@@ -41,7 +41,7 @@ If you want some more information, please visit https://google.com.
 Using anchor text and linking it is easier to understand and contextualize.
 
 ```
-If you want some more information, [Google][google-search-link] is a useful resource.
+If you want some more information, [Google][google-link] is a useful resource.
 
 [google-link]: https://google.com
 ```
