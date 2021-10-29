@@ -58,19 +58,21 @@ The UI will look something like this:
    If they failed, clicking on this indicator will open a modal that shows you the specific details of their test run, so you can see what they did wrong.
 
 The right hand side of the screen holds a panel containing the mentorship interaction. At the top of this panel, you'll see three tabs.
-The "Discussion" tab will contain the information about the user (username, name, reputation, personal blurb).
+The "**Discussion**" tab will contain the information about the user (username, name, reputation, personal blurb).
 Below that is a comment from the user about what it is that they want to learn from this specific solution.
 (For some older solutions, this might be missing).
 This is a key indicator as to whether this solution is right for you.
 Can you answer their question?
 Can you fulfill their hopes for this exercise?
 
-The second tab is your "Scratchpad".
+The second tab is your "**Scratchpad**".
 You can write code in it, so that you can reference it in your comment.
 It can help identify the code that is important when reviewing this exercise.
 This can help your explanations be simpler and clearer.
+Notes written here are private to you and you will see them every time you are mentoring
+the solution of the given exercise.
 
-The third tab is called "Guidance".
+The third tab is called "**Guidance**".
 If you click on this you'll see some information that might be useful for you:
 
 - **The Exemplar solution** Try to guide the student towards this solution.
