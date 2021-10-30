@@ -94,7 +94,7 @@ A quick way to distinguish between the two cases when it's unclear - if this is 
 We support special types of blocks that can be added to documents to pull out commentary that doesn't fit with the main body of the text.
 They are similar to these examples, seen in the Julia docs:
 
-<img width="500" alt="Screenshot 2021-10-30 at 13 27 00" src="https://user-images.githubusercontent.com/20866761/139531109-0c0f3ea5-b589-44ff-93ab-d901a45edc56.png">
+<img width="500" alt="Markdown note block" src="https://user-images.githubusercontent.com/20866761/139531109-0c0f3ea5-b589-44ff-93ab-d901a45edc56.png">
 
 <img width="500" alt="Screenshot 2021-10-30 at 13 27 00" src="https://user-images.githubusercontent.com/20866761/139531234-9b58b9ab-524b-44fd-bbcb-4e10f2927d27.png">
 
