@@ -96,9 +96,9 @@ They are similar to these examples, seen in the Julia docs:
 
 <img width="500" alt="Markdown note block" src="https://user-images.githubusercontent.com/20866761/139531109-0c0f3ea5-b589-44ff-93ab-d901a45edc56.png">
 
-<img width="500" alt="Screenshot 2021-10-30 at 13 27 00" src="https://user-images.githubusercontent.com/20866761/139531234-9b58b9ab-524b-44fd-bbcb-4e10f2927d27.png">
+<img width="500" alt="Markdown caution block" src="https://user-images.githubusercontent.com/20866761/139531234-9b58b9ab-524b-44fd-bbcb-4e10f2927d27.png">
 
-<img width="500" alt="Screenshot 2021-10-30 at 13 27 00" src="https://user-images.githubusercontent.com/20866761/139531236-72259046-68a9-4934-9440-a730befde155.png">
+<img width="500" alt="Markdown advanced block" src="https://user-images.githubusercontent.com/20866761/139531236-72259046-68a9-4934-9440-a730befde155.png">
 
 We support three types of blocks:
 
