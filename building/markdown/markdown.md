@@ -16,7 +16,7 @@ All rules are being added to our CI and linting tools, and should be adhered to 
 
 ## Links
 
-Please use [reference links](https://spec.commonmark.org/0.29/#reference-link), which are defined at the bottom of the Markdown file, mapped to a reference slug, and referenced by that slug in the text.
+Please use [reference links][reference-links], which are defined at the bottom of the Markdown file, mapped to a reference slug, and referenced by that slug in the text.
 
 This method makes maintenance easier, since link only have to be updated in a single location.
 
@@ -60,7 +60,7 @@ Which renders as:
 
 - The `printf()` function writes to the console.
 
-More complex code (e.g. multiline code) should be wrapped in triple backticks. A [language identifier](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) should be specified after the opening triple backticks to enable syntax highlighting:
+More complex code (e.g. multiline code) should be wrapped in triple backticks. A [language identifier][language-identifier] should be specified after the opening triple backticks to enable syntax highlighting:
 
 ````python
 ```python
@@ -149,23 +149,31 @@ You can test that your markdown comment gets removed by checking how your commen
 
 There are various rules you can use to configure linters to meet this spec:
 
-- Enable [MD001](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md001---header-levels-should-only-increment-by-one-level-at-a-time)
-- Enable [MD002](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header)
-- Use `atx` for [MD003](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style)
-- Disable [MD013](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length)
-- Disable [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html)
+- Enable [MD001][MD001]
+- Enable [MD002][MD002]
+- Use `atx` for [MD003][MD0003]
+- Disable [MD013][MD013]
+- Disable [MD033][MD033]
 
 ## Auto formatting
 
-Some repositories use [prettier](https://prettier.io/) to ensure that all Markdown is formatted consistently. This can result in the following benefits:
+Some repositories use [prettier][prettier] to ensure that all Markdown is formatted consistently. This can result in the following benefits:
 
 - No formatting discussions.
 - Great editor/IDE integration so files can be formatted on save.
 - Easy to add CI checks for formatting.
 - Easy to automatically format files using a script.
 
-All the above can greatly help reduce churn in reviews, whch is frustrating for both the reviewer and the reviewee.
+All the above can greatly help reduce churn in reviews, which is frustrating for both the reviewer and the reviewee.
 
 ---
 
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
+[reference-links]: https://spec.commonmark.org/0.29/#reference-link
+[language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+[MD001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
+[MD002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
+[MD0003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
+[MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
+[MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
+[prettier]: https://prettier.io/
