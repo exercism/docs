@@ -164,7 +164,7 @@ Some repositories use [prettier][prettier] to ensure that all Markdown is format
 - Easy to add CI checks for formatting.
 - Easy to automatically format files using a script.
 
-All the above can greatly help reduce churn in reviews, whch is frustrating for both the reviewer and the reviewee.
+All the above can greatly help reduce churn in reviews, which is frustrating for both the reviewer and the reviewee.
 
 ---
 
