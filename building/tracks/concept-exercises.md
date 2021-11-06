@@ -34,25 +34,25 @@ A Concept Exercise has three types of files:
 
 These files are presented to the student to help explain the exercise.
 
-- `.docs/introduction.md`: introduce the concept(s) that the exercise teaches to the student (required)
-- `.docs/instructions.md`: provide instructions for the exercise (required)
-- `.docs/hints.md`: provide hints to a student to help them get themselves unstuck in an exercise (required)
+- `.docs/introduction.md`: introduces the concept(s) that the exercise teaches to the student (required)
+- `.docs/instructions.md`: provides instructions for the exercise (required)
+- `.docs/hints.md`: provides hints to a student to help them get themselves unstuck in an exercise (required)
 
 ### Metadata files
 
 These files are _not_ presented to the student, but used to define metadata of the exercise.
 
 - `.meta/config.json`: contains meta information on the exercise (required)
-- `.meta/design.md`: describe the design of the exercise (required)
+- `.meta/design.md`: describes the design of the exercise (required)
 
 ### Exercise files
 
 The language-specific files, like the implementation and test files. The names of these files are track-specific.
 
-- Test suite: verify a solution's correctness (required)
-- Stub implementation: provide a starting point for students (required)
-- Exemplar implementation: provide an idiomatic implementation that passes all the tests (required)
-- Additional files: ensure that the tests can run (optional)
+- Test suite: verifies a solution's correctness (required)
+- Stub implementation: provides a starting point for students (required)
+- Exemplar implementation: provides an idiomatic implementation that passes all the tests (required)
+- Additional files: ensures that the tests can run (optional)
 
 ### Example
 
