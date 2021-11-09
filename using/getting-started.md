@@ -47,7 +47,7 @@ With over one hundred dedicated maintainers and thousands of contributors, our g
 
 Want to help build Exercism?
 The [contributing page](/contributing) contains an overview of the various tasks you can work on.
-We have a wide variety of tasks, ranging in size from trivial to massize.
+We have a wide variety of tasks, ranging in size from trivial to massive.
 
 Never contributed to an open source project?
 We'll help you submit your first pull request.

@@ -31,7 +31,7 @@ Reputation can be acquired in a variety of ways:
 
 ### Mentoring a solution successfully
 
-For each succesfully mentored solution (discussion was finished), `5` reputation is awarded.
+For each successfully mentored solution (discussion was finished), `5` reputation is awarded.
 
 ### Publishing a solution
 
