@@ -47,5 +47,12 @@
     "path": "community/good-member/chestertons-fence.md",
     "title": "Chesterton's Fence",
     "blurb": "Learn how to express your ideas in suggestions in the best way"
+  },
+  {
+    "uuid": "ee4c471f-9438-4adc-9a91-3280cfaff427",
+    "slug": "being-a-good-community-member/pull-requests",
+    "path": "community/good-member/pull-requests.md",
+    "title": "Pull Requests",
+    "blurb": "How to make a great Pull Request"
   }
 ]
