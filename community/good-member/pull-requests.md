@@ -38,7 +38,7 @@ This makes it easier and faster for maintainers to review, and will make your li
 
 Normally maintainers will review your PR within a few days.
 Please do not keep bumping the PR with extra during the first week - our maintainers are volunteers and busy people and will get round to reviewing it as soon as they can.
-If you've not had a response within 7 days, please tag `@exercism/reviewers` in the a **new** comment on the PR, and that will alert a wider team to it.
+If you've not had a response within 7 days, please tag `@exercism/reviewers` in a **new** comment on the PR, and that will alert a wider team to it.
 
 ---
 
