@@ -53,7 +53,7 @@ New in Exercism 3.0 is Learning Mode and this is the default for any user from t
 
 - In Learning Mode there is a set of Learning Exercises to complete. 
   Completing these exercises unlocks further Learning Exercises and also Practice Exercises. 
-  If you are a returning user, who is used to previous versions of Exercism, you mat find that exercises that were previously available have now become locked. 
+  If you are a returning user, who is used to previous versions of Exercism, you may find that exercises that were previously available have now become locked. 
   While we recommend solving the Learning Exercises to unlock them (each should take 5mins to solve if you are fluent in a language), you can instead disable Learning Mode and switch to Practice Mode.
 * Note that in either Practice or Learning Mode, one can ask for mentoring on a particular exercise.
 * To switch modes, go to the Track Overview Page and click on the More "..." icon on the top right hand side and select "Disable Learning Mode". (Please note that it currently takes a while for the current mode to be reported in your Tracks page).
