@@ -128,17 +128,11 @@ If you would like to report something, please reach out to us at [abuse@exercism
 
 There are a few different ways - becoming a mentor, managing a language track or reporting (or addressing!) issues on GitHub.
 You can see more on the [How to Contribute page][contribute].
-Version 3 of Exercism is also being built right now and needs lots of help.
-The [v3 repository](https://github.com/exercism/v3) has more information.
 
 ## How do new language tracks get added to the site?
 
 A new language track gets created when a member of the community takes the lead on it and becomes a maintainer of the track.
 If you'd like to get involved in helping set one up, there are [instructions here][new-language-request].
-
-## Why are issues taking a while to get resolved?
-
-Version 3 of Exercism is being actively worked on, which means that contributors and maintainers are splitting their time between the current version (V2) and the next.
 
 ## Opening an Issue
 
