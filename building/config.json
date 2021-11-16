@@ -578,6 +578,12 @@
     "title": "Prepare for open source contributions from strangers"
   },
   {
+    "uuid": "0113174d-314d-4255-a300-32150dc32179",
+    "slug": "tracks/new/configure-tooling",
+    "path": "building/tracks/new/configure-tooling.md",
+    "title": "Configure tooling"
+  },
+  {
     "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
     "slug": "tracks/new/implement-tooling",
     "path": "building/tracks/new/implement-tooling.md",
@@ -700,6 +706,20 @@
     "slug": "tooling/test-runners/interface",
     "path": "building/tooling/test-runners/interface.md",
     "title": "The Test Runner Interface",
+    "blurb": ""
+  },
+  {
+    "uuid": "a9cf4712-9022-4bd2-83aa-55cbdfd62374",
+    "slug": "tooling/lines-of-code-counter",
+    "path": "building/tooling/lines-of-code-counter.md",
+    "title": "Lines of Code Counter",
+    "blurb": ""
+  },
+  {
+    "uuid": "df94c182-f4d6-4045-b86d-49190beffca4",
+    "slug": "tooling/snippet-extractor",
+    "path": "building/tooling/snippet-extractor.md",
+    "title": "Snippet Extractor",
     "blurb": ""
   },
   {
