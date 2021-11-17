@@ -114,8 +114,9 @@ Rest assured, there are mentors working through their queues so hang in there!
 
 ## I submitted the wrong solution / file. What can I do?
 
-There isn't a way to delete submissions so just submit the right file and it will show up as a new iteration in the queue.
-Feel free to leave a note for your mentor with the original submission clarifying what happened.
+On the exercise page in question, navigate to "Your Iterations".
+If the unwanted iteration is folded, click the circled arrow.
+In the "dots" menu, select "Delete iteration".
 
 ## How can I report abuse or examples of bad mentoring?
 
