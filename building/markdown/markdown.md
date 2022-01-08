@@ -46,7 +46,7 @@ If you want some more information, [Google][google-link] is a useful resource.
 [google-link]: https://google.com
 ```
 
-Which renders as, "If you want some more information, [Google](https://google.com)".
+Which renders as, "If you want some more information, [Google][google-link]".
 
 ## Code
 
