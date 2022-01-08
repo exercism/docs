@@ -18,7 +18,7 @@ All rules are being added to our CI and linting tools, and should be adhered to 
 
 Please use [reference links][reference-links], which are defined at the bottom of the Markdown file, mapped to a reference slug, and referenced by that slug in the text.
 
-This method makes maintenance easier, since link only have to be updated in a single location.
+This method makes maintenance easier, since link(s) only have to be updated in a single location.
 
 Example:
 
