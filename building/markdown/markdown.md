@@ -149,11 +149,11 @@ You can test that your markdown comment gets removed by checking how your commen
 
 There are various rules you can use to configure linters to meet this spec:
 
-- Enable [MD001][MD001]
-- Enable [MD002][MD002]
-- Use `atx` for [MD003][MD0003]
-- Disable [MD013][MD013]
-- Disable [MD033][MD033]
+- [MD001][MD001]: Enable
+- [MD002][MD002]: Enable
+- [MD003][MD003]: Use `atx` style
+- [MD013][MD013]: Disable
+- [MD033][MD033]: Disable
 
 ## Auto formatting
 
@@ -168,12 +168,13 @@ All the above can greatly help reduce churn in reviews, which is frustrating for
 
 ---
 
-[asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
-[reference-links]: https://spec.commonmark.org/0.29/#reference-link
-[language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 [MD001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
 [MD002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
-[MD0003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
+[MD003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
 [MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
 [MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
+[asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
+[google-link]: https://google.com
+[language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 [prettier]: https://prettier.io/
+[reference-links]: https://spec.commonmark.org/0.29/#reference-link
