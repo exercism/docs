@@ -128,7 +128,7 @@ For a comprehensive guide on good security practices for using GitHub Actions sa
 ## Workflow Checklist
 
 You can use the following checklist to check if a workflow follows the best practices.
-The checklist is not meant to be complete but instead focus on the most important items.
+The checklist is not meant to be complete but instead focuses on the most important items.
 
 
 
