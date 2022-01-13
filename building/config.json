@@ -423,6 +423,12 @@
     "title": "Migrating from Travis"
   },
   {
+    "uuid": "7cc6cb11-2502-49ea-b7c1-6e501720c9ae",
+    "slug": "tracks/ci/gha-best-practices",
+    "path": "building/tracks/ci/gha-best-practices.md",
+    "title": "GitHub Actions: Best Practices"
+  },
+  {
     "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
     "slug": "markdown",
     "path": "building/markdown/README.md",
