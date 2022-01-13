@@ -121,3 +121,6 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - Command-liner: submit 10+ exercises through the CLI
 - Where did it go?: completed an exercise that has since been deprecated
 - Achieve "Early Bird" badge by changing the local time of the computer, and changing it back afterwards (Requires local timezone storage to persist for a few minutes). Name should be a reference to games like Animal Crossing and the likes.
+- I've got your back: Be mentored for the first time
+- Back again: Be mentored for the second time
+- Third time's the charm: Be mentored for the third time
