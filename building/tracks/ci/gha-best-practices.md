@@ -10,6 +10,7 @@ If you have any suggestions or additions, [please open a pull request on GitHub!
   - [Pin actions to SHAs](#pin-actions-to-shas)
   - [Consider setting up a concurrency strategy](#consider-setting-up-a-concurrency-strategy)
   - [Consider which triggers are really needed](#consider-which-triggers-are-really-needed)
+  - [Read the "Security hardening for GitHub Actions" guide](#read-the-security-hardening-for-github-actions-guide)
 - [Workflow Checklist](#workflow-checklist)
 
 ## Collection of Best Practices
@@ -56,7 +57,7 @@ By default, the access token given to the workflow has wide-ranging permissions,
 
 The [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) should also be applied to workflows.
 
-You can specify which permissions a workflow needs on a [per-workflow basis](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#permissions).
+You can specify which permissions a workflow needs on a [per-workflow basis](https://docs.github.com/en/actions/security-guides/automatic-token-authentication#modifying-the-permissions-for-the-github_token).
 
 #### Example
 
@@ -74,6 +75,11 @@ Check the [GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/
 ### Consider setting up a concurrency strategy
 
 ### Consider which triggers are really needed
+
+### Read the "Security hardening for GitHub Actions" guide
+
+The practices mentioned above are by no means exhaustive.
+For a comprehensive guide on good security practices for using GitHub Actions safely, check out [GitHub's security guide](https://docs.github.com/en/actions/security-guides/security-hardening-for-github-actions#using-third-party-actions).
 
 ## Workflow Checklist
 
