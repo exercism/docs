@@ -42,7 +42,7 @@ jobs:
 Actions should be treated like dependencies in your favourite programming language[^1], they are code written by third party authors outside of the control of Exercism.
 Even if you trust the authors of the action, there may be a hostile takeover of the repository which will indirectly give those people access to Exercism repos, including write access.
 
-Therefore, you should carefully consider if introducing a new action is really worth it or if you could embed the code directly in the workflow, e.g. using the pre-installed [`gh` cli](https://cli.github.com/manual/) or the [`github-script` action](https://github.com/actions/github-script).
+Therefore, you should carefully consider if introducing a new action is really worth it or if it's better to move the code into a (new) action under Exercism's control.
 
 Also consider if the action is actively maintained, e.g. by checking recent repo activity or ensuring that the action is part of an organisation rather than an individual account.
 
