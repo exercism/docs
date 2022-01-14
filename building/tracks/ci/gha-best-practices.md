@@ -18,7 +18,7 @@ If you have any suggestions or additions, [please open a pull request on GitHub!
 ### Set timeouts for workflows
 
 By default, GitHub Actions kills workflows after 6 hours if they have not finished by then.
-Many workflows don't need nearly as much time to finish but sometimes unexpected errors occur or a job starts hanging until the workflow run is killed.
+Many workflows don't need nearly as much time to finish, but sometimes unexpected errors occur or a job hangs until the workflow run is killed 6 hours after starting it.
 Therefore it's recommended to [specify a shorter timeout](https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions#jobsjob_idtimeout-minutes).
 
 The ideal timeout depends on the individual workflow but 30 minutes is typically more than enough for the workflows used in Exercism repos.
