@@ -17,5 +17,5 @@ You can read more about how to make sure your contribution is welcome in the doc
 [github]: https://github.com
 [github-course]: https://lab.github.com/githubtraining/introduction-to-github
 [pr-tutorial]: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
-[anthonywritescode]: https://www.youtube.com/watch?v=ECA-7erEJdU
+[anthonywritescode]: https://www.youtube.com/watch?v=cysuuUtbC6E
 [great-pr]: https://exercism.org/docs/community/being-a-good-community-member/pull-requests
