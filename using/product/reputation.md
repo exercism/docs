@@ -67,13 +67,13 @@ For each merged pull request that was opened by the user, `12` reputation is awa
 - If a pull request is closed _without_ merging, no reputation is awarded.
 - In exceptional circumstances (either tiny PRs changing a few lines, or large PRs that will have taken a greater than normal of effort) is possible to award more (or less) reputation for a merged pull request by adding one of the following labels to the pull request:
 
-  | Label            | Reputation |
-  | ---------------- | ---------- |
-  | `x:size/tiny`    | 3          |
-  | `x:size/small`   | 5          |
-  | `x:size/medium`  | 12         |
-  | `x:size/large`   | 30         |
-  | `x:size/massive` | 100        |
+  | Label            | Reputation | Example                                         |
+  | ---------------- | ---------- | ----------------------------------------------- |
+  | `x:size/tiny`    | 3          | Fixing a typo                                   |
+  | `x:size/small`   | 5          | Adding or fixing a test case                    |
+  | `x:size/medium`  | 12         | Syncing an exercise with problem-specifications |
+  | `x:size/large`   | 30         | Adding a new concept exercise                   |
+  | `x:size/massive` | 100        | Creating a test-runner from scratch             |
 
   If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
 
