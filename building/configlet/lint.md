@@ -144,7 +144,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"exercises.practice[].uuid"` value for each exercise must never change
 - The `"exercises.practice[].difficulty"` key is required
-- The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
+- The `"exercises.practice[].difficulty"` value must be an integer >= 1 and <= 10
 - The `"exercises.practice[].practices"` key is required
 - The `"exercises.practice[].practices"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
 - The `"exercises.practice[].practices"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
