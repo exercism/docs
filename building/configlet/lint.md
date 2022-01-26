@@ -100,7 +100,9 @@ The `config.json` file should have the following checks:
 - The `"files.editor`" value must be an array
 - The `"files.editor`" values must be valid patterns⁴
 - The `"files.editor`" values must not have duplicates
-- Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example`, `"files.exemplar` or `"files.editor` array (no overlap)
+- Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example"`, `"files.exemplar"` or `"files.editor"` array (no overlap)
+  - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
+  - The `"files.example` and `"files.exemplar` files _can_ overlap
 - The `"test_runner.average_run_time"` key is required if `status.test_runner` is equal to `true`
 - The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
 - The `"exercises"` key is required
@@ -231,6 +233,7 @@ The `config.json` file should have the following checks:
 - The files listed in the `"files.exemplar"` must exist
 - The files listed in the `"files.editor"` must exist
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.exemplar` array (no overlap)
+  - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
 - The `"forked_from"` key is optional
 - The `"forked_from"` value must be an array
 - The `"forked_from"` values must be strings formatted as `<track-slug>/<exercise-slug>` (e.g. `fsharp/bird-watcher`)
@@ -301,6 +304,7 @@ The `config.json` file should have the following checks:
 - The files listed in the `"files.example"` must exist
 - The files listed in the `"files.editor"` must exist
 - Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.example` array (no overlap)
+  - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
 - The `"test_runner"` key is optional
