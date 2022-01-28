@@ -3,11 +3,11 @@
 As a maintainer, reviewing pull requests is something you'll do fairly regularly.
 This document contains some Exercism-specific pull request review guidelines.
 
-## Reviewing Concept Exercise Pull Requests
+## Reviewing Exercise Pull Requests
 
-Reviewing a Concept Exercise pull request can be daunting with the many rules around Concept Exercises.
-For this reason, a first-pass review by a maintainer often take 2 to 3 hours and results in dozens (or even hundreds) of comments.
-There are also files with similar goals/contents (e.g. the exercise and concept introduction), where focusing on getting one of those perfect first is essential before branching out too far.
+Reviewing a pull request for a Concept Exercise or Practice Exercise can be daunting with the many rules around these types of exercise.
+For this reason, a first-pass review by a maintainer often take 2 to 3 hours and results in dozens of comments.
+For Concept Exercises, there are also files with similar goals/contents (e.g. the exercise and concept introduction), where focusing on getting one of those perfect first is essential before branching out too far.
 
 To help streamline this workflow, we've developed the following recommendations.
 
@@ -31,8 +31,6 @@ The main benefits of this approach are:
 - It doesn't lead to huge pull request cycles with multiple voices (which are really hard to manage)
 
 ## Reviewing Practice Exercise Pull Requests
-
-The Concept Exercise review recommendations also apply to Practice Exercise reviews (although the latter are usually easier to review).
 
 ### Recommendation: consider whether the change actually belongs in problems-specifications
 
