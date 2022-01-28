@@ -38,11 +38,9 @@ Some of the contents of a Practice Exercise (such as its introduction) comes fro
 When reviewing a pull request changing such content, consider whether the change might benefit other tracks too.
 If so, suggest that the contributor open a pull request to the corresponding file in the [problems-specifications repo][problem-specifications]
 
-## Reviewing Other Pull Requests
+## General Reviewing Recommendations
 
-For other, non-exercise, pull-requests, we have the following recommendations.
-
-### Recommendation: one primary reviewer per pull requests
+### Recommendation: one primary reviewer per pull request
 
 All pull requests should have one primary reviewer (whichever maintainer takes it on).
 Other maintainers and/or community members should act in a secondary role.
@@ -57,9 +55,7 @@ There two main ways in which someone in a secondary role can contribute to a rev
   This makes it clear to the contributor that you're not asking them to make changes, which will make things less confusing for them.
   It will also reduce the chance of the primary reviewer feeling "undermined."
 
-## General Reviewing Recommendations
-
-### Recommendation: don't commment on unrelated things
+### Recommendation: don't comment on unrelated things
 
 When reviewing a pull request, _only_ comment on things directly related to the pull request.
 For anything else, please open an issue or create a separate (follow-up) pull request.
