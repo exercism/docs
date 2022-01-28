@@ -1,5 +1,9 @@
 # The Contributors' Guide to Pull Requests
 
+## Concept Exercise Pull Requests
+
+## Other Pull Requests
+
 - [How to make a great Pull Request][how-to-make-a-great-pr]
 
 This is a guide to PRs for maintainers.
@@ -14,7 +18,7 @@ My final thought is that personally I always try to ensure I don't add work to m
 So @IsaacG, I think your input on changes to exercises is incredibly valuable to the Python track. I 100% want you to feel empowered to say "I think this is a bad change based on X reasons due to my interactions with students" - we need to hear that. And sometimes you might see a new exercise, and see a glaring problem too. Definitely speak up in those places. But probably as a general rule of thumb, posting an overarching comment on the PR has loads more value than doing a formal review of the PR, which can add noise/confusion (largely due to the way GH's UI works).
 *So as a TL;DR: I agree with Bethany's comment of "That doesn't mean no comments or discussion on them -- but that does mean that formally reviewing [something] is discouraged" but for all the complex reasons listed above. And I'd say that I'd invert the tone too, adding "Please post comments on PRs where you think there are mistakes being made or fundamental improvements that could be made, once a maintainer has had chance to review".* I hope that wall of text adds some value! -->
 
-<!-- 
+<!--
 My 2 cents on this:
 In general I agree with the comment but I don't think this "wait for the maintainer to review and then say something" advice is very practical.
 The maintainer might already have merged the change by then before however wanted to do a second pass had a chance.
@@ -23,6 +27,5 @@ Since unsolicited reviews that confuse contributors are a general issue (I also 
 All pull request reviews are done by one (or more) maintainers of the track as they are responsible for signing off all changes to the repository. Maintainers doing the review also helps to avoid conflicting feedback for the PR author.
 Contributors are welcome to leave a comment to offer assistance with the review (especially for bigger PRs) or to raise questions in case they notice something that looks like a mistake to them.
 I might be missing something, only read the comment from Jeremy ... just sharing my current thoughts. (edited)  -->
-
 
 [how-to-make-a-great-pr]: /docs/community/being-a-good-community-member/pull-requests
