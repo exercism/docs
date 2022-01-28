@@ -46,13 +46,13 @@
   {
     "uuid": "2e4c9ffc-6441-45af-ad60-0ea76b1b80a9",
     "slug": "github/contributors-pull-request-guide",
-    "path": "building/github/contributors-pull-request-guide",
+    "path": "building/github/contributors-pull-request-guide.md",
     "title": "Contributors Pull Request Guide"
   },
   {
     "uuid": "800f7e8a-2a9c-405d-ab11-936872792056",
     "slug": "github/maintainers-pull-request-guide",
-    "path": "building/github/maintainers-pull-request-guide",
+    "path": "building/github/maintainers-pull-request-guide.md",
     "title": "Maintainers Pull Request Guide"
   },
   {
