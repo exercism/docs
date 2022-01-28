@@ -9,9 +9,18 @@ In case you are not familiar with GitHub and the contribution workflow, here are
 
 You can read more about how to make sure your contribution is welcome in the documentation for [How to make a great Pull Request][great-pr].
 
+We also have several Exercism-specific Pull Request guides:
+
+- [How to make a great Pull Request][how-to-make-a-great-pr]
+- [The Contributors' Guide to Pull Requests][contributors-pr-guide]
+- [The Maintainers' Guide to Pull Requests][maintainers-pr-guide]
+
 [tasks]: https://exercism.org/contributing/tasks
 [github]: https://github.com
 [github-course]: https://lab.github.com/githubtraining/introduction-to-github
 [pr-tutorial]: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 [anthonywritescode]: https://www.youtube.com/watch?v=cysuuUtbC6E
 [great-pr]: https://exercism.org/docs/community/being-a-good-community-member/pull-requests
+[contributors-pr-guide]: /docs/building/github/contributors-pull-request-guide
+[maintainers-pr-guide]: /docs/building/github/maintainers-pull-request-guide
+[how-to-make-a-great-pr]: /docs/community/being-a-good-community-member/pull-requests
