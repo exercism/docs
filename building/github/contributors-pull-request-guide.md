@@ -1,31 +1,47 @@
 # The Contributors' Guide to Pull Requests
 
-## Concept Exercise Pull Requests
+Before creating a pull request, please read the [how to make a great Pull Request][how-to-make-a-great-pr] guide which aims to help you with the non-technical side of pull requests so that you have a great experience and help our maintaining team at the same time.
 
-## Other Pull Requests
+This documents contains some additional, Exercism-specific guidelines for different types of pull requests.
 
-- [How to make a great Pull Request][how-to-make-a-great-pr]
+## Exercise Pull Requests
 
-This is a guide to PRs for maintainers.
+Creating a pull request for a Concept Exercise or Practice Exercise can be daunting with the many rules around these types of exercises.
+For this reason, it can take a maintainer 2 to 3 hours to review and can result in dozens of comments.
 
-<!-- Without trying to create a meta discussion here (and sorry @PaulT89 for doing so!), I just wanted to respond to the last couple of comments (hey @IsaacG and @Bethanyg :))
-So there's a specific challenge for PRs that create Concept Exercises, where its absolutely essential to get the exercise correctly aligned to the place and scope of the track, and all of the many many (sorry!) rules around Concept Exercises correctly worked through. In reality, that means that exercises get almost entirely rewritten 2 or 3 times before they land at a place where they're good enough for what I'd class as a "normal" review. There's also often files that overlap (an exercise + concept's intros, abouts, etc) where getting one of those perfect first is really essential before branching out too far. So TL;DR; a first-pass review by a maintainer often takes 2 or 3 hours and results in dozens or sometimes hundreds of comments. So what I really encourage is having one senior maintainer really owning that process, committing the time to working with the PR creator, and them as a pair working to get the exercise to a good place. At that stage, everyone's exhausted and merging that first pass down with status: 'wip' is the right thing to do.
-Getting feedback from our top mentors is then absolutely vital, before the exercise goes live. So what I'd like to then happen is for the exercise to go out as a WIP exercise, which high-rep users see and get to test, and where they can then add extra issues or PRs about. That last bit is still flakey atm (as WIP exercises don't appear unless you go looking for them), but it's the right way to go about it in the long run, as it removes the burden on the original contributor/maintainer team getting everything perfect, but doesn't lead to huge PR cycles with multiple voices (which are really hard to manage).
-On other PRs, it varies more. In general, I feel like all PRs should have one primary reviewer (whichever maintainer takes it on), and other maintainers and/or community members should act in a secondary role. Generally, I think that means that that secondary role has two really helpful points:
-Proofreading spelling/grammar etc *once the first pass from the primary maintainer has happened*. The reason I put that last bit in bold is that it's really frustrating for contributors if they get a spelling/grammar review, fix it, and then a maintainer comes along and asks them to make more fundamental changes.
-Pointing out things *in a non-actionable way, or to the maintainer*. It's brilliant when someone highlights things that I as the primary reviewer should think about or have missed, but do so in such a way that it doesn't immediately ask for changes from the author. So writing comments aimed at stating an opinion, or writing questions can work really well. For example, I was a secondary reviewer on a Ruby PR this week. My initial instinct was that the PR shouldn't be merged, but I didn't want to start that conversation with the author of the PR because that might give them mixed messages and be confusing for them, so instead I posed this question, which then led kotp to lead a discussion on whether it was right to make the change at all, and they decided to drop the PR in the end. If I'd messaged directly saying "I don't think this is good" etc, I'd have felt like I was undermining kotp's review, and potentially confused the author as to who's advice to follow. I have to be like triple-careful of this in my role in Exercism, but I think it's good practice in general.
-My final thought is that personally I always try to ensure I don't add work to maintainers load, so I tend to ask myself whether my review is duplicating work that will happen anyway, or adding something useful. For most of Exercism I generally don't make comments on PRs because I think that when the maintainer does the full review, they'll think of (and make) those comments anyway, so I'm not really saving them work, and actually giving them more to read. Where I do tend to comment is on areas where I think something's been missed, there's some wrong first-principle logic, or where I have some insight that others might not have.
-So @IsaacG, I think your input on changes to exercises is incredibly valuable to the Python track. I 100% want you to feel empowered to say "I think this is a bad change based on X reasons due to my interactions with students" - we need to hear that. And sometimes you might see a new exercise, and see a glaring problem too. Definitely speak up in those places. But probably as a general rule of thumb, posting an overarching comment on the PR has loads more value than doing a formal review of the PR, which can add noise/confusion (largely due to the way GH's UI works).
-*So as a TL;DR: I agree with Bethany's comment of "That doesn't mean no comments or discussion on them -- but that does mean that formally reviewing [something] is discouraged" but for all the complex reasons listed above. And I'd say that I'd invert the tone too, adding "Please post comments on PRs where you think there are mistakes being made or fundamental improvements that could be made, once a maintainer has had chance to review".* I hope that wall of text adds some value! -->
+To help you, there'll be one primary reviewer commenting on your pull request.
 
-<!--
-My 2 cents on this:
-In general I agree with the comment but I don't think this "wait for the maintainer to review and then say something" advice is very practical.
-The maintainer might already have merged the change by then before however wanted to do a second pass had a chance.
-The contributor would have to check out any changes happening on the PR to find the exact point in time between "maintainer reviewed" and "merged" when the  "giving a second opinion" can happen.
-Since unsolicited reviews that confuse contributors are a general issue (I also saw this in JS and Go), maybe this would work as guideline/doc. (trying to be a bit more concise :wink:)
-All pull request reviews are done by one (or more) maintainers of the track as they are responsible for signing off all changes to the repository. Maintainers doing the review also helps to avoid conflicting feedback for the PR author.
-Contributors are welcome to leave a comment to offer assistance with the review (especially for bigger PRs) or to raise questions in case they notice something that looks like a mistake to them.
-I might be missing something, only read the comment from Jeremy ... just sharing my current thoughts. (edited)  -->
+Don't be discouraged by the number of review comments; it is perfectly normal for an exercise to go through several rewrites before arriving at something both you and the primary reviewer are happy with.
+
+Here are some recommendations to help streamline the process even more.
+
+### Recommendation: read the documentation
+
+Before creating a pull request for an exercise, be sure to read the [concept exercise documentation][concept-exercises] respectively [practice exercise documentation][concept-exercises].
+Reading the documentation beforehand helps immensely, as reviews will have less comments and your pull request will be merged much sooner.
+
+### Recommendation: examine existing exercises (if any)
+
+If the track has any existing exercises, take the time to study them a bit to discover what they look like and how they're structured.
+
+## Practice Exercise Pull Requests
+
+### Recommendation: consider whether the change actually belongs in problems-specifications
+
+Some of the contents of a Practice Exercise (such as its introduction) comes from its (shared) metadata as defined in the [problems-specifications repo][problem-specifications].
+If you're intending to update such content, consider whether the change might benefit other tracks too.
+If so, please open a pull request to the exercise's metadata in the [problems-specifications repo][problem-specifications] instead.
+
+## General recommendations
+
+### Recommendation: refrain from doing unsollicited reviews
+
+All pull request reviews are done by one (or more) maintainers of the track, as they are responsible for signing off all changes to the repository.
+Maintainers doing the review also helps to avoid conflicting feedback for the pull request author.
+
+You are of course welcome to leave a comment to offer assistance with the review (especially for bigger pull request) or to raise questions in case you notice something that looks like a mistake.
 
 [how-to-make-a-great-pr]: /docs/community/being-a-good-community-member/pull-requests
+[problem-specifications]: https://github.com/exercism/problem-specifications
+[concept-exercises]: https://exercism.org/docs/building/tracks/concept-exercises
+[practice-exercises]: https://exercism.org/docs/building/tracks/practice-exercises

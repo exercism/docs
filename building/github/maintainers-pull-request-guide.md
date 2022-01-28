@@ -58,11 +58,17 @@ There two main ways in which someone in a secondary role can contribute to a rev
   If you comment on things that the primary reviewer should think about or might have missed, please post your comment as stating an opinion or phrased as a question.
   This makes it clear to the contributor that you're not asking them to make changes, which will make things less confusing for them.
   It will also reduce the chance of the primary reviewer feeling "undermined."
-  If the primary reviewer has
+
+## General Reviewing Recommendations
 
 ### Recommendation: don't commment on unrelated things
 
 When reviewing a pull request, _only_ comment on things directly related to the pull request.
-Instead, if you've a separate problem/improvement, please open an issue or create a separate (follow-up) pull request.
+For anything else, please open an issue or create a separate (follow-up) pull request.
+
+### Recommendation: link to documentation
+
+When possible, always try to link to documentation that explains the reason _why_ you're commenting on something.
+This greatly helps reduce the change of things becoming argumentative.
 
 [problem-specifications]: https://github.com/exercism/problem-specifications
