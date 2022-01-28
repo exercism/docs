@@ -71,4 +71,12 @@ For anything else, please open an issue or create a separate (follow-up) pull re
 When possible, always try to link to documentation that explains the reason _why_ you're commenting on something.
 This greatly helps reduce the change of things becoming argumentative.
 
+### Recommendation: request help from other teams
+
+If you'd like to request help reviewing a pull request, we have to specific teams you can ping:
+
+- `@exercism/reviews`: for any general reviews
+- `@exercism/github-actions`: for any questions regarding [GitHub actions][github-actions]
+
 [problem-specifications]: https://github.com/exercism/problem-specifications
+[github-actions]: https://docs.github.com/en/actions
