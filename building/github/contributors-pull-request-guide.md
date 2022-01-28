@@ -1,5 +1,6 @@
 # The Contributors' Guide to Pull Requests
 
+Thank you for wanting to contribute to Exercism!
 Before creating a pull request, please read the [how to make a great Pull Request][how-to-make-a-great-pr] guide which aims to help you with the non-technical side of pull requests so that you have a great experience and help our maintaining team at the same time.
 
 This documents contains some additional, Exercism-specific guidelines for different types of pull requests.
