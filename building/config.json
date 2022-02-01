@@ -56,6 +56,12 @@
     "title": "Maintainers Pull Request Guide"
   },
   {
+    "uuid": "7cc6cb11-2502-49ea-b7c1-6e501720c9ae",
+    "slug": "github/gha-best-practices",
+    "path": "building/github/gha-best-practices.md",
+    "title": "GitHub Actions: Best Practices"
+  },
+  {
     "uuid": "53763218-17e2-44cc-bc8f-0c22260e9f7a",
     "slug": "tracks",
     "path": "building/tracks/README.md",
