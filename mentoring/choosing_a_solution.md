@@ -44,7 +44,7 @@ You first have the opportunity to read their code and get some other information
 On the left hand side of the screen you will see the student's code.
 The UI will look something like this:
 
-[TODO: Image of mentor discussion with areas marked].
+<img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/mentor-discussion-area.png" height="100">
 
 1. The main part of the left side contains the student's code.
    By default you'll be seeing their most recent iteration.
