@@ -144,7 +144,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"exercises.practice[].uuid"` value for each exercise must never change
 - The `"exercises.practice[].difficulty"` key is required
-- The `"exercises.practice[].difficulty"` value must be an integer >= 0 and <= 10
+- The `"exercises.practice[].difficulty"` value must be an integer >= 1 and <= 10
 - The `"exercises.practice[].practices"` key is required
 - The `"exercises.practice[].practices"` value must be a non-empty array of strings if `"exercises.practice[].status"` is not equal to `deprecated`
 - The `"exercises.practice[].practices"` value must be an empty array if `"exercises.practice[].status"` is equal to `deprecated`
@@ -162,7 +162,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].prerequisites"` values must match the `"concepts[].slug"` property of one of the concepts
 - The `"exercises.practice[].status"` key is optional
 - The `"exercises.practice[].status"` value must be the string `wip`, `beta`, `active` or `deprecated`
-- The `"exercises.practice[].status"` value must either not be present or the string `active` if `"exercises.practice[].slug"` is equal to `hello-world`
+- The `"exercises.practice[].status"` value must, if `"exercises.practice[].slug"` is equal to `hello-world`, be either omitted or the string `active`
 - The `"exercises.foregone"` key is optional
 - The `"exercises.foregone"` value must be an array
 - The `"exercises.foregone"` values must be kebab-case strings²
@@ -170,7 +170,6 @@ The `config.json` file should have the following checks:
 - The `"exercises.foregone"` values must not match any of the concept or practice exercise slugs
 - The `"concepts"` key is required
 - The `"concepts"` value must be an array
-- The `"concepts"` value must have a entry with a matching `"slug"` property for each concept listed in a concept exercise's `"concepts"` property
 - The `"concepts[].uuid"` key is required
 - The `"concepts[].uuid"` value must be a unique version 4 UUID string⁵
 - The `"concepts[].uuid"` value for each concept must never change

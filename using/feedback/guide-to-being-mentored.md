@@ -27,7 +27,7 @@ Our mentors are volunteers so sometimes it might take a couple of days before th
 Once you’ve improved your solution, either you or your mentor might choose that the conversation has gone far enough.
 Either of you can end the discussion and you’ll be given the chance to rate the mentoring you have received and leave a testimonial for the mentor if they’ve helped you.
 If you have a bad experience with a mentor, please tell us when you finish the conversation.
-We don’t vet out mentors and occasionally people do have bad experiences, but by alerting us we can stop it happening again.
+We don’t vet our mentors and occasionally people do have bad experiences, but by alerting us we can stop it happening again.
 And please remember that it’s always better to walk away from a conversation than getting into an argument.
 Sometimes people’s personalities clash and when that happens it’s important that neither you, nor the mentor, get demotivated, so it’s better to end the conversation and wait for a new mentor than getting frustrated with the one you have.
 

@@ -2,7 +2,7 @@
 
 ## Story
 
-In this exercise you're going to write some code to help you help you prepare to buy a new vehicle.
+In this exercise you're going to write some code to help you prepare to buy a new vehicle.
 
 ## Tasks
 

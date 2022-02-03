@@ -32,7 +32,7 @@ Want to help share your knowledge with others?
 Then [mentoring](/mentoring) is perfect for you!
 
 Mentoring is a fun and rewarding way to reinforce your own learning, while helping others learn and discover things they don't know.
-Mentoring also earns [reputation](/docs/building/product/reputation).
+Mentoring also earns [reputation](/docs/using/product/reputation).
 
 Not sure if you can mentor effectively?
 Some of our best mentors worried too.
@@ -47,11 +47,11 @@ With over one hundred dedicated maintainers and thousands of contributors, our g
 
 Want to help build Exercism?
 The [contributing page](/contributing) contains an overview of the various tasks you can work on.
-We have a wide variety of tasks, ranging in size from trivial to massize.
+We have a wide variety of tasks, ranging in size from trivial to massive.
 
 Never contributed to an open source project?
 We'll help you submit your first pull request.
 
 Got a contribution merged? Great!
 You'll be listed as a contributor on the website.
-Each contribution also earns [reputation](/docs/building/product/reputation).
+Each contribution also earns [reputation](/docs/using/product/reputation).

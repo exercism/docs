@@ -147,7 +147,10 @@ Each concept exercise is an entry in the `exercises.practice` array. The followi
 - `name`: the exercise's name. Its length must be <= 255.
 - `practices`: an array of concept slugs that the exercise is helping students practice
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
-- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 0 (easiest) to 10 (hardest)
+- `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 1 (easiest) to 10 (hardest). The website interprets the difficulty as follows:
+  - 1,2,3: easy
+  - 4,5,6,7: medium
+  - 8,9,10: hard
 - `status` (optional): the exercise's status, which is either `"wip"`, `"beta"`, `"active"` or `"deprecated"`; defaults to `"active"` if not specified
   - `wip`: A work-in-progress exercise not ready for public consumption. Exercises with this tag will not be shown to students on the UI or be used for unlocking logic. They may appear for maintainers.
   - `beta`: This signifies active exercises that are new and which we would like feedback on. We show a beta label on the site for these exercise, with a Call To Action of "Please give us feedback"

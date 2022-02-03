@@ -4,7 +4,7 @@
 
 ## Metadata
 
-Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks#practice-exercises). The metadata defines the exercise's UUID, slug and more.
+Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks/config-json). The metadata defines the exercise's UUID, slug and more.
 
 ### Example
 
@@ -128,7 +128,7 @@ Bob is a lackadaisical teenager. In conversation, his responses are very limited
 
 In some (rare) cases, you might want to expand on the exercise's `introduction.md` file, for example when the exercise has implemented tests that are not covered by the existing instructions.
 
-A track that doesn't want Bob to support, might add the following:
+A track that doesn't want Bob to support non-ASCII messages, might add the following:
 
 ```markdown
 # Introduction append

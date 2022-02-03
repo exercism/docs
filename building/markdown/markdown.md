@@ -16,9 +16,9 @@ All rules are being added to our CI and linting tools, and should be adhered to 
 
 ## Links
 
-Please use [reference links](https://spec.commonmark.org/0.29/#reference-link), which are defined at the bottom of the Markdown file, mapped to a reference slug, and referenced by that slug in the text.
+Please use [reference links][reference-links], which are defined at the bottom of the Markdown file, mapped to a reference slug, and referenced by that slug in the text.
 
-This method makes maintenance easier, since link only have to be updated in a single location.
+This method makes maintenance easier, since link(s) only have to be updated in a single location.
 
 Example:
 
@@ -41,12 +41,12 @@ If you want some more information, please visit https://google.com.
 Using anchor text and linking it is easier to understand and contextualize.
 
 ```
-If you want some more information, [Google][google-search-link] is a useful resource.
+If you want some more information, [Google][google-link] is a useful resource.
 
 [google-link]: https://google.com
 ```
 
-Which renders as, "If you want some more information, [Google](https://google.com)".
+Which renders as, "If you want some more information, [Google][google-link]".
 
 ## Code
 
@@ -60,7 +60,7 @@ Which renders as:
 
 - The `printf()` function writes to the console.
 
-More complex code (e.g. multiline code) should be wrapped in triple backticks. A [language identifier](https://github.com/github/linguist/blob/master/lib/linguist/languages.yml) should be specified after the opening triple backticks to enable syntax highlighting:
+More complex code (e.g. multiline code) should be wrapped in triple backticks. A [language identifier][language-identifier] should be specified after the opening triple backticks to enable syntax highlighting:
 
 ````python
 ```python
@@ -92,9 +92,12 @@ A quick way to distinguish between the two cases when it's unclear - if this is 
 ## Special blocks (sometimes called admonitions)
 
 We support special types of blocks that can be added to documents to pull out commentary that doesn't fit with the main body of the text.
-They are similar to these examples, seen in the Julia docs:
 
-<img width="500" alt="Screenshot 2021-03-13 at 17 15 04" src="https://user-images.githubusercontent.com/286476/111038207-aca0bd00-841f-11eb-95fb-20a93943d3dd.png">
+<img width="500" alt="Markdown note block" src="https://user-images.githubusercontent.com/20866761/139531109-0c0f3ea5-b589-44ff-93ab-d901a45edc56.png">
+
+<img width="500" alt="Markdown caution block" src="https://user-images.githubusercontent.com/20866761/139531234-9b58b9ab-524b-44fd-bbcb-4e10f2927d27.png">
+
+<img width="500" alt="Markdown advanced block" src="https://user-images.githubusercontent.com/20866761/139531236-72259046-68a9-4934-9440-a730befde155.png">
 
 We support three types of blocks:
 
@@ -135,7 +138,7 @@ Exercism is a very intentional product - things are there because they've been d
 
 - Prefer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
 
-You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark2](https://johnmacfarlane.net/babelmark2/?text=above%0A%0A%5Bcomment%5D%3A+%23+)(THIS+SHOULD+BE+REMOVED)%0Abelow
+You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark2][balbelmark2].
 
 ## Inline HTML
 
@@ -146,23 +149,33 @@ You can test that your markdown comment gets removed by checking how your commen
 
 There are various rules you can use to configure linters to meet this spec:
 
-- Enable [MD001](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md001---header-levels-should-only-increment-by-one-level-at-a-time)
-- Enable [MD002](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header)
-- Use `atx` for [MD003](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style)
-- Disable [MD013](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length)
-- Disable [MD033](https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html)
+- [MD001][MD001]: Enable
+- [MD002][MD002]: Enable
+- [MD003][MD003]: Use `atx` style
+- [MD013][MD013]: Disable
+- [MD033][MD033]: Disable
 
 ## Auto formatting
 
-Some repositories use [prettier](https://prettier.io/) to ensure that all Markdown is formatted consistently. This can result in the following benefits:
+Some repositories use [prettier][prettier] to ensure that all Markdown is formatted consistently. This can result in the following benefits:
 
 - No formatting discussions.
 - Great editor/IDE integration so files can be formatted on save.
 - Easy to add CI checks for formatting.
 - Easy to automatically format files using a script.
 
-All the above can greatly help reduce churn in reviews, whch is frustrating for both the reviewer and the reviewee.
+All the above can greatly help reduce churn in reviews, which is frustrating for both the reviewer and the reviewee.
 
 ---
 
+[MD001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
+[MD002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
+[MD003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
+[MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
+[MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
+[balbelmark2]: https://johnmacfarlane.net/babelmark2/?text=above%0A%0A%5Bcomment%5D%3A+%23+\(THIS+SHOULD+BE+REMOVED\)%0Abelow
+[google-link]: https://google.com
+[language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
+[prettier]: https://prettier.io/
+[reference-links]: https://spec.commonmark.org/0.29/#reference-link

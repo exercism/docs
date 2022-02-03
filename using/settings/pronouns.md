@@ -15,7 +15,7 @@ In these situations people sometimes specify a gender-neutral pronoun such as **
 For many people, being addressed by the wrong pronouns can be extremely annoying, and often offensive.
 We therefore allow people to specify the pronouns they'd like to be addressed by, and then show these pronouns in situations where interaction occurs (e.g. when writing a testimonial).
 
-You can set your pronouns by filling in the blanks in a sample sentence on [your settings page](https://exercism.lol/settings).
+You can set your pronouns by filling in the blanks in a sample sentence on [your settings page](https://exercism.org/settings).
 We provide some common options for you to use, but you can write whatever you like.
 
 - If you choose "Use handle", we'll suggest people always use your handle, rather than pronouns when refering to you.

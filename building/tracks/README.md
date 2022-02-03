@@ -15,19 +15,15 @@ All concept and practices exercises of a track involve _concepts_. These concept
 Tracks have two types of exercises:
 
 - Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](/docs/building/tracks/concept-exercises) for more information.
-- Practice exercise: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
+- Practice exercises: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
 
 ## Shared files
 
 Some files are not specific to individual exercises, but are instead applicable to _all_ exercises. Check the [documentation](/docs/building/tracks/shared-files) for more information.
 
-## Config
-
-TODO: describe the `config` directory's contents
-
 ## Docs
 
-TODO: describe the `docs` directory's contents
+Each track has a couple of required documentation files. Check the [documentation](/docs/building/tracks/docs) for more information.
 
 ## Widgets
 
@@ -72,7 +68,14 @@ csharp
 |   |       └── CarsAssembleTests.cs (track-specific)
 |   ├── practice
 |   |   └── leap
-|   |       └── ... (TODO: describe practice exercise files)
+|   |       └── .docs
+|   |       |   └── instructions.md
+|   |       └── .meta
+|   |       |   ├── config.json
+|   |       |   └── Example.cs (track-specific)
+|   |       ├── Leap.cs (track-specific)
+|   |       ├── Leap.csproj (track-specific)
+|   |       └── LeapTests.cs (track-specific)
 |   └── shared
 |       └── .docs
 |           ├── debug.md

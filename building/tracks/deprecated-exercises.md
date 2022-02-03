@@ -9,20 +9,18 @@ Deprecating an exercise has the following behaviors:
 - Users who have downloaded or started the exercise can access their existing solution as normal
 - Users who have **not** downloaded or started the exercise, will not see or be able to start it.
 
-To help with this, we have config rules that accompany a deprecated exercise
-Deprecated exercises must have the following properties set in `config.json`:
+## Deprecating an exercise
 
-- **`uuid`** (unchanged from when it was active)
-- **`slug`** (unchanged from when it was active)
-- **`status`** set to `deprecated`
+To deprecate an exercise, simply change its `config.json` entry as follows:
 
-The following should be empty:
+- **`status`**: set to `"deprecated"`
+- **`prerequisites`**: set to `[]`
+- **`practices`**: set to `[]` (Practice Exercises only)
+- **`concepts`**: set to `[]` (Concept Exercises only)
 
-- `prerequisites`
-- `practices`
-- `concepts`
+**All other properties must remain the same.**
 
-All other fields in deprecated exercises can be safely changed or removed in accordance with the wider config rules.
+**All exercise files must remain untouched.**
 
 [configlet]: /language-tracks/configuration/configlet.md
 [topics]: https://github.com/exercism/problem-specifications/blob/master/TOPICS.txt

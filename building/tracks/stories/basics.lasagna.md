@@ -21,7 +21,7 @@ The story facilitates defining functions:
 - [Java: basics][implementation-java]
 - [JavaScript: basics][implementation-javascript]
 - [Julia: functions-introduction][implementation-julia]
-- [Python: basics][implemenatation-python]
+- [Python: basics][implementation-python]
 - [Ruby: basics][implementation-ruby]
 - [Swift: basics][implementation-swift]
 
