@@ -49,8 +49,16 @@ The following overall statuses are valid:
 
 > version: 1, 2, 3
 
-Where the status is `error` (no test was executed correctly), the top level `message` key should be provided. It should provide the occurring error to the user. As it is the only piece of information a user will receive on how to debug their issue, it must be as clear as possible. For example, in Ruby, in the case of a syntax error, we provide the error and stack trace. In compiled languages, the compilation error should be provided. The top level `message` value is not limited in length.
+Where the status is `error` (no test was executed correctly), the top level `message` key should be provided. It should provide the occurring error to the user. As it is the only piece of information a user will receive on how to debug their issue, it must be as clear as possible:
 
+- Simplify the paths to be something like `<solution-dir>/relative/path` instead of `/full/path/to`, as that will include unhelpful ECR specific data
+- When possible or applicable, collapse non-user-code stacks
+- Never show call stacks without context (i.e. the error message)
+- Don't change the error message (if possible), as it will make it easier to search for the error
+
+In Ruby, in the case of a syntax error, we provide the runtime error and stack trace. In compiled languages, the compilation error should be provided.
+
+The top level `message` value is not limited in length.
 When the status is not `error`, either set the value to `null` or omit the key entirely.
 
 #### Tests
