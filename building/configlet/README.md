@@ -4,7 +4,9 @@
 
 ## Linting
 
-The primary function of configlet is to do _linting_: checking if a track's (configuration) files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism. The full list of rules that are checked by the linter can be found [here](/docs/building/configlet/lint).
+The primary function of configlet is to do _linting_: checking if a track's (configuration) files are properly structured - both syntactically and semantically.
+Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
+The full list of rules that are checked by the linter can be found [here](/docs/building/configlet/lint).
 
 ## Generating documents
 
@@ -17,7 +19,7 @@ How these documents are generated can be found [here](/docs/building/configlet/g
 
 ## Syncing exercise data with the problem-specifications repo
 
-The tertiary function of configlet is to sync test data. 
+The tertiary function of configlet is to various data for practice exercises. 
 
 A [Practice Exercise](/docs/building/tracks/practice-exercises) on an Exercism track is often implemented from a specification in the [`exercism/problem-specifications`](https://github.com/exercism/problem-specifications) repo.
 
@@ -29,7 +31,8 @@ There is also one kind of data that can be populated from the track-level `confi
 
 Note that in `configlet` releases `4.0.0-alpha.34` and earlier, the `sync` command operated only on tests.
 
-To keep track of which tests are implemented for a specific practice exercise, the exercise _must_ contain a `.meta/tests.toml` file. Tests in this file are identified by their UUID and each test has a boolean value that indicates if it is implemented by that exercise.
+To keep track of which tests are implemented for a specific practice exercise, the exercise _must_ contain a `.meta/tests.toml` file.
+Tests in this file are identified by their UUID and each test has a boolean value that indicates if it is implemented by that exercise.
 
 You can find the details about how to sync the different parts of an exercise [here](/docs/building/configlet/sync).
 
@@ -41,7 +44,9 @@ How to generate UUIDs can be found [here](/docs/building/configlet/uuid).
 
 ## Formatting
 
-TODO continue here
+Configlet has a `fmt` command to help with consistent formatting of the JSON files in the track repo.
+The `fmt` command currently only operates on the exercise `.meta/config.json` files but it is likely to operate on all the track JSON files in the future.
+You can learn more about the format command [here](/docs/building/configlet/format).
 
 ## Installation
 
@@ -51,4 +56,5 @@ Running one of these scripts downloads the latest version of configlet to the `b
 
 ## CI
 
-All tracks should integrate the configlet lint functionality in their CI setup. The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/main/configlet-ci).
+All tracks should integrate the configlet lint functionality in their CI setup.
+The easiest way to do this is by using the [configlet CI GitHub action](https://github.com/exercism/github-actions/tree/main/configlet-ci).
