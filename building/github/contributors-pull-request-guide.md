@@ -18,7 +18,7 @@ Here are some recommendations to help streamline the process even more.
 
 ### Recommendation: read the documentation
 
-Before creating a pull request for an exercise, be sure to read the [concept exercise documentation][concept-exercises] respectively [practice exercise documentation][concept-exercises].
+Before creating a pull request for an exercise, be sure to read the [concept exercise documentation][concept-exercises] respectively [practice exercise documentation][practice-exercises].
 Reading the documentation beforehand helps immensely, as reviews will have less comments and your pull request will be merged much sooner.
 
 ### Recommendation: examine existing exercises (if any)
