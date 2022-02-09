@@ -294,7 +294,7 @@ This file contains meta information on the exercise:
 - `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
-- `icon`: The slug of the icon (see [the full list of icons](https://github.com/exercism/website-icons/tree/main/exercises)). If not specified, the exercise's slug will be used (optional)
+- `icon`: The slug of the icon (see [the full list of icons][exercise-icons]). If not specified, the exercise's slug will be used (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -495,4 +495,15 @@ Disallowed slugs:
 
 There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation) for more information.
 
+### Icon
+
+Each exercise has an [accompanying icon][exercise-icons].
+By default, the displayed icon is the one which name matches the exercise's slug.
+One can override this by specifying the `icon` property in the exercise's `.meta/config.json` file.
+
+If you're forking an existing exercise, there probably already is an icon for that exercise.
+If not, please [open an issue in the website-icons repository][website-icons-issues].
+
 [kebab-case]: https://en.wiktionary.org/wiki/kebab_case
+[exercise-icons]: /docs/building/tracks/icons#h-exercise-icons
+[website-icons-issues]: https://github.com/exercism/website-icons/issues
