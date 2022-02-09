@@ -284,6 +284,8 @@ The key features are specified in the top-level `key_features` field which is de
   - `web`
   - `widely-used`
 
+You can check the visual appearance of these icons on the [key feature icons section][key-feature-icons].
+
 Exactly 6 key features must be specified.
 
 ### Example
@@ -508,3 +510,5 @@ This is an example of what a valid `config.json` file can look like:
   ]
 }
 ```
+
+[key-feature-icons]: /docs/building/tracks/icons#h-key-feature-icons
