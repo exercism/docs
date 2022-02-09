@@ -4,7 +4,17 @@ The secondary use of [configlet](/docs/building/configlet) is generating documen
 
 ## Usage
 
-TODO: describe the command-line interface (command + options).
+The `generate` command can be used to generate instructions/introductions documents from a template.
+
+```
+configlet [global-options] generate
+
+Global options:
+  -h, --help                   Show this help message and exit
+      --version                Show this tool's version information and exit
+  -t, --track-dir <dir>        Specify a track directory to use instead of the current directory
+  -v, --verbosity <verbosity>  The verbosity of output. Allowed values: q[uiet], n[ormal], d[etailed]
+```
 
 ## Documents
 
