@@ -6,7 +6,6 @@ There are two types of icons relevant to tracks.
 
 | Name                               | Icon                                                                                                                                                              |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|                                    |
 | accumulate                         | <img width="40" height="40" alt="accumulate" src="https://dg8krxphbh767.cloudfront.net/exercises/accumulate.svg">                                                 |
 | acronym                            | <img width="40" height="40" alt="acronym" src="https://dg8krxphbh767.cloudfront.net/exercises/acronym.svg">                                                       |
 | affine-cipher                      | <img width="40" height="40" alt="affine-cipher" src="https://dg8krxphbh767.cloudfront.net/exercises/affine-cipher.svg">                                           |
