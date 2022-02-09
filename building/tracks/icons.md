@@ -1,6 +1,9 @@
 # Track Icons
 
-There are two types of icons relevant to tracks.
+There are two types of icons relevant to tracks:
+
+- [Exercise icons][exercise-icons]
+- [Key feature icons][key-feature-icons]
 
 ## Exercise Icons
 
@@ -345,3 +348,6 @@ There are two types of icons relevant to tracks.
 | tooling           | <img width="50" height="50" alt="tooling" src="https://dg8krxphbh767.cloudfront.net/key-features/tooling.svg">                     |
 | web               | <img width="50" height="50" alt="web" src="https://dg8krxphbh767.cloudfront.net/key-features/web.svg">                             |
 | widely-used       | <img width="50" height="50" alt="widely-used" src="https://dg8krxphbh767.cloudfront.net/key-features/widely-used.svg">             |
+
+[exercise-icons]: /docs/building/tracks/icons#h-exercise-icons
+[key-feature-icons]: /docs/building/tracks/icons#h-key-feature-icons
