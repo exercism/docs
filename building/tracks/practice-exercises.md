@@ -258,6 +258,7 @@ This file contains meta information on the exercise:
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 - `test_runner`: Indicates if solutions of this exercise should be tested in the test runner. Defaults to `true` if not specified. (optional)
+- `icon`: The slug of the icon (see [the full list of icons][exercise-icons]). If not specified, the exercise's slug will be used (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -390,3 +391,16 @@ Some files are not specific to individual exercises, but are instead applicable 
 ## Presentation
 
 There is a difference in how exercise documentation is presented to the student when using the in-browser editor versus using the CLI. See [this document](/docs/building/tracks/presentation) for more information.
+
+### Icon
+
+Each exercise has an [accompanying icon][exercise-icons].
+By default, the displayed icon is the one which name matches the exercise's slug.
+One can override this by specifying the `icon` property in the exercise's `.meta/config.json` file.
+
+If you're implementing an exercise from [problem-specifications metadata][problem-specifications-exercises], there probably already is an icon for that exercise.
+If not, please [open an issue in the website-icons repository][website-icons-issues].
+
+[exercise-icons]: /docs/building/tracks/icons#h-exercise-icons
+[website-icons-issues]: https://github.com/exercism/website-icons/issues
+[problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises

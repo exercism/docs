@@ -507,6 +507,13 @@
     "blurb": ""
   },
   {
+    "uuid": "16e47fd6-2faf-4c2b-bc69-285a1fcb9fce",
+    "slug": "tracks/icons",
+    "path": "building/tracks/icons.md",
+    "title": "Icons",
+    "blurb": ""
+  },
+  {
     "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
     "slug": "tracks/practice-exercises",
     "path": "building/tracks/practice-exercises.md",
