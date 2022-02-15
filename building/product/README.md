@@ -21,3 +21,7 @@ They aim to present a picture of why things on Exercism work the way they do.
 - [Test Runners](/docs/building/product/test-runners)
 - [Representers](/docs/building/product/representers)
 - [Analyzers](/docs/building/product/analyzers)
+
+## Mentoring
+
+- [Mentoring Notes](/docs/building/product/mentoring-notes)

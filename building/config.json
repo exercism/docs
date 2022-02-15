@@ -807,5 +807,12 @@
     "path": "building/product/analyzers.md",
     "title": "Analyzers",
     "blurb": ""
+  },
+  {
+    "uuid": "cd21fc94-c59d-41b9-8801-579054610d0d",
+    "slug": "product/mentoring-notes",
+    "path": "building/product/mentoring-notes.md",
+    "title": "Mentoring Notes",
+    "blurb": ""
   }
 ]
