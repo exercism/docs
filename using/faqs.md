@@ -54,7 +54,7 @@ If your issue is with emails and notifications you can adjust that in [your pers
 
 We now have a [dedicated Teams site][dedicated-teams].
 
-# How do I unlock exercises?
+## How do I unlock exercises?
 
 By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
 This is called [Learning Mode][learning-mode].
