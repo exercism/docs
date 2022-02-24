@@ -65,8 +65,10 @@ For more information, see [unlocking exercises][unlocking-exercises].
 ## Why have my unlocked exercises in the old site become locked?
 
 By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
-This is called [Learning Mode][learning-mode], and it is the default for any user from the old site.
-If you are a returning user, who used a previous version of Exercism, you may find that exercises that were previously available have now become locked.
+This is called [Learning Mode][learning-mode].
+
+Learning Mode is the default for any user who used a previous version of Exercism.
+Therefore, returning users may find that exercises that were previously available have now become locked.
 
 While we recommend using Learning Mode to progress through a track, you could [switch to Practice Mode][switching-modes] to unlock all exercises.
 For more information, see [unlocking exercises][unlocking-exercises].
