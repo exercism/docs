@@ -54,16 +54,24 @@ If your issue is with emails and notifications you can adjust that in [your pers
 
 We now have a [dedicated Teams site][dedicated-teams].
 
+## How do I unlock exercises?
+
+By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
+This is called [Learning Mode][learning-mode].
+
+While we recommend using Learning Mode to progress through a track, you could [switch to Practice Mode][switching-modes] to unlock all exercises.
+For more information, see [unlocking exercises][unlocking-exercises].
+
 ## Why have my unlocked exercises in the old site become locked?
 
-New in Exercism 3.0 is Learning Mode and this is the default for any user from the old site:
+By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
+This is called [Learning Mode][learning-mode].
 
-* In Learning Mode there is a set of Learning Exercises to complete.
-  Completing these exercises unlocks further Learning Exercises and also Practice Exercises.
-  If you are a returning user, who is used to previous versions of Exercism, you may find that exercises that were previously available have now become locked.
-  While we recommend solving the Learning Exercises to unlock them (each should take around 5 minutes to solve if you are fluent in a language), you can instead disable Learning Mode and switch to Practice Mode.
-* Note that in either Practice or Learning Mode, one can ask for mentoring on a particular exercise.
-* To switch modes, go to the Track Overview Page and click on the More "..." icon on the top right hand side and select "Disable Learning Mode". (Please note that it currently takes a while for the current mode to be reported in your Tracks page).
+Learning Mode is the default for any user who used a previous version of Exercism.
+Therefore, returning users may find that exercises that were previously available have now become locked.
+
+While we recommend using Learning Mode to progress through a track, you could [switch to Practice Mode][switching-modes] to unlock all exercises.
+For more information, see [unlocking exercises][unlocking-exercises].
 
 ## Exercism Command-line Client
 
@@ -183,6 +191,8 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [katrina-owen]: http://www.kytrinyx.com/
 [kytrinyx]: http://www.kytrinyx.com/
 [languages]: https://github.com/search?q=topic%3Aexercism-track+org%3Aexercism&type=Repositories
+[learning-mode]: /docs/building/product/unlocking-exercises#h-learning-mode-vs-practice-mode
+
 [mail-abuse]: mailto:abuse@exercism.org?subject=%5BCoC%5D]
 [new-cli-issue]: https://github.com/exercism/CLI/issues/new
 [new-language-request]: https://github.com/exercism/request-new-language-track/blob/main/README.md
@@ -191,6 +201,8 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [personal-settings]: https://exercism.org/my/settings/preferences/edit
 [settings]: https://exercism.org/my/settings
 [succession]: http://www.kytrinyx.com/talks/succession
+[switching-modes]: /docs/building/product/unlocking-exercises#h-switching-modes
+[unlocking-exercises]: /docs/building/product/unlocking-exercises
 [upgrade-cli]: https://github.com/exercism/website-copy/blob/main/pages/cli_v1_to_v2.md
 [website-copy]: https://github.com/exercism/website-copy/issues
 [website-copy-new-issue]: https://github.com/exercism/website-copy/issues/new

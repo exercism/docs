@@ -814,5 +814,12 @@
     "path": "building/product/mentoring-notes.md",
     "title": "Mentoring Notes",
     "blurb": ""
+  },
+  {
+    "uuid": "37f340b7-6abc-4c7d-92ea-d6eb3bd5540d",
+    "slug": "product/unlocking-exercises",
+    "path": "building/product/unlocking-exercises.md",
+    "title": "Unlocking Exercises",
+    "blurb": ""
   }
 ]

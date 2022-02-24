@@ -15,6 +15,7 @@ They aim to present a picture of why things on Exercism work the way they do.
 
 - [Practice Exercises](/docs/building/product/practice-exercises)
 - [Concept Exercises](/docs/building/product/concept-exercises)
+- [Unlocking Exercises](/docs/building/product/unlocking-exercises)
 
 ## Tooling
 

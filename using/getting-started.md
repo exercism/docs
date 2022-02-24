@@ -20,6 +20,7 @@ Once you've decided upon a language, go to its track page and join the track.
 After having joined a track, you'll immediately be able to start [solving exercises](/docs/using/solving-exercises).
 
 By completing exercises (meaning: writing an implementation that passes all the tests) you'll get access to even more exercises, improving your fluency as you go.
+The [unlocking exercises](/docs/building/product/unlocking-exercises) page has more information on how to unlock exercises.
 
 If you're ever stuck on an exercise, you can request help from a mentor.
 A mentor will then engage in a conversation with you to help you get unstuck.
