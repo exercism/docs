@@ -1,13 +1,13 @@
 # Unlocking Exercises
 
-There are two types of tracks:
+Exercises are unlocked differently based on the type of track:
 
 1. Tracks without Learning Exercises: all Practice Exercises are unlocked from the start.
 2. Tracks with Learning Exercises: complete Learning Exercises to unlock further Learning and Practice Exercises.
 
 ## Learning Mode vs Practice Mode
 
-Requiring completing Learning Exercises to unlock more exercises is called Learning Mode (which was introduced with Exercism 3.0).
+Requiring Learning Exercises to be completed to unlock more exercises is called Learning Mode (which was introduced with Exercism 3.0).
 Learning Mode is the default for any user that joins a track with Learning Exercises, but also for any users from the old site.
 Practice Mode is the opposite, where all exercises are unlocked from the start.
 
@@ -16,7 +16,7 @@ Note that in either Practice or Learning Mode, one can ask for mentoring on a pa
 ### Returning User
 
 If you are a returning user, who used a previous version of Exercism, you may find that exercises that were previously available have now become locked.
-While we recommend staying in Learning Mode to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language), you could instead disable Learning Mode and switch to Practice Mode.
+While we recommend staying in Learning Mode and solving Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language), you could instead switch from Learning Mode to Practice Mode.
 
 ### Switching modes
 
