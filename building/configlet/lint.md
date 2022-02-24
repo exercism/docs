@@ -82,23 +82,23 @@ The `config.json` file should have the following checks:
 - The `"files"` value must be an object
 - The `"files.solution`" key is optional
 - The `"files.solution`" value must be an array
-- The `"files.solution`" values must be valid patterns⁴
+- The `"files.solution`" values must be valid patterns⁵
 - The `"files.solution`" values must not have duplicates
 - The `"files.test`" key is optional
 - The `"files.test`" value must be an array
-- The `"files.test`" values must be valid patterns⁴
+- The `"files.test`" values must be valid patterns⁵
 - The `"files.test`" values must not have duplicates
 - The `"files.example`" key is optional
 - The `"files.example`" value must be an array
-- The `"files.example`" values must be valid patterns⁴
+- The `"files.example`" values must be valid patterns⁵
 - The `"files.example`" values must not have duplicates
 - The `"files.exemplar`" key is optional
 - The `"files.exemplar`" value must be an array
-- The `"files.exemplar`" values must be valid patterns⁴
+- The `"files.exemplar`" values must be valid patterns⁵
 - The `"files.exemplar`" values must not have duplicates
 - The `"files.editor`" key is optional
 - The `"files.editor`" value must be an array
-- The `"files.editor`" values must be valid patterns⁴
+- The `"files.editor`" values must be valid patterns⁵
 - The `"files.editor`" values must not have duplicates
 - Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example"`, `"files.exemplar"` or `"files.editor"` array (no overlap)
   - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
@@ -114,7 +114,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.concept[].name"` key is required
 - The `"exercises.concept[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.concept[].uuid"` key is required
-- The `"exercises.concept[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"exercises.concept[].uuid"` value must be a unique version 4 UUID string⁶
 - The `"exercises.concept[].uuid"` value for each exercise must never change
 - The `"exercises.concept[].concepts"` key is required
 - The `"exercises.concept[].concepts"` value must be a non-empty array of strings if `"exercises.concept[].status"` is not equal to `deprecated`
@@ -143,7 +143,7 @@ The `config.json` file should have the following checks:
 - The `"exercises.practice[].name"` key is required
 - The `"exercises.practice[].name"` value must be a Title Case string³ with length <= 255
 - The `"exercises.practice[].uuid"` key is required
-- The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"exercises.practice[].uuid"` value must be a unique version 4 UUID string⁶
 - The `"exercises.practice[].uuid"` value for each exercise must never change
 - The `"exercises.practice[].difficulty"` key is required
 - The `"exercises.practice[].difficulty"` value must be an integer >= 1 and <= 10
@@ -173,7 +173,7 @@ The `config.json` file should have the following checks:
 - The `"concepts"` key is required
 - The `"concepts"` value must be an array
 - The `"concepts[].uuid"` key is required
-- The `"concepts[].uuid"` value must be a unique version 4 UUID string⁵
+- The `"concepts[].uuid"` value must be a unique version 4 UUID string⁶
 - The `"concepts[].uuid"` value for each concept must never change
 - The `"concepts[].slug"` key is required
 - The `"concepts[].slug"` value must be a kebab-case string² with length <= 255
@@ -187,7 +187,7 @@ The `config.json` file should have the following checks:
 - The `"key_features[].icon"` key is required
 - The `"key_features[].icon"` value must use one of the [pre-defined icon values](/docs/building/tracks/config-json#keyfeatures)
 - The `"key_features[].title"` key is required
-- The `"key_features[].title"` value must be a non-blank string¹ with length <= 25
+- The `"key_features[].title"` value must be a Sentence Case string⁴ with length <= 25
 - The `"key_features[].content"` key is required
 - The `"key_features[].content"` value must be a non-blank string¹ with length <= 100
 - The `"tags"` key is required
@@ -419,12 +419,14 @@ The `config.json` file should have the following checks:
    > - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
    > - Lowercase the words _to_ and _as_.
    > - Lowercase the second part of Latin species names.
-4. Valid `files` pattern: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
+4. Sentence Case string: a non-blank string that follows the below guidelines (see https://en.wikipedia.org/wiki/Letter_case#Sentence_case):
+   > - Capitalize the first word of the sentence, as well as proper nouns and other words as required by a more specific rule.
+5. Valid `files` pattern: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
    - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
    - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
    - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
    - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
-5. Unique version 4 UUID string: A string that satisfies all of these conditions:
+6. Unique version 4 UUID string: A string that satisfies all of these conditions:
    - It only exists once in the track-level `config.json` file of a given Exercism track
    - It does not exist in the track-level `config.json` file of any other Exercism track
    - It does not exist in any `canonical-data.json` file in https://github.com/exercism/problem-specifications
