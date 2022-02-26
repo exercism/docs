@@ -511,4 +511,4 @@ This is an example of what a valid `config.json` file can look like:
 }
 ```
 
-[key-feature-icons]: /docs/building/tracks/icons#h-key-feature-icons
+[key-feature-icons]: /docs/building/tracks/icons.md#key-feature-icons

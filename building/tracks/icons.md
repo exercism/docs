@@ -350,4 +350,4 @@ There are two types of icons relevant to tracks:
 | widely-used       | <img width="50" height="50" alt="widely-used" src="https://dg8krxphbh767.cloudfront.net/key-features/widely-used.svg">             |
 
 [exercise-icons]: /docs/building/tracks/icons#h-exercise-icons
-[key-feature-icons]: /docs/building/tracks/icons#h-key-feature-icons
+[key-feature-icons]: /docs/building/tracks/icons.md#key-feature-icons
