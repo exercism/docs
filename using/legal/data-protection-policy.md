@@ -21,12 +21,12 @@ It is important to note that any content you upload to the site (including, but 
 
 ## Deleting your data
 
-To delete your data, please log into your account, visit the [Settings page](https://exercism.org/settings) and click "Delete Account".
+To delete your data, please log into your account, visit the [Settings page](https://exercism.org/settings), click "Delete Account" and follow the confirmation instructions.
 
 ### Deleting data via email
 
 We take the risk of unintential data loss very seriously, and actively protect against malicious attempts to delete users data through email impersonation.
-The ICO states that organisations "have a legal responsibility to identify that an individual has made a request to you and handle it accordingly" and "if you have doubts about the identity of the person making the request you can ask for more information".
+The Information Commissioner's Office [states](https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/individual-rights/right-to-erasure/) that organisations "have a legal responsibility to identify that an individual has made a request to you and handle it accordingly" and "if you have doubts about the identity of the person making the request you can ask for more information".
 In order to comply with our obligations and to verify that you are the account holder, you must log into the platform to delete your data.
 We cannot delete your data in response to an email.
 
