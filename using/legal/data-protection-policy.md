@@ -3,7 +3,7 @@
 ## Overview
 
 The GDPR (General Data Protection Regulation) is UK legislation that governs how we process data originating from users from the UK.
-Exercism aims to be GDPR compliant for all users, even those outside the EU and you therefore have some important rights applicable to our Platform.
+Exercism aims to be GDPR compliant for all users, even those outside the UK, and you therefore have some important rights applicable to our Platform.
 
 1. **Your Right to be Informed:**
    This Privacy Policy details who we are, what we collect, and what we use it for.
