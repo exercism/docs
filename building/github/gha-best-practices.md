@@ -73,6 +73,23 @@ Check the [GitHub Docs](https://docs.github.com/en/actions/learn-github-actions/
 
 ### Pin actions to SHAs
 
+When using other actions, pin them to a commit (via their SHA), _not_ to a branch or tag.
+This ensures that the same code will be executed each time, which is not guaranteed when pinning to a branch or tag.
+
+This has two benefits:
+
+1. It makes your build _stable_
+2. It prevents an attacker from changing a branch/tag to point to malicious code
+
+The only exception to this rule could be actions that we (Exercism) have built ourselves.
+
+#### Example
+
+```yaml
+- name: Checkout code
+  uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
+```
+
 ### Consider setting up a concurrency strategy
 
 It's often not necessary or useful to run CI on intermediate commits if a newer commit has been pushed in the meantime.
