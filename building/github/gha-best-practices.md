@@ -36,7 +36,7 @@ jobs:
     timeout-minutes: 30
     runs-on: ubuntu-latest
     steps:
-    - [...]
+      - [...]
 ```
 
 ### Consider if (third-party) actions are really needed
@@ -83,6 +83,13 @@ This has two benefits:
 
 The only exception to this rule could be actions that we (Exercism) have built ourselves.
 
+#### Finding the commit SHA
+
+Usually, you want to pin to the commit SHA of a specific release.
+To find a release's commit SHA, go to the action's repository releases page (e.g. https://github.com/actions/checkout/releases).
+Find the release you want to use and click on the shorthand SHA (e.g. `a12a394`) listed in the summary section to the left of the release.
+You'll then be redirected to the release details page, which lists the full commit SHA you can use.
+
 #### Example
 
 ```yaml
@@ -101,7 +108,7 @@ You can configure a [concurrency strategy](https://docs.github.com/en/actions/le
 To cancel intermediate builds in a PR, you can use the following concurrency settings:
 
 ```yml
-concurrency: 
+concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: ${{ startsWith(github.ref, 'refs/pull/') }}
 ```
@@ -111,19 +118,19 @@ concurrency:
 The example above is based on [PkgTemplates.jl's CI workflow](https://github.com/invenia/PkgTemplates.jl/blob/cb02b3416b1adcac8006dd4905947e0f2d6994aa/.github/workflows/CI.yml#L10-L14), published under the [MIT license](https://github.com/invenia/PkgTemplates.jl/blob/cb02b3416b1adcac8006dd4905947e0f2d6994aa/LICENSE):
 
 > MIT License
-> 
+>
 > Copyright (c) 2017-2020 Chris de Graaf, Invenia Technical Computing Corporation
-> 
+>
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
 > in the Software without restriction, including without limitation the rights
 > to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 > copies of the Software, and to permit persons to whom the Software is
 > furnished to do so, subject to the following conditions:
-> 
+>
 > The above copyright notice and this permission notice shall be included in all
 > copies or substantial portions of the Software.
-> 
+>
 > THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 > IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 > FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -131,7 +138,6 @@ The example above is based on [PkgTemplates.jl's CI workflow](https://github.com
 > LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
-
 
 </details>
 
@@ -147,11 +153,10 @@ For a comprehensive guide on good security practices for using GitHub Actions sa
 You can use the following checklist to check if a workflow follows the best practices.
 The checklist is not meant to be complete but instead focuses on the most important items.
 
-
-
 <details><summary>Copy-pastable version, e.g. for PRs</summary>
 
 ```yml
+
 ```
 
 </details>
