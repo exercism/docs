@@ -124,3 +124,4 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - I've got your back: Be mentored for the first time
 - Back again: Be mentored for the second time
 - Third time's the charm: Be mentored for the third time
+- Hold a conference talk about Exercism
