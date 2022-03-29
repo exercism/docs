@@ -12,16 +12,16 @@ Also feel free to suggest changes to the badge names if there is something obvio
 These are in the codebase.
 
 - **Rookie:** Submit first iteration
-
-## To be implemented
-
-These will be in the codebase. They're unordered.
-
 - **New Year's Resolution:** Submit a solution on January 1st.
 - **Die unendliche Geschichte:** Submitted at least 10 iterations to the same exercise, no duplicates. (https://www.syfy.com/sites/syfy/files/styles/1140x640_hero/public/neverending-story.jpg)
 - **All your base are belong to us:** Solved the "All Your Base" exercise.
 - **Whatever:** Solve Bob
 - **Lackadaisical:** Solve bob in five languages
+
+## To be implemented
+
+These will be in the codebase. They're unordered.
+
 - **Team builder:** Create a team with 3 members
 - **Teammate:** Give team feedback to 5 solutions.
 
@@ -47,6 +47,8 @@ These badges will be implementable by PRs from the community nearer the time of 
 ## Rejected
 
 - Anything to do with streaks longer than 5 days. We don't want to encourage people not to have days (or weeks) off.
+- Block a student/mentor (see #140)
+- Be blocked by a student/mentor (see #140)
 
 ## Unsorted ideas
 
@@ -125,3 +127,4 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - Back again: Be mentored for the second time
 - Third time's the charm: Be mentored for the third time
 - Hold a conference talk about Exercism
+- Report a non-trivial security vulnerability in relation to Exercism in an ethical way
