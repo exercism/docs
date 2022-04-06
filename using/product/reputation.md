@@ -109,3 +109,22 @@ For each pull request that was merged by the user, `1` reputation is awarded.
 - If a pull request is closed _without_ merging, no reputation is awarded.
 - The user that opened the pull request does _not_ get reputation for merging their own pull request.
 - If the pull request does not have any reviews, `5` reputation is awarded instead.
+
+### Opening an issue
+
+By default, **no reputation is awarded** when an issue is opened.
+
+Depending on the content of the issue, a maintainer can choose to award reputation by adding one of the following labels to the issue:
+
+| Label           | Reputation | Examples                                                                                                                                                                                                                                                                                                                                                            |
+| --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `x:rep/tiny`    | 3          | <ul><li>Fixing a single typo or link</li><li>Removing a blank line or adding a line break</li><li>Changing/adding a single code comment</li></ul>                                                                                                                                                                                                                   |
+| `x:rep/small`   | 5          | <ul><li>Fixing a single test case, task or example</li><li>Fixing multiple typos or links in a single file</li><li>Clarifying content by adding a few lines to a file</li></ul>                                                                                                                                                                                     |
+| `x:rep/medium`  | 12         | <ul><li>Syncing an exercise with problem-specifications (incl. edits)</li><li>Adding one or more test cases from scratch</li><li>Improving multiple files in an exercise</li><li>Adding mentor notes for an exercise from scratch</li><li>Fixing a small bug in a test runner/analyzer/representer</li><li>Adding analyzer comments for a single exericse</li></ul> |
+| `x:rep/large`   | 30         | <ul><li>Fully-fleshed out Concept Exercise</li></ul>                                                                                                                                                                                                                                                                                                                |
+| `x:rep/massive` | 100        | <ul><li>Designing a track curriculum</li></ul>                                                                                                                                                                                                                                                                                                                      |
+
+The reputation should reflect the amount of effort that went into creating the issue.
+The examples above can serve as rough orientation when to apply which label but maintainers are free to use their own judgement.
+
+- If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
