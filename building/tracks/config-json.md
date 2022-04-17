@@ -23,7 +23,7 @@ The following top-level properties contain general track metadata:
 - `files`: The patterns for the locations of the files used in an exercise, relative to the exercise's directory. (optional)
   - `solution`: stub implementation file(s) pattern (optional)
   - `test`: test file(s) pattern (optional)
-  - `example`: example implementation file(s) pattern (optional
+  - `example`: example implementation file(s) pattern (optional)
   - `exemplar`: exemplar implementation file(s) pattern (optional)
   - `editor`: additional read-only editor file(s) patterns (optional)
 - `test_runner`: an object describing the track's test runner (if any): (required if `status.test_runner` is `true`)
