@@ -140,7 +140,7 @@ The following fields make up a concept exercise:
 
 ### Practice exercises
 
-Each concept exercise is an entry in the `exercises.practice` array. The following fields make up a concept exercise:
+Each practice exercise is an entry in the `exercises.practice` array. The following fields make up a practice exercise:
 
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
