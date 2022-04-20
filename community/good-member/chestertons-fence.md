@@ -1,5 +1,13 @@
 # Chesterton's Fence
 
+!["*What an awful pillar! Who built that?* Don't know. Can we throw it out or would that cause this building to collapse? *No idea."](http://s3.media.squarespace.com/production/2129687/19317774/.a/6a00d8341d3df553ef013488b0aa31970c-800wi)
+
+## Cartoon attribution
+
+* [Oliver Widder](https://github.com/owidder)
+* CC-BY-3.0
+* https://geek-and-poke.com/geekandpoke/2010/11/4/architecture.html
+
 _Hello 👋_
 _**Here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved?**_
 _Before our team invests time into exploring your idea, they're hoping you'll read this and consider whether your idea might have been thought of before, and what pitfalls it might contain._
