@@ -1,13 +1,5 @@
 # Chesterton's Fence
 
-!["*What an awful pillar! Who built that?* Don't know. Can we throw it out or would that cause this building to collapse? *No idea."](http://s3.media.squarespace.com/production/2129687/19317774/.a/6a00d8341d3df553ef013488b0aa31970c-800wi)
-
-## Cartoon attribution
-
-* [Oliver Widder](https://github.com/owidder)
-* CC-BY-3.0
-* https://geek-and-poke.com/geekandpoke/2010/11/4/architecture.html
-
 _Hello 👋_
 _**Here because someone directed you to this post in response to you suggesting an idea about how Exercism could be improved?**_
 _Before our team invests time into exploring your idea, they're hoping you'll read this and consider whether your idea might have been thought of before, and what pitfalls it might contain._
@@ -51,6 +43,23 @@ If you have an instinct to say "why not **just** ...", then it almost certainly 
 Don't ever be scared of posting, but please think things through carefully first!
 
 ## Do you have an example?
+
+<figure>
+    <img src="https://raw.githubusercontent.com/exercism/docs/79cdc57261c3c6209a16c55d3005fa7378d789e1/.imgs/architecture-min.png">
+    <figcaption>
+        <p>Geek: <i>What an awful pillar! Who built that?</i></p>
+        <p>Poke: Don't know. Can we throw it out or would that cause this building to collapse?</p>
+        <p>Geek: <i>No idea.</i></p>
+    </figcaption>
+    <figcaption>
+        <dl>
+            <dt>Author</dt>
+            <dd><a href="https://github.com/owidder">Oliver Widder</a></dd>
+            <dt>Licence</dt>
+            <dd><a href="https://geek-and-poke.com/geekandpoke/2010/11/4/architecture.html">CC-BY-3.0</a></dd>
+        </dl>
+    </figcaption>
+</figure>
 
 A common frustration is that students submit code to mentors that does not pass the tests.
 An equally common suggestion is "Why not just automatically run the tests in the CLI before someone submits their code?"
