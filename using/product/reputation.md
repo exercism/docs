@@ -81,6 +81,8 @@ The examples above can serve as rough orientation when to apply which label but 
 
 Note that an `x:rep` label on an **issue** never affects the awarded reputation - even if a merged pull request lacks an `x:rep` label, and closes an issue that has one.
 
+_For backwards compatibility purposes, we also support using the `x:size` labels to determine the awarded reputation._
+
 ### Reviewing a pull requests
 
 For each merged or closed pull request reviewed by the user, `5` reputation is awarded.
@@ -100,6 +102,8 @@ For each merged or closed pull request reviewed by the user, `5` reputation is a
   | `x:rep/massive` | 20         |
 
   If more than one label is specified, the label with the highest reputation value determines the awarded reputation.
+
+  _For backwards compatibility purposes, we also support using the `x:size` labels to determine the awarded reputation._
 
 ### Merging a pull request
 
