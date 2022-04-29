@@ -92,17 +92,21 @@ The `config.json` file should have the following checks:
 - The `"files.example`" value must be an array
 - The `"files.example`" values must be valid patterns⁵
 - The `"files.example`" values must not have duplicates
-- The `"files.exemplar`" key is optional
-- The `"files.exemplar`" value must be an array
-- The `"files.exemplar`" values must be valid patterns⁵
-- The `"files.exemplar`" values must not have duplicates
+- The `"files.exemplar"`" key is optional
+- The `"files.exemplar"`" value must be an array
+- The `"files.exemplar"`" values must be valid patterns⁵
+- The `"files.exemplar"`" values must not have duplicates
 - The `"files.editor`" key is optional
 - The `"files.editor`" value must be an array
 - The `"files.editor`" values must be valid patterns⁵
 - The `"files.editor`" values must not have duplicates
-- Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example"`, `"files.exemplar"` or `"files.editor"` array (no overlap)
+- The `"files.invalidator`" key is optional
+- The `"files.invalidator`" value must be an array
+- The `"files.invalidator`" values must be valid patterns⁵
+- The `"files.invalidator`" values must not have duplicates
+- Patterns can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example"`, `"files.exemplar"`, `"files.editor"` or `"files.invalidator"` array (no overlap)
   - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
-  - The `"files.example` and `"files.exemplar` files _can_ overlap
+  - The `"files.example` and `"files.exemplar"` files _can_ overlap
 - The `"test_runner.average_run_time"` key is required if `status.test_runner` is equal to `true`
 - The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
 - The `"exercises"` key is required
@@ -228,11 +232,15 @@ The `config.json` file should have the following checks:
 - The `"files.editor"` key is optional
 - The `"files.editor"` value must be an array
 - The `"files.editor"` values must not have duplicates
+- The `"files.invalidator"` key is optional
+- The `"files.invalidator"` value must be an array
+- The `"files.invalidator"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.exemplar"` must exist
 - The files listed in the `"files.editor"` must exist
-- Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.exemplar` array (no overlap)
+- The files listed in the `"files.invalidator"` must exist
+- Files can only be listed in either the `"files.solution"`, `"files.test"`, `"files.exemplar"` or `"files.invalidator"` array (no overlap)
   - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
 - The `"forked_from"` key is optional
 - The `"forked_from"` value must be an array
@@ -299,11 +307,15 @@ The `config.json` file should have the following checks:
 - The `"files.editor"` key is optional
 - The `"files.editor"` value must be an array
 - The `"files.editor"` values must not have duplicates
+- The `"files.invalidator"` key is optional
+- The `"files.invalidator"` value must be an array
+- The `"files.invalidator"` values must not have duplicates
 - The files listed in the `"files.solution"` must exist
 - The files listed in the `"files.test"` must exist
 - The files listed in the `"files.example"` must exist
 - The files listed in the `"files.editor"` must exist
-- Files can only be listed in either the `"files.solution"`, `"files.test"` or `"files.example` array (no overlap)
+- The files listed in the `"files.invalidator"` must exist
+- Files can only be listed in either the `"files.solution"`, `"files.test"`, `"files.example` or `"files.invalidator"` array (no overlap)
   - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
