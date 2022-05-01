@@ -1,6 +1,6 @@
 # Linting
 
-The primary use of [configlet](/docs/building/configlet) is linting: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
+The primary use of [configlet](https://github.com/exercism/docs/tree/main/building/configlet) is linting: checking if a track's configuration files are properly structured - both syntactically and semantically. Misconfigured tracks may not sync correctly, may look wrong on the website, or may present a suboptimal user experience, so configlet's guards play an important part in maintaining the integrity of Exercism.
 
 ## Usage
 

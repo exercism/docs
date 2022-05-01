@@ -1,6 +1,6 @@
 # Generating UUIDs
 
-Exercises, tracks and concepts are identified by a UUID. [configlet](/docs/building/configlet) can generate new, valid UUIDs.
+Exercises, tracks and concepts are identified by a UUID. [configlet](https://github.com/exercism/docs/tree/main/building/configlet) can generate new, valid UUIDs.
 
 ## Usage
 

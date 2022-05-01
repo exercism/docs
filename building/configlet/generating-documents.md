@@ -1,6 +1,6 @@
 # Configlet generating documents
 
-The secondary use of [configlet](/docs/building/configlet) is generating documents.
+The secondary use of [configlet](https://github.com/exercism/docs/tree/main/building/configlet) is generating documents.
 
 ## Usage
 
@@ -22,11 +22,11 @@ These are the documents that configlet can generate.
 
 ### Document: Concept Exercise's introduction.md file
 
-Each [Concept Exercise](/docs/building/tracks/concept-exercises) has an [`introduction.md` file](/docs/building/tracks/concept-exercises#docsintroductionmd). Each exercise can have an optional [`introduction.md.tpl` file](/docs/building/tracks/concept-exercises#docsintroductionmdtploptional).
+Each [Concept Exercise](../tracks/concept-exercises.md) has an [`introduction.md` file](../tracks/concept-exercises.md#docsintroductionmd). Each exercise can have an optional [`introduction.md.tpl` file](../tracks/concept-exercises.md#docsintroductionmdtploptional).
 
 The template file should be treated like a regular Markdown file but with one addition: the ability to specify placeholders. The following placeholders are supported:
 
-- `%{concept:<slug>}`: refers to the concept's [`introduction.md` document](/docs/building/tracks/concepts#fileintroductionmd)
+- `%{concept:<slug>}`: refers to the concept's [`introduction.md` document](../tracks/concepts.md#fileintroductionmd)
 
 When configlet detects that a Concept Exercise has an `introduction.md.tpl` file, it will generate a `introduction.md` file from it. The generated introduction will have the same contents as the template, expect for the placeholders, which will be replaced with the contents of the documents they refer to.
 
