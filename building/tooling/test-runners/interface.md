@@ -63,7 +63,7 @@ When the status is not `error`, either set the value to `null` or omit the key e
 
 #### Tests
 
-> key: `tests`, type: `array`, presence: required
+> key: `tests`, type: `array`, presence: required if `status` = `fail` or `status` = `pass`
 
 > version: 2, 3
 
