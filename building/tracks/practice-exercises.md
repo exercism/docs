@@ -203,7 +203,7 @@ Viewing hints will not be a "recommended" path and we will (softly) discourage u
 ```markdown
 ## General
 
-- There are many [built-in methods](integers) to simplify working with integers.
+- There are many [built-in methods][integers] to simplify working with integers.
 
 [integers]: https://ruby-doc.org/core-2.7.0/Integer.html
 ```
