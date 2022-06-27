@@ -44,8 +44,8 @@ Don't ever be scared of posting, but please think things through carefully first
 
 ## Do you have an example?
 
-<figure style='float: right'>
-    <img src="https://raw.githubusercontent.com/exercism/docs/79cdc57261c3c6209a16c55d3005fa7378d789e1/.imgs/architecture-min.png">
+<figure>
+    <img style='float: right' src="https://raw.githubusercontent.com/exercism/docs/79cdc57261c3c6209a16c55d3005fa7378d789e1/.imgs/architecture-min.png">
     <figcaption>
         <p>Geek: <i>What an awful pillar! Who built that?</i></p>
         <p>Poke: Don't know. Can we throw it out or would that cause this building to collapse?</p>
