@@ -486,6 +486,13 @@
     "blurb": ""
   },
   {
+    "uuid": "038e26ee-891f-4592-92bd-c54cbd58d8bd",
+    "slug": "tracks/syllabus",
+    "path": "building/tracks/syllabus.md",
+    "title": "Syllabus",
+    "blurb": ""
+  },
+  {
     "uuid": "ed318b17-01be-4868-92df-50a644adfdc7",
     "slug": "tracks/concepts",
     "path": "building/tracks/concepts.md",
