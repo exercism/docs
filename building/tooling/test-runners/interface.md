@@ -5,7 +5,8 @@ All interactions with the Exercism website are handled automatically and are not
 
 ## Execution
 
-- A Test Runner should provide an executable script. You can find more information in the [docker.md](/docs/building/tooling/test-runners/docker) file.
+- A Test Runner should provide an executable script. You can find more information in the [docker.md](./docker.md)  file.
+
 - The script will receive three parameters:
   - The slug of the exercise (e.g. `two-fer`).
   - A path to an input directory (with a trailing slash) containing the submitted solution file(s) and any other exercise file(s). This directory should be considered as read-only. It's technically possible to write into it but it's better to use `/tmp` for temporary files (e.g. for compiling sources).
