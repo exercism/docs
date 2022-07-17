@@ -20,6 +20,6 @@ If you would like to create a Test Runner for a language that currently does not
 
 You can use the following documents to learn more about building a test runner:
 
-- [creating a Test Runner from scratch](/docs/building/tooling/test-runners/creating-from-scratch)
-- [The Test Runner interface](/docs/building/tooling/test-runners/interface)
-- [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/test-runners/docker)
+- [creating a Test Runner from scratch](creating-from-scratch.md)
+- [The Test Runner interface](interface.md)
+- [How to build a Docker image with Docker for local testing and deployment](docker.md)
