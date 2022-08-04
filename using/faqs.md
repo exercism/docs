@@ -50,10 +50,6 @@ You can check that in your [GitHub email settings][email-settings].
 You can delete your account by following the link at the bottom of your [settings page][settings].
 If your issue is with emails and notifications you can adjust that in [your personal preferences][personal-settings].
 
-## What happened to my Team from the old site?
-
-We now have a [dedicated Teams site][dedicated-teams].
-
 ## How do I unlock exercises?
 
 By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
