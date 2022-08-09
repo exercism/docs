@@ -147,7 +147,7 @@ public static class Fake
 
 ## Normalize the order where insignificant
 
-In some cases the order or code does not matter. To prevent the same code in different order to create different representations, it might be useful to sort it. Usually the items to sort are functions or declarations. It might be tricky to find the metric(s) to sort by and also tricky to implement. One metric could be the how many AST node children the node contains, another the name of the type of the first child node.
+In some cases the order of code does not matter. To prevent the same code in different order to create different representations, it might be useful to sort it. Usually the items to sort are functions or declarations. It might be tricky to find the metric(s) to sort by and also tricky to implement. One metric could be the how many AST node children the node contains, another the name of the type of the first child node.
 
 This example sorts by some kind of function length:
 
