@@ -4,55 +4,108 @@ A track's [Concept Exercises](/docs/building/tracks/concept-exercises) are exerc
 These concepts form a _syllabus_.
 This documentation contains pointers and tips on how to succesfully design a syllabus for your track.
 
-## Think of concepts in layers
+## The goal of a syllabus
 
-To figure out the ordering/unlocking of concepts, it can help to think of them in _layers_ (sort of like horizontal sections in the syllabus tree).
-As an example, a track's first layer could consist of concepts for the basic primitive types (`strings`, `booleans` and `numbers`, with 1 exercise each).
+We want to allow students to start writing code immediately, without having to understand everything up front.
+In order to achieve this we hand-wave over details and we leave a lot of things unexplained.
+We simplify where possible and we provide code stubs.
+This reduces the cognitive burden of getting started and provides the time and space for the knowledge to sink in.
+By taking this approach we're not saying that the student doesn't need to know these things, we're saying that they don't need to know them _yet_.
 
-Having identified the first layer, you can then consider which concepts could be unlocked with the concepts from the first layer.
-For example, the second later could contain concepts like `arrays`, `comparison` and `conditionals`, which build on the first layer's concepts.
+## Basic structure
 
-Any concepts that themselves depends on the concepts in the layer you're designing, should go into the next layer (3).
-For example, the `for-loops` concepts shouldn't be in the second layer as it likely depends on having unlocked the `comparison` and `conditionals` concepts, which are already in the second layer.
+Exercises are structured as a graph.
+Later exercises teach concepts that depend on having understood concepts that are taught earlier.
 
-## Collect some basic info about the exercises/concepts in a structured format
+## Porting and borrowing
 
-- As an intermediate step between just a list of ~20 concept names and the GitHub issues about creating the new concept/exercise for contributors to work on, I can recommend to write down some info per concept in a structured format.
+It can be worth looking at how other language tracks have built out their concept exercises.
+That said, if you decide to use other exercises as a starting point for your own, be careful to ensure that the resulting exercise is about the concept as it exists in your language.
+Sometimes concepts differ subtly, sometimes radically.
+Sometimes concepts don't exist at all.
 
-For example:
+Define the concepts from the point of view of the language itself rather than in contrast to other languages.
 
-```
-Exercise 1 [name can be inserted here later on if the story is decided upon]
-- Concept(s): [slugs of the concept or concepts that the exercise should teach]
-- Content: [very short description of what should be taught]
-- Out of scope: [optional in case there is something that is already known to be excluded]
-- Prerequisite Concepts: [which of the concepts from other exercises above are strictly needed to understand the concept(s) in this exercise]
-- Exercise Idea: [link to an existing exercise that could be ported/adapted here or some new story idea]
-- Status: [e.g. have a checkbox whether the GitHub issue was created or not]
-```
+## Contributions from the community
 
-- Would be good to collect this in some tool that allows multiple people to edit like Google Docs.
-  If this is done via a GitHub issue description, make sure all people involved in the syllabus design can edit the description.
-  Having just one person that can edit and others with same "authority" over the topic only posting proposed changes in comments below usually did not work out very well/ lead to big overhead for the person with edit rights.
-- Sort the exercise/concept list so that an exercise only depends on concepts taught by exercises above. Of course there is the tree/layers shape mentioned above but writing things out linearly ensures that at least there is one working unlocking path through the syllabus.
-- Take some time to ponder and iterate that list of exercises so it looks like it could work out before writing out all the details needed for the actual GitHub issues per exercise.
+Working on a syllabus involves two separate but intertwined activities:
 
-## Handwaving is sometimes necessary
+1. Syllabus design: selecting and ordering concepts
+2. Exercise implementation: writing documentation and creating exercises to teach those concepts
 
-This part is for when it feels like there is a deadlock, concept A requires understanding concept B, and B requires understanding A (or more complex versions of that).
-To get a sensible syllabus and unlocking, it is not always possible to explain everything 100% correct/in detail.
-Sometimes it is necessary to hand wave over some aspect and then give a more thorough explanation at some later point in the syllabus.
-For example in Go we needed to introduce functions rather early so students understand multiple return values because they were needed for other concepts.
-However, to fully understand "pass by value/ pass by reference" someone would need a good understand of pointers. Teaching pointers needed some more concepts that came after functions.
-So in functions, we waved over the pointers thing a bit and said it will be introduced in more details later.
-That way we could get functions done and leave pointers for later when the student is a bit further into the track and knows all the things we need to properly teach pointers.
+We've found that it's both fun and enriching to get the wider community to contribute to implementing exercises.
+The syllabus design itself, though, is easier to tackle with a small team of contributors who are all engaged in building up an understanding of the full syllabus with all of its intricacies.
+
+That said, we recommend that the syllabus design team implements the first five or six concepts first, before opening up for community contributions.
+There are two reasons for this.
+The first is that it helps ensure that the core team of syllabus designers understand the process themselves before having to review pull requests from people the broader community.
+The second is that it's easier and more fun to be able to make an exercise without having to worry about the constraints of students not knowing _anything_ yet.
+It's also easier to create issues for these higher-order concepts.
+
+## Getting started
+
+### The first exercise
+
+Rather than trying to map out the entire concept tree up front, just start with the first exercise.
+The goal of the first exercise is to show the student what a small piece of code looks like.
+Most of the code will be provided as a stub.
+The student should only need to make a couple of additions in order to complete the exercise.
+
+The introduction should explain _just enough_ that the student can look at the code and identify what the different parts are.
+E.g. This is a function declaration. These are function parameters. This is an import.
+
+They don't need a deep understanding of any of it, but they should also not be left wondering what something is.
+
+The student should only need to actively _use_ one or two concepts.
+
+### The next exercises
+
+The first exercise should unlock a handful of exercises that introduce fundamental concepts.
+This will be things like primitives or basic types and simple operations on those types.
+This might be things like:
+- numeric types and arithmetic operations
+- booleans and boolean comparisons
+- strings and some simple ways of operating on them
+
+Remember that you can always defer complexity.
+The language might have a dozen different numeric types that are useful in different scenarios.
+The exercise can simply mention that there are others while introducing only the most commonly used integer type and most commonly used float type.
+
+Sometimes while working on an exercise you will realize that it's more complex than you expected.
+That's totally fine.
+Make a note of the concept that needs to be taught as a prerequisite.
+Then pretend that that exercise exists, and finish the exercise with that simplification in mind.
+Then go back and create a new exercise for the prerequisite concept.
+
+### And what next?
+
+This is where it often starts getting interesting.
+There is so much you _could_ introduce at this point.
+How do you decide what concepts to tackle next?
+
+It kind of doesn't matter.
+As long as you start somewhere that seems reasonable, it will be fine.
+You'll discover pre-requisites, and make a note to insert a concept before the exercise you're working on.
+
+If you're at a loss for what to choose next, take a look at one or two of the simplest practice exercises that exist for your track.
+Identify the concepts that are used, and pick one that hasn't been covered yet in the syllabus.
+
+## We encourage handwaving
+
+Sometimes you'll feel like there is a deadlock.
+Concept A requires understanding concept B, and B requires understanding A.
+
+In this case simplify.
+Handwave over some complexity in one so that you can get students familiar with the other.
+It's perfectly fine to say that something will be introduced in more depth later, and that for now the student just needs to understand this one bit.
+
+Concepts are understood more deeply in stages and over time.
 
 ## Don't include concepts just because other tracks do
 
 Not all concepts apply to all tracks.
+The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
 
-For example Go has no enums and JavaScript has no string formatting.
-There was some discussion whether those concept names should nevertheless show up in the concept tree and then describe what to do instead.
-But in the end we decided against that.
-I feel the concept tree should really represent the concepts that exist in the language.
-So in Go, we now want to do the "constants" concepts which will then explain the patterns how constants are used as workarounds for the missing enums.
+In some cases it might be tempting to put a concept in because people often have to work around it by using concepts that do exist.
+For example, in Go there are no enums.
+Instead the Go concept tree introduces constants, and teaches how to use constants in the type of situation where you might use enums in other languages.
