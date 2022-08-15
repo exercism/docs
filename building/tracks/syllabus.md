@@ -24,7 +24,16 @@ That said, if you decide to use other exercises as a starting point for your own
 Sometimes concepts differ subtly, sometimes radically.
 Sometimes concepts don't exist at all.
 
-Define the concepts from the point of view of the language itself rather than in contrast to other languages.
+Don't include concepts just because other tracks do.
+Not all concepts apply to all tracks.
+
+The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
+
+In some cases it might be tempting to put a concept in because people often have to work around it by using concepts that do exist.
+Rather than doing this, introduce the concept that the language _does_ use, and consider adding an exercise that explains how to use it in that type of situation.
+
+For example, in Go there are no enums.
+Instead the Go concept tree introduces constants, and teaches how to use constants in the type of situation where you might use enums in other languages.
 
 ## Contributions from the community
 
@@ -101,11 +110,3 @@ It's perfectly fine to say that something will be introduced in more depth later
 
 Concepts are understood more deeply in stages and over time.
 
-## Don't include concepts just because other tracks do
-
-Not all concepts apply to all tracks.
-The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
-
-In some cases it might be tempting to put a concept in because people often have to work around it by using concepts that do exist.
-For example, in Go there are no enums.
-Instead the Go concept tree introduces constants, and teaches how to use constants in the type of situation where you might use enums in other languages.
