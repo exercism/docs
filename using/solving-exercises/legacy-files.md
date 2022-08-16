@@ -25,7 +25,7 @@ For example, a track might change its build system, as Elixir did when moving fr
 Or the normal directory structure within a language might change, as happened with Elm when they moved everything into subdirectories.
 
 In these situations we can't automatically move the files for you, so there's some manual work for you to do.
-In the editor you'll see the old solution file(s) (with a legacy banner), and the stub of the new soltion file.
+In the editor you'll see the old solution file(s) (with a legacy banner), and the stub of the new solution file.
 Copy your work from the old file to the new one, and tweak any code that needs changing.
 Once the tests are passing you can delete your old solution file, and forget any of this ever happened 🙂
 
