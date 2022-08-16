@@ -72,6 +72,7 @@ The student should only need to actively _use_ one or two concepts.
 The first exercise should unlock a handful of exercises that introduce fundamental concepts.
 This will be things like primitives or basic types and simple operations on those types.
 This might be things like:
+
 - numeric types and arithmetic operations
 - booleans and boolean comparisons
 - strings and some simple ways of operating on them
@@ -109,4 +110,3 @@ Handwave over some complexity in one so that you can get students familiar with 
 It's perfectly fine to say that something will be introduced in more depth later, and that for now the student just needs to understand this one bit.
 
 Concepts are understood more deeply in stages and over time.
-

@@ -488,8 +488,29 @@
   {
     "uuid": "038e26ee-891f-4592-92bd-c54cbd58d8bd",
     "slug": "tracks/syllabus",
-    "path": "building/tracks/syllabus.md",
+    "path": "building/tracks/syllabus/README.md",
     "title": "Syllabus",
+    "blurb": ""
+  },
+  {
+    "uuid": "af70ff3e-d4a4-4968-bcfe-1f197dc43380",
+    "slug": "tracks/syllabus/first-exercise",
+    "path": "building/tracks/syllabus/first-exercise.md",
+    "title": "First Exercise",
+    "blurb": ""
+  },
+  {
+    "uuid": "6f8d7376-70db-4f25-928c-4778bdf8a686",
+    "slug": "tracks/syllabus/next-exercises",
+    "path": "building/tracks/syllabus/next-exercises.md",
+    "title": "Next Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "cb430e09-7710-43b8-ab0e-2f0ee3785cf9",
+    "slug": "tracks/syllabus/expanding",
+    "path": "building/tracks/syllabus/expanding.md",
+    "title": "Expanding",
     "blurb": ""
   },
   {

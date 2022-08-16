@@ -1,0 +1,3 @@
+# Syllabus - First Exercise
+
+TODO
