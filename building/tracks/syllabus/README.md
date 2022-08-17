@@ -34,22 +34,6 @@ Rather than doing this, introduce the concept that the language _does_ use, and 
 For example, in Go there are no enums.
 Instead the Go concept tree introduces constants, and teaches how to use constants in the type of situation where you might use enums in other languages.
 
-## Contributions from the community
-
-Working on a syllabus involves two separate but intertwined activities:
-
-1. Syllabus design: selecting and ordering concepts
-2. Exercise implementation: writing documentation and creating exercises to teach those concepts
-
-We've found that it's both fun and enriching to get the wider community to contribute to implementing exercises.
-The syllabus design itself, though, is easier to tackle with a small team of contributors who are all engaged in building up an understanding of the full syllabus with all of its intricacies.
-
-That said, we recommend that the syllabus design team implements the first five or six concepts first, before opening up for community contributions.
-There are two reasons for this.
-The first is that it helps ensure that the people on the core team of syllabus designers understand the process themselves before having to review pull requests from people the broader community.
-The second is that it's easier and more fun to be able to make an exercise without having to worry about the constraints of students not knowing _anything_ yet.
-It's also easier to create issues for these higher-order concepts.
-
 ## Asking for help
 Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
@@ -113,3 +97,18 @@ Bounce ideas for stories with the Exercism team.
 We have a lot of experience coming up with suitable stories.
 
 Once you have a story you will likely need to tweak the code a bit to get it to fit the story.
+
+## Contributions from the community
+
+Working on a syllabus involves two separate but intertwined activities:
+
+1. Syllabus design: selecting and ordering concepts
+2. Exercise implementation: writing documentation and creating exercises to teach those concepts
+
+We've found that it's both fun and enriching to get the wider community to contribute to implementing exercises.
+The syllabus design itself, though, is easier to tackle with a small team of contributors who are all engaged in building up an understanding of the full syllabus with all of its intricacies.
+
+That said, we recommend that the syllabus design team implements the first five or six concepts first, before opening up for community contributions.
+This helps ensure that the people on the core team of syllabus designers understand the process themselves before having to review pull requests from people in the broader community.
+
+It's also easier to create issues for these higher-order concepts and tends to be more fun for community members to work on them, since there are fewer constraints to worry about.
