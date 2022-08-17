@@ -1,14 +1,18 @@
 # Syllabus - Expanding
 
-Once you've built 5-10 concept exercises, expanding the syllabus becomes easier and easier due to having access to more concepts to build on.
+Once you've built a few concept exercises it becomes easier to expand the syllabus.
+This is because you now have access to more concepts that you can build on.
 
-Options to select an exercise:
+The two main ways that we expand a concept tree are to:
+1. build on an existing concept (e.g. `time` => `timezones`)
+2. introduce a new concept that depends on a concept that has already been introduced (e.g. `classes` => `interfaces`)
 
-- A concept that build on an existing concept (e.g. `time` => `timezones`)
-- A concept that depends on an existing concept (e.g. `classes` => `interfaces`)
+If you're at a loss for what to choose next, take a look at one or two of the simplest practice exercises that exist for your track.
+Identify the concepts that are used, and pick one that hasn't been covered yet in the syllabus.
 
-- If your concept exercise has prerequisite concepts for which no exercise exist at the moment, strongly consider making the exercise have the `wip` status.
-  The reason being that for students unfamiliar with the language, and "gaps" or "jumps" will likely not be obvious at all.
+You might discover that the exercise you're working depends on understanding a concept that hasn't been introduced yet.
+Just make a note of it and finish the exercise with the assumption that the student already understands the missing concept.
+Remember to set the status of the exercise to `wip`, as having gaps or jumps in the concept tree will be very confusing to students who are unfamiliar with the language.
 
-- Check other tracks' syllabuses to see how they've structured their track.
-  E.g. the Elixir track has a really nice syllabus progression.
+It's worth taking a look at other tracks to see how they've structured their syllabuses.
+For example the [Elixir track](https://exercism.org/tracks/elixir/concepts) has a really nice syllabus progression.

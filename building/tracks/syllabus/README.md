@@ -24,10 +24,9 @@ That said, if you decide to use other exercises as a starting point for your own
 Sometimes concepts differ subtly, sometimes radically.
 Sometimes concepts don't exist at all.
 
-Don't include concepts just because other tracks do.
-Not all concepts apply to all tracks.
-
 The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
+
+Don't include concepts just because other tracks do.
 
 In some cases it might be tempting to put a concept in because people often have to work around it by using concepts that do exist.
 Rather than doing this, introduce the concept that the language _does_ use, and consider adding an exercise that explains how to use it in that type of situation.
@@ -47,47 +46,33 @@ The syllabus design itself, though, is easier to tackle with a small team of con
 
 That said, we recommend that the syllabus design team implements the first five or six concepts first, before opening up for community contributions.
 There are two reasons for this.
-The first is that it helps ensure that the core team of syllabus designers understand the process themselves before having to review pull requests from people the broader community.
+The first is that it helps ensure that the people on the core team of syllabus designers understand the process themselves before having to review pull requests from people the broader community.
 The second is that it's easier and more fun to be able to make an exercise without having to worry about the constraints of students not knowing _anything_ yet.
 It's also easier to create issues for these higher-order concepts.
 
+## Asking for help
+Don't hesitate to ask for help.
+It's better to ask up front or while working on an exercise rather than discussing during code review.
+
 ## Getting started
 
-### The first exercise
+### Developing the first exercise
 
 Rather than trying to map out the entire concept tree up front, just start with the first exercise.
 The goal of the first exercise is to show the student what a small piece of code looks like.
 Most of the code will be provided as a stub.
 The student should only need to make a couple of additions in order to complete the exercise.
 
-The introduction should explain _just enough_ that the student can look at the code and identify what the different parts are.
-E.g. This is a function declaration. These are function parameters. This is an import.
-
-They don't need a deep understanding of any of it, but they should also not be left wondering what something is.
-
-The student should only need to actively _use_ one or two concepts.
+Read more about [developing the first exercise](/docs/building/tracks/syllabus/first-exercise.md) here.
 
 ### The next exercises
 
 The first exercise should unlock a handful of exercises that introduce fundamental concepts.
 This will be things like primitives or basic types and simple operations on those types.
-This might be things like:
 
-- numeric types and arithmetic operations
-- booleans and boolean comparisons
-- strings and some simple ways of operating on them
+Read more about [developing the next exercises](/docs/building/tracks/syllabus/next-exercises.md) here.
 
-Remember that you can always defer complexity.
-The language might have a dozen different numeric types that are useful in different scenarios.
-The exercise can simply mention that there are others while introducing only the most commonly used integer type and most commonly used float type.
-
-Sometimes while working on an exercise you will realize that it's more complex than you expected.
-That's totally fine.
-Make a note of the concept that needs to be taught as a prerequisite.
-Then pretend that that exercise exists, and finish the exercise with that simplification in mind.
-Then go back and create a new exercise for the prerequisite concept.
-
-### And what next?
+### And then what?
 
 This is where it often starts getting interesting.
 There is so much you _could_ introduce at this point.
@@ -95,10 +80,8 @@ How do you decide what concepts to tackle next?
 
 It kind of doesn't matter.
 As long as you start somewhere that seems reasonable, it will be fine.
-You'll discover pre-requisites, and make a note to insert a concept before the exercise you're working on.
 
-If you're at a loss for what to choose next, take a look at one or two of the simplest practice exercises that exist for your track.
-Identify the concepts that are used, and pick one that hasn't been covered yet in the syllabus.
+Read more about what we think "reasonable" means in the context of [expanding the concept tree](/docs/building/tracks/syllabus/expanding.md).
 
 ## We encourage handwaving
 
