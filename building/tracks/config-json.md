@@ -16,7 +16,7 @@ The following top-level properties contain general track metadata:
   - `indent_size`: the indentation size as an integer (e.g. `4`) (required)
   - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
 - `status`: an object describing which v3 features should be enabled: (required)
-  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](/docs/building/tracks/concept-exercises) have been built (required)
+  - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](/docs/building/tracks/concept-exercises) have been built (required). When `true` the Exercism website interface changes to indicate that concept exercises are available for the track.
   - `test_runner`: a `boolean` value indicating if a [test runner](/docs/building/tooling/test-runners) has been implemented (required)
   - `representer`: a `boolean` value indicating if a [representer](/docs/building/tooling/representers) has been implemented (required)
   - `analyzer`: a `boolean` value indicating if an [analyzer](/docs/building/tooling/analyzers) has been implemented (required)
