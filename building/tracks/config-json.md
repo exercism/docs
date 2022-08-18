@@ -17,7 +17,7 @@ The following top-level properties contain general track metadata:
   - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
 - `status`: an object describing which v3 features should be enabled: (required)
   - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](/docs/building/tracks/concept-exercises) have been built (required). When `true` the Exercism website interface changes to indicate that concept exercises are available for the track.
-  - `test_runner`: a `boolean` value indicating if a [test runner](/docs/building/tooling/test-runners) has been implemented (required). When `true`, the Exercism website allows the user to run an exercise's tests from the online editor.
+  - `test_runner`: a `boolean` value indicating if a [test runner](/docs/building/tooling/test-runners) has been implemented (required). When `true` we put submitted solutions through our testing infrastructure and show the results on the website. The website also allows students to initiate a test run from within the online editor.
   - `representer`: a `boolean` value indicating if a [representer](/docs/building/tooling/representers) has been implemented (required)
   - `analyzer`: a `boolean` value indicating if an [analyzer](/docs/building/tooling/analyzers) has been implemented (required)
 - `files`: The patterns for the locations of the files used in an exercise, relative to the exercise's directory. (optional)
