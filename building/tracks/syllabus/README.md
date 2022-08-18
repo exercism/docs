@@ -112,3 +112,15 @@ That said, we recommend that the syllabus design team implements the first five 
 This helps ensure that the people on the core team of syllabus designers understand the process themselves before having to review pull requests from people in the broader community.
 
 It's also easier to create issues for these higher-order concepts and tends to be more fun for community members to work on them, since there are fewer constraints to worry about.
+
+## Creating issues
+
+We still haven't figured out how to best create issues for creating concept exercises.
+
+In some tracks we've tried creating separate exercises for the concept itself and the exercise.
+In others we've tried making issues that have a checklist to work through.
+Overall, we think this is still too intimidating, and we'd like to find a better way.
+
+Please talk to us about the process as you start making issues, and we will do our best to help figure out how to proceed.
+
+We will update the documentation as we learn better ways of tackling this.
