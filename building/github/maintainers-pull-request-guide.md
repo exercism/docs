@@ -69,7 +69,7 @@ This greatly helps reduce the change of things becoming argumentative.
 
 If you'd like to request help reviewing a pull request, we have to specific teams you can ping:
 
-- `@exercism/reviews`: for any general reviews
+- `@exercism/reviewers`: for any general reviews
 - `@exercism/github-actions`: for any questions regarding [GitHub actions][github-actions]
 
 [problem-specifications]: https://github.com/exercism/problem-specifications
