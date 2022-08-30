@@ -81,7 +81,7 @@ Read more about [developing the first exercise](/docs/building/tracks/syllabus/f
 ### The next exercises
 
 The first exercise should unlock a handful of exercises that introduce fundamental concepts.
-This will be things like primitives or basic types and simple operations on those types.
+These will be things like primitives or basic types and simple operations on those types.
 
 Read more about [developing the next exercises](/docs/building/tracks/syllabus/next-exercises.md) here.
 
