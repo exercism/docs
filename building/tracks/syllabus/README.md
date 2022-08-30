@@ -131,6 +131,7 @@ Then reverse engineer a story onto the code.
 Keep the story stupidly simple.
 It doesn't have to be good fiction.
 It doesn't need a strong plot or character development.
+It can be just a couple of lines long.
 
 Bounce ideas for stories with the Exercism team.
 We have a lot of experience coming up with suitable stories.
