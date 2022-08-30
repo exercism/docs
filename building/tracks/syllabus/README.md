@@ -1,25 +1,41 @@
 # Syllabus
 
-A track's [Concept Exercises](/docs/building/tracks/concept-exercises) are exercises designed to teach specific (programming) concepts.
+A fully featured Exercism track has two types of exercises: Practice Exercises and Concept Exercises.
+Concept Exercises and Practice Exercises are fundamentally different and complement each other well.
+
+A track's [Concept Exercises](/docs/building/tracks/concept-exercises) are exercises designed to teach specific concepts that form the basis of a programming language.
 These concepts form a _syllabus_.
+
 This documentation contains pointers and tips on how to succesfully design a syllabus for your track.
 
 ## The goal of a syllabus
 
+The end goal of a syllabus is to lead students to be comfortable with idiomatic code in the target language.
+
+Each individual Concept Exercise is very tightly focused.
+It is a very small step that moves the student towards understanding something about the language.
+It builds only on concepts that have been introduced previously.
+
+By solving the exercise, the student begins the process of becoming familiar with the concept.
+Understanding comes primarily through doing, much less so through explanations.
+The explanations are only there so that the student can do what needs to be done.
+
 We want to allow students to start writing code immediately, without having to understand everything up front.
 In order to achieve this we hand-wave over details and we leave a lot of things unexplained.
-We simplify where possible and we provide code stubs.
+We simplify and provide code stubs where possible.
 This reduces the cognitive burden of getting started and provides the time and space for the knowledge to sink in.
 By taking this approach we're not saying that the student doesn't need to know these things, we're saying that they don't need to know them _yet_.
 
 ## Basic structure
 
-Exercises are structured as a graph.
+Exercises are structured as a tree with an introductory exercise at the top as the starting point.
 Later exercises teach concepts that depend on having understood concepts that are taught earlier.
 
 ## Porting and borrowing
 
 It can be worth looking at how other language tracks have built out their concept exercises.
+You can find examples of Concept Exercises from other language tracks [here](https://exercism.org/docs/building/tracks/stories).
+
 That said, if you decide to use other exercises as a starting point for your own, be careful to ensure that the resulting exercise is about the concept as it exists in your language.
 Sometimes concepts differ subtly, sometimes radically.
 Sometimes concepts don't exist at all.
@@ -39,6 +55,19 @@ Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
 
 ## Getting started
+
+Our experience has taught us that the most pragmatic way to develop a syllabus is to grow the concept tree organically, starting with the simplest concepts.
+We don't have to get everything right up front, but it's really useful to not think too far ahead.
+
+We start with concepts that are easy.
+
+Some things are easy because they are inherently simple.
+Other things are not all that simple, but feel easy because they are familiar.
+Familiar is good.
+Familiar is not confusing.
+
+While the endpoint is to write idiomatic code, the stepping stones to get there are not always idiomatic.
+Using what is familiar—even if it is not a great example of code in that language—helps move a student more quickly toward the goal of code that is more typical of the language.
 
 ### Developing the first exercise
 
@@ -66,6 +95,16 @@ It kind of doesn't matter.
 As long as you start somewhere that seems reasonable, it will be fine.
 
 Read more about what we think "reasonable" means in the context of [expanding the concept tree](/docs/building/tracks/syllabus/expanding.md).
+
+## Do not convert practice exercises
+
+A good Concept Exercise is extremely focused, and ideally teaches only one concept.
+There will usually be only one expected approach to solving it.
+This is in contrast to Practice Exercises, which are open ended and lend themselves to exploration.
+
+A good Concept Exercise is usually a bad Practice Exercise, and vice versa.
+Since the goals of Practice Exercises and Concept Exercises are completely different, we do not take Practice Exercises and convert them into Concept Exercises.
+We write all Concept Exercises from scratch or base them on stories that were explicitly crafted for the purpose of teaching simple concepts.
 
 ## We encourage handwaving
 
