@@ -138,7 +138,7 @@ Exercism is a very intentional product - things are there because they've been d
 
 - Prefer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
 
-You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark2][balbelmark2].
+You can test that your markdown comment gets removed by checking how your comment looks when rendered via commonmark at [babelmark3][balbelmark3].
 
 ## Inline HTML
 
@@ -174,7 +174,7 @@ All the above can greatly help reduce churn in reviews, which is frustrating for
 [MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
 [MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
-[balbelmark2]: https://johnmacfarlane.net/babelmark2/?text=above%0A%0A%5Bcomment%5D%3A+%23+\(THIS+SHOULD+BE+REMOVED\)%0Abelow
+[balbelmark3]: https://babelmark.github.io
 [google-link]: https://google.com
 [language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 [prettier]: https://prettier.io/
