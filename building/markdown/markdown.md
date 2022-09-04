@@ -174,7 +174,7 @@ All the above can greatly help reduce churn in reviews, which is frustrating for
 [MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
 [MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
-[balbelmark3]: https://babelmark.github.io
+[babelmark3]: https://babelmark.github.io
 [google-link]: https://google.com
 [language-identifier]: https://github.com/github/linguist/blob/master/lib/linguist/languages.yml
 [prettier]: https://prettier.io/
