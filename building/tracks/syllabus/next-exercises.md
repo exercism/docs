@@ -30,3 +30,4 @@ Another thing that can happen at this point is that you find that you have cycli
 You need to introduce two concept, but each concept relies on the other.
 In this case you may be able to use a stub.
 Then you can explain that the dependent concept exists, but reassure them that they don't need to understand it yet.
+Another option would be to give a bare minimum of an introduction, enough for the student to get past the hurdle, while reassuring that the concept will be covered in more depth later.
