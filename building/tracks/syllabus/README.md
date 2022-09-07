@@ -26,6 +26,12 @@ We simplify and provide code stubs where possible.
 This reduces the cognitive burden of getting started and provides the time and space for the knowledge to sink in.
 By taking this approach we're not saying that the student doesn't need to know these things, we're saying that they don't need to know them _yet_.
 
+Often the earliest exercises need to contain non-idiomatic code.
+This is because in the beginning most of the language is still unknown.
+Most of the concepts have not yet been introduced.
+By allowing non-idiomatic code in the earliest exercises, students are able to take many smaller steps in familiar territory rather than a few big steps in unfamiliar territory.
+The result is that they are able to reach the stage of idiomatic code more quickly and with less friction.
+
 ## Basic structure
 
 Exercises are structured as a tree with an introductory exercise at the top as the starting point.
