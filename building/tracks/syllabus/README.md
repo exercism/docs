@@ -54,6 +54,9 @@ Instead the Go concept tree introduces constants, and teaches how to use constan
 Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
 
+On GitHub you can mention the team @exercism/learning-mode-consultants.
+In Slack you can ask in the #learning-mode channel.
+
 ## Getting started
 
 Our experience has taught us that the most pragmatic way to develop a syllabus is to grow the concept tree organically, starting with the simplest concepts.
