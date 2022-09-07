@@ -81,9 +81,11 @@ Using what is familiar — even if it is not a great example of code in that lan
 ### Developing the first exercise
 
 Rather than trying to map out the entire concept tree up front, just start with the first exercise.
-The goal of the first exercise is to show the student what a small piece of code looks like.
-Most of the code will be provided as a stub.
-The student should only need to make a couple of additions in order to complete the exercise.
+Think of this exercise as the "Hello World" of concept exercises.
+The goal of the first exercise is to allow the student to start learning with the least amount of friction as possible.
+They are taking the very first step towards getting familiar with what code in this language looks like.
+They might write a small piece of code, or perhaps just make a couple of additions to a stub in order to complete the exercise.
+Try to optimize for a quick win and getting students familiar enough with the bare necessities of syntax to be able to move forward confidently.
 
 Read more about [developing the first exercise](/docs/building/tracks/syllabus/first-exercise.md) here.
 
