@@ -1,7 +1,7 @@
 # Syllabus
 
-A fully featured Exercism track has two types of exercises: Practice Exercises and Concept Exercises.
-Concept Exercises and Practice Exercises are fundamentally different and complement each other well.
+A fully featured Exercism track has two types of exercises: Concept Exercises and Practice Exercises.
+They are fundamentally different and complement each other well.
 
 A track's [Concept Exercises](/docs/building/tracks/concept-exercises) are exercises designed to teach specific concepts that form the basis of a programming language.
 These concepts form a _syllabus_.
