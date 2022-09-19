@@ -123,7 +123,7 @@ Sometimes you'll feel like there is a deadlock.
 Concept A requires understanding concept B, and B requires understanding A.
 
 In this case simplify.
-Handwave over some complexity in one so that you can get students familiar with the other.
+Hand-wave over some complexity in one so that you can get students familiar with the other.
 It's perfectly fine to say that something will be introduced in more depth later, and that for now the student just needs to understand this one bit.
 
 Concepts are understood more deeply in stages and over time.
