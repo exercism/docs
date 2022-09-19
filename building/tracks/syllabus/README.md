@@ -61,7 +61,7 @@ Instead the Go concept tree introduces constants, and teaches how to use constan
 Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
 
-On GitHub you can mention the team @exercism/learning-mode-consultants.
+On GitHub you can mention the team @exercism/learning-mode.
 In Slack you can ask in the #learning-mode channel.
 
 ## Getting started
