@@ -2,7 +2,7 @@
 
 Having implemented your first concept exercise, the next few exercises should build on that.
 
-We like to have three to five exercises that have no other prerequisites other than the `basics` concept.
+We like to have three to five exercises that have no prerequisites other than the `basics` concept.
 
 Good options are the core primitives or data types of your language.
 E.g. booleans, basic numeric types, strings, and atoms.
