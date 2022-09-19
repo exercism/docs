@@ -18,7 +18,7 @@ It builds only on concepts that have been introduced previously.
 
 By solving the exercise, the student begins the process of becoming familiar with the concept.
 Understanding comes primarily through doing, much less so through explanations.
-The explanations are only there so that the student can do what needs to be done.
+The explanatory content is there to **introduce** the student to the ideas they need to solve the exercise (thus the choice of filename- "introduction.md")
 
 We want to allow students to start writing code immediately, without having to understand everything up front.
 In order to achieve this we hand-wave over details and we leave a lot of things unexplained.
