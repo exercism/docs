@@ -6,6 +6,7 @@ It should provide only enough information to allow the student to solve the exer
 For example, if you need to compile a program to get it to work, this is something that you'll want to mention in the introduction to the exercise.
 
 Other things that are often covered within the `basics` exercise are:
+
 - function or method definitions
 - calling functions
 - passing arguments to functions
