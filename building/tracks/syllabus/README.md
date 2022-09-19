@@ -117,7 +117,7 @@ A good Concept Exercise is usually a bad Practice Exercise, and vice versa.
 Since the goals of Practice Exercises and Concept Exercises are completely different, we do not take Practice Exercises and convert them into Concept Exercises.
 We write all Concept Exercises from scratch or base them on stories that were explicitly crafted for the purpose of teaching simple concepts.
 
-## We encourage handwaving
+## We encourage hand-waving
 
 Sometimes you'll feel like there is a deadlock.
 Concept A requires understanding concept B, and B requires understanding A.
