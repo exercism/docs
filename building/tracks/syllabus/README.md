@@ -10,7 +10,7 @@ This documentation contains pointers and tips on how to successfully design a sy
 
 ## The goal of a syllabus
 
-The end goal of a syllabus is to lead students to be comfortable with idiomatic code in the target language.
+The end goal of a syllabus is to lead students to be comfortable reading and writing idiomatic code in the target language.
 
 Each individual Concept Exercise is very tightly focused.
 It is a very small step that moves the student towards understanding something about the language.
