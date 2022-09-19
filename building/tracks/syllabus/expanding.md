@@ -10,7 +10,7 @@ The two main ways that we expand a concept tree are to:
 If you're at a loss for what to choose next, take a look at one or two of the simplest practice exercises that exist for your track.
 Identify the concepts that are used, and pick one that hasn't been covered yet in the syllabus.
 
-You might discover that the exercise you're working depends on understanding a concept that hasn't been introduced yet.
+You might discover that the exercise you're working on requires understanding a concept that hasn't been introduced yet.
 Just make a note of it and finish the exercise with the assumption that the student already understands the missing concept.
 Remember to set the status of the exercise to `wip`, as having gaps or jumps in the concept tree will be very confusing to students who are unfamiliar with the language.
 
