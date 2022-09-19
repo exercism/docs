@@ -1,6 +1,8 @@
 # Concept Exercises
 
 [Concept Exercises](/docs/building/product/concept-exercises) are exercises designed to teach specific (programming) concepts.
+The concepts taught by the concept exercises form a _syllabus_.
+For more information on how to design a syllabus, check the [syllabus documentation](/docs/building/tracks/syllabus).
 
 ## Metadata
 
