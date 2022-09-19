@@ -6,7 +6,7 @@ Concept Exercises and Practice Exercises are fundamentally different and complem
 A track's [Concept Exercises](/docs/building/tracks/concept-exercises) are exercises designed to teach specific concepts that form the basis of a programming language.
 These concepts form a _syllabus_.
 
-This documentation contains pointers and tips on how to succesfully design a syllabus for your track.
+This documentation contains pointers and tips on how to successfully design a syllabus for your track.
 
 ## The goal of a syllabus
 
