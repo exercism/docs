@@ -57,6 +57,7 @@ For example, in Go there are no enums.
 Instead the Go concept tree introduces constants, and teaches how to use constants in the type of situation where you might use enums in other languages.
 
 ## Asking for help
+
 Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
 
