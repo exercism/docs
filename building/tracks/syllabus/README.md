@@ -67,7 +67,7 @@ Please email hello@exercism.org if you need an invitation to our Slack workspace
 ## Getting started
 
 Our experience has taught us that the most pragmatic way to develop a syllabus is to grow the concept tree organically, starting with the simplest concepts.
-We don't have to get everything right up front, but it's really useful to not think too far ahead.
+We don't have to design everything up front, and it's actually generally useful to not think too far ahead.
 
 We start with the track's easiest concepts.
 
