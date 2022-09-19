@@ -4,6 +4,7 @@ Once you've built a few concept exercises it becomes easier to expand the syllab
 This is because you now have access to more concepts that you can build on.
 
 The two main ways that we expand a concept tree are to:
+
 1. build on an existing concept (e.g. `time` => `timezones`)
 2. introduce a new concept that depends on a concept that has already been introduced (e.g. `classes` => `interfaces`)
 
