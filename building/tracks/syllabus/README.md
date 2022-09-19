@@ -45,7 +45,7 @@ That said, if you decide to use other exercises as a starting point for your own
 Sometimes concepts differ subtly, sometimes radically.
 Sometimes concepts don't exist in other languages at all.
 
-The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
+The syllabus, and therefore the concept tree, should represent the concepts that exist in this specific language.
 
 Don't include concepts just because other tracks do.
 
