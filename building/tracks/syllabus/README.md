@@ -43,7 +43,7 @@ You can find examples of Concept Exercises from other language tracks [here](htt
 
 That said, if you decide to use other exercises as a starting point for your own, be careful to ensure that the resulting exercise is about the concept as it exists in your language.
 Sometimes concepts differ subtly, sometimes radically.
-Sometimes concepts don't exist at all.
+Sometimes concepts don't exist in other languages at all.
 
 The syllabus, and therefore the concept tree, should represent the concepts that exist in the language.
 
