@@ -24,7 +24,7 @@ We want to allow students to start writing code immediately, without having to u
 In order to achieve this we hand-wave over details and we leave a lot of things unexplained.
 We simplify and provide code stubs where possible.
 This reduces the cognitive burden of getting started and provides the time and space for the knowledge to sink in.
-By taking this approach we're not saying that the student doesn't need to know these things, we're saying that they don't need to know them _yet_.
+By taking this approach we're not saying that the student doesn't need to know these things, we're saying that they don't need to know them **yet**.
 
 Often the earliest exercises need to contain non-idiomatic code.
 This is because in the beginning most of the language is still unknown.
