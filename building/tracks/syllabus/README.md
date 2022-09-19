@@ -88,14 +88,14 @@ But in "Hello, World!" they are only changing the wording.
 All of the syntax of the language might still be unfamiliar.
 Try to optimize for a quick win and getting students familiar enough with the bare necessities of syntax to be able to move forward confidently.
 
-Read more about [developing the first exercise](/docs/building/tracks/syllabus/first-exercise.md) here.
+Read more about [developing the first exercise](/docs/building/tracks/syllabus/first-exercise.md).
 
 ### The next exercises
 
 The first exercise should unlock a handful of exercises that introduce fundamental concepts.
 These will be things like primitives or basic types and simple operations on those types.
 
-Read more about [developing the next exercises](/docs/building/tracks/syllabus/next-exercises.md) here.
+Read more about [developing the next exercises](/docs/building/tracks/syllabus/next-exercises.md).
 
 ### And then what?
 
