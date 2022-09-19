@@ -76,7 +76,7 @@ Other things are not all that simple, but feel easy because they are familiar.
 Familiar is good.
 Familiar is not confusing.
 
-While the endpoint is to write idiomatic code, the stepping stones to get there are not always idiomatic.
+Remember, while the endpoint is to write idiomatic code, the stepping stones to get there are not always idiomatic.
 Using what is familiar — even if it is not a great example of code in that language — helps move a student more quickly toward the goal of code that is more typical of the language.
 
 ### Developing the first exercise
