@@ -62,6 +62,7 @@ It's better to ask up front or while working on an exercise rather than discussi
 
 On GitHub you can mention the team @exercism/learning-mode.
 In Slack you can ask in the #learning-mode channel.
+Please email hello@exercism.org if you need an invitation to our Slack workspace.
 
 ## Getting started
 
