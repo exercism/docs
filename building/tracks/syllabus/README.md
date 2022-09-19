@@ -69,10 +69,8 @@ Please email hello@exercism.org if you need an invitation to our Slack workspace
 Our experience has taught us that the most pragmatic way to develop a syllabus is to grow the concept tree organically, starting with the simplest concepts.
 We don't have to design everything up front, and it's actually generally useful to not think too far ahead.
 
-We start with the track's easiest concepts.
-
-Some things are easy because they are inherently simple.
-Other things are not all that simple, but feel easy because they are familiar.
+We start with the bare minimum of concepts — those that are most fundamental to writing **anything** in the language.
+We also try to start with concepts that are most familiar to the average developer.
 Familiar is good.
 Familiar is not confusing.
 
@@ -82,10 +80,12 @@ Using what is familiar — even if it is not a great example of code in that lan
 ### Developing the first exercise
 
 Rather than trying to map out the entire concept tree up front, just start with the first exercise.
-Think of this exercise as the "Hello World" of concept exercises.
 The goal of the first exercise is to allow the student to start learning with the least amount of friction as possible.
 They are taking the very first step towards getting familiar with what code in this language looks like.
 They might write a small piece of code, or perhaps just make a couple of additions to a stub in order to complete the exercise.
+The students have already solved "Hello, World!" in order to access this exercise.
+But in "Hello, World!" they are only changing the wording.
+All of the syntax of the language might still be unfamiliar.
 Try to optimize for a quick win and getting students familiar enough with the bare necessities of syntax to be able to move forward confidently.
 
 Read more about [developing the first exercise](/docs/building/tracks/syllabus/first-exercise.md) here.
