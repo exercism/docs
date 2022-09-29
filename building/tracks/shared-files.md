@@ -4,6 +4,7 @@ Some documentation files apply to both [Concept Exercises](/docs/building/tracks
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
 - `help.md`: contains track-specific instructions on how to get help (required)
+- `representations.md`: explains which normalizations are applied to a solution to create its representation (optional)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
 The [Presentation document](/docs/building/tracks/presentation) describes how these files are used to present content to the student.
@@ -57,6 +58,33 @@ This document should **not** link to Exercism-wide (track-agnostic) help resourc
 
 If you're having trouble, feel free to ask help in the C# track's [gitter channel](https://gitter.im/exercism/csharp).
 ```
+
+## File: `representations.md`
+
+**Purpose:** Explains which normalizations are applied to a solution to create its representation
+
+**Presence:** Optional
+
+When a track has implemented a [representer](/docs/building/product/representers), each submitted solution will have a representation created for it.
+
+This document should list all the normalizations the representer applies to a solution.
+
+This helps a mentor while adding representation comments.
+
+### Example
+
+```markdown
+# Representations
+
+The representer applies the following normalizations:
+
+- All comments are removed
+- All import declarations are removed
+- The code is formatted
+- Identifiers are normalized to a placeholder value
+```
+
+If your track has a `docs/REPRESENTER_NORMALIZATIONS.md` file, we recommend to link the normalizations to the corresponding section in that file.
 
 ## File: `tests.md`
 
