@@ -1,15 +1,16 @@
 # Docs
 
-Each track must have a `docs` directory with the following (required) files:
+Each track must have a `docs` directory with the following files:
 
 ```
 docs
-├── ABOUT.md
-├── INSTALLATION.md
-├── LEARNING.md
-├── SNIPPET.txt
-├── RESOURCES.md
-└── TESTS.md
+├── ABOUT.md (required)
+├── INSTALLATION.md (required)
+├── LEARNING.md (required)
+├── SNIPPET.txt (required)
+├── REPRESENTER_NORMALIZATIONS.md (optional)
+├── RESOURCES.md (required)
+└── TESTS.md (required)
 ```
 
 ---
@@ -131,6 +132,119 @@ let hello = "Hello, World!"
 ```
 
 Check [this page](https://exercism.org/tracks/fsharp) to see what this looks like when rendered (note: you must not have already joined the track).
+
+## File: `REPRESENTER_NORMALIZATIONS.md`
+
+**Purpose:** List the normalizations the representer applies to a solution.
+
+**Displayed on:**
+
+(not displayed)
+
+### Example
+
+````markdown
+# Representer normalizations
+
+The representer applies the following normalizations:
+
+## Remove comments
+
+All comments are removed.
+
+### Before
+
+```fsharp
+module Fake
+(* Block comment
+   on multiple lines *)
+let message = "Hi" (* Block comment after code *)
+// Double-slash comment on single line
+let reply = "Yo" // Double-slash comment after code
+/// <summary>This function adds two numbers</summary>
+/// <param name="x">The first number</param>
+/// <param name="y">The second number</param>
+/// <returns>The first number added to the second number</param>
+let add x y = x + y
+```
+
+### After
+
+```fsharp
+module Fake
+let message = "Hi"
+let reply = "Yo"
+let add x y = x + y
+```
+
+## Remove import declarations
+
+All import declarations are removed.
+
+### Before
+
+```fsharp
+module Fake
+open System
+open System.IO
+let message = "Hi"
+```
+
+### After
+
+```fsharp
+module Fake
+let message = "Hi"
+```
+
+## Format code
+
+The code is formatted using the [fantomas library](https://fsprojects.github.io/fantomas/docs/index.html).
+This formats the code according to the F# style guide.
+The full list of transformations that are applied by fantomas can be found [here](https://fsprojects.github.io/fantomas/docs/end-users/Configuration.html).
+
+### Before
+
+```fsharp
+module Fake
+let  add ( birthDate  :  DateTime)  =
+    birthDate.Add (    2.0)
+type Volume =
+| Liter of float
+| USPint of float
+| ImperialPint of float
+```
+
+### After
+
+```fsharp
+module Fake
+let add (birthDate: DateTime) =
+    birthDate.Add(2.0)
+type Volume =
+    | Liter of float
+    | USPint of float
+    | ImperialPint of float
+```
+
+## Normalize identifiers
+
+Identifiers are normalized to a placeholder value.
+
+### Before
+
+```fsharp
+module Fake
+let foo x = x + 1
+```
+
+### After
+
+```fsharp
+module PLACEHOLDER_1
+let PLACEHOLDER_3 PLACEHOLDER_2 = PLACEHOLDER_2 + 1
+```
+````
 
 ## File: `RESOURCES.md`
 

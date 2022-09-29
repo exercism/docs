@@ -25,6 +25,7 @@ These file are shared between all exercises:
 
 - `debug.md`: explains how a student that is coding in the browser can still do "debugging" (optional)
 - `help.md`: contains track-specific instructions on how to get help (required)
+- `representations.md`: explains which normalizations are applied to a solution to create its representation (optional)
 - `tests.md`: contains track-specific instructions on how to run the tests (required)
 
 See the [shared files documentation](/docs/building/tracks/shared-files) for more information.
