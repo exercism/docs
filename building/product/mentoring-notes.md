@@ -1,22 +1,36 @@
 # Mentoring Notes
 
-Mentoring notes are exercise-specific notes aimed to:
+There are two types of mentoring notes:
+
+1. Exercise-specific notes (shown for one specific exercise in the track)
+2. Track-specific notes (shown for _all_ exercises in the track)
+
+The aim for these notes is to:
 
 - Make mentoring an exercise easier for mentors
 - Make mentoring an exercise consistent across mentors
 
 ## What do Mentoring Notes contain?
 
-Mentoring notes often contain:
+Exercise-specific mentoring notes often contain:
 
 - Examples of reasonable solutions
 - Common suggestions/pitfalls
 - Talking points
 
+Track-specific mentoring notes often contain:
+
+- Common suggestions/pitfalls (that apply to _all_ exercises)
+- Links to useful resources (like a style guide)
+
 ## How to add Mentoring Notes
 
-Mentoring notes are stored in the [website-copy repo][website-copy] within a `tracks/<track-slug>/exercises/<exercise-slug>/mentoring.md` file.
-To add mentoring notes, submit a PR to add a file following the above file naming pattern.
+Mentoring notes are stored in the [website-copy repo][website-copy] using the following file naming patterns:
+
+- Exercise mentoring notes: `tracks/<track-slug>/exercises/<exercise-slug>/mentoring.md`
+- Track mentoring notes: `tracks/<track-slug>/mentoring.md`
+
+To add mentoring notes, submit a PR to add a file following the above file naming patterns.
 
 ### Why are Mentoring Notes not in the track repo?
 
