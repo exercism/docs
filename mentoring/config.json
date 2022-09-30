@@ -24,6 +24,14 @@
     "blurb": "You've chosen an exercise to mentor - now give some great feedback."
   },
   {
+    "uuid": "80d6d993-ccf8-433f-af03-44b171328470",
+    "section": "mentoring",
+    "slug": "how-to-give-feedback-on-representations",
+    "path": "mentoring/how_to_give_feedback_on_representations.md",
+    "title": "How to give feedback on representations",
+    "blurb": "Considerations for giving feedback on representations."
+  },
+  {
     "uuid": "57f323a6-29ea-43ef-9936-af44162ccc64",
     "section": "mentoring",
     "slug": "markdown",
