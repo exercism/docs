@@ -60,7 +60,7 @@ bin/configlet sync --update --yes --docs --metadata --exercise hello-world
 bin/configlet sync --update --tests include --exercise hello-world
 ```
 
-In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that CI uses to ensure that the test suite is in a good state.
+In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that passes all the tests to verify it is possible to solve the exercise (CI will verify this).
 
 In order to create these files you need to make some decisions about filenames and file paths.
 The rule of thumb is to use names that are idiomatic for the language, and where there are no strong preferences prefer shallower directory structures.
