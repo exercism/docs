@@ -56,7 +56,8 @@ Which files exactly is described in the [Practice Exercises documentation](/docs
 Most of the files can be added automatically by running Configlet's `sync` command:
 
 ```
-bin/configlet sync --update --docs --metadata --tests
+bin/configlet sync --update --yes --docs --metadata --exercise hello-world
+bin/configlet sync --update --tests include --exercise hello-world
 ```
 
 In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that CI uses to ensure that the test suite is in a good state.
