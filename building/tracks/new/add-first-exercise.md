@@ -69,6 +69,6 @@ The sample solution will need to be identifiable by the CI script, so it's advis
 ### Configuring the exercise
 
 One you've decided on the filenames and paths, edit the `exercises/practice/hello-world/.meta/config.json` file to reflect those choices.
-Also add your GitHub username to the "authors" array.
+Also add your GitHub username to the `"authors"` array.
 
 [configlet]: /docs/building/configlet
