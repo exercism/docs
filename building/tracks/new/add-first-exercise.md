@@ -14,9 +14,6 @@ This is also probably going to be the hardest part of getting the track reposito
 
 ## Implementing the exercise
 
-To implement the "Hello, World!" exercise, you'll need to create several files.
-Which files exactly is described in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
-
 The "Hello, World!" exercise has some special rules applied to it:
 
 - It is always the first exercise in a track
@@ -25,3 +22,53 @@ The "Hello, World!" exercise has some special rules applied to it:
 - The stub file contains an almost-working implementation, but instead of "Hello, World!" it uses "Goodbye, Mars!"
 - It has no `prerequisites`
 - It has no `practices`
+
+### Updating the config
+
+Start by adding an entry to the `exercises.practice` array in the top-level `config.json` file.
+
+```
+{
+  "exercises": {
+    "practice": [
+      {
+        "uuid": "",
+        "slug": "hello-world",
+        "name": "Hello World",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
+  }
+}
+```
+
+You can use the [Configlet][configlet] tool to get a UUID.
+Download Configlet by running `bin/fetch-configlet` from the root of the repository.
+Then generate a UUID using the `bin/configlet uuid` command.
+
+### Generating required files
+
+To implement the "Hello, World!" exercise, you'll need to create several files.
+Which files exactly is described in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
+
+Most of the files can be added automatically by running Configlet's `sync` command:
+
+```
+bin/configlet sync --update --yes --docs --metadata --exercise hello-world
+bin/configlet sync --update --tests include --exercise hello-world
+```
+
+In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that passes all the tests to verify it is possible to solve the exercise (CI will verify this).
+
+In order to create these files, you need to make some decisions about filenames and file paths.
+The rule of thumb is to use names that are idiomatic for the language, and where there are no strong preferences prefer shallower directory structures.
+The sample solution will need to be identifiable by the CI script, so it's advisable to choose a generic basename that all exercises can use, e.g. `example`, `sample`, or `reference-solution`.
+
+### Configuring the exercise
+
+One you've decided on the filenames and paths, edit the `exercises/practice/hello-world/.meta/config.json` file to reflect those choices.
+Also add your GitHub username to the `"authors"` array.
+
+[configlet]: /docs/building/configlet
