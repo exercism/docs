@@ -62,7 +62,7 @@ bin/configlet sync --update --tests include --exercise hello-world
 
 In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that passes all the tests to verify it is possible to solve the exercise (CI will verify this).
 
-In order to create these files you need to make some decisions about filenames and file paths.
+In order to create these files, you need to make some decisions about filenames and file paths.
 The rule of thumb is to use names that are idiomatic for the language, and where there are no strong preferences prefer shallower directory structures.
 The sample solution will need to be identifiable by the CI script, so it's advisable to choose a generic basename that all exercises can use, e.g. `example`, `sample`, or `reference-solution`.
 
