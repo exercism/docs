@@ -2,7 +2,7 @@
 
 Our Representers are deployed as Docker images.
 
-Please read the [general Tooling docker information](/docs/building/tooling/representers/docker) to familiarize yourself with how these work.
+Please read the [general Tooling docker information](/docs/building/tooling/docker) to familiarize yourself with how these work.
 
 When we run the Representer's container we execute a `run.sh` script.
 To ensure this works properly the following rules must be following:
