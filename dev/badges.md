@@ -54,6 +54,7 @@ These badges will be implementable by PRs from the community nearer the time of 
 
 A collection of unsorted ideas. Move one of these into "To Be Implemented" if you'd like to see it end up in the app:
 
+- Can’t win ’em all” — high satisfaction pct (perhaps >= 95%), large number of mentoring sessions (>= 100), at least one 1-star review.
 - Submit a {docs|exercise creation|testsuite update} PR
 - Review more than X PRs
 - Open more than X issues
