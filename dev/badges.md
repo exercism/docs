@@ -22,12 +22,15 @@ These are in the codebase.
 
 These will be in the codebase. They're unordered.
 
-- **Team builder:** Create a team with 3 members
-- **Teammate:** Give team feedback to 5 solutions.
+- **Back In Town:** Submit an exercise having not submitted one for 3 months.
+- **Polyglot:** Completed a non-hello-world exercise in 3+ languages
+- **Orator:** Complete a conference talk about Exercism
+- **Streamer:** Have a video uploaded (and approved) where you are the author.
 
 ## To be implemented - but involve more code/effort
 
-- **Back In Town:** Login after T time without activity away _(Requires last (not current) seen logging which might already be in Devise)_
+- **Team builder:** Create a team with 3 members
+- **Teammate:** Give team feedback to 5 solutions.
 - **Early Bird:** Submit a solution before breakfast (~6am, local time). _(Required local timezone storage)_
 - **Docker:** Have a Docs PR merged _(How do we automate this? Webhooks listening to certain dirs?)_
 - **Badger:** Suggest a badge that is added to the website _(How do we automate this? Probably manual?)_
@@ -100,7 +103,6 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - wax on, wax off: X practice exercises complete
 - X practice exercises mentor approved
 - Made a friend (preferred by a mentor / preferred by a submitter)
-- polyglot awards (attempted x languages to some measure)
 - some persistence aware (something to reward stick-to-it-ness and growth with revisions)
 - "Slow poke" - replied to a comment more than 30 days after the last activity for the given exercise.
 - Mentored 20 per week for 3 weeks running
@@ -127,5 +129,4 @@ A collection of unsorted ideas. Move one of these into "To Be Implemented" if yo
 - I've got your back: Be mentored for the first time
 - Back again: Be mentored for the second time
 - Third time's the charm: Be mentored for the third time
-- Hold a conference talk about Exercism
 - Report a non-trivial security vulnerability in relation to Exercism in an ethical way
