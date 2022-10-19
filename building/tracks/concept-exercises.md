@@ -368,6 +368,9 @@ Note that:
 
 **Presence:** Optional
 
+This file describes the most common approaches for the exercise.
+Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
+
 #### Example
 
 ````markdown
@@ -452,6 +455,7 @@ This file contains meta information on the exercise:
 **Presence:** Optional (required for approaches)
 
 This file contains a detailed description of the approach.
+Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
 
 #### Example
 

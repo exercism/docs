@@ -556,6 +556,13 @@
     "blurb": "Learn why and how to deprecate an Exercism exercise"
   },
   {
+    "uuid": "e5b94b50-cff3-4fcb-8fbf-4a247202da97",
+    "slug": "tracks/approaches",
+    "path": "building/tracks/approaches.md",
+    "title": "Approaches",
+    "blurb": "Learn how to write approaches for exercises"
+  },
+  {
     "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
     "slug": "tracks/presentation",
     "path": "building/tracks/presentation.md",
