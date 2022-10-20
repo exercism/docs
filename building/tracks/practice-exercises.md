@@ -46,7 +46,7 @@ The `prerequisites` key lists the Concepts that a student must have completed in
 
 Each Practice Exercise has its own directory within the track's `exercises/practice` directory. The name of the Practice Exercise directory must match the `slug` property of the Practice Exercise, as defined in the [config.json file](/docs/building/tracks#concept-exercises).
 
-A Practice Exercise has three types of files:
+A Practice Exercise has four types of files:
 
 ### Documentation files
 
@@ -65,6 +65,15 @@ These files are _not_ presented to the student, but used to define metadata of t
 - `.meta/config.json`: contains meta information on the exercise (required)
 - `.meta/design.md`: describe the design of the exercise (optional)
 
+### Approach files
+
+These files describe approaches for the exercise.
+
+- `.approaches/introduction.md`: introduction to the most common approaches for the exercise (optional)
+- `.approaches/config.json`: metadata for the approaches (optional)
+- `.approaches/<approach-slug>/content.md`: description of the approach (optional)
+- `.approaches/<approach-slug>/snippet.txt`: snippet showcasing the approach (optional)
+
 ### Exercise files
 
 The language-specific files, like the implementation and test files. The names of these files are track-specific.
@@ -80,6 +89,12 @@ The language-specific files, like the implementation and test files. The names o
 exercises
 └── practice
     └── isogram
+        ├── .approaches
+        |   ├── performance (approach)
+        |   |   ├── content.md
+        |   |   └── snippet.txt
+        |   ├── config.json
+        |   └── introduction.md
         ├── .docs
         |   ├── introduction.md
         |   ├── instructions.md
@@ -281,6 +296,137 @@ Note that:
 
 - The order of authors and contributors is not significant and has no meaning.
 - `language_versions` is a free-form string that tracks are free to use and interpret as they like.
+
+---
+
+### File: `.approaches/introduction.md`
+
+**Purpose:** Introduction to the most common approaches for the exercise
+
+**Presence:** Optional
+
+This file describes the most common approaches for the exercise.
+Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
+
+#### Example
+
+````markdown
+# Introduction
+
+The key to this exercise is to deal with C# strings being immutable, which means that a `string`'s value cannot be changed.
+Therefore, to reverse a string you'll need to create a _new_ `string`.
+
+## Using LINQ
+
+```csharp
+public static string Reverse(string input)
+{
+    return new string(input.Reverse().ToArray());
+}
+```
+
+For more information, check the [LINQ approach][approach-linq].
+
+## Which approach to use?
+
+If readability is your primary concern (and it usually should be), the LINQ-based approach is hard to beat.
+````
+
+---
+
+### File: `.approaches/config.json`
+
+**Purpose:** Metadata for the approaches
+
+**Presence:** Optional (required when an approach introduction or approach exists)
+
+This file contains meta information on the exercise:
+
+- `introduction`: The GitHub username(s) of the exercise approach introduction's author(s) (optional)
+
+  - `authors`: The GitHub username(s) of the exercise approach introduction's author(s) (required)
+    - Including reviewers if their reviews substantially change the exercise approach introduction (to the extent where it feels like "you got there together")
+  - `contributors`: The GitHub username(s) of the exercise approach introduction's contributor(s) (optional)
+    - Including reviewers if their reviews are meaningful/actionable/actioned.
+
+- `approaches`: An array listing the detailed approaches (optional)
+  - `uuid`: a V4 UUID that uniquely identifies the approach. The UUID must be unique both within the track as well as across all tracks, and must never change
+  - `slug`: the approach's slug, which is a lowercased, kebab-case string. The slug must be unique across all approach slugs within the track. Its length must be <= 255.
+  - `title`: the approach's title. Its length must be <= 255.
+  - `blurb`: A short description of this approach. Its length must be <= 350. Markdown is _not_ supported (required)
+  - `authors`: The GitHub username(s) of the exercise approach's author(s) (required)
+    - Including reviewers if their reviews substantially change the exercise approach (to the extent where it feels like "you got there together")
+  - `contributors`: The GitHub username(s) of the exercise approach's contributor(s) (optional)
+    - Including reviewers if their reviews are meaningful/actionable/actioned.
+
+#### Example
+
+```json
+{
+  "introduction": {
+    "authors": ["erikschierboom"]
+  },
+  "approaches": [
+    {
+      "uuid": "448fb2b4-18ab-4e55-aa54-ad4ed6d5f7f6",
+      "slug": "performance",
+      "title": "Optimizing performance",
+      "blurb": "Explore how to most efficiently reverse a string and what the trade-offs are.",
+      "authors": ["erikschierboom"]
+    }
+  ]
+}
+```
+
+---
+
+### File: `.approaches/<approach-slug>/content.md`
+
+**Purpose:** Detailed description of the approach
+
+**Presence:** Optional (required for approaches)
+
+This file contains a detailed description of the approach.
+Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
+
+#### Example
+
+```markdown
+# Performance
+
+In this document, we'll find out which approach is the most performant one.
+
+## Benchmark results
+
+| Method |      Mean |     Error |    StdDev |    Median | Allocated |
+| -----: | --------: | --------: | --------: | --------: | --------: |
+|   Linq | 29.133 ns | 0.5865 ns | 0.5486 ns | 28.984 ns |      80 B |
+|  Array |  4.806 ns | 0.4999 ns | 1.4739 ns |  3.967 ns |         - |
+```
+
+---
+
+### File: `.approaches/<approach-slug>/snippet.txt`
+
+**Purpose:** Snippet showcasing the approach
+
+**Presence:** Optional (required for approaches)
+
+This file contains a small snippet that showcases the approach.
+The snippet is shown on an exercise's approaches overview page.
+
+Its number of lines must be <= 8.
+
+#### Example
+
+```csharp
+Span<char> chars = stackalloc char[input.Length];
+for (var i = 0; i < input.Length; i++)
+{
+    chars[input.Length - 1 - i] = input[i];
+}
+return new string(chars);
+```
 
 ---
 
