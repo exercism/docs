@@ -319,14 +319,9 @@ Therefore, to reverse a string you'll need to create a _new_ `string`.
 ## Using LINQ
 
 ```csharp
-using System.Linq;
-
-public static class ReverseString
+public static string Reverse(string input)
 {
-    public static string Reverse(string input)
-    {
-        return new string(input.Reverse().ToArray());
-    }
+    return new string(input.Reverse().ToArray());
 }
 ```
 
