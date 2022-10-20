@@ -330,7 +330,7 @@ public static class ReverseString
 }
 ```
 
-The `string` class implements the `IEnumerable<char>` interface, which allows us to call LINQ's `Reverse()` extension method on it.
+For more information, check the [LINQ approach][approach-linq].
 
 ## Which approach to use?
 
@@ -419,6 +419,8 @@ In this document, we'll find out which approach is the most performant one.
 
 This file contains a small snippet that showcases the approach.
 The snippet is shown on an exercise's approaches overview page.
+
+Its number of lines must be <= 8.
 
 #### Example
 
