@@ -2,29 +2,29 @@
 
 Each exercise can have approaches associated with them, which describe the different ways in which an exercise can be solved.
 
-There are two different types of approach documents:
+## Approach
 
-- Approaches introduction
-- Detailed approaches
+An approach should explore how an exercise can be solved a certain way.
 
-## Approaches introduction
+- Its contents should either:
+  - Explore an idiomatic approach
+  - Explore a non-idiomatic, but interesting approach
+  - Contain a meta discussion (e.g. comparing the performance of approaches)
+- Include code samples
+- Feel free to dig deep into the topic
+- Link to useful resources (e.g. documentation)
 
+## Approach overview
+
+- Give context to the problem
+  - Describe important points (e.g. gotchas) that apply to _all_ approaches
 - Discuss the most idiomatic approaches
-  - If an approach is often used by students but it is _not_ idiomatic, it might be worthwhile to discuss it too
+  - Each approach should show a snippet illustrating the approach
+  - Keep the content fairly high-level
+    - Link to the idiomatic approach for more information
 - Discuss how to choose between the approaches
   - What are the trade-offs?
-  - Are some approaches are more applicable for certain use cases?
-- Keep the content fairly high-level
-  - If an approach warrants a lot of detail, write it up in a detailed approach document
-- Link to useful resources, which will help students dig deeper
-
-## Detailed approaches
-
-- Topics can include:
-  - Idiomatic approaches
-  - Less common, but interesting approaches
-  - Meta discussions (e.g. comparing the performance of different approaches)
-- Link to useful resources, which will help students dig deeper
+  - Are some approaches better suited for specific use cases?
 
 ## What exercises to write approaches for?
 
