@@ -28,7 +28,7 @@ The template file should be treated like a regular Markdown file but with one ad
 
 - `%{concept:<slug>}`: refers to the concept's [`introduction.md` document](/docs/building/tracks/concepts#fileintroductionmd)
 
-When configlet detects that a Concept Exercise has an `introduction.md.tpl` file, it will generate a `introduction.md` file from it. The generated introduction will have the same contents as the template, expect for the placeholders, which will be replaced with the contents of the documents they refer to.
+When configlet detects that a Concept Exercise has an `introduction.md.tpl` file, it will generate a `introduction.md` file from it. The generated introduction will have the same contents as the template, except for the placeholders, which will be replaced with the contents of the documents they refer to.
 
 ### Document: Practice Exercise's introduction.md file
 
