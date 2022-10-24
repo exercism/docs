@@ -56,7 +56,7 @@ This document should **not** link to Exercism-wide (track-agnostic) help resourc
 ```markdown
 # Help
 
-If you're having trouble, feel free to ask help in the C# track's [gitter channel](https://gitter.im/exercism/csharp).
+If you're having trouble, feel free to ask help in the programming category of [the Exercism forum](https://forum.exercism.org/c/programming/5).
 ```
 
 ## File: `representations.md`

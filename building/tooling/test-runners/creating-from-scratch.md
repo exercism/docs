@@ -9,6 +9,7 @@ These are the steps to get going:
 3. Open an issue at [exercism/exercism][exercism-repo] introducing yourself and telling us which language you'd like to create a Test Runner for.
 4. Once a Test Runner repo has been created, use [the Test Runner interface document](/docs/building/tooling/test-runners/interface) to help guide your implementation. There is a [generic test runner repository template](https://github.com/exercism/generic-test-runner/) that you can use to kick-start development.
 
-We have an incredibly friendly and supportive community who will be happy to help you as you work through this! If you get stuck, please speak to us on Slack or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
+We have an incredibly friendly and supportive community who will be happy to help you as you work through this! If you get stuck, please speak to us on [the Exercism forum][forum] or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
 
+[forum]: https://forum.exercism.org/c/exercism/building-exercism/125
 [exercism-repo]: https://github.com/exercism/exercism

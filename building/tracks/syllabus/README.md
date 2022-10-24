@@ -61,8 +61,7 @@ Don't hesitate to ask for help.
 It's better to ask up front or while working on an exercise rather than discussing during code review.
 
 On GitHub you can mention the team @exercism/learning-mode.
-In Slack you can ask in the #learning-mode channel.
-Please email hello@exercism.org if you need an invitation to our Slack workspace.
+In the [Exercism forum][forum-support] open an issue in the Exercism Support category.
 
 ## Getting started
 
@@ -176,3 +175,5 @@ Overall, we think this is still too intimidating, and we'd like to find a better
 Please talk to us about the process as you start making issues, and we will do our best to help figure out how to proceed.
 
 We will update the documentation as we learn better ways of tackling this.
+
+[forum-support]: https://forum.exercism.org/c/support/8
