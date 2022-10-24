@@ -30,9 +30,9 @@ Please treat them with respect, and take any decisions they make as final.
 Do not take them entering a conversation to be a sign of disrespect - when an administrator acts in that role it does not necessarily mean that they think the conversation has become negative, but they want to protect everyone involved before that happens.
 They will (attempt to) wield this power pragmatically.
 
-If you feel a conversation is becoming draining and unproductive, or could move that way, please feel free to tag @exercism/maintainers-admin in a post to ask for guidance or reach out to one of the admins on Slack.
+If you feel a conversation is becoming draining and unproductive, or could move that way, please feel free to tag @exercism/maintainers-admin in a post to ask for guidance.
 
 Exercism's current administrators are:
 
-- Jeremy Walker (@iHiD on Slack and GitHub)
-- Erik Schierboom (@ErikSchierboom on Slack and GitHub)
+- Jeremy Walker (@iHiD on GitHub and the forum)
+- Erik Schierboom (@ErikSchierboom on GitHub and the forum)
