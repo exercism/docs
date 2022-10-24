@@ -9,7 +9,7 @@ These are the steps to get going:
 3. Open an issue at [exercism/exercism][exercism-repo] introducing yourself and telling us which language you'd like to create a Representer for.
 4. Once a Representer repo has been created, use [the Representer interface document](/docs/building/tooling/representers/interface) to help guide your implementation.
 
-We have an incredibly friendly and supportive community who will be happy to help you as you work through this! If you get stuck, please speak to us on [the Exercism forum][forum] or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
+We have an incredibly friendly and supportive community who will be happy to help you as you work through this! If you get stuck, please start a new topic on [the Exercism forum][forum] or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
 
 [forum]: https://forum.exercism.org/c/exercism/building-exercism/125
 [exercism-repo]: https://github.com/exercism/exercism
