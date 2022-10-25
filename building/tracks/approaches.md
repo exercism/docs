@@ -32,7 +32,7 @@ An approach should explore how an exercise can be solved a certain way.
 
 ## General considerations
 
-- Some language's have different ways of writing the same thing. If some of that syntax has only become available in more recent versions of the language, consider using the "old" syntax. This makes it more likely that students will understand the code.
+- Some languages have different ways of writing the same thing. If some of that syntax has only become available in more recent versions of the language, consider using the "old" syntax. This makes it more likely that students will understand the code.
   - Alternative syntax can be shown in the approach document
 
 ## What exercises to write approaches for?
