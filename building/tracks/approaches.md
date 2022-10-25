@@ -10,21 +10,30 @@ An approach should explore how an exercise can be solved a certain way.
   - Explore an idiomatic approach
   - Explore a non-idiomatic, but interesting approach
   - Contain a meta discussion (e.g. comparing the performance of approaches)
-- Include code samples
+- Start with a (full) code sample
+  - Liberally use code samples in the rest of the document
 - Feel free to dig deep into the topic
 - Link to useful resources (e.g. documentation)
+- The snippet should showcase the core of the approach
+  - A maximum of 8 lines can be used
 
-## Approach overview
+## Approaches overview
 
 - Give context to the problem
   - Describe important points (e.g. gotchas) that apply to _all_ approaches
 - Discuss the most idiomatic approaches
-  - Each approach should show a snippet illustrating the approach
-  - Keep the content fairly high-level
-    - Link to the idiomatic approach for more information
+- Each approach should start with a snippet illustrating the approach
+- Keep the content fairly high-level
+  - Detailed information should go into a standalone approach page
+  - Link to the standalone approach page for more information
 - Discuss how to choose between the approaches
   - What are the trade-offs?
   - Are some approaches better suited for specific use cases?
+
+## General considerations
+
+- Some language's have different ways of writing the same thing. If some of that syntax has only become available in more recent versions of the language, consider using the "old" syntax. This makes it more likely that students will understand the code.
+  - Alternative syntax can be shown in the approach document
 
 ## What exercises to write approaches for?
 
