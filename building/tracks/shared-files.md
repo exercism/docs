@@ -56,7 +56,13 @@ This document should **not** link to Exercism-wide (track-agnostic) help resourc
 ```markdown
 # Help
 
-If you're having trouble, feel free to ask help in the programming category of [the Exercism forum](https://forum.exercism.org/c/programming/5).
+To get help if you're having trouble, you can use one of the following resources:
+
+- [Kotlin Documentation](https://kotlinlang.org/docs/reference/)
+- [Kotlin Forums](https://discuss.kotlinlang.org/)
+- [Kotlin Slack Channel](https://kotlinlang.slack.com/): [get invite here](https://slack.kotlinlang.org/)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/kotlin)
+- [Kotlin Subreddit](https://www.reddit.com/r/kotlin)
 ```
 
 ## File: `representations.md`
