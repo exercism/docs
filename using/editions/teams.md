@@ -8,4 +8,4 @@ However, as Exercism grew, the small-team aspects didn't fit with our larger men
 With the launch of Exercism v3, we have now shut down Exercism Teams.
 However, we are intending to relaunch it in early 2022, as a fully thought-through product, with a whole range of exciting features.
 
-We'll be announcing more about this in early 2022.
+We'll be announcing more about this in late 2022.
