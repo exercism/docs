@@ -34,6 +34,7 @@ An approach should explore how an exercise can be solved a certain way.
 
 - Some languages have different ways of writing the same thing. If some of that syntax has only become available in more recent versions of the language, consider using the "old" syntax. This makes it more likely that students will understand the code.
   - Alternative syntax can be shown in the approach document
+- If your language has a recommended style guide, follow those guidelines where possible
 
 ## What exercises to write approaches for?
 
