@@ -176,6 +176,7 @@ All the above can greatly help reduce churn in reviews, which is frustrating for
 [MD001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
 [MD002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
 [MD003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
+[MD004]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md004---unordered-list-style
 [MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
 [MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
