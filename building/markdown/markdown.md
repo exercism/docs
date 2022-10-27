@@ -134,6 +134,10 @@ Nearly everything with Exercism has been debated, discussed and rewritten many t
 Exercism is a very intentional product - things are there because they've been designed to be there, and things are often left out because they've been designed to be left out.
 ```
 
+## Lists
+
+Use the hyphen character (`-`) as the bullet list marker for unordered lists.
+
 ## Comments
 
 - Prefer Markdown comments instead of HTML comments (e.g. use `[comment]: # (Actual comment...)` rather than `<!-- Actual comment -->`
@@ -152,6 +156,7 @@ There are various rules you can use to configure linters to meet this spec:
 - [MD001][MD001]: Enable
 - [MD002][MD002]: Enable
 - [MD003][MD003]: Use `atx` style
+- [MD004][MD004]: Use `dash` style
 - [MD013][MD013]: Disable
 - [MD033][MD033]: Disable
 
