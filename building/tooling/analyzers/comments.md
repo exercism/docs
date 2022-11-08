@@ -109,7 +109,7 @@ explains the difference between the three.
 In Go, a student has created a custom error instead of using the built-in ones:
 
 ```markdown
-<!-- not following these guidlines -->
+<!-- not following these guidelines -->
 
 I see you are creating a custom `error`. This is perfectly fine! If you did not
 know about `errors.New` and `fmt.Errorf` have a look at them as they are much

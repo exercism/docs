@@ -54,13 +54,13 @@ Check [this page](https://exercism.org/tracks/fsharp) to see what this looks lik
 
 The F# track is built on top of the [.NET](https://dotnet.microsoft.com/learn/dotnet/what-is-dotnet) platform, which runs on Windows, Linux and macOS. To build .NET projects, you can use the .NET Command Line Interface (CLI). This CLI is part of the .NET SDK, which you can install by following the [installation instructions](https://dotnet.microsoft.com/download/dotnet/5.0). Note: the F# track requires SDK version 5.0 or greater.
 
-After completing the installation, you can verify if the CLI was installed succesfully by running this command in a terminal:
+After completing the installation, you can verify if the CLI was installed successfully by running this command in a terminal:
 
 ```bash
 dotnet --version
 ```
 
-It the output is a version greater than or equal to `5.0.100`, the .NET SDK has been installed succesfully.
+It the output is a version greater than or equal to `5.0.100`, the .NET SDK has been installed successfully.
 
 ## Using an IDE
 

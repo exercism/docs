@@ -35,7 +35,7 @@ If so, please open a pull request to the exercise's metadata in the [problems-sp
 
 ## General recommendations
 
-### Recommendation: refrain from doing unsollicited reviews
+### Recommendation: refrain from doing unsolicited reviews
 
 All pull request reviews are done by one (or more) maintainers of the track, as they are responsible for signing off all changes to the repository.
 Maintainers doing the review also helps to avoid conflicting feedback for the pull request author.
