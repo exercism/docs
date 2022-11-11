@@ -274,6 +274,8 @@ This file contains meta information on the exercise:
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
 - `test_runner`: Indicates if solutions of this exercise should be tested in the test runner. Defaults to `true` if not specified. (optional)
+- `representer`: Meta information related to how the representer processes this file (optional)
+  - `version`: An integer for the version of the representer to use for the exercise (required if parent key is present)
 - `icon`: The slug of the icon (see [the full list of icons][exercise-icons]). If not specified, the exercise's slug will be used (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.

@@ -249,6 +249,8 @@ The `config.json` file should have the following checks:
 - The `"forked_from"` values must not have duplicates
 - The `"language_versions"` key is optional
 - The `"language_versions"` value must be a string
+- The `"representer.version"` key is optional
+- The `"representer.version"` value must be an integer >= 1
 - The `"icon"` key is optional
 - The `"icon"` value must be a kebab-case string²
 
@@ -321,6 +323,8 @@ The `config.json` file should have the following checks:
 - The `"language_versions"` value must be a string
 - The `"test_runner"` key is optional
 - The `"test_runner"` value must be a boolean
+- The `"representer.version"` key is optional
+- The `"representer.version"` value must be an integer >= 1
 
 ### Rule: exercises/shared/.docs/debug.md is valid
 
