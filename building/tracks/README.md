@@ -20,8 +20,13 @@ Tracks have two types of exercises:
 - Concept exercises: they are designed to teach one or more concepts to a student. Check the [documentation](/docs/building/tracks/concept-exercises) for more information.
 - Practice exercises: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
 
-Exercises can have approaches associated with them, which describe the different ways in which an exercise can be solved.
-Check the [documentation](/docs/building/tracks/approaches) for more information.
+### Dig deeper
+
+Each exercise has an optional Dig Deeper section that can contain:
+
+- [Approaches](/docs/building/tracks/approaches): different ways in which the exercise can be solved
+- [Articles](/docs/building/tracks/articles): describe interesting aspects of the exercise
+- Community videos: videos that showcase the exercise, usually by having someone solve the exercise from scratch
 
 ## Shared files
 

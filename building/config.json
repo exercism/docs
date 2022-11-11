@@ -563,6 +563,13 @@
     "blurb": "Learn how to write approaches for exercises"
   },
   {
+    "uuid": "362853a0-dc4a-43ee-abbb-d4a14cb5b5bb",
+    "slug": "tracks/articles",
+    "path": "building/tracks/articles.md",
+    "title": "Articles",
+    "blurb": "Learn how to write articles for exercises"
+  },
+  {
     "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
     "slug": "tracks/presentation",
     "path": "building/tracks/presentation.md",
