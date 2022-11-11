@@ -74,6 +74,14 @@ These files describe approaches for the exercise.
 - `.approaches/<approach-slug>/content.md`: description of the approach (optional)
 - `.approaches/<approach-slug>/snippet.txt`: snippet showcasing the approach (optional)
 
+### Article files
+
+These files describe articles for the exercise.
+
+- `.articles/config.json`: metadata for the articles (optional)
+- `.articles/<article-slug>/content.md`: description of the article (optional)
+- `.articles/<article-slug>/snippet.md`: snippet showcasing the article (optional)
+
 ### Exercise files
 
 The language-specific files, like the implementation and test files. The names of these files are track-specific.
@@ -90,11 +98,16 @@ exercises
 └── practice
     └── isogram
         ├── .approaches
-        |   ├── performance (approach)
+        |   ├── for-loop
         |   |   ├── content.md
         |   |   └── snippet.txt
         |   ├── config.json
         |   └── introduction.md
+        ├── .articles
+        |   ├── performance
+        |   |   ├── content.md
+        |   |   └── snippet.md
+        |   └── config.json
         ├── .docs
         |   ├── introduction.md
         |   ├── instructions.md
@@ -297,78 +310,29 @@ Note that:
 - The order of authors and contributors is not significant and has no meaning.
 - `language_versions` is a free-form string that tracks are free to use and interpret as they like.
 
----
+the articles
 
-### File: `.approaches/introduction.md`
+**Presence:** Optional (required when an article exists)
 
-**Purpose:** Introduction to the most common approaches for the exercise
+This file contains meta information on the exercise's articles:
 
-**Presence:** Optional
-
-This file describes the most common approaches for the exercise.
-Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
-
-#### Example
-
-````markdown
-# Introduction
-
-The key to this exercise is to deal with C# strings being immutable, which means that a `string`'s value cannot be changed.
-Therefore, to reverse a string you'll need to create a _new_ `string`.
-
-## Using LINQ
-
-```csharp
-public static string Reverse(string input)
-{
-    return new string(input.Reverse().ToArray());
-}
-```
-
-For more information, check the [LINQ approach][approach-linq].
-
-## Which approach to use?
-
-If readability is your primary concern (and it usually should be), the LINQ-based approach is hard to beat.
-````
-
----
-
-### File: `.approaches/config.json`
-
-**Purpose:** Metadata for the approaches
-
-**Presence:** Optional (required when an approach introduction or approach exists)
-
-This file contains meta information on the exercise:
-
-- `introduction`: The GitHub username(s) of the exercise approach introduction's author(s) (optional)
-
-  - `authors`: The GitHub username(s) of the exercise approach introduction's author(s) (required)
-    - Including reviewers if their reviews substantially change the exercise approach introduction (to the extent where it feels like "you got there together")
-  - `contributors`: The GitHub username(s) of the exercise approach introduction's contributor(s) (optional)
-    - Including reviewers if their reviews are meaningful/actionable/actioned.
-
-- `approaches`: An array listing the detailed approaches (optional)
-  - `uuid`: a V4 UUID that uniquely identifies the approach. The UUID must be unique both within the track as well as across all tracks, and must never change
-  - `slug`: the approach's slug, which is a lowercased, kebab-case string. The slug must be unique across all approach slugs within the track. Its length must be <= 255.
-  - `title`: the approach's title. Its length must be <= 255.
-  - `blurb`: A short description of this approach. Its length must be <= 350. Markdown is _not_ supported (required)
-  - `authors`: The GitHub username(s) of the exercise approach's author(s) (required)
-    - Including reviewers if their reviews substantially change the exercise approach (to the extent where it feels like "you got there together")
-  - `contributors`: The GitHub username(s) of the exercise approach's contributor(s) (optional)
+- `articles`: An array listing the detailed articles (optional)
+  - `uuid`: a V4 UUID that uniquely identifies the article. The UUID must be unique both within the track as well as across all tracks, and must never change
+  - `slug`: the article's slug, which is a lowercased, kebab-case string. The slug must be unique across all article slugs within the track. Its length must be <= 255.
+  - `title`: the article's title. Its length must be <= 255.
+  - `blurb`: A short description of this article. Its length must be <= 350. Markdown is _not_ supported (required)
+  - `authors`: The GitHub username(s) of the exercise article's author(s) (required)
+    - Including reviewers if their reviews substantially change the exercise article (to the extent where it feels like "you got there together")
+  - `contributors`: The GitHub username(s) of the exercise article's contributor(s) (optional)
     - Including reviewers if their reviews are meaningful/actionable/actioned.
 
 #### Example
 
 ```json
 {
-  "introduction": {
-    "authors": ["erikschierboom"]
-  },
-  "approaches": [
+  "articles": [
     {
-      "uuid": "448fb2b4-18ab-4e55-aa54-ad4ed6d5f7f6",
+      "uuid": "6db71962-62d5-448b-a980-c20ae41013ed",
       "slug": "performance",
       "title": "Optimizing performance",
       "blurb": "Explore how to most efficiently reverse a string and what the trade-offs are.",
@@ -380,14 +344,14 @@ This file contains meta information on the exercise:
 
 ---
 
-### File: `.approaches/<approach-slug>/content.md`
+### File: `.articles/<article-slug>/content.md`
 
 **Purpose:** Detailed description of the approach
 
 **Presence:** Optional (required for approaches)
 
 This file contains a detailed description of the approach.
-Check the [documentation](/docs/building/tracks/approaches) for more information on what should go in this file.
+Check the [documentation](/docs/building/tracks/articles) for more information on what should go in this file.
 
 #### Example
 
@@ -406,26 +370,26 @@ In this document, we'll find out which approach is the most performant one.
 
 ---
 
-### File: `.approaches/<approach-slug>/snippet.txt`
+### File: `.articles/<article-slug>/snippet.txt`
 
 **Purpose:** Snippet showcasing the approach
 
-**Presence:** Optional (required for approaches)
+**Presence:** Optional (required for articles)
 
-This file contains a small snippet that showcases the approach.
-The snippet is shown on an exercise's approaches overview page.
+This file contains a small snippet that showcases the article.
+The snippet is shown on an exercise's dig deeper page.
 
 Its number of lines must be <= 8.
 
+Check the [documentation](/docs/building/tracks/articles) for more information on what should go in this file.
+
 #### Example
 
-```csharp
-Span<char> chars = stackalloc char[input.Length];
-for (var i = 0; i < input.Length; i++)
-{
-    chars[input.Length - 1 - i] = input[i];
-}
-return new string(chars);
+```markdown
+| Method |      Mean | Allocated |
+| -----: | --------: | --------: |
+|   Linq | 29.133 ns |      80 B |
+|  Array |  4.806 ns |         - |
 ```
 
 ---
