@@ -322,7 +322,7 @@ The `config.json` file should have the following checks:
 - The `"test_runner"` key is optional
 - The `"test_runner"` value must be a boolean
 
-### Rule: exercises/practice/&lt;slug&gt;/.approaches/config.json is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/config.json is valid
 
 - The file's presence is optional, unless there is a `introduction.md` or a sibling directory
 - The file must be valid JSON
