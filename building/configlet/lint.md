@@ -365,18 +365,18 @@ The `config.json` file should have the following checks:
 - The `"approaches[].contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"approaches[].authors"` or `"approaches[].contributors"` array (no overlap)
 
-### Rule: exercises/practice/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/content.md is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/content.md is valid
 
 - The file's presence is required if a matching `"approaches[].slug"` entry exists in the `.approaches/config.json` file
 - The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
-### Rule: exercises/practice/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/snippet.txt is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/snippet.txt is valid
 
 - The file's presence is required if a matching `"approaches[].slug"` entry exists in the `.approaches/config.json` file
 - The snippet must have at most 8 lines
 
-### Rule: exercises/practice/&lt;slug&gt;/.articles/config.json is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/config.json is valid
 
 - The file's presence is optional, unless there is a sibling directory
 - The file must be valid JSON
@@ -406,13 +406,13 @@ The `config.json` file should have the following checks:
 - The `"articles[].contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"articles[].authors"` or `"articles[].contributors"` array (no overlap)
 
-### Rule: exercises/practice/&lt;slug&gt;/.articles/&lt;article-slug&gt;/content.md is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/&lt;article-slug&gt;/content.md is valid
 
 - The file's presence is required if a matching `"articles[].slug"` entry exists in the `.articles/config.json` file
 - The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
-### Rule: exercises/practice/&lt;slug&gt;/.articles/&lt;article-slug&gt;/snippet.md is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/&lt;article-slug&gt;/snippet.md is valid
 
 - The file's presence is required if a matching `"articles[].slug"` entry exists in the `.articles/config.json` file
 - The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
