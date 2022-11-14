@@ -389,7 +389,7 @@ The `config.json` file should have the following checks:
 - The `"articles[].slug"` key is required
 - The `"articles[].slug"` value must be a kebab-case string² with length <= 255
 - The `"articles[].slug"` value must have a corresponding non-empty `<slug>/content.md` file
-- The `"articles[].slug"` value must have a corresponding non-empty `<slug>/snippet.txt` file
+- The `"articles[].slug"` value must have a corresponding non-empty `<slug>/snippet.md` file
 - The `"articles[].name"` key is required
 - The `"articles[].name"` value must be a Title Case string³ with length <= 255
 - The `"articles[].blurb"` key is required
