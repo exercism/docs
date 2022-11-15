@@ -325,6 +325,8 @@ This file contains meta information on the exercise:
 - `blurb`: A short description of this exercise. Its length must be <= 350. Markdown is _not_ supported (required)
 - `source`: The source this exercise is based on (optional)
 - `source_url`: The URL of the source this exercise is based on (optional)
+- `representer`: Meta information related to how the representer processes this file (optional)
+  - `version`: An integer for the version of the representer to use for the exercise (required if parent key is present)
 - `icon`: The slug of the icon (see [the full list of icons][exercise-icons]). If not specified, the exercise's slug will be used (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
@@ -362,6 +364,9 @@ Assume that the user `FSharpForever` has written an exercise called `log-levels`
   "blurb": "Learn how to work with strings by processing log lines.",
   "source": "Wikipedia",
   "source_url": "https://en.wikipedia.org/wiki/Log_file",
+  "representer": {
+    "version": 2
+  },
   "icon": "logs"
 }
 ```
