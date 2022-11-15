@@ -350,7 +350,7 @@ Assume that the user `FSharpForever` has written an exercise called `log-levels`
   "language_versions": ">=3.7",
   "blurb": "Learn how to work with strings by processing log lines.",
   "source": "Wikipedia",
-  "source_url": "https://en.wikipedia.org/wiki/Log_file",,
+  "source_url": "https://en.wikipedia.org/wiki/Log_file",
   "representer": {
     "version": 2
   },
