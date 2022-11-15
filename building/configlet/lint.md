@@ -322,6 +322,102 @@ The `config.json` file should have the following checks:
 - The `"test_runner"` key is optional
 - The `"test_runner"` value must be a boolean
 
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/config.json is valid
+
+- The file's presence is optional, unless there is a `introduction.md` or a sibling directory
+- The file must be valid JSON
+- The JSON root must be an object
+- The `"introduction.authors"` key is optional
+- The `"introduction.authors"` value must be an array
+- The `"introduction.authors"` values must be non-blank strings¹
+- The `"introduction.authors"` values must not have duplicates
+- The `"introduction.authors"` values are treated case-insensitively
+- If the `"introduction.authors"` array is non-empty, there must be a non-empty `introduction.md` file
+- The `"introduction.contributors"` key is optional
+- The `"introduction.contributors"` value must be an array
+- The `"introduction.contributors"` values must be non-blank strings¹
+- The `"introduction.contributors"` values must not have duplicates
+- The `"introduction.contributors"` values are treated case-insensitively
+- If the `"introduction.contributors"` array is non-empty, there must be a non-empty `introduction.md` file
+- Users can only be listed in either the `"introduction.authors"` or `"introduction.contributors"` array (no overlap)
+- The `"approaches"` key is optional, unless there is a sibling directory present (which contains the approach' files)
+- The `"approaches"` value must be an array of objects
+- The `"approaches[].uuid"` key is required
+- The `"approaches[].uuid"` value must be a unique version 4 UUID string⁶
+- The `"approaches[].uuid"` value for each concept must never change
+- The `"approaches[].slug"` key is required
+- The `"approaches[].slug"` value must be a kebab-case string² with length <= 255
+- The `"approaches[].slug"` value must have a corresponding non-empty `<slug>/content.md` file
+- The `"approaches[].slug"` value must have a corresponding non-empty `<slug>/snippet.txt` file
+- The `"approaches[].name"` key is required
+- The `"approaches[].name"` value must be a Title Case string³ with length <= 255
+- The `"approaches[].blurb"` key is required
+- The `"approaches[].blurb"` value must be a non-blank string¹ with length <= 350
+- The `"approaches[].authors"` key is required
+- The `"approaches[].authors"` value must be a non-empty array
+- The `"approaches[].authors"` values must be non-blank strings¹
+- The `"approaches[].authors"` values must not have duplicates
+- The `"approaches[].authors"` values are treated case-insensitively
+- The `"approaches[].contributors"` key is optional
+- The `"approaches[].contributors"` value must be an array
+- The `"approaches[].contributors"` values must be non-blank strings¹
+- The `"approaches[].contributors"` values must not have duplicates
+- The `"approaches[].contributors"` values are treated case-insensitively
+- Users can only be listed in either the `"approaches[].authors"` or `"approaches[].contributors"` array (no overlap)
+
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/content.md is valid
+
+- The file's presence is required if a matching `"approaches[].slug"` entry exists in the `.approaches/config.json` file
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/snippet.txt is valid
+
+- The file's presence is required if a matching `"approaches[].slug"` entry exists in the `.approaches/config.json` file
+- The snippet must have at most 8 lines
+
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/config.json is valid
+
+- The file's presence is optional, unless there is a sibling directory
+- The file must be valid JSON
+- The JSON root must be an object
+- The `"articles"` key is optional, unless there is a sibling directory present (which contains the article' files)
+- The `"articles"` value must be an array of objects
+- The `"articles[].uuid"` key is required
+- The `"articles[].uuid"` value must be a unique version 4 UUID string⁶
+- The `"articles[].uuid"` value for each concept must never change
+- The `"articles[].slug"` key is required
+- The `"articles[].slug"` value must be a kebab-case string² with length <= 255
+- The `"articles[].slug"` value must have a corresponding non-empty `<slug>/content.md` file
+- The `"articles[].slug"` value must have a corresponding non-empty `<slug>/snippet.md` file
+- The `"articles[].name"` key is required
+- The `"articles[].name"` value must be a Title Case string³ with length <= 255
+- The `"articles[].blurb"` key is required
+- The `"articles[].blurb"` value must be a non-blank string¹ with length <= 350
+- The `"articles[].authors"` key is required
+- The `"articles[].authors"` value must be a non-empty array
+- The `"articles[].authors"` values must be non-blank strings¹
+- The `"articles[].authors"` values must not have duplicates
+- The `"articles[].authors"` values are treated case-insensitively
+- The `"articles[].contributors"` key is optional
+- The `"articles[].contributors"` value must be an array
+- The `"articles[].contributors"` values must be non-blank strings¹
+- The `"articles[].contributors"` values must not have duplicates
+- The `"articles[].contributors"` values are treated case-insensitively
+- Users can only be listed in either the `"articles[].authors"` or `"articles[].contributors"` array (no overlap)
+
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/&lt;article-slug&gt;/content.md is valid
+
+- The file's presence is required if a matching `"articles[].slug"` entry exists in the `.articles/config.json` file
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
+- Links must be absolute (relative links are not allowed)
+
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/&lt;article-slug&gt;/snippet.md is valid
+
+- The file's presence is required if a matching `"articles[].slug"` entry exists in the `.articles/config.json` file
+- The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
+- The snippet must have at most 8 lines (leading and trailing code fence markers are ignored)
+
 ### Rule: exercises/shared/.docs/debug.md is valid
 
 - The file's presence is optional

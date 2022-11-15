@@ -9,13 +9,14 @@ An approach should explore how an exercise can be solved a certain way.
 - Its contents should either:
   - Explore an idiomatic approach
   - Explore a non-idiomatic, but interesting approach
-  - Contain a meta discussion (e.g. comparing the performance of approaches)
 - Start with a (full) code sample
   - Liberally use code samples in the rest of the document
 - Feel free to dig deep into the topic
 - Link to useful resources (e.g. documentation)
 - The snippet should showcase the core of the approach
   - A maximum of 8 lines can be used
+
+If you'd like to compare different approaches, please write an [articles](/docs/building/tracks/articles).
 
 ## Approaches overview
 
