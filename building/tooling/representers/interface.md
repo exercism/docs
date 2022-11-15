@@ -10,9 +10,12 @@ All interactions with the Exercism website are handled automatically. Represente
   - A path to a directory containing the submitted file(s) (with a trailing slash).
   - A path to an output directory (with a trailing slash). This directory is writable.
 - The script must write a `representation.txt` file to the output directory.
+- The script must write a `representation.json` file to the output directory.
 - The script must write a `mapping.json` file to the output directory.
 
 ## Output format
+
+### representation.txt
 
 The `representation.txt` file contains some sort of canonical representation. This representation can take many forms, but is usually an AST:
 
@@ -50,6 +53,8 @@ class PLACEHOLDER_1
 end
 ```
 
+### mapping.json
+
 The `mapping.json` file maps placeholders to their original values:
 
 ```json
@@ -62,3 +67,15 @@ The `mapping.json` file maps placeholders to their original values:
 ```
 
 It is important to note that all identical names must be replaced with the same placeholder, irrespective of scope.
+
+### representation.json
+
+The `representation.json` file contains metadata:
+
+- `version`: the version number of the representer (defaults to `1`)
+
+Example:
+
+```json
+{ "version": 2 }
+```
