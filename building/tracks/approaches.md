@@ -42,3 +42,7 @@ If you'd like to compare different approaches, please write an [articles](/docs/
 In general, [Practice Exercises](/docs/building/tracks/practice-exercises) are more suitable to write approaches for, as they usually can be solved in multiple ways.
 
 For [Concept Exercises](/docs/building/tracks/concept-exercises), discussing the exemplar approach might be interesting. For example, you could show how the concept being taught makes certain code easier to write.
+
+## Configuring
+
+Make sure to set the `approaches.snippet_extension` field in your [track's `config.json` file](/docs/building/tracks/config-json).

@@ -375,10 +375,11 @@ The `config.json` file should have the following checks:
 - The Markdown must conform to the [Markdown standards](/docs/building/markdown/markdown)
 - Links must be absolute (relative links are not allowed)
 
-### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/snippet.txt is valid
+### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/snippet.&lt;snippet-extension&gt; is valid
 
 - The file's presence is required if a matching `"approaches[].slug"` entry exists in the `.approaches/config.json` file
 - The snippet must have at most 8 lines
+- The snippet extension is taken from the `approaches.snippet_extension` value in the track's `config.json` file
 
 ### Rule: exercises/{concept|practice}/&lt;slug&gt;/.articles/config.json is valid
 
