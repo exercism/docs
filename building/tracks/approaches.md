@@ -16,7 +16,7 @@ An approach should explore how an exercise can be solved a certain way.
 - The snippet should showcase the core of the approach
   - A maximum of 8 lines can be used
 
-If you'd like to compare different approaches, please write an [articles](/docs/building/tracks/articles).
+If you'd like to compare different approaches, please write an [article](/docs/building/tracks/articles).
 
 ## Approaches overview
 
