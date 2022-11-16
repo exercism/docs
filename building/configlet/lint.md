@@ -109,6 +109,8 @@ The `config.json` file should have the following checks:
   - The `"files.example` and `"files.exemplar"` files _can_ overlap
 - The `"test_runner.average_run_time"` key is required if `"status.test_runner"` is equal to `true`
 - The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
+- The `"approaches.snippet_extension"` key is required if the track has one or more approaches
+- The `"approaches.snippet_extension"` value must be a non-blank string¹
 - The `"exercises"` key is required
 - The `"exercises.concept"` key is required
 - The `"exercises.concept"` value must be an array
