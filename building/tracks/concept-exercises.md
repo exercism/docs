@@ -52,7 +52,7 @@ The language-specific files, like the implementation and test files. The names o
 - Test suite: verifies a solution's correctness (required)
 - Stub implementation: provides a starting point for students (required)
 - Exemplar implementation: provides an idiomatic implementation that passes all the tests (required)
-- Additional files: ensures that the tests can run (optional)
+- Additional files: ensure that the tests can run (optional)
 
 ### Example
 
