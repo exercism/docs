@@ -191,7 +191,7 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 
 [mail-abuse]: mailto:abuse@exercism.org?subject=%5BCoC%5D]
 [new-cli-issue]: https://github.com/exercism/CLI/issues/new
-[new-language-request]: https://github.com/exercism/request-new-language-track/blob/main/README.md
+[new-language-request]: https://github.com/exercism/generic-track/blob/main/README.md
 [opening-an-issue]: #opening-an-issue
 [overkill]: http://www.kytrinyx.com/talks/overkill
 [personal-settings]: https://exercism.org/my/settings/preferences/edit
