@@ -31,3 +31,12 @@ You need to introduce two concept, but each concept relies on the other.
 In this case you may be able to use a stub.
 Then you can explain that the dependent concept exists, but reassure them that they don't need to understand it yet.
 Another option would be to give a bare minimum of an introduction, enough for the student to get past the hurdle, while reassuring that the concept will be covered in more depth later.
+
+## Foregone exercises
+
+If you choose **not** to implement an exercise because it doesn't fit your track (e.g. a low-level exercise for a high-level track), please mark it as _foregone_.
+To do so, add the exercise's slug to the `exercises.foregone` array in your track's [config.json](/docs/building/tracks/config-json#h-foregone-exercises) file.
+
+Besides making your choice to not implement an exercise explicit, any tooling (such as [configlet](/docs/building/configlet)) will also ignore foregone exercises.
+
+For more information, see [the docs](/docs/building/tracks/config-json#h-foregone-exercises).
