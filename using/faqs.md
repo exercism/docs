@@ -127,6 +127,14 @@ In the "dots" menu, select "Delete iteration".
 Please check our [Code of Conduct][coc] for more information about our expectations of conduct.
 If you would like to report something, please reach out to us at [abuse@exercism.org][mail-abuse] and we will try to fix or resolve the issue respecting both you and your privacy.
 
+## Why can't I give feedback on representations?
+
+To give feedback on representations for a track, you need to pass the following three criteria:
+
+1. Be mentoring the track
+2. Have mentored at least 100 finished discussions for that track
+3. Have an overall satisfaction rating of at least 95%
+
 ## Improving Exercism
 
 ## This is great! How do I get involved?
