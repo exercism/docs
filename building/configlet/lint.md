@@ -327,6 +327,8 @@ The `config.json` file should have the following checks:
 - The `"test_runner"` value must be a boolean
 - The `"representer.version"` key is optional
 - The `"representer.version"` value must be an integer >= 1
+- The `"icon"` key is optional
+- The `"icon"` value must be a kebab-case string²
 
 ### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/config.json is valid
 
