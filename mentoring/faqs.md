@@ -1,4 +1,4 @@
-# Mentoring FAQ
+# Mentoring FAQs
 
 [What qualifies someone to be a mentor?](#h-what-qualifies-someone-to-be-a-mentor)
 
