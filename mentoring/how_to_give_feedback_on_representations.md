@@ -18,3 +18,17 @@ Even if your representer currently does _not_ normalize identifier names, you st
 
 As students will get to see both representer _and_ analyzer comments, make sure that you don't duplicate comments.
 To help with this, the analyzer comments are shown on the representation feedback page.
+
+## Draft feedback
+
+If a representation has feedback on it and either:
+
+- the exercise's representer version changed, or
+- the representation version changed
+
+a new representation will be created.
+
+The feedback of the old representation likely also applies to the new representation, but we can't be sure.
+Therefore, we copy the old representation's feedback as _draft_ feedback for the new representation.
+The new representation's draft feedback does _not_ result its comments being applied to solutions with that representation.
+Instead, the draft feedback is used to prepopulate the feedback when a supermentor wants to give feedback on the new representation.
