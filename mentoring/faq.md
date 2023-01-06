@@ -1,32 +1,32 @@
 # Mentoring FAQ
 
-[What qualifies someone to be a mentor?](#what-qualifies-someone-to-be-a-mentor)
+[What qualifies someone to be a mentor?](#h-what-qualifies-someone-to-be-a-mentor)
 
-[Can I mentor a language while I'm still learning it?](#can-i-mentor-a-language-while-im-still-learning-it)
+[Can I mentor a language while I'm still learning it?](#h-can-i-mentor-a-language-while-im-still-learning-it)
 
-[Can I mentor more than one language?](#can-i-mentor-more-than-one-language)
+[Can I mentor more than one language?](#h-can-i-mentor-more-than-one-language)
 
-[Should I try to mentor every solution in the queue?](#should-i-try-to-mentor-every-solution-in-the-queue)
+[Should I try to mentor every solution in the queue?](#h-should-i-try-to-mentor-every-solution-in-the-queue)
 
-[What if a solution has been sitting in the queue for days, even weeks?](#what-if-a-solution-has-been-sitting-in-the-queue-for-days-even-weeks)
+[What if a solution has been sitting in the queue for days, even weeks?](#h-what-if-a-solution-has-been-sitting-in-the-queue-for-days-even-weeks)
 
-[What if I have nothing to suggest about a solution?](#what-if-i-have-nothing-to-suggest-about-a-solution)
+[What if I have nothing to suggest about a solution?](#h-what-if-i-have-nothing-to-suggest-about-a-solution)
 
-[Should I mentor an exercise I've never solved?](#should-i-mentor-an-exercise-ive-never-solved)
+[Should I mentor an exercise I've never solved?](#h-should-i-mentor-an-exercise-ive-never-solved)
 
-[Should I mentor an exercise I've solved, but solved in a different language?](#should-i-mentor-an-exercise-ive-solved-but-solved-in-a-different-language)
+[Should I mentor an exercise I've solved, but solved in a different language?](#h-should-i-mentor-an-exercise-ive-solved-but-solved-in-a-different-language)
 
-[Do I have to mentor a solution once I've seen it?](#do-i-have-to-mentor-a-solution-once-ive-seen-it)
+[Do I have to mentor a solution once I've seen it?](#h-do-i-have-to-mentor-a-solution-once-ive-seen-it)
 
-[What if the student does not understand after I've explained something several times?](#what-if-the-student-does-not-understand-after-ive-explained-something-several-times)
+[What if the student does not understand after I've explained something several times?](#h-what-if-the-student-does-not-understand-after-ive-explained-something-several-times)
 
-[How do I respond if the student gets defensive about my suggestion(s)?](#how-do-i-respond-if-the-student-gets-defensive-about-my-suggestions)
+[How do I respond if the student gets defensive about my suggestion(s)?](#h-how-do-i-respond-if-the-student-gets-defensive-about-my-suggestions)
 
-[Should the student have the last word, even if I think they're wrong?](#should-the-student-have-the-last-word-even-if-i-think-theyre-wrong)
+[Should the student have the last word, even if I think they're wrong?](#h-should-the-student-have-the-last-word-even-if-i-think-theyre-wrong)
 
-[How do I best phrase a suggestion?](#how-do-i-best-phrase-a-suggestion)
+[How do I best phrase a suggestion?](#h-how-do-i-best-phrase-a-suggestion)
 
-[Should I enforce formatting, commenting, and naming conventions?](#should-i-enforce-formatting-commenting-and-naming-conventions)
+[Should I enforce formatting, commenting, and naming conventions?](#h-should-i-enforce-formatting-commenting-and-naming-conventions)
 
 ## What qualifies someone to be a mentor?
 
