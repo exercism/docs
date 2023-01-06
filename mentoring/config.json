@@ -37,5 +37,13 @@
     "slug": "markdown",
     "path": "mentoring/markdown.md",
     "title": "How to use Markdown in mentoring"
+  },
+  {
+    "uuid": "1088302e-3158-4d5b-b9dc-4c8655e43644",
+    "section": "mentoring",
+    "slug": "faqs",
+    "path": "mentoring/faqs.md",
+    "title": "Frequently asked mentoring questions",
+    "blurb": "An assortment of commonly asked questions related to mentoring"
   }
 ]
