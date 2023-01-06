@@ -1,6 +1,5 @@
 # Mentoring FAQ
 
-
 [What qualifies someone to be a mentor?](#what-qualifies-someone-to-be-a-mentor)
 
 [Can I mentor a language while I'm still learning it?](#can-i-mentor-a-language-while-im-still-learning-it)
@@ -113,7 +112,7 @@ You may look at a solution and realize you don't want to mentor it for any of se
 - The student may have asked a question that you don't know the answer for.
 - The code may be so verbose and/or confusing, you don't know where to start a critique.
 - The code may signal that the student is an absolute beginner who will need a lot of basic guidance
-that you have neither the time nor patience for.
+  that you have neither the time nor patience for.
 - The student's comment may be such that it signals the student may be unpleasant or laborious to interact with.
 
 Nothing obligates you to click the "Start mentoring" button if you think the particular mentoring request is not for you.
