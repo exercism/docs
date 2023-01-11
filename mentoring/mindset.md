@@ -19,8 +19,10 @@ All of it is worth reading and considering, especially
 
 ## The spirit of the mentee
 
-Some mentees may start their comment with something self-deprecatory.
-They may something like "I'm not very smart" or "I don't understand" or "I'm not very good at this".
+The spirit of a mentee could be seemingly off-putting.
+
+Some mentees may have something in their comment which is self-deprecatory.
+They may say something like "I'm not very smart" or "I don't understand" or "I'm not very good at this".
 It may be tempting to address such statements directly in the Exercism spirit of empathy and nurturing.
 As a mentor, though, it may be more effective to express the specific things you like about their solution
 than to give them some kind of vague reassurance.
@@ -29,7 +31,7 @@ or, if they didn't pass the tests, at least acknowledge their effort.
 
 Some mentees may start their comment with something that may come across as negative.
 They may say something like "Why do I have to do so-and-so?"
-It may feel as if they are complaining, "Why do I have to eat my peas? I _hate_ peas!"
+It may feel as if they are complaining in the manner of, "Why do I have to eat my peas? I _hate_ peas!"
 You may be put off from mentoring the person because it seems to be off to a confrontational start.
 But what can seem like defiance or a complaint could just be a simple inquiry, even if expressed a bit abruptly.
 It's best to ignore what emotion their comment may have triggered and simply respond to the question.
@@ -38,7 +40,7 @@ Those are just two examples illustrating how the perceived spirit of the mentee 
 
 ## The spirit of the mentor
 
-The basic spirit of the mentor could be either of pride or humility.
+The spirit of the mentor could be based on either pride or humility.
 A mentor may feel they are _entitled_ to mentor because they are smart and/or have a certain amount of experience.
 They may feel they should mentor because they know better than others.
 A mentor whose spirit is based in pride may may still approach the mentee with patience and polite guidance,
@@ -47,7 +49,7 @@ even though it may be more out of magnanimity than empathy.
 Or a mentor may have the spirit of humility.
 They may be keenly aware of what challenges they faced in learning how to program.
 They may know they don't have all the answers, but they know _some_, and they are willing to share their hard-earned knowledge.
-A mentor whose spirit is based in humility is still human, and may be tempted to respond to a difficult mentoring session in a
+A mentor whose spirit is based on humility is still human, and may be tempted to respond to a difficult mentoring session in a
 curt or argumentative way.
 Even a person with the best intentions needs to be vigilant when having a bad day.
 
@@ -56,6 +58,23 @@ Even a person with the best intentions needs to be vigilant when having a bad da
 Factual correctness is certainly important and has its place.
 For example, it's important that imperial units of measurement are not used where metric units of measurement are expected.
 Otherwise, a [$327 million Mars Climate Orbiter can crash][crash].
+Certainly, a person using a language professionally is expected to observe correctness as a key requirement.
+
+For someone _learning_ a language, however, the requirements are a bit different.
+For one, we don't want to discourage the person from continuing to learn the language.
+For some mentors, especially the ones with a spirit of pride, there may be a feeling of accomplishment in getting someone to realize
+they may not be suited to a particular language, or that this is not the right stage at which to learn that language.
+Although that may be an acceptable outcome in some work environments, it is not an outcome that is within the mindset of Exercism.
+
+Of course, mentees may decide for themselves not to continue pursuing a language.
+Most will likely not tell us, but will simply stop solving exercises for the language.
+During the course of a mentoring session, however, we should be faithfully supportive and encouraging.
+But there are different ways to do that.
+One way we don't want to do it is to be toxically positive.
+For instance, it is less helpful, and may make someone feel "less than", if we insist "I know you can figure it out"
+when they are having trouble understanding something.
+It may be more helpful to keep trying different explanations and offering other examples then to simply
+push them with encouragement that can sound to them like "C'mon! Don't you get it yet?"
 
 [exercism-about]: https://exercism.org/about
 [crash]: https://everydayastronaut.com/mars-climate-orbiter/
