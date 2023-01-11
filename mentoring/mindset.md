@@ -43,7 +43,7 @@ Those are just two examples illustrating how the perceived spirit of the mentee 
 The spirit of the mentor could be based on either pride or humility.
 A mentor may feel they are _entitled_ to mentor because they are smart and/or have a certain amount of experience.
 They may feel they should mentor because they know better than others.
-A mentor whose spirit is based in pride may may still approach the mentee with patience and polite guidance,
+A mentor whose spirit is based on pride may may still approach the mentee with patience and polite guidance,
 even though it may be more out of magnanimity than empathy.
 
 Or a mentor may have the spirit of humility.
@@ -84,7 +84,7 @@ Often, someone looking to be mentored has been studying a programming language f
 That person may or may not have experience with another language.
 If this is their first language, but they've picked up basic keywords and concepts, then they stand a good chance of benefitting from being mentored.
 They may require a bit more patience and explanation, which the mentor may not have realized when they first accepted the mentoring request.
-Once committed to the encounter. though, the Exercism mindset is to either be as supportive and encouraging as possible, even if that requires
+Once committed to the encounter, though, the Exercism mindset is to either be as supportive and encouraging as possible, even if that requires
 some extra effort, or to politely suggest that the session end so the mentee can resubmit for another mentor.
 
 Of course, mentees may decide for themselves not to continue pursuing a language.
