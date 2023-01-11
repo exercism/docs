@@ -66,6 +66,16 @@ For some mentors, especially the ones with a spirit of pride, there may be a fee
 they may not be suited to a particular language, or that this is not the right stage at which to learn that language.
 Although that may be an acceptable outcome in some work environments, it is not an outcome that is within the mindset of Exercism.
 
+```exercism/note
+One exception to that is for someone who is learning their first programming language.
+Exercism is intended for someone who already knows how to program and wants to learn another language.
+The upcoming Learn to Code platform will be directed at people who are just learning how to program.
+```
+
+Often, someone looking to be mentored has been studying a programming language for a few weeks or months and is seeking to improve on the basics they've learened.
+That person may or may not have experience with another language, but they have learned some of the basic keywords.
+TODO
+
 Of course, mentees may decide for themselves not to continue pursuing a language.
 Most will likely not tell us, but will simply stop solving exercises for the language.
 During the course of a mentoring session, however, we should be faithfully supportive and encouraging.
@@ -75,6 +85,7 @@ For instance, it is less helpful, and may make someone feel "less than", if we i
 when they are having trouble understanding something.
 It may be more helpful to keep trying different explanations and offering other examples then to simply
 push them with encouragement that can sound to them like "C'mon! Don't you get it yet?"
+TODO
 
 [exercism-about]: https://exercism.org/about
 [crash]: https://everydayastronaut.com/mars-climate-orbiter/
