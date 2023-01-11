@@ -80,19 +80,27 @@ Exercism is intended for someone who already knows how to program and wants to l
 The upcoming Learn to Code platform will be directed at people who are just learning how to program.
 ```
 
-Often, someone looking to be mentored has been studying a programming language for a few weeks or months and is seeking to improve on the basics they've learened.
-That person may or may not have experience with another language, but they have learned some of the basic keywords.
-TODO
+Often, someone looking to be mentored has been studying a programming language for a few weeks or months and is seeking to improve on the basics they've learned.
+That person may or may not have experience with another language.
+If this is their first language, but they've picked up basic keywords and concepts, then they stand a good chance of benefitting from being mentored.
+They may require a bit more patience and explanation, which the mentor may not have realized when they first accepted the mentoring request.
+Once committed to the encounter. though, the Exercism mindset is to either be as supportive and encouraging as possible, even if that requires
+some extra effort, or to politely suggest that the session end so the mentee can resubmit for another mentor.
 
 Of course, mentees may decide for themselves not to continue pursuing a language.
 Most will likely not tell us, but will simply stop solving exercises for the language.
 During the course of a mentoring session, however, we should be faithfully supportive and encouraging.
 But there are different ways to do that.
 One way we don't want to do it is to be toxically positive.
-For instance, it is less helpful, and may make someone feel "less than", if we insist "I know you can figure it out"
+For instance, it is less helpful, and may make someone feel "less than", if we encouragingly insist "I know you can figure it out"
 when they are having trouble understanding something.
 It may be more helpful to keep trying different explanations and offering other examples then to simply
 push them with encouragement that can sound to them like "C'mon! Don't you get it yet?"
+TODO
+
+## The spirit of obligation
+
+A mentor may not be sure of their obligations.
 TODO
 
 [exercism-about]: https://exercism.org/about
