@@ -53,6 +53,14 @@ A mentor whose spirit is based on humility is still human, and may be tempted to
 curt or argumentative way.
 Even a person with the best intentions needs to be vigilant when having a bad day.
 
+There is a third spirit which is a variant on the spirit of pride, and that is the spirit of insecurity.
+A mentor may feel insecure about their reputation and seek validation from mentees as a way to compensate.
+They may overwhelm the mentee with voluminous data and references to show how well-informed they are.
+The mentee may get useful information out of such a data-dump, but that is the secondary objective of the insecure mentor.
+The primary objective is to demonstrate how knowledgeable the mentor is.
+Although motivated by a different objective, the insecure mentor may still succeed in achieving the goals of the Exercism mindset
+to the extent they don't lose the mentee in the weeds.
+
 ## The spirit of the truth
 
 Factual correctness is certainly important and has its place.
