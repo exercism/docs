@@ -13,6 +13,7 @@ It can be helpful to review the intent of Exercism as expressed on the [About][e
 All of it is worth reading and considering, especially
 
 - "We’re building a place where anyone can learn and master programming for free, without ever feeling lost or stupid."
+- "Exercism should be enjoyable, challenging and valuable."
 - "Exercism should encourage a growth-mindset, clear and empathetic communication, and emphasize the value in learning together."
 - "Exercism should feel safe and nurturing."
 - "Exercism focusses on the learning journey, not the destination. The process and enjoyment of learning is more important than absolute factual correctness."
@@ -32,7 +33,7 @@ or, if they didn't pass the tests, at least acknowledge their effort.
 Some mentees may start their comment with something that may come across as negative.
 They may say something like "Why do I have to do so-and-so?"
 It may feel as if they are complaining in the manner of, "Why do I have to eat my peas? I _hate_ peas!"
-You may be put off from mentoring the person because it seems to be off to a confrontational start.
+You may be put off from mentoring the person because they seem to be off to a confrontational start.
 But what can seem like defiance or a complaint could just be a simple inquiry, even if expressed a bit abruptly.
 It's best to ignore what emotion their comment may have triggered and simply respond to the question.
 
@@ -91,17 +92,49 @@ Of course, mentees may decide for themselves not to continue pursuing a language
 Most will likely not tell us, but will simply stop solving exercises for the language.
 During the course of a mentoring session, however, we should be faithfully supportive and encouraging.
 But there are different ways to do that.
-One way we don't want to do it is to be toxically positive.
+One way we don't want to do it is to be [toxically positive][toxic-positivity].
 For instance, it is less helpful, and may make someone feel "less than", if we encouragingly insist "I know you can figure it out"
 when they are having trouble understanding something.
 It may be more helpful to keep trying different explanations and offering other examples then to simply
 push them with encouragement that can sound to them like "C'mon! Don't you get it yet?"
-TODO
+
+The solution a mentee arrives at, even after several iterations with a mentor, may not be the most performant,
+or may not be _perfectly_ conformant with coding standards.
+To drive the mentee for a perfect solution is an example of the absolute factual correctness that is not in the spirit of Exercism.
+The solution may be [good enough][good-enough], at which point the refinement of technique can be reserved for another mentoring session.
 
 ## The spirit of obligation
 
 A mentor may not be sure of their obligations.
-TODO
+The obligations are few and simple: to be helpful and encouraging.
+If at any point the mentor feels they can't be either of those, then it may be best to politely suggest that the session end
+so the mentee can resubmit for another mentor.
+It may be best for the mentor to invite the menteee to end the discussion, but if the mentor feels the need to end the discussion,
+it would be polite to do so with a final comment explaining why.
+Although it may be tempting to focus on the faults of the mentee that made the session unsatisfactory,
+it would be more in the spirit of Exercism for the mentor to not focus blame on the mentee. 
+
+## The spirit of cooperation
+
+The cooperative spirit of Exercism is best expressed by not just giving away the (better) solution to the exercise,
+but by describing other appproaches that could be used and leaving it to the mentee to code the implementation of those suggestions.
+The solution could be made _optionally_ available to the mentee in case they get stuck.
+It could be a snippet example in a collapsible details section, or it could be a link to a published solution.
+It would be the mentee's choice whether to expand the section or follow the link.
+
+It's possible the mentee may acknowledge a preference for a suggestion, but say they will keep it in mind for the future.
+The mentor may suggest that another iteration could be submitted that is based on the suggestion,
+but the mentee may decide to end the discussion without modifying their original solution.
+Although it may a bit embarrassing to have a published solution marked as being mentored by you that you think could be better,
+it is in the spirit of cooperation to not push the mentee to implement the suggestion if they seem disinclined.
+
+Another way the cooperative spirit works is by the mentor learning from the mentee.
+During the course of the session the mentee may bring up something the mentor doesn't know.
+A mentor is not expected to present an "all-knowing" facade.
+It's perfectly fine for a mentor to express that they didn't know or had not thought of something the mentee brings up.
+It's part of the cooperative learning process.
 
 [exercism-about]: https://exercism.org/about
 [crash]: https://everydayastronaut.com/mars-climate-orbiter/
+[toxic-positivity]: https://rightasrain.uwmedicine.org/mind/well-being/toxic-positivity
+[good-enough]: https://en.wikipedia.org/wiki/Principle_of_good_enough
