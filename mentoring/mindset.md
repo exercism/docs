@@ -77,7 +77,7 @@ Although that may be an acceptable outcome in some work environments, it is not 
 
 ```exercism/note
 One exception to that is for someone who is learning their first programming language.
-Exercism is intended for someone who already knows how to program and wants to learn another language.
+Exercism is intended for someone who already knows how to program and wants to learn another language or improve their existing skills.
 The upcoming Learn to Code platform will be directed at people who are just learning how to program.
 ```
 
