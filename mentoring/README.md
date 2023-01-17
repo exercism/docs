@@ -8,3 +8,4 @@ Welcome to the Exercism Mentoring Team. Follow the links below for guides on how
 - [How to give feedback on representations](/docs/mentoring/how-to-give-feedback-on-representations)
 - [How to use Markdown in mentoring](/docs/mentoring/markdown)
 - [The Mentoring Mindset](/docs/mentoring/mindset)
+- [Mentoring Tips]: (/docs/mentoring/tips)
