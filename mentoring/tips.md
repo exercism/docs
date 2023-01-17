@@ -83,7 +83,31 @@ if black was the first band for a leading zero:
 >So black would not be a first band.
 >Besides, `parseInt` or `Number` will also remove the leading zero.
 
-TODO
+An optional cateory of data to keep in mentoring notes is a record of benchmarks for various solutions or approaches.
+
+## Benchmarking
+
+A common concern for mentees is how performant their solution is.
+This is especially the case for "lower-level" languages such as C, C++, Go, and Rust.
+Along with how idiomatic their code is, mentees of other languages are also often concerned with the efficiency of their code.
+
+```exercism/notes
+Benchmarking is not something that a mentor is _expected_ to do.
+However, mentees are often particularly impressed by how a benchmark of their solution compares with other approaches.
+```
+
+Go is a particularly friendly track for benchmarking, as benchmarks are often included in the test file.
+Other languages may require some research to determine what method would work best for you.
+For instance, if you only use the online editor, then you would be looking for a place to run benchmarks online.
+For example, [JSBench.me][jsbench-me] is an online benchmarker for JavaScript.
+
+If you run code locally, then you have the option of downloading benchmarking software you can run on your machine.
+For example, Rust can use [Criterion][criterion], or [cargo bench][cargo-bench] with [benchmark tests][rust-benchmark-tests].
+
+More TODO
 
 [website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
-
+[jsbench-me]: https://jsbench.me/
+[criterion]: https://crates.io/crates/criterion
+[cargo-bench]: https://doc.rust-lang.org/cargo/commands/cargo-bench.html
+[rust-benchmark-tests]: https://doc.rust-lang.org/unstable-book/library-features/test.html
