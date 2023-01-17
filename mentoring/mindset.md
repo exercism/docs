@@ -35,6 +35,12 @@ They may say something like "Why do I have to do so-and-so?"
 It may feel as if they are complaining in the manner of, "Why do I have to eat my peas? I _hate_ peas!"
 You may be put off from mentoring the person because they seem to be off to a confrontational start.
 But what can seem like defiance or a complaint could just be a simple inquiry, even if expressed a bit abruptly.
+
+```exercism/note
+Many mentees do not have English as their first language.
+This can be another reason why a mentee's initial comments may seem less friendly than they really are.
+```
+
 It's best to ignore what emotion their comment may have triggered and simply respond to the question.
 
 Those are just two examples illustrating how the perceived spirit of the mentee should not affect the attitude of the mentor in responding to them.
@@ -132,6 +138,7 @@ Another way the cooperative spirit works is by the mentor learning from the ment
 During the course of the session the mentee may bring up something the mentor doesn't know.
 A mentor is not expected to present an "all-knowing" facade.
 It's perfectly fine for a mentor to express that they didn't know or had not thought of something the mentee brings up.
+Letting the mentee know that they taught you something can be one of the biggest boosts you can give.
 It's part of the cooperative learning process.
 
 [exercism-about]: https://exercism.org/about
