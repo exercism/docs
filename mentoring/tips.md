@@ -1,0 +1,89 @@
+# Mentoring Tips
+
+## Mentoring Notes
+
+One of the biggest helps to mentoring can be to have a file to hold notes for each exercise you mentor.
+You may find that many solutions can benefit from the same suggestions, so, by keeping notes,
+you don't need to keep writing up the same suggestions from memory.
+And, by having the suggestions in one place, you can keep refining them over time to make them clearer.
+
+If you're not sure how to get started with your notes, you may find a `mentoring.md` file for your track's
+exercise under [exercism/website-copy/tracks][website-copy].
+If it exists, it may include examples of reasonable solutions, along with common suggestions and talking points
+to prompt further discussion.
+If it doesn't exist, you may want to go back and create one after you've made your own file of notes for that exercise.
+
+Also, even if you only mentor one language now, you may mentor more in the future.
+It may help to organize your mentoring notes by track as well as by exercise name, as different tracks will likely require
+different suggestions for the same exercise.
+
+Mentoring notes are handy, whether you mentor the exercise frequently or infrequently.
+If you mentor the exerise frequently, it saves a lot of typing from scratch, when you can just copy-and-paste from your notes.
+If you mentor the exerise infrequently, it can remind you of suggestions to make that you may have forgotten in the weeks or months
+since you last mentored it.
+
+It's okay for mentoring notes to differ between mentors.
+Here is one way to structure them, but it is not the _only_ way.
+
+Congratulate the mentee on passing the tests (if they passed them).
+
+If the exercises has been sitting in the queue for a few days, maybe address that with something like:
+
+>Sorry it took a while for someone to get back to you.
+>There is currently a shortage of active JavaScript mentors for `Resistor Color Duo`.
+
+Itemize what you like about the mentee's solution.
+For example:
+
+- I like this solution is succinct and readable.
+
+- I like the use of `indexOf`.
+
+- I like this uses the `(first * 10) + second` approach to avoid casting between number to string back to number.
+
+- I like this does not use looping/iteration.
+
+- I like the destructured parameter.
+
+Next could come your frequent suggestions.
+
+```exercism/note
+It can be very helpful for the mentee if a link is provided for each new language feature you introduce.
+For example:
+
+>It's not necessary for this exercise, but perhaps consider converting the function to an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
+```
+
+Although we don't want to give away the solution, sometimes a mentee learns best by example.
+To put a snippet of code in a collapsed details section can provide that example, which the mentee can choose to expand or not.
+For example:
+
+
+&lt;details&gt;&lt;summary&gt;Spoiler Example&lt;/summary&gt;
+
+&lt;pre&gt;
+
+export const decodedValue = ([firstColor, secondColor]) =>
+  COLORS.indexOf(firstColor) * 10 + COLORS.indexOf(secondColor)
+
+&lt;/pre&gt;
+
+&lt;/details&gt;
+
+Toward the end of the notes you might include a link to a published solution which represents the suggestions in full.
+
+At the very bottom of your notes you may want to put extended explanations that mentees sometimes ask for.
+These explanations don't come up often, but it can still be good to record them the first time you use them,
+so the next time, which could be weeks or months away, you won't have to come up with the explanation from scratch.
+For example, sometimes a mentee will ask about how the multiplication approach would work for Resistor Color Duo
+if black was the first band for a leading zero:
+
+>Black for a first band is a good point to consider, so let's consider it.
+>The resister color is meant to represent the amount of ohms for the resistor, and a leading zero would not be used for that.
+>So black would not be a first band.
+>Besides, `parseInt` or `Number` will also remove the leading zero.
+
+TODO
+
+[website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
+
