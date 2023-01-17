@@ -44,7 +44,7 @@ Those are just two examples illustrating how the perceived spirit of the mentee 
 The spirit of the mentor could be based on either pride or humility.
 A mentor may feel they are _entitled_ to mentor because they are smart and/or have a certain amount of experience.
 They may feel they should mentor because they know better than others.
-A mentor whose spirit is based on pride may may still approach the mentee with patience and polite guidance,
+A mentor whose spirit is based on pride may still approach the mentee with patience and polite guidance,
 even though it may be more out of magnanimity than empathy.
 
 Or a mentor may have the spirit of humility.
