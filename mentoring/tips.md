@@ -115,6 +115,79 @@ If providing a link to a solution you benchmarked, be sure to provide a link to 
 Not all solutions that are mentored get published.
 ~~~~
 
+## Mentoring Notes That Are Not Exercise-Specific
+
+There may be some features of the language that you find addressing for more than one exercise.
+When about to copy-and-paste a suggestion from one file to another, perhaps consider putting it into its own file instead.
+Again, a benefit for keeping a suggestion in one place is to make it easier to refine over time.
+It also makes it easier to find when using it for an exercise you haven't used it before.
+Rather than trying to remember in which exercise you addressed the suggestion before,
+you can go right to the suggestion's own file.
+
+## When a Menteee Has a Question
+
+Mentees are encouraged to specify what they expect to get from the mentoring session.
+They will often express that in the form of a question.
+If the question is something for which you don't know the answer and are not interested in,
+it is okay to leave the mentoring request for another mentor.
+
+If you don't know the answer but want to find it, then it may be best to not pick up the mentoring request until you've learned the answer.
+If the mentoring request is gone by that time, at least you've learned something and didn't make the mentee wait.
+
+One exception to this may be if the mentoring request has already been in the queue for several days or longer.
+In that situation you may want to pick up the mentoring request and give what feedback you can,
+and let the mentee know you will get back to them on their question.
+Of course, it is important to follow up on that, either to inform the mentee of the answer, or to let them know you couldn't find it.
+If you couldn't find the answer, it may be helpful to the mentee to describe what ways you took to try to find the answer.
+The mentee may respond with other ways to try to find the answer.
+Between the two of you, the answer may be found.
+
+If you have exhausted every way you know of to find the answer, you can suggest the mentee end the discussion and resubmit their request
+on the chance that another mentor may provide the answer.
+If they care to, the mentee can post on the ended discussion to share the answer with you once they learn it.
+And likewise, if you learn the answer later, you can go back to the ended discussion and let the mentee know.
+
+If you do know the ansewr and want to address it, a good place to do so in between telling the student what you like about their solution
+and offering suggestions for other approaches.
+
+### Failing Code
+
+Code can fail either because it does not pass all the tests or because it doesn't compile or satisfy the interpreter.
+
+Different mentors will have varying inclinations and/or patience for dealing with failing code, which may somewhat depend on how it is presented,
+as failing code is not always presented in the same way.
+
+Sometimes a mentee will try say that they tried another approach and it didn't work, and they will ask why it didn't work.
+The code may not even be provided, or it may be posted in a practically unreadable comment instead of in an iteration.
+
+A solution tested in the web editor can only be submitted for a mentoring request if it has passed all the tests.
+One of the reasons is so the mentor can focus on suggesting improvements or other approaches to the existing working code.
+_Debugging_ code is not necessarily something a mentor wants or is expected to do.
+However, a failing solution submitted through the CLI can be submitted for a mentoring request, with the student asking for help to solve it.
+
+If the failing code has not been provided, and the described failing approach does not sound like a good one, it may be enough to suggest that,
+instead of using the failing approach, another approach could be one that is neither the failed approach or the one they used that did pass.
+Or it may be enough to explain why the approach they used is better than the failed approach,
+without getting into the details of what bug was in the failed approach.
+
+For example, a common occurrence is mentees having trouble with Robot Name.
+Either the tests time out or they fail to generate enough names, and they want to know how to fix it.
+If you have the inclination and the patience, you can certainly analyze their code and suggest how to address the problem.
+Or you can explain that checking randomly generated names causes more collision as more names are generated,
+and suggest that another approach could be to generate the names sequentially and then shuffle them.
+
+If the failing code has been pasted into a practically unreadable comment,
+you may want to give what feedback you can on the passing solution,
+and suggest they submit the comment code as another iteration.
+You can also suggest that the mentee then check the errors for the failing iteration as a guide to where the problem is.
+
+If the code is in a failing iteration, then it can be helpful to direct the mentee to check the errors for the test run.
+Some languages need a bit more guidance on how to read errors or test results than others.
+It may be helpful to quote one or more parts of the errors and explain to the student what is meant.
+
+Ultimately, it is not the mentor's responsibility to fix the mentee's failing code,
+but the mentor, if they want to, can suggest ways to the mentee for fixing it themselves.
+
 [website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
 [jsbench-me]: https://jsbench.me/
 [criterion]: https://crates.io/crates/criterion
