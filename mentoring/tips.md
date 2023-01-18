@@ -47,17 +47,16 @@ For example:
 
 Next could come your frequent suggestions.
 
-```exercism/note
+~~~~exercism/note
 It can be very helpful for the mentee if a link is provided for each new language feature you introduce.
 For example:
 
 >It's not necessary for this exercise, but perhaps consider converting the function to an [arrow function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions).
-```
+~~~~
 
 Although we don't want to give away the solution, sometimes a mentee learns best by example.
 To put a snippet of code in a collapsed details section can provide that example, which the mentee can choose to expand or not.
 For example:
-
 
 &lt;details&gt;&lt;summary&gt;Spoiler Example&lt;/summary&gt;
 
@@ -79,7 +78,8 @@ For example, sometimes a mentee will ask about how the multiplication approach w
 if black was the first band for a leading zero:
 
 >Black for a first band is a good point to consider, so let's consider it.
->The resister color is meant to represent the amount of ohms for the resistor, and a leading zero would not be used for that.
+>The resister color is meant to represent the amount of ohms for the resistor,
+>and a leading zero would not be used for a multi-band resistor.
 >So black would not be a first band.
 >Besides, `parseInt` or `Number` will also remove the leading zero.
 
@@ -91,10 +91,10 @@ A common concern for mentees is how performant their solution is.
 This is especially the case for "lower-level" languages such as C, C++, Go, and Rust.
 Along with how idiomatic their code is, mentees of other languages are also often concerned with the efficiency of their code.
 
-```exercism/notes
+~~~~exercism/notes
 Benchmarking is not something that a mentor is _expected_ to do.
 However, mentees are often particularly impressed by how a benchmark of their solution compares with other approaches.
-```
+~~~~
 
 Go is a particularly friendly track for benchmarking, as benchmarks are often included in the test file.
 Other languages may require some research to determine what method would work best for you.
@@ -104,7 +104,16 @@ For example, [JSBench.me][jsbench-me] is an online benchmarker for JavaScript.
 If you run code locally, then you have the option of downloading benchmarking software you can run on your machine.
 For example, Rust can use [Criterion][criterion], or [cargo bench][cargo-bench] with [benchmark tests][rust-benchmark-tests].
 
-More TODO
+There are at least a couple ways to keep track of benchmarks.
+One way is to keep a running list of all the ones you benchmark, but that can get unwieldy if the list gets long.
+Another way is to keep a list of repesentative benchmarks for different approaches.
+Mentees often want to see the code for the faster approaches, so if a faster approach is published,
+it will likely be much appreciated to provide the link to it.
+
+~~~~exercism/caution
+If providing a link to a solution you benchmarked, be sure to provide a link to the published solution and not to the mentoring session.
+Not all solutions that are mentored get published.
+~~~~
 
 [website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
 [jsbench-me]: https://jsbench.me/
