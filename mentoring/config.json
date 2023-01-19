@@ -53,5 +53,13 @@
     "path": "mentoring/mindset.md",
     "title": "The Mentoring Mindset",
     "blurb": "An examination of the mentoring mindset"
+  },
+  {
+    "uuid": "2a0477c1-9638-43ac-a5bc-8b82826caaed",
+    "section": "mentoring",
+    "slug": "tips",
+    "path": "mentoring/tips.md",
+    "title": "Mentoring Tips",
+    "blurb": "An assortment of tips for mentoring"
   }
 ]
