@@ -124,7 +124,7 @@ It also makes it easier to find when using it for an exercise you haven't used i
 Rather than trying to remember in which exercise you addressed the suggestion before,
 you can go right to the suggestion's own file.
 
-## When a Menteee Has a Question
+## When a Mentee Has a Question
 
 Mentees are encouraged to specify what they expect to get from the mentoring session.
 They will often express that in the form of a question.
@@ -147,7 +147,7 @@ on the chance that another mentor may provide the answer.
 If they care to, the mentee can post on the ended discussion to share the answer with you once they learn it.
 And likewise, if you learn the answer later, you can go back to the ended discussion and let the mentee know.
 
-If you do know the ansewr and want to address it, a good place to do so in between telling the student what you like about their solution
+If you do know the answer and want to address it, a good place to do so is in between telling the student what you like about their solution
 and offering suggestions for other approaches.
 
 ### Failing Code
@@ -187,6 +187,30 @@ It may be helpful to quote one or more parts of the errors and explain to the st
 
 Ultimately, it is not the mentor's responsibility to fix the mentee's failing code,
 but the mentor, if they want to, can suggest ways to the mentee for fixing it themselves.
+
+## Dealing with the Queue Continuum
+
+It may be that you sign on to mentor a track, but you never see any exercises in its queue to mentor.
+You may think that something is wrong, but there are at least a couple reasons for this.
+One reason is that people may not be requesting mentoring on the track for now.
+Sometimes a track may have periods of inactivity.
+Another reason is that other mentors may be picking up the requests before you see them.
+This is likely to happen for a popular track that has many active mentors.
+
+If there are many requests in the queue, there are a few ways to approach mentoring them.
+You may want to work from the oldest to the newest, so those who've waited the longest are dealt with first.
+Or, you may choose to work from the newest to oldest, especially if the oldest have already been waiting a long time.
+That way, people who have been recently active don't have to wait for the backlog to be handled.
+
+If there are multiple requests for the same exercise, you may want to work through them in batches of the same exercise to maintain focus,
+as opposed to going from exercise A to exercise B back to exercise A.
+
+It may be that a request for an exercise that you are not interested in has been sitting there for days or weeks.
+You can choose to not address it in hope that another mentor will pick it up, or it may serve as motivation to give the exercise a try yourself.
+One thing that may be helpful is to look at the submitted solution.
+It may use an approach that you hadn't thought of, and that approach may make solving the exercise more attractive to you.
+But, if you look at the code and are still not interested in solving the exercises, there is no harm done.
+Just because you look at a mentoring request doesn't mean you have to click the "Start mentoring" button.
 
 [website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
 [jsbench-me]: https://jsbench.me/
