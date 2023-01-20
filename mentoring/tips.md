@@ -91,7 +91,7 @@ A common concern for mentees is how performant their solution is.
 This is especially the case for "lower-level" languages such as C, C++, Go, and Rust.
 Along with how idiomatic their code is, mentees of other languages are also often concerned with the efficiency of their code.
 
-~~~~exercism/notes
+~~~~exercism/note
 Benchmarking is not something that a mentor is _expected_ to do.
 However, mentees are often particularly impressed by how a benchmark of their solution compares with other approaches.
 ~~~~
@@ -209,7 +209,7 @@ It may be that a request for an exercise that you are not interested in has been
 You can choose to not address it in hope that another mentor will pick it up, or it may serve as motivation to give the exercise a try yourself.
 One thing that may be helpful is to look at the submitted solution.
 It may use an approach that you hadn't thought of, and that approach may make solving the exercise more attractive to you.
-But, if you look at the code and are still not interested in solving the exercises, there is no harm done.
+But, if you look at the code and are still not interested in solving the exercise, there is no harm done.
 Just because you look at a mentoring request doesn't mean you have to click the "Start mentoring" button.
 
 [website-copy]: https://github.com/exercism/website-copy/tree/main/tracks
