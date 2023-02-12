@@ -10,7 +10,8 @@ docs
 ├── SNIPPET.txt (required)
 ├── REPRESENTER_NORMALIZATIONS.md (optional)
 ├── RESOURCES.md (required)
-└── TESTS.md (required)
+├── TESTS.md (required)
+└── config.json (required)
 ```
 
 ---
@@ -282,6 +283,7 @@ let PLACEHOLDER_3 PLACEHOLDER_2 = PLACEHOLDER_2 + 1
 
 Check [this page](https://exercism.org/docs/tracks/fsharp/resources) to see what this looks like when rendered.
 
+
 ## File: `TESTS.md`
 
 **Purpose:** Describe everything related to running tests in the track.
@@ -317,3 +319,47 @@ dotnet add package [package-name]
 ````
 
 Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what this looks like when rendered.
+
+
+## File: `config.json`
+
+**Purpose:** Tell the site builder what pages are available.
+
+**Displayed on:** (not displayed)
+
+### Example
+
+````json
+{
+  "docs": [
+    {
+      "uuid": "a2d18097-4e65-4826-85b9-4ed8f71689bd",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing V locally",
+      "blurb": "Learn how to install V locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "afa98f6a-9af2-4fc0-b9a6-b9f3df2289ab",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn V",
+      "blurb": "An overview of how to get started from scratch with V"
+    },
+    {
+      "uuid": "038fbf82-4c35-4b43-a30d-d73cda5b4c31",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the V track",
+      "blurb": "Learn how to test your V exercises on Exercism"
+    },
+    {
+      "uuid": "98eaa5bb-f4a2-4cf0-b92e-abe0e62068cd",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful V resources",
+      "blurb": "A collection of useful resources to help you master V"
+    }
+  ]
+}
+````
