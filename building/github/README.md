@@ -31,7 +31,7 @@ There is also GitHub-specific tooling you can use:
 
 [tasks]: https://exercism.org/contributing/tasks
 [github]: https://github.com
-[github-course]: https://lab.github.com/githubtraining/introduction-to-github
+[github-course]: https://github.com/skills/introduction-to-github
 [github-cli]: https://cli.github.com/
 [github-desktop]: https://desktop.github.com/
 [github-vs-code]: https://code.visualstudio.com/docs/editor/github
