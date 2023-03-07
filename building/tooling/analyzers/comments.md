@@ -135,6 +135,6 @@ on type later. For simpler cases, it's more common to rely on `errors.New` or
 custom errors might be interesting.
 ```
 
-[git-website-copy]: https://github.com/exercism/website-copy/tree/main/automated-comments
+[git-website-copy]: https://github.com/exercism/website-copy/tree/main/analyzer-comments
 [issue-ci-comments]: https://github.com/exercism/automated-mentoring-support/issues/51
 [git-website-copy-label]: https://github.com/exercism/website-copy/pulls?q=is%3Aopen+is%3Apr+label%3Atype%2Fanalyzer-comments
