@@ -571,7 +571,9 @@ public static class Isogram
 - The code should be as simple as possible.
 - Only use language features introduced by the exercise's prerequisites (and their prerequisites, and so on).
 - The tests file is shown to the student when doing in-browser coding and downloaded to the student's file system when using the CLI.
-- Exercism favors Practice Exercises being completed via Test Driven Development. To achieve this, all but the first test should be skipped by default. How this is done differs between languages.
+- Exercism favors Practice Exercises being completed via Test Driven Development. To achieve this, there are two options:
+  - The test runner must run the tests in the order defined in the file AND the test suite must bail on the first failure; or
+  - All but the first test should be skipped by default.
 - The relative paths to the test file(s) must be specified in the [`.meta/config.json` file's `"files.test"` key](./#filemetaconfigjson).
 
 #### Example
