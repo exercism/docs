@@ -6,7 +6,7 @@ This document contains some Exercism-specific pull request review guidelines.
 ## Reviewing Exercise Pull Requests
 
 Reviewing a pull request for a Concept Exercise or Practice Exercise can be daunting with the many rules around these types of exercise.
-For this reason, a first-pass review by a maintainer often take 2 to 3 hours and results in dozens of comments.
+For this reason, a first-pass review by a maintainer often takes two to three hours and results in dozens of comments.
 For Concept Exercises, there are also files with similar goals/contents (e.g. the exercise and concept introduction), where focusing on getting one of those perfect first is essential before branching out too far.
 
 To help streamline this workflow, we've developed the following recommendations.

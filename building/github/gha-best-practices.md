@@ -41,16 +41,16 @@ jobs:
 
 ### Consider if (third-party) actions are really needed
 
-Actions should be treated like dependencies in your favourite programming language[^1], they are code written by third party authors outside of the control of Exercism.
+Actions should be treated like dependencies in your favourite programming language <sup>1</sup>, they are code written by third party authors outside of the control of Exercism.
 Even if you trust the authors of the action, there may be a hostile takeover of the repository which will indirectly give those people access to Exercism repos, including write access.
 
 Therefore, you should carefully consider if introducing a new action is really worth it or if it's better to move the code into a (new) action under Exercism's control.
 
 Also consider if the action is actively maintained, e.g. by checking recent repo activity or ensuring that the action is part of an organisation rather than an individual account.
 
-Actions published by [GitHub](https://github.com/actions/) or the Exercism org can generally be considered as safe(ish) to include without special consideration.
+Actions published by [GitHub](https://github.com/actions/) or the Exercism organization can generally be considered as safe(ish) to include without special consideration.
 
-[^1]: unless the language uses the npm ecosystem.
+<sup>1</sup>: unless the language uses the `npm` ecosystem.
 
 ### Limit scope of workflow token
 

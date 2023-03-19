@@ -2,7 +2,7 @@
 
 Our Analyzers are deployed as Docker images.
 
-Please read the [general Tooling docker information](/docs/building/tooling/analyzers/docker) to familiarize yourself with how these work.
+Please read the [general tooling Docker information](/docs/building/tooling/docker) to familiarize yourself with how these work.
 
 When we run the Analyzer's container we execute a `run.sh` script.
 To ensure this works properly the following rules must be following:
