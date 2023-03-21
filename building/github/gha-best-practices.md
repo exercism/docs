@@ -3,15 +3,21 @@
 This _working_ document serves as a collection of best practices for making use of GitHub Actions.
 If you have any suggestions or additions, [please open a pull request on GitHub!](https://github.com/exercism/docs/edit/main/building/github/gha-best-practices.md)
 
-- [Collection of Best Practices](#collection-of-best-practices)
-  - [Set timeouts for workflows](#set-timeouts-for-workflows)
-  - [Consider if (third-party) actions are really needed](#consider-if-third-party-actions-are-really-needed)
-  - [Limit scope of workflow token](#limit-scope-of-workflow-token)
-  - [Pin actions to SHAs](#pin-actions-to-shas)
-  - [Consider setting up a concurrency strategy](#consider-setting-up-a-concurrency-strategy)
-  - [Consider which triggers are really needed](#consider-which-triggers-are-really-needed)
-  - [Read the "Security hardening for GitHub Actions" guide](#read-the-security-hardening-for-github-actions-guide)
-- [Workflow Checklist](#workflow-checklist)
+- [GitHub Actions: Best Practices](#github-actions-best-practices)
+  - [Collection of Best Practices](#collection-of-best-practices)
+    - [Set timeouts for workflows](#set-timeouts-for-workflows)
+      - [Example](#example)
+    - [Consider if (third-party) actions are really needed](#consider-if-third-party-actions-are-really-needed)
+    - [Limit scope of workflow token](#limit-scope-of-workflow-token)
+      - [Example](#example-1)
+    - [Pin actions to SHAs](#pin-actions-to-shas)
+      - [Finding the commit SHA](#finding-the-commit-sha)
+      - [Example](#example-2)
+    - [Consider setting up a concurrency strategy](#consider-setting-up-a-concurrency-strategy)
+      - [Example](#example-3)
+    - [Consider which triggers are really needed](#consider-which-triggers-are-really-needed)
+    - [Read the "Security hardening for GitHub Actions" guide](#read-the-security-hardening-for-github-actions-guide)
+  - [Workflow Checklist](#workflow-checklist)
 
 ## Collection of Best Practices
 
@@ -41,16 +47,16 @@ jobs:
 
 ### Consider if (third-party) actions are really needed
 
-Actions should be treated like dependencies in your favourite programming language <sup>1</sup>, they are code written by third party authors outside of the control of Exercism.
+Actions should be treated like dependencies in your favourite programming language[^1], they are code written by third party authors outside of the control of Exercism.
 Even if you trust the authors of the action, there may be a hostile takeover of the repository which will indirectly give those people access to Exercism repos, including write access.
 
 Therefore, you should carefully consider if introducing a new action is really worth it or if it's better to move the code into a (new) action under Exercism's control.
 
 Also consider if the action is actively maintained, e.g. by checking recent repo activity or ensuring that the action is part of an organisation rather than an individual account.
 
-Actions published by [GitHub](https://github.com/actions/) or the Exercism organization can generally be considered as safe(ish) to include without special consideration.
+Actions published by [GitHub](https://github.com/actions/) or the Exercism org can generally be considered as safe(ish) to include without special consideration.
 
-<sup>1</sup>: unless the language uses the `npm` ecosystem.
+[^1]: unless the language uses the npm ecosystem.
 
 ### Limit scope of workflow token
 

@@ -7,7 +7,8 @@ This documents contains some additional, Exercism-specific guidelines for differ
 
 ## Exercise Pull Requests
 
-Creating a pull request for a Concept Exercise or Practice Exercise can be daunting with the many rules around these types of exercises. For this reason, it can take a maintainer two to three hours to review and can result in dozens of comments. To help you, there'll be one primary reviewer commenting on your pull request.
+Creating a pull request for a Concept Exercise or Practice Exercise can be daunting with the many rules around these types of exercises. For this reason, it can take a maintainer two to three hours to review and can result in dozens of comments. 
+To help you, there'll be one primary reviewer commenting on your pull request.
 
 Don't be discouraged by the number of review comments; it is perfectly normal for an exercise to go through several rewrites before arriving at something both you and the primary reviewer are happy with.
 

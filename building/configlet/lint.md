@@ -527,8 +527,8 @@ The `config.json` file should have the following checks:
 ## Glossary
 
 1. **Non-blank string**: a string that contains at least one non-whitespace character.
-2. **Kebab-case string**: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
-3. **Title-case string**: a non-blank string that follows the below guidelines (from the [Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case)):
+2. **kebab-case string**: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
+3. **Title Case string**: a non-blank string that follows the below guidelines (from the [Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case#Chicago%20Manual%20of%20Style:~:text=Guitar\).%5B3%5D-,Chicago%20Manual%20of%20Style,-%5Bedit%5D) of title case): 
    - Capitalize the first and last words of titles and subtitles.
    - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
    - Lowercase the conjunctions _and_, _but_, _for_, _or_, and _nor_.
@@ -536,14 +536,16 @@ The `config.json` file should have the following checks:
    - Lowercase prepositions, regardless of length, except when they are stressed, are used adverbially or adjectivally, or are used as conjunctions.
    - Lowercase the words _to_ and _as_.
    - Lowercase the second part of Latin species names.
-4. **Sentence-case string**: a non-blank string that follows the below guidelines (see https://en.wikipedia.org/wiki/Letter_case#Sentence_case):
+4. **Sentence Case string**: a non-blank string that follows the below [guidelines](https://en.wikipedia.org/wiki/Letter_case#Sentence_case):
    - Capitalize the first word of the sentence, as well as proper nouns and other words as required by a more specific rule.
 5. **Valid `files` pattern**: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
+   
    - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
    - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
    - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
    - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
 6. **Unique version 4 UUID string**: A string that satisfies all of these conditions:
+   
    - It only exists once in the track-level `config.json` file of a given Exercism track
    - It does not exist in the track-level `config.json` file of any other Exercism track
    - It does not exist in any `canonical-data.json` file in https://github.com/exercism/problem-specifications
