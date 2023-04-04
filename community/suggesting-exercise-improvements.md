@@ -21,7 +21,7 @@ For all these reasons, we are careful to only change exercises where there's a s
 ### Avoid trending towards entropy
 
 The aim of exercises' test suites is not to be comprehensive about all possible cases.
-Our exercises are not productive software nor are they designed to imitate real-world usecases.
+Our exercises are not production software nor are they designed to imitate real-world use-cases.
 They are designed to be toy-problems to help you gain **fluency in a programming language**.
 We therefore deliberately avoid trying to cover every edge-case, forcing lots of input validation, or other such real-world situations.
 If your suggested improvement is to catch and edge-case or to check input-validation, it's unlikely to be accepted unless it makes a substantial difference to the exercise.
