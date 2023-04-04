@@ -13,7 +13,7 @@ However, firstly there's a couple of generic things to consider.
 There are quite a few consequences in changing an exercise:
 1. Firstly, adding new tests may well break existing solutions.
   This has the consequence of outdating thousands of people's work, which is frustrating for them if the extra tests aren't highlighting any existing bugs.
-2. It also has the consequence of us having to retest everyone's work, which has both an enviromental and financially cost.
+2. It also has the consequence of us having to retest everyone's work, which has both an environmental and financial cost.
 3. Finally, this work involves one or more maintainers taking the time to review the changes, which means they're not able to make other improvements to the track during that time.
 
 For all these reasons, we are careful to only change exercises where there's a strong identifiable benefit.
@@ -24,7 +24,7 @@ The aim of exercises' test suites is not to be comprehensive about all possible 
 Our exercises are not production software nor are they designed to imitate real-world use-cases.
 They are designed to be toy-problems to help you gain **fluency in a programming language**.
 We therefore deliberately avoid trying to cover every edge-case, forcing lots of input validation, or other such real-world situations.
-If your suggested improvement is to catch and edge-case or to check input-validation, it's unlikely to be accepted unless it makes a substantial difference to the exercise.
+If your suggested improvement is to catch an edge-case or to check input-validation, it's unlikely to be accepted unless it makes a substantial difference to the exercise.
 
 ## Learning Exercises
 
@@ -40,10 +40,10 @@ If it sits somewhere in between, it may be accepted, but is unlikely to be prior
 
 ## Practice Exercises
 
-The main thing to understand about Practice Exercises is that nearly all of them live in a central repository (known as "Problem Specifications").
+The main thing to understand about Practice Exercises is that nearly all of them live in a [central repository](https://github.com/exercism/problem-specifications/) (known as "Problem Specifications").
 Making a change to an exercise therefore has knock-on effects over all tracks.
 That means a good change is extra powerful as it'll help all languages. 
-But it also increases the burden of the change, as multiple cross-track maintainers need to agree the change for it to be accepted, and then each language's maintainers need to pull the changes downstream into their tracks.
+But it also increases the burden of the change, as multiple cross-track maintainers need to agree to the change for it to be accepted, and then each language's maintainers need to pull the changes downstream into their tracks.
 
 Changes to exercises can also mean that the concepts they're linked to in syllabuses become muddier, or that exercises need extra features to solve, which changes where they become unlocked.
 This also needs to be considered across tracks before changes are accepted.
