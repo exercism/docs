@@ -28,18 +28,18 @@
     "blurb": "Learn about Exercism's Administrators"
   },
   {
-    "uuid": "4476a48e-3061-44c2-ba56-56896b1e0dc9",
-    "slug": "suggesting-exercise-improvements",
-    "path": "community/good-member/suggesting-exercise-improvements.md",
-    "title": "Suggesting Exercise Improvements",
-    "blurb": "What to consider before suggesting exercise improvements"
-  },
-  {
     "uuid": "7e11a8f5-e6f8-49f1-ab0c-81427fa12c5c",
     "slug": "being-a-good-community-member",
     "path": "community/good-member/README.md",
     "title": "Being a good community member",
     "blurb": "Learn how to be a great member of the Exercism community"
+  },
+  {
+    "uuid": "4476a48e-3061-44c2-ba56-56896b1e0dc9",
+    "slug": "suggesting-exercise-improvements",
+    "path": "community/good-member/suggesting-exercise-improvements.md",
+    "title": "Suggesting Exercise Improvements",
+    "blurb": "What to consider before suggesting exercise improvements"
   },
   {
     "uuid": "244e2482-a0c2-446c-822d-97172acc013f",
