@@ -61,7 +61,7 @@ To give your suggestions the best shot of being approved, please write out your 
 - The tangible improvement that this change makes (ideally with code examples of what your change enables/stops).
 - The impact on existing solutions, and why this is worth it.
 - Any changes to the concepts taught or used.
-- An understanding of why things might be the way they are (Please read our post on [Chesterton's Fence](https://exercism.org/docs/community/being-a-good-community-member/chestertons-fence))
+- An understanding of why things might be the way they are. (Please read our post on [Chesterton's Fence](https://exercism.org/docs/community/being-a-good-community-member/chestertons-fence).)
 
 And please remember to express opinions as opinions and facts as facts. 
 That tends to lead to the most productive conversations.
