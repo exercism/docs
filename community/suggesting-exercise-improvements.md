@@ -3,27 +3,27 @@
 So you've found something you'd like to improve about an exercise.
 Firstly, thank you for caring, and for making the time to tell us! 💙
 
-When changing an exercise, there's a few things to consider, and they're slightly different for Learning Exercises (those that teach topics in the Syllabus) and Practice Exercises (the rest).
-We go into the extra differences in those below.
+When changing an exercise, there are a few things to consider, and they're slightly different for Learning Exercises (those that teach topics in the Syllabus) and Practice Exercises (the rest).
+We go into those differences below.
 
-However, firstly there's a couple of generic things to consider.
+However, firstly there are a couple of generic things to consider.
 
 ### Changing an exercise has consequences
 
 There are quite a few consequences in changing an exercise:
-1. Firstly, adding new tests may well break existing solutions.
+1. Adding new tests may break existing solutions.
   This has the consequence of outdating thousands of people's work, which is frustrating for them if the extra tests aren't highlighting any existing bugs.
-2. It also has the consequence of us having to retest everyone's work, which has both an environmental and financial cost.
-3. Finally, this work involves one or more maintainers taking the time to review the changes, which means they're not able to make other improvements to the track during that time.
+2. We have to retest everyone's work, which has both an environmental and financial cost.
+3. One or more maintainers have to take the time to review the changes, which means they're not able to make other improvements to the track during that time.
 
 For all these reasons, we are careful to only change exercises where there's a strong identifiable benefit.
 
 ### Avoid trending towards entropy
 
 The aim of exercises' test suites is not to be comprehensive about all possible cases.
-Our exercises are not production software nor are they designed to imitate real-world use-cases.
+Our exercises are not production software, nor are they designed to imitate real-world use-cases.
 They are designed to be toy-problems to help you gain **fluency in a programming language**.
-We therefore deliberately avoid trying to cover every edge-case, forcing lots of input validation, or other such real-world situations.
+We therefore deliberately avoid trying to cover every edge-case, forcing lots of input validation, or other such real-world concerns.
 If your suggested improvement is to catch an edge-case or to check input-validation, it's unlikely to be accepted unless it makes a substantial difference to the exercise.
 
 ## Learning Exercises
@@ -34,7 +34,7 @@ All changes to an exercise will first and foremost be considered against whether
 Learning Exercises are (especially) not designed to be exhaustive in their tests.
 They can also often be slightly contrived or obtuse to avoid using concepts a student has not yet learned, or so as not to overwhelm a student.
 
-If your suggested change is about improving an exercise, but could potentially distract from the learning of the concept, it will probably get rejected.
+If your suggested change could potentially distract from the learning of the concept, it will probably get rejected.
 If the change makes the learning easier, it'll be strongly considered.
 If it sits somewhere in between, it may be accepted, but is unlikely to be prioritised.
 
@@ -53,7 +53,7 @@ So when proposing changes to Practice Exercises, please consider the bigger pict
 
 ## How to get your changes accepted
 
-Although there's a lot of reasons that we don't accept suggestions, a lot of the time people come up with great ideas that we do accept!
+Although there are a lot of reasons that we don't accept suggestions, a lot of the time people come up with great ideas that we do accept!
 
 We're also nearly always open to changes in wording that add clarity, especially in Learning Exercises.
 
