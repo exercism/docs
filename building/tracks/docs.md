@@ -321,7 +321,7 @@ Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what thi
 
 ## File: `config.json`
 
-**Purpose:** Tell the site builder what pages are available.
+**Purpose:** Tell the website what pages are available.
 
 **Displayed on:** (not displayed)
 
