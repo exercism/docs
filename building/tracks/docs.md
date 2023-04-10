@@ -283,7 +283,6 @@ let PLACEHOLDER_3 PLACEHOLDER_2 = PLACEHOLDER_2 + 1
 
 Check [this page](https://exercism.org/docs/tracks/fsharp/resources) to see what this looks like when rendered.
 
-
 ## File: `TESTS.md`
 
 **Purpose:** Describe everything related to running tests in the track.
@@ -319,7 +318,6 @@ dotnet add package [package-name]
 ````
 
 Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what this looks like when rendered.
-
 
 ## File: `config.json`
 
