@@ -528,7 +528,7 @@ The `config.json` file should have the following checks:
 
 1. **Non-blank string**: a string that contains at least one non-whitespace character.
 2. **kebab-case string**: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
-3. **Title Case string**: a non-blank string that follows the below guidelines (from the [Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case#Chicago%20Manual%20of%20Style:~:text=Guitar\).%5B3%5D-,Chicago%20Manual%20of%20Style,-%5Bedit%5D) of title case): 
+3. **Title Case string**: a non-blank string that follows the below [guidelines from the Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case#Chicago_Manual_of_Style):  
    - Capitalize the first and last words of titles and subtitles.
    - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
    - Lowercase the conjunctions _and_, _but_, _for_, _or_, and _nor_.
