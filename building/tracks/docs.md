@@ -331,32 +331,39 @@ Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what thi
 {
   "docs": [
     {
-      "uuid": "a2d18097-4e65-4826-85b9-4ed8f71689bd",
+      "uuid": "410d95ba-6294-4f40-af4a-6bb052977a3e",
       "slug": "installation",
       "path": "docs/INSTALLATION.md",
-      "title": "Installing V locally",
-      "blurb": "Learn how to install V locally to solve Exercism's exercises on your own machine"
+      "title": "Installing F# locally",
+      "blurb": "Learn how to install F# locally to solve Exercism's exercises on your own machine"
     },
     {
-      "uuid": "afa98f6a-9af2-4fc0-b9a6-b9f3df2289ab",
+      "uuid": "e0862775-d757-4d21-826f-b7cc2640ae8f",
       "slug": "learning",
       "path": "docs/LEARNING.md",
-      "title": "How to learn V",
-      "blurb": "An overview of how to get started from scratch with V"
+      "title": "How to learn F#",
+      "blurb": "An overview of how to get started from scratch with F#"
     },
     {
-      "uuid": "038fbf82-4c35-4b43-a30d-d73cda5b4c31",
+      "uuid": "bca11b18-be81-468a-a34e-f5e6ac16bfd6",
       "slug": "tests",
       "path": "docs/TESTS.md",
-      "title": "Testing on the V track",
-      "blurb": "Learn how to test your V exercises on Exercism"
+      "title": "Testing on the F# track",
+      "blurb": "Learn how to test your F# exercises on Exercism"
     },
     {
-      "uuid": "98eaa5bb-f4a2-4cf0-b92e-abe0e62068cd",
+      "uuid": "39a578fe-e4ae-479e-b648-733882e244ef",
       "slug": "resources",
       "path": "docs/RESOURCES.md",
-      "title": "Useful V resources",
-      "blurb": "A collection of useful resources to help you master V"
+      "title": "Useful F# resources",
+      "blurb": "A collection of useful resources to help you master F#"
+    },
+    {
+      "uuid": "edfbb0fa-a950-4384-899f-6c6c7a440dca",
+      "slug": "representer-normalizations",
+      "path": "docs/REPRESENTER_NORMALIZATIONS.md",
+      "title": "F# representer normalizations",
+      "blurb": "An overview of the normalizations the F# representer applies to solutions"
     }
   ]
 }
