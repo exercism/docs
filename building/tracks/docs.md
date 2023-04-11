@@ -10,7 +10,7 @@ docs
 ├── SNIPPET.txt (required)
 ├── REPRESENTER_NORMALIZATIONS.md (optional)
 ├── RESOURCES.md (required)
-├── TESTS.md (required)
+├── TESTS.md (optional)
 └── config.json (required)
 ```
 
