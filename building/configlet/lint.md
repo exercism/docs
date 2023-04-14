@@ -357,8 +357,8 @@ The `config.json` file should have the following checks:
 - The `"approaches[].slug"` value must be a kebab-case string² with length <= 255
 - The `"approaches[].slug"` value must have a corresponding non-empty `<slug>/content.md` file
 - The `"approaches[].slug"` value must have a corresponding non-empty `<slug>/snippet.txt` file
-- The `"approaches[].name"` key is required
-- The `"approaches[].name"` value must be a Title Case string³ with length <= 255
+- The `"approaches[].title"` key is required
+- The `"approaches[].title"` value must be a Title Case string³ with length <= 255
 - The `"approaches[].blurb"` key is required
 - The `"approaches[].blurb"` value must be a non-blank string¹ with length <= 350
 - The `"approaches[].authors"` key is required
@@ -399,8 +399,8 @@ The `config.json` file should have the following checks:
 - The `"articles[].slug"` value must be a kebab-case string² with length <= 255
 - The `"articles[].slug"` value must have a corresponding non-empty `<slug>/content.md` file
 - The `"articles[].slug"` value must have a corresponding non-empty `<slug>/snippet.md` file
-- The `"articles[].name"` key is required
-- The `"articles[].name"` value must be a Title Case string³ with length <= 255
+- The `"articles[].title"` key is required
+- The `"articles[].title"` value must be a Title Case string³ with length <= 255
 - The `"articles[].blurb"` key is required
 - The `"articles[].blurb"` value must be a non-blank string¹ with length <= 350
 - The `"articles[].authors"` key is required
