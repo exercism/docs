@@ -3,15 +3,21 @@
 This _working_ document serves as a collection of best practices for making use of GitHub Actions.
 If you have any suggestions or additions, [please open a pull request on GitHub!](https://github.com/exercism/docs/edit/main/building/github/gha-best-practices.md)
 
-- [Collection of Best Practices](#collection-of-best-practices)
-  - [Set timeouts for workflows](#set-timeouts-for-workflows)
-  - [Consider if (third-party) actions are really needed](#consider-if-third-party-actions-are-really-needed)
-  - [Limit scope of workflow token](#limit-scope-of-workflow-token)
-  - [Pin actions to SHAs](#pin-actions-to-shas)
-  - [Consider setting up a concurrency strategy](#consider-setting-up-a-concurrency-strategy)
-  - [Consider which triggers are really needed](#consider-which-triggers-are-really-needed)
-  - [Read the "Security hardening for GitHub Actions" guide](#read-the-security-hardening-for-github-actions-guide)
-- [Workflow Checklist](#workflow-checklist)
+- [GitHub Actions: Best Practices](#github-actions-best-practices)
+  - [Collection of Best Practices](#collection-of-best-practices)
+    - [Set timeouts for workflows](#set-timeouts-for-workflows)
+      - [Example](#example)
+    - [Consider if (third-party) actions are really needed](#consider-if-third-party-actions-are-really-needed)
+    - [Limit scope of workflow token](#limit-scope-of-workflow-token)
+      - [Example](#example-1)
+    - [Pin actions to SHAs](#pin-actions-to-shas)
+      - [Finding the commit SHA](#finding-the-commit-sha)
+      - [Example](#example-2)
+    - [Consider setting up a concurrency strategy](#consider-setting-up-a-concurrency-strategy)
+      - [Example](#example-3)
+    - [Consider which triggers are really needed](#consider-which-triggers-are-really-needed)
+    - [Read the "Security hardening for GitHub Actions" guide](#read-the-security-hardening-for-github-actions-guide)
+  - [Workflow Checklist](#workflow-checklist)
 
 ## Collection of Best Practices
 
