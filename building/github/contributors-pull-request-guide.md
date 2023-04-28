@@ -13,6 +13,8 @@ To help you, there'll be one primary reviewer commenting on your pull request.
 
 Don't be discouraged by the number of review comments; it is perfectly normal for an exercise to go through several rewrites before arriving at something both you and the primary reviewer are happy with.
 
+## Recommendations
+
 Here are some recommendations to help streamline the process even more.
 
 ### Read the documentation
