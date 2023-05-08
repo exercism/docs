@@ -2,7 +2,7 @@
 
 ## Who is behind Exercism?
 
-Exercism's two co-founders are [Katrina Owen][katrina-owen] and [Jeremy Walker][jeremy-walker].
+Exercism's two co-founders are [Katrina Owen][kytrinyx] and [Jeremy Walker][jeremy-walker].
 
 Exercism was originally founded by [Katrina][kytrinyx], a polyglot developer and winner of the "Ruby Hero" award who accidentally became a developer while pursuing a degree in molecular biology.
 She began nitpicking code back in 2006 while volunteering at JavaRanch, and got hooked.
@@ -26,7 +26,7 @@ The way Katrina came to think about each exercise is that they are small, trivia
 However, when it comes to solving an exercise, the devil is often in the details.
 In other words, that simple exercise is suddenly more challenging once you think about the finer details.
 
-To learn more about what it means for the devil to be in the details, check out the [Overkill][overkill] and [Succession][succession] talks by Katrina.
+To learn more about what it means for the devil to be in the details, check out the [Here Be Dragons][here-be-dragons] and [One Small Step][one-small-step] talks by Katrina.
 
 ## The Basics
 
@@ -192,8 +192,7 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [interactive-walkthrough]: https://exercism.org/cli-walkthrough
 [jeremy-walker]: https://ihid.info
 [kaido]: https://kaido.org
-[katrina-owen]: http://www.kytrinyx.com/
-[kytrinyx]: http://www.kytrinyx.com/
+[kytrinyx]: https://exercism.github.io/kytrinyx/
 [languages]: https://github.com/search?q=topic%3Aexercism-track+org%3Aexercism&type=Repositories
 [learning-mode]: /docs/building/product/unlocking-exercises#h-learning-mode-vs-practice-mode
 
@@ -201,10 +200,10 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [new-cli-issue]: https://github.com/exercism/CLI/issues/new
 [new-language-request]: https://github.com/exercism/generic-track/blob/main/README.md
 [opening-an-issue]: #opening-an-issue
-[overkill]: http://www.kytrinyx.com/talks/overkill
+[here-be-dragons]: https://www.youtube.com/watch?v=QAUHYzC9kFM
 [personal-settings]: https://exercism.org/my/settings/preferences/edit
 [settings]: https://exercism.org/my/settings
-[succession]: http://www.kytrinyx.com/talks/succession
+[one-small-step]: https://www.youtube.com/watch?v=JXCJL4IJUhQ
 [switching-modes]: /docs/building/product/unlocking-exercises#h-switching-modes
 [unlocking-exercises]: /docs/building/product/unlocking-exercises
 [upgrade-cli]: https://github.com/exercism/website-copy/blob/main/pages/cli_v1_to_v2.md
