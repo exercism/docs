@@ -1,22 +1,12 @@
 # The words that we use
 
-Words in themselves are meaningless.
-They are vibrations caused by puffs of air coming out of our lungs.
-However, because of **context**, words are powerful.
+Words, in their basic form, are nothing more than sound. Yet, when given context, words possess immense power.
 
-It's easy to know how you intend your words to _come across_, but it's difficult to know how others _perceive your words_.
-What we say is strongly tempered by our experiences in life, our cultural norms, and our primary natural language.
-At Exercism, we believe it's better to choose words that are **clear** and **unambiguous** across cultures and, where possible, across natural languages.
-This means being careful when using metaphors, acronyms or phrases that might only be understandable to someone from a specific background or with specific knowledge.
-It also means being open to learning about how people from different cultures might misunderstand your intentions, and changing the words you use accordingly.
+Understanding your own intentions when you speak is straightforward, but grasping how others interpret your words is more complex. Our speech is heavily influenced by our life experiences, cultural norms, and mother tongue. At Exercism, we advocate for choosing words that are comprehensible and unambiguous across different cultures and languages whenever possible. This means we must exercise caution when using metaphors, acronyms, or phrases that might be understood only by individuals with specific backgrounds or knowledge. Additionally, it requires us to remain open to learning about how our words might be misinterpreted by individuals from various cultures and adjusting our language accordingly.
 
-One example is that within Exercism we ask people not to use the word "guys".
-While in many places the word "guys" can refer to a group of people irrespective of gender, in many other places it explicitly means "men".
-So, regardless of the intention of the speaker, a person from that cultural background hearing the word "guys" understands the speaker to be only addressing men and, if they are not male, feels excluded.
-In tech, where men are in the strong majority, this adds yet another sense of negativity and exclusion to everyone else.
+For instance, we at Exercism request that people refrain from using the word "guys." In some places, "guys" is a gender-neutral term referring to a group of people, but in other places, it is explicitly male. Therefore, a person from a culture where "guys" refers only to men might hear the term and feel excluded if they are not male, even if the speaker did not intend to exclude anyone. This issue is especially significant in the tech industry, where men make up the majority, furthering the sense of exclusion for everyone else.
 
-At first, many people find this rule to be pedantic or irrational, as they are clear in their intentions to not exclude anyone.
-However, when guided by the principle of communicating in a way that is clear and unambiguous, and driven by the desire to be kind to others in the community, it becomes clear that the word "guys" does not necessarily convey the intended meaning to everyone, and so they choose to use clearer words.
+Initially, some may find this rule pedantic or irrational, believing their intentions are clear and they do not mean to exclude anyone. However, when guided by the principle of communicating in a manner that is unambiguous and clear, coupled with a desire to show kindness to others in the community, it becomes apparent that the word "guys" might not convey the intended meaning to everyone. As a result, individuals often opt for clearer, more inclusive language.
 
 ```exercism/note
 Our co-founder, Jeremy, is from the UK, where the British dictionary explicitly states that "guys" is a gender neutral word.
