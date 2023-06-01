@@ -1,13 +1,12 @@
 # Track Tooling
 
-Each track has various pieces of tooling that run in production.
-Each provides a key function to the learning experience of that language.
+Each track operates with multiple tooling elements in production, each of which plays a crucial role in the learning experience specific to that language.
 
-Tooling is (generally) written in the language of the specific track, and is built and maintained by maintainers.
+As a general rule, tooling is written in the same language as the associated track and is built and maintained by the maintainers.
 
-All tooling is deployed using the same Docker workflow.
+We employ a uniform Docker workflow for deploying all tooling.
 
-There are (currently) three pieces of track-specific tooling:
+At present, there are three distinct pieces of track-specific tooling:
 
 - **[Test Runners](/docs/building/tooling/test-runners)**
 - **[Representers](/docs/building/tooling/representers)**
