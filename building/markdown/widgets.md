@@ -1,32 +1,31 @@
 # Widgets
 
-Concept and Exercise Widgets are used frequently throughout the site.
-They look like this:
+Concept and Exercise Widgets are regularly used across the site, appearing as follows:
 
 <img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/concept-widget.png" height="100">
 <img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/exercise-widget.png" height="100">
 
-They also have user-contextual tooltips such as this:
+They additionally feature user-contextual tooltips, such as this:
 
 <img src="https://raw.githubusercontent.com/exercism/docs/main/.imgs/concept-tooltip.png" height="200">
 
-You may like to render these widgets yourself in Markdown documents, for example at the end of a document to suggest extra reading or good exercises to learn something from.
+To suggest further reading or beneficial exercises at the end of a document, you might want to render these widgets in your Markdown documents.
 
-**Note:** You can also use normal links for inline text, which will have the tooltips added. See [the Internal Linking documentation](/docs/building/markdown/internal-linking) for more details.
+Note: Normal links can be used for inline text, with tooltips added accordingly. Please refer to the Internal Linking documentation for more information.
 
-## Usage
+##Usage
 
-Widgets can be used wherever you can use Markdown, such as documentation, approaches and student/mentor discussions.
+Widgets can be deployed wherever Markdown is usable, including documentation, approaches, and student/mentor discussions.
 
-They are rendered using the following format
+They are rendered using the following format:
 
 ```md
 [<type>:<track-slug>/<type-slug>]()
 ```
 
-The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
+The link reference (the contents of the parentheses) is disregarded by the website. You can direct them wherever you wish for maintenance purposes.
 
-## Concept widget
+##Concept Widget
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
 
