@@ -13,7 +13,7 @@ To suggest further reading or beneficial exercises at the end of a document, you
 
 Note: Normal links can be used for inline text, with tooltips added accordingly. Please refer to the Internal Linking documentation for more information.
 
-##Usage
+## Usage
 
 Widgets can be deployed wherever Markdown is usable, including documentation, approaches, and student/mentor discussions.
 
@@ -25,7 +25,7 @@ They are rendered using the following format:
 
 The link reference (the contents of the parentheses) is disregarded by the website. You can direct them wherever you wish for maintenance purposes.
 
-##Concept Widget
+## Concept Widget
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
 
