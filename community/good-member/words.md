@@ -1,4 +1,4 @@
-# The words that we use
+# The words we use
 
 Words, in their basic form, are nothing more than sound. Yet, when given context, words possess immense power.
 
