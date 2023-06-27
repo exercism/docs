@@ -38,8 +38,8 @@ There is also GitHub-specific tooling you can use:
 [pr-tutorial]: https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github
 [anthonywritescode]: https://www.youtube.com/watch?v=cysuuUtbC6E
 [great-pr]: https://exercism.org/docs/community/being-a-good-community-member/pull-requests
-[contributors-pr-guide]: /docs/building/github/contributors-pull-request-guide
-[maintainers-pr-guide]: /docs/building/github/maintainers-pull-request-guide
-[how-to-make-a-great-pr]: /docs/community/being-a-good-community-member/pull-requests
+[contributors-pr-guide]: /building/github/contributors-pull-request-guide.md
+[maintainers-pr-guide]: /building/github/maintainers-pull-request-guide.md
+[how-to-make-a-great-pr]: /community/good-member/pull-requests.md
 [pro-git]: https://git-scm.com/book/en/v2
 [git]: https://git-scm.com/
