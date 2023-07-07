@@ -10,7 +10,7 @@ There are two types of exercises you can implement:
 - Practice Exercises: they are designed to practice learned concepts. Check the [documentation](/docs/building/tracks/practice-exercises) for more information.
 
 In general, we recommend new tracks start with implementing Practice Exercises, as they're easier to implement and require less thinking upfront.
-Concept Exercises can always be added later, once you're track is up-and-running properly.
+Concept Exercises can always be added later, once your track is up and running properly.
 
 ## Choose exercises
 
