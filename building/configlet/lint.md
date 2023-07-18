@@ -108,7 +108,7 @@ The `config.json` file should have the following checks:
   - If the track is `d` or `plsql`, the `"files.solution"` and `"files.test"` files _can_ overlap
   - The `"files.example` and `"files.exemplar"` files _can_ overlap
 - The `"test_runner.average_run_time"` key is required if `"status.test_runner"` is equal to `true`
-- The `"test_runner.average_run_time"` value must be a floating-point number > 0 with one decimal point of precision
+- The `"test_runner.average_run_time"` value must be an integer > 0
 - The `"approaches.snippet_extension"` key is required if the track has one or more approaches
 - The `"approaches.snippet_extension"` value must be a non-blank string¹
 - The `"exercises"` key is required
