@@ -104,10 +104,10 @@ For popular exercises, this is a _very_ expensive operation (70,000 test runs fo
 
 We've added some further rules today to try and avoid this behaviour. I'll explain the logic in both directions:
 
-Solutions **will not** be retested if:
+Solutions **will not** be retested if the merged commit either:
 
-- You add `[no important files changed]` into the PR's commit body.
-- You only touch docs, hints, `.meta`, or other files that users don't interact with.
+- only touches docs, hints, `.meta`, or other files that users don't interact with
+- or contains `[no important files changed]` in the commit body.
 
 Solutions **will** be re-tested if:
 
