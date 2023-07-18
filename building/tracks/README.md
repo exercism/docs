@@ -102,7 +102,7 @@ csharp
 When you merge a track PR that touches an exercise, it triggers the latest published iteration of students' solutions to be re-tested.
 For popular exercises, this is a _very_ expensive operation (70,000 test runs for Python Hello World as an extreme!).
 
-We've added some further rules today to try and avoid this behaviour. I'll explain the logic in both directions:
+We encourage you to try and doing this unnecessarily.
 
 Solutions **will not** be retested if the merged commit either:
 
