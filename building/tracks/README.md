@@ -106,7 +106,7 @@ We encourage you to try and avoid doing this unnecessarily.
 
 Solutions **will not** be retested if the merged commit either:
 
-- only touches docs, hints, `.meta`, or other files that users don't interact with
+- only touches `.docs` or `.meta` files, or other files that users don't interact with
 - or contains `[no important files changed]` in the commit body.
 
 Solutions **will** be re-tested if the merged commit both:
