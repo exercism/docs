@@ -92,5 +92,33 @@ csharp
 |           ├── debug.md
 |           ├── help.md
 |           └── tests.md
-└── [config.json](/docs/building/tracks)
+└── config.json
 </pre>
+
+## Maintenance
+
+### Avoiding triggering unnecessary test runs
+
+When you merge a track PR that touches an exercise, it triggers the latest published iteration of students' solutions to be re-tested.
+For popular exercises, this is a _very_ expensive operation (70,000 test runs for Python Hello World as an extreme!).
+
+**We encourage you to try and avoid doing this unnecessarily.**
+
+Solutions **will not** be retested if the merged commit either:
+
+- only touches `.docs` or `.meta` files, or other files that users don't interact with
+- or contains `[no important files changed]` in the commit body.
+
+Solutions **will** be re-tested if the merged commit both:
+
+- lacks `[no important files changed]` in the commit body
+- and touches one of the following files for an exercise (as specified in its `.meta/config.json` file):
+  - test files
+  - editor files
+  - invalidator files
+
+Some examples:
+
+- [Python#3423](https://github.com/exercism/python/pull/3423): Only touches docs so no tests were run
+- [Python#3437](https://github.com/exercism/python/commit/29a64a4889f94bafbd0062d7fc5052858523b25c): Was merged with `[no important files changed]` added, so no tests were run
+- [Csharp#2138](https://github.com/exercism/csharp/pull/2138): Whitespace was removed from tests. The keyword was **not** added. Tests were re-run unnecessarily.
