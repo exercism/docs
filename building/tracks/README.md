@@ -109,10 +109,10 @@ Solutions **will not** be retested if the merged commit either:
 - only touches docs, hints, `.meta`, or other files that users don't interact with
 - or contains `[no important files changed]` in the commit body.
 
-Solutions **will** be re-tested if:
+Solutions **will** be re-tested if the merged commit both:
 
-1. The PR was merged **without** adding the text `[no important files changed]` into the PR's commit body.
-2. The PR touches one of the following files for an exercise (as specified in its `.meta/config.json` file):
+- lacks `[no important files changed]` in the commit body
+- and touches one of the following files for an exercise (as specified in its `.meta/config.json` file):
   - test files
   - editor files
   - invalidator files
