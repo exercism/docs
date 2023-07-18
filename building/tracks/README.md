@@ -113,7 +113,6 @@ Solutions **will** be re-tested if:
 
 1. The PR was merged **without** adding the text `[no important files changed]` into the PR's commit body.
 2. The PR touches one of the following files for an exercise (as specified in its `.meta/config.json` file):
-
 - test files
 - editor files
 - invalidator files
