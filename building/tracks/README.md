@@ -95,7 +95,9 @@ csharp
 └── config.json
 </pre>
 
-## Re-testing solutions
+## Maintenance
+
+### Avoiding triggering unnecessary test runs
 
 When you merge a track PR that touches an exercise, it triggers the latest published iteration of students' solutions to be re-tested.
 For popular exercises, this is a _very_ expensive operation (70,000 test runs for Python Hello World as an extreme!).
