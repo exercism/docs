@@ -6,7 +6,7 @@ The concept map is one of the main methods to illustrate the progression that a 
 
 - Provide a meaningful concept map of ideas from simple to complex ideas.
 - Provide a pathway towards fluency in a language.
-- Illustrate the progression through the course [track] contents.
+- Illustrate the progression through the course contents.
 
 ## Structure
 
