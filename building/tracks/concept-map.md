@@ -44,5 +44,5 @@ flowchart TD
     linkStyle 2 stroke-width:2px,fill:none,stroke:red;
 ```
 
-[github-concept-code]: https://github.com/exercism/website/blob/e47525f66b036662138e5e41055430fe7963a282/app/commands/track/determine_concept_map_layout.rb
+[github-concept-code]: https://github.com/exercism/website/blob/main/app/commands/track/determine_concept_map_layout.rb
 [wikipedia-graph]: https://en.wikipedia.org/wiki/Graph_(discrete_mathematics)
