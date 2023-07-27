@@ -23,7 +23,7 @@ The concept map is one of the main methods to illustrate the progression that a 
 
 ## Configuration
 
-The configuration of the concept map is determined by details of the `config.json` associated to a track.
+The configuration of the concept map is determined by details of the [`config.json`](/docs/building/tracks/config-json) associated to a track.
 Specifically the specification of the concept exercises determines the shape and layout of the concept map.
 
 > You can view the code used to compute the concept map specification on GitHub: [Exercism/website: determine_concept_map_layout.rb][github-concept-code]
