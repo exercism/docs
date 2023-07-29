@@ -1,6 +1,8 @@
 # Concepts
 
-Concepts are the things that a programmer would need to understand to be fluent in a language. Concepts are taught by Concept Exercises and are used as prerequisites for Concept- _and_ Practice Exercises.
+Concepts are the things that a programmer would need to understand to be fluent in a language.
+Concepts are taught by Concept Exercises and are used as prerequisites for Concept- _and_ Practice Exercises.
+Concepts are placed on to a [_concept map_](/docs/building/tracks/concept-map) when displayed to the student.  
 
 ## Metadata
 

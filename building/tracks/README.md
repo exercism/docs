@@ -11,6 +11,9 @@ The track's configuration and metadata are specified in the `config.json` file. 
 All concept and practices exercises of a track involve _concepts_. These concepts are separate entities by themselves. Check the [documentation](/docs/building/tracks/concepts) for more information.
 
 The concepts taught in the track's concept exercises form a _syllabus_.
+The _syllabus_ is shown to students as a _concept map_.
+Check the [_concept map_ documentation](/docs/building/tracks/concept-map) to learn about building out the concept map for a _syllabus_.
+
 For more information on how to design a syllabus, check the [syllabus documentation](/docs/building/tracks/syllabus).
 
 ## Exercises
