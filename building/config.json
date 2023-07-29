@@ -521,6 +521,13 @@
     "blurb": ""
   },
   {
+    "uuid": "0807db01-ce0e-4ac4-817b-7fe0a2366d01",
+    "slug": "tracks/concept-map",
+    "path": "building/tracks/concept-map.md",
+    "title": "Concept Map",
+    "blurb": ""
+  },
+  {
     "uuid": "2a29f722-e70d-4679-81f8-bd6727fa9013",
     "slug": "tracks/config-json",
     "path": "building/tracks/config-json.md",
