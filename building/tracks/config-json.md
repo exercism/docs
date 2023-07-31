@@ -14,7 +14,7 @@ The following top-level properties contain general track metadata:
 - `online_editor`: an object describing settings used for the online editor: (required)
   - `indent_style`: either `"space"` or `"tab"` (required)
   - `indent_size`: the indentation size as an integer (e.g. `4`) (required)
-  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (required)
+  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)) (optional)
 - `status`: an object describing which v3 features should be enabled: (required)
   - `concept_exercises`: a `boolean` value indicating if [Concept Exercises](/docs/building/tracks/concept-exercises) have been built (required). When `true` the Exercism website interface changes to indicate that concept exercises are available for the track.
   - `test_runner`: a `boolean` value indicating if a [test runner](/docs/building/tooling/test-runners) has been implemented (required). When `true` we put submitted solutions through our testing infrastructure and show the results on the website. The website also allows students to initiate a test run from within the online editor.

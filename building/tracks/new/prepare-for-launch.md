@@ -51,6 +51,6 @@ The following properties should be updated:
 - `online_editor`: an object describing settings used for the online editor:
   - `indent_style`: either `"space"` or `"tab"`
   - `indent_size`: the indentation size as an integer (e.g. `4`)
-  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md))
+  - `highlightjs_language`: the language identifier for Highlight.js (see the [full list of identifiers](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)). If there is no Highlight.js support, this field can be omitted.
 - `key_features`: the language's key features, which succinctly describe its most important features. For more information, check the [key features documentation](/docs/building/tracks/config-json#h-key-features).
 - `tags`: define the tags that apply to this track, which allows it be searched for on the website. For more information and the list of supported tags, check the [tags documentation](/docs/building/tracks/config-json#h-tags).
