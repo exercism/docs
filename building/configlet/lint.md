@@ -76,7 +76,7 @@ The `config.json` file should have the following checks:
 - The `"online_editor.indent_style"` value must be the string `space` or `tab`
 - The `"online_editor.indent_size"` key is required
 - The `"online_editor.indent_size"` value must be an integer >= 0 and <= 8
-- The `"online_editor.highlightjs_language"` key is required
+- The `"online_editor.highlightjs_language"` key is optional
 - The `"online_editor.highlightjs_language"` value must be a non-blank string¹
 - The `"files"` key is optional
 - The `"files"` value must be an object
@@ -528,7 +528,7 @@ The `config.json` file should have the following checks:
 
 1. **Non-blank string**: a string that contains at least one non-whitespace character.
 2. **kebab-case string**: a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. "two-fer"). It must match the regular expression: `^[a-z0-9]+(-[a-z0-9]+)*$`
-3. **Title Case string**: a non-blank string that follows the below [guidelines from the Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case#Chicago_Manual_of_Style):  
+3. **Title Case string**: a non-blank string that follows the below [guidelines from the Chicago Manual of Style](https://en.wikipedia.org/wiki/Title_case#Chicago_Manual_of_Style):
    - Capitalize the first and last words of titles and subtitles.
    - Capitalize "major" words (nouns, pronouns, verbs, adjectives, adverbs, and some conjunctions).
    - Lowercase the conjunctions _and_, _but_, _for_, _or_, and _nor_.
@@ -539,23 +539,28 @@ The `config.json` file should have the following checks:
 4. **Sentence Case string**: a non-blank string that follows the below [guidelines](https://en.wikipedia.org/wiki/Letter_case#Sentence_case):
    - Capitalize the first word of the sentence, as well as proper nouns and other words as required by a more specific rule.
 5. **Valid `files` pattern**: A non-blank string¹ that specifies a location of a file used in an exercise, relative to the exercise's directory. A pattern may use one of the following placeholders:
-   
+
    - `%{kebab_slug}`: the `kebab-case` exercise slug (e.g. `bit-manipulation`)
    - `%{snake_slug}`: the `snake_case` exercise slug (e.g. `bit_manipulation`)
    - `%{camel_slug}`: the `camelCase` exercise slug (e.g. `bitManipulation`)
    - `%{pascal_slug}`: the `PascalCase` exercise slug (e.g. `BitManipulation`)
+
 6. **Unique version 4 UUID string**: A string that satisfies all of these conditions:
-   
+
    - It only exists once in the track-level `config.json` file of a given Exercism track
    - It does not exist in the track-level `config.json` file of any other Exercism track
    - It does not exist in any `canonical-data.json` file in https://github.com/exercism/problem-specifications
    - It does not exist anywhere else on Exercism
    - It matches the regular expression:
+
    ```
    ^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$
    ```
+
    For example, the below UUID has the correct form:
+
    ```
    d334ffe3-657e-4725-a950-290b284b6d9f
    ```
+
    You can run `configlet uuid` to generate a suitable UUID.
