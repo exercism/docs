@@ -10,7 +10,7 @@ If you want to one day become a Maintainer (yay!!), then please read on!
 But remember, most people who help build Exercism are not Maintainers - they are [Contributors](/docs/community/contributors).
 **There is no barrier to contributing to Exercism** and every bit of help is gratefully received.
 
-We aim to have at least active two Maintainers for each Track, and at least one active maintainer for all the parts of the platform.
+We aim to have at least two active Maintainers for each Track, and at least one active maintainer for all the parts of the platform.
 
 _Note: the sections below generally discuss Track Maintainers.
 The process for becoming a Maintainer of different parts of the ecosystem varies._
@@ -38,7 +38,7 @@ Through this Maintainers control what code goes into their repositories.
 
 ## Rewards
 
-The main incentives for being an Exercism Maintainer tend to be intrinsic: e.g. the fun of building something meaningful and useful with other like-minded people,
+The main incentives for being an Exercism Maintainer tend to be intrinsic: e.g. the fun of building something meaningful and useful with other like-minded people.
 There are also career benefits such as improving your personal network, developing both technical and soft skills, and having a meaningful out-of-work entry on your resume.
 
 We also provide some extra benefits:
