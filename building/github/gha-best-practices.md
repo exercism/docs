@@ -13,8 +13,10 @@ If you have any suggestions or additions, [please open a pull request on GitHub!
     - [Pin actions to SHAs](#h-pin-actions-to-shas)
       - [Finding the commit SHA](#h-finding-the-commit-sha)
       - [Example](#h-example-2)
-    - [Consider setting up a concurrency strategy](#h-consider-setting-up-a-concurrency-strategy)
+    - [Pin test runners to version](#h-pin-test-runners-to-version)
       - [Example](#h-example-3)
+    - [Consider setting up a concurrency strategy](#h-consider-setting-up-a-concurrency-strategy)
+      - [Example](#h-example-4)
     - [Consider which triggers are really needed](#h-consider-which-triggers-are-really-needed)
     - [Read the "Security hardening for GitHub Actions" guide](#h-read-the-security-hardening-for-github-actions-guide)
   - [Workflow Checklist](#h-workflow-checklist)
@@ -101,6 +103,27 @@ You'll then be redirected to the release details page, which lists the full comm
 ```yaml
 - name: Checkout code
   uses: actions/checkout@a12a3943b4bdde767164f792f33f40b04645d846
+```
+
+### Pin test runners to version
+
+Most workflows will run on [GitHub's supported runners](https://docs.github.com/en/actions/using-github-hosted-runners/about-github-hosted-runners#supported-runners-and-hardware-resources).
+When using one of these runners, use a specific version instead of the latest version.
+
+This ensures that the workflow will always run on the same runner, which makes your build _stable_.
+
+#### Example
+
+Use:
+
+```yaml
+runs-on: ubuntu-22.04
+```
+
+instead of:
+
+```yaml
+runs-on: ubuntu-latest
 ```
 
 ### Consider setting up a concurrency strategy
