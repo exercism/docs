@@ -77,6 +77,6 @@ If you say something that is found offensive, and you are called out on it, try 
 
 ## History
 
-This policy was initially adopted from the Front-end London Slack community and has been modified since. A version history can be seen on [GitHub](https://github.com/exercism/docs/blob/main/using/legal/code-of-conduct.md).
+This policy was initially adopted from the Front-end London Slack community and has been modified since. A version history can be seen on [GitHub](https://github.com/exercism/docs/commits/main/using/legal/code-of-conduct.md).
 
 _This policy is a "living" document, and subject to refinement and expansion in the future. This policy applies to the Exercism website, the Exercism GitHub organization, any other Exercism-related communication channels (e.g. Forum, Slack, Twitter, email) and any other Exercism entity or event._
