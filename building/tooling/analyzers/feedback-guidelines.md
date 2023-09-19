@@ -100,7 +100,7 @@ to the official rules.
   they're all preferences.
 - 💬 if it's a _stylistic_ preference, **and** there is _one
   clear standard_, comment on it. These rules enforce idiomatic code.
-- ❔ If it's a _stylistic_ preference, **and** there is no clear
+- 🤔 If it's a _stylistic_ preference, **and** there is no clear
   standard, but most to all non-hobbyist have adopted the same style, this
   might be idiomatic. Comment at your discretion.
 
