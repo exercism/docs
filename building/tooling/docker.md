@@ -33,9 +33,9 @@ If the file is larger than this, the tooling run will be killed with a 460 error
 
 ## Configuration
 
-Each solution gets 100% machine resources for a ten second window.
+Each solution gets 100% machine resources for a twenty second window.
 
-After 10 seconds, the process is halted and reports as a time-out.
+After 20 seconds, the process is halted and reports as a time-out.
 
 Configuration can be set in the [`tools.json` file](https://github.com/exercism/tooling-invoker/blob/main/tools.json) in the Tooling Invoker repository.
 
