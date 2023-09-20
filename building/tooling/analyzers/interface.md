@@ -44,15 +44,14 @@ The `analysis.json` file should be structured as followed:
 
 ### `summary` (optional)
 
-The summary field is a text (not markdown) field that summarizes the output.
+The `summary` field is a text (not markdown) field that summarizes the output.
 It might say something like "Your solution is nearly there - there's just two small changes you can make." or "The code works great, but there's a little bit of linting that needs doing.".
 This summary is rendered on the website above the comments.
 
 ### `comments`
 
-Comments are keys into `website-copy/automated-comments/`, e.g. [`ruby.general.explicit_return -> automated-comments/ruby/general/explicit_return.md`](https://github.com/exercism/website-copy/blob/47af5b309ac263629ca5c52904046f81e0cc8def/automated-comments/ruby/general/explicit_return.md).
-
-Then can be structured either as single pointer strings (e.g. the last example above) or using a JSON Object to specify the follow keys:
+The `comments` field is an array of comments that link to Markdown documents in the [`exercism/website-copy`][website-copy-repo] (see [Writing Analyzer comments][writing-analyzer-comments] for more information).
+Each value in the array is either a pointer-string or a JSON object with the following format:
 
 #### `comment`
 
@@ -85,3 +84,6 @@ However, in the future we may choose to add emojis or indicators to other types,
 The contents of `stdout` and `stderr` from each run will be persisted into files that can be viewed later.
 
 You may write an `analysis.out` file that contains debugging information you want to later view.
+
+[website-copy-repo]: https://github.com/exercise/website-copy
+[writing-analyzer-comments]: /docs/building/tooling/analyzers/comments
