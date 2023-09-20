@@ -690,13 +690,6 @@
     "blurb": ""
   },
   {
-    "uuid": "48775c5f-b449-4c91-b792-b81a8ef4ec04",
-    "slug": "tooling/analyzers/feedback-guidelines",
-    "path": "building/tooling/analyzers/feedback-guidelines.md",
-    "title": "Feedback Guidelines",
-    "blurb": ""
-  },
-  {
     "uuid": "787e4243-b97a-4b55-9038-7667e5c3788a",
     "slug": "tooling/analyzers/comments",
     "path": "building/tooling/analyzers/comments.md",
