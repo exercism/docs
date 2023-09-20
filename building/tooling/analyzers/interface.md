@@ -77,7 +77,7 @@ The following `type`s are valid:
 
 Comments without a type field default to `informative `.
 
-Currently in the website, we soft-block on essential comments, encourage students to complete actionable comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
+Currently in the website, we soft-block on `essential` comments, encourage students to complete `actionable` comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
 However, in the future we may choose to add emojis or indicators to other types, or group them separately.
 
 ## Debugging
