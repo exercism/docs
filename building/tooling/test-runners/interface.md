@@ -13,6 +13,11 @@ All interactions with the Exercism website are handled automatically and are not
 - The script must write a `results.json` file to the output directory.
 - The runner must exit with an exit code of 0 if it has run successfully, regardless of the status of the tests.
 
+### Allowed run time
+
+The test runner gets 100% machine resources for a 20 second window per solution.
+After 20 seconds, the process is halted and reports a time-out.
+
 ## Output format
 
 The following fields are supported in `results.json` files:

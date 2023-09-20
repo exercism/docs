@@ -13,6 +13,11 @@ All interactions with the Exercism website are handled automatically. Represente
 - The script must write a `representation.json` file to the output directory.
 - The script must write a `mapping.json` file to the output directory.
 
+### Allowed run time
+
+The representer gets 100% machine resources for a 20 second window per solution.
+After 20 seconds, the process is halted and reports a time-out.
+
 ## Output format
 
 ### representation.txt
