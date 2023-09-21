@@ -46,7 +46,7 @@ The following overall statuses are valid:
 
 - `pass`: All tests passed
 - `fail`: At least one test has the status `fail` or `error`
-- `error`: No test was executed (this usually means e.g. a compile error, or a syntax error)
+- `error`: No test was executed (this usually means a compile error or a syntax error)
 
 To clarify, `error` should _only_ be used if **none of the tests were run**.
 Usually, this only happens for compiled languages, as not being able to compile the code will prevent the tests from being run.
