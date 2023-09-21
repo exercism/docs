@@ -49,7 +49,7 @@ The following overall statuses are valid:
 - `error`: No test was executed (this usually means a compile error or a syntax error)
 
 The `error` status should _only_ be used if **none of the tests were run**.
-Usually, this only happens for compiled languages, as not being able to compile the code will prevent the tests from being run.
+For compiled languages this is generally a result of the code not being able to compile.
 For interpreted languages, this is generally the result of a syntax error that stops the file from parsing.
 
 #### Message
