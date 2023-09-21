@@ -50,7 +50,7 @@ The following overall statuses are valid:
 
 The `error` status should _only_ be used if **none of the tests were run**.
 Usually, this only happens for compiled languages, as not being able to compile the code will prevent the tests from being run.
-In most interpreted languages, the tests will run even with syntax errors in the source, as they'll only find that out at run time.
+For interpreted languages, this is generally the result of a syntax error that stops the file from parsing.
 
 #### Message
 
