@@ -5,12 +5,12 @@ Help boost your chances of getting a good response by learning how to write a go
 
 Here are some key tips.
 
-## Use codeblocks, not images
+## Use code blocks, not images
 
-When you want to share code (either that you've written, or instructions), use a codeblock, not an image.
+When you want to share code (either that you've written, or instructions), use a code block, not an image.
 
 As developers, we're much quicker at reading code than having to zoom into image to see things.
-And many of our users use screenreaders, which cannot read out images.
+And many of our users use screen readers, which cannot read out images.
 So if you want to want to be a good community citizen, encourage our volunteers to help you, and look like a pro, share your code as text not an image!
 
 For example, you can type the following:
@@ -29,7 +29,7 @@ for number in range(10):
   total += number;
 ```
 
-You can even get syntax highlighting by adding the language to the codeblock opening:
+You can even get syntax highlighting by adding the language to the code block opening:
 
 ````
 ```python
