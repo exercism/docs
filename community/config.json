@@ -61,5 +61,12 @@
     "path": "community/good-member/pull-requests.md",
     "title": "Pull Requests",
     "blurb": "How to make a great Pull Request"
+  },
+  {
+    "uuid": "d8aff5ac-fa35-40e2-8acd-d2693f9b30b6",
+    "slug": "being-a-good-community-member/writing-support-requests",
+    "path": "community/good-member/writing-support-requests.md",
+    "title": "How to write a good support request",
+    "blurb": "Want help? Help yourself by learning how to write a good support request!"
   }
 ]
