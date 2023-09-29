@@ -64,6 +64,7 @@ These files are _not_ presented to the student, but used to define metadata of t
 
 - `.meta/config.json`: contains meta information on the exercise (required)
 - `.meta/design.md`: describe the design of the exercise (optional)
+- `.meta/tests.toml`: contains information on what tests are implemented (optional)
 
 ### Approach files
 
@@ -113,8 +114,9 @@ exercises
         |   ├── instructions.md
         |   └── hints.md
         ├── .meta
-        |   ├── config.json        
+        |   ├── config.json
         |   ├── design.md
+        |   ├── tests.toml
         |   └── Example.cs (example implementation)
         ├── Isogram.cs (stub implementation)
         └── IsogramTests.cs (tests)
@@ -311,6 +313,54 @@ Note that:
 
 - The order of authors and contributors is not significant and has no meaning.
 - `language_versions` is a free-form string that tracks are free to use and interpret as they like.
+
+### File: .meta/tests.toml
+
+**Purpose:** Contains information on what tests are implemented.
+
+**Presence:** Optional
+
+This file contains information on which tests are being implemented, provided the exercise has any tests defined in its `canonical-data.json` file within the [problem-specifications repo][problem-specifications-exercises].
+
+It exists to help maintainers keep track of which tests are implemented, and to (optionally) document why a certain test isn't implemented.
+It can also be used to detect unimplemented tests.
+
+The [configlet][configlet] tool handles updating/syncing of this file with the data in the [problem-specifications repo][problem-specifications-exercises].
+When syncing, configlet will, for each unimplemented test, ask whether to include that test or not.
+
+#### Example
+
+```toml
+# This is an auto-generated file.
+#
+# Regenerating this file via `configlet sync` will:
+# - Recreate every `description` key/value pair
+# - Recreate every `reimplements` key/value pair, where they exist in problem-specifications
+# - Remove any `include = true` key/value pair (an omitted `include` key implies inclusion)
+# - Preserve any other key/value pair
+#
+# As user-added comments (using the # character) will be removed when this file
+# is regenerated, comments can be added via a `comment` key.
+
+[3e5c30a8-87e2-4845-a815-a49671ade970]
+description = "empty strand"
+
+[a0ea42a6-06d9-4ac6-828c-7ccaccf98fec]
+description = "can count one nucleotide in single-character input"
+
+[eca0d565-ed8c-43e7-9033-6cefbf5115b5]
+description = "strand with repeated nucleotide"
+
+[40a45eac-c83f-4740-901a-20b22d15a39f]
+description = "strand with multiple nucleotides"
+
+[b4c47851-ee9e-4b0a-be70-a86e343bd851]
+description = "strand with invalid nucleotides"
+include = false
+comment = "error handling omitted on purpose"
+```
+
+---
 
 ### File: `.approaches/introduction.md`
 
@@ -656,3 +706,4 @@ If not, please [open an issue in the website-icons repository][website-icons-iss
 [exercise-icons]: /docs/building/tracks/icons#h-exercise-icons
 [website-icons-issues]: https://github.com/exercism/website-icons/issues
 [problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises
+[configlet]: /docs/building/configlet
