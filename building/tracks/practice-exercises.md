@@ -325,7 +325,7 @@ This file contains information on which tests are being implemented, provided th
 It exists to help maintainers keep track of which tests are implemented, and to (optionally) document why a certain test isn't implemented.
 It can also be used to detect unimplemented tests.
 
-The [configlet][configlet] tool handles updating/syncing of this file with the data in the [problem-specifications repo][problem-specifications-exercises].
+The [configlet][configlet] tool handles updating/syncing of this file with the data in the [problem-specifications repo][problem-specifications-exercises] via the [configlet sync][configlet-sync] command.
 When syncing, configlet will, for each unimplemented test, ask whether to include that test or not.
 
 #### Example
@@ -707,3 +707,4 @@ If not, please [open an issue in the website-icons repository][website-icons-iss
 [website-icons-issues]: https://github.com/exercism/website-icons/issues
 [problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises
 [configlet]: /docs/building/configlet
+[configlet-sync]: /docs/building/configlet/sync
