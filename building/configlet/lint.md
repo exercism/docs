@@ -599,4 +599,4 @@ The `config.json` file should have the following checks:
 - `construct` (e.g. `construct:bitwise-and`)
 - `uses` (e.g. `uses:DateTime.add_seconds`)
 
-The `<thing>` value must a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. `"two-fer"`) or underscores (e.g. `"two_fer"`). It must match the regular expression: `^[a-z0-9]+([-_][a-z0-9]+)*$`
+The `<thing>` value must a non-blank string¹.
