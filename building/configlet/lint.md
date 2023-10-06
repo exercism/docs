@@ -591,9 +591,12 @@ The `config.json` file should have the following checks:
 
    You can run `configlet uuid` to generate a suitable UUID.
 
-7. **Valid `tag`**: A non-blank string¹ that is formatted as `<category>:<thing>`, with `<category>` must be one of the following values:
+7. **Valid analyzer `tag`**: A non-blank string¹ that is formatted as `<category>:<thing>`.
+   The `<category>` value must be one of:
 
 - `paradigm` (e.g. `paradigm:functional`)
 - `technique` (e.g. `technique:recursion`)
 - `construct` (e.g. `construct:bitwise-and`)
 - `uses` (e.g. `uses:DateTime.add_seconds`)
+
+The `<thing>` value must a string that contains only characters in the range `[a-z0-9]`, optionally separated by dashes (e.g. `"two-fer"`) or underscores (e.g. `"two_fer"`). It must match the regular expression: `^[a-z0-9]+([-_][a-z0-9]+)*$`
