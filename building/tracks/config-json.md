@@ -231,6 +231,10 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 - `uuid`: a V4 UUID that uniquely identifies the concept. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the concept's slug, which is a lowercased, kebab-case string. The slug must be unique across all concepts within the track. Its length must be <= 255.
 - `name`: the concept's name. Its length must be <= 255.
+- `tags`: Specify the conditions for when a submission is linked to an approach. (optional)
+  - `all`: An array of tags that must all be present on a submission (optional, unless `any` has no elements)
+  - `any`: An array of tags of which at least one must be present on a submission (optional, unless `all` has no elements)
+  - `not`: none of the tags must be present on a submission (optional)
 
 ### Example
 
@@ -240,7 +244,10 @@ Each concept is an entry in the top-level `concepts` array. The following fields
     {
       "uuid": "b9a421b2-c5ff-4213-bd6d-b886da31ea0d",
       "slug": "numbers",
-      "name": "Numbers"
+      "name": "Numbers",
+      "tags": {
+        "all": ["concept:number"]
+      }
     }
   ]
 }
