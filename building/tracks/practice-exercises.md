@@ -421,6 +421,10 @@ This file contains meta information on the exercise's approaches:
     - Including reviewers if their reviews substantially change the exercise approach (to the extent where it feels like "you got there together")
   - `contributors`: The GitHub username(s) of the exercise approach's contributor(s) (optional)
     - Including reviewers if their reviews are meaningful/actionable/actioned.
+  - `tags`: Specify the conditions for when a submission is linked to an approach. (optional)
+    - `all`: An array of tags that must all be present on a submission (optional, unless `any` has no elements)
+    - `any`: An array of tags of which at least one must be present on a submission (optional, unless `all` has no elements)
+    - `not`: none of the tags must be present on a submission (optional)
 
 #### Example
 
