@@ -187,13 +187,16 @@ The `config.json` file should have the following checks:
 - The `"concepts[].name"` value must be a Title Case string³ with length <= 255
 - The `"concepts[].tags"` key is optional
 - The `"concepts[].tags.all"` key is optional, unless `"concepts[].tags.any"` is empty
-- The `"concepts[].tags.all"` value must be an array of strings
+- The `"concepts[].tags.all"` value must be an array
+- The `"concepts[].tags.all"` values must be non-blank tag⁷ strings with length <= 255
 - The `"concepts[].tags.all"` values must not have duplicates
 - The `"concepts[].tags.any"` key is optional, unless `"concepts[].tags.all"` is empty
-- The `"concepts[].tags.any"` value must be an array of strings
+- The `"concepts[].tags.any"` value must be an array
+- The `"concepts[].tags.any"` values must be non-blank tag⁷ strings with length <= 255
 - The `"concepts[].tags.any"` values must not have duplicates
 - The `"concepts[].tags.not"` key is optional
-- The `"concepts[].tags.not"` value must be an array of strings
+- The `"concepts[].tags.not"` value must be an array
+- The `"concepts[].tags.not"` values must be non-blank tag⁷ strings with length <= 255
 - The `"concepts[].tags.not"` values must not have duplicates
 - Each `"concepts"` value must have a `concept/<concepts.slug>/about.md` file. Linting rules for this file are specified below.
 - Each `"concepts"` value must have a `concept/<concepts.slug>/introduction.md` file. Linting rules for this file are specified below.
@@ -383,14 +386,17 @@ The `config.json` file should have the following checks:
 - The `"approaches[].contributors"` values are treated case-insensitively
 - Users can only be listed in either the `"approaches[].authors"` or `"approaches[].contributors"` array (no overlap)
 - The `"approaches[].tags"` key is optional
-- The `"approaches[].tags.all"` key is optional, unless `"concepts[].tags.any"` is empty
-- The `"approaches[].tags.all"` value must be an array of strings
+- The `"approaches[].tags.all"` key is optional, unless `"approaches[].tags.any"` is empty
+- The `"approaches[].tags.all"` value must be an array
+- The `"approaches[].tags.all"` values must be non-blank tag⁷ strings with length <= 255
 - The `"approaches[].tags.all"` values must not have duplicates
-- The `"approaches[].tags.any"` key is optional, unless `"concepts[].tags.all"` is empty
-- The `"approaches[].tags.any"` value must be an array of strings
+- The `"approaches[].tags.any"` key is optional, unless `"approaches[].tags.all"` is empty
+- The `"approaches[].tags.any"` value must be an array
+- The `"approaches[].tags.any"` values must be non-blank tag⁷ strings with length <= 255
 - The `"approaches[].tags.any"` values must not have duplicates
 - The `"approaches[].tags.not"` key is optional
-- The `"approaches[].tags.not"` value must be an array of strings
+- The `"approaches[].tags.not"` value must be an array
+- The `"approaches[].tags.not"` values must be non-blank tag⁷ strings with length <= 255
 - The `"approaches[].tags.not"` values must not have duplicates
 
 ### Rule: exercises/{concept|practice}/&lt;slug&gt;/.approaches/&lt;approach-slug&gt;/content.md is valid
@@ -584,3 +590,10 @@ The `config.json` file should have the following checks:
    ```
 
    You can run `configlet uuid` to generate a suitable UUID.
+
+7. **Valid `tag`**: A non-blank string¹ that is formatted as `<category>:<thing>`, with `<category>` must be one of the following values:
+
+- `paradigm` (e.g. `paradigm:functional`)
+- `technique` (e.g. `technique:recursion`)
+- `construct` (e.g. `construct:bitwise-and`)
+- `uses` (e.g. `uses:DateTime.add_seconds`)
