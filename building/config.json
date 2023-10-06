@@ -711,6 +711,13 @@
     "blurb": ""
   },
   {
+    "uuid": "8b527b08-52f4-4380-9d04-ebd866a09ad4",
+    "slug": "tooling/analyzers/guidance",
+    "path": "building/tooling/analyzers/guidance.md",
+    "title": "Guidance",
+    "blurb": ""
+  },
+  {
     "uuid": "70960db8-c1cb-4d1b-93bc-749b72fe3ee7",
     "slug": "tooling/analyzers/interface",
     "path": "building/tooling/analyzers/interface.md",
