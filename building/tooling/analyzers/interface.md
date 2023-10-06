@@ -85,5 +85,10 @@ The contents of `stdout` and `stderr` from each run will be persisted into files
 
 You may write an `analysis.out` file that contains debugging information you want to later view.
 
+## Further reading
+
+Before building an analyzer, please read our [Analyzer Guidance][analyzer-guidance].
+
 [website-copy-repo]: https://github.com/exercise/website-copy
 [writing-analyzer-comments]: /docs/building/tooling/analyzers/comments
+[analyzer-guidance]: /docs/building/tooling/analyzers/guidance
