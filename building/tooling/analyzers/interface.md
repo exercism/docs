@@ -38,6 +38,12 @@ The `analysis.json` file should be structured as followed:
       "comment": "ruby.general.some_unparameterised_message"
     },
     "ruby.general.some_unparameterised_message"
+  ],
+  "tags": [
+    "construct:list",
+    "paradigm:functional",
+    "technique:higher-order-functions",
+    "uses:List.unfold"
   ]
 }
 ```
@@ -79,6 +85,22 @@ Comments without a type field default to `informative `.
 Currently in the website, we soft-block on `essential` comments, encourage students to complete `actionable` comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
 However, in the future we may choose to add emojis or indicators to other types, or group them separately.
 
+### `tags` (optional)
+
+The `tags` field is an array of strings.
+Each tag is formatted as: `"<category>:<thing>"`.
+
+Some examples being:
+
+- `"paradigm:functional"`
+- `"technique:recursion"`
+- `"construct:bitwise-and"`
+- `"uses:DateTime.add_seconds"`
+
+Tags can be used to identify what constructs/techniques/paradigms a solution uses.
+
+For more information, see [Tagging solutions][tagging-solutions].
+
 ## Debugging
 
 The contents of `stdout` and `stderr` from each run will be persisted into files that can be viewed later.
@@ -87,3 +109,4 @@ You may write an `analysis.out` file that contains debugging information you wan
 
 [website-copy-repo]: https://github.com/exercise/website-copy
 [writing-analyzer-comments]: /docs/building/tooling/analyzers/comments
+[tagging-solutions]: /docs/building/tooling/analyzers/tags

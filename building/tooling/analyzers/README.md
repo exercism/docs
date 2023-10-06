@@ -19,3 +19,4 @@ You can use the following documents to learn more about building an analyzer:
 - [The Analyzer interface.](/docs/building/tooling/analyzers/interface)
 - [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/analyzers/docker)
 - [Writing Analyzer comments](/docs/building/tooling/analyzers/comments)
+- [Tagging solutions](/docs/building/tooling/analyzers/tags)

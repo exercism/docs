@@ -718,6 +718,13 @@
     "blurb": ""
   },
   {
+    "uuid": "4dec2835-6dc0-493b-81aa-d93cf1d6036c",
+    "slug": "tooling/analyzers/tags",
+    "path": "building/tooling/analyzers/tags.md",
+    "title": "Tagging solutions",
+    "blurb": ""
+  },
+  {
     "uuid": "fd89f1aa-e73b-46f0-9759-da5cc9969069",
     "slug": "tooling/representers",
     "path": "building/tooling/representers/README.md",
