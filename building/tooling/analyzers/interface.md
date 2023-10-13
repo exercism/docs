@@ -10,6 +10,7 @@ All interactions with the Exercism website are handled automatically. Analyzers 
   - A path to a directory containing the submitted file(s) (with a trailing slash).
   - A path to an output directory (with a trailing slash). This directory is writable.
 - The script must write an `analysis.json` file to the output directory.
+- The script must write a `tags.json` file to the output directory.
 
 ### Allowed run time
 
@@ -17,6 +18,8 @@ The analyzer gets 100% machine resources for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out.
 
 ## Output format
+
+### analysis.json
 
 The `analysis.json` file should be structured as followed:
 
@@ -38,32 +41,26 @@ The `analysis.json` file should be structured as followed:
       "comment": "ruby.general.some_unparameterised_message"
     },
     "ruby.general.some_unparameterised_message"
-  ],
-  "tags": [
-    "construct:list",
-    "paradigm:functional",
-    "technique:higher-order-functions",
-    "uses:List.unfold"
   ]
 }
 ```
 
-### `summary` (optional)
+#### `summary` (optional)
 
 The `summary` field is a text (not markdown) field that summarizes the output.
 It might say something like "Your solution is nearly there - there's just two small changes you can make." or "The code works great, but there's a little bit of linting that needs doing.".
 This summary is rendered on the website above the comments.
 
-### `comments`
+#### `comments`
 
 The `comments` field is an array of comments that link to Markdown documents in the [`exercism/website-copy`][website-copy-repo] (see [Writing Analyzer comments][writing-analyzer-comments] for more information).
 Each value in the array is either a pointer-string or a JSON object with the following format:
 
-#### `comment`
+##### `comment`
 
 The pointer-string to a file in `website-copy`.
 
-#### `params` (optional)
+##### `params` (optional)
 
 A JSON Object containing any params that should be interpolated during rendering.
 For example, in the markdown file, you could write `Try %{variable_name} += 1 instead`, and then set `params` to `{ "variable_name": "foo"}` in order to substitute `%{variable_name}` for the actual variable that the student used.
@@ -71,7 +68,7 @@ For example, in the markdown file, you could write `Try %{variable_name} += 1 in
 When using parameterized files, ensure to escape all uses of `%` by placing anther `%` in front of it.
 e.g. `Try aim aim for 100%% of the tests passing`.
 
-#### `type` (optional)
+##### `type` (optional)
 
 The following `type`s are valid:
 
@@ -85,7 +82,22 @@ Comments without a type field default to `informative `.
 Currently in the website, we soft-block on `essential` comments, encourage students to complete `actionable` comments before marking as complete on Practice Exercises (but not Concept Exercises), but don't suggest any action on `informative` or `celebratory`.
 However, in the future we may choose to add emojis or indicators to other types, or group them separately.
 
-### `tags` (optional)
+### tags.json
+
+The `tags.json` file should be structured as followed:
+
+```json
+{
+  "tags": [
+    "construct:list",
+    "paradigm:functional",
+    "technique:higher-order-functions",
+    "uses:List.unfold"
+  ]
+}
+```
+
+#### `tags`
 
 The `tags` field is an array of strings.
 Each tag is formatted as: `"<category>:<thing>"`.
