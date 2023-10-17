@@ -10,7 +10,7 @@ All interactions with the Exercism website are handled automatically. Analyzers 
   - A path to a directory containing the submitted file(s) (with a trailing slash).
   - A path to an output directory (with a trailing slash). This directory is writable.
 - The script must write an `analysis.json` file to the output directory.
-- The script must write a `tags.json` file to the output directory.
+- The script should write a `tags.json` file to the output directory.
 
 ### Allowed run time
 
