@@ -19,7 +19,7 @@ How these documents are generated can be found [here](/docs/building/configlet/g
 
 ## Syncing exercise data with the problem-specifications repo
 
-The tertiary function of configlet is to various data for practice exercises. 
+The tertiary function of configlet is to provide various data for practice exercises.
 
 A [Practice Exercise](/docs/building/tracks/practice-exercises) on an Exercism track is often implemented from a specification in the [`exercism/problem-specifications`](https://github.com/exercism/problem-specifications) repo.
 
