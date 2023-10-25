@@ -5,6 +5,7 @@ Please follow the instructions below to request a new Language Track.
 If you wish to request a new track, **you must post in the [Support category on the Exercism Community Forum][forum-support]** to discuss this with the team.
 
 Before opening the post, it's worth considering:
+
 - Is it a programming language?
 - Does Exercism already support the language?
 - Has anyone else asked for it?
@@ -38,6 +39,7 @@ Exercism is a not-for-profit organization, and all the language tracks are built
 We will only create a track if there is at least one volunteer who has offered to take the lead on building it.
 
 The minimum to launch a track is:
+
 - 20 practice exercises (these can be based on specifications in the [problem-specifications][problem-specifications] repository.
 - Continuous integration that checks that the exercises can be solved.
 - A bit of configuration and documentation.
@@ -50,4 +52,6 @@ Awesome!! Please create a new post in the [Exercism Forum][forum-support] so we 
 
 [forum-support]: https://forum.exercism.org/c/support/8
 [generic-track-repo]: https://github.com/exercism/generic-track/issues
-[preblem-specifications]: https://github.com/exercism/problem-specifications
+[problem-specifications]: https://github.com/exercism/problem-specifications
+[track-repositories]: https://github.com/topics/exercism-track
+[exercism-tracks]: https://exercism.org/tracks/
