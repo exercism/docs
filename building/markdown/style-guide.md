@@ -44,7 +44,7 @@ Here are some example rules:
 - Instead of describing an interface as "RESTful", describe its specific properties
 - If you must use "CRUD", explain that it stands for Create, Read, Update, Delete and that these are the basic actions in standard databases
 
-An some examples of good usage:
+And some examples of good usage:
 
 - "HyperText Markup Language (HTML) is the language used to describe document structure and content on the web" _(expanded and explained)_
 - "DNA, a set of chemical instructions that influence how our bodies are constructed" _(DNA is not expanded because "deoxyribonucleic acid" is unlikely to help explain what DNA is to our audience)_
@@ -72,7 +72,7 @@ Many American English style guides state that the abbreviations "i.e." and "e.g.
 
 ## Choice of words
 
-### Mathematical and jargon terms.
+### Mathematical and jargon terms
 
 In any place that mathematical terms are used they should be explained or substituted out for terms that require less domain knowledge.
 
