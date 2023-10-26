@@ -14,8 +14,8 @@ A tag is a string that is formatted as: `"<category>:<thing>"`.
 
 We support four different categories, going from highest to lowest level:
 
-| Category    | Description                                     | Specificity                              |                                       | Examples |
-| ----------- | ----------------------------------------------- | ---------------------------------------- | ------------------------------------- | -------- |
+| Category    | Description                                     | Specificity                              | Examples                    |
+| ----------- | ----------------------------------------------- | ---------------------------------------- | --------------------------- |
 | `paradigm`  | A [programming paradigm][programming-paradigms] | Very high-level, not track-specific      | `imperative`, `functional`            |
 | `technique` | A technique being used                          | High-level, most won't be track-specific | `recursion`, `immutability`           |
 | `construct` | A language construct                            | Many won't be track-specific             | `bitwise-and`, `for-loop`             |
