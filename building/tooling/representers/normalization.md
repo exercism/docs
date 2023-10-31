@@ -50,6 +50,7 @@ public static class PLACEHOLDER_1
 ## Normalize white space
 
 Inconsistent white space is so frequent, that normalizing it is a common normalization step.
+Line endings should also be normalized.
 
 ### Source code
 
