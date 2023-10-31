@@ -10,7 +10,7 @@ These tags can then be used to:
 
 ## Format
 
-A tag is a string that is formatted as: `"<category>:<thing>"`.
+A tag is a string that is formatted as: `<category>:<thing>`.
 
 We support four different categories, going from highest to lowest level:
 
@@ -23,10 +23,10 @@ We support four different categories, going from highest to lowest level:
 
 Some example tags:
 
-- `"paradigm:functional"`
-- `"technique:recursion"`
-- `"construct:bitwise-and"`
-- `"uses:DateTime.add_seconds"`
+- `paradigm:functional`
+- `technique:recursion`
+- `construct:bitwise-and`
+- `uses:DateTime.add_seconds`
 
 ## Commonly used tags
 
@@ -35,46 +35,46 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 
 ### Paradigm
 
-| Tag                          | Description                                                      |
-| ---------------------------- | ---------------------------------------------------------------- |
-| `"paradigm:declarative"`     | Uses [declarative programming][declarative-programming].         |
-| `"paradigm:functional"`      | Uses [functional programming][functional-programming].           |
-| `"paradigm:generic"`         | Uses [generic programming][generic-programming].                 |
-| `"paradigm:imperative"`      | Uses [imperative programming][imperative-programming].           |
-| `"paradigm:logic"`           | Uses [logic programming][logic-programming].                     |
-| `"paradigm:meta"`            | Uses [metaprogramming][metaprogramming].                         |
-| `"paradigm:object-oriented"` | Uses [object-oriented programming][object-oriented-programming]. |
-| `"paradigm:procedural"`      | Uses [procedural programming][procedural-programming].           |
-| `"paradigm:reflective"`      | Uses [reflective programming][reflective-programming].           |
+| Tag                        | Description                                                      |
+| -------------------------- | ---------------------------------------------------------------- |
+| `paradigm:declarative`     | Uses [declarative programming][declarative-programming].         |
+| `paradigm:functional`      | Uses [functional programming][functional-programming].           |
+| `paradigm:generic`         | Uses [generic programming][generic-programming].                 |
+| `paradigm:imperative`      | Uses [imperative programming][imperative-programming].           |
+| `paradigm:logic`           | Uses [logic programming][logic-programming].                     |
+| `paradigm:meta`            | Uses [metaprogramming][metaprogramming].                         |
+| `paradigm:object-oriented` | Uses [object-oriented programming][object-oriented-programming]. |
+| `paradigm:procedural`      | Uses [procedural programming][procedural-programming].           |
+| `paradigm:reflective`      | Uses [reflective programming][reflective-programming].           |
 
 ### Techniques
 
-| Tag                                  | Description                                                                    |
-| ------------------------------------ | ------------------------------------------------------------------------------ |
-| `"technique:bit-manipulation"`       | Manipulating bits, usually via bitwise operators (e.g. AND, XOR or left shift) |
-| `"technique:bit-shifting"`           | Using bit shifting (special case of `"technique:bit-manipulation"`)            |
-| `"technique:boolean-logic"`          | Using boolean logic (AND, OR, NOT)                                             |
-| `"technique:concurrency"`            | Using concurrency                                                              |
-| `"technique:enumeration"`            | Enumerating over values                                                        |
-| `"technique:exceptions"`             | Working with exceptions                                                        |
-| `"technique:higher-order-functions"` | Using higher-order functions                                                   |
-| `"technique:immutability"`           | Using immutability                                                             |
-| `"technique:immutable-collection"`   | Using immutable collections (special case of `"technique:immutability"`)       |
-| `"technique:inheritance"`            | Using inheritance                                                              |
-| `"technique:laziness"`               | Using laziness, where values are produced only when needed                     |
-| `"technique:locks"`                  | Using locks to get exclusive access to resources                               |
-| `"technique:looping"`                | Using loops                                                                    |
-| `"technique:memory-management"`      | Managing memory                                                                |
-| `"technique:ordering"`               | Ordering data                                                                  |
-| `"technique:parallelism"`            | Running code in parallel                                                       |
-| `"technique:pointers"`               | Using pointers                                                                 |
-| `"technique:randomness"`             | Using randomness                                                               |
-| `"technique:recursion"`              | Using recursion                                                                |
-| `"technique:regular-expression"`     | Using regular expressions                                                      |
-| `"technique:sorted-collection"`      | Using sorted collections (special case of `"technique:sorting"`)               |
-| `"technique:sorting"`                | Sorting data                                                                   |
-| `"technique:type-conversion"`        | Converting values from one type to another type                                |
-| `"technique:unsafe"`                 | Using unsafe code, e.g. pointer arithmetic                                     |
+| Tag                                | Description                                                                    |
+| ---------------------------------- | ------------------------------------------------------------------------------ |
+| `technique:bit-manipulation`       | Manipulating bits, usually via bitwise operators (e.g. AND, XOR or left shift) |
+| `technique:bit-shifting`           | Using bit shifting (special case of `technique:bit-manipulation`)            |
+| `technique:boolean-logic`          | Using boolean logic (AND, OR, NOT)                                             |
+| `technique:concurrency`            | Using concurrency                                                              |
+| `technique:enumeration`            | Enumerating over values                                                        |
+| `technique:exceptions`             | Working with exceptions                                                        |
+| `technique:higher-order-functions` | Using higher-order functions                                                   |
+| `technique:immutability`           | Using immutability                                                             |
+| `technique:immutable-collection`   | Using immutable collections (special case of `technique:immutability`)       |
+| `technique:inheritance`            | Using inheritance                                                              |
+| `technique:laziness`               | Using laziness, where values are produced only when needed                     |
+| `technique:locks`                  | Using locks to get exclusive access to resources                               |
+| `technique:looping`                | Using loops                                                                    |
+| `technique:memory-management`      | Managing memory                                                                |
+| `technique:ordering`               | Ordering data                                                                  |
+| `technique:parallelism`            | Running code in parallel                                                       |
+| `technique:pointers`               | Using pointers                                                                 |
+| `technique:randomness`             | Using randomness                                                               |
+| `technique:recursion`              | Using recursion                                                                |
+| `technique:regular-expression`     | Using regular expressions                                                      |
+| `technique:sorted-collection`      | Using sorted collections (special case of `technique:sorting`)               |
+| `technique:sorting`                | Sorting data                                                                   |
+| `technique:type-conversion`        | Converting values from one type to another type                                |
+| `technique:unsafe`                 | Using unsafe code, e.g. pointer arithmetic                                     |
 
 ### Constructs
 
