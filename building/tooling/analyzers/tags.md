@@ -228,12 +228,12 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | -------------------------------------- | ----------------------------------------------- |
 | `construct:binary-number`              | A number in binary notation                     |
 | `construct:hexadecimal-number`         | A number in hexadecimal notation                |
-| `construct-multiline-string`           | A multiline string                              |
+| `construct:multiline-string`           | A multiline string                              |
 | `construct:octal-number`               | A number in octal notation                      |
 | `construct:scientific-notation-number` | A number in scientific notation                 |
-| `construct-string-interpolation`       | An interpolated string                          |
+| `construct:string-interpolation`       | An interpolated string                          |
 | `construct:underscored-number`         | A number using underscores as a digit separator |
-| `construct-verbatim-string`            | A verbatim string (no escape sequences)         |
+| `construct:verbatim-string`            | A verbatim string (no escape sequences)         |
 
 ### Uses
 
