@@ -67,7 +67,9 @@ Where the status is `error` (no test was executed correctly), the top level `mes
 
 In Ruby, in the case of a syntax error, we provide the runtime error and stack trace. In compiled languages, the compilation error should be provided.
 
-The top level `message` value is not limited in length.
+The top level `message` value is limited to 65535 characters.
+The effective maximum length is less if the value contains multibyte characters.
+
 When the status is not `error`, either set the value to `null` or omit the key entirely.
 
 #### Tests
