@@ -27,13 +27,13 @@ The following top-level properties contain general track metadata:
   - `exemplar`: exemplar implementation file(s) pattern (optional)
   - `editor`: additional read-only editor file(s) patterns (optional)
 - `test_runner`: an object describing the track's test runner (if any): (required if `status.test_runner` is `true`)
-  - `average_run_time`: a `number` value for the number of seconds the test runner takes on average to run, rounded to one decimal point precision (e.g. `1.8`) (required if `status.test_runner` is `true`)
+  - `average_run_time`: an integer `number` value for the number of seconds the test runner takes on average to run (e.g. `4`) (required if `status.test_runner` is `true`)
 - `approaches`: an object with metadata on the track's approaches: (required if the track has any approaches)
   - `snippet_extension`: a string value used for the snippet file's extension (e.g. `rb`) (required if the track has any approaches)
 
 ### Files
 
-This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, support will be added to [configlet](/docs/building/configlet) to use these track-wide patterns to automatically populate the exercises' `files` key.
+This key is used to specify track-wide file locations. Rather than maintainers having to manually set the `files` key in the _exercises_' `config.json` files, [configlet](/docs/building/configlet) can automatically populate it using these track-wide patterns.
 
 The file patterns defined in the `files` object support the following placeholders:
 
@@ -46,11 +46,18 @@ Support will be added to [configlet](/docs/building/configlet) to use these patt
 
 ### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "language": "C#",
   "slug": "csharp",
   "active": true,
+  "status": {
+    "concept_exercises": true,
+    "test_runner": true,
+    "representer": false,
+    "analyzer": false
+  },
   "blurb": "C# is a modern, object-oriented language with lots of great features, such as type-inference and async/await. The tooling is excellent, and there is extensive, well-written documentation.",
   "version": 3,
   "online_editor": {
@@ -58,26 +65,26 @@ Support will be added to [configlet](/docs/building/configlet) to use these patt
     "indent_size": 4,
     "highlightjs_language": "csharp"
   },
-  "status": {
-    "concept_exercises": true,
-    "test_runner": true,
-    "representer": false,
-    "analyzer": false
+  "test_runner": {
+    "average_run_time": 2
   },
   "files": {
-    "solution": ["%{pascal_slug}.cs"],
-    "test": ["%{pascal_slug}Tests.cs"],
-    "example": [".meta/Example.cs"],
-    "exemplar": [".meta/Exemplar.cs"]
-  },
-  "test_runner": {
-    "average_run_time": 2.3
-  },
-  "approaches": {
-    "snippet_extension": "cs"
+    "solution": [
+      "%{pascal_slug}.cs"
+    ],
+    "test": [
+      "%{pascal_slug}Tests.cs"
+    ],
+    "example": [
+      ".meta/Example.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ]
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 ## Exercises
 
@@ -106,35 +113,48 @@ The following fields make up a concept exercise:
 
 #### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "exercises": {
     "concept": [
       {
-        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
         "slug": "cars-assemble",
         "name": "Cars, Assemble!",
-        "concepts": ["if-statements", "numbers"],
-        "prerequisites": ["basics"]
+        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
+        "concepts": [
+          "if-statements",
+          "numbers"
+        ],
+        "prerequisites": [
+          "basics"
+        ]
       },
       ...
     ]
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 #### Example of work-in-progress
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "exercises": {
     "concept": [
       {
-        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
         "slug": "cars-assemble",
         "name": "Cars, Assemble!",
-        "concepts": ["if-statements", "numbers"],
-        "prerequisites": ["basics"],
+        "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
+        "concepts": [
+          "if-statements",
+          "numbers"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
         "status": "wip"
       },
       ...
@@ -142,6 +162,7 @@ The following fields make up a concept exercise:
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 ### Practice exercises
 
@@ -166,16 +187,24 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
 
 #### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "exercises": {
     "practice": [
       {
-        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
         "name": "Leap",
-        "practices": ["if-statements", "numbers", "operator-precedence"],
-        "prerequisites": ["if-statements", "numbers"],
+        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
+        "practices": [
+          "if-statements",
+          "numbers",
+          "operator-precedence"
+        ],
+        "prerequisites": [
+          "if-statements",
+          "numbers"
+        ],
         "difficulty": 1
       },
       ...
@@ -183,19 +212,28 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 #### Example of beta
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "exercises": {
     "practice": [
       {
-        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
         "slug": "leap",
         "name": "Leap",
-        "practices": ["if-statements", "numbers", "operator-precedence"],
-        "prerequisites": ["if-statements", "numbers"],
+        "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
+        "practices": [
+          "if-statements",
+          "numbers",
+          "operator-precedence"
+        ],
+        "prerequisites": [
+          "if-statements",
+          "numbers"
+        ],
         "difficulty": 1,
         "status": "beta"
       },
@@ -204,6 +242,7 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 ### Foregone exercises
 
@@ -216,13 +255,17 @@ Reasons for why an track might _not_ want to implement an exercise could be:
 
 #### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "exercises": {
-    "foregone": ["lens-person"]
+    "foregone": [
+      "lens-person"
+    ]
   }
 }
 ```
+<!-- prettier-ignore-end -->
 
 ## Concepts
 
@@ -238,6 +281,7 @@ Each concept is an entry in the top-level `concepts` array. The following fields
 
 ### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "concepts": [
@@ -246,12 +290,15 @@ Each concept is an entry in the top-level `concepts` array. The following fields
       "slug": "numbers",
       "name": "Numbers",
       "tags": {
-        "all": ["concept:number"]
+        "all": [
+          "concept:number"
+        ]
       }
     }
   ]
 }
 ```
+<!-- prettier-ignore-end -->
 
 ## Key features
 
@@ -302,6 +349,7 @@ Exactly 6 key features must be specified.
 
 ### Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "key_features": [
@@ -311,9 +359,10 @@ Exactly 6 key features must be specified.
       "icon": "safe"
     },
     ...
-  ]
+  ],
 }
 ```
+<!-- prettier-ignore-end -->
 
 ## Tags
 
@@ -382,43 +431,60 @@ Note that it is perfectly fine to include multiple tags from a single category.
 
 Example
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "tags": [
-    "runtime/jvm",
-    "platform/windows",
-    "platform/linux",
     "paradigm/declarative",
     "paradigm/functional",
-    "paradigm/object_oriented"
+    "paradigm/object_oriented",
+    "platform/linux",
+    "platform/windows",
+    "runtime/jvm"
   ]
 }
 ```
+<!-- prettier-ignore-end -->
 
 ### Example
 
 This is an example of what a valid `config.json` file can look like:
 
+<!-- prettier-ignore-start -->
 ```json
 {
   "language": "C#",
   "slug": "csharp",
   "active": true,
-  "blurb": "C# is a modern, object-oriented language with lots of great features, such as type-inference and async/await. The tooling is excellent, and there is extensive, well-written documentation.",
-  "version": 3,
   "status": {
     "concept_exercises": true,
     "test_runner": true,
     "representer": false,
     "analyzer": false
   },
+  "blurb": "C# is a modern, object-oriented language with lots of great features, such as type-inference and async/await. The tooling is excellent, and there is extensive, well-written documentation.",
+  "version": 3,
   "online_editor": {
     "indent_style": "space",
     "indent_size": 4,
     "highlightjs_language": "csharp"
   },
   "test_runner": {
-    "average_run_time": 2.3
+    "average_run_time": 2
+  },
+  "files": {
+    "solution": [
+      "%{pascal_slug}.cs"
+    ],
+    "test": [
+      "%{pascal_slug}Tests.cs"
+    ],
+    "example": [
+      ".meta/Example.cs"
+    ],
+    "exemplar": [
+      ".meta/Exemplar.cs"
+    ]
   },
   "exercises": {
     "concept": [
@@ -426,15 +492,22 @@ This is an example of what a valid `config.json` file can look like:
         "slug": "lucians-luscious-lasagna",
         "name": "Lucian's Luscious Lasagna",
         "uuid": "7d358894-4fbd-4c91-b49f-d68f1c5aa6bc",
-        "concepts": ["basics"],
+        "concepts": [
+          "basics"
+        ],
         "prerequisites": []
       },
       {
         "slug": "cars-assemble",
         "name": "Cars, Assemble!",
         "uuid": "93fbc7cf-3a7e-4450-ad22-e30129c36bb9",
-        "concepts": ["if-statements", "numbers"],
-        "prerequisites": ["basics"],
+        "concepts": [
+          "if-statements",
+          "numbers"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
         "status": "wip"
       }
     ],
@@ -443,16 +516,27 @@ This is an example of what a valid `config.json` file can look like:
         "slug": "hello-world",
         "name": "Hello, World!",
         "uuid": "6c88f46b-5acb-4fae-a6ec-b48ae3f8168f",
-        "practices": ["strings"],
-        "prerequisites": ["basics"],
+        "practices": [
+          "strings"
+        ],
+        "prerequisites": [
+          "basics"
+        ],
         "difficulty": 1
       },
       {
         "slug": "leap",
         "name": "Leap",
         "uuid": "8ba15933-29a2-49b1-a9ce-70474bad3007",
-        "practices": ["if-statements", "numbers", "operator-precedence"],
-        "prerequisites": ["if-statements", "numbers"],
+        "practices": [
+          "if-statements",
+          "numbers",
+          "operator-precedence"
+        ],
+        "prerequisites": [
+          "if-statements",
+          "numbers"
+        ],
         "difficulty": 2,
         "status": "beta"
       }
@@ -482,45 +566,46 @@ This is an example of what a valid `config.json` file can look like:
   ],
   "key_features": [
     {
-      "icon": "expressive",
       "title": "Modern",
-      "content": "C# is a modern, fast-evolving language."
+      "content": "C# is a modern, fast-evolving language.",
+      "icon": "expressive"
     },
     {
-      "icon": "cross-platform",
       "title": "Cross-platform",
-      "content": "C# runs on almost any platform and chipset."
+      "content": "C# runs on almost any platform and chipset.",
+      "icon": "cross-platform"
     },
     {
-      "icon": "multi-paradigm",
       "title": "Multi-paradigm",
-      "content": "C# is primarily an object-oriented language, but also has lots of functional features."
+      "content": "C# is primarily an object-oriented language, but also has lots of functional features.",
+      "icon": "multi-paradigm"
     },
     {
-      "icon": "general-purpose",
       "title": "General purpose",
-      "content": "C# can be used for a wide variety of workloads, like websites, console applications, and even games."
+      "content": "C# can be used for a wide variety of workloads, like websites, console applications, and even games.",
+      "icon": "general-purpose"
     },
     {
-      "icon": "tooling",
       "title": "Tooling",
-      "content": "C# has excellent tooling, with linting and advanced refactoring options built-in."
+      "content": "C# has excellent tooling, with linting and advanced refactoring options built-in.",
+      "icon": "tooling"
     },
     {
-      "icon": "documentation",
       "title": "Documentation",
-      "content": "Documentation is excellent and exhaustive, making it easy to get started with C#."
+      "content": "Documentation is excellent and exhaustive, making it easy to get started with C#.",
+      "icon": "documentation"
     }
   ],
   "tags": [
-    "runtime/jvm",
-    "platform/windows",
-    "platform/linux",
     "paradigm/declarative",
     "paradigm/functional",
-    "paradigm/object_oriented"
+    "paradigm/object_oriented",
+    "platform/linux",
+    "platform/windows",
+    "runtime/jvm"
   ]
 }
 ```
+<!-- prettier-ignore-end -->
 
 [key-feature-icons]: /docs/building/tracks/icons#h-key-feature-icons
