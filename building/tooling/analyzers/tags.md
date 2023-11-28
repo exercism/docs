@@ -141,6 +141,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:conditional-operator` | A ternary conditional operator               |
 | `construct:continue`             | Continue to the next iteration of a loop     |
 | `construct:do-while-loop`        | A `do-while` loop                            |
+| `construct:else`                 | An `else` statement                          |
 | `construct:finally`              | Ensure that a certain code block always runs |
 | `construct:for-loop`             | A `for` loop                                 |
 | `construct:foreach`              | A `foreach` loop                             |
