@@ -58,6 +58,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `technique:composition`            | Using composition                                                              |
 | `technique:concurrency`            | Using concurrency                                                              |
 | `technique:enumeration`            | Enumerating over values                                                        |
+| `technique:error-handling`         | Handling errors                                                                |
 | `technique:exceptions`             | Working with exceptions                                                        |
 | `technique:higher-order-functions` | Using higher-order functions                                                   |
 | `technique:immutability`           | Using immutability                                                             |
@@ -77,6 +78,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `technique:short-circuiting`       | Use short-circuiting to prevent unnecessary evaluation                         |
 | `technique:sorted-collection`      | Using sorted collections (special case of `technique:sorting`)                 |
 | `technique:sorting`                | Sorting data                                                                   |
+| `technique:tail-call-optimization` | Use tail-call optimization for efficient recursion                             |
 | `technique:type-conversion`        | Converting values from one type to another type                                |
 | `technique:unsafe`                 | Using unsafe code, e.g. pointer arithmetic                                     |
 
@@ -97,47 +99,61 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:default-interface-implementation` | A default implementation in an interface                        |
 | `construct:default`                          | A default value (e.g. for a parameter)                          |
 | `construct:destructuring`                    | Decontruct a value into its parts                               |
+| `construct:discard`                          | Discard a result                                                |
 | `construct:equality`                         | Compare equality of two values                                  |
 | `construct:event`                            | An event                                                        |
 | `construct:explicit-conversion`              | Exlicitly convert from one type to another type (aka "casting") |
+| `construct:explicit-import`                  | Explicitly import only the specified functionality              |
 | `construct:extension-method`                 | An extension method                                             |
 | `construct:field`                            | A field                                                         |
+| `construct:field-access`                     | Access a field                                                  |
+| `construct:function-overloading`             | Function overloading                                            |
 | `construct:function`                         | A function                                                      |
+| `construct:generator`                        | A function or method that produces values                       |
 | `construct:generic-function`                 | A function that is parameterized with one or more types         |
 | `construct:generic-method`                   | A method that is parameterized with one or more types           |
 | `construct:generic-type`                     | A type that is parameterized with one or more types             |
 | `construct:getter`                           | A getter                                                        |
 | `construct:implicit-conversion`              | Implicitly convert from one type to another type                |
 | `construct:import`                           | Import functionality (e.g. from a namespace/module)             |
+| `construct:indexing`                         | Accessing a value by index                                      |
 | `construct:indexer`                          | An indexer                                                      |
 | `construct:inequality`                       | Compare inequality of two values                                |
 | `construct:invocation`                       | An invocation of a method/function                              |
+| `construct:iterator`                         | A function or method that can be iterated over                  |
 | `construct:lambda`                           | A lambda (aka an "anonymous function")                          |
 | `construct:logical-and`                      | A logical AND                                                   |
 | `construct:logical-not`                      | A logical NOT                                                   |
 | `construct:logical-or`                       | A logical OR                                                    |
+| `construct:macro`                            | A macro                                                         |
+| `construct:method-chaining`                  | Chains several method calls                                     |
 | `construct:method-overloading`               | Method overloading                                              |
 | `construct:method-override`                  | An overridden method                                            |
 | `construct:method`                           | A method                                                        |
 | `construct:module`                           | A module (grouping of code)                                     |
+| `construct:multiple-assignment`              | Assign multiple values at once                                  |
 | `construct:multiple-dispatch`                | Multiple dispatch                                               |
 | `construct:named-argument`                   | An argument passed by name                                      |
 | `construct:namespace`                        | A namespace (grouping of code)                                  |
-| `construct:nesting`                          | Use nesting                                                     |
 | `construct:nested-function`                  | A nested function                                               |
 | `construct:nested-type`                      | A nested type                                                   |
+| `construct:nesting`                          | Use nesting                                                     |
 | `construct:nullability`                      | Nullability, dealing with `null` values                         |
 | `construct:operator-overloading`             | Operator overloading                                            |
 | `construct:optional-parameter`               | An optional parameter (doesn't have to be passed)               |
 | `construct:parameter`                        | A parameter                                                     |
+| `construct:parenthesized-expression`         | A parenthesized expression                                      |
 | `construct:pattern-matching`                 | Pattern matching                                                |
 | `construct:property`                         | A property (getter/setter)                                      |
 | `construct:setter`                           | A setter                                                        |
 | `construct:static-field`                     | A static field                                                  |
 | `construct:static-method`                    | A static method                                                 |
+| `construct:string-formatting`                | Building a string via a format string                           |
 | `construct:throw`                            | Throw/raise an exception                                        |
 | `construct:try`                              | Explicitly handle an exception                                  |
 | `construct:type-alias`                       | An alias for a type                                             |
+| `construct:type-conversion`                  | Converts/casts a value to another type                          |
+| `construct:type-extension`                   | Extend a type with new functionality                            |
 | `construct:type-inference`                   | Automatically infer the type of a value                         |
 | `construct:type-test`                        | Test if a value has a specific type                             |
 | `construct:varargs`                          | Allow passing in zero or more values for a parameter            |
@@ -217,6 +233,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:enum`               | An enum (enumeration of values)                            |
 | `construct:null`               | Represents the absence of a value (something called `nil`) |
 | `construct:number`             | A number (signed or unsigned)                              |
+| `construct:complex-number`     | A complex number                                           |
 | `construct:string`             | A string                                                   |
 | `construct:time`               | A time (no date)                                           |
 | `construct:pointer`            | A pointer                                                  |
@@ -258,6 +275,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:interface`              | An interface                                                     |
 | `construct:option`                 | An option type                                                   |
 | `construct:record`                 | A record (usually immutable)                                     |
+| `construct:result`                 | A result type                                                    |
 | `construct:struct`                 | A struct                                                         |
 | `construct:sum-type`               | A sum type                                                       |
 | `construct:tuple`                  | A tuple                                                          |
@@ -276,7 +294,9 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:list`                    | A list                                              |
 | `construct:multi-dimensional-array` | An array with multiple dimensions                   |
 | `construct:queue`                   | A queue                                             |
+| `construct:range`                   | A range                                             |
 | `construct:set`                     | A set                                               |
+| `construct:slice`                   | A subset of a collection                            |
 | `construct:stack`                   | A stack                                             |
 
 #### Notation
