@@ -55,6 +55,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `technique:bit-manipulation`       | Manipulating bits, usually via bitwise operators (e.g. AND, XOR or left shift) |
 | `technique:bit-shifting`           | Using bit shifting (special case of `technique:bit-manipulation`)              |
 | `technique:boolean-logic`          | Using boolean logic (AND, OR, NOT)                                             |
+| `technique:composition`            | Using composition                                                              |
 | `technique:concurrency`            | Using concurrency                                                              |
 | `technique:enumeration`            | Enumerating over values                                                        |
 | `technique:exceptions`             | Working with exceptions                                                        |
@@ -65,6 +66,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `technique:laziness`               | Using laziness, where values are produced only when needed                     |
 | `technique:locks`                  | Using locks to get exclusive access to resources                               |
 | `technique:looping`                | Using loops                                                                    |
+| `technique:math`                   | Using math                                                                     |
 | `technique:memory-management`      | Managing memory                                                                |
 | `technique:ordering`               | Ordering data                                                                  |
 | `technique:parallelism`            | Running code in parallel                                                       |
@@ -84,16 +86,23 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | -------------------------------------------- | --------------------------------------------------------------- |
 | `construct:abstract-method`                  | An abstract method                                              |
 | `construct:assignment`                       | Assign/bind a value to a variable/name                          |
+| `construct:boxing`                           | A boxed value                                                   |
 | `construct:catch`                            | Catch an exception                                              |
+| `construct:comment`                          | A comment                                                       |
+| `construct:comparison`                       | Compare two values for their relative order                     |
+| `construct:concatenation`                    | Concatenate two values                                          |
 | `construct:constant`                         | A constant (immutable) value                                    |
 | `construct:constructor`                      | A constructor                                                   |
+| `construct:coroutine`                        | A coroutine                                                     |
 | `construct:default-interface-implementation` | A default implementation in an interface                        |
 | `construct:default`                          | A default value (e.g. for a parameter)                          |
+| `construct:destructuring`                    | Decontruct a value into its parts                               |
 | `construct:equality`                         | Compare equality of two values                                  |
 | `construct:event`                            | An event                                                        |
 | `construct:explicit-conversion`              | Exlicitly convert from one type to another type (aka "casting") |
 | `construct:extension-method`                 | An extension method                                             |
 | `construct:field`                            | A field                                                         |
+| `construct:function`                         | A function                                                      |
 | `construct:generic-function`                 | A function that is parameterized with one or more types         |
 | `construct:generic-method`                   | A method that is parameterized with one or more types           |
 | `construct:generic-type`                     | A type that is parameterized with one or more types             |
@@ -114,6 +123,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:multiple-dispatch`                | Multiple dispatch                                               |
 | `construct:named-argument`                   | An argument passed by name                                      |
 | `construct:namespace`                        | A namespace (grouping of code)                                  |
+| `construct:nesting`                          | Use nesting                                                     |
 | `construct:nested-function`                  | A nested function                                               |
 | `construct:nested-type`                      | A nested type                                                   |
 | `construct:nullability`                      | Nullability, dealing with `null` values                         |
@@ -123,8 +133,11 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:pattern-matching`                 | Pattern matching                                                |
 | `construct:property`                         | A property (getter/setter)                                      |
 | `construct:setter`                           | A setter                                                        |
+| `construct:static-field`                     | A static field                                                  |
+| `construct:static-method`                    | A static method                                                 |
 | `construct:throw`                            | Throw/raise an exception                                        |
 | `construct:try`                              | Explicitly handle an exception                                  |
+| `construct:type-alias`                       | An alias for a type                                             |
 | `construct:type-inference`                   | Automatically infer the type of a value                         |
 | `construct:type-test`                        | Test if a value has a specific type                             |
 | `construct:varargs`                          | Allow passing in zero or more values for a parameter            |
@@ -134,23 +147,28 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 
 #### Control flow
 
-| Tag                              | Description                                  |
-| -------------------------------- | -------------------------------------------- |
-| `construct:async-await`          | An `async`/`await` statement                 |
-| `construct:break`                | Break from a loop                            |
-| `construct:conditional-access`   | Conditionally access a method                |
-| `construct:conditional-operator` | A ternary conditional operator               |
-| `construct:continue`             | Continue to the next iteration of a loop     |
-| `construct:do-while-loop`        | A `do-while` loop                            |
-| `construct:else`                 | An `else` statement                          |
-| `construct:finally`              | Ensure that a certain code block always runs |
-| `construct:for-loop`             | A `for` loop                                 |
-| `construct:foreach`              | A `foreach` loop                             |
-| `construct:if`                   | An `if` statement                            |
-| `construct:return`               | Return from a function/method                |
-| `construct:switch`               | A `switch`                                   |
-| `construct:while-loop`           | A `while` loop                               |
-| `construct:yield`                | Yield a value in a loop                      |
+| Tag                              | Description                                            |
+| -------------------------------- | ------------------------------------------------------ |
+| `construct:async-await`          | An `async`/`await` statement                           |
+| `construct:break`                | Break from a loop                                      |
+| `construct:conditional-access`   | Conditionally access a method                          |
+| `construct:conditional-operator` | A ternary conditional operator                         |
+| `construct:continue`             | Continue to the next iteration of a loop               |
+| `construct:do-while-loop`        | A `do-while` loop                                      |
+| `construct:else`                 | An `else` statement                                    |
+| `construct:finally`              | Ensure that a certain code block always runs           |
+| `construct:for-loop`             | A `for` loop                                           |
+| `construct:foreach`              | A `foreach` loop                                       |
+| `construct:if`                   | An `if` statement                                      |
+| `construct:loop`                 | A loop                                                 |
+| `construct:pipe-backward`        | A backward pipe                                        |
+| `construct:pipe-forward`         | A forward pipe                                         |
+| `construct:pipeline`             | A pipeline                                             |
+| `construct:point-free`           | Define functions without the arguments they operate on |
+| `construct:return`               | Return from a function/method                          |
+| `construct:switch`               | A `switch`                                             |
+| `construct:while-loop`           | A `while` loop                                         |
+| `construct:yield`                | Yield a value in a loop                                |
 
 #### Arithmetic
 
@@ -177,6 +195,8 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:multiply-assignment`            | Multiplication and assignment combined       |
 | `construct:multiply`                       | Multiplication                               |
 | `construct:overflow`                       | Arithmetic overflow                          |
+| `construct:decrement`                      | Decrement a value                            |
+| `construct:increment`                      | Increment a value                            |
 | `construct:postfix-decrement`              | Decrement a value using postfix notation     |
 | `construct:postfix-increment`              | Increment a value using postfix notation     |
 | `construct:prefix-decrement`               | Decrement a value using prefix notation      |
@@ -188,17 +208,19 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 
 #### Value types
 
-| Tag                   | Description                                                |
-| --------------------- | ---------------------------------------------------------- |
-| `construct:boolean`   | A boolean                                                  |
-| `construct:char`      | A character                                                |
-| `construct:date-time` | A combination of date + time                               |
-| `construct:date`      | A date (no time)                                           |
-| `construct:enum`      | An enum (enumeration of values)                            |
-| `construct:null`      | Represents the absence of a value (something called `nil`) |
-| `construct:number`    | A number (signed or unsigned)                              |
-| `construct:string`    | A string                                                   |
-| `construct:time`      | A time (no date)                                           |
+| Tag                            | Description                                                |
+| ------------------------------ | ---------------------------------------------------------- |
+| `construct:boolean`            | A boolean                                                  |
+| `construct:char`               | A character                                                |
+| `construct:date-time`          | A combination of date + time                               |
+| `construct:date`               | A date (no time)                                           |
+| `construct:enum`               | An enum (enumeration of values)                            |
+| `construct:null`               | Represents the absence of a value (something called `nil`) |
+| `construct:number`             | A number (signed or unsigned)                              |
+| `construct:string`             | A string                                                   |
+| `construct:time`               | A time (no date)                                           |
+| `construct:pointer`            | A pointer                                                  |
+| `construct:regular-expression` | A regular expression                                       |
 
 #### Integral types
 
