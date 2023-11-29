@@ -126,6 +126,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:throw`                            | Throw/raise an exception                                        |
 | `construct:try`                              | Explicitly handle an exception                                  |
 | `construct:type-inference`                   | Automatically infer the type of a value                         |
+| `construct:type-test`                        | Test if a value has a specific type                             |
 | `construct:varargs`                          | Allow passing in zero or more values for a parameter            |
 | `construct:variable`                         | A variable                                                      |
 | `construct:virtual-method`                   | A virtual method                                                |
