@@ -99,7 +99,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `construct:default-interface-implementation` | A default implementation in an interface                        |
 | `construct:default`                          | A default value (e.g. for a parameter)                          |
 | `construct:destructuring`                    | Decontruct a value into its parts                               |
-| `construct:discard`                          | Discard a result                                                |
+| `construct:discard`                          | Discard a value                                                 |
 | `construct:equality`                         | Compare equality of two values                                  |
 | `construct:event`                            | An event                                                        |
 | `construct:explicit-conversion`              | Exlicitly convert from one type to another type (aka "casting") |
