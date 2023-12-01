@@ -62,7 +62,6 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 | `technique:exceptions`             | catches or throws exceptions                                                  |
 | `technique:function-composition`   | uses function composition                                                     |
 | `technique:generator`              | uses a generator                                                              |
-| `technique:generators`             | uses generators                                                               |
 | `technique:higher-order-functions` | uses higher-order functions                                                   |
 | `technique:immutability`           | uses immutability                                                             |
 | `technique:immutable-collection`   | uses a collection whose contents are immutable                                |
