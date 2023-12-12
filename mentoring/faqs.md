@@ -2,7 +2,7 @@
 
 [What qualifies someone to be a mentor?](#h-what-qualifies-someone-to-be-a-mentor)
 
-[Can I mentor a language while I'm still learning it?](#h-can-i-mentor-a-language-while-im-still-learning-it)
+[Can I mentor a language while I'm still learning it?](#h-can-i-mentor-a-language-while-i-m-still-learning-it)
 
 [Can I mentor more than one language?](#h-can-i-mentor-more-than-one-language)
 
@@ -12,17 +12,17 @@
 
 [What if I have nothing to suggest about a solution?](#h-what-if-i-have-nothing-to-suggest-about-a-solution)
 
-[Should I mentor an exercise I've never solved?](#h-should-i-mentor-an-exercise-ive-never-solved)
+[Should I mentor an exercise I've never solved?](#h-should-i-mentor-an-exercise-i-ve-never-solved)
 
-[Should I mentor an exercise I've solved, but solved in a different language?](#h-should-i-mentor-an-exercise-ive-solved-but-solved-in-a-different-language)
+[Should I mentor an exercise I've solved, but solved in a different language?](#h-should-i-mentor-an-exercise-i-ve-solved-but-solved-in-a-different-language)
 
-[Do I have to mentor a solution once I've seen it?](#h-do-i-have-to-mentor-a-solution-once-ive-seen-it)
+[Do I have to mentor a solution once I've seen it?](#h-do-i-have-to-mentor-a-solution-once-i-ve-seen-it)
 
-[What if the student does not understand after I've explained something several times?](#h-what-if-the-student-does-not-understand-after-ive-explained-something-several-times)
+[What if the student does not understand after I've explained something several times?](#h-what-if-the-student-does-not-understand-after-i-ve-explained-something-several-times)
 
 [How do I respond if the student gets defensive about my suggestion(s)?](#h-how-do-i-respond-if-the-student-gets-defensive-about-my-suggestions)
 
-[Should the student have the last word, even if I think they're wrong?](#h-should-the-student-have-the-last-word-even-if-i-think-theyre-wrong)
+[Should the student have the last word, even if I think they're wrong?](#h-should-the-student-have-the-last-word-even-if-i-think-they-re-wrong)
 
 [How do I best phrase a suggestion?](#h-how-do-i-best-phrase-a-suggestion)
 
