@@ -18,19 +18,34 @@ You may like to render these widgets yourself in Markdown documents, for example
 
 Widgets can be used wherever you can use Markdown, such as documentation, approaches and student/mentor discussions.
 
-They are rendered using the following format
+They are rendered using the following format:
 
 ```md
-[<type>:<track-slug>/<type-slug>]()
+[<type>:<id>]()
 ```
 
+The `<type>` and `<id>` parts are variable and depend on the actual widget being used.
+
 The link reference, i.e. the contents of `()`, is ignored by the website. You can point them at whatever you want for maintenance purposes.
+
+## Exercise widget
+
+Link format: `[exercise:<track-slug>/<exercise-slug>]()`
+
+### Example
+
+```markdown
+Great job on solving this exercise! Some other exercises that you might also like to try:
+
+- [exercise:fsharp/anagram]()
+- [exercise:fsharp/isogram]()
+```
 
 ## Concept widget
 
 Link format: `[concept:<track-slug>/<concept-slug>]()`
 
-### Example: list
+### Example
 
 ```markdown
 There are three primary conditional statements that are used in Julia:
@@ -40,15 +55,27 @@ There are three primary conditional statements that are used in Julia:
 - [concept:julia/short-circuiting]()
 ```
 
-## Exercise widget
+## Approach widget
 
-Link format: `[exercise:<track-slug>/<exercise-slug>]()`
+Link format: `[approach:<track-slug>/<exercise-slug>/<approach-slug>]()`
 
-### Example: list
+### Example
 
 ```markdown
-Great job on solving this exercise! Some other exercises that you might also like to try:
+Here are some approaches you might want to checkout!
 
-- [exercise:fsharp/anagram]()
-- [exercise:fsharp/isogram]()
+- [approach:csharp/two-fer/method-overloading]()
+- [approach:csharp/two-fer/optional-parameter]()
+```
+
+## Article widget
+
+Link format: `[article:<track-slug>/<exercise-slug>/<article-slug>]()`
+
+### Example
+
+```markdown
+We have an article you might be interested in:
+
+- [article:csharp/reverse-string/performance]()
 ```
