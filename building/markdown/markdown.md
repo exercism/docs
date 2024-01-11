@@ -149,16 +149,32 @@ You can test that your markdown comment gets removed by checking how your commen
 - Inline HTML is allowed, but should be used sparingly
 - Always use native markdown alternatives if available (e.g. use `# ...` rather than `<h1>...</h1>`)
 
+## Images
+
+As the website supports light and dark themes, community-submitted images must render well in both themes.
+The solution to this is to suffix your image name (before the file extension):
+
+1. Have the image name end in `-invertible` (e.g. `graph-invertible.svg`). The image will automatically be inverted when shown in the dark theme (via `filter: invert(100%)`).
+1. Have the image name end in `-light` (e.g. `graph-light.png`) and also create dark-theme compatible version that ends in `-dark` (which would be `graph-dark.png`). We'll automatically render the correct image depending on the user's theme.
+
+Images with neither suffix will be used without modifications across both themes.
+This means that if you want to create grayscale images, you can generally make them look good on light theme, and then set them to be invertible.
+But if you’re using an image with lots of colours, you might like to make two variants.
+
+The full image name (including `-invertible`) should be added to the markdown where the image is rendered.
+For light/dark ones, **ONLY** include the `-light` variant.
+This logic is honoured across all markdown docs.
+
 ## Linters
 
 There are various rules you can use to configure linters to meet this spec:
 
-- [MD001][MD001]: Enable
-- [MD002][MD002]: Enable
-- [MD003][MD003]: Use `atx` style
-- [MD004][MD004]: Use `dash` style
-- [MD013][MD013]: Disable
-- [MD033][MD033]: Disable
+- [MD001][md001]: Enable
+- [MD002][md002]: Enable
+- [MD003][md003]: Use `atx` style
+- [MD004][md004]: Use `dash` style
+- [MD013][md013]: Disable
+- [MD033][md033]: Disable
 
 ## Auto formatting
 
@@ -173,12 +189,12 @@ All the above can greatly help reduce churn in reviews, which is frustrating for
 
 ---
 
-[MD001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
-[MD002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
-[MD003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
-[MD004]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md004---unordered-list-style
-[MD013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
-[MD033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
+[md001]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---header-levels-should-only-increment-by-one-level-at-a-time
+[md002]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md002---first-header-should-be-a-top-level-header
+[md003]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md003---header-style
+[md004]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md004---unordered-list-style
+[md013]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md013---line-length
+[md033]: https://github.com/markdownlint/markdownlint/blob/master/docs/RULES.md#md033---inline-html
 [asciidoctor]: https://asciidoctor.org/docs/asciidoc-recommended-practices/#one-sentence-per-line
 [babelmark3]: https://babelmark.github.io
 [google-link]: https://google.com
