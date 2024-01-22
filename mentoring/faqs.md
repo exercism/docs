@@ -20,7 +20,7 @@
 
 [What if the student does not understand after I've explained something several times?](#h-what-if-the-student-does-not-understand-after-i-ve-explained-something-several-times)
 
-[How do I respond if the student gets defensive about my suggestion(s)?](#h-how-do-i-respond-if-the-student-gets-defensive-about-my-suggestions)
+[How do I respond if the student gets defensive about my suggestion(s)?](#h-how-do-i-respond-if-the-student-gets-defensive-about-my-suggestion-s)
 
 [Should the student have the last word, even if I think they're wrong?](#h-should-the-student-have-the-last-word-even-if-i-think-they-re-wrong)
 
