@@ -1,8 +1,10 @@
 # Practice Exercises
 
-[video:vimeo/906101866?h=2954ad331e]()
-
 [Practice Exercises](/docs/building/product/practice-exercises) are exercises designed to allow students to solve an arbitrary problem, with the aim of them making use of the concepts they have learned so far.
+
+Interested in adding your first Practice Exercise to a track? Watch our walkthrough video 👇
+
+[video:vimeo/906101866?h=2954ad331e]()
 
 ## Metadata
 
