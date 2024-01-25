@@ -32,6 +32,12 @@
     "title": "configlet lint"
   },
   {
+    "uuid": "f7e00f6d-2a68-48d4-be84-d86fa43d677d",
+    "slug": "configlet/create",
+    "path": "building/configlet/create.md",
+    "title": "configlet create"
+  },
+  {
     "uuid": "d8d9ff53-fe8f-4333-80c5-87517433cf7d",
     "slug": "configlet/generating-documents",
     "path": "building/configlet/generating-documents.md",
