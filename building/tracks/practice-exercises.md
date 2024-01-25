@@ -6,6 +6,17 @@ Interested in adding your first Practice Exercise to a track? Watch our walkthro
 
 [video:vimeo/906101866?h=2954ad331e]()
 
+````exercism/note
+You can quickly scaffold a new Practice Exercise by running the following commands from the track's root directory:
+
+```shell
+bin/fetch-configlet
+bin/configlet create --practice-exercise <slug>
+```
+
+For more information, check the [`configlet create` docs](/docs/building/configlet/create)
+````
+
 ## Metadata
 
 Practice Exercise metadata is defined in the `exercises.practice` key in the [config.json file](/docs/building/tracks/config-json). The metadata defines the exercise's UUID, slug and more.
