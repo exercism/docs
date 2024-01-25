@@ -4,6 +4,17 @@
 The concepts taught by the concept exercises form a _syllabus_.
 For more information on how to design a syllabus, check the [syllabus documentation](/docs/building/tracks/syllabus).
 
+````exercism/note
+You can quickly scaffold a new Concept Exercise by running the following commands from the track's root directory:
+
+```shell
+bin/fetch-configlet
+bin/configlet create --concept-exercise <slug>
+```
+
+For more information, check the [`configlet create` docs](/docs/building/configlet/create)
+````
+
 ## Metadata
 
 Concept Exercise metadata is defined in the `exercises.concept` key in the [config.json file](/docs/building/tracks/config-json#concept-exercises). The metadata defines the exercise's UUID, slug and more.

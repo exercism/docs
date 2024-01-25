@@ -36,6 +36,12 @@ Tests in this file are identified by their UUID and each test has a boolean valu
 
 You can find the details about how to sync the different parts of an exercise [here](/docs/building/configlet/sync).
 
+## Create files
+
+Configlet can be used to quickly scaffold files for a new approach, article or exercise.
+
+You can learn more about how to create these files [here](/docs/building/configlet/create).
+
 ## Generating UUIDs
 
 Exercises, tracks and concepts are identified by a UUID.
