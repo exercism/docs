@@ -1,0 +1,23 @@
+[
+  {
+    "uuid": "1a737701-e2f7-4021-9057-a0faf4738740",
+    "slug": "APEX",
+    "path": "programming/README.md",
+    "title": "Programming docs",
+    "blurb": "Docs on programming topics"
+  },
+  {
+    "uuid": "54390764-ef34-4385-b714-ab2851bdd814",
+    "slug": "reaminder",
+    "path": "programming/operators/README.md",
+    "title": "Operators",
+    "blurb": "Docs on operators"
+  },
+  {
+    "uuid": "f1848a5a-593d-411f-9d44-4d4849690e1e",
+    "slug": "remainder",
+    "path": "programming/operators/remainder.md",
+    "title": "Remainder",
+    "blurb": "The remainder operators"
+  },
+]
