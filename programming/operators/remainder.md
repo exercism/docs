@@ -4,7 +4,7 @@ In mathematics, the **remainder** is the amount "left over" after performing som
 For example, the remainder of `5 / 3` is `2`.
 
 Many programming languages use the percentage sign (`%`) as an operator to calculate the remainder.
-For example, this is valid code in Javascript and Python:
+For example:
 ```javascript
 5 % 3 == 2
 ```
@@ -23,8 +23,6 @@ For example:
 -5 % -3 == -2
 ```
 
-Some languages use the `%` operator for the calculating the modulus, not the remainder.
+Some languages (such as Python) use the `%` operator for the calculating the modulus, not the remainder.
 This treats negative numbers differently.
 You can learn more about this [on Wikipedia](https://en.wikipedia.org/wiki/Modulo).
-
-
