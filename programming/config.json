@@ -8,14 +8,14 @@
   },
   {
     "uuid": "54390764-ef34-4385-b714-ab2851bdd814",
-    "slug": "reaminder",
+    "slug": "operators",
     "path": "programming/operators/README.md",
     "title": "Operators",
     "blurb": "Docs on operators"
   },
   {
     "uuid": "f1848a5a-593d-411f-9d44-4d4849690e1e",
-    "slug": "remainder",
+    "slug": "operators/remainder",
     "path": "programming/operators/remainder.md",
     "title": "Remainder",
     "blurb": "The remainder operators"
