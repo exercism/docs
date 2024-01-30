@@ -23,52 +23,95 @@ The "Hello, World!" exercise has some special rules applied to it:
 - It has no `prerequisites`
 - It has no `practices`
 
-### Updating the config
+### Determine file paths
 
-Start by adding an entry to the `exercises.practice` array in the top-level `config.json` file.
+The "Hello, World!" exercise (and indeed, _all_ exercises on Exercism) requires a specific set of files:
 
-```
-{
-  "exercises": {
-    "practice": [
-      {
-        "uuid": "",
-        "slug": "hello-world",
-        "name": "Hello World",
-        "practices": [],
-        "prerequisites": [],
-        "difficulty": 1
-      }
-    ]
-  }
+- Documentation: explain to the student what they need to do (can be auto-generated).
+- Metadata: provides Exercism with some metadata on the exercise (can be mostly auto-generated).
+- Test suite: verifies a solution's correctness (track-specific).
+- Stub implementation: provided a starting point for students (track-specific).
+- Example implementation: provides an example implementation that passes all the tests (track-specific).
+- Additional files: ensure that the tests can run (track-specific, optional).
+
+Before we can create the "Hello, World!" exercise, you need to make some decisions about the track-specific filenames and file paths (test suite, stub implementation, example implementation and any additional files).
+
+The rule of thumb is to use names that are idiomatic for the language.
+Where there are no strong preferences, prefer shallower directory structures.
+The example implementation will need to be identifiable by the CI script, so it's advisable to choose a generic basename that all exercises can use, e.g. `example`, `sample`, or `reference-solution`.
+
+#### Configuring file paths
+
+Having chosen the track-specific file paths, you should configure them in the `files` key in the root `config.json` file.
+The `files` key will serve as the template for all exercises, which allows any tooling (some of which we'll use in a second) to know where to look for files.
+You can use various placeholders to allow for easy configuring of the exercise's slug (`hello-world` in this case).
+
+##### Example
+
+If your track uses PascalCase for its files, the `files` key might look like this:
+
+```json
+"files": {
+  "solution": [
+    "%{pascal_slug}.cs"
+  ],
+  "test": [
+    "%{pascal_slug}Tests.cs"
+  ],
+  "example": [
+    ".meta/Example.cs"
+  ]
 }
 ```
 
-You can use the [Configlet][configlet] tool to get a UUID.
-Download Configlet by running `bin/fetch-configlet` from the root of the repository.
-Then generate a UUID using the `bin/configlet uuid` command.
-
-### Generating required files
-
-To implement the "Hello, World!" exercise, you'll need to create several files.
-Which files exactly is described in the [Practice Exercises documentation](/docs/building/tracks/practice-exercises).
-
-Most of the files can be added automatically by running Configlet's `sync` command:
-
-```
-bin/configlet sync --update --yes --docs --metadata --exercise hello-world
-bin/configlet sync --update --tests include --exercise hello-world
+```exercism/note
+The example file(s) should be stored within the `.meta` directory.
 ```
 
-In addition to the generated files, you will to create a test suite, a stub solution that serves as the starting point for the student, and a sample solution that passes all the tests to verify it is possible to solve the exercise (CI will verify this).
+For more information, check the [`files` key documentation](/docs/building/tracks/config-json#files).
 
-In order to create these files, you need to make some decisions about filenames and file paths.
-The rule of thumb is to use names that are idiomatic for the language, and where there are no strong preferences prefer shallower directory structures.
-The sample solution will need to be identifiable by the CI script, so it's advisable to choose a generic basename that all exercises can use, e.g. `example`, `sample`, or `reference-solution`.
+### Creating files
 
-### Configuring the exercise
+Having specified the file path templates, you can then quickly scaffold the "Hello, World!" exercise's files by running the following commands from the track's root directory:
 
-One you've decided on the filenames and paths, edit the `exercises/practice/hello-world/.meta/config.json` file to reflect those choices.
-Also add your GitHub username to the `"authors"` array.
+```shell
+bin/fetch-configlet
+bin/configlet create --practice-exercise hello-world
+```
+
+### Implement exercise
+
+Once the scaffolded files have been created, you'll then have to:
+
+- Add tests to the tests file
+- Add an example implementation
+- Define the stub file's contents
+- Within the exercise's `.meta/config.json` file:
+  - Add the GitHub username of the exercise's authors to the `authors` key
+
+#### Add tests
+
+A key part of adding an exercise is adding tests.
+Rougly speaking, there are two options when implementing one of the above exercises:
+
+1. Implement the tests from scratch, using the test cases from the [exercise's `canonical-data.json`][canonical-data.json]
+2. Port the tests from another track's implementation (tip: go to `https://exercism.org/exercises/hello-world` to get an overview of which tracks have implemented a specific exercise).
+
+For the "Hello, World!" exercise, there will only be one test case, so either option should be fine.
+
+#### Add example implementation
+
+The example implementation file should contain the code requires to solve the tests.
+
+#### Define the stub
+
+The stub file should have an _almost_ working solution to the tests, but with the "Hello, World!" text replaced with "Goodbye, Mars!".
+Tip: just can copy-paste-modify the example solution.
+
+### Update the exercise's author(s)
+
+Once you're done with the exercise, please add your your GitHub username to the `"authors"` array in the exercise's `.meta/config.json` file.
+This will ensure we correctly credit you with having created the exercise.
 
 [configlet]: /docs/building/configlet
+[canonical-data.json]: (https://github.com/exercism/problem-specifications/blob/main/exercises/hello-world/canonical-data.json)

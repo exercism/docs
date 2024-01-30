@@ -103,23 +103,46 @@ To make this all a bit more concrete, this is what a sample selection of initial
 
 ## Implement exercises
 
+### Scaffold exercise
+
 Having selected the exercises you want include in your track, the next step is to implement them.
-Each of the above-mentioned exercises has three bits of information:
+You can quickly scaffold a new Practice Exercise by running the following commands from the track's root directory:
 
-1. `description.md`: explains what the exercise is about (required)
-2. `metadata.toml`: metadata like the exercise's blurb (required)
-3. `canonical-data.json`: a set of input/output combinations that describe the behavior of the exercise (optional)
+```shell
+bin/fetch-configlet
+bin/configlet create --practice-exercise <slug>
+```
 
-There are two options when implementing one of the above exercises:
+For more information, check the [`configlet create` docs](/docs/building/configlet/create)
 
-1. Implement the exercise from scratch, using the test cases in the `canonical-data.json` file.
-2. Port an implementation of the exercise from another track.
+### Implement exercise
+
+Once the scaffolded files have been created, you'll then have to:
+
+- Add tests to the tests file
+- Add an example implementation
+- Define the stub file's contents
+- Within the exercise's `.meta/config.json` file:
+  - Add the GitHub username of the exercise's authors to the `authors` key
+- Within the track's `config.json` file:
+  - Check/update the exercise's difficulty
+  - Add concepts to the `practices` key (only required when the track has concept exercises)
+  - Add concepts to the `prerequisites` key (only required when the track has concept exercises)
+
+#### Add tests
+
+A key part of adding an exercise is adding tests.
+Rougly speaking, there are two options when adding tests for one of the above exercises:
+
+1. Implement the tests from scratch, using the test cases from the exercise's `canonical-data.json` file as found in the [problem-specifications repo][problem-specifications-exercises].
+2. Port the tests from another track's implementation (tip: go to `https://exercism.org/exercises/<slug>` to get an overview of which tracks have implemented a specific exercise).
 
 The second option can be particularly appealing, as it can give you results quickly.
 Keep in mind, though, that you should tweak the implementation to best fit your track.
 As an example, some tracks do not use classes but only work with functions.
 If your track usually works with objects though, you should adapt the implementation to what best fits your track.
 
+[problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises/
 [allergies]: https://github.com/exercism/problem-specifications/tree/main/exercises/allergies
 [alphametics]: https://github.com/exercism/problem-specifications/tree/main/exercises/alphametics
 [bank-account]: https://github.com/exercism/problem-specifications/tree/main/exercises/bank-account
