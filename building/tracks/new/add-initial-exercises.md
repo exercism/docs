@@ -132,9 +132,9 @@ Once the scaffolded files have been created, you'll then have to:
 #### Add tests
 
 A key part of adding an exercise is adding tests.
-Rougly speaking, there are two options when implementing one of the above exercises:
+Rougly speaking, there are two options when adding tests for one of the above exercises:
 
-1. Implement the exercise from scratch, using the test cases from the exercise's `canonical-data.json` file as found in the [problem-specifications repo][problem-specifications-exercises].
+1. Implement the tests from scratch, using the test cases from the exercise's `canonical-data.json` file as found in the [problem-specifications repo][problem-specifications-exercises].
 2. Port the tests from another track's implementation (tip: go to `https://exercism.org/exercises/<slug>` to get an overview of which tracks have implemented a specific exercise).
 
 The second option can be particularly appealing, as it can give you results quickly.
