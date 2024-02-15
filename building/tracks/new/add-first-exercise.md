@@ -114,4 +114,4 @@ Once you're done with the exercise, please add your your GitHub username to the 
 This will ensure we correctly credit you with having created the exercise.
 
 [configlet]: /docs/building/configlet
-[canonical-data.json]: (https://github.com/exercism/problem-specifications/blob/main/exercises/hello-world/canonical-data.json)
+[canonical-data.json]: https://github.com/exercism/problem-specifications/blob/main/exercises/hello-world/canonical-data.json
