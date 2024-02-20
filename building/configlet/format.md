@@ -10,7 +10,7 @@ An Exercism track repo has many JSON files, including:
 
 These files are more readable if they have a consistent formatting Exercism-wide, and so configlet has a `fmt` command for rewriting a track's JSON files in a canonical form.
 
-The `fmt` command currently only operates on the exercise `.meta/config.json` files, but it is likely to operate on all the track JSON files in the future.
+The `fmt` command currently operates on the exercise `.meta/config.json` files and the track `config.json` file, but it is likely to operate on all the track JSON files in the future.
 
 ## Usage
 
@@ -31,7 +31,7 @@ Options for fmt:
   -y, --yes                    Auto-confirm the prompt from --update
 ```
 
-A plain `configlet fmt` makes no changes to the track and checks the formatting of the `.meta/config.json` file for every Concept Exercise and Practice Exercise.
+A plain `configlet fmt` makes no changes to the track and checks the formatting of the `.meta/config.json` file for every Concept Exercise and Practice Exercise and the track `config.json` file.
 
 To print a list of paths for which there is not already a formatted exercise `.meta/config.json` file (exiting with a non-zero exit code if at least one exercise lacks a formatted config file):
 
@@ -102,4 +102,4 @@ Note that `configlet fmt` only operates on exercises that exist in the track-lev
 Therefore if you are implementing a new exercise on a track and want to format its `.meta/config.json` file, please add the exercise to the track-level `config.json` file first.
 If the exercise is not yet ready to be user-facing, please set its `status` value to `wip`.
 
-The exit code is 0 when every seen exercise has a formatted `.meta/config.json` file when configlet exits, and 1 otherwise.
+The exit code is 0 when every seen config file is formatted when configlet exits, and 1 otherwise.

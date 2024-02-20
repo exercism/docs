@@ -38,6 +38,12 @@
     "title": "configlet create"
   },
   {
+    "uuid": "425c2bff-675b-4e15-9d53-eb595d7632f9",
+    "slug": "configlet/format",
+    "path": "building/configlet/format.md",
+    "title": "configlet fmt"
+  },
+  {
     "uuid": "d8d9ff53-fe8f-4333-80c5-87517433cf7d",
     "slug": "configlet/generating-documents",
     "path": "building/configlet/generating-documents.md",
