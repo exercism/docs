@@ -339,6 +339,7 @@ This file contains meta information on the exercise:
 - `representer`: Meta information related to how the representer processes this file (optional)
   - `version`: An integer for the version of the representer to use for the exercise (required if parent key is present)
 - `icon`: The slug of the icon (see [the full list of icons][exercise-icons]). If not specified, the exercise's slug will be used (optional)
+- `custom`: Any exercise-specific, non-standard data. Can be used to customize behavior of the track's tooling per exercise (optional)
 
 If someone is both an author _and_ a contributor, only list that person as an author.
 
@@ -378,7 +379,10 @@ Assume that the user `FSharpForever` has written an exercise called `log-levels`
   "representer": {
     "version": 2
   },
-  "icon": "logs"
+  "icon": "logs",
+  "custom": {
+    "parallel": true
+  }
 }
 ```
 
