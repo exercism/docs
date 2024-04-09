@@ -43,6 +43,18 @@ In general, [Practice Exercises](/docs/building/tracks/practice-exercises) are m
 
 For [Concept Exercises](/docs/building/tracks/concept-exercises), discussing the exemplar approach might be interesting. For example, you could show how the concept being taught makes certain code easier to write.
 
-## Configuring
+## Files
 
-Make sure to set the `approaches.snippet_extension` field in your [track's `config.json` file](/docs/building/tracks/config-json).
+Each approach must add the following two files:
+
+- `.approaches/<approach-slug>/content.md`: description of the approach (see [the docs](/docs/building/tracks/practice-exercises#file-approaches-approach-slug-content-md))
+- `.approaches/<approach-slug>/snippet.txt`: snippet showcasing the approach (see [the docs](/docs/building/tracks/practice-exercises#file-approaches-approach-slug-snippet-txt))
+
+You'll then need to add or update:
+
+- `.approaches/config.json`: metadata for the approaches (see [the docs](/docs/building/tracks/practice-exercises#file-approaches-config-json))
+
+### Configuring snippet extension
+
+You can also use a custom extension instead of the default `.txt` extension by setting the `approaches.snippet_extension` field in your [track's `config.json` file](/docs/building/tracks/config-json).
+If set, the snippet file you need to add must be named `.approaches/<approach-slug>/snippet.<approaches.snippet_extension>`.

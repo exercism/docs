@@ -17,3 +17,14 @@ Potential topics an article could explore:
 ## What exercises to write articles for?
 
 Any exercise, as long as there is something interesting to explore.
+
+## Files
+
+Each article must add the following two files:
+
+- `.articles/<article-slug>/content.md`: description of the articleh (see [the docs](/docs/building/tracks/practice-exercises#file-articles-article-slug-content-md))
+- `.articles/<article-slug>/snippet.md`: snippet showcasing the article (see [the docs](/docs/building/tracks/practice-exercises#file-articles-article-slug-snippet-txt))
+
+You'll then need to add or update:
+
+- `.articles/config.json`: metadata for the articles (see [the docs](/docs/building/tracks/practice-exercises#file-article-config-json))
