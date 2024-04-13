@@ -19,3 +19,9 @@ There is also general tooling that can be configured for your track:
 
 - **[Lines of Code Counter](/docs/building/tooling/lines-of-code-counter)**
 - **[Snippet Extractor](/docs/building/tooling/snippet-extractor)**
+
+## Tooling for contribution
+
+Tracks may also provide tooling for contribution:
+
+- **[Test Generators](/docs/building/tooling/test-generators)**
