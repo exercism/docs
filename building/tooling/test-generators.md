@@ -44,6 +44,43 @@ There are two possible starting points when implementing a Test Generator for an
 If there are existing tests, implement the Test Generator such that the tests it generates do not break existing solutions.
 ```
 
+## Design
+
+Broadly speaking, test files are generated using either:
+
+- Code: the tests files are (mostly) generated via code
+- Templates: the tests files are (mostly) generated using templates
+
+In general, the code-based approach will lead to fairly complex Test Generator code, whereas the template-based approach is simpler.
+
+What we recommend is the following flow:
+
+1. The Test Generator reads the exercise's canonical data
+2. The Test Generator converts the exercise's canonical data into a format that can be used in a template
+3. The Test Generator passes the exercise's canonical data to an exercise-specific template
+
+The key benefit of this setup is that each exercise has its own template, which:
+
+- Makes it obvious how the test files is generated
+- Makes them easier to debug
+- Makes it safe to edit them without risking breaking another exercise
+
+```exercism/caution
+Some additional things to be aware of when designing the test generator
+
+- Minimize the pre-processing of canonical data inside the Test Generator
+- Try to reduce coupling between templates
+```
+
+## Implementation
+
+The Test Generator is usually (mostly) written in the track's language.
+
+```exercism/caution
+While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
+We recommend using the track's language where possible, only using additional languages when it cannot be avoided.
+```
+
 ## Using configlet
 
 `configlet` is the primary track maintenance tool and can be used to:
@@ -70,72 +107,4 @@ Here is an example of a shell script that combines `configlet` and a Test Genera
 bin/fetch-configlet
 bin/configlet create --practice-exercise <slug>
 path/to/test-generator <slug>
-```
-
-## TODO
-
-Each language may have its own Test Generator, written in that language.
-It adds code and sometimes files to what [`configlet`](/docs/building/configlet) created / updated.
-The code usually is rendered from template files, written for the tracks preferred templating engine.
-You should find all the details in the tracks contribution docs or a `README` near the test generator.
-
-You should also know:
-
-- what [`configlet create`]or [`configlet sync`](/docs/building/configlet/sync) do.
-- what [`canonical-data.json` in problem specifications](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) may provide.
-- why ["creating from scratch" is different from "reproducing for updates"](#from-scratch-vs-updating).
-
-## Creating a Test Generator from scratch
-
-There are various test generators in Exercism's tracks.
-These guidelines are based on the experiences of these tracks.
-
-Even so test generators work very similar, they are very track specific.
-It starts with the choice of the templating engine and ends with additional things they do for each track.
-So a common test generator was not and will not be written.
-
-There were helpful discussions [around the Rust](https://forum.exercism.org/t/advice-for-writing-a-test-generator/7178) and the [JavaScript](https://forum.exercism.org/t/test-generators-for-tracks/10615) test generators.
-The [forum](https://forum.exercism.org/c/exercism/building-exercism/125) also is the best place for seeking additional advice.
-
-### Things to know
-
-- `configlet` cache with a local copy of the problem specifications is stored in a [location depending on the users system](https://nim-lang.org/docs/osappdirs.html#getCacheDir).
-  Use `configlet info -o -v d | head -1 | cut -d " " -f 5` to get the location.
-  Or fetch data from the problem specifications repository directly (`https://raw.githubusercontent.com/exercism/problem-specifications/main/exercises/{{exercise-slug}}/canonical-data.json`)
-- [`canonical-data.json` data structure](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) is well documented. There is optional nesting of `cases` arrays in `cases` mixed with actual test cases.
-- The contents of `input` and `expected` test case keys of `canonical-data.json` vary largely. These can include simple scalar values, lambdas in pseudo code, lists of operations to perform on the students code and any other kind of input or result one can imagine.
-
-### Creating tests from scratch
-
-This is more productive in the beginning of a tracks life.
-It is way more easy to implement than the "updating" part.
-
-Doing only the bare minimum required for a first usable test generator may already help contributors a lot:
-
-- Read the `canonical-data.json` of the exercise from `configlet` cache or retrieve it from GitHub directly
-- Preserve all data (including `comments`, `description` and `scenarios`)
-- If the tracks testing framework supports no nested test case groups, flatten the nested data structure into a list of test cases
-- Dump the test cases into the one-fits-all boilerplate template(s)
-  - Preserve the test case grouping for nested test case groups, e.g.
-    - using the test frameworks grouping capability
-    - using comments and code folding markers (`{{{`, `}}}`)
-    - concatenating group `description` and test case `description`
-  - Show all data (including `comments`, `description` and `scenarios`)
-
-```exercism/note
-Don't try to produce perfect production-ready code!
-Dump all data and let the contributor design the exercise from that.
-There is way too much variation in the exercises to handle all in one template.
-```
-
-There are optional things a test generator might do:
-
-- Provide code for a simple test case (e.g. call a function with `input`, compare result to `expected`)
-- Provide boilerplate code for student code file(s) or additional files required by the track
-- Respect `scenarios` for grouping / test case selection
-- Skip over "reimplemented" test cases (those referred to in a `reimplements` key of another test case)
-- Update `tests.toml` with `include=false` to reflect tests skipped by `scenarios` / `reimplements`
-
-```
-
 ```
