@@ -25,13 +25,13 @@ In general, one runs a Test Generator to either:
 
 ### Generate tests for new exercise
 
-When adding a new exercise, adding a Test Generator for that exercise allows one to generate the tests file.
+Adding a Test Generator for a new exercise allows one to generate its tests file(s).
 Provided the Test Generator itself has already been implemented, adding support for the new exercise will be (far) less work than writing it from scratch.
 
 ### Update tests of existing exercise
 
-Once a Test Generator has been written for an exercise, you can re-run it to update/sync the exercise with its latest canonical data.
-We recommend doing this periodically, to check if there are problematic test cases that need to be updated or new tests added you want to include.
+Once an exercise has a Test Generator, you can re-run it to update/sync the exercise with its latest canonical data.
+We recommend doing this periodically, to check if there are problematic test cases that need to be updated or new tests that you might want to include.
 
 ## Starting point
 
@@ -40,8 +40,9 @@ There are two possible starting points when implementing a Test Generator for an
 1. The exercise is new and doesn't yet have any tests
 2. The exercise already exists and has existing tests
 
-In the first case, you're completely free to design the exercise as you see fit.
-In the second case, you should try to adhere to the existing tests as much as you can, to not break any existing solutions.
+```exercism/caution
+If there are existing tests, implement the Test Generator such that the tests it generates do not break existing solutions.
+```
 
 ## Implementation
 
@@ -114,3 +115,7 @@ There are optional things a test generator might do:
 - Respect `scenarios` for grouping / test case selection
 - Skip over "reimplemented" test cases (those referred to in a `reimplements` key of another test case)
 - Update `tests.toml` with `include=false` to reflect tests skipped by `scenarios` / `reimplements`
+
+```
+
+```
