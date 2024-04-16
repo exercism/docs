@@ -54,12 +54,23 @@ If there are existing tests, implement the Test Generator such that the tests it
 
 This makes `configlet` a great tool to use in combination with the Test Generator for some really powerful workflows.
 
-There are two options to combine `configlet` and the Test Generator:
+## Command-line interface
 
-- A (shell) script calls both `configlet` and the Test Generator
-- The Test Generator directly calls `configlet`
+You'll want to make using the Test Generator both easy _and_ powerful.
+For that, we recommend creating one or more script files.
 
-Which one to use is up to you, the maintainer.
+```exercism/note
+You're free to choose whatever script file format fits your track best.
+Shell scripts and PowerShell scripts are common options that can both work well.
+```
+
+Here is an example of a shell script that combines `configlet` and a Test Generator to quickly scaffold a new exercise:
+
+```shell
+bin/fetch-configlet
+bin/configlet create --practice-exercise <slug>
+path/to/test-generator <slug>
+```
 
 ## TODO
 
