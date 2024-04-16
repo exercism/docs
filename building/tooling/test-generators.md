@@ -117,6 +117,21 @@ Here is a (partial) example of the [canonical-data.json file of the leap exercis
 }
 ```
 
+The Test Generator's main responsibility is to transform this JSON data into track-specific tests.
+Here's how the above
+
+```nim
+import unittest
+import leap
+
+suite "Leap":
+  test "year not divisible by 4 in common year":
+    check isLeapYear(2015) == false
+
+  test "year divisible by 4, not divisible by 100 in leap year":
+    check isLeapYear(1996) == true
+```
+
 The structure of the `canonical-data.json` file is [well documented](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) (there is also a [JSON schema](https://github.com/exercism/problem-specifications/blob/main/canonical-data.schema.json)).
 
 ```exercism/caution
@@ -139,6 +154,57 @@ There are a couple of options to read the `canonical-data.json` files:
 2. Add the `problem-specifications` repo as a Git submodule to the track repo.
 3. Read them from the `configlet` cache.
    The [location depends on the user's system](https://nim-lang.org/docs/osappdirs.html#getCacheDir), but you can use `configlet info -o -v d | head -1 | cut -d " " -f 5` to programmatically get the location.
+
+#### Track-specific test cases
+
+If your track would like to add some additional, track-specific test cases (which are not found in the canonical data), as nice option is to allow creating an `additional-test-cases.json` files, which the Test Generator can then merge with the `canonical-data.json` file before passing it to the template for rendering.
+
+### Templates
+
+The template engine to use will be track-specific.
+Ideally, you'll want your templates to be as straightforward as possible, so don't worry about code duplication and such.
+
+The templates themselves will get their data from the Test Generator on which they iterate over to render them.
+
+```exercism/note
+To help keep the templates simple, it might be useful to do a little pre-processing on the Test Generator side or else define some "filters" or whatever extension mechanism your templates allow for.
+```
+
+<!--
+TODO
+
+This is more productive in the beginning of a tracks life.
+It is way more easy to implement than the "updating" part.
+
+Doing only the bare minimum required for a first usable test generator may already help contributors a lot:
+
+- Read the `canonical-data.json` of the exercise from `configlet` cache or retrieve it from GitHub directly
+- Preserve all data (including `comments`, `description` and `scenarios`)
+- If the tracks testing framework supports no nested test case groups, flatten the nested data structure into a list of test cases
+- Dump the test cases into the one-fits-all boilerplate template(s)
+  - Preserve the test case grouping for nested test case groups, e.g.
+    - using the test frameworks grouping capability
+    - using comments and code folding markers (`{{{`, `}}}`)
+    - concatenating group `description` and test case `description`
+  - Show all data (including `comments`, `description` and `scenarios`)
+
+```exercism/note
+Don't try to produce perfect production-ready code!
+Dump all data and let the contributor design the exercise from that.
+There is way too much variation in the exercises to handle all in one template.
+```
+
+There are optional things a test generator might do:
+
+- Provide code for a simple test case (e.g. call a function with `input`, compare result to `expected`)
+- Provide boilerplate code for student code file(s) or additional files required by the track
+- Respect `scenarios` for grouping / test case selection
+- Skip over "reimplemented" test cases (those referred to in a `reimplements` key of another test case)
+- Update `tests.toml` with `include=false` to reflect tests skipped by `scenarios` / `reimplements`
+
+```
+
+``` -->
 
 ### Using configlet
 
