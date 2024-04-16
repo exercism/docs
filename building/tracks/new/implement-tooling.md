@@ -1,12 +1,13 @@
 # Implement tooling
 
-After launching the track with the first 20+ exercises, the focus should shift to implementing the track tooling.
-Each track has various pieces of tooling that run in production.
-Each provides a key function to the learning experience of that language.
+After launching the track with the first 20+ exercises, the focus should shift to implementing the [track tooling](/docs/building/tooling).
 
-There also can be track tooling to run for contribution or maintainance.
-Such tools provide help to create new exercises or keeping them up-to-date.
-Each lowers the barriers for new contributors and speeds up the growth of the track.
+There are two types of track tooling:
+
+- Production: provide a key function to the learning experience of that language
+- Maintenance: help with track maintenance
+
+## Production tooling
 
 There are (currently) three pieces of tooling for production:
 
@@ -14,13 +15,16 @@ There are (currently) three pieces of tooling for production:
 - **[Representers](/docs/building/tooling/representers)**: create a normalized representation of a solution (optional)
 - **[Analyzers](/docs/building/tooling/analyzers)**: automatically assess student submissions and provide mentor-style commentary. (optional)
 
-Some tracks have (currently) implemented these pieces of tooling for contribution:
+## Maintenance tooling
 
-- **[Test Generators](/docs/building/tooling/test-generators)**: create or update an exercise's tests and student's code interface. (optional)
+To help with track maintenance, one can also build:
+
+- **[Test Generators](/docs/building/tooling/test-generators)**: auto generate/update an exercise's tests and student's code interface. (optional)
 
 ## Which tool to implement?
 
-Of the three production tools, the test runner should be implemented first as it enables:
+The production tools are more important than maintenance tools.
+Of the three production tools, the Test Runner should be implemented first as it enables:
 
 - Students to solve exercises using the [in-browser editor](/docs/using/solving-exercises/using-the-online-editor) ([no CLI needed](/docs/using/solving-exercises/working-locally)).
 - The website to automatically verify if an iteration passes all the tests.
@@ -39,18 +43,21 @@ To get started building a Representer, check the [Creating a Representer from sc
 Finally, after having implemented a Representer, the last tool to build is the Analyzer.
 To get started building an Analyzer, check the [Creating an Analyzer from scratch](/docs/building/tooling/analyzers/creating-from-scratch) document.
 
-To speed up adding new exercises, a Test Generator is very handy.
-The first thing to implement is creating tests for new exercises from scratch.
-This takes away writing boilerplate code and leaves the focus on designing the exercises.
-Later in track development, the test generator may become capable of reproducing production-ready tests for updates.
-There are many hints and guidelines collected in the [Test Generators](/docs/building/tooling/test-generators) document.
+At this point, focus should probably shift back to adding more exercises.
+To speed up adding new exercises, consider building a [Test Generator](/docs/building/tooling/test-generators).
 
 ## Implementation
 
-The tooling is (generally) written in the track's language, but you're completely free to use whatever language (or combination of languages) you prefer.
+Track tooling is usually (mostly) written in the track's language.
 
-Each production tool is packaged and run as a [Docker container](/docs/building/tooling/docker).
+```exercism/caution
+While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
+We recommend using the track's language where possible, only using additional languages when it cannot be avoided.
+```
+
+## Deployment
+
+Production tools are packaged and run as a [Docker container](/docs/building/tooling/docker).
 Tooling images are deployed automatically using a [Docker workflow](https://github.com/exercism/generic-test-runner/blob/main/.github/workflows/docker.yml).
 
-Tools for contribution should fit into a workflow common for the language of the track.
-When using external packages, make sure these do not get packaged into the production Docker images or loaded in CI.
+Maintenance tools are _not_ deployed.
