@@ -44,9 +44,24 @@ There are two possible starting points when implementing a Test Generator for an
 If there are existing tests, implement the Test Generator such that the tests it generates do not break existing solutions.
 ```
 
-## Implementation
+## Using configlet
 
-At its core, a Test Generator takes in an exercise slug and outputs a test file for that exercise.
+`configlet` is the primary track maintenance tool and can be used to:
+
+- Create the exercise files for a new exercise: run `bin/configlet create --practice-exercise <slug>`
+- Sync the `tests.toml` file of an existing exercise: run `bin/configlet sync --tests --update --exercise <slug>`
+- Fetch the exercise's canonical data to disk (this is a side-effect or either of the above commands)
+
+This makes `configlet` a great tool to use in combination with the Test Generator for some really powerful workflows.
+
+There are two options to combine `configlet` and the Test Generator:
+
+- A (shell) script calls both `configlet` and the Test Generator
+- The Test Generator directly calls `configlet`
+
+Which one to use is up to you, the maintainer.
+
+## TODO
 
 Each language may have its own Test Generator, written in that language.
 It adds code and sometimes files to what [`configlet`](/docs/building/configlet) created / updated.
@@ -55,15 +70,9 @@ You should find all the details in the tracks contribution docs or a `README` ne
 
 You should also know:
 
-- what [`configlet create`](/docs/building/configlet/create) or [`configlet sync`](/docs/building/configlet/sync) do.
+- what [`configlet create`]or [`configlet sync`](/docs/building/configlet/sync) do.
 - what [`canonical-data.json` in problem specifications](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) may provide.
 - why ["creating from scratch" is different from "reproducing for updates"](#from-scratch-vs-updating).
-
-## Flow
-
-There are a couple
-
-## Contributing to Test Generators
 
 ## Creating a Test Generator from scratch
 
