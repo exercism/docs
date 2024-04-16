@@ -1,27 +1,50 @@
 # Track Tooling
 
-Each track has various pieces of tooling that run in production.
-Each provides a key function to the learning experience of that language.
+There are two types of track tooling:
+
+- Production: provide a key function to the learning experience of that language
+- Maintenance: help with track maintenance
 
 Tooling is (generally) written in the language of the specific track, and is built and maintained by maintainers.
 
-All tooling is deployed using the same Docker workflow.
+## Production tooling
 
-There are (currently) three pieces of track-specific tooling:
+These tools run on Exercism's production servers.
 
-- **[Test Runners](/docs/building/tooling/test-runners)**
-- **[Representers](/docs/building/tooling/representers)**
-- **[Analyzers](/docs/building/tooling/analyzers)**
+### Track-specific production tooling
 
-## General tooling
+There are three pieces of track-specific production tooling:
 
-There is also general tooling that can be configured for your track:
+- **[Test Runners](/docs/building/tooling/test-runners)** (essential)
+- **[Representers](/docs/building/tooling/representers)** (optional)
+- **[Analyzers](/docs/building/tooling/analyzers)** (optional)
 
-- **[Lines of Code Counter](/docs/building/tooling/lines-of-code-counter)**
-- **[Snippet Extractor](/docs/building/tooling/snippet-extractor)**
+### General production tooling
 
-## Tooling for contribution
+There are two pieces of general production tooling that can be configured for your track:
 
-Tracks may also provide tooling for contribution:
+- **[Lines of Code Counter](/docs/building/tooling/lines-of-code-counter)** (optional)
+- **[Snippet Extractor](/docs/building/tooling/snippet-extractor)** (optional)
+
+### Deployment
+
+Production tools are built as Docker images.
+They are auto-deployed to Exercism's production servers using CI workflows.
+
+## Maintenance tooling
+
+Maintenance tooling is designed to help with maintaining the track.
+They usually run locally (on the maintainer/contributor's machine) and sometimes in CI, but never in production.
+
+Here are some examples of maintenance tooling:
 
 - **[Test Generators](/docs/building/tooling/test-generators)**
+
+## Implementation
+
+Track tooling is usually (mostly) written in the track's language.
+
+```exercism/caution
+While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
+We recommend using the track's language where possible, only using additional languages when it cannot be avoided.
+```
