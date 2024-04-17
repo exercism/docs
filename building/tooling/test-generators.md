@@ -84,7 +84,7 @@ This file is defined in the [exercism/problem-specifications repo](https://githu
 
 ```exercism/note
 Not all exercises have a `canonical-data.json` file.
-If case they don't, you'll need to manually create the tests, as there is no data for the Test Generator to work with.
+In case they don't, you'll need to manually create the tests, as there is no data for the Test Generator to work with.
 ```
 
 #### Structure
