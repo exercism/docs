@@ -1,6 +1,6 @@
 # Test Generators
 
-A Test Generator is a track-specifc piece of software to automatically generate a practice exercise's tests.
+A Test Generator is a track-specific piece of software to automatically generate a practice exercise's tests.
 It does this by converting the exercise's JSON test cases to tests in the track's language.
 
 ## Benefits
