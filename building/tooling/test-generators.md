@@ -195,7 +195,7 @@ To help keep the templates simple, it might be useful to do a little pre-process
 
 - Create the exercise files for a new exercise: run `bin/configlet create --practice-exercise <slug>`
 - Sync the `tests.toml` file of an existing exercise: run `bin/configlet sync --tests --update --exercise <slug>`
-- Fetch the exercise's canonical data to disk (this is a side-effect or either of the above commands)
+- Fetch the exercise's canonical data to disk (this is a side-effect of either of the above commands)
 
 This makes `configlet` a great tool to use in combination with the Test Generator for some really powerful workflows.
 
