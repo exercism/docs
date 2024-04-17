@@ -57,7 +57,7 @@ What we recommend is the following flow:
 
 The key benefit of this setup is that each exercise has its own template, which:
 
-- Makes it obvious how the test files is generated
+- Makes it obvious how the test files are generated
 - Makes them easier to debug
 - Makes it safe to edit them without risking breaking another exercise
 
