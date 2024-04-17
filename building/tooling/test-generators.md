@@ -247,7 +247,7 @@ Only when you have that working should you gradually add more exercises.
 And try to keep the Test Generator as simple as it can be.
 
 ```exercism/note
-Ideally, a contributor could you just/paste/modify an existing template without having to understand how the Test Generator works internally.
+Ideally, a contributor could just paste/modify an existing template without having to understand how the Test Generator works internally.
 ```
 
 ## Using or contributing
