@@ -155,7 +155,7 @@ If your track does not support grouping tests, you'll need to:
 
 The contents of the `input` and `expected` test case keys vary widely.
 In most cases, they'll be scalar values (like numbers, booleans or strings) or simple objects.
-However, occasionally you'll also find more complex values that will likely require a bit or preprocessing, such as lambdas in pseudo code, lists of operations to perform on the students code and more.
+However, occasionally you'll also find more complex values that will likely require a bit of preprocessing, such as lambdas in pseudo code, lists of operations to perform on the students code and more.
 
 #### Scenarios
 
