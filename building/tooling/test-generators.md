@@ -141,15 +141,67 @@ The structure of the `canonical-data.json` file is [well documented](https://git
 
 ##### Nesting
 
-Some exercises use nesting, where `cases` are nested in other `cases` keys.
-Only the innermost (leaf) `cases` will actually have any test cases, their parent `cases` will only ever be used for grouping.
+Some exercises use nesting in their canonical data.
+This means that each element in a `cases` array can be either:
+
+1. A regular test case (no child test cases)
+2. A grouping of test cases (one or more child test cases)
+
+```exercism/note
+You can identify the types of an element by checking for the presence of fields that are exclusive to one type of element.
+Probably the best way to do this is using the `"cases"` key, which is only present in test case groups.
+```
+
+Here is an example of nested test cases:
+
+````json
+{
+  "cases": [
+    {
+      "uuid": "e9c93a78-c536-4750-a336-94583d23fafa",
+      "description": "data is retained",
+      "property": "data",
+      "input": {
+        "treeData": ["4"]
+      },
+      "expected": {
+        "data": "4",
+        "left": null,
+        "right": null
+      }
+    },
+    {
+      "description": "insert data at proper node",
+      "cases": [
+        {
+          "uuid": "7a95c9e8-69f6-476a-b0c4-4170cb3f7c91",
+          "description": "smaller number at left node",
+          "property": "data",
+          "input": {
+            "treeData": ["4", "2"]
+          },
+          "expected": {
+            "data": "4",
+            "left": {
+              "data": "2",
+              "left": null,
+              "right": null
+            },
+            "right": null
+          }
+        }
+      ]
+    }
+  ]
+}
+```
 
 ```exercism/caution
 If your track does not support grouping tests, you'll need to:
 
 - Traverse/flatten the `cases` hierarchy to end up with only the innermost (leaf) test cases
 - Combine the test case description with its parent description(s) to create a unique test name
-```
+````
 
 #### Input and expected values
 
