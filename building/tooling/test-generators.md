@@ -50,7 +50,7 @@ We've found that the code-based approach will lead to fairly complex Test Genera
 
 What we recommend is the following flow:
 
-1. Reads the exercise's canonical data
+1. Read the exercise's canonical data
 2. Exclude the test cases that are marked as `include = false` in the exercise's `tests.toml` file
 3. Convert the exercise's canonical data into a format that can be used in a template
 4. Pass the exercise's canonical data to an exercise-specific template
