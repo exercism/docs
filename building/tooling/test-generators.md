@@ -1,32 +1,32 @@
 # Test Generators
 
-A Test Generator is a track-specifc piece of software that can automatically generate a practice exercise's tests.
-It will do this by converting the exercise's JSON test cases to tests in the format of that track.
+A Test Generator is a track-specifc piece of software to automatically generate a practice exercise's tests.
+It does this by converting the exercise's JSON test cases to tests in the track's language.
 
 ## Benefits
 
-The are three key benefits from having a Test Generator:
+Some benefits of having a Test Generator are:
 
-1. Adding exercises is simpler and faster.
-2. Automate "boring" parts of adding an exercise.
-3. Easy to sync tests with latest canonical data.
+1. Exercises can be added faster
+2. Automates "boring" parts of adding an exercise
+3. Easy to sync tests with latest canonical data
 
 ## Use cases
 
 In general, one runs a Test Generator to either:
 
-1. Generate the tests for a new exercise
-2. Update the tests of an existing exercise
+1. Generate the tests for a _new_ exercise
+2. Update the tests of an _existing_ exercise
 
 ### Generate tests for new exercise
 
 Adding a Test Generator for a new exercise allows one to generate its tests file(s).
-Provided the Test Generator itself has already been implemented, adding support for the new exercise will be (far) less work than writing it from scratch.
+Provided the Test Generator itself has already been implemented, generating the tests for the new exercise will be (far) less work than writing them from scratch.
 
 ### Update tests of existing exercise
 
 Once an exercise has a Test Generator, you can re-run it to update/sync the exercise with its latest canonical data.
-We recommend doing this periodically, to check if there are problematic test cases that need to be updated or new tests that you might want to include.
+We recommend doing this periodically, to check if there are problematic test cases that need to be updated or new tests you might want to include.
 
 ## Starting point
 
@@ -46,7 +46,7 @@ Broadly speaking, test files are generated using either:
 - Code: the tests files are (mostly) generated via code
 - Templates: the tests files are (mostly) generated using templates
 
-In general, the code-based approach will lead to fairly complex Test Generator code, whereas the template-based approach is simpler.
+We've found that the code-based approach will lead to fairly complex Test Generator code, whereas the template-based approach is simpler.
 
 What we recommend is the following flow:
 
@@ -91,9 +91,9 @@ If case they don't, you'll need to manually create the tests, as there is no dat
 
 Canonical data is defined in a JSON object.
 This object contains a `"cases"` field which contains the test cases.
-These test cases usually correspond one-to-one to tests in your track.
+These test cases (normally) correspond one-to-one to tests in your track.
 
-Each test case has a couple of properties, like a description, input value(s) and expected value.
+Each test case has a couple of properties, with the description, property, input value(s) and expected value being the most important ones.
 Here is a (partial) example of the [canonical-data.json file of the leap exercise](https://github.com/exercism/problem-specifications/blob/main/exercises/leap/canonical-data.json):
 
 ```json
@@ -123,7 +123,7 @@ Here is a (partial) example of the [canonical-data.json file of the leap exercis
 ```
 
 The Test Generator's main responsibility is to transform this JSON data into track-specific tests.
-Here's how the above
+Here's how the above JSON could translate into Nim test code:
 
 ```nim
 import unittest
@@ -137,7 +137,7 @@ suite "Leap":
     check isLeapYear(1996) == true
 ```
 
-The structure of the `canonical-data.json` file is [well documented](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) (there is also a [JSON schema](https://github.com/exercism/problem-specifications/blob/main/canonical-data.schema.json)).
+The structure of the `canonical-data.json` file is [well documented](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson) and it also has a [JSON schema](https://github.com/exercism/problem-specifications/blob/main/canonical-data.schema.json) definition.
 
 ##### Nesting
 
@@ -176,11 +176,11 @@ There are a couple of options to read the `canonical-data.json` files:
 
 #### Track-specific test cases
 
-If your track would like to add some additional, track-specific test cases (which are not found in the canonical data), as nice option is to allow creating an `additional-test-cases.json` files, which the Test Generator can then merge with the `canonical-data.json` file before passing it to the template for rendering.
+If your track would like to add some additional, track-specific test cases (which are not found in the canonical data), one option is to creating an `additional-test-cases.json` file, which the Test Generator can then merge with the `canonical-data.json` file before passing it to the template for rendering.
 
 ### Templates
 
-The template engine to use will be track-specific.
+The template engine to use will likely be track-specific.
 Ideally, you'll want your templates to be as straightforward as possible, so don't worry about code duplication and such.
 
 The templates themselves will get their data from the Test Generator on which they iterate over to render them.
