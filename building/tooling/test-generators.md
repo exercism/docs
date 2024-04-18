@@ -32,8 +32,8 @@ We recommend doing this periodically, to check if there are problematic test cas
 
 There are two possible starting points when implementing a Test Generator for an exercise:
 
-1. The exercise is new and doesn't yet have any tests
-2. The exercise already exists and has existing tests
+1. The exercise is new and thus doesn't have any tests
+2. The exercise already exists and thus has existing tests
 
 ```exercism/caution
 If there are existing tests, implement the Test Generator such that the tests it generates do not break existing solutions.
@@ -51,7 +51,7 @@ We've found that the code-based approach will lead to fairly complex Test Genera
 What we recommend is the following flow:
 
 1. Read the exercise's canonical data
-2. Exclude the test cases that are marked as `include = false` in the exercise's `tests.toml` file
+2. Exclude the test cases that are marked as `include = false` in the exercise's [`tests.toml` file](/docs/building/tracks/practice-exercises#file-meta-tests-toml)
 3. Convert the exercise's canonical data into a format that can be used in a template
 4. Pass the exercise's canonical data to an exercise-specific template
 
@@ -62,10 +62,10 @@ The key benefit of this setup is that each exercise has its own template, which:
 - Makes it safe to edit them without risking breaking another exercise
 
 ```exercism/caution
-Some additional things to be aware of when designing the test generator
+When designing the test generator, try to:
 
-- Minimize the pre-processing of canonical data inside the Test Generator
-- Try to reduce coupling between templates
+- Minimize pre-processing of canonical data inside the Test Generator
+- Reduce coupling between templates
 ```
 
 ## Implementation
@@ -73,17 +73,17 @@ Some additional things to be aware of when designing the test generator
 The Test Generator is usually (mostly) written in the track's language.
 
 ```exercism/caution
-While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
-We recommend using the track's language where possible, only using additional languages when it makes maintaining or contributing easier.
+While you're free to use other languages, each additional language will make it harder to maintain or contribute to the track.
+Therefore, we recommend using the track's language where possible, because it makes maintaining or contributing easier.
 ```
 
 ### Canonical data
 
 The core data the Test Generator works with is an exercise's [`canonical-data.json` file](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson).
-This file is defined in the [exercism/problem-specifications repo](https://github.com/exercism/problem-specifications), which defines shared metadata for many Exercism's exercises.
+This file is defined in the [exercism/problem-specifications repo](https://github.com/exercism/problem-specifications), which defines shared metadata for [many Exercism's exercises](https://github.com/search?q=repo%3Aexercism%2Fproblem-specifications+path%3A**%2Fcanonical-data.json&type=code&ref=advsearch).
 
-```exercism/note
-Not all exercises have a `canonical-data.json` file.
+```exercism/caution
+Not all exercises have a `canonical-data.json` file!
 In case they don't, you'll need to manually create the tests, as there is no data for the Test Generator to work with.
 ```
 
@@ -201,7 +201,7 @@ If your track does not support grouping tests, you'll need to:
 
 - Traverse/flatten the `cases` hierarchy to end up with only the innermost (leaf) test cases
 - Combine the test case description with its parent description(s) to create a unique test name
-````
+```
 
 #### Input and expected values
 

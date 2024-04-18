@@ -51,8 +51,8 @@ To speed up adding new exercises, consider building a [Test Generator](/docs/bui
 Track tooling is usually (mostly) written in the track's language.
 
 ```exercism/caution
-While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
-We recommend using the track's language where possible, because it makes maintaining or contributing easier.
+While you're free to use other languages, each additional language will make it harder to maintain or contribute to the track.
+Therefore, we recommend using the track's language where possible, because it makes maintaining or contributing easier.
 ```
 
 ## Deployment
