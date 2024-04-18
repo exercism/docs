@@ -52,7 +52,7 @@ Track tooling is usually (mostly) written in the track's language.
 
 ```exercism/caution
 While you're free to use additional languages, each additional language will make it harder to find people that can maintain or contribute to the track.
-We recommend using the track's language where possible, only using additional languages when it cannot be avoided.
+We recommend using the track's language where possible, because it makes maintaining or contributing easier.
 ```
 
 ## Deployment
