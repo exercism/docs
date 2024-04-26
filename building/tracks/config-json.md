@@ -374,6 +374,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 
 ### Paradigms
 
+- `paradigm/array`: the language is an array programming language
 - `paradigm/declarative`: the language supports a declarative style of programming
 - `paradigm/functional`: the language supports a function style of programming
 - `paradigm/imperative`: the language supports an imperative style of programming
