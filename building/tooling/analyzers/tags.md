@@ -37,6 +37,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 
 | Tag                        | Description                                                      |
 | -------------------------- | ---------------------------------------------------------------- |
+| `paradigm:array`           | uses [array programming][array-programming].                     |
 | `paradigm:declarative`     | uses [declarative programming][declarative-programming].         |
 | `paradigm:functional`      | uses [functional programming][functional-programming].           |
 | `paradigm:generic`         | uses [generic programming][generic-programming].                 |
@@ -328,6 +329,7 @@ Using a common set of tags will allow us to do some nifty things, like cross-tra
 
 As this category is language-specific, there are no commonly used tags here.
 
+[array-programming]: https://en.wikipedia.org/wiki/Array_programming
 [declarative-programming]: https://en.wikipedia.org/wiki/Declarative_programming
 [logic-programming]: https://en.wikipedia.org/wiki/Logic_programming
 [object-oriented-programming]: https://en.wikipedia.org/wiki/Object-oriented_programming
