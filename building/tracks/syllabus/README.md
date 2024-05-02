@@ -135,7 +135,7 @@ A concept exercise always has a story.
 If you're forking an exercise from another track, then the exercise will already have a story.
 In that case, you're all set.
 
-To see if there are any existing stories you can use or exercises you can fork, check out the [list of stories](docs/building/tracks/stories).
+To see if there are any existing stories you can use or exercises you can fork, check out the [list of stories](/docs/building/tracks/stories).
 
 If you have a concept but no story then our recommendation is to write a small, simple code example that uses the concept that you're introducing.
 Then reverse engineer a story onto the code.
