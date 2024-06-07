@@ -821,6 +821,13 @@
     "blurb": ""
   },
   {
+    "uuid": "0d24b14c-8995-4ca5-8e5f-6ca2dcc5318c",
+    "slug": "tooling/cli",
+    "path": "building/tooling/cli.md",
+    "title": "Exercism CLI",
+    "blurb": ""
+  },
+  {
     "uuid": "ba393f61-0f7d-4178-922a-c16cda052338",
     "slug": "tooling/test-generators",
     "path": "building/tooling/test-generators.md",
