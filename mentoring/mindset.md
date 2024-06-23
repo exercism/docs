@@ -115,7 +115,7 @@ A mentor may not be sure of their obligations.
 The obligations are few and simple: to be helpful and encouraging.
 If at any point the mentor feels they can't be either of those, then it may be best to politely suggest that the session end
 so the mentee can resubmit for another mentor.
-It may be best for the mentor to invite the menteee to end the discussion, but if the mentor feels the need to end the discussion,
+It may be best for the mentor to invite the mentee to end the discussion, but if the mentor feels the need to end the discussion,
 it would be polite to do so with a final comment explaining why.
 Although it may be tempting to focus on the faults of the mentee that made the session unsatisfactory,
 it would be more in the spirit of Exercism for the mentor to not focus blame on the mentee. 
