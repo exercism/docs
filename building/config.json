@@ -80,6 +80,222 @@
     "title": "Building Tracks"
   },
   {
+    "uuid": "2a29f722-e70d-4679-81f8-bd6727fa9013",
+    "slug": "tracks/config-json",
+    "path": "building/tracks/config-json.md",
+    "title": "config.json",
+    "blurb": ""
+  },
+  {
+    "uuid": "a4ec5951-c4ee-4f36-bf97-648075e5d514",
+    "slug": "tracks/docs",
+    "path": "building/tracks/docs.md",
+    "title": "Track Docs",
+    "blurb": ""
+  },
+  {
+    "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
+    "slug": "tracks/practice-exercises",
+    "path": "building/tracks/practice-exercises.md",
+    "title": "Practice Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "34387a23-f65c-490e-96ed-6b5e25298db7",
+    "slug": "tracks/concept-exercises",
+    "path": "building/tracks/concept-exercises.md",
+    "title": "Concept Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "038e26ee-891f-4592-92bd-c54cbd58d8bd",
+    "slug": "tracks/syllabus",
+    "path": "building/tracks/syllabus/README.md",
+    "title": "Syllabus",
+    "blurb": ""
+  },
+  {
+    "uuid": "af70ff3e-d4a4-4968-bcfe-1f197dc43380",
+    "slug": "tracks/syllabus/first-exercise",
+    "path": "building/tracks/syllabus/first-exercise.md",
+    "title": "First Exercise",
+    "blurb": ""
+  },
+  {
+    "uuid": "6f8d7376-70db-4f25-928c-4778bdf8a686",
+    "slug": "tracks/syllabus/next-exercises",
+    "path": "building/tracks/syllabus/next-exercises.md",
+    "title": "Next Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "cb430e09-7710-43b8-ab0e-2f0ee3785cf9",
+    "slug": "tracks/syllabus/expanding",
+    "path": "building/tracks/syllabus/expanding.md",
+    "title": "Expanding",
+    "blurb": ""
+  },
+  {
+    "uuid": "ed318b17-01be-4868-92df-50a644adfdc7",
+    "slug": "tracks/concepts",
+    "path": "building/tracks/concepts.md",
+    "title": "Concepts",
+    "blurb": ""
+  },
+  {
+    "uuid": "0807db01-ce0e-4ac4-817b-7fe0a2366d01",
+    "slug": "tracks/concept-map",
+    "path": "building/tracks/concept-map.md",
+    "title": "Concept Map",
+    "blurb": ""
+  },
+  {
+    "uuid": "e5b94b50-cff3-4fcb-8fbf-4a247202da97",
+    "slug": "tracks/approaches",
+    "path": "building/tracks/approaches.md",
+    "title": "Approaches",
+    "blurb": "Learn how to write approaches for exercises"
+  },
+  {
+    "uuid": "362853a0-dc4a-43ee-abbb-d4a14cb5b5bb",
+    "slug": "tracks/articles",
+    "path": "building/tracks/articles.md",
+    "title": "Articles",
+    "blurb": "Learn how to write articles for exercises"
+  },
+  {
+    "uuid": "e48b8809-2211-4b52-b984-9b6555103e41",
+    "slug": "tracks/new",
+    "path": "building/tracks/new/README.md",
+    "title": "New Track",
+    "blurb": "Learn how to build a new Track from scratch"
+  },
+  {
+    "uuid": "251d76bb-945a-4754-bf84-30a2fbf55654",
+    "slug": "tracks/new/request-new",
+    "path": "building/tracks/new/request-new.md",
+    "title": "Request a new Track"
+  },
+  {
+    "uuid": "def02ef0-a5ba-44b0-832c-7616d931da0c",
+    "slug": "tracks/new/join-our-community",
+    "path": "building/tracks/new/join-our-community.md",
+    "title": "Join our community"
+  },
+  {
+    "uuid": "83c73090-7641-4fa9-9038-9198778cf1a4",
+    "slug": "tracks/new/select-programming-language-variant",
+    "path": "building/tracks/new/select-programming-language-variant.md",
+    "title": "Select programming language variant"
+  },
+  {
+    "uuid": "879fb183-ba23-4956-a9d4-e4abea00d630",
+    "slug": "tracks/new/select-testing-framework",
+    "path": "building/tracks/new/select-testing-framework.md",
+    "title": "Select testing framework"
+  },
+  {
+    "uuid": "712ef100-f288-40d0-8911-11eb60b0b033",
+    "slug": "tracks/new/add-first-exercise",
+    "path": "building/tracks/new/add-first-exercise.md",
+    "title": "Add the first exercise"
+  },
+  {
+    "uuid": "975a3a67-5d5e-4022-b363-a40661095c93",
+    "slug": "tracks/new/setup-continuous-integration",
+    "path": "building/tracks/new/setup-continuous-integration.md",
+    "title": "Setup Continuous Integration"
+  },
+  {
+    "uuid": "c8f1ff4d-55f8-447e-b5e7-4a87f1e341f7",
+    "slug": "tracks/new/add-initial-exercises",
+    "path": "building/tracks/new/add-initial-exercises.md",
+    "title": "Add initial exercises"
+  },
+  {
+    "uuid": "ae9c8c65-2c39-48d5-b647-4189cff77862",
+    "slug": "tracks/new/build-test-runner",
+    "path": "building/tracks/new/build-test-runner.md",
+    "title": "Build test runner"
+  },
+  {
+    "uuid": "0113174d-314d-4255-a300-32150dc32179",
+    "slug": "tracks/new/configure-tooling",
+    "path": "building/tracks/new/configure-tooling.md",
+    "title": "Configure tooling"
+  },
+  {
+    "uuid": "3bc94082-8fa3-4129-bca7-c1892cba3ed4",
+    "slug": "tracks/new/prepare-for-launch",
+    "path": "building/tracks/new/prepare-for-launch.md",
+    "title": "Prepare for launch"
+  },
+  {
+    "uuid": "296dbe06-3384-409b-b2de-be52593c76d3",
+    "slug": "tracks/new/find-maintainers",
+    "path": "building/tracks/new/find-maintainers.md",
+    "title": "Find maintainers"
+  },
+  {
+    "uuid": "d9f356fd-4fb2-4ec7-be1b-ec65bfda4904",
+    "slug": "tracks/new/launch",
+    "path": "building/tracks/new/launch.md",
+    "title": "Launch!"
+  },
+  {
+    "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
+    "slug": "tracks/new/implement-tooling",
+    "path": "building/tracks/new/implement-tooling.md",
+    "title": "Implement additional tooling"
+  },
+  {
+    "uuid": "65fe2eb3-bd67-4312-9e9d-d7334cdcbdcf",
+    "slug": "tracks/new/prepare-for-contributions",
+    "path": "building/tracks/new/prepare-for-contributions.md",
+    "title": "Prepare for open source contributions from strangers"
+  },
+  {
+    "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
+    "slug": "tracks/presentation",
+    "path": "building/tracks/presentation.md",
+    "title": "Presentation",
+    "blurb": ""
+  },
+  {
+    "uuid": "0b0996c5-459c-4145-8876-09d7664d7b5c",
+    "slug": "tracks/shared-files",
+    "path": "building/tracks/shared-files.md",
+    "title": "Shared files",
+    "blurb": ""
+  },
+  {
+    "uuid": "2eadb0af-4b2f-4598-a5b2-6b9cdf4a5c1b",
+    "slug": "tracks/ci",
+    "path": "building/tracks/ci/README.md",
+    "title": "Continuous Integration",
+    "blurb": "Learn about how Exercism handles Continuous Integration through GitHub Actions"
+  },
+  {
+    "uuid": "bbb766b6-4b28-4a19-bf57-48495b465c86",
+    "slug": "tracks/ci/workflow-templates",
+    "path": "building/tracks/ci/workflow-templates.md",
+    "title": "Workflow Templates"
+  },
+  {
+    "uuid": "4883e54d-b863-44b2-a2d9-5e77ef6148a1",
+    "slug": "tracks/deprecated-exercises",
+    "path": "building/tracks/deprecated-exercises.md",
+    "title": "Deprecated Exercises",
+    "blurb": "Learn why and how to deprecate an Exercism exercise"
+  },
+  {
+    "uuid": "16e47fd6-2faf-4c2b-bc69-285a1fcb9fce",
+    "slug": "tracks/icons",
+    "path": "building/tracks/icons.md",
+    "title": "Icons",
+    "blurb": ""
+  },
+  {
     "uuid": "3945aaa4-60c4-4ae5-ae7c-aefc1718ce5c",
     "slug": "tracks/stories",
     "path": "building/tracks/stories/README.md",
@@ -422,19 +638,6 @@
     "title": "Santa's Helper"
   },
   {
-    "uuid": "2eadb0af-4b2f-4598-a5b2-6b9cdf4a5c1b",
-    "slug": "tracks/ci",
-    "path": "building/tracks/ci/README.md",
-    "title": "Continuous Integration",
-    "blurb": "Learn about how Exercism handles Continuous Integration through GitHub Actions"
-  },
-  {
-    "uuid": "bbb766b6-4b28-4a19-bf57-48495b465c86",
-    "slug": "tracks/ci/workflow-templates",
-    "path": "building/tracks/ci/workflow-templates.md",
-    "title": "Workflow Templates"
-  },
-  {
     "uuid": "191b0fa1-96e2-48a6-ad2e-c34f57443799",
     "slug": "tracks/ci/migrating-from-travis",
     "path": "building/tracks/ci/migrating-from-travis.md",
@@ -488,216 +691,6 @@
     "slug": "tooling/docker",
     "path": "building/tooling/docker.md",
     "title": "Tooling Docker Setup",
-    "blurb": ""
-  },
-  {
-    "uuid": "34387a23-f65c-490e-96ed-6b5e25298db7",
-    "slug": "tracks/concept-exercises",
-    "path": "building/tracks/concept-exercises.md",
-    "title": "Concept Exercises",
-    "blurb": ""
-  },
-  {
-    "uuid": "038e26ee-891f-4592-92bd-c54cbd58d8bd",
-    "slug": "tracks/syllabus",
-    "path": "building/tracks/syllabus/README.md",
-    "title": "Syllabus",
-    "blurb": ""
-  },
-  {
-    "uuid": "af70ff3e-d4a4-4968-bcfe-1f197dc43380",
-    "slug": "tracks/syllabus/first-exercise",
-    "path": "building/tracks/syllabus/first-exercise.md",
-    "title": "First Exercise",
-    "blurb": ""
-  },
-  {
-    "uuid": "6f8d7376-70db-4f25-928c-4778bdf8a686",
-    "slug": "tracks/syllabus/next-exercises",
-    "path": "building/tracks/syllabus/next-exercises.md",
-    "title": "Next Exercises",
-    "blurb": ""
-  },
-  {
-    "uuid": "cb430e09-7710-43b8-ab0e-2f0ee3785cf9",
-    "slug": "tracks/syllabus/expanding",
-    "path": "building/tracks/syllabus/expanding.md",
-    "title": "Expanding",
-    "blurb": ""
-  },
-  {
-    "uuid": "ed318b17-01be-4868-92df-50a644adfdc7",
-    "slug": "tracks/concepts",
-    "path": "building/tracks/concepts.md",
-    "title": "Concepts",
-    "blurb": ""
-  },
-  {
-    "uuid": "0807db01-ce0e-4ac4-817b-7fe0a2366d01",
-    "slug": "tracks/concept-map",
-    "path": "building/tracks/concept-map.md",
-    "title": "Concept Map",
-    "blurb": ""
-  },
-  {
-    "uuid": "2a29f722-e70d-4679-81f8-bd6727fa9013",
-    "slug": "tracks/config-json",
-    "path": "building/tracks/config-json.md",
-    "title": "config.json",
-    "blurb": ""
-  },
-  {
-    "uuid": "a4ec5951-c4ee-4f36-bf97-648075e5d514",
-    "slug": "tracks/docs",
-    "path": "building/tracks/docs.md",
-    "title": "Track Docs",
-    "blurb": ""
-  },
-  {
-    "uuid": "16e47fd6-2faf-4c2b-bc69-285a1fcb9fce",
-    "slug": "tracks/icons",
-    "path": "building/tracks/icons.md",
-    "title": "Icons",
-    "blurb": ""
-  },
-  {
-    "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
-    "slug": "tracks/practice-exercises",
-    "path": "building/tracks/practice-exercises.md",
-    "title": "Practice Exercises",
-    "blurb": ""
-  },
-  {
-    "uuid": "4883e54d-b863-44b2-a2d9-5e77ef6148a1",
-    "slug": "tracks/deprecated-exercises",
-    "path": "building/tracks/deprecated-exercises.md",
-    "title": "Deprecated Exercises",
-    "blurb": "Learn why and how to deprecate an Exercism exercise"
-  },
-  {
-    "uuid": "e5b94b50-cff3-4fcb-8fbf-4a247202da97",
-    "slug": "tracks/approaches",
-    "path": "building/tracks/approaches.md",
-    "title": "Approaches",
-    "blurb": "Learn how to write approaches for exercises"
-  },
-  {
-    "uuid": "362853a0-dc4a-43ee-abbb-d4a14cb5b5bb",
-    "slug": "tracks/articles",
-    "path": "building/tracks/articles.md",
-    "title": "Articles",
-    "blurb": "Learn how to write articles for exercises"
-  },
-  {
-    "uuid": "8db530bb-e11b-4497-b088-5b4c997e09a2",
-    "slug": "tracks/presentation",
-    "path": "building/tracks/presentation.md",
-    "title": "Presentation",
-    "blurb": ""
-  },
-  {
-    "uuid": "e48b8809-2211-4b52-b984-9b6555103e41",
-    "slug": "tracks/new",
-    "path": "building/tracks/new/README.md",
-    "title": "New Track",
-    "blurb": "Learn how to build a new Track from scratch"
-  },
-  {
-    "uuid": "251d76bb-945a-4754-bf84-30a2fbf55654",
-    "slug": "tracks/new/request-new",
-    "path": "building/tracks/new/request-new.md",
-    "title": "Request a new Track"
-  },
-  {
-    "uuid": "def02ef0-a5ba-44b0-832c-7616d931da0c",
-    "slug": "tracks/new/join-our-community",
-    "path": "building/tracks/new/join-our-community.md",
-    "title": "Join our community"
-  },
-  {
-    "uuid": "83c73090-7641-4fa9-9038-9198778cf1a4",
-    "slug": "tracks/new/select-programming-language-variant",
-    "path": "building/tracks/new/select-programming-language-variant.md",
-    "title": "Select programming language variant"
-  },
-  {
-    "uuid": "879fb183-ba23-4956-a9d4-e4abea00d630",
-    "slug": "tracks/new/select-testing-framework",
-    "path": "building/tracks/new/select-testing-framework.md",
-    "title": "Select testing framework"
-  },
-  {
-    "uuid": "712ef100-f288-40d0-8911-11eb60b0b033",
-    "slug": "tracks/new/add-first-exercise",
-    "path": "building/tracks/new/add-first-exercise.md",
-    "title": "Add the first exercise"
-  },
-  {
-    "uuid": "975a3a67-5d5e-4022-b363-a40661095c93",
-    "slug": "tracks/new/setup-continuous-integration",
-    "path": "building/tracks/new/setup-continuous-integration.md",
-    "title": "Setup Continuous Integration"
-  },
-  {
-    "uuid": "c8f1ff4d-55f8-447e-b5e7-4a87f1e341f7",
-    "slug": "tracks/new/add-initial-exercises",
-    "path": "building/tracks/new/add-initial-exercises.md",
-    "title": "Add initial exercises"
-  },
-  {
-    "uuid": "ae9c8c65-2c39-48d5-b647-4189cff77862",
-    "slug": "tracks/new/build-test-runner",
-    "path": "building/tracks/new/build-test-runner.md",
-    "title": "Build test runner"
-  },
-  {
-    "uuid": "0113174d-314d-4255-a300-32150dc32179",
-    "slug": "tracks/new/configure-tooling",
-    "path": "building/tracks/new/configure-tooling.md",
-    "title": "Configure tooling"
-  },
-  {
-    "uuid": "3bc94082-8fa3-4129-bca7-c1892cba3ed4",
-    "slug": "tracks/new/prepare-for-launch",
-    "path": "building/tracks/new/prepare-for-launch.md",
-    "title": "Prepare for launch"
-  },
-  {
-    "uuid": "296dbe06-3384-409b-b2de-be52593c76d3",
-    "slug": "tracks/new/find-maintainers",
-    "path": "building/tracks/new/find-maintainers.md",
-    "title": "Find maintainers"
-  },
-  {
-    "uuid": "d9f356fd-4fb2-4ec7-be1b-ec65bfda4904",
-    "slug": "tracks/new/launch",
-    "path": "building/tracks/new/launch.md",
-    "title": "Launch!"
-  },
-  {
-    "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
-    "slug": "tracks/new/implement-tooling",
-    "path": "building/tracks/new/implement-tooling.md",
-    "title": "Implement additional tooling"
-  },
-  {
-    "uuid": "65fe2eb3-bd67-4312-9e9d-d7334cdcbdcf",
-    "slug": "tracks/new/prepare-for-contributions",
-    "path": "building/tracks/new/prepare-for-contributions.md",
-    "title": "Prepare for open source contributions from strangers"
-  },
-  {
-    "uuid": "11894561-be89-471f-ac4e-581449add2bd",
-    "slug": "tracks",
-    "path": "building/tracks/README.md",
-    "title": "Track",
-    "blurb": ""
-  },
-  {
-    "uuid": "0b0996c5-459c-4145-8876-09d7664d7b5c",
-    "slug": "tracks/shared-files",
-    "path": "building/tracks/shared-files.md",
-    "title": "Shared files",
     "blurb": ""
   },
   {
