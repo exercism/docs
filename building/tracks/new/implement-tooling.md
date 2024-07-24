@@ -1,6 +1,6 @@
 # Implement tooling
 
-After launching the track with the first 20+ exercises, the focus should shift to implementing the [track tooling](/docs/building/tooling).
+After launching the track with the first 20+ exercises and a test runner, the focus should shift to implementing [additional track tooling](/docs/building/tooling).
 
 There are two types of track tooling:
 
@@ -24,14 +24,9 @@ To help with track maintenance, one can also build:
 ## Which tool to implement?
 
 The production tools are more important than maintenance tools.
-Of the three production tools, the Test Runner should be implemented first as it enables:
+At this point, you should have implemented a Test Runner (if not, check the [Build a test runner docs](/docs/building/tracks/new/build-test-runner)).
 
-- Students to solve exercises using the [in-browser editor](/docs/using/solving-exercises/using-the-online-editor) ([no CLI needed](/docs/using/solving-exercises/working-locally)).
-- The website to automatically verify if an iteration passes all the tests.
-
-To get started building a Test Runner, check the [Creating a Test Runner from scratch](/docs/building/tooling/test-runners/creating-from-scratch) document.
-
-Once a test runner has been built, the next tool to work on is the Representer.
+Having built a test runner, the next tool to work on is the Representer.
 There is some overlap between the goals of the Representer and the Analyzer, but we recommend building the Representer first for the following reasons:
 
 - Representers are usually (far) easier to implement
@@ -58,6 +53,6 @@ Therefore, we recommend using the track's language where possible, because it ma
 ## Deployment
 
 Production tools are packaged and run as a [Docker container](/docs/building/tooling/docker).
-Tooling images are deployed automatically using a [Docker workflow](https://github.com/exercism/generic-test-runner/blob/main/.github/workflows/docker.yml).
+Tooling Docker images are deployed automatically using a [GitHub Actions workflow](https://github.com/exercism/generic-test-runner/blob/main/.github/workflows/docker.yml).
 
 Maintenance tools are _not_ deployed.

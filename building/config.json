@@ -633,16 +633,28 @@
     "title": "Add the first exercise"
   },
   {
+    "uuid": "975a3a67-5d5e-4022-b363-a40661095c93",
+    "slug": "tracks/new/setup-continuous-integration",
+    "path": "building/tracks/new/setup-continuous-integration.md",
+    "title": "Setup Continuous Integration"
+  },
+  {
     "uuid": "c8f1ff4d-55f8-447e-b5e7-4a87f1e341f7",
     "slug": "tracks/new/add-initial-exercises",
     "path": "building/tracks/new/add-initial-exercises.md",
     "title": "Add initial exercises"
   },
   {
-    "uuid": "975a3a67-5d5e-4022-b363-a40661095c93",
-    "slug": "tracks/new/setup-continuous-integration",
-    "path": "building/tracks/new/setup-continuous-integration.md",
-    "title": "Setup Continuous Integration"
+    "uuid": "ae9c8c65-2c39-48d5-b647-4189cff77862",
+    "slug": "tracks/new/build-test-runner",
+    "path": "building/tracks/new/build-test-runner.md",
+    "title": "Build test runner"
+  },
+  {
+    "uuid": "0113174d-314d-4255-a300-32150dc32179",
+    "slug": "tracks/new/configure-tooling",
+    "path": "building/tracks/new/configure-tooling.md",
+    "title": "Configure tooling"
   },
   {
     "uuid": "3bc94082-8fa3-4129-bca7-c1892cba3ed4",
@@ -663,22 +675,16 @@
     "title": "Launch!"
   },
   {
+    "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
+    "slug": "tracks/new/implement-tooling",
+    "path": "building/tracks/new/implement-tooling.md",
+    "title": "Implement additional tooling"
+  },
+  {
     "uuid": "65fe2eb3-bd67-4312-9e9d-d7334cdcbdcf",
     "slug": "tracks/new/prepare-for-contributions",
     "path": "building/tracks/new/prepare-for-contributions.md",
     "title": "Prepare for open source contributions from strangers"
-  },
-  {
-    "uuid": "0113174d-314d-4255-a300-32150dc32179",
-    "slug": "tracks/new/configure-tooling",
-    "path": "building/tracks/new/configure-tooling.md",
-    "title": "Configure tooling"
-  },
-  {
-    "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
-    "slug": "tracks/new/implement-tooling",
-    "path": "building/tracks/new/implement-tooling.md",
-    "title": "Implement tooling"
   },
   {
     "uuid": "11894561-be89-471f-ac4e-581449add2bd",
