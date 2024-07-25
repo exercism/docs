@@ -17,5 +17,6 @@ Once you've completed that step, the next steps are:
 - [Prepare for launch](/docs/building/tracks/new/prepare-for-launch)
 - [Find Maintainers](/docs/building/tracks/new/find-maintainers)
 - [Launch!](/docs/building/tracks/new/launch)
+- [Enable syntax highlighting](/docs/building/tracks/new/enable-syntax-highlighting)
 - [Implement additional tooling](/docs/building/tracks/new/implement-tooling)
 - [Prepare for open source contributions from strangers](/docs/building/tracks/new/prepare-for-contributions)
