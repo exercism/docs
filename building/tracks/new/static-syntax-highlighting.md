@@ -19,10 +19,11 @@ When adding support for your language, there are three options:
 2. The language is supported via an existing highlightjs plugin.
    If so, continue to the [Using an existing plugin](#using-an-existing-plugin) section.
 3. The language is _not_ supported.
-   There are now two options:
+   There are now three options:
    1. Write a highlightjs plugin from scratch, as described in the [Create a new plugin](#create-a-new-plugin) section.
-   2. Your language's syntax (closely) resembles another language's syntax, in which case you could consider using the syntax highlighting of that language for your language.
+   2. Your language's syntax (closely) resembles another language's syntax (e.g. Unison's syntax resembles Haskell), in which case you could consider using the syntax highlighting of that language for your language.
       See the [Configuring track](#configuring-track) section for more information.
+   3. Don't have static syntax highlighting.
 
 ### Configuring track
 
@@ -42,7 +43,6 @@ Within the `config.json` file, add/set the `online_editor.highlightjs_language` 
 ### Using an existing plugin
 
 To use an existing plugin, it needs to be published on [NPM](https://www.npmjs.com/).
-
 If the plugin isn't published on NPM, you can either:
 
 1. Ask the plugin author if they want to publish on NPM.
@@ -74,10 +74,5 @@ The next step is to [Enable the plugin](#enable-plugin).
 ### Use a different language
 
 Your language's syntax (closely) resembles another language's syntax, in which case you could consider using the syntax highlighting of that language for your language.
+To do so, configure the track to use the other language's highlightjs language identifier.
 See the [Configuring track](#configuring-track) section for more information.
-
-## Dynamic code
-
-```
-
-```
