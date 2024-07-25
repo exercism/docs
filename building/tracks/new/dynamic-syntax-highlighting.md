@@ -5,44 +5,35 @@ There is only one place where this happens, and that is the online editor.
 
 ```exercism/note
 Code snippets, iterations, and the like are _static_ as the user can't change their code on the fly.
-If you'd like to know more of how we handle static syntax highlighting, check the [static syntax highlighting docs](/docs/building/tracks/new/enable-syntax-highlighting/statuc).
+If you'd like to know more of how we handle static syntax highlighting, check the [static syntax highlighting docs](/docs/building/tracks/new/enable-syntax-highlighting/static).
 ```
 
 ## Implementation
 
-Dynamic syntax highlighting is done using the [highlightjs library](https://highlightjs.org/).
+Dynamic syntax highlighting is done using the [CodeMirror library](https://codemirror.net/).
 
 When adding support for your language, there are three options:
 
-1. The language is supported _out of the box_ by highlightjs (i.e. listed as a [supported language](https://github.com/highlightjs/highlight.js/blob/main/SUPPORTED_LANGUAGES.md)).
-   If so, continue to the [Configuring track](#configuring-track) section.
-2. The language is supported via an existing highlightjs plugin.
+1. The language is supported _out of the box_ by CodeMirror (i.e. listed as a [supported language](https://codemirror.net/5/mode/)).
+   If so, continue to the [Enable language](#enable-language) section.
+2. The language is supported via an existing CodeMirror plugin.
    If so, continue to the [Using an existing plugin](#using-an-existing-plugin) section.
 3. The language is _not_ supported.
    There are now three options:
-   1. Write a highlightjs plugin from scratch, as described in the [Create a new plugin](#create-a-new-plugin) section.
+   1. Write a CodeMirror plugin from scratch, as described in the [Create a new plugin](#create-a-new-plugin) section.
    2. Your language's syntax (closely) resembles another language's syntax (e.g. Unison's syntax resembles Haskell), in which case you could consider using the syntax highlighting of that language for your language.
-      See the [Configuring track](#configuring-track) section for more information.
-   3. Don't have static syntax highlighting.
+      See the [Enable language](#enable-language) section for more information.
+   3. Don't have dynamic syntax highlighting.
 
-### Configuring track
+### Enable language
 
-To enable CodeMirror support for your track's language, you'll need to modify the track's [config.json file](/docs/building/tracks/config-json).
-Within the `config.json` file, add/set the `online_editor.highlightjs_language` key to the appropriate highlightjs language identifier (which can be found in the documentation).
-
-#### Example
-
-```json
-{
-  "online_editor": {
-    "highlightjs_language": "csharp"
-  }
-}
-```
+To enable CodeMirror support for your language, start a topic on the forum (https://forum.exercism.org/c/exercism/building-exercism/125).
+We (Exercism) will then create a Pull Request that enables CodeMirror support for your language on the website.
 
 ### Using an existing plugin
 
 To use an existing plugin, it needs to be published on [NPM](https://www.npmjs.com/).
+
 If the plugin isn't published on NPM, you can either:
 
 1. Ask the plugin author if they want to publish on NPM.
@@ -50,13 +41,11 @@ If the plugin isn't published on NPM, you can either:
 3. Have us (Exercism) fork the repository and we publish it.
    To do so, open a topic on the forum requesting this (https://forum.exercism.org/c/exercism/building-exercism/125).
 
-The next step is to [Enable the plugin](#enable-plugin).
+```exercism/note
+The CodeMirror website has a [list of community-built language plugins](https://codemirror.net/docs/community/#language).
+```
 
-### Enable plugin
-
-To enable a plugin (which must be published on [NPM](https://www.npmjs.com/)), start a topic on the forum requesting us to add support for the plugin to the website (https://forum.exercism.org/c/exercism/building-exercism/125).
-We (Exercism) will then create a Pull Request that adds the plugin to the website.
-Once the PR is merged, you can enable highlightjs support by following the instructions in the [Configuring track](#configuring-track) section.
+The next step is to [Enable language](#enable-language).
 
 ### Create a new plugin
 
@@ -73,10 +62,10 @@ You could consider forking the [codemirror/lang-example repository](https://gith
 Once you have a repo, follow the [language package instructions](https://codemirror.net/examples/lang-package/) to implement the plugin.
 
 You'll then need to publish the plugin on [NPM](https://www.npmjs.com/).
-The next step is to [Enable the plugin](#enable-plugin).
+The next step is to [Enable the language](#enable-language).
 
 ### Use a different language
 
 Your language's syntax (closely) resembles another language's syntax, in which case you could consider using the syntax highlighting of that language for your language.
 To do so, configure the track using the other language's CodeMirror plugin.
-See the [Configuring track](#configuring-track) section for more information.
+See the [Enable language](#enable-language) section for more information.
