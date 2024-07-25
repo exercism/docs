@@ -243,6 +243,24 @@
     "title": "Launch!"
   },
   {
+    "uuid": "81169858-41f0-44da-875c-b1bb432f90b0",
+    "slug": "tracks/new/syntax-highlighting",
+    "path": "building/tracks/new/syntax-highlighting.md",
+    "title": "Enable syntax highlighting"
+  },
+  {
+    "uuid": "374e2596-db7d-433d-b3c0-0f3dc75c453b",
+    "slug": "tracks/new/syntax-highlighting/static",
+    "path": "building/tracks/new/static-syntax-highlighting.md",
+    "title": "Static syntax highlighting"
+  },
+  {
+    "uuid": "a443c67c-fb01-48f0-ab44-8710c065b3ea",
+    "slug": "tracks/new/syntax-highlighting/dynamic",
+    "path": "building/tracks/new/dynamic-syntax-highlighting.md",
+    "title": "Dynamic syntax highlighting"
+  },
+  {
     "uuid": "f697a7c1-ad33-460c-8458-18cd6d149920",
     "slug": "tracks/new/implement-tooling",
     "path": "building/tracks/new/implement-tooling.md",
