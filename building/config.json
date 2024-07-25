@@ -244,19 +244,19 @@
   },
   {
     "uuid": "81169858-41f0-44da-875c-b1bb432f90b0",
-    "slug": "tracks/new/enable-syntax-highlighting",
-    "path": "building/tracks/new/enable-syntax-highlighting.md",
+    "slug": "tracks/new/syntax-highlighting",
+    "path": "building/tracks/new/syntax-highlighting.md",
     "title": "Enable syntax highlighting"
   },
   {
     "uuid": "374e2596-db7d-433d-b3c0-0f3dc75c453b",
-    "slug": "tracks/new/enable-syntax-highlighting/static",
+    "slug": "tracks/new/syntax-highlighting/static",
     "path": "building/tracks/new/static-syntax-highlighting.md",
     "title": "Static syntax highlighting"
   },
   {
     "uuid": "a443c67c-fb01-48f0-ab44-8710c065b3ea",
-    "slug": "tracks/new/enable-syntax-highlighting/dynamic",
+    "slug": "tracks/new/syntax-highlighting/dynamic",
     "path": "building/tracks/new/dynamic-syntax-highlighting.md",
     "title": "Dynamic syntax highlighting"
   },

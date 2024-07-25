@@ -5,7 +5,7 @@ This includes code snippets, iterations, and more.
 
 ```exercism/note
 The online editor does _not_ use static syntax highlighting as the user can change the code on the fly.
-If you'd like to know more of how we handle syntax highlighting in the online editor, check the [dynamic syntax highlighting docs](/docs/building/tracks/new/enable-syntax-highlighting/dynamic).
+If you'd like to know more of how we handle syntax highlighting in the online editor, check the [dynamic syntax highlighting docs](/docs/building/tracks/new/syntax-highlighting/dynamic).
 ```
 
 ## Implementation
