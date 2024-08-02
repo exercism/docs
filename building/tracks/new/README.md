@@ -15,6 +15,7 @@ Once you've completed that step, the next steps are:
 - [Build test runner](/docs/building/tracks/new/build-test-runner)
 - [Configure tooling](/docs/building/tracks/new/configure-tooling)
 - [Prepare for launch](/docs/building/tracks/new/prepare-for-launch)
+- [Test track](/docs/building/tracks/new/test-track)
 - [Find Maintainers](/docs/building/tracks/new/find-maintainers)
 - [Launch!](/docs/building/tracks/new/launch)
 - [Enable syntax highlighting](/docs/building/tracks/new/syntax-highlighting)
