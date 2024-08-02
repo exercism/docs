@@ -6,7 +6,7 @@ This will help find (common) errors and allows them to be fixed _before_ the tra
 ## How to enable the track for testing
 
 To enable the track for testing, it needs to be added to our database, which is something only site admins can do.
-Please open a topic on the forum requesting this at: https://forum.exercism.org/c/exercism/building-exercism/125.
+Please open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
 
 Note that adding the track to the database will _not_ launch the track, but it _will_ make it accessible on the website for maintainer users.
 
@@ -17,4 +17,4 @@ The ideal users to test the track are other track maintainers, as they:
 - Have experience building a track (and thus know what should have been built)
 - Are able to access track's that are not yet active
 
-To get maintainers to test your track, open a topic on the forum requesting this at: https://forum.exercism.org/c/exercism/building-exercism/125.
+To get maintainers to test your track, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.

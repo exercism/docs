@@ -48,13 +48,13 @@ If the plugin isn't published on NPM, you can either:
 1. Ask the plugin author if they want to publish on NPM.
 2. Fork the repository and publish it yourself.
 3. Have us (Exercism) fork the repository and we publish it.
-   To do so, open a topic on the forum requesting this (https://forum.exercism.org/c/exercism/building-exercism/125).
+   To do so, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
 
 The next step is to [Enable the plugin](#enable-plugin).
 
 ### Enable plugin
 
-To enable a plugin (which must be published on [NPM](https://www.npmjs.com/)), start a topic on the forum requesting us to add support for the plugin to the website (https://forum.exercism.org/c/exercism/building-exercism/125).
+To enable a plugin (which must be published on [NPM](https://www.npmjs.com/)), start a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting us to add support for the plugin to the website.
 We (Exercism) will then create a Pull Request that adds the plugin to the website.
 Once the PR is merged, you can enable highlightjs support by following the instructions in the [Configuring track](#configuring-track) section.
 
@@ -64,7 +64,7 @@ If you'd like to create plugin, you have two options for hosting:
 
 1. Create a repository on your personal account and publish it yourself.
 2. Have us (Exercism) create a repository and let us publish it.
-   To do so, open a topic on the forum requesting this (https://forum.exercism.org/c/exercism/building-exercism/125).
+   To do so, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
 
 Once you have a repo, follow the [language contribution instructions](https://highlightjs.readthedocs.io/en/latest/language-contribution.html) to implement the plugin.
 
