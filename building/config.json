@@ -231,6 +231,12 @@
     "title": "Prepare for launch"
   },
   {
+    "uuid": "3d4a4f07-7229-4910-9ba5-b7d931ff9177",
+    "slug": "tracks/new/test-track",
+    "path": "building/tracks/new/test-track.md",
+    "title": "Test track"
+  },
+  {
     "uuid": "296dbe06-3384-409b-b2de-be52593c76d3",
     "slug": "tracks/new/find-maintainers",
     "path": "building/tracks/new/find-maintainers.md",
