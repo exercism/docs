@@ -27,7 +27,7 @@ When adding support for your language, there are three options:
 
 ### Enable language
 
-To enable CodeMirror support for your language, start a topic on the forum (https://forum.exercism.org/c/exercism/building-exercism/125).
+To enable CodeMirror support for your language, start a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125).
 We (Exercism) will then create a Pull Request that enables CodeMirror support for your language on the website.
 
 ### Using an existing plugin
@@ -39,7 +39,7 @@ If the plugin isn't published on NPM, you can either:
 1. Ask the plugin author if they want to publish on NPM.
 2. Fork the repository and publish it yourself.
 3. Have us (Exercism) fork the repository and we publish it.
-   To do so, open a topic on the forum requesting this (https://forum.exercism.org/c/exercism/building-exercism/125).
+   To do so, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
 
 ```exercism/note
 The CodeMirror website has a [list of community-built language plugins](https://codemirror.net/docs/community/#language).
@@ -53,7 +53,7 @@ If you'd like to create plugin, you have two options for hosting:
 
 1. Create a repository on your personal account and publish it yourself.
 2. Have us (Exercism) create a repository and let us publish it.
-   To do so, open a topic on the forum requesting this (https://forum.exercism.org/c/exercism/building-exercism/125).
+   To do so, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
 
 ```exercism/note
 You could consider forking the [codemirror/lang-example repository](https://github.com/codemirror/lang-example) which implements CodeMirror support for a simple language.
