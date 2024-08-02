@@ -718,6 +718,13 @@
     "blurb": ""
   },
   {
+    "uuid": "83dc65b9-cc74-4a2a-9c70-472f6416c19d",
+    "slug": "tooling/best-practices",
+    "path": "building/tooling/best-practices.md",
+    "title": "Best Practices",
+    "blurb": ""
+  },
+  {
     "uuid": "b080e814-d3b9-4027-a25e-907f5505cf8d",
     "slug": "tooling/analyzers",
     "path": "building/tooling/analyzers/README.md",

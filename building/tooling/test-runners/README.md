@@ -23,3 +23,4 @@ You can use the following documents to learn more about building a test runner:
 - [creating a Test Runner from scratch](/docs/building/tooling/test-runners/creating-from-scratch)
 - [The Test Runner interface](/docs/building/tooling/test-runners/interface)
 - [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/test-runners/docker)
+- [Best practices](/docs/building/tooling/best-practices)

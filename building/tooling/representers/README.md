@@ -35,3 +35,4 @@ You can use the following documents to learn more about building a representer:
 - [The Representer interface](/docs/building/tooling/representers/interface)
 - [How to normalize representations for the highest efficiency](/docs/building/tooling/representers/normalization)
 - [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/representers/docker)
+- [Best practices](/docs/building/tooling/best-practices)
