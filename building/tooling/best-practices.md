@@ -35,7 +35,7 @@ Whilst run-time code runs on every single tooling run, build-time code only runs
 Build-time code runs once as part of a GitHub Actions workflow.
 Therefore, its fine if the code that runs at build-time is (relatively) slow.
 
-#### Example: pre-compilation
+#### Example: pre-compile libraries
 
 When running tests in the Haskell test runner, it requires some base libraries to be compiled.
 As each test run happens in a fresh container, this means that this compilation was done _in every single test run_!
@@ -51,6 +51,14 @@ This directory is setup as a sort of fake exercise and depends on the same base 
 Then we run the tests on that directory, which is similar to how tests are run for an actual exercise.
 Running the tests will result in the base being compiled, but the difference is that this happens at _build time_.
 The resulting Docker image will thus have its base libraries already compiled, which means that no longer has to happen at _run time_, resulting in (much) faster execution times.
+
+#### Example: pre-compile binaries
+
+Some languages allow code to be compiled ahead-of-time or just-in-time.
+This is a build time vs. run time tradeoff, and again, we favor build time execution for performance reasons
+
+The [C# test runner's Dockerfile](https://github.com/exercism/csharp-test-runner/blob/b54122ef76cbf86eff0691daa33c8e50bc83979f/Dockerfile) uses this approach, where the test runner is compiled t a binary ahead-of-time (at build time) instead of just-in-time compiling the code (at run time).
+This mean that there is less work to do a run time, which should help increase performance.
 
 ## Size
 
