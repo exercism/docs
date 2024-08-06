@@ -50,21 +50,6 @@ Different languages perform better/worse with different configurations (e.g. Rub
 You can experiment locally by using the `--network` flag when running your docker. `--network none` is supported by default.
 To use the internal network, first run `docker network create --internal internal` to create the network, then use `--network internal` when running the container.
 
-### Read-only filesystem
-
-We encourage Docker files to be written using a read-only filesystem.
-The only directories you should assume to be writeable are:
-
-- The solution dir (passed in as the second argument)
-- The output dir (passed in as the third argument)
-- The `/tmp` dir
-
-```exercism/caution
-Our production environment currently does _not_ enforce a read-only filesystem, but we might in the future.
-For this reason, the base template for a new test runner/analyzer/representer starts out with a read-only filesystem.
-If you can't get things working on a read-only file, feel free to (for now) assume a writeable file system.
-```
-
 ### Memory
 
 Languages can set the maximum memory they need to use to run their jobs. Setting this to be as low as possible means that we can run more jobs more quickly in parallel. It also means that people who try and abuse memory will not be able to succeed. Different languages need wildly different maximum memory usage. Benchmarking the execution of a docker run to establish the maximum memory it uses is advised and appreciated.
