@@ -368,3 +368,24 @@ Check [this page](https://exercism.org/docs/tracks/fsharp/tests) to see what thi
   ]
 }
 ```
+
+## Adding documents
+
+It is possible to add additional documents should you so desire.
+To do so, you need to do two things:
+
+1. Create the document within the `docs` directory (e.g. `docs/PACKAGES.md`)
+2. Add an entry to the `docs/config.json` file for the new document.
+   For example:
+
+```json
+{
+  "uuid": "6268fd29-55e2-44e6-afc2-f86671fe799f",
+  "slug": "packages",
+  "path": "docs/PACKAGES.md",
+  "title": "Supported packages",
+  "blurb": "List of the supported packages"
+}
+```
+
+Once merged to `main`, the document can be found at `https://exercism.org/docs/tracks/<track_slug>/<document_slug>` (e.g. `https://exercism.org/docs/tracks/fsharp/packages`)
