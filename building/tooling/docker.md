@@ -12,8 +12,8 @@ Our [Best Practices page](/docs/building/tooling/best-practices) has lots of tip
 
 ### Timeouts
 
-Each tooling run has a ten-second window in which to execute.
-At the end of that period it will be timed out with a 408 error code.
+The test runner gets 100% CPU with 3GB of memory for a 20 second window per solution.
+After 20 seconds, the process is halted and reports a time-out with a 408 error code.
 
 ### Stdout/stderr
 
