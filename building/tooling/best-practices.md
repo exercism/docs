@@ -55,18 +55,18 @@ The resulting Docker image will thus have its base libraries already compiled, w
 #### Example: pre-compile binaries
 
 Some languages allow code to be compiled ahead-of-time or just-in-time.
-This is a build time vs. run time tradeoff, and again, we favor build time execution for performance reasons
+This is a build time vs. run time tradeoff, and again, we favor build time execution for performance reasons.
 
-The [C# test runner's Dockerfile](https://github.com/exercism/csharp-test-runner/blob/b54122ef76cbf86eff0691daa33c8e50bc83979f/Dockerfile) uses this approach, where the test runner is compiled t a binary ahead-of-time (at build time) instead of just-in-time compiling the code (at run time).
-This mean that there is less work to do a run time, which should help increase performance.
+The [C# test runner's Dockerfile](https://github.com/exercism/csharp-test-runner/blob/b54122ef76cbf86eff0691daa33c8e50bc83979f/Dockerfile) uses this approach, where the test runner is compiled to a binary ahead-of-time (at build time) instead of just-in-time compiling the code (at run time).
+This means that there is less work to do at run-time, which should help increase performance.
 
 ## Size
 
-You should try to reduce the image's size, which means that it'll be:
+You should try to reduce the image's size, which means that it'll:
 
-- Faster to deploy
-- Reduces costs for us
-- Marginally improves startup time of each container
+- Be faster to deploy
+- Reduce costs for us
+- Improve startup time of each container
 
 ### Try different distributions
 
@@ -120,7 +120,7 @@ RUN apk add --no-cache curl
 
 ##### apt-get/apt
 
-Distributions that uses the `apt-get`/`apk` package manager (such as Ubuntu) should run the `apt-get autoremove -y` and `rm -rf /var/lib/apt/lists/*` commands _after_ installing the packages:
+Distributions that use the `apt-get`/`apk` package manager (such as Ubuntu) should run the `apt-get autoremove -y` and `rm -rf /var/lib/apt/lists/*` commands _after_ installing the packages:
 
 ```dockerfile
 RUN apt-get update && \
@@ -153,7 +153,7 @@ With this setup, the additional packages are _only_ installed in the "build" sta
 The Fortran test runner requires `curl` to download some files.
 However, its run time image does _not_ need `curl`, which makes this a perfect use case for a multi-stage build.
 
-First, it's [Dockerfile](https://github.com/exercism/fortran-test-runner/blob/783e228d8449143d2040e68b95128bb791833a27/Dockerfile) defines a stage (named "build") in which the `curl` package is installed.
+First, its [Dockerfile](https://github.com/exercism/fortran-test-runner/blob/783e228d8449143d2040e68b95128bb791833a27/Dockerfile) defines a stage (named "build") in which the `curl` package is installed.
 It then uses curl to download files into that stage.
 
 ```dockerfile
