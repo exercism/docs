@@ -120,7 +120,7 @@ RUN apk add --no-cache curl
 
 ##### apt-get/apt
 
-Distributions that use the `apt-get`/`apk` package manager (such as Ubuntu) should run the `apt-get autoremove -y` and `rm -rf /var/lib/apt/lists/*` commands _after_ installing the packages:
+Distributions that use the `apt-get`/`apk` package manager (such as Ubuntu) should run the `apt-get autoremove -y` and `rm -rf /var/lib/apt/lists/*` commands _after_ installing the packages and in the same `RUN` command:
 
 ```dockerfile
 RUN apt-get update && \
