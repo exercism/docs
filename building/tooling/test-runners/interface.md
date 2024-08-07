@@ -15,7 +15,7 @@ All interactions with the Exercism website are handled automatically and are not
 
 ### Allowed run time
 
-The test runner gets 100% machine resources for a 20 second window per solution.
+The test runner gets 100% CPU with 3GB of memory for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out.
 
 ## Output format

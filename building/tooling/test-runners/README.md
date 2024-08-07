@@ -12,7 +12,7 @@ Test Runners give us two advantages:
 Each language has its own Test Runner, written in that language.
 The website acts as the orchestrator between the Test Runners and students' submissions.
 
-Each Test Runner lives in the Exercism GitHub organization in a repository named `$LANG-test-runner` (e.g. `ruby-test-runner`).
+Each Test Runner lives in the Exercism GitHub organization in a repository named `$LANG-test-runner` (e.g. [`exercism/ruby-test-runner`](https://github.com/exercism/ruby-test-runner)).
 You can explore the different Test Runners [here](https://github.com/exercism?q=-test-runner).
 
 If you would like to get involved in helping with an existing Test Runner, please open an issue in its repository asking if there is somewhere you can help.
@@ -23,4 +23,5 @@ You can use the following documents to learn more about building a test runner:
 - [creating a Test Runner from scratch](/docs/building/tooling/test-runners/creating-from-scratch)
 - [The Test Runner interface](/docs/building/tooling/test-runners/interface)
 - [How to build a Docker image with Docker for local testing and deployment](/docs/building/tooling/test-runners/docker)
+- [Best practices](/docs/building/tooling/best-practices)
 - [When and how to support libraries](/docs/building/tooling/test-runners/libraries)

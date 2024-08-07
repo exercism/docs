@@ -21,3 +21,4 @@ You can use the following documents to learn more about building an analyzer:
 - [Writing Analyzer comments](/docs/building/tooling/analyzers/comments)
 - [Tagging solutions](/docs/building/tooling/analyzers/tags)
 - [Guidance for building an Analyzer](/docs/building/tooling/analyzers/guidance)
+- [Best practices](/docs/building/tooling/best-practices)
