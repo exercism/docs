@@ -29,9 +29,19 @@ A track repository contains several pre-defined workflows:
 Of these workflows, _only_ the `test.yml` workflow requires manual work.
 The other workflows should not be changed (we keep them up-to-date automatically).
 
-## Implement script to verify exercises
+## Test workflow
 
-Track repos start with an _almost_ functioning `bin/verify-exercises` bash script, which does the following:
+The test workflow should verify the track's exercises.
+The workflow itself should not do much, except for:
+
+- Checking out the code (already implemented)
+- Installing dependencies (e.g. installing an SDK, optional)
+- Running the script to verify the exercises (already implemented)
+
+### Verify exercises script
+
+As mentioned, the exercises are verified via a script, namely the `bin/verify-exercises` (bash) script.
+This script is _almost_ done, and does the following:
 
 - Loops over all exercise directories
 - For each exercise directory, it then:
@@ -39,11 +49,36 @@ Track repos start with an _almost_ functioning `bin/verify-exercises` bash scrip
   - Calls the `unskip_tests` function in which you can unskip tests in your test files (optional)
   - Calls the `run_tests` function in which you should run the tests (required)
 
+The `run_tests` and `unskip_tests` functions are the only things that you need to implement.
+
 ### Unskipping tests
 
-The `unskip_tests` and `run_tests` functions are the only things that you need to implement.
+If your track supports skipping tests, we must ensure that no tests are skipped when verifying an exercise's example/exemplar solution.
+In general, there are two ways in which tracks support "unskipping" tests:
 
-### Running tetss
+1. Removing annotations/code/text from the test files.
+   For example, changing `test.skip` to `test`.
+2. Providing an environment variable.
+   For example, setting `SKIP_TESTS=false`.
+
+If skipping tests is file-based (the first option mentioned above), edit the `unskip_tests` function to modify the test files (the existing code already handles the looping over the test files).
+
+```exercism/note
+The `unskip_test` function runs on a copy of an exercise directory, so feel free to modify the files as you see fit.
+```
+
+If unskipping tests requires an environment variable to be set, make sure that it is set in the `run_tests` function.
+
+### Running tests
+
+The `run_tests` function is responsible for running the tests of an exercise.
+When the function is called, the example/exemplar files will already have been copied to (stub) solution files, so you only need to call the right command to run the tests.
+
+The function must return a zero as the exit code if all tests pass, otherwise return a non-zero exit code.
+
+```exercism/note
+The `run_tests` function runs on a copy of an exercise directory, so feel free to modify the files as you see fit.
+```
 
 ### Example: Arturo track
 
@@ -131,19 +166,25 @@ arturo tester.art
 
 ## Implement the test workflow
 
-The goal of the `test.yml` workflow is to verify that the track's exercises are in proper shape.
-More specifically, this means checking that each exercise's example/exemplar solution passes the exercise's tests.
+The goal of the test workflow (defined in `.github/workflows/test.yml`) is to automatically verify that the track's exercises are in proper shape.
+The workflow is setup to run automatically (in GitHub Actions terminology: is _triggered_) when a push is made to the `main` branch or to a pull request's branch.
 
-#### Example: using bash
+There are three options when implementing this workflow:
 
-#### Example: invoking test runner Docker image
+### Option 1: install track-specific tooling (e.g. an SDK) in the GitHub Actions runner instance
+
+In this approach, any track-specific tooling (e.g. an SDK) is installed directly in the GitHub Actions runner instance.
+Once done, you then run the `bin/verify-exercises` script (which assumes the track tooling is installed).
+
+For an example, see the [Arturo track's `test.yml` workflow](https://github.com/exercism/arturo/blob/79560f853f5cb8e2f3f0a07cbb8fcce8438ee996/.github/workflows/test.yml):
 
 ```yml
-name: sml / ci
+name: Test
 
 on:
-  pull_request:
   push:
+    branches: [main]
+  pull_request:
     branches: [main]
   workflow_dispatch:
 
@@ -152,14 +193,42 @@ jobs:
     runs-on: ubuntu-22.04
 
     steps:
-      - name: Checkout code
+      - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
-      - run: docker pull exercism/sml-test-runner
-      - name: Run tests for all exercises
-        run: sh ./bin/test
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install libgtk-3-dev libwebkit2gtk-4.0-dev libmpfr-dev
+
+      - name: Install Arturo
+        run: bin/install-arturo
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Verify all exercises
+        run: bin/verify-exercises
 ```
 
-#### Example: running in test runner Docker image
+#### Option 2: running the verify exercises script within test runner Docker image
+
+In this option, we're using the fact that each track must have a test runner which has all dependencies already installed
+To enable this option, we need to set the workflow's container to the test runner:
+
+```yml
+container:
+  image: exercism/vimscript-test-runner
+```
+
+This will then automatically pull the test runner Docker image when the workflow executes, and run the `verify-exercises` script within that Docker container.
+
+```exercism/note
+The main benefit of this approach is that it better mimics how tests are being run in production (on the website).
+With the approach, it is less likely that things will fail in production that passed in CI.
+The downside of this approach is that it likely is slower, due to having to pull the Docker image and the overhead of Docker.
+```
+
+For an example, see the [vimscript track's `test.yml` workflow](https://github.com/exercism/vimscript/blob/e599cd6e02cbcab2c38c5112caed8bef6cdb3c38/.github/workflows/test.yml).
 
 ```yml
 name: Verify Exercises
@@ -182,4 +251,40 @@ jobs:
 
       - name: Verify all exercises
         run: bin/verify-exercises
+```
+
+### Option 3: download the test runner Docker image and change verify exercises script
+
+In this option, we're using the fact that each track must have a test runner which already knows how to verify exercises.
+To enable this option, we first need to download (pull) the track's test runner Docker image and then run the `bin/verify-exercises` script, which is modified to use the test runner Docker image to run the tests.
+
+```exercism/note
+The main benefit of this approach is that it best mimics how tests are being run in production (on the website).
+With the approach, it is less likely that things will fail in production that passed in CI.
+The downside of this approach is that it likely is slower, due to having to pull the Docker image and the overhead of Docker.
+```
+
+For an example, see the [Standard ML track's `test.yml` workflow](https://github.com/exercism/sml/blob/e63e93ee50d8d7f0944ff4b7ad385819b86e1693/.github/workflows/ci.yml).
+
+```yml
+name: sml / ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  ci:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
+
+      - run: docker pull exercism/sml-test-runner
+
+      - name: Run tests for all exercises
+        run: sh ./bin/test
 ```
