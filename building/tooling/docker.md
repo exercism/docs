@@ -20,9 +20,12 @@ After 20 seconds, the process is halted and reports a time-out with a 408 error 
 A tooling run may produce up to a maximum of one-megabyte of stdout and stderr.
 If it produces more, it will be killed with a 413 error code.
 
-The contents of `stdout` and `stderr` from each run will be stored in files that can be viewed later.
+The contents of `stdout` and `stderr` from each run will be stored in files.
+You may write a `results.out` file to the output directory, which contains debugging information.
 
-You may write a `results.out` file to the output directory, which contains debugging information you want to view later.
+```exercism/caution
+Right now, it is not possible for maintainers to view the contents of these files.
+```
 
 ### Results
 
