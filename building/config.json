@@ -662,6 +662,12 @@
     "title": "Santa's Helper"
   },
   {
+    "uuid": "b99fb54b-a9ce-4a50-bca4-6a928cc77ec6",
+    "slug": "tracks/ci/workflows",
+    "path": "building/tracks/ci/workflows.md",
+    "title": "Workflows"
+  },
+  {
     "uuid": "191b0fa1-96e2-48a6-ad2e-c34f57443799",
     "slug": "tracks/ci/migrating-from-travis",
     "path": "building/tracks/ci/migrating-from-travis.md",
