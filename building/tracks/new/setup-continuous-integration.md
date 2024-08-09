@@ -44,9 +44,17 @@ In general, there are two ways in which tracks support "unskipping" tests:
 2. Providing an environment variable.
    For example, setting `SKIP_TESTS=false`.
 
+#### Removing annotations/code/text from the test files
+
 If skipping tests is file-based (the first option mentioned above), edit the `unskip_tests` function to modify the test files (the existing code already handles the looping over the test files).
 
-As an example, the [Arturo track's `bin/verify-exercises file`](https://github.com/exercism/arturo/blob/2393d62933058f011baea3631e9295b7884925e0/bin/verify-exercises) uses `sed` to unskip the tests within the test files:
+```exercism/note
+The `unskip_test` function runs on a copy of an exercise directory, so feel free to modify the files as you see fit.
+```
+
+##### Example
+
+The [Arturo track's `bin/verify-exercises file`](https://github.com/exercism/arturo/blob/2393d62933058f011baea3631e9295b7884925e0/bin/verify-exercises) uses `sed` to unskip the tests within the test files:
 
 ```bash
 unskip_tests() {
@@ -56,9 +64,7 @@ unskip_tests() {
 }
 ```
 
-```exercism/note
-The `unskip_test` function runs on a copy of an exercise directory, so feel free to modify the files as you see fit.
-```
+#### Providing an environment variable
 
 ```exercism/caution
 If unskipping tests requires an environment variable to be set, make sure that it is set in the `run_tests` function.
@@ -69,7 +75,7 @@ If unskipping tests requires an environment variable to be set, make sure that i
 The `run_tests` function is responsible for running the tests of an exercise.
 When the function is called, the example/exemplar files will already have been copied to (stub) solution files, so you only need to call the right command to run the tests.
 
-The function must return a zero as the exit code if all tests pass, otherwise return a non-zero exit code.
+The function must return zero as the exit code if all tests pass, otherwise return a non-zero exit code.
 
 ```exercism/note
 The `run_tests` function runs on a copy of an exercise directory, so feel free to modify the files as you see fit.
@@ -80,98 +86,14 @@ The `run_tests` function runs on a copy of an exercise directory, so feel free t
 The default option for the verify exercises script is to use the language's tooling (SDK/binary/etc.), which is what most tracks use.
 Each track will have its own way of running the tests, but usually it is just a single command.
 
-As an example, the [Arturo track's `bin/verify-exercises file`](https://github.com/exercism/arturo/blob/2393d62933058f011baea3631e9295b7884925e0/bin/verify-exercises) simply calls the `arturo` command on the test file:
+#### Example
+
+The [Arturo track's `bin/verify-exercises file`](https://github.com/exercism/arturo/blob/2393d62933058f011baea3631e9295b7884925e0/bin/verify-exercises) modifies the `run_tests` function to simply call the `arturo` command on the test file:
 
 ```bash
 run_tests() {
     arturo tester.art
 }
-```
-
-```exercism/caution
-Please make sure that the
-```
-
-This is what the [`bin/verify-exercises` file](https://github.com/exercism/arturo/blob/2393d62933058f011baea3631e9295b7884925e0/bin/verify-exercises) looks file for the Arturo track:
-
-```bash
-#!/usr/bin/env bash
-
-# Synopsis:
-# Test the track's exercises.
-
-# Example: verify all exercises
-# ./bin/verify-exercises
-
-# Example: verify single exercise
-# ./bin/verify-exercises two-fer
-
-set -eo pipefail
-
-required_tool() {
-    command -v "${1}" >/dev/null 2>&1 ||
-        die "${1} is required but not installed. Please install it and make sure it's in your PATH."
-}
-
-required_tool jq
-
-copy_example_or_examplar_to_solution() {
-    jq -c '[.files.solution, .files.exemplar // .files.example] | transpose | map({src: .[1], dst: .[0]}) | .[]' .meta/config.json | while read -r src_and_dst; do
-        cp "$(echo "${src_and_dst}" | jq -r '.src')" "$(echo "${src_and_dst}" | jq -r '.dst')"
-    done
-}
-
-unskip_tests() {
-    jq -r '.files.test[]' .meta/config.json | while read -r test_file; do
-        sed -i 's/test.skip/test/g' "${test_file}"
-    done
-}
-
-run_tests() {
-    arturo tester.art
-}
-
-verify_exercise() {
-    local dir
-    local slug
-    local tmp_dir
-
-    dir=$(realpath "${1}")
-    slug=$(basename "${dir}")
-    tmp_dir=$(mktemp -d -t "exercism-verify-${slug}-XXXXX")
-
-    echo "Verifying ${slug} exercise..."
-
-    (
-        cp -r "${dir}/." "${tmp_dir}"
-        cd "${tmp_dir}"
-
-        copy_example_or_examplar_to_solution
-        unskip_tests
-        run_tests
-    )
-}
-
-exercise_slug="${1:-*}"
-
-shopt -s nullglob
-for exercise_dir in ./exercises/{concept,practice}/${exercise_slug}/; do
-    if [ -d "${exercise_dir}" ]; then
-        verify_exercise "${exercise_dir}"
-    fi
-done
-```
-
-It uses `sed` to unskip tests:
-
-```bash
-sed -i 's/test.skip/test/g' "${test_file}"
-```
-
-and runs the tests via the `arturo` command:
-
-```bash
-arturo tester.art
 ```
 
 ### Option 2: use the test runner Docker image
@@ -184,50 +106,37 @@ If your track does not yet have a test runner, you can either:
 - build a working test runner, or
 - use option 1 and directly use the language tooling
 
-Assuming there _is_ a working test runner, the `bin/verify-exercises` script should
+The following modifications need to be made to the default `bin/verify-exercises` script:
 
-In this option, we're using the fact that each track must have a test runner which already knows how to verify exercises.
-To enable this option, we first need to download (pull) the track's test runner Docker image and then run the `bin/verify-exercises` script, which is modified to use the test runner Docker image to run the tests.
+1. Verify that the `docker` command is available
+2. Pull (download) the test runner Docker image
+3. Use `docker run` to run the test runner Docker image on each exercise
+4. Use `jq` to verify that the `results.json` file returned by the Docker container indicates all tests passed
+5. Remove the `unskip_test` function and the call to that function
 
 ```exercism/note
 The main benefit of this approach is that it best mimics how tests are being run in production (on the website).
-With the approach, it is less likely that things will fail in production that passed in CI.
-The downside of this approach is that it likely is slower, due to having to pull the Docker image and the overhead of Docker.
+With this approach, it is less likely that things fail in production that passed in CI.
+The downside of this approach is that it usually is slower, due to having to pull the Docker image and the overhead of Docker.
 ```
 
+#### Example
+
+The [Unison track's `bin/verify-exercises file`](https://github.com/exercism/unison/blob/f39ab0e6bd0d6ac538f343474a01bf9755d4a93c/bin/test) adds the check to verify that the `docker` command is also installed:
+
 ```bash
-#!/usr/bin/env bash
+required_tool docker
+```
 
-# Synopsis:
-# Verify that each exercise's example/exemplar solution passes the tests.
-# You can either verify all exercises or a single exercise.
+Then, it pulls the track's test runner image:
 
-# Example: verify all exercises
-# bin/test
-
-# Example: verify single exercise
-# bin/test two-fer
-
-set -eo pipefail
-
-die() { echo "$*" >&2; exit 1; }
-
-required_tool() {
-    command -v "${1}" >/dev/null 2>&1 ||
-        die "${1} is required but not installed. Please install it and make sure it's in your PATH."
-}
-
-required_tool jq
-
-copy_example_or_examplar_to_solution() {
-    jq -c '[.files.solution, .files.exemplar // .files.example] | transpose | map({src: .[1], dst: .[0]}) | .[]' .meta/config.json \
-    | while read -r src_and_dst; do
-        cp "$(jq -r '.src' <<< "${src_and_dst}")" "$(jq -r '.dst' <<< "${src_and_dst}")"
-    done
-}
-
+```bash
 docker pull exercism/unison-test-runner
+```
 
+It then modifies the `run_tests` function to use `docker run` to run the test runner on the current exercise (which is in the working directory), followed by a `jq` command to check for the right status:
+
+```bash
 run_tests() {
     local slug
 
@@ -242,39 +151,12 @@ run_tests() {
         exercism/unison-test-runner "${slug}" "/solution" "/output"
     jq -e '.status == "pass"' "${PWD}/results.json" >/dev/null 2>&1
 }
+```
 
-verify_exercise() {
-    local dir
-    local slug
-    local tmp_dir
+Finally, we need to modify the calling of the `run_tests` command, as it now requires the slug:
 
-    dir=$(realpath "${1}")
-    slug=$(basename "${dir}")
-    tmp_dir=$(mktemp -d -t "exercism-verify-${slug}-XXXXX")
-
-    echo "Verifying ${slug} exercise..."
-
-    (
-        trap 'rm -rf "$tmp_dir"' EXIT    # remove tempdir when subshell ends
-        cp -r "${dir}/." "${tmp_dir}"
-        cd "${tmp_dir}"
-
-        copy_example_or_examplar_to_solution
-        run_tests "${slug}"
-    )
-}
-
-exercise_slug="${1:-*}"
-
-shopt -s nullglob
-count=0
-for exercise_dir in ./exercises/{concept,practice}/${exercise_slug}/; do
-    if [[ -d "${exercise_dir}" ]]; then
-        verify_exercise "${exercise_dir}"
-        ((++count))
-    fi
-done
-((count > 0)) || die 'no matching exercises found!'
+```bash
+run_tests "${slug}"
 ```
 
 ## Implement the test workflow
@@ -339,38 +221,26 @@ If your track does not yet have a test runner, you can either:
 - build a working test runner, or
 - use option 1 and directly use the language tooling
 
-If the above mentioned two things _are_ true, the test workflow will need to download (pull) the track's test runner Docker image and then run the `bin/verify-exercises` script.
+This approach has a couple of advantages:
 
-```exercism/note
-The main benefit of this approach is that it best mimics how tests are being run in production (on the website).
-With the approach, it is less likely that things will fail in production that passed in CI.
-The downside of this approach is that it likely is slower, due to having to pull the Docker image and the overhead of Docker.
-```
+1. You don't need to install any dependencies/tooling within the test workflow (as those will have been installed within the Docker image)
+2. The approach best mimics how tests are being run in production (on the website), reducing the likelihood of production issues.
 
-For an example, see the [Standard ML track's `test.yml` workflow](https://github.com/exercism/sml/blob/e63e93ee50d8d7f0944ff4b7ad385819b86e1693/.github/workflows/ci.yml).
+The main downside is that it likely is slower, due to having to pull the Docker image and the overhead of Docker.
 
-```yml
-name: sml / ci
+There a couple of ways in which could pull the test runner Docker image:
 
-on:
-  pull_request:
-  push:
-    branches: [main]
-  workflow_dispatch:
+1. Download the image within the `verify-exercises` file.
+   This is the approach taken by the [Unison track](https://github.com/exercism/unison/blob/f39ab0e6bd0d6ac538f343474a01bf9755d4a93c/bin/test#L32).
+2. Download the image within the workflow.
+   This is the approach taken by the [Standard ML track](https://github.com/exercism/sml/blob/e63e93ee50d8d7f0944ff4b7ad385819b86e1693/.github/workflows/ci.yml#L16).
+3. Build the image within the workflow.
+   This is the approach taken by the [8th track](https://github.com/exercism/8th/blob/9034bcb6aa38540e1a67ba2fa6b76001f50c094b/.github/workflows/test.yml#L18-L40).
 
-jobs:
-  ci:
-    runs-on: ubuntu-22.04
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
-
-      - run: docker pull exercism/sml-test-runner
-
-      - name: Run tests for all exercises
-        run: sh ./bin/test
-```
+So which approach to use?
+We recommend _at least_ implementing option number 1, to make the `verify-exercises` script be _standalone_.
+If your image is particularly large, it might be beneficial to also implement option 3, which will store the built Docker image into the GitHub Actions cache.
+Subsequent runs can then just read the Docker image from cache, instead of downloading it, which might be better for performance (please measure to be sure).
 
 ### Option 3: running the verify exercises script within test runner Docker image
 
@@ -385,7 +255,9 @@ container:
 
 We can then skip the dependencies and tooling installation steps (as those will have been installed within the test runner Docker image) and proceed with running the `bin/verify-exercises` script.
 
-For an example, see the [vimscript track's `test.yml` workflow](https://github.com/exercism/vimscript/blob/e599cd6e02cbcab2c38c5112caed8bef6cdb3c38/.github/workflows/test.yml).
+#### Example
+
+The [vimscript track's `test.yml` workflow](https://github.com/exercism/vimscript/blob/e599cd6e02cbcab2c38c5112caed8bef6cdb3c38/.github/workflows/test.yml) uses this option:
 
 ```yml
 name: Verify Exercises
