@@ -6,3 +6,4 @@ This includes running tests, formatting things, and deploying things.
 For more information, check:
 
 - [Workflows](/docs/building/tracks/ci/workflows)
+- [Setting up CI for new tracks](/docs/building/tracks/new/setup-continuous-integration)
