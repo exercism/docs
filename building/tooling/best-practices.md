@@ -225,6 +225,28 @@ ENTRYPOINT [ "sh", "/opt/test-runner/bin/run.sh" ]
 The [C# test runner's Dockerfile](https://github.com/exercism/csharp-test-runner/blob/b54122ef76cbf86eff0691daa33c8e50bc83979f/Dockerfile) does something similar, only in this case the build stage can use an existing Docker image that has pre-installed the additional packages required to install libraries.
 ```
 
+## Testing
+
+### Use integration tests
+
+Unit tests can be very useful, but we recommend focusing on writing [integration tests](https://en.wikipedia.org/wiki/Integration_testing).
+Their main benefit is that they better test how tooling runs in production, and thus help increase confidence in your tooling's implementation.
+
+#### Use Docker
+
+To best mimic the production environment, the integration tests should run the tooling _like the production environment_.
+This means building the Docker image and then running the built image on a solution to verify its output.
+
+#### Use golden tests
+
+Integration tests should be defined as [golden tests](https://ro-che.info/articles/2017-12-04-golden-tests), which are tests where the expected output is stored in a file.
+This is perfect for track-tooling integration tests, as the output of tooling are also files.
+
+##### Example: test runner
+
+When running the test runner on a solution, its output is a `results.json` file.
+We can then compare this file against a "known good" (i.e. "expected") output file (named `expected_results.json`) to check if the test runner works as intended.
+
 ## Safety
 
 Safety is a main reason why we're using Docker containers to run our tooling.
