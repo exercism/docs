@@ -14,9 +14,9 @@ In order to design an icon for the site, open a new issue in the [exercism/websi
   - please include a link to an example
   - please list the attribution requirements of that logo
 
-## Add docs
+## Add track docs
 
-Add the following markdown documents:
+Add the following track documents:
 
 - `docs/ABOUT.md`: a short introduction to the language.
 - `docs/INSTALLATION.md`: describe what the student needs to install to allow working on the track on their local system using the CLI.
