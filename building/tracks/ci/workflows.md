@@ -23,23 +23,29 @@ You should thus not manually change their contents.
 
 ### General workflows
 
-- [`sync-labels.yml`](/docs/building/tracks/ci/workflows/sync-labels): automatically syncs the repository's labels from a `labels.yml` file
+- [Sync labels](/docs/building/tracks/ci/workflows/sync-labels): sync the repository's labels from file
 
 ### Track-specific workflows
 
-- [`configlet.yml`](/docs/building/tracks/ci/workflows/configlet): runs the [configlet tool](/docs/building/configlet), which checks if a track's (configuration) files are properly structured - both syntactically and semantically
-- `no-important-files-changed.yml`: checks if pull requests would cause all existing solutions of one or more changes exercises to be re-run
-- `test.yml`: verify the track's exercises
+- [configlet](/docs/building/tracks/ci/workflows/configlet): checks if the track's (configuration) files are properly structured - both syntactically and semantically
+- [No important files changed](/docs/building/tracks/ci/workflows/no-important-files-changed): comments on pull requests that would cause re-testing of existing solutions
+- [Test](/docs/building/tracks/new/setup-continuous-integration#h-test-workflow): verify the track's exercises
 
 ### Tooling-specific workflows
 
-- `deploy.yml`: deploy the tooling Docker image to Docker Hub and ECR
+- [Deploy](/docs/building/tracks/ci/workflows/deploy): deploy the track tooling Docker image to Docker Hub and ECR
+
+### Optional workflows
+
+There are also some workflows that tracks might opt-into:
+
+- [Pause community contributions](/docs/building/tracks/ci/workflows/pause-community-contributions): auto-comment on newly issues and PRs created by users who are not member of the Exercism GitHub organisation
 
 ## Custom workflows
 
 Maintainers are free to add custom workflows to their repos.
 Examples of such workflows could be:
 
-- Linting of shell scripts ([example](https://github.com/exercism/configlet/blob/3baa09608c8ac327315c887608c13a68ae8ac359/.github/workflows/shellcheck.yml))
-- Auto-commenting on pull requests ([example](https://github.com/exercism/elixir/blob/b737f80cc93fcfdec6c53acb7361819834782470/.github/workflows/pr-comment.yml))
+- [Linting of shell scripts](https://github.com/exercism/configlet/blob/3baa09608c8ac327315c887608c13a68ae8ac359/.github/workflows/shellcheck.yml)
+- [Auto-commenting on pull requests](https://github.com/exercism/elixir/blob/b737f80cc93fcfdec6c53acb7361819834782470/.github/workflows/pr-comment.yml)
 - Etc.

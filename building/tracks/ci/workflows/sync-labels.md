@@ -1,8 +1,6 @@
 # Sync labels workflow
 
-The sync labels workflow is defined in the `.github/workflows/sync-labels.yml` file.
-The goal of this workflow is to add/update/delete the repository's [GitHub labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels).
-The labels themselves are defined in the `.github/labels.yml` file.
+The sync labels workflow synchronizes a repository's [GitHub labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels) with the contents of the `.github/labels.yml` file.
 Whenever the `.github/labels.yml` file changes, the sync labels workflow will automatically update the repository's labels.
 
 ## Customizing labels
@@ -19,3 +17,7 @@ After merging that PR, the labels will be automatically updated (see description
 ```exercism/caution
 Never manually edit the `.github/labels.yml` file, as those changes will be overwritten the next time labels are synced.
 ```
+
+## Source
+
+The workflow is defined in the `.github/workflows/sync-labels.yml` file.

@@ -1,7 +1,6 @@
 # configlet workflow
 
-The `configlet` workflow is defined in the `.github/workflows/configlet.yml` file.
-It uses the [configlet tool](/docs/building/configlet) to check if a track's (configuration) files are properly structured - both syntactically and semantically.
+The configlet uses the [configlet tool](/docs/building/configlet) to check if a track's (configuration) files are properly structured - both syntactically and semantically.
 It does this by running [`configlet lint`](/docs/building/configlet/lint).
 
 ## Enable checking file formatting
@@ -30,3 +29,7 @@ fmt = true
 ```
 
 3. Once this PR is merged, the `configlet` workflow will also verify the track's configuration files' formatting.
+
+## Source
+
+The workflow is defined in the `.github/workflows/configlet.yml` file.

@@ -102,7 +102,7 @@ csharp
 
 ### Avoiding triggering unnecessary test runs
 
-When you merge a track PR that touches an exercise, it triggers the latest published iteration of students' solutions to be re-tested.
+When you merge a track PR that touches an exercise, it triggers _all_ the latest published iteration of students' solutions to be re-tested.
 For popular exercises, this is a _very_ expensive operation (70,000 test runs for Python Hello World as an extreme!).
 
 **We encourage you to try and avoid doing this unnecessarily.**
