@@ -668,6 +668,12 @@
     "title": "Workflows"
   },
   {
+    "uuid": "753dfe68-af5f-466e-b9a1-5797b6088ab0",
+    "slug": "tracks/ci/workflows/configlet",
+    "path": "building/tracks/ci/workflows/configlet.md",
+    "title": "configlet workflow"
+  },
+  {
     "uuid": "191b0fa1-96e2-48a6-ad2e-c34f57443799",
     "slug": "tracks/ci/migrating-from-travis",
     "path": "building/tracks/ci/migrating-from-travis.md",

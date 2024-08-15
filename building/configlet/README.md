@@ -51,7 +51,13 @@ How to generate UUIDs can be found [here](/docs/building/configlet/uuid).
 ## Formatting
 
 Configlet has a `fmt` command to help with consistent formatting of the JSON files in the track repo.
-The `fmt` command currently only operates on the exercise `.meta/config.json` files but it is likely to operate on all the track JSON files in the future.
+The `fmt` command formats the following files:
+
+- `config.json`
+- `exercises/{concept,practice}/*/.approaches/config.json`
+- `exercises/{concept,practice}/*/.articles/config.json`
+- `exercises/{concept,practice}/*/.meta/config.json`
+
 You can learn more about the format command [here](/docs/building/configlet/format).
 
 ## Installation

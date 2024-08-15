@@ -3,14 +3,17 @@
 An Exercism track repo has many JSON files, including:
 
 - The track `config.json` file.
-
 - For each concept, a `.meta/config.json` and `links.json` file.
-
 - For each Concept Exercise or Practice Exercise, a `.meta/config.json` file.
 
 These files are more readable if they have a consistent formatting Exercism-wide, and so configlet has a `fmt` command for rewriting a track's JSON files in a canonical form.
 
-The `fmt` command currently operates on the exercise `.meta/config.json` files and the track `config.json` file, but it is likely to operate on all the track JSON files in the future.
+The `fmt` command formats the following files:
+
+- `config.json`
+- `exercises/{concept,practice}/*/.approaches/config.json`
+- `exercises/{concept,practice}/*/.articles/config.json`
+- `exercises/{concept,practice}/*/.meta/config.json`
 
 ## Usage
 

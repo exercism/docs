@@ -113,5 +113,35 @@ Tip: just can copy-paste-modify the example solution.
 Once you're done with the exercise, please add your your GitHub username to the `"authors"` array in the exercise's `.meta/config.json` file.
 This will ensure we correctly credit you with having created the exercise.
 
+### Linting
+
+To verify that the exercise is setup correctly, you can use the [configlet tool](/docs/building/configlet)'s built-in linting functionality.
+
+The first step is to fetch the `configlet` tool, for which we've created two scripts:
+
+- `bin/fetch-configlet`: run this when using \*nix or macOS
+- `bin/fetch-configlet.ps1`: run this when using Windows
+
+Running one of these scripts from the root directory of the track's repo will download the `bin/configlet` respectively `bin/configlet.exe` binary.
+
+You can then check the exercise for correctness by running [`bin/configlet lint`](/docs/building/configlet/lint).
+
+````exercism/note
+It is likely that `configlet` will report the following error:
+```shell
+The `tags` array is empty:
+/path/to/track/config.json
+```
+
+This error will be fixed in the [Prepare for launch](/docs/building/tracks/new/prepare-for-launch#h-update-metadata) step, so either:
+
+- ignore the error (for now), or
+- fix the error by adding tags
+````
+
+```exercism/note
+The [`configlet` workflow](/docs/building/tracks/ci/workflows/configlet) will automatically runs `configlet lint` whenever something is pushed to `main` or to a pull request.
+```
+
 [configlet]: /docs/building/configlet
 [canonical-data.json]: https://github.com/exercism/problem-specifications/blob/main/exercises/hello-world/canonical-data.json

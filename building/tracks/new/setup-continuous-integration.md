@@ -8,10 +8,14 @@ Exercism repos (including track repos) use [GitHub Actions](https://docs.github.
 GitHub Actions are based on _workflows_, which define scripts to run automatically whenever a specific event occurs (e.g. pushing a commit).
 For more information on GitHub Actions workflows, check the [workflows docs](/docs/building/tracks/ci/workflows).
 
+## Pre-installed workflows
+
+Tracks come pre-installed with a number of workflows, most of which you should _not_ modify (they're called _shared workflows_).
+There is one workflow that you _should_ change though, which is the `test.yml` workflow.
+
 ## Test workflow
 
-Each track comes with a `test.yml` workflow.
-The goal of this workflow is to verify that the track's exercises are in proper shape.
+The goal of the `test.yml` workflow is to verify that the track's exercises are in proper shape.
 The workflow is setup to run automatically (in GitHub Actions terminology: is _triggered_) when a push is made to the `main` branch or to a pull request's branch.
 
 The workflow itself should not do much, except for:
