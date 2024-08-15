@@ -23,7 +23,7 @@ You should thus not manually change their contents.
 
 ### General workflows
 
-- `sync-labels.yml`: automatically syncs the repository's labels from a `labels.yml` file
+- [`sync-labels.yml`](/docs/building/tracks/ci/workflows/sync-labels): automatically syncs the repository's labels from a `labels.yml` file
 
 ### Track-specific workflows
 

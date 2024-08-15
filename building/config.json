@@ -674,6 +674,12 @@
     "title": "configlet workflow"
   },
   {
+    "uuid": "fd512058-4525-4e14-a912-9df870025989",
+    "slug": "tracks/ci/workflows/sync-labels",
+    "path": "building/tracks/ci/workflows/sync-labels.md",
+    "title": "Sync labels workflow"
+  },
+  {
     "uuid": "191b0fa1-96e2-48a6-ad2e-c34f57443799",
     "slug": "tracks/ci/migrating-from-travis",
     "path": "building/tracks/ci/migrating-from-travis.md",
