@@ -15,7 +15,11 @@ For information on workflows, check the following docs:
 ## Shared workflows
 
 Some workflows are shared across repositories.
-These workflows _should not be changed_.
+
+```exercism/caution
+The shared workflows are automatically synced (from the [org-wide-files repo](https://github.com/exercism/org-wide-files/)).
+You should thus not manually change their contents.
+```
 
 ### General workflows
 
@@ -23,7 +27,7 @@ These workflows _should not be changed_.
 
 ### Track-specific workflows
 
-- `configlet.yml`: runs the [configlet tool](/docs/building/configlet), which checks if a track's (configuration) files are properly structured - both syntactically and semantically
+- [`configlet.yml`](/docs/building/tracks/ci/workflows/configlet): runs the [configlet tool](/docs/building/configlet), which checks if a track's (configuration) files are properly structured - both syntactically and semantically
 - `no-important-files-changed.yml`: checks if pull requests would cause all existing solutions of one or more changes exercises to be re-run
 - `test.yml`: verify the track's exercises
 
