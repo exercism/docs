@@ -674,6 +674,24 @@
     "title": "configlet workflow"
   },
   {
+    "uuid": "d7e3f615-3796-43a5-a4a2-632200a8cd47",
+    "slug": "tracks/ci/workflows/deploy",
+    "path": "building/tracks/ci/workflows/deploy.md",
+    "title": "Deploy workflow"
+  },
+  {
+    "uuid": "3a3bea49-9bc0-444c-a95d-93ecc8b0659e",
+    "slug": "tracks/ci/workflows/no-important-files-changed",
+    "path": "building/tracks/ci/workflows/no-important-files-changed.md",
+    "title": "No important files changed workflow"
+  },
+  {
+    "uuid": "b93743e9-4069-46f6-83e9-f873ab8c80c3",
+    "slug": "tracks/ci/workflows/pause-community-contributions",
+    "path": "building/tracks/ci/workflows/pause-community-contributions.md",
+    "title": "Pause community contributions workflow"
+  },
+  {
     "uuid": "fd512058-4525-4e14-a912-9df870025989",
     "slug": "tracks/ci/workflows/sync-labels",
     "path": "building/tracks/ci/workflows/sync-labels.md",
@@ -685,42 +703,6 @@
     "path": "building/tracks/ci/migrating-from-travis.md",
     "title": "Migrating from Travis"
   },
-  {
-    "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
-    "slug": "markdown",
-    "path": "building/markdown/README.md",
-    "title": "Markdown",
-    "blurb": ""
-  },
-  {
-    "uuid": "dd132018-e53d-4347-a30d-aadfe6c1743b",
-    "slug": "markdown/internal-linking",
-    "path": "building/markdown/internal-linking.md",
-    "title": "Internal Linking",
-    "blurb": ""
-  },
-  {
-    "uuid": "2ce5a5bf-229f-4757-9ae0-d6826494dbbf",
-    "slug": "markdown/markdown",
-    "path": "building/markdown/markdown.md",
-    "title": "Markdown Specification",
-    "blurb": ""
-  },
-  {
-    "uuid": "b2f8687f-77e1-4044-a964-35fd2bd3f1b3",
-    "slug": "markdown/style-guide",
-    "path": "building/markdown/style-guide.md",
-    "title": "Exercism's Style Guide",
-    "blurb": ""
-  },
-  {
-    "uuid": "d34ced45-63ff-41c7-967d-3ac72e1b5d8e",
-    "slug": "markdown/widgets",
-    "path": "building/markdown/widgets.md",
-    "title": "Widgets",
-    "blurb": ""
-  },
-
   {
     "uuid": "00b76de0-1e0e-47d0-b293-950d12b1a4c0",
     "slug": "tooling",
@@ -887,6 +869,42 @@
     "slug": "tooling/test-generators",
     "path": "building/tooling/test-generators.md",
     "title": "Test Generators",
+    "blurb": ""
+  },
+
+  {
+    "uuid": "40e765ac-3fd1-4c17-8236-7a6e718cfe64",
+    "slug": "markdown",
+    "path": "building/markdown/README.md",
+    "title": "Markdown",
+    "blurb": ""
+  },
+  {
+    "uuid": "dd132018-e53d-4347-a30d-aadfe6c1743b",
+    "slug": "markdown/internal-linking",
+    "path": "building/markdown/internal-linking.md",
+    "title": "Internal Linking",
+    "blurb": ""
+  },
+  {
+    "uuid": "2ce5a5bf-229f-4757-9ae0-d6826494dbbf",
+    "slug": "markdown/markdown",
+    "path": "building/markdown/markdown.md",
+    "title": "Markdown Specification",
+    "blurb": ""
+  },
+  {
+    "uuid": "b2f8687f-77e1-4044-a964-35fd2bd3f1b3",
+    "slug": "markdown/style-guide",
+    "path": "building/markdown/style-guide.md",
+    "title": "Exercism's Style Guide",
+    "blurb": ""
+  },
+  {
+    "uuid": "d34ced45-63ff-41c7-967d-3ac72e1b5d8e",
+    "slug": "markdown/widgets",
+    "path": "building/markdown/widgets.md",
+    "title": "Widgets",
     "blurb": ""
   },
   {
