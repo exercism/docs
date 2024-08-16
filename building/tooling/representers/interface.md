@@ -1,6 +1,8 @@
 # The Representer Interface
 
-All interactions with the Exercism website are handled automatically. Representers have the single responsibility of taking a solution and returning a representation of it. See the [introduction](/docs/building/tooling/representers#introduction) for more information.
+All interactions with the Exercism website are handled automatically.
+Representers have the single responsibility of taking a solution and returning a representation of it.
+See the [introduction](/docs/building/tooling/representers#introduction) for more information.
 
 ## Execution
 
@@ -17,6 +19,10 @@ All interactions with the Exercism website are handled automatically. Represente
 
 The representer gets 100% machine resources for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out.
+
+```exercism/note
+We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeouts.
+```
 
 ## Output format
 

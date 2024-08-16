@@ -18,6 +18,10 @@ All interactions with the Exercism website are handled automatically and are not
 The test runner gets 100% CPU with 3GB of memory for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out.
 
+```exercism/note
+We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeouts.
+```
+
 ## Output format
 
 The following fields are supported in `results.json` files:

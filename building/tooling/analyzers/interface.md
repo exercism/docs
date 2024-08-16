@@ -17,6 +17,10 @@ All interactions with the Exercism website are handled automatically. Analyzers 
 The analyzer gets 100% machine resources for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out.
 
+```exercism/note
+We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeouts.
+```
+
 ## Output format
 
 ### analysis.json
