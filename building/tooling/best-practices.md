@@ -9,6 +9,29 @@ The official [Dockerfile best practices](https://docs.docker.com/develop/develop
 You should primarily optimize for performance (especially for test runners).
 This will ensure your tooling runs as fast as possible and does not time-out.
 
+### Measure
+
+Measuring execution time often is a great way to get a feel for the performance of tooling.
+Make it a habit to measure execution time both after _and_ before a change.
+Even when you feel "certain" that a change will improve performance, you should still measure execution time.
+
+#### Scripts
+
+When possible, create scripts to automatically measure performance (also known as _benchmarking_).
+A very helpful command-line tool is [hyperfine](https://github.com/sharkdp/hyperfine), but feel free to use whatever makes the most sense for your tooling.
+
+Newer track tooling repos will have access to the following two scripts:
+
+1. `./bin/benchmark.sh`: benchmark the track tooling code ([source code](https://github.com/exercism/generic-test-runner/blob/a6886f4d84d2a2030f766a658c334bbfbe97b79c/bin/benchmark.sh))
+2. `./bin/benchmark-in-docker.sh`: benchmark the track tooling Docker image ([source code](https://github.com/exercism/generic-test-runner/blob/a6886f4d84d2a2030f766a658c334bbfbe97b79c/bin/benchmark-in-docker.sh))
+
+If you're working on a track tooling repo without these files, feel free to copy them into your repo.
+
+```exercism/caution
+Benchmarking scripts can help estimate the tooling's performance.
+Bear in mind though that the performance on Exercism's production servers is often lower.
+```
+
 ### Experiment with different Base images
 
 Try experimenting with different base images (e.g. Alpine instead of Ubuntu), to see if one (significantly) outperforms the other.

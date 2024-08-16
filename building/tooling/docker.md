@@ -15,6 +15,8 @@ Our [Best Practices page](/docs/building/tooling/best-practices) has lots of tip
 The test runner gets 100% CPU with 3GB of memory for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out with a 408 error code.
 
+We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeout occuring.
+
 ### Stdout/stderr
 
 A tooling run may produce up to a maximum of one-megabyte of stdout and stderr.
@@ -35,7 +37,6 @@ If the file is larger than this, the tooling run will be killed with a 460 error
 ## Configuration
 
 Each solution gets 100% machine resources for a twenty second window.
-
 After 20 seconds, the process is halted and reports as a time-out.
 
 Some tools require (slight) deviations from the default configuration.
