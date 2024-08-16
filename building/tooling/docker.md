@@ -15,7 +15,9 @@ Our [Best Practices page](/docs/building/tooling/best-practices) has lots of tip
 The test runner gets 100% CPU with 3GB of memory for a 20 second window per solution.
 After 20 seconds, the process is halted and reports a time-out with a 408 error code.
 
-We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeout occuring.
+```exercism/note
+We highly recommend following our [Performance Best Practices document](/docs/building/tooling/best-practices#h-performance) to reduce the chance of timeouts.
+```
 
 ### Stdout/stderr
 
