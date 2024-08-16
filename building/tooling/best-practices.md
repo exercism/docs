@@ -306,7 +306,7 @@ FROM alpine
 
 RUN groupadd -r myuser && useradd -r -g myuser myuser
 
-# <RUN COMMANDS THAT REQUIRES ROOT USER, LIKE INSTALLING PACKAGES ETC.>
+# RUN <COMMANDS THAT REQUIRE ROOT USER, E.G. INSTALLING PACKAGES>
 
 USER myuser
 ```
