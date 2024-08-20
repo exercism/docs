@@ -79,6 +79,33 @@ bin/fetch-configlet
 bin/configlet create --practice-exercise hello-world
 ```
 
+### Set author
+
+To have the website list you as the exercise's author, follow these steps:
+
+Within the exercise's `.meta/config.json` file:
+
+- Add your GitHub username to the `authors` key
+
+For this to work, you'll need link your Exercism account to GitHub.
+You can do this on the website in the [Settings page's Integrations section](https://exercism.org/settings/integrations).
+
+```exercism/note
+Exercise authors are also awarded [reputation](/docs/using/product/reputation)
+```
+
+### Use script
+
+Newer track repos can use the `bin/add-practice-exercise` script ([source](https://github.com/exercism/generic-track/blob/main/bin/add-practice-exercise)) to add new exercises:
+
+```shell
+bin/add-exercise -a <github_username> two-fer
+```
+
+```exercism/note
+If you're working on a track repo without this file, feel free to copy them into your repo using the above source link.
+```
+
 ### Implement exercise
 
 Once the scaffolded files have been created, you'll then have to:
@@ -86,8 +113,6 @@ Once the scaffolded files have been created, you'll then have to:
 - Add tests to the tests file
 - Add an example implementation
 - Define the stub file's contents
-- Within the exercise's `.meta/config.json` file:
-  - Add the GitHub username of the exercise's authors to the `authors` key
 
 #### Add tests
 

@@ -106,14 +106,21 @@ To make this all a bit more concrete, this is what a sample selection of initial
 ### Scaffold exercise
 
 Having selected the exercises you want include in your track, the next step is to implement them.
-You can quickly scaffold a new Practice Exercise by running the following commands from the track's root directory:
+You can quickly scaffold a new Practice Exercise by running the `bin/add-practice-exercise` script ([source](https://github.com/exercism/generic-track/blob/main/bin/add-practice-exercise)) from the track's root directory:
 
 ```shell
-bin/fetch-configlet
-bin/configlet create --practice-exercise <slug>
+bin/add-exercise <exercise-slug>
 ```
 
-For more information, check the [`configlet create` docs](/docs/building/configlet/create)
+Optionally, you can also specify the exercise's difficulty (via `-d`) and/or author's GitHub username (via `-a`):
+
+```shell
+bin/add-practice-exercise -d 3 -a foobar <exercise-slug>
+```
+
+```exercism/note
+If you're working on a track repo without this file, feel free to copy them into your repo using the above source link.
+```
 
 ### Implement exercise
 
