@@ -22,10 +22,12 @@ A very helpful command-line tool is [hyperfine](https://github.com/sharkdp/hyper
 
 Newer track tooling repos will have access to the following two scripts:
 
-1. `./bin/benchmark.sh`: benchmark the track tooling code ([source code](https://github.com/exercism/generic-test-runner/blob/a6886f4d84d2a2030f766a658c334bbfbe97b79c/bin/benchmark.sh))
-2. `./bin/benchmark-in-docker.sh`: benchmark the track tooling Docker image ([source code](https://github.com/exercism/generic-test-runner/blob/a6886f4d84d2a2030f766a658c334bbfbe97b79c/bin/benchmark-in-docker.sh))
+1. `./bin/benchmark.sh`: benchmark the track tooling code ([source code](https://github.com/exercism/generic-test-runner/blob/main/bin/benchmark.sh))
+2. `./bin/benchmark-in-docker.sh`: benchmark the track tooling Docker image ([source code](https://github.com/exercism/generic-test-runner/blob/main/bin/benchmark-in-docker.sh))
 
-If you're working on a track tooling repo without these files, feel free to copy them into your repo.
+```exercism/note
+If you're working on a track tooling repo without these files, feel free to copy them into your repo using the above source links.
+```
 
 ```exercism/caution
 Benchmarking scripts can help estimate the tooling's performance.
