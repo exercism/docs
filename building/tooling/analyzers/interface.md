@@ -127,7 +127,7 @@ You may write an `analysis.out` file that contains debugging information you wan
 
 Before building an analyzer, please read our [Analyzer Guidance][analyzer-guidance].
 
-[website-copy-repo]: https://github.com/exercise/website-copy
+[website-copy-repo]: https://github.com/exercism/website-copy
 [writing-analyzer-comments]: /docs/building/tooling/analyzers/comments
 [tagging-solutions]: /docs/building/tooling/analyzers/tags
 [analyzer-guidance]: /docs/building/tooling/analyzers/guidance
