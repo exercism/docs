@@ -25,25 +25,25 @@ A tracks' maintenance category is determined by three variables:
 
 To determine the maintenance category, find the first category that matches the track from this table:
 
-| Category                | Active? | Number of maintainers | Number of cross-track maintainers |
-| ----------------------- | ------- | --------------------- | --------------------------------- |
-| `wip-track`             | No      | Any                   | Any                               |
-| `unmaintained`          | Yes     | 0                     | 0                                 |
-| `maintained-solitary`   | Yes     | 1                     | 0                                 |
-| `maintained-autonomous` | Yes     | > 0                   | = Number of maintainers           |
-| `maintained`            | Yes     | > 0                   | < Number of maintainers           |
+| Category              | Active? | Number of maintainers | Number of cross-track maintainers |
+| --------------------- | ------- | --------------------- | --------------------------------- |
+| wip-track             | No      | Any                   | Any                               |
+| unmaintained          | Yes     | 0                     | 0                                 |
+| maintained-solitary   | Yes     | 1                     | 0                                 |
+| maintained-autonomous | Yes     | > 0                   | = Number of maintainers           |
+| maintained            | Yes     | > 0                   | < Number of maintainers           |
 
 ## Repo permissions
 
 The maintenance category is used to set the track's GitHub repo(s) permission(s).
 
-| Category                | Requires PR | Requires PR approval | Cross-track team reviews |
-| ----------------------- | ----------- | -------------------- | ------------------------ |
-| `wip-track`             | No          | No                   | No                       |
-| `unmaintained`          | Yes         | Yes                  | Yes                      |
-| `maintained-solitary`   | Yes         | Yes                  | Yes                      |
-| `maintained-autonomous` | Yes         | No                   | No                       |
-| `maintained`            | Yes         | No                   | No                       |
+| Category              | Requires PR | Requires PR approval | Cross-track team reviews |
+| --------------------- | ----------- | -------------------- | ------------------------ |
+| wip-track             | No          | No                   | No                       |
+| unmaintained          | Yes         | Yes                  | Yes                      |
+| maintained-solitary   | Yes         | Yes                  | Yes                      |
+| maintained-autonomous | Yes         | No                   | No                       |
+| maintained            | Yes         | No                   | No                       |
 
 ```exercism/caution
 The `wip-track` category is the only category that allows maintainers to push to `main`.
