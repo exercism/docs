@@ -20,6 +20,7 @@ We also have several Exercism-specific Pull Request guides:
 - [How to make a great Pull Request][how-to-make-a-great-pr]
 - [The Contributors' Guide to Pull Requests][contributors-pr-guide]
 - [The Maintainers' Guide to Pull Requests][maintainers-pr-guide]
+- [Maintainers Repo Permissions][maintainers-repo-permissions]
 
 ## Tooling
 
@@ -40,6 +41,7 @@ There is also GitHub-specific tooling you can use:
 [great-pr]: https://exercism.org/docs/community/being-a-good-community-member/pull-requests
 [contributors-pr-guide]: /docs/building/github/contributors-pull-request-guide
 [maintainers-pr-guide]: /docs/building/github/maintainers-pull-request-guide
+[maintainers-repo-permissions]: /docs/building/github/maintainers-repo-permissions
 [how-to-make-a-great-pr]: /docs/community/being-a-good-community-member/pull-requests
 [pro-git]: https://git-scm.com/book/en/v2
 [git]: https://git-scm.com/

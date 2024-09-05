@@ -100,6 +100,10 @@ csharp
 
 ## Maintenance
 
+### Repo permissions
+
+Each track is (automatically) assigned a [maintenance category](/docs/building/github/maintainers-repo-permissions#maintenance-category), which determines the [track maintainer's GitHub repo permissions](/docs/building/github/maintainers-repo-permissions#repo-permissions).
+
 ### Avoiding triggering unnecessary test runs
 
 When you merge a track PR that touches an exercise, it triggers _all_ the latest published iteration of students' solutions to be re-tested.
