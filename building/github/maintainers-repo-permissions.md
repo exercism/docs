@@ -29,9 +29,9 @@ To determine the maintenance category, find the first category that matches the 
 | --------------------- | ------- | --------------------- | --------------------------------- |
 | wip-track             | No      | Any                   | Any                               |
 | unmaintained          | Yes     | 0                     | 0                                 |
-| maintained-solitary   | Yes     | 1                     | 0                                 |
 | maintained-autonomous | Yes     | > 0                   | = Number of maintainers           |
-| maintained            | Yes     | > 0                   | < Number of maintainers           |
+| maintained-solitary   | Yes     | 1                     | 0                                 |
+| maintained            | Yes     | > 1                   | < Number of maintainers           |
 
 ## Repo permissions
 
