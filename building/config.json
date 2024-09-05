@@ -68,6 +68,12 @@
     "title": "Maintainers Pull Request Guide"
   },
   {
+    "uuid": "3598be40-752a-4223-8828-c08dc3320a20",
+    "slug": "github/maintainers-repo-permissions",
+    "path": "building/github/maintainers-repo-permissions.md",
+    "title": "Maintainers Repo Permissions"
+  },
+  {
     "uuid": "7cc6cb11-2502-49ea-b7c1-6e501720c9ae",
     "slug": "github/gha-best-practices",
     "path": "building/github/gha-best-practices.md",
