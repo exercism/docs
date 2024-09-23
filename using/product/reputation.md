@@ -69,7 +69,7 @@ Depending on the content of the pull request, a maintainer can award more (or le
 | --------------- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `x:rep/tiny`    | 3          | <ul><li>Fixing a single typo or link</li><li>Removing a blank line or adding a line break</li><li>Changing/adding a single code comment</li></ul>                                                                                                                                                                                                                   |
 | `x:rep/small`   | 5          | <ul><li>Fixing a single test case, task or example</li><li>Fixing multiple typos or links in a single file</li><li>Clarifying content by adding a few lines to a file</li></ul>                                                                                                                                                                                     |
-| `x:rep/medium`  | 12         | <ul><li>Syncing an exercise with problem-specifications (incl. edits)</li><li>Adding one or more test cases from scratch</li><li>Improving multiple files in an exercise</li><li>Adding mentor notes for an exercise from scratch</li><li>Fixing a small bug in a test runner/analyzer/representer</li><li>Adding analyzer comments for a single exericse</li></ul> |
+| `x:rep/medium`  | 12         | <ul><li>Syncing an exercise with problem-specifications (incl. edits)</li><li>Adding one or more test cases from scratch</li><li>Improving multiple files in an exercise</li><li>Adding mentor notes for an exercise from scratch</li><li>Fixing a small bug in a test runner/analyzer/representer</li><li>Adding analyzer comments for a single exercise</li></ul> |
 | `x:rep/large`   | 30         | <ul><li>Adding a new concept or practice exercise</li><li>Adding new concept documentation</li><li>Substantial re-writing of an existing concept or exercise</li><li>Adding new CI scripts or other automation</li></ul>                                                                                                                                            |
 | `x:rep/massive` | 100        | <ul><li>Creating a test-runner, analyzer, representer or generator from scratch</li><li>Major refactors to those tools</li><li>Creating major documentation from scratch (e.g. contribution or testing guides)</li></ul>                                                                                                                                            |
 
@@ -82,7 +82,7 @@ The examples above can serve as rough orientation when to apply which label but 
 
 _For backwards compatibility purposes, we also support using the `x:size` labels to determine the awarded reputation._
 
-### Reviewing a pull requests
+### Reviewing a pull request
 
 For each merged or closed pull request reviewed by the user, `5` reputation is awarded.
 
