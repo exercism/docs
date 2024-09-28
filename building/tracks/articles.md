@@ -22,7 +22,7 @@ Any exercise, as long as there is something interesting to explore.
 
 Each article must add the following two files:
 
-- `.articles/<article-slug>/content.md`: description of the articleh (see [the docs](/docs/building/tracks/practice-exercises#file-articles-article-slug-content-md))
+- `.articles/<article-slug>/content.md`: description of the article (see [the docs](/docs/building/tracks/practice-exercises#file-articles-article-slug-content-md))
 - `.articles/<article-slug>/snippet.md`: snippet showcasing the article (see [the docs](/docs/building/tracks/practice-exercises#file-articles-article-slug-snippet-txt))
 
 You'll then need to add or update:
