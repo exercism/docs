@@ -46,14 +46,14 @@ See the [network docs](/docs/building/tooling/docker#network) for more informati
 
 ### Prefer build-time commands over run-time commands
 
-Tooling runs as one-off, short-lived Docker container:
+Tooling runs as a one-off, short-lived Docker container:
 
 1. A Docker container is created
 2. The Docker container is run with the correct arguments
 3. The Docker container is destroyed
 
 Therefore, code that runs in step 2 runs for _every single tooling run_.
-For this reason, reducing the amount of code that runs in step 2 is a great way to improve performance
+For this reason, reducing the amount of code that runs in step 2 is a great way to improve performance.
 One way of doing this is to move code from _run-time_ to _build-time_.
 Whilst run-time code runs on every single tooling run, build-time code only runs once (when the Docker image is built).
 
@@ -72,7 +72,7 @@ RUN stack build --resolver lts-20.18 --no-terminal --test --no-run-tests
 ```
 
 First, the `pre-compiled` directory is copied into the image.
-This directory is setup as a sort of fake exercise and depends on the same base libraries that the actual exercise depend on.
+This directory is set up as a sort of fake exercise and depends on the same base libraries that the actual exercise depends on.
 Then we run the tests on that directory, which is similar to how tests are run for an actual exercise.
 Running the tests will result in the base being compiled, but the difference is that this happens at _build time_.
 The resulting Docker image will thus have its base libraries already compiled, which means that no longer has to happen at _run time_, resulting in (much) faster execution times.
