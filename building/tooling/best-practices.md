@@ -58,7 +58,7 @@ One way of doing this is to move code from _run-time_ to _build-time_.
 Whilst run-time code runs on every single tooling run, build-time code only runs once (when the Docker image is built).
 
 Build-time code runs once as part of a GitHub Actions workflow.
-Therefore, its fine if the code that runs at build-time is (relatively) slow.
+Therefore, it's fine if the code that runs at build-time is (relatively) slow.
 
 #### Example: pre-compile libraries
 
@@ -117,7 +117,7 @@ node         20.16.0        1.09GB
 node         20.16.0-slim   219MB
 ```
 
-The reason "slim" variants are smaller is that they'll have less features.
+The reason "slim" variants are smaller is that they'll have fewer features.
 Your image might not need the additional features, and if not, consider using the "slim" variant.
 
 ### Removing unneeded bits
@@ -137,7 +137,7 @@ Therefore, any package manager caching/bookkeeping files should be removed after
 
 ##### apk
 
-Distributions that uses the `apk` package manager (such as Alpine) should use the `--no-cache` flag when using `apk add` to install packages:
+Distributions that use the `apk` package manager (such as Alpine) should use the `--no-cache` flag when using `apk add` to install packages:
 
 ```dockerfile
 RUN apk add --no-cache curl
@@ -214,7 +214,7 @@ ENTRYPOINT ["/opt/test-runner/bin/run.sh"]
 ##### Example: installing libraries
 
 The Ruby test runner needs the `git`, `openssh`, `build-base`, `gcc` and `wget` packages to be installed before its required libraries (gems) can be installed.
-Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that install those packages (via `apk add`) and then installs the libaries (via `bundle install`):
+Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that installs those packages (via `apk add`) and then installs the libraries (via `bundle install`):
 
 ```dockerfile
 FROM ruby:3.2.2-alpine3.18 AS build
