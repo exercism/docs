@@ -48,9 +48,9 @@ See the [network docs](/docs/building/tooling/docker#network) for more informati
 
 Tooling runs as a one-off, short-lived Docker container:
 
-1. A Docker container is created
-2. The Docker container is run with the correct arguments
-3. The Docker container is destroyed
+1. A Docker container is created.
+2. The Docker container is run with the correct arguments.
+3. The Docker container is destroyed.
 
 Therefore, code that runs in step 2 runs for _every single tooling run_.
 For this reason, reducing the amount of code that runs in step 2 is a great way to improve performance.
