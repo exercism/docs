@@ -72,10 +72,10 @@ RUN stack build --resolver lts-20.18 --no-terminal --test --no-run-tests
 ```
 
 First, the `pre-compiled` directory is copied into the image.
-This directory is set up as a sort of fake exercise and depends on the same base libraries that the actual exercise depends on.
+This directory is set up as a fake exercise and depends on the same base libraries that the actual exercise depends on.
 Then we run the tests on that directory, which is similar to how tests are run for an actual exercise.
 Running the tests will result in the base being compiled, but the difference is that this happens at _build time_.
-The resulting Docker image will thus have its base libraries already compiled, which means that no longer has to happen at _run time_, resulting in (much) faster execution times.
+The resulting Docker image will thus have its base libraries already compiled, which means that no longer happens at _run time_, resulting in (much) faster execution times.
 
 #### Example: pre-compile binaries
 
