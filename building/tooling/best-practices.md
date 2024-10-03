@@ -214,7 +214,7 @@ ENTRYPOINT ["/opt/test-runner/bin/run.sh"]
 ##### Example: installing libraries
 
 The Ruby test runner needs the `git`, `openssh`, `build-base`, `gcc` and `wget` packages to be installed before its required libraries (gems) can be installed.
-Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that installs those packages (via `apk add`) and then installs the libraries (via `bundle install`):
+Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that installs those packages (via `apk add`) and then installs the dependencies (via `bundle install`):
 
 ```dockerfile
 FROM ruby:3.2.2-alpine3.18 AS build
