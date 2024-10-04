@@ -46,19 +46,19 @@ See the [network docs](/docs/building/tooling/docker#network) for more informati
 
 ### Prefer build-time commands over run-time commands
 
-Tooling runs as one-off, short-lived Docker container:
+The track tooling runs a one-off, short-lived Docker container which executes the following steps.
 
-1. A Docker container is created
-2. The Docker container is run with the correct arguments
-3. The Docker container is destroyed
+1. A Docker container is created.
+2. The Docker container is run with the correct arguments.
+3. The Docker container is destroyed.
 
 Therefore, code that runs in step 2 runs for _every single tooling run_.
-For this reason, reducing the amount of code that runs in step 2 is a great way to improve performance
+For this reason, reducing the amount of code that runs in step 2 is a great way to improve performance.
 One way of doing this is to move code from _run-time_ to _build-time_.
 Whilst run-time code runs on every single tooling run, build-time code only runs once (when the Docker image is built).
 
 Build-time code runs once as part of a GitHub Actions workflow.
-Therefore, its fine if the code that runs at build-time is (relatively) slow.
+Therefore, it's fine if the code that runs at build-time is (relatively) slow.
 
 #### Example: pre-compile libraries
 
@@ -72,10 +72,11 @@ RUN stack build --resolver lts-20.18 --no-terminal --test --no-run-tests
 ```
 
 First, the `pre-compiled` directory is copied into the image.
-This directory is setup as a sort of fake exercise and depends on the same base libraries that the actual exercise depend on.
+This directory is set up as a test exercise and depends on the same base libraries that the actual exercise depends on.
 Then we run the tests on that directory, which is similar to how tests are run for an actual exercise.
 Running the tests will result in the base being compiled, but the difference is that this happens at _build time_.
-The resulting Docker image will thus have its base libraries already compiled, which means that no longer has to happen at _run time_, resulting in (much) faster execution times.
+The resulting Docker image will thus have its base libraries already compiled.
+This means compiling is not needed at _run time_, resulting in a (much) faster execution.
 
 #### Example: pre-compile binaries
 
@@ -117,7 +118,7 @@ node         20.16.0        1.09GB
 node         20.16.0-slim   219MB
 ```
 
-The reason "slim" variants are smaller is that they'll have less features.
+The reason "slim" variants are smaller is that they have fewer features.
 Your image might not need the additional features, and if not, consider using the "slim" variant.
 
 ### Removing unneeded bits
@@ -137,7 +138,7 @@ Therefore, any package manager caching/bookkeeping files should be removed after
 
 ##### apk
 
-Distributions that uses the `apk` package manager (such as Alpine) should use the `--no-cache` flag when using `apk add` to install packages:
+Distributions that use the `apk` package manager (such as Alpine) should use the `--no-cache` flag when using `apk add` to install packages:
 
 ```dockerfile
 RUN apk add --no-cache curl
@@ -214,7 +215,7 @@ ENTRYPOINT ["/opt/test-runner/bin/run.sh"]
 ##### Example: installing libraries
 
 The Ruby test runner needs the `git`, `openssh`, `build-base`, `gcc` and `wget` packages to be installed before its required libraries (gems) can be installed.
-Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that install those packages (via `apk add`) and then installs the libaries (via `bundle install`):
+Its [Dockerfile](https://github.com/exercism/ruby-test-runner/blob/e57ed45b553d6c6411faeea55efa3a4754d1cdbf/Dockerfile) starts with a stage (given the name `build`) that installs those packages (via `apk add`) and then installs the dependencies (via `bundle install`):
 
 ```dockerfile
 FROM ruby:3.2.2-alpine3.18 AS build
