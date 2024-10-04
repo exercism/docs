@@ -46,7 +46,7 @@ See the [network docs](/docs/building/tooling/docker#network) for more informati
 
 ### Prefer build-time commands over run-time commands
 
-Tooling runs as a one-off, short-lived Docker container:
+The track tooling runs a one-off, short-lived Docker container which executes the following steps.
 
 1. A Docker container is created.
 2. The Docker container is run with the correct arguments.
@@ -72,10 +72,11 @@ RUN stack build --resolver lts-20.18 --no-terminal --test --no-run-tests
 ```
 
 First, the `pre-compiled` directory is copied into the image.
-This directory is set up as a fake exercise and depends on the same base libraries that the actual exercise depends on.
+This directory is set up as a test exercise and depends on the same base libraries that the actual exercise depends on.
 Then we run the tests on that directory, which is similar to how tests are run for an actual exercise.
 Running the tests will result in the base being compiled, but the difference is that this happens at _build time_.
-The resulting Docker image will thus have its base libraries already compiled, which means that no longer happens at _run time_, resulting in (much) faster execution times.
+The resulting Docker image will thus have its base libraries already compiled.
+This means compiling is not needed at _run time_, resulting in a (much) faster execution.
 
 #### Example: pre-compile binaries
 
@@ -117,7 +118,7 @@ node         20.16.0        1.09GB
 node         20.16.0-slim   219MB
 ```
 
-The reason "slim" variants are smaller is that they'll have fewer features.
+The reason "slim" variants are smaller is that they have fewer features.
 Your image might not need the additional features, and if not, consider using the "slim" variant.
 
 ### Removing unneeded bits
