@@ -381,6 +381,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 - `paradigm/logic`: the language supports a logic-based style of programming
 - `paradigm/object_oriented`: the language supports an object-oriented style of programming
 - `paradigm/procedural`: the language supports a procedural style of programming
+- `paradigm/stack-oriented`: the language supports a stack-oriented style of programming
 
 ### Typing
 
