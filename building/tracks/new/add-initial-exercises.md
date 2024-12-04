@@ -178,6 +178,24 @@ Under the hood, the `bin/verify-exercises` script does several things:
 - Run the tests
 ```
 
+### Lint exercise
+
+The final step is to run [the linter](/docs/building/configlet/lint) to check if the track's (configuration) files are properly structured - both syntactically and semantically.
+
+First, make sure you have the latest version of [`configlet`](/docs/building/configlet/) by running:
+
+```shell
+bin/fetch-configlet
+```
+
+The run [the linter](/docs/building/configlet/lint) by running:
+
+```shell
+bin/configlet lint
+```
+
+Use the output to verify that all is well.
+
 [problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises/
 [allergies]: https://github.com/exercism/problem-specifications/tree/main/exercises/allergies
 [alphametics]: https://github.com/exercism/problem-specifications/tree/main/exercises/alphametics
