@@ -1,6 +1,6 @@
 # Add Practice Exercise
 
-This document will explain how to a new [Practice Exercise](/docs/building/tracks/practice-exercises).
+This document will explain how to add a new [Practice Exercise](/docs/building/tracks/practice-exercises).
 
 ## Select exercise
 
