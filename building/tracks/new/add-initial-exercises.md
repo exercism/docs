@@ -109,7 +109,7 @@ Having selected the exercises you want include in your track, the next step is t
 You can quickly scaffold a new Practice Exercise by running the `bin/add-practice-exercise` script ([source](https://github.com/exercism/generic-track/blob/main/bin/add-practice-exercise)) from the track's root directory:
 
 ```shell
-bin/add-exercise <exercise-slug>
+bin/add-practice-exercise <exercise-slug>
 ```
 
 Optionally, you can also specify the exercise's difficulty (via `-d`) and/or author's GitHub username (via `-a`):
@@ -148,6 +148,35 @@ The second option can be particularly appealing, as it can give you results quic
 Keep in mind, though, that you should tweak the implementation to best fit your track.
 As an example, some tracks do not use classes but only work with functions.
 If your track usually works with objects though, you should adapt the implementation to what best fits your track.
+
+#### Add example implementation
+
+To ensure that it is possible to write code that passes the tests, an example implementation needs to be added.
+
+```exercism/note
+The code does _not_ have to be idiomatic, it only has to pass the tests.
+```
+
+You can verify the example implementation passes all the tests by running the `bin/verify-exercises` script ([source](https://github.com/exercism/generic-track/blob/main/bin/verify-exercises)) from the track's root directory:
+
+```shell
+bin/verify-exercises <exercise-slug>
+```
+
+Use the output to verify that the example implementation passes all the tests.
+
+```exercism/note
+If you're working on a track repo without this file, feel free to copy them into your repo using the above source link.
+```
+
+```exercism/advanced
+Under the hood, the `bin/verify-exercises` script does several things:
+
+- Copy the exercise to a temporary directory
+- Overwrite the stub file(s) with the example implementation file(s)
+- If the test file has skipped tests, they will be "unskipped"
+- Run the tests
+```
 
 [problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises/
 [allergies]: https://github.com/exercism/problem-specifications/tree/main/exercises/allergies
