@@ -102,8 +102,15 @@
   {
     "uuid": "d951a049-a5ca-4b38-ae06-68b10cfbb2d9",
     "slug": "tracks/practice-exercises",
-    "path": "building/tracks/practice-exercises.md",
+    "path": "building/tracks/practice-exercises/README.md",
     "title": "Practice Exercises",
+    "blurb": ""
+  },
+  {
+    "uuid": "531f0e8a-0207-42a8-bf68-26ca42f8872f",
+    "slug": "tracks/practice-exercises/add",
+    "path": "building/tracks/practice-exercises/add.md",
+    "title": "Add a Practice Exercise",
     "blurb": ""
   },
   {
