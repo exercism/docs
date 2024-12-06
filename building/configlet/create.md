@@ -22,32 +22,7 @@ Options for create:
 
 ## Create Practice Exercise
 
-To create a practice exercise, one has to specify its slug:
-
-```shell
-configlet create --practice-exercise collatz-conjecture
-```
-
-This will create the practice exercise's required files, as specified in the [Practice Exercises docs](/docs/building/tracks/practice-exercises).
-If the practice exercise is defined in the [Problem Specifications repo](https://github.com/exercism/problem-specifications/), configlet will sync the docs and metadata from there.
-
-Of course, this is just the first step towards creating an exercise.
-You'll then have to:
-
-- Add tests to the tests file
-- Add an example implementation
-- Define the stub file's contents
-- Within the exercise's `.meta/config.json` file:
-  - Add the GitHub username of the exercise's authors to the `authors` key
-- Within the track's `config.json` file:
-  - Check/update the exercise's difficulty
-  - Add concepts to the `practices` key (only required when the track has concept exercises)
-  - Add concepts to the `prerequisites` key (only required when the track has concept exercises)
-
-```exercism/note
-Some tracks have implemented an exercise/test _generator_, which is a tool that can generate the test file's contents based on the exercise's `canonical-data.json` found in the [Problem Specifications repo](https://github.com/exercism/problem-specifications/).
-Make sure to read the track's documentation to see if there is a generator that you can use.
-```
+The [Add Practice Exercise docs](/docs/building/tracks/practice-exercises/add) have detailed instructions on how to add a Practice Exercise.
 
 ## Create Concept Exercise
 

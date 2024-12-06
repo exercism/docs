@@ -104,7 +104,7 @@ To make this all a bit more concrete, this is what a sample selection of initial
 ## Implement exercises
 
 Having selected the exercises you want include in your track, the next step is to implement them.
-The [Add Practice Exercise docs](/docs/building/tracks/practice-exercises/add) have detailed instructions on how to add a Practic Exercise.
+The [Add Practice Exercise docs](/docs/building/tracks/practice-exercises/add) have detailed instructions on how to add a Practice Exercise.
 
 [problem-specifications-exercises]: https://github.com/exercism/problem-specifications/tree/main/exercises/
 [allergies]: https://github.com/exercism/problem-specifications/tree/main/exercises/allergies

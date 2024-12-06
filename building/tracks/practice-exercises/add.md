@@ -55,6 +55,11 @@ Keep in mind, though, that you should tweak the implementation to best fit your 
 As an example, some tracks do not use classes but only work with functions.
 If your track usually works with objects though, you should adapt the implementation to what best fits your track.
 
+```exercism/note
+Some tracks use a [test _generator_](/docs/building/tooling/test-generators) to automatically (re-)generate an exercise's test file(s).
+Please check the track documentation to see if there is a test generator and if so, how to use it.
+```
+
 ### Add example implementation
 
 To ensure that it is possible to write code that passes the tests, an example implementation needs to be added.
