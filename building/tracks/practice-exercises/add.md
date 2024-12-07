@@ -128,7 +128,7 @@ First, make sure you have the latest version of [`configlet`](/docs/building/con
 bin/fetch-configlet
 ```
 
-The run [the linter](/docs/building/configlet/lint) by running:
+Then run [the linter](/docs/building/configlet/lint) by running:
 
 ```shell
 bin/configlet lint
