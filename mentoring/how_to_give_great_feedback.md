@@ -3,7 +3,7 @@
 [video:vimeo/595884449]()
 
 At this stage you should have chosen a solution to mentor.
-If you haven't, work your way through [Choosing a solution to mentor](/docs/mentoring/choosing-a-solution) first, then come back here.
+If you haven't, work your way through [Choosing a solution to mentor](/mentoring/choosing_a_solution.md) first, then come back here.
 
 ## Your first feedback
 
