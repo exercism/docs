@@ -49,17 +49,18 @@ The next step is to [Enable language](#enable-language).
 
 ### Create a new plugin
 
-If you'd like to create plugin, you have two options for hosting:
+These are the steps to get going:
 
-1. Create a repository on your personal account and publish it yourself.
-2. Have us (Exercism) create a repository and let us publish it.
-   To do so, open a topic on [the forum](https://forum.exercism.org/c/exercism/building-exercism/125) requesting this.
+1. Check [our repository list for an existing `codemirror-lang-...`](https://github.com/search?q=org%3Acodemirror-lang&type=repositories) to ensure that one doesn't already exist.
+2. Start a new topic on [the Exercism forum][building-exercism] telling us which language you'd like to create a CodeMirror plugin for.
+3. Once a CodeMirror plugin repo has been created for you, implement the grammar for your track.
 
 ```exercism/note
-You could consider forking the [codemirror/lang-example repository](https://github.com/codemirror/lang-example) which implements CodeMirror support for a simple language.
+To help you get started, the repo created for you contains a minimal sample grammar that you can build on/tweak.
 ```
 
-Once you have a repo, follow the [language package instructions](https://codemirror.net/examples/lang-package/) to implement the plugin.
+We have an incredibly friendly and supportive community who will be happy to help you as you work through this!
+If you get stuck, please start a new topic on [the Exercism forum][building-exercism] or create new issues at [exercism/exercism][exercism-repo] as needed 🙂
 
 You'll then need to publish the plugin on [NPM](https://www.npmjs.com/).
 The next step is to [Enable the language](#enable-language).
@@ -69,3 +70,6 @@ The next step is to [Enable the language](#enable-language).
 Your language's syntax (closely) resembles another language's syntax, in which case you could consider using the syntax highlighting of that language for your language.
 To do so, configure the track using the other language's CodeMirror plugin.
 See the [Enable language](#enable-language) section for more information.
+
+[building-exercism]: https://forum.exercism.org/c/exercism/building-exercism/125
+[exercism-repo]: https://github.com/exercism/exercism
