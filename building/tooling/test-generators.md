@@ -77,6 +77,10 @@ While you're free to use other languages, each additional language will make it 
 Therefore, we recommend using the track's language where possible, because it makes maintaining or contributing easier.
 ```
 
+### Formatting
+
+If your track has tooling to format code, consider running this as a post-processing step _after_ rendering your template.
+
 ### Canonical data
 
 The core data the Test Generator works with is an exercise's [`canonical-data.json` file](https://github.com/exercism/problem-specifications?tab=readme-ov-file#test-data-canonical-datajson).
