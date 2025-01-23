@@ -23,8 +23,10 @@ In other words, your solution is not just an interpretation of the instructions 
 ## How does Exercism apply TDD?
 
 We've done the work of writing a unit test suite for you.
-Your goal is to write a solution that contains just enough code to make all those unit tests pass, and no more.
+Your goal is to write a solution that contains just enough code to make all those unit tests pass.
 
+Keep this in mind: the TDD approach will help you get to the solution, but you don't need to stop there.
+If you want to extend your solution beyond the requirements, you are welcome to do so.
 Should you choose to work with a mentor (and we encourage you to do that once you get the tests passing), they can help you refactor and refine your initial implementation, or even propose new unit tests.
 
 ## Working in the online editor
