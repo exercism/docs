@@ -73,7 +73,7 @@ While it may seem like "putting the cart before the horse", there are several go
 
 ## Further reading
 
-* [About Test-First Teaching][test-first.org] at the archived TestFirst\.org site.
+* [About Test-First Teaching][test-first] at the archived TestFirst\.org site.
 * [Test-driven development][tdd-wiki] at Wikipedia.
 * [Test Driven Development][tdd-python] on the Python track.
 
