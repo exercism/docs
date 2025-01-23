@@ -4,11 +4,11 @@ Test-Driven Development (sometimes called Test-First Development or Test-Driven 
 
 ## On Exercism, the tests _are_ the requirements!
 
-Each exercise you work on will have some instructions describing in general terms what you need to do.
+All Practice Exercises you work on (those ones that don't teach you a new concept) will have some instructions describing in general terms what you need to do.
 By design, these instructions do not account for programming-language-specific implementation details because they are shared by all of Exercism’s 70+ language tracks.
 Some language tracks will append more specific details for you, but not all of them do.
 
-When you start working on an exercise, give the instructions a careful read.
+When you start working on a Practice Exercise, give the instructions a careful read.
 They will give you a broad overview of how you go about implementing a solution.
 But you will have to read the _tests_ to understand the full and exact requirements:
 
@@ -17,12 +17,12 @@ But you will have to read the _tests_ to understand the full and exact requireme
 - How are you expected to handle exceptions? And so on.
 
 You have solved an exercise when all the provided tests run and pass.
-In other words, your solution is not just an interpretation the instructions that "looks right", your solution is a program that _satisfies the given tests_.
+In other words, your solution is not just an interpretation of the instructions that "looks right", your solution is a program that _satisfies the given tests_.
 **The tests represent the complete requirements for the exercise.**
 
 ## Rationale for Test-Driven Development
 
-While it may seem like putting the cart before the horse, there are several good reasons why you might want to write unit tests before writing the implementation code:
+While it may seem like "putting the cart before the horse", there are several good reasons why you might want to write unit tests before writing the implementation code:
 
 1. Design.
    It forces you to think first about the design of the **interface** to the code, instead of jumping straight to the implementation.
