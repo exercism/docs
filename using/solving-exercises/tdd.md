@@ -20,21 +20,6 @@ You have solved an exercise when all the provided tests run and pass.
 In other words, your solution is not just an interpretation of the instructions that "looks right", your solution is a program that _satisfies the given tests_.
 **The tests represent the complete requirements for the exercise.**
 
-## Rationale for Test-Driven Development
-
-While it may seem like "putting the cart before the horse", there are several good reasons why you might want to write unit tests before writing the implementation code:
-
-1. Design.
-   It forces you to think first about the design of the **interface** to the code, instead of jumping straight to the implementation.
-   Having a well-designed (and testable!) interface is often more important than having an efficient implementation.
-
-1. Discipline.
-   Writing tests is often seen as a chore or an afterthought; writing the tests _first_ guarantees that at the end of the day you will have written enough unit tests to cover most or all of your code's functionality (rather than possibly never getting around to it).
-
-1. Less Work.
-   If you apply a tight cycle of write one test, then write the code to implement that test, then write the next test, your code ends up growing organically.
-   This often (though not always) leads to less wasted effort; you end up writing all the code you need, and none of the code you don't need.
-
 ## How does Exercism apply TDD?
 
 We've done the work of writing a unit test suite for you.
@@ -69,10 +54,30 @@ We do this to encourage you to follow this workflow:
 Exactly how tests are "unskipped" (or selected) depends on the track.
 For some tracks, it might be commenting or removing an annotation.
 For some tracks, it might be changing an attribute from true to false.
-Take the time to read the track documentation: it will explain these details.
+Take the time to read [the documentation for your track][track-docs]: it will explain these details.
+
+## Rationale for Test-Driven Development
+
+While it may seem like "putting the cart before the horse", there are several good reasons why you might want to write unit tests before writing the implementation code:
+
+1. Design.
+   It forces you to think first about the design of the **interface** to the code, instead of jumping straight to the implementation.
+   Having a well-designed (and testable!) interface is often more important than having an efficient implementation.
+
+1. Discipline.
+   Writing tests is often seen as a chore or an afterthought; writing the tests _first_ guarantees that at the end of the day you will have written enough unit tests to cover most or all of your code's functionality (rather than possibly never getting around to it).
+
+1. Less Work.
+   If you apply a tight cycle of write one test, then write the code to implement that test, then write the next test, your code ends up growing organically.
+   This often (though not always) leads to less wasted effort; you end up writing all the code you need, and none of the code you don't need.
 
 ## Further reading
 
-* [About Test-First Teaching](https://web.archive.org/web/20220918221108/http://testfirst.org/about) at the archived TestFirst\.org site.
-* [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development) at Wikipedia.
-* [Test Driven Development](https://exercism.org/docs/tracks/python/test-driven-development) on the Python track.
+* [About Test-First Teaching][test-first.org] at the archived TestFirst\.org site.
+* [Test-driven development][tdd-wiki] at Wikipedia.
+* [Test Driven Development][tdd-python] on the Python track.
+
+[track-docs]: https://exercism.org/docs/tracks
+[test-first]: https://web.archive.org/web/20220918221108/http://testfirst.org/about
+[tdd-wiki]: https://en.wikipedia.org/wiki/Test-driven_development
+[tdd-python]: https://exercism.org/docs/tracks/python/test-driven-development
