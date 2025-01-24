@@ -53,7 +53,7 @@ We do this to encourage you to follow this workflow:
 1. Once you have passed all the tests, congratulations you're done!
 1. Otherwise, "unskip" the next test and goto 1. 
 
-Exactly how tests are "unskipped" (or selected) depends on the track.
+Exactly how tests are "unskipped" (or activated) depends on the track.
 For some tracks, it might be commenting or removing an annotation.
 For some tracks, it might be changing an attribute from true to false.
 Take the time to read [the documentation for your track][track-docs]: it will explain these details.
