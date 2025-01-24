@@ -5,7 +5,7 @@ Test-Driven Development (sometimes called Test-First Development or Test-Driven 
 ## On Exercism, the tests _are_ the requirements!
 
 All Practice Exercises you work on (those ones that don't teach you a new concept) will have some instructions describing in general terms what you need to do.
-By design, these instructions do not account for programming-language-specific implementation details because they are shared by all of Exercism’s 70+ language tracks.
+By design, these instructions do not account for programming-language-specific implementation details because they are shared by all of Exercism's 70+ language tracks.
 Some language tracks will append more specific details for you, but not all of them do.
 
 When you start working on a Practice Exercise, give the instructions a careful read.
@@ -31,12 +31,12 @@ Should you choose to work with a mentor (and we encourage you to do that once yo
 
 ## Working in the online editor
 
-When you’re working in the code editor on Exercism’s website, you can read the tests but you are not able to edit them.
+When you're working in the code editor on Exercism's website, you can read the tests but you are not able to edit them.
 All tests will be executed each time you run them, regardless of any "skip" mechanisms noted in the test file.
 
 Test results will default to expanding the first failed test message (although what is displayed varies by track).
 
-Don’t be discouraged by a large number of failing tests.
+Don't be discouraged by a large number of failing tests.
 Focus on making them pass one-by-one.
 
 ## Working locally
@@ -48,10 +48,11 @@ We do this to encourage you to follow this workflow:
 
 1. Before adding any new code, run the test suite: you should see a failing test.
 1. Add _just enough_ code to pass the test.
-1. Run the test suite. If the test still fails, repeat the last step.
+1. Run the test suite.
+   If the test still fails, repeat the last step.
 1. Review your code and refactor as desired, making sure the tests still pass.
 1. Once you have passed all the tests, congratulations you're done!
-1. Otherwise, "unskip" the next test and goto 1. 
+1. Otherwise, "unskip" the next test and goto 1.
 
 Exactly how tests are "unskipped" (or activated) depends on the track.
 For some tracks, it might be commenting or removing an annotation.
