@@ -49,10 +49,16 @@ We do this to encourage you to follow this workflow:
 1. Before adding any new code, run the test suite: you should see a failing test.
 1. Add _just enough_ code to pass the test.
 1. Run the test suite.
-   If the test still fails, repeat the last step.
-1. Review your code and refactor as desired, making sure the tests still pass.
-1. Once you have passed all the tests, congratulations you're done!
-1. Otherwise, "unskip" the next test and goto 1.
+1. If the test still fails, repeat step 2.
+1. Once the test passes, refactor your code as desired, ensuring all the activated tests still pass.
+   Refactoring might include:
+    - removing any duplicated code,
+    - spliting long functions into smaller ones
+    - adding comments, etc.
+1. "Unskip" the next test and repeat from step 1.
+
+Repeat these steps until you have unskipped all the tests.
+Once all the tests are passing, congratulations, you have solved the exercise!
 
 Exactly how tests are "unskipped" (or activated) depends on the track.
 For some tracks, it might be commenting or removing an annotation.
