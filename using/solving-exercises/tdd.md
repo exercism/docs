@@ -65,6 +65,8 @@ For some tracks, it might be commenting or removing an annotation.
 For some tracks, it might be changing an attribute from true to false.
 Take the time to read [the documentation for your track][track-docs]: it will explain these details.
 
+For tracks that don't skip the tests, applying this workflow may be as straightforward as commenting out the tests and uncommenting them one-by-one.
+
 ## Rationale for Test-Driven Development
 
 While it may seem like "putting the cart before the horse", there are several good reasons why you might want to write unit tests before writing the implementation code:
