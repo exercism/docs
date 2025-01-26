@@ -149,7 +149,7 @@ If you'd like to get involved in helping set one up, there are [instructions her
 
 ## Telling us when something is wrong
 
-If you find something that's not wrong, please let us know by creating a thread on [the forum][forum].
+If you find something that's wrong, please let us know by creating a thread on [the forum][forum].
 
 Before creating a thread, be sure to check for existing discussions. 
 Try a few different keywords.
