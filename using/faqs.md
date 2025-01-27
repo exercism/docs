@@ -35,8 +35,7 @@ To learn more about what it means for the devil to be in the details, check out 
 You're in luck.
 Here's a [step-by-step guide][getting-started] to get you started.
 
-If something is still unclear for you or not working then it might be the same for others so we'd appreciate you letting us know.
-Refer to [Opening an Issue][opening-an-issue] below for instructions on how you can help us help others.
+If something is still unclear for you or not working then it might be the same for others so we'd appreciate you [letting us know on the forum][forum].
 
 ## I get the error "Sorry, we could not authenticate you from GitHub" when trying to log in. What should I do?
 
@@ -77,7 +76,7 @@ The new site has a brand new command-line client, and also needs some extra meta
 Read about how to [upgrade your command-line client and migrate your solutions for the new site][upgrade-cli].
 
 If that doesn't help, or you didn't use the old version of the command-line client, please read through the [command-line client Walkthrough][cli-walkthrough].
-If that doesn't help either, [open an issue][new-cli-issue] and we will help you get it sorted out.
+If that doesn't help either, [please post on the forum][forum] and we will help you get it sorted out.
 
 ## How do I check the version of my command-line client?
 
@@ -147,20 +146,16 @@ You can see more on the [How to Contribute page][contribute].
 A new language track gets created when a member of the community takes the lead on it and becomes a maintainer of the track.
 If you'd like to get involved in helping set one up, there are [instructions here][new-language-request].
 
-## Opening an Issue
+## Telling us when something is wrong
 
-Before submitting an issue, be sure to check the relevant GitHub issue tracker to see if it has already been reported or resolved:
+If you find something that's wrong, please let us know by creating a thread on [the forum][forum].
 
-1. [The Exercism Website or Product][website-copy]
-2. [The Command-Line Interface (CLI) Client][cli-client-issues]
-3. [Exercises][languages] - Select your language and then look at the issues tab
-
-You can search through issues (remove the `is:open` filter to include closed/resolved issues).
+Before creating a thread, be sure to check for existing discussions. 
 Try a few different keywords.
 
-## What if my issue is not listed here or in GitHub?
+## What if my issue is not listed here or on the forum?
 
-If your problem hasn't been resolved or reported, then create an issue in the appropriate repository by selecting the green **New issue** button.
+If your problem hasn't been resolved or reported, then create a new [forum post][forum].
 
 Make sure to include the following information:
 
@@ -174,7 +169,7 @@ Make sure to include the following information:
 If your issue pertains to an exercise in your language track, then please find the correct language track [from this list][from-this-list] and submit an issue there.
 Please specify if the issue is with the instructions or something language specific, using the template below.
 
-If you have spotted a typo or if you have a suggestion for clearer language or instructions on the general website, then [create an issue for Exercism Website Copy][website-copy-new-issue] with the following information:
+If you have spotted a typo or if you have a suggestion for clearer language or instructions on the general website, then please create a new thread on [the forum][forum] with the following information:
 
 1. Link to the page where the issue is
 1. Explanation of what the mistake is or what is unclear
@@ -197,7 +192,7 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [learning-mode]: /docs/building/product/unlocking-exercises#h-learning-mode-vs-practice-mode
 
 [mail-abuse]: mailto:abuse@exercism.org?subject=%5BCoC%5D]
-[new-cli-issue]: https://github.com/exercism/CLI/issues/new
+[forum]: https://forum.exercism.org/
 [new-language-request]: https://github.com/exercism/generic-track/blob/main/README.md
 [opening-an-issue]: #opening-an-issue
 [here-be-dragons]: https://www.youtube.com/watch?v=QAUHYzC9kFM
@@ -208,4 +203,3 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [unlocking-exercises]: /docs/building/product/unlocking-exercises
 [upgrade-cli]: https://github.com/exercism/website-copy/blob/main/pages/cli_v1_to_v2.md
 [website-copy]: https://github.com/exercism/website-copy/issues
-[website-copy-new-issue]: https://github.com/exercism/website-copy/issues/new
