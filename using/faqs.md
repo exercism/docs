@@ -35,8 +35,7 @@ To learn more about what it means for the devil to be in the details, check out 
 You're in luck.
 Here's a [step-by-step guide][getting-started] to get you started.
 
-If something is still unclear for you or not working then it might be the same for others so we'd appreciate you letting us know.
-Refer to [Opening an Issue][opening-an-issue] below for instructions on how you can help us help others.
+If something is still unclear for you or not working then it might be the same for others so we'd appreciate you [letting us know on the forum][forum].
 
 ## I get the error "Sorry, we could not authenticate you from GitHub" when trying to log in. What should I do?
 
