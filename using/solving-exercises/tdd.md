@@ -74,7 +74,7 @@ For tracks that don't skip the tests, applying this workflow may be as straightf
 While it may seem like "putting the cart before the horse", there are several good reasons why you might want to write unit tests before writing the implementation code.
 
 1. Design.
-   It forces you to think first about the design of the **interface** to the code, instead of jumping straight to the implementation.
+   It forces you to think first about your program's [interface][api] (how it exposes its functionality to the world), instead of jumping straight into how you will implement the code.
    Having a well-designed (and testable!) interface is often more important than having an efficient implementation.
 
 1. Discipline.
@@ -94,3 +94,4 @@ While it may seem like "putting the cart before the horse", there are several go
 [test-first]: https://web.archive.org/web/20220918221108/http://testfirst.org/about
 [tdd-wiki]: https://en.wikipedia.org/wiki/Test-driven_development
 [tdd-python]: https://exercism.org/docs/tracks/python/test-driven-development
+[api]: https://en.wikipedia.org/wiki/API
