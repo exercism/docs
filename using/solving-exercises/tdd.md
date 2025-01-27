@@ -34,7 +34,7 @@ Should you choose to work with a mentor (and we encourage you to do that once yo
 When you're working in the code editor on Exercism's website, you can read the tests but you are not able to edit them.
 All tests will be executed each time you run them, regardless of any "skip" mechanisms noted in the test file.
 
-When there are multiple tests that fail, three website initially only displays the results of the first failure.
+When there are multiple tests that fail, the website initially only displays the results of the first failure.
 You can click on other failures to expand them, too!
 Sometimes the first result may not be the most informative.
 
@@ -55,7 +55,7 @@ We do this to encourage you to follow this workflow:
 1. Once the test passes, refactor your code as desired, ensuring all active tests still pass.
    Refactoring might include:
     - removing any duplicated code,
-    - spliting long functions into smaller ones
+    - splitting long functions into smaller ones,
     - adding comments, etc.
 1. "Unskip" the next test and repeat from step 1.
 
@@ -86,9 +86,9 @@ While it may seem like "putting the cart before the horse", there are several go
 
 ## Further reading
 
-* [About Test-First Teaching][test-first] at the archived TestFirst\.org site.
-* [Test-driven development][tdd-wiki] at Wikipedia.
-* [Test Driven Development][tdd-python] on the Python track.
+- [About Test-First Teaching][test-first] at the archived TestFirst\.org site.
+- [Test-driven development][tdd-wiki] at Wikipedia.
+- [Test Driven Development][tdd-python] on the Python track.
 
 [track-docs]: https://exercism.org/docs/tracks
 [test-first]: https://web.archive.org/web/20220918221108/http://testfirst.org/about
