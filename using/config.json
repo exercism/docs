@@ -64,6 +64,13 @@
     "blurb": "Learn how to solve exercises on Exercism"
   },
   {
+    "uuid": "d78582b0-d90a-45a7-a1b4-2e87dac645b1",
+    "slug": "solving-exercises/tdd",
+    "path": "using/solving-exercises/tdd.md",
+    "title": "What is Test-Driven Development?",
+    "blurb": "Use the TDD methodology and the given test suite to solve exercises"
+  },
+  {
     "uuid": "7b753e2a-bd68-4d68-bdd8-c356de4342b6",
     "slug": "solving-exercises/working-locally",
     "path": "using/solving-exercises/working-locally.md",

@@ -30,26 +30,31 @@ To learn more about what it means for the devil to be in the details, check out 
 
 ## The Basics
 
-## I'm lost. Where do I go?
+### I'm lost. Where do I go?
 
 You're in luck.
 Here's a [step-by-step guide][getting-started] to get you started.
 
 If something is still unclear for you or not working then it might be the same for others so we'd appreciate you [letting us know on the forum][forum].
 
-## I get the error "Sorry, we could not authenticate you from GitHub" when trying to log in. What should I do?
+### I get the error "Sorry, we could not authenticate you from GitHub" when trying to log in. What should I do?
 
 This means that GitHub isn't willing to verify who you are.
 That can be because you chose not to give permission or it might be because your GitHub account is not properly configured.
 A common problem is that you haven't verified your email address on GitHub.
 You can check that in your [GitHub email settings][email-settings].
 
-## How do I delete my account?
+### How do I delete my account?
 
 You can delete your account by following the link at the bottom of your [settings page][settings].
 If your issue is with emails and notifications you can adjust that in [your personal preferences][personal-settings].
 
-## How do I unlock exercises?
+### What am I supposed to do to solve an exercise?
+
+When you start working on an exercise, you will have a "stub solution" that you need to complete, and you will have a complete test suite that represents the requirements your solution must satisfy.
+This development methodology is a form of [Test-Driven Development][tdd].
+
+### How do I unlock exercises?
 
 By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
 This is called [Learning Mode][learning-mode].
@@ -57,7 +62,7 @@ This is called [Learning Mode][learning-mode].
 While we recommend using Learning Mode to progress through a track, you could [switch to Practice Mode][switching-modes] to unlock all exercises.
 For more information, see [unlocking exercises][unlocking-exercises].
 
-## Why have my unlocked exercises in the old site become locked?
+### Why have my unlocked exercises in the old site become locked?
 
 By default, tracks with Learning Exercises require you to solve Learning Exercises to unlock other exercises (each should take around 5 minutes to solve if you are fluent in a language).
 This is called [Learning Mode][learning-mode].
@@ -70,7 +75,7 @@ For more information, see [unlocking exercises][unlocking-exercises].
 
 ## Exercism Command-line Client
 
-## I can't submit! What should I do?
+### I can't submit! What should I do?
 
 The new site has a brand new command-line client, and also needs some extra metadata for your exercise.
 Read about how to [upgrade your command-line client and migrate your solutions for the new site][upgrade-cli].
@@ -78,16 +83,16 @@ Read about how to [upgrade your command-line client and migrate your solutions f
 If that doesn't help, or you didn't use the old version of the command-line client, please read through the [command-line client Walkthrough][cli-walkthrough].
 If that doesn't help either, [please post on the forum][forum] and we will help you get it sorted out.
 
-## How do I check the version of my command-line client?
+### How do I check the version of my command-line client?
 
 The version command `exercism version` outputs the running version of the Exercism command-line client.
 By running the version command with the latest flag `exercism version --latest` you can check if there is a newer version available.
 
-## How do I upgrade to the latest version of the command-line client?
+### How do I upgrade to the latest version of the command-line client?
 
 The command `exercism upgrade` will upgrade to the latest available version of the command-line client if one is available.
 
-## I get permission denied errors when upgrading! What should I do?
+### I get permission denied errors when upgrading! What should I do?
 
 If you are receiving permission denied errors when trying to upgrade the command-line client, chances are the binary was installed via a system package manager (e.g Homebrew) or has been installed into a directory that you no longer have write access to.
 
@@ -97,36 +102,36 @@ If your command-line client was installed manually, please check the path of the
 If so, use the tools provided by your system to change the permissions of the directory to grant write access to your user and trying upgrading again.
 If you are not sure if you created the directory, or the returned path is a system path, please use your system tools to uninstall the command-line client and reinstall using the [interactive walkthrough][interactive-walkthrough].
 
-## I get the "16-bit MS-DOS Subsystem" error dialog after upgrading on Windows. What should I do?
+### I get the "16-bit MS-DOS Subsystem" error dialog after upgrading on Windows. What should I do?
 
 Prior to version 3.0.5 of the Exercism command-line client, there was a bug in the upgrade command that would replace the command-line client binary file with a single text file causing the "16-bit MS-DOS Subsystem" error.
 To resolve this issue remove the corrupt binary and reinstall the command-line client using the [interactive walkthrough][interactive-walkthrough].
 
 ## Mentored Mode
 
-## My queue hasn't updated in a while - is there something wrong?
+### My queue hasn't updated in a while - is there something wrong?
 
 While wait times can be longer than normal for a number of reasons (number of mentors, time of year), it can also appear that the queue is not updating.
 This is not unusual and you should see movement fairly soon.
 If you your wait is far longer than the average, refer to [Opening an Issue][opening-an-issue] below.
 
-## How many mentors does my track have? I only see a handful on the website.
+### How many mentors does my track have? I only see a handful on the website.
 
 The website only shows mentors who have provided bio information for the website, not the actual number of mentors who are actively reviewing solutions.
 Rest assured, there are mentors working through their queues so hang in there!
 
-## I submitted the wrong solution / file. What can I do?
+### I submitted the wrong solution / file. What can I do?
 
 On the exercise page in question, navigate to "Your Iterations".
 If the unwanted iteration is folded, click the circled arrow.
 In the "dots" menu, select "Delete iteration".
 
-## How can I report abuse or examples of bad mentoring?
+### How can I report abuse or examples of bad mentoring?
 
 Please check our [Code of Conduct][coc] for more information about our expectations of conduct.
 If you would like to report something, please reach out to us at [abuse@exercism.org][mail-abuse] and we will try to fix or resolve the issue respecting both you and your privacy.
 
-## Why can't I give feedback on representations?
+### Why can't I give feedback on representations?
 
 To give feedback on representations for a track, you need to pass the following three criteria:
 
@@ -136,24 +141,24 @@ To give feedback on representations for a track, you need to pass the following 
 
 ## Improving Exercism
 
-## This is great! How do I get involved?
+### This is great! How do I get involved?
 
 There are a few different ways - becoming a mentor, managing a language track or reporting (or addressing!) issues on GitHub.
 You can see more on the [How to Contribute page][contribute].
 
-## How do new language tracks get added to the site?
+### How do new language tracks get added to the site?
 
 A new language track gets created when a member of the community takes the lead on it and becomes a maintainer of the track.
 If you'd like to get involved in helping set one up, there are [instructions here][new-language-request].
 
-## Telling us when something is wrong
+### Telling us when something is wrong
 
 If you find something that's wrong, please let us know by creating a thread on [the forum][forum].
 
 Before creating a thread, be sure to check for existing discussions. 
 Try a few different keywords.
 
-## What if my issue is not listed here or on the forum?
+### What if my issue is not listed here or on the forum?
 
 If your problem hasn't been resolved or reported, then create a new [forum post][forum].
 
@@ -164,7 +169,7 @@ Make sure to include the following information:
 1. Instructions on how to reproduce the issue
 1. If applicable, reference to any related issue using its issue number (formatted like #1203)
 
-## What if there is an issue with language on the website?
+### What if there is an issue with language on the website?
 
 If your issue pertains to an exercise in your language track, then please find the correct language track [from this list][from-this-list] and submit an issue there.
 Please specify if the issue is with the instructions or something language specific, using the template below.
@@ -190,7 +195,6 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [kytrinyx]: https://exercism.github.io/kytrinyx/
 [languages]: https://github.com/search?q=topic%3Aexercism-track+org%3Aexercism&type=Repositories
 [learning-mode]: /docs/building/product/unlocking-exercises#h-learning-mode-vs-practice-mode
-
 [mail-abuse]: mailto:abuse@exercism.org?subject=%5BCoC%5D]
 [forum]: https://forum.exercism.org/
 [new-language-request]: https://github.com/exercism/generic-track/blob/main/README.md
@@ -202,4 +206,4 @@ If you have spotted a typo or if you have a suggestion for clearer language or i
 [switching-modes]: /docs/building/product/unlocking-exercises#h-switching-modes
 [unlocking-exercises]: /docs/building/product/unlocking-exercises
 [upgrade-cli]: https://github.com/exercism/website-copy/blob/main/pages/cli_v1_to_v2.md
-[website-copy]: https://github.com/exercism/website-copy/issues
+[tdd]: https://exercism.org/docs/using/solving-exercises/tdd
