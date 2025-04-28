@@ -386,6 +386,7 @@ Tags are specified in the top-level `tags` field which is defined as an array of
 ### Typing
 
 - `typing/static`: the language uses static typing
+- `typing/gradual`: the language uses gradual typing
 - `typing/dynamic`: the language uses dynamic typing
 - `typing/strong`: the language uses strong typing
 - `typing/weak`: the language uses weak typing
