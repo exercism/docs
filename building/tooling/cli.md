@@ -10,10 +10,11 @@ You can add support for your language by adding an entry to that [configuration 
 
 ### Test command placeholders
 
-There are two placeholders that can be used in the track-specific command:
+There are three placeholders that can be used in the track-specific command:
 
 - `{{test_files}}`: a space-separated list of the test files (as found in the `.files.test` key in the exercise's `.meta/config.json` file)
 - `{{solution_files}}`: a space-separated list of the solution files (as found in the `.files.solution` key in the exercise's `.meta/config.json` file)
+- `{{slug}}`: the exercise slug (as found in the exercise's `slug` key in the tracks's root `config.json` file)
 
 Here is an [example pull request][example-pr] that adds support for the Arturo language.
 
