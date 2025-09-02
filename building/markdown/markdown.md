@@ -115,6 +115,10 @@ You can include code:
 ```ruby
 str = "Hello, World"
 ```
+
+A [reference link][forum-link] must have the link definition inside the block.
+
+[forum-link]: https://forum.exercism.org/t/link-references-in-special-blocks-admonitions-are-not-rendered/3803
 ~~~~
 ````
 
