@@ -52,9 +52,7 @@ The following overall statuses are valid:
 - `fail`: At least one test has the status `fail` or `error`
 - `error`: No test was executed (this usually means a compile error or a syntax error)
 
-The `error` status should _only_ be used if **none of the tests were run**.
-For compiled languages this is generally a result of the code not being able to compile.
-For interpreted languages, this is generally the result of a syntax error that stops the file from parsing.
+The `error` status should _only_ be used if **all of the tests errored**. For compiled languages this is generally a result of the code not being able to compile. For interpreted languages this is a runtime error, such as a syntax error that stops the file from parsing.
 
 #### Message
 
