@@ -45,6 +45,11 @@ Depending on the track, there might be other files that the track tooling requir
 
 ## Submitting your Solution
 
+~~~~exercism/note
+**Before you submit:** Review how tests work for your chosen language to avoid common errors.
+You can find these by navigating to [Tracks](https://exercism.org/docs/tracks/), selecting your language, and clicking **Testing on the [language] track** in the sidebar.
+~~~~
+
 Once your solution passes all the tests, you can submit your solution using the following command:
 
 ```
