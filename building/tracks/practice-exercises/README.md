@@ -178,8 +178,14 @@ A track that doesn't want Bob to support non-ASCII messages, might add the follo
 ```markdown
 # Introduction append
 
+## Note
+
 As part of his teenage rebellion, Bob has decided to only communicate using ASCII.
 ```
+
+Note, append files should start with an H1 header.
+This header does not get displayed, but should still be present.
+The H1 header should be followed by an H2 header, which helps to separate the generic content from the track specific content.
 
 ### File: `.docs/instructions.md`
 
@@ -224,8 +230,14 @@ In some (rare) cases, you might want to expand on the exercise's `instructions.m
 ```markdown
 # Instructions append
 
+## Note
+
 Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 ```
+
+Note, append files should start with an H1 header.
+This header does not get displayed, but should still be present.
+The H1 header should be followed by an H2 header, which helps to separate the generic content from the track specific content.
 
 ### File: `.docs/hints.md`
 
