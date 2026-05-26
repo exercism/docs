@@ -183,7 +183,7 @@ A track that doesn't want Bob to support non-ASCII messages, might add the follo
 As part of his teenage rebellion, Bob has decided to only communicate using ASCII.
 ```
 
-Note, append files should start with an H1 header.
+Append files should start with an H1 header.
 This header does not get displayed, but should still be present.
 The H1 header is often followed by an H2 header, which helps to separate the generic content from the track specific content.
 
