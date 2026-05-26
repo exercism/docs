@@ -235,7 +235,7 @@ In some (rare) cases, you might want to expand on the exercise's `instructions.m
 Bob's conversational partner is a purist when it comes to written communication and always follows normal rules regarding sentence punctuation in English.
 ```
 
-Note, append files should start with an H1 header.
+Append files should start with an H1 header.
 This header does not get displayed, but should still be present.
 The H1 header is often followed by an H2 header, which helps to separate the generic content from the track specific content.
 
