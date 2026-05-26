@@ -185,7 +185,7 @@ As part of his teenage rebellion, Bob has decided to only communicate using ASCI
 
 Note, append files should start with an H1 header.
 This header does not get displayed, but should still be present.
-The H1 header should be followed by an H2 header, which helps to separate the generic content from the track specific content.
+The H1 header is often followed by an H2 header, which helps to separate the generic content from the track specific content.
 
 ### File: `.docs/instructions.md`
 
@@ -237,7 +237,7 @@ Bob's conversational partner is a purist when it comes to written communication 
 
 Note, append files should start with an H1 header.
 This header does not get displayed, but should still be present.
-The H1 header should be followed by an H2 header, which helps to separate the generic content from the track specific content.
+The H1 header is often followed by an H2 header, which helps to separate the generic content from the track specific content.
 
 ### File: `.docs/hints.md`
 
