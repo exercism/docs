@@ -207,3 +207,7 @@
 - name: 'wontfix'
   description: 'This will not be worked on'
   color: 'ffffff'
+
+- name: "ready-to-translate"
+  description: "The English in this PR is final; queue its translations"
+  color: "1d76db"
