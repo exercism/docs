@@ -38,4 +38,3 @@
 - name: 'wontfix'
   description: 'This will not be worked on'
   color: 'ffffff'
-
