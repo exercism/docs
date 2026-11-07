@@ -30,6 +30,7 @@ The linter should check if all the required files are present. The non-exercise 
 - `docs/LEARNING.md`
 - `docs/RESOURCES.md`
 - `docs/SNIPPET.txt`
+- `docs/SIGN_UP_SNIPPET.txt` (only for tracks whose `config.json` has `"active": true`)
 - `docs/TESTS.md`
 - `exercises/shared/.docs/help.md`
 - `exercises/shared/.docs/tests.md`

@@ -8,6 +8,7 @@ docs
 ├── INSTALLATION.md (required)
 ├── LEARNING.md (required)
 ├── SNIPPET.txt (required)
+├── SIGN_UP_SNIPPET.txt (required for active tracks)
 ├── REPRESENTER_NORMALIZATIONS.md (optional)
 ├── RESOURCES.md (required)
 ├── TESTS.md (required)
@@ -133,6 +134,32 @@ let hello = "Hello, World!"
 ```
 
 Check [this page](https://exercism.org/tracks/fsharp) to see what this looks like when rendered (note: you must not have already joined the track).
+
+## File: `SIGN_UP_SNIPPET.txt`
+
+**Purpose:** Help people who are signing up to Exercism work out whether they are ready for it, or should learn the basics on [Jiki](https://jiki.io) first.
+
+**Displayed on:** The sign-up page. When someone says they can code a little, they pick the language they use most and see this snippet. They then say whether the code feels easy, tricky or impossible.
+
+Every track shows the same small program: a function that finds the most common word in a piece of text and says how many times it appears.
+The snippet should be short (around 10 lines) and use variables, a loop, a conditional, a dictionary or map, function calls and string formatting, written the way the language normally does them.
+
+This file is required for active tracks, and `configlet lint` checks for it.
+Only the `maintainers-admin` team can change it.
+
+### Example
+
+```ruby
+def most_common_word(text)
+  counts = Hash.new(0)
+  best = ""
+  text.downcase.split(" ").each do |word|
+    counts[word] += 1
+    best = word if counts[word] > counts[best]
+  end
+  "\"#{best}\" appears #{counts[best]} times"
+end
+```
 
 ## File: `REPRESENTER_NORMALIZATIONS.md`
 
