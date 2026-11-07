@@ -139,7 +139,9 @@ Check [this page](https://exercism.org/tracks/fsharp) to see what this looks lik
 
 **Purpose:** Help people who are signing up to Exercism work out whether they are ready for it, or should learn the basics on [Jiki](https://jiki.io) first.
 
-**Displayed on:** The sign-up page. When someone says they can code a little, they pick the language they use most and see this snippet. They then say whether the code feels easy, tricky or impossible.
+**Displayed on:** The sign-up page.
+When someone says they can code a little, they pick the language they use most and see this snippet.
+They then say whether the code feels easy, tricky or impossible.
 
 Every track shows the same small program: a function that finds the most common word in a piece of text and says how many times it appears.
 The snippet should be short (around 10 lines) and use variables, a loop, a conditional, a dictionary or map, function calls and string formatting, written the way the language normally does them.
