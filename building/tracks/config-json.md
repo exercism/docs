@@ -171,6 +171,7 @@ Each practice exercise is an entry in the `exercises.practice` array. The follow
 - `uuid`: a V4 UUID that uniquely identifies the exercise. The UUID must be unique both within the track as well as across all tracks, and must never change
 - `slug`: the exercise's slug, which is a lowercased, kebab-case string. The slug must be unique across all concept _and_ practice exercise slugs within the track. Its length must be <= 255.
 - `name`: the exercise's name. Its length must be <= 255.
+- `problem_specifications_slug` (optional): the slug of the exercise in the [Problem Specifications repo](https://github.com/exercism/problem-specifications) that this exercise implements, when it differs from `slug`. [configlet sync](/docs/building/configlet/sync) uses this value instead of `slug` to find the upstream exercise. Like `slug`, it must be a lowercased, kebab-case string, and its length must be <= 255.
 - `practices`: an array of concept slugs that the exercise is helping students practice
 - `prerequisites`: an array of concept slugs that must be unlocked before a student can start the exercise
 - `difficulty`: a number indicating the difficulty of the exercise. The number must be in the range of 1 (easiest) to 10 (hardest). The website interprets the difficulty as follows:
@@ -236,6 +237,32 @@ The "Recommended Order" of the Practice Exercises on the website corresponds wit
         ],
         "difficulty": 1,
         "status": "beta"
+      },
+      ...
+    ]
+  }
+}
+```
+<!-- prettier-ignore-end -->
+
+#### Example of a slug that differs from Problem Specifications
+
+A track might need a different slug from the upstream exercise, for example to avoid a name collision in the track's language.
+Here, the track's `binary-chop` exercise implements the `binary-search` exercise from Problem Specifications:
+
+<!-- prettier-ignore-start -->
+```json
+{
+  "exercises": {
+    "practice": [
+      {
+        "slug": "binary-chop",
+        "name": "Binary Search",
+        "problem_specifications_slug": "binary-search",
+        "uuid": "12ea7b04-8f6b-480a-a856-a8405dc59c2a",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       },
       ...
     ]
