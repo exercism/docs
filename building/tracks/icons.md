@@ -7,8 +7,8 @@ There are two types of icons relevant to tracks:
 
 ## Exercise Icons
 
-| Name                               | Icon                                                                                                                                                              |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Name                               | Icon                                                                                                                                                     |
+| ---------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | accumulate                         | <img width="50" height="50" alt="accumulate" src="https://assets.exercism.org/exercises/accumulate.svg">                                                 |
 | acronym                            | <img width="50" height="50" alt="acronym" src="https://assets.exercism.org/exercises/acronym.svg">                                                       |
 | affine-cipher                      | <img width="50" height="50" alt="affine-cipher" src="https://assets.exercism.org/exercises/affine-cipher.svg">                                           |
@@ -45,6 +45,7 @@ There are two types of icons relevant to tracks:
 | book-store                         | <img width="50" height="50" alt="book-store" src="https://assets.exercism.org/exercises/book-store.svg">                                                 |
 | booking-up-for-beauty              | <img width="50" height="50" alt="booking-up-for-beauty" src="https://assets.exercism.org/exercises/booking-up-for-beauty.svg">                           |
 | booleans                           | <img width="50" height="50" alt="booleans" src="https://assets.exercism.org/exercises/booleans.svg">                                                     |
+| bottle-song                        | <img width="50" height="50" alt="bottle-song" src="https://assets.exercism.org/exercises/bottle-song.svg">                                               |
 | boutique-inventory                 | <img width="50" height="50" alt="boutique-inventory" src="https://assets.exercism.org/exercises/boutique-inventory.svg">                                 |
 | boutique-inventory-improvements    | <img width="50" height="50" alt="boutique-inventory-improvements" src="https://assets.exercism.org/exercises/boutique-inventory-improvements.svg">       |
 | boutique-suggestions               | <img width="50" height="50" alt="boutique-suggestions" src="https://assets.exercism.org/exercises/boutique-suggestions.svg">                             |
@@ -73,6 +74,7 @@ There are two types of icons relevant to tracks:
 | csv-builder                        | <img width="50" height="50" alt="csv-builder" src="https://assets.exercism.org/exercises/csv-builder.svg">                                               |
 | custom-set                         | <img width="50" height="50" alt="custom-set" src="https://assets.exercism.org/exercises/custom-set.svg">                                                 |
 | custom-signs                       | <img width="50" height="50" alt="custom-signs" src="https://assets.exercism.org/exercises/custom-signs.svg">                                             |
+| dancing-dots                       | <img width="50" height="50" alt="dancing-dots" src="https://assets.exercism.org/exercises/dancing-dots.svg">                                             |
 | darts                              | <img width="50" height="50" alt="darts" src="https://assets.exercism.org/exercises/darts.svg">                                                           |
 | date-parser                        | <img width="50" height="50" alt="date-parser" src="https://assets.exercism.org/exercises/date-parser.svg">                                               |
 | decimal                            | <img width="50" height="50" alt="decimal" src="https://assets.exercism.org/exercises/decimal.svg">                                                       |
@@ -90,6 +92,7 @@ There are two types of icons relevant to tracks:
 | dungeons-and-dragons               | <img width="50" height="50" alt="dungeons-and-dragons" src="https://assets.exercism.org/exercises/dungeons-and-dragons.svg">                             |
 | eight-queens                       | <img width="50" height="50" alt="eight-queens" src="https://assets.exercism.org/exercises/eight-queens.svg">                                             |
 | election-day                       | <img width="50" height="50" alt="election-day" src="https://assets.exercism.org/exercises/election-day.svg">                                             |
+| eliuds-eggs                        | <img width="50" height="50" alt="eliuds-eggs" src="https://assets.exercism.org/exercises/eliuds-eggs.svg">                                               |
 | elons-toys                         | <img width="50" height="50" alt="elons-toys" src="https://assets.exercism.org/exercises/elons-toys.svg">                                                 |
 | elyses-analytic-enchantments       | <img width="50" height="50" alt="elyses-analytic-enchantments" src="https://assets.exercism.org/exercises/elyses-analytic-enchantments.svg">             |
 | elyses-enchantments                | <img width="50" height="50" alt="elyses-enchantments" src="https://assets.exercism.org/exercises/elyses-enchantments.svg">                               |
@@ -139,6 +142,10 @@ There are two types of icons relevant to tracks:
 | international-calling-connoisseur  | <img width="50" height="50" alt="international-calling-connoisseur" src="https://assets.exercism.org/exercises/international-calling-connoisseur.svg">   |
 | isbn-verifier                      | <img width="50" height="50" alt="isbn-verifier" src="https://assets.exercism.org/exercises/isbn-verifier.svg">                                           |
 | isogram                            | <img width="50" height="50" alt="isogram" src="https://assets.exercism.org/exercises/isogram.svg">                                                       |
+| itab-aggregation                   | <img width="50" height="50" alt="itab-aggregation" src="https://assets.exercism.org/exercises/itab-aggregation.svg">                                     |
+| itab-basics                        | <img width="50" height="50" alt="itab-basics" src="https://assets.exercism.org/exercises/itab-basics.svg">                                               |
+| itab-combination                   | <img width="50" height="50" alt="itab-combination" src="https://assets.exercism.org/exercises/itab-combination.svg">                                     |
+| itab-nesting                       | <img width="50" height="50" alt="itab-nesting" src="https://assets.exercism.org/exercises/itab-nesting.svg">                                             |
 | kindergarten-garden                | <img width="50" height="50" alt="kindergarten-garden" src="https://assets.exercism.org/exercises/kindergarten-garden.svg">                               |
 | kitchen-calculator                 | <img width="50" height="50" alt="kitchen-calculator" src="https://assets.exercism.org/exercises/kitchen-calculator.svg">                                 |
 | knapsack                           | <img width="50" height="50" alt="knapsack" src="https://assets.exercism.org/exercises/knapsack.svg">                                                     |
@@ -148,6 +155,7 @@ There are two types of icons relevant to tracks:
 | larrys-winning-checker             | <img width="50" height="50" alt="larrys-winning-checker" src="https://assets.exercism.org/exercises/larrys-winning-checker.svg">                         |
 | lasagna                            | <img width="50" height="50" alt="lasagna" src="https://assets.exercism.org/exercises/lasagna.svg">                                                       |
 | lasagna-master                     | <img width="50" height="50" alt="lasagna-master" src="https://assets.exercism.org/exercises/lasagna-master.svg">                                         |
+| last-will                          | <img width="50" height="50" alt="last-will" src="https://assets.exercism.org/exercises/last-will.svg">                                                   |
 | leap                               | <img width="50" height="50" alt="leap" src="https://assets.exercism.org/exercises/leap.svg">                                                             |
 | ledger                             | <img width="50" height="50" alt="ledger" src="https://assets.exercism.org/exercises/ledger.svg">                                                         |
 | lens-person                        | <img width="50" height="50" alt="lens-person" src="https://assets.exercism.org/exercises/lens-person.svg">                                               |
@@ -170,6 +178,7 @@ There are two types of icons relevant to tracks:
 | matrix                             | <img width="50" height="50" alt="matrix" src="https://assets.exercism.org/exercises/matrix.svg">                                                         |
 | meetup                             | <img width="50" height="50" alt="meetup" src="https://assets.exercism.org/exercises/meetup.svg">                                                         |
 | mensch-aergere-dich-nicht          | <img width="50" height="50" alt="mensch-aergere-dich-nicht" src="https://assets.exercism.org/exercises/mensch-aergere-dich-nicht.svg">                   |
+| meteorology                        | <img width="50" height="50" alt="meteorology" src="https://assets.exercism.org/exercises/meteorology.svg">                                               |
 | micro-blog                         | <img width="50" height="50" alt="micro-blog" src="https://assets.exercism.org/exercises/micro-blog.svg">                                                 |
 | microwave                          | <img width="50" height="50" alt="microwave" src="https://assets.exercism.org/exercises/microwave.svg">                                                   |
 | minesweeper                        | <img width="50" height="50" alt="minesweeper" src="https://assets.exercism.org/exercises/minesweeper.svg">                                               |
@@ -213,6 +222,7 @@ There are two types of icons relevant to tracks:
 | poetry-club-door-policy            | <img width="50" height="50" alt="poetry-club-door-policy" src="https://assets.exercism.org/exercises/poetry-club-door-policy.svg">                       |
 | point-mutations                    | <img width="50" height="50" alt="point-mutations" src="https://assets.exercism.org/exercises/point-mutations.svg">                                       |
 | poker                              | <img width="50" height="50" alt="poker" src="https://assets.exercism.org/exercises/poker.svg">                                                           |
+| pop-count                          | <img width="50" height="50" alt="pop-count" src="https://assets.exercism.org/exercises/pop-count.svg">                                                   |
 | pov                                | <img width="50" height="50" alt="pov" src="https://assets.exercism.org/exercises/pov.svg">                                                               |
 | prime-factors                      | <img width="50" height="50" alt="prime-factors" src="https://assets.exercism.org/exercises/prime-factors.svg">                                           |
 | prime-number                       | <img width="50" height="50" alt="prime-number" src="https://assets.exercism.org/exercises/prime-number.svg">                                             |
@@ -227,6 +237,7 @@ There are two types of icons relevant to tracks:
 | react                              | <img width="50" height="50" alt="react" src="https://assets.exercism.org/exercises/react.svg">                                                           |
 | rectangles                         | <img width="50" height="50" alt="rectangles" src="https://assets.exercism.org/exercises/rectangles.svg">                                                 |
 | red-vs-blue-darwin-style           | <img width="50" height="50" alt="red-vs-blue-darwin-style" src="https://assets.exercism.org/exercises/red-vs-blue-darwin-style.svg">                     |
+| regular-chatbot                    | <img width="50" height="50" alt="regular-chatbot" src="https://assets.exercism.org/exercises/regular-chatbot.svg">                                       |
 | remote-control-cleanup             | <img width="50" height="50" alt="remote-control-cleanup" src="https://assets.exercism.org/exercises/remote-control-cleanup.svg">                         |
 | remote-control-competition         | <img width="50" height="50" alt="remote-control-competition" src="https://assets.exercism.org/exercises/remote-control-competition.svg">                 |
 | resistor-color                     | <img width="50" height="50" alt="resistor-color" src="https://assets.exercism.org/exercises/resistor-color.svg">                                         |
@@ -259,6 +270,7 @@ There are two types of icons relevant to tracks:
 | semi-structured-logs               | <img width="50" height="50" alt="semi-structured-logs" src="https://assets.exercism.org/exercises/semi-structured-logs.svg">                             |
 | series                             | <img width="50" height="50" alt="series" src="https://assets.exercism.org/exercises/series.svg">                                                         |
 | sgf-parsing                        | <img width="50" height="50" alt="sgf-parsing" src="https://assets.exercism.org/exercises/sgf-parsing.svg">                                               |
+| shopping                           | <img width="50" height="50" alt="shopping" src="https://assets.exercism.org/exercises/shopping.svg">                                                     |
 | short-fibonacci                    | <img width="50" height="50" alt="short-fibonacci" src="https://assets.exercism.org/exercises/short-fibonacci.svg">                                       |
 | sieve                              | <img width="50" height="50" alt="sieve" src="https://assets.exercism.org/exercises/sieve.svg">                                                           |
 | simple-calculator                  | <img width="50" height="50" alt="simple-calculator" src="https://assets.exercism.org/exercises/simple-calculator.svg">                                   |
@@ -272,6 +284,7 @@ There are two types of icons relevant to tracks:
 | square-root                        | <img width="50" height="50" alt="square-root" src="https://assets.exercism.org/exercises/square-root.svg">                                               |
 | squeaky-clean                      | <img width="50" height="50" alt="squeaky-clean" src="https://assets.exercism.org/exercises/squeaky-clean.svg">                                           |
 | stage-heralding                    | <img width="50" height="50" alt="stage-heralding" src="https://assets.exercism.org/exercises/stage-heralding.svg">                                       |
+| state-of-tic-tac-toe               | <img width="50" height="50" alt="state-of-tic-tac-toe" src="https://assets.exercism.org/exercises/state-of-tic-tac-toe.svg">                             |
 | strain                             | <img width="50" height="50" alt="strain" src="https://assets.exercism.org/exercises/strain.svg">                                                         |
 | strings                            | <img width="50" height="50" alt="strings" src="https://assets.exercism.org/exercises/strings.svg">                                                       |
 | strings-package                    | <img width="50" height="50" alt="strings-package" src="https://assets.exercism.org/exercises/strings-package.svg">                                       |
@@ -292,9 +305,9 @@ There are two types of icons relevant to tracks:
 | triangle                           | <img width="50" height="50" alt="triangle" src="https://assets.exercism.org/exercises/triangle.svg">                                                     |
 | trinary                            | <img width="50" height="50" alt="trinary" src="https://assets.exercism.org/exercises/trinary.svg">                                                       |
 | twelve-days                        | <img width="50" height="50" alt="twelve-days" src="https://assets.exercism.org/exercises/twelve-days.svg">                                               |
-| two_product_production_decision    | <img width="50" height="50" alt="two_product_production_decision" src="https://assets.exercism.org/exercises/two_product_production_decision.svg">       |
 | two-bucket                         | <img width="50" height="50" alt="two-bucket" src="https://assets.exercism.org/exercises/two-bucket.svg">                                                 |
 | two-fer                            | <img width="50" height="50" alt="two-fer" src="https://assets.exercism.org/exercises/two-fer.svg">                                                       |
+| two-product-production-decision    | <img width="50" height="50" alt="two-product-production-decision" src="https://assets.exercism.org/exercises/two-product-production-decision.svg">       |
 | valentines-day                     | <img width="50" height="50" alt="valentines-day" src="https://assets.exercism.org/exercises/valentines-day.svg">                                         |
 | variable-length-quantity           | <img width="50" height="50" alt="variable-length-quantity" src="https://assets.exercism.org/exercises/variable-length-quantity.svg">                     |
 | vehicle-purchase                   | <img width="50" height="50" alt="vehicle-purchase" src="https://assets.exercism.org/exercises/vehicle-purchase.svg">                                     |
@@ -312,11 +325,12 @@ There are two types of icons relevant to tracks:
 | yacht                              | <img width="50" height="50" alt="yacht" src="https://assets.exercism.org/exercises/yacht.svg">                                                           |
 | zebra-puzzle                       | <img width="50" height="50" alt="zebra-puzzle" src="https://assets.exercism.org/exercises/zebra-puzzle.svg">                                             |
 | zero-value                         | <img width="50" height="50" alt="zero-value" src="https://assets.exercism.org/exercises/zero-value.svg">                                                 |
+| zipper                             | <img width="50" height="50" alt="zipper" src="https://assets.exercism.org/exercises/zipper.svg">                                                         |
 
 ## Key Feature Icons
 
-| Name              | Icon                                                                                                                               |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Name              | Icon                                                                                                                      |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | community         | <img width="50" height="50" alt="community" src="https://assets.exercism.org/key-features/community.svg">                 |
 | concurrency       | <img width="50" height="50" alt="concurrency" src="https://assets.exercism.org/key-features/concurrency.svg">             |
 | cross-platform    | <img width="50" height="50" alt="cross-platform" src="https://assets.exercism.org/key-features/cross-platform.svg">       |
