@@ -8,6 +8,9 @@ Therefore configlet has a `sync` command, which can check that such Practice Exe
 There are three kinds of data that can be updated from `problem-specifications`: documentation, metadata, and tests.
 There is also one kind of data that can be populated from the track-level `config.json` file: filepaths in exercise config files.
 
+By default, configlet finds the upstream exercise in `problem-specifications` by the Practice Exercise's `slug`.
+If the track uses a different slug (for example, to avoid a name collision in the track's language), set the optional [`problem_specifications_slug`](/docs/building/tracks/config-json#practice-exercises) key on that Practice Exercise in the track-level `config.json` file.
+
 We describe the checking and updating of these data kinds in individual sections below, but as a quick summary:
 
 - `configlet sync` only operates on exercises that exist in the track-level `config.json` file.
